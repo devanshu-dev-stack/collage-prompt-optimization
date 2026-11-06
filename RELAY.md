@@ -1,6 +1,8 @@
 # Prompt Lab relay
 
-Claude runs these steps on every relay check (hourly, plus follow-ups it schedules itself).
+Claude runs these steps on every relay check: hourly, plus follow-ups it schedules itself.
+While any try is queued, committed or running, Claude keeps a follow-up check 10 minutes
+out, so a new try never waits long; when the lab is idle, the hourly check is enough.
 The Prompt Lab page cannot reach CollageAI, so Claude carries each try from the page to the
 shared draft pull request, and carries the results back.
 
@@ -47,8 +49,9 @@ person changed. Values the app fills in show as «name» markers.
 `status` moves `submitted` → `committed` → `running` → `done`, or ends at `rejected` or `failed`.
 Claude adds `statusNote`, `commit`, `commitUrl`, `prNumber`, `prUrl`, `issueNumber`,
 `issueUrl`, `runUrl`, `summary`, `judge` and `updatedAt` with `update`, never `set`, so the
-person's fields stay. A try makes only its own lesson: `summary` holds its structure and
-`judge` its judgement, plus `judge.baselines: {dev, start}`, the ids of the fixed scores it is
+person's fields stay. A try makes 2 lessons of its own. `judge.cases[].runs` holds each
+lesson's structure and judgement (built with `python -m runner.baseline`, the same grouping
+the fixed scores use), plus `judge.baselines: {dev, start}`, the ids of the fixed scores it is
 compared with (copied from `lab/config.baselineId` and `lab/config-2097.baselineId` when it
 is judged, so later changes to the fixed scores never change an older try).
 
@@ -87,25 +90,26 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    update the try: `status: done`, `summary` (the JSON as is), `runUrl`. If there is no
    summary, set `status: failed` and copy the reason from the issue's last comment into
    `statusNote`.
-   **Judge it** (see JUDGE.md), right after setting `done`. Get the try's
-   `runs/<issue>/try/<case>/result.json` from the `results` branch. Write `lab/checks.checks`
+   **Judge it** (see JUDGE.md), right after the lessons finish. Each try has 2 lessons per
+   test case (`try-1`, `try-2`). Write `lab/checks.checks`
    as `{"checks": [...]}` to a local file. Build the judge's input with
    `python -m runner.judge prompt --result <file> --checks <extra.json> --out <prompt.md>`
    (leave `--checks` out while there are no extra checks), then start one judge agent per
    lesson, all at once. Give each the same short brief: read the whole prompt file, follow
    it exactly, write one JSON answer to a given path, change nothing else. Check each answer
    with `python -m runner.judge check --result <result.json> --checks <extra.json>`, then
-   `python -m runner.judge combine --case <case> --experiment <side.json>`, and write
-   `{judged_at, baselines: {dev, start}, cases: [...]}` to the try's `judge` field with
-   `update`. If an answer fails the check, run that lesson's judge once more; if it fails
-   again, leave `judge` out and say so in `statusNote`.
+   `python -m runner.baseline --base <the try's base> --commit <the try's commit> --run
+   <result.json> <side.json>` (once per lesson) to group them, and write
+   `{judged_at, baselines: {dev, start}, cases: <its cases>}` to the try's `judge` field with
+   `update`, then `status: done`. If an answer fails the check, run that lesson's judge once
+   more; if it fails again, leave that lesson out and say so in `statusNote`.
    **Where runs happen.** Test cases whose source files are not in the repo (their PDFs are
    kept out by `.gitignore`) cannot run in GitHub Actions; today that is every test case.
-   Run the try in this session instead of opening an issue:
-   `python -m runner --target <pr-2095 or pr-2099> --run-name try --case <case folder>`, then
-   `python -m runner.compare --experiment <try run> --target <target> --commit <sha> --out <dir>`
-   gives `summary`. Judge with `--case-dir <case folder>` as above. If the source files are
-   missing here, ask Devanshu for them.
+   Run the try in this session instead of opening an issue: two lessons at the same time,
+   `python -m runner --target <pr-2095 or pr-2099> --run-name try-1 --case <case folder>` and
+   the same with `--run-name try-2`. If one stops because the test site dropped the
+   connection, make it again on its own. Judge with `--case-dir <case folder>` as above. If
+   the source files are missing here, ask Devanshu for them.
 2. **Start the run for a deployed try.** For the try with `status: committed`, read its
    version's pull request (#2095 or #2099).
    If its head commit is still the try's `commit` and a "Smoke tests" check on it has
@@ -117,11 +121,14 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    The workflow still makes its own dev lesson; tries are compared with the fixed scores, so
    run them in this session (see "Where runs happen").
 
-   Then update the try: `status: running`, `issueNumber`, `issueUrl`. Schedule a follow-up
-   check in 12 minutes. If the deploy has not shown up after 45 minutes, set `status: failed`
+   Then update the try: `status: running` (and `issueNumber`, `issueUrl` when an issue was
+   opened). Schedule a follow-up check in 12 minutes. If the deploy has not shown up after 45 minutes, set `status: failed`
    with a `statusNote` saying the preview did not deploy.
-3. **Commit the next try.** Only when no try is `committed` or `running`: take the oldest
-   `submitted` try across all people.
+3. **Commit the next try.** Each version has its own test site, so one Current dev try (on
+   #2095) and one Megan's PR try (on #2099) can be in flight at once. For each version with
+   no try `committed` or `running`, take its oldest `submitted` try across all people. When a
+   try has just finished (`done`, `failed` or `rejected`), schedule this check 5 minutes later
+   so the next one starts after a short buffer instead of waiting for the hourly check.
    - **Build it.** In the CollageAI clone, by the try's version:
      - Live prompts: fetch `dev` and `experiment/prompt-lab`, check out
        `experiment/prompt-lab`, merge `origin/dev` (no edit), and reset every lab file to
