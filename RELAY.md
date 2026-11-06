@@ -60,6 +60,12 @@ server/agents/builders/prompt_fragments.py
    `{judged_at, cases: [...]}` to the try's `judge` field with `update`. If an answer fails
    the check, run that lesson's judge once more; if it fails again, leave `judge` out and
    say so in `statusNote`.
+   **Where runs happen.** Test cases whose source files are not in the repo (their PDFs are
+   kept out by `.gitignore`) cannot run in GitHub Actions. For those, run the try in this
+   session instead of opening an issue: `python -m runner --target pr-2095 --run-name try`
+   and `python -m runner --target dev --run-name baseline` at the same time, then
+   `python -m runner.compare`, then judge with `--case-dir`. Write the summary and judge
+   result to the try as in step 1. If the files are missing here, ask Devanshu for them.
 2. **Start the run for a deployed try.** For the try with `status: committed`, read PR #2095.
    If its head commit is still the try's `commit` and a "Smoke tests" check on it has
    started or finished (not skipped), Render has deployed it. Open an issue in this repo:
