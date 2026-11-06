@@ -30,3 +30,24 @@ class Example(BaseModel):
 class LessonJudgement(BaseModel):
     problems: list[Problem]
     examples: list[Example]
+
+
+class SideJudgement(BaseModel):
+    """One lesson's judgement plus the totals the code works out from it."""
+
+    problem_counts: dict[str, int]
+    examples_total: int
+    examples_from_source: int
+    problems: list[Problem]
+    examples: list[Example]
+
+
+class CaseJudgement(BaseModel):
+    case_id: str
+    baseline: SideJudgement | None
+    experiment: SideJudgement | None
+
+
+class TryJudgement(BaseModel):
+    judged_at: str
+    cases: list[CaseJudgement]

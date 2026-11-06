@@ -49,6 +49,17 @@ server/agents/builders/prompt_fragments.py
    update the try: `status: done`, `summary` (the JSON as is), `runUrl`. If there is no
    summary, set `status: failed` and copy the reason from the issue's last comment into
    `statusNote`.
+   **Judge it** (see JUDGE.md), right after setting `done`. For each case, get
+   `runs/<issue>/baseline/<case>/result.json` and `runs/<issue>/try/<case>/result.json` from
+   the `results` branch. For each one, build the judge's input with
+   `python -m runner.judge prompt --result <file> --out <prompt.md>`, then start one judge
+   agent per lesson, all at once. Give each the same short brief: read the whole prompt file,
+   follow it exactly, write one JSON answer to a given path, change nothing else. Check
+   each answer with `python -m runner.judge check`, join each case's two sides with
+   `python -m runner.judge combine`, and write
+   `{judged_at, cases: [...]}` to the try's `judge` field with `update`. If an answer fails
+   the check, run that lesson's judge once more; if it fails again, leave `judge` out and
+   say so in `statusNote`.
 2. **Start the run for a deployed try.** For the try with `status: committed`, read PR #2095.
    If its head commit is still the try's `commit` and a "Smoke tests" check on it has
    started or finished (not skipped), Render has deployed it. Open an issue in this repo:
