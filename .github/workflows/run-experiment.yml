@@ -1,0 +1,76 @@
+# Runs one experiment through the real CollageAI lesson pipeline and saves the results.
+# Manual for now (Actions tab -> Run experiment -> Run workflow). Pull request runs come next.
+name: Run experiment
+
+on:
+  workflow_dispatch:
+    inputs:
+      experiment:
+        description: Experiment folder name under experiments/
+        required: true
+        default: baseline
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    services:
+      # The throwaway database. It exists only for this job.
+      mongo:
+        image: mongo:7.0
+        ports:
+          - 27017:27017
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the pinned CollageAI commit
+        id: collage
+        run: echo "ref=$(tr -d '[:space:]' < collage_ref.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Check out CollageAI at that commit
+        uses: actions/checkout@v4
+        with:
+          repository: CollageAI-Org/CollageAI
+          ref: ${{ steps.collage.outputs.ref }}
+          token: ${{ secrets.COLLAGE_REPO_TOKEN }}
+          path: collage
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: collage/server/requirements.txt
+
+      - name: Install the CollageAI server packages
+        run: pip install -r collage/server/requirements.txt
+
+      - name: Run the lesson pipeline
+        env:
+          # Passed through env, never pasted into the script, so the input cannot inject shell code.
+          EXPERIMENT: ${{ inputs.experiment }}
+          AZURE_OPENAI_US_ENDPOINT: ${{ secrets.AZURE_OPENAI_US_ENDPOINT }}
+          AZURE_OPENAI_US_KEY1: ${{ secrets.AZURE_OPENAI_US_KEY1 }}
+          AZURE_OPENAI_US2_ENDPOINT: ${{ secrets.AZURE_OPENAI_US2_ENDPOINT }}
+          AZURE_OPENAI_US2_KEY1: ${{ secrets.AZURE_OPENAI_US2_KEY1 }}
+          AZURE_OPENAI_FRANCE_ENDPOINT: ${{ secrets.AZURE_OPENAI_FRANCE_ENDPOINT }}
+          AZURE_OPENAI_FRANCE_KEY1: ${{ secrets.AZURE_OPENAI_FRANCE_KEY1 }}
+          AZURE_OPENAI_SWEDEN_ENDPOINT: ${{ secrets.AZURE_OPENAI_SWEDEN_ENDPOINT }}
+          AZURE_OPENAI_SWEDEN_KEY1: ${{ secrets.AZURE_OPENAI_SWEDEN_KEY1 }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Model choices: set these repository variables to match production.
+          DEFAULT_MODEL: ${{ vars.DEFAULT_MODEL }}
+          GEMINI_ENABLED: ${{ vars.GEMINI_ENABLED }}
+          WIZARD_GEMINI_MODEL: ${{ vars.WIZARD_GEMINI_MODEL }}
+          MULTIMODAL_PROVIDER: ${{ vars.MULTIMODAL_PROVIDER }}
+        run: python -m runner --collage-dir collage --experiment "experiments/$EXPERIMENT"
+
+      - name: Save the results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ inputs.experiment }}
+          path: outputs/
+          if-no-files-found: warn
