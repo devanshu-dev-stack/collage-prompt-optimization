@@ -9,10 +9,19 @@ from runner.summary_models import CaseSummary
 
 class Check(str, Enum):
     INVENTED_QUOTE = "invented_quote"
+    INEXACT_QUOTE = "inexact_quote"
     MISATTRIBUTED_QUOTE = "misattributed_quote"
     FACTUAL_ERROR = "factual_error"
     WRONG_VIEWPOINT = "wrong_viewpoint"
     OFF_SOURCE_CONTENT = "off_source_content"
+    IGNORES_CUSTOM_INSTRUCTIONS = "ignores_custom_instructions"
+
+
+# Lessons judged before `checked` was recorded were judged on these five only.
+FIRST_CHECKS: list[str] = [
+    Check.INVENTED_QUOTE.value, Check.MISATTRIBUTED_QUOTE.value, Check.FACTUAL_ERROR.value,
+    Check.WRONG_VIEWPOINT.value, Check.OFF_SOURCE_CONTENT.value,
+]
 
 
 class ExtraCheck(BaseModel):
@@ -39,7 +48,9 @@ class Problem(BaseModel):
 class Example(BaseModel):
     location: str = Field(description="Concept or exercise title, and block number")
     summary: str = Field(description="The example in a few words")
-    from_source: bool
+    from_source: bool = Field(
+        description="True when it is the source's own case, even if reframed for the audience the custom instructions name, as long as its people, facts and numbers are kept"
+    )
     source_had_one: bool = Field(
         description="Only for an example not from the source: true when the source has an example that fits the same concept"
     )
@@ -59,11 +70,14 @@ class SideJudgement(BaseModel):
     # Made up although the source had an example that fits the same concept.
     made_up_examples: int
     # Every check this lesson was judged on, so a page can show "-" for a check added later.
-    checked: list[str] = Field(default_factory=lambda: [check.value for check in Check])
+    checked: list[str] = Field(default_factory=lambda: list(FIRST_CHECKS))
     concepts: int
     points_lost: int
-    # 0-100, worked out by the code from the problems (see JUDGE.md, "Score").
+    # Source accuracy, 0-100, worked out by the code from the problems (see JUDGE.md, "Score").
     score: int
+    # Follows the custom instructions, 0-100: 100 minus the points per problem, for the whole lesson.
+    # None for lessons judged before this check existed.
+    instructions_score: int | None = None
     problems: list[Problem]
     examples: list[Example]
 

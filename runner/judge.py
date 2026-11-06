@@ -25,12 +25,16 @@ from runner.judge_models import CaseJudgement, Check, ExtraCheck, ExtraChecks, L
 SCORE_START = 100
 SCORE_POINTS: dict[Check, int] = {
     Check.INVENTED_QUOTE: 10,
+    Check.INEXACT_QUOTE: 3,
     Check.MISATTRIBUTED_QUOTE: 10,
     Check.FACTUAL_ERROR: 10,
     Check.WRONG_VIEWPOINT: 5,
     Check.OFF_SOURCE_CONTENT: 3,
+    Check.IGNORES_CUSTOM_INSTRUCTIONS: 5,
 }
 MADE_UP_EXAMPLE_POINTS = 3
+# Not following the custom instructions has its own score, so it does not hide accuracy differences.
+INSTRUCTION_CHECK = Check.IGNORES_CUSTOM_INSTRUCTIONS.value
 from runner.loaders import load_case
 from runner.models import LessonCase, LessonRunResult
 
@@ -153,7 +157,8 @@ def check_judgement(raw: str, concept_count: int, extra: list[ExtraCheck] | None
         raise ValueError(f"The judge used checks that do not exist: {', '.join(unknown)}")
     counts = Counter(problem.check for problem in judgement.problems)
     made_up = sum(1 for example in judgement.examples if not example.from_source and example.source_had_one)
-    lost = sum(points[check] * count for check, count in counts.items()) + MADE_UP_EXAMPLE_POINTS * made_up
+    lost = sum(points[check] * count for check, count in counts.items() if check != INSTRUCTION_CHECK) + MADE_UP_EXAMPLE_POINTS * made_up
+    instruction_problems = counts.get(INSTRUCTION_CHECK, 0)
     return SideJudgement(
         problem_counts={check: counts.get(check, 0) for check in points},
         checked=list(points),
@@ -163,6 +168,7 @@ def check_judgement(raw: str, concept_count: int, extra: list[ExtraCheck] | None
         concepts=concept_count,
         points_lost=lost,
         score=max(0, round(SCORE_START - lost / concept_count)),
+        instructions_score=max(0, SCORE_START - points[INSTRUCTION_CHECK] * instruction_problems),
         problems=judgement.problems, examples=judgement.examples,
     )
 
