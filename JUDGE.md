@@ -42,7 +42,7 @@ example not from the source, the judge says whether the source had one that fits
 ## Score
 
 Each lesson gets a score from 0 to 100, worked out by the code from the judge's list, never
-by the judge itself. It starts at 100 and loses points per problem:
+by the judge itself. Each problem costs points:
 
 | Problem | Points off |
 |---|---|
@@ -53,6 +53,8 @@ by the judge itself. It starts at 100 and loses points per problem:
 | Off-source content | 3 |
 | Made-up example (the source had one) | 3 |
 
+The score is 100 minus the points lost per concept, so a long lesson is not punished for
+its length: a lesson with 6 concepts that loses 129 points scores 100 - 129 / 6 = 78.
 It never goes below 0. The weights live in `runner/judge.py` (`SCORE_POINTS`).
 
 ## Comparing a try with dev

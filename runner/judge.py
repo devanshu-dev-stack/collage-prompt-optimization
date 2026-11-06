@@ -5,7 +5,7 @@ input and validates its output, so every lesson is judged from the same text and
 
 Usage:
     python -m runner.judge prompt --result <result.json> --out <prompt.md> [--case-dir <test case folder>]
-    python -m runner.judge check --judgement <answer.json> --out <side.json>
+    python -m runner.judge check --judgement <answer.json> --result <result.json> --out <side.json>
     python -m runner.judge combine --case <case id> --baseline <side.json> --experiment <side.json> --out <case.json>
 """
 
@@ -19,7 +19,8 @@ from pydantic import JsonValue, ValidationError
 
 from runner.judge_models import CaseJudgement, Check, LessonJudgement, SideJudgement
 
-# The score starts here and loses points per problem. Serious mistakes cost the most.
+# The score starts here and loses points per problem, divided by the lesson's concept count so
+# long lessons are not punished for their length. Serious mistakes cost the most.
 SCORE_START = 100
 SCORE_POINTS: dict[Check, int] = {
     Check.INVENTED_QUOTE: 10,
@@ -121,7 +122,9 @@ def build_prompt(result: LessonRunResult, case_dir: Path | None = None) -> str:
     ])
 
 
-def check_judgement(raw: str) -> SideJudgement:
+def check_judgement(raw: str, concept_count: int) -> SideJudgement:
+    if concept_count < 1:
+        raise ValueError("The lesson has no concepts, so it cannot be scored.")
     judgement = LessonJudgement.model_validate_json(raw)
     counts = Counter(problem.check for problem in judgement.problems)
     made_up = sum(1 for example in judgement.examples if not example.from_source and example.source_had_one)
@@ -131,7 +134,9 @@ def check_judgement(raw: str) -> SideJudgement:
         examples_total=len(judgement.examples),
         examples_from_source=sum(1 for example in judgement.examples if example.from_source),
         made_up_examples=made_up,
-        score=max(0, SCORE_START - lost),
+        concepts=concept_count,
+        points_lost=lost,
+        score=max(0, round(SCORE_START - lost / concept_count)),
         problems=judgement.problems, examples=judgement.examples,
     )
 
@@ -145,6 +150,7 @@ def main() -> int:
     prompt.add_argument("--case-dir", type=Path, help="The test case folder, to give the judge each uploaded source by name.")
     check = commands.add_parser("check")
     check.add_argument("--judgement", type=Path, required=True)
+    check.add_argument("--result", type=Path, required=True, help="The judged lesson's result.json, for its concept count.")
     check.add_argument("--out", type=Path, required=True)
     combine = commands.add_parser("combine")
     combine.add_argument("--case", required=True)
@@ -157,7 +163,8 @@ def main() -> int:
             result = LessonRunResult.model_validate_json(args.result.read_text(encoding="utf-8"))
             args.out.write_text(build_prompt(result, args.case_dir.resolve() if args.case_dir else None), encoding="utf-8")
         elif args.command == "check":
-            side = check_judgement(args.judgement.read_text(encoding="utf-8"))
+            result = LessonRunResult.model_validate_json(args.result.read_text(encoding="utf-8"))
+            side = check_judgement(args.judgement.read_text(encoding="utf-8"), len(result.concepts))
             args.out.write_text(side.model_dump_json(indent=2), encoding="utf-8")
         else:
             def load(path: Path | None) -> SideJudgement | None:
@@ -166,6 +173,9 @@ def main() -> int:
             args.out.write_text(case.model_dump_json(indent=2), encoding="utf-8")
     except ValidationError as error:
         print(f"The judge's answer does not match the format: {error}", file=sys.stderr)
+        return 2
+    except ValueError as error:
+        print(str(error), file=sys.stderr)
         return 2
     print(f"Wrote {args.out}")
     return 0
