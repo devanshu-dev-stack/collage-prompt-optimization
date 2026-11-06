@@ -18,6 +18,17 @@ from pathlib import Path
 from pydantic import JsonValue, ValidationError
 
 from runner.judge_models import CaseJudgement, Check, LessonJudgement, SideJudgement
+
+# The score starts here and loses points per problem. Serious mistakes cost the most.
+SCORE_START = 100
+SCORE_POINTS: dict[Check, int] = {
+    Check.INVENTED_QUOTE: 10,
+    Check.MISATTRIBUTED_QUOTE: 10,
+    Check.FACTUAL_ERROR: 10,
+    Check.WRONG_VIEWPOINT: 5,
+    Check.OFF_SOURCE_CONTENT: 3,
+}
+MADE_UP_EXAMPLE_POINTS = 3
 from runner.models import LessonRunResult
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -89,12 +100,15 @@ def build_prompt(result: LessonRunResult) -> str:
 
 def check_judgement(raw: str) -> SideJudgement:
     judgement = LessonJudgement.model_validate_json(raw)
-    counts = Counter(problem.check.value for problem in judgement.problems)
+    counts = Counter(problem.check for problem in judgement.problems)
+    made_up = sum(1 for example in judgement.examples if not example.from_source and example.source_had_one)
+    lost = sum(SCORE_POINTS[check] * count for check, count in counts.items()) + MADE_UP_EXAMPLE_POINTS * made_up
     return SideJudgement(
-        problem_counts={check.value: counts.get(check.value, 0) for check in Check},
+        problem_counts={check.value: counts.get(check, 0) for check in Check},
         examples_total=len(judgement.examples),
         examples_from_source=sum(1 for example in judgement.examples if example.from_source),
-        made_up_examples=sum(1 for example in judgement.examples if not example.from_source and example.source_had_one),
+        made_up_examples=made_up,
+        score=max(0, SCORE_START - lost),
         problems=judgement.problems, examples=judgement.examples,
     )
 

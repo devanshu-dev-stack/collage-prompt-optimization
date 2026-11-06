@@ -43,6 +43,8 @@ class SideJudgement(BaseModel):
     examples_from_source: int
     # Made up although the source had an example that fits the same concept.
     made_up_examples: int
+    # 0-100, worked out by the code from the problems (see JUDGE.md, "Score").
+    score: int
     problems: list[Problem]
     examples: list[Example]
 

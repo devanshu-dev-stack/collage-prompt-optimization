@@ -39,6 +39,22 @@ example not from the source, the judge says whether the source had one that fits
 - **Totals:** problems per check, the share of examples taken from the source, and the
   number of made-up examples.
 
+## Score
+
+Each lesson gets a score from 0 to 100, worked out by the code from the judge's list, never
+by the judge itself. It starts at 100 and loses points per problem:
+
+| Problem | Points off |
+|---|---|
+| Invented quote | 10 |
+| Misattributed quote | 10 |
+| Factual error | 10 |
+| Wrong viewpoint | 5 |
+| Off-source content | 3 |
+| Made-up example (the source had one) | 3 |
+
+It never goes below 0. The weights live in `runner/judge.py` (`SCORE_POINTS`).
+
 ## Comparing a try with dev
 
 Per test case: fewer problems and fewer made-up examples is better, and a higher share of
