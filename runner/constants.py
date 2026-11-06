@@ -65,3 +65,20 @@ SSE_DATA_PREFIX: Final[str] = "data: "
 SSE_DONE_MARKER: Final[str] = "[DONE]"
 SSE_EVENT_TYPE_KEY: Final[str] = "type"
 SSE_ERROR_EVENT_TYPE: Final[str] = "error"
+
+# Waiting for a preview to finish deploying a commit (/api/status reports "commit" outside prod,
+# from CollageAI pull request #2094).
+STATUS_PATH: Final[str] = "/api/status"
+COMMIT_SHA_PATTERN: Final[re.Pattern[str]] = re.compile(r"^[0-9a-f]{40}$")
+DEPLOY_WAIT_TIMEOUT_SECONDS: Final[float] = 2400.0
+DEPLOY_POLL_SECONDS: Final[float] = 20.0
+
+# A try request: an issue in this repo, opened by the shared page, whose body holds one JSON block.
+TRY_JSON_BLOCK_PATTERN: Final[re.Pattern[str]] = re.compile(r"```json\s*(\{.*?\})\s*```", re.DOTALL)
+# GitHub's author_association values for people who may start a run (it uses the test login).
+TRUSTED_AUTHOR_ASSOCIATIONS: Final[frozenset[str]] = frozenset({"OWNER", "MEMBER", "COLLABORATOR"})
+
+# Comparison output, read by the shared page from the results branch.
+SUMMARY_FILE_NAME: Final[str] = "summary.json"
+COMMENT_FILE_NAME: Final[str] = "comment.md"
+QUIZ_BLOCK_TYPE: Final[str] = "quiz"

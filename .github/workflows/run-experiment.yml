@@ -1,8 +1,13 @@
-# Runs every test case against a CollageAI site (dev, or a pull request's Render preview)
-# and saves the results. Manual for now: Actions tab -> Run experiment -> Run workflow.
+# Two ways to run the test cases against CollageAI:
+#  - A "Prompt try:" issue, opened by the shared page: wait for the preview to deploy the try's
+#    commit, run the preview and dev, save the comparison to the results branch, then comment on
+#    the issue and close it.
+#  - By hand: Actions tab -> Run experiment -> Run workflow.
 name: Run experiment
 
 on:
+  issues:
+    types: [opened]
   workflow_dispatch:
     inputs:
       target:
@@ -14,7 +19,96 @@ permissions:
   contents: read
 
 jobs:
-  run:
+  prompt-try:
+    if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'Prompt try:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      RUNNER_DEV_URL: ${{ vars.RUNNER_DEV_URL }}
+      RUNNER_TEACHER_EMAIL: ${{ secrets.RUNNER_TEACHER_EMAIL }}
+      RUNNER_TEACHER_PASSWORD: ${{ secrets.RUNNER_TEACHER_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      # The issue body is untrusted. It reaches only the Python checker, through env,
+      # and only the checked PR number and commit id come back out.
+      - name: Check the request
+        id: request
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR_ASSOCIATION: ${{ github.event.issue.author_association }}
+        run: python -m runner.try_request
+
+      - name: Say the run started
+        env:
+          COMMIT: ${{ steps.request.outputs.commit }}
+        run: >
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY"
+          --body "Started. Waiting for the preview to deploy ${COMMIT:0:7}, then running it and dev. Log: $RUN_URL"
+
+      - name: Run the preview, then dev, and compare
+        env:
+          TARGET: ${{ steps.request.outputs.target }}
+          COMMIT: ${{ steps.request.outputs.commit }}
+        run: |
+          set +e
+          python -m runner --target "$TARGET" --expect-commit "$COMMIT" --run-name try
+          if ls outputs/try/*/result.json > /dev/null 2>&1; then
+            python -m runner --target dev --run-name baseline
+            python -m runner.compare --baseline outputs/baseline --experiment outputs/try \
+              --target "$TARGET" --commit "$COMMIT" --issue "$ISSUE" --out "publish/runs/$ISSUE"
+            cp -r outputs/try outputs/baseline "publish/runs/$ISSUE/"
+          fi
+          exit 0
+
+      - name: Check out the results branch
+        if: always()
+        uses: actions/checkout@v4
+        with:
+          ref: results
+          path: results
+
+      - name: Save the results
+        if: always() && hashFiles(format('publish/runs/{0}/summary.json', env.ISSUE)) != ''
+        run: |
+          cp -r publish/runs results/
+          cd results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add runs
+          git commit -m "Results for prompt try #$ISSUE"
+          for attempt in 1 2 3 4 5; do
+            git push origin HEAD:results && exit 0
+            git pull --rebase origin results
+          done
+          exit 1
+
+      - name: Post the results and close the issue
+        if: always()
+        run: |
+          if [ -f "publish/runs/$ISSUE/comment.md" ]; then
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "publish/runs/$ISSUE/comment.md"
+          else
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "The run stopped before there were results. See why in the log: $RUN_URL"
+          fi
+          gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY"
+
+  manual:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
