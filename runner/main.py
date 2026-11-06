@@ -19,7 +19,7 @@ from runner.course_setup import find_or_create_course
 from runner.errors import RunnerInputError, RunnerStepError
 from runner.lesson_flow import run_lesson_case
 from runner.lesson_reader import read_lesson
-from runner.loaders import find_case_dirs, load_case, read_source_text
+from runner.loaders import find_case_dirs, load_case
 from runner.models import LessonCase, LessonRunResult
 from runner.target import Target, resolve_target
 
@@ -50,7 +50,7 @@ def _run_one_case(client: CollageClient, target: Target, case_dir: Path, case: L
     try:
         course_id = find_or_create_course(client, case)
         result.course_id = course_id
-        lesson_id = run_lesson_case(client, course_id, case, read_source_text(case_dir, case), result)
+        lesson_id = run_lesson_case(client, course_id, case, case_dir, result)
         # Teammates can open this page (logged in as the test teacher) to see the lesson as a teacher would.
         result.lesson_url = target.base_url + LESSON_PAGE_PATH.format(course_id=course_id, lesson_id=lesson_id)
         read_lesson(client, course_id, lesson_id, result)

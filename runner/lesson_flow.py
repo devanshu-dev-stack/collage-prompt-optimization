@@ -1,6 +1,7 @@
 """Click through every lesson wizard step for one test case, through the real routes."""
 
 import json
+from pathlib import Path
 from typing import Optional, TypeVar
 
 from pydantic import BaseModel, JsonValue
@@ -15,9 +16,11 @@ from runner.constants import (
     SSE_EVENT_TYPE_KEY,
     STREAM_PATH,
     TEXT_MATERIAL_SOURCE,
+    UPLOAD_MATERIAL_SOURCE,
     UPLOAD_PATH,
 )
 from runner.errors import RunnerStepError
+from runner.loaders import read_source_files, read_source_text
 from runner.models import (
     ConceptsReply,
     LessonCase,
@@ -37,9 +40,9 @@ ReplyT = TypeVar("ReplyT", bound=BaseModel)
 
 def _post_step(
     client: CollageClient, result: LessonRunResult, step: LessonStep, path: str,
-    fields: dict[str, str], reply_model: type[ReplyT],
+    fields: dict[str, str], reply_model: type[ReplyT], files: list[tuple[str, bytes, str]] | None = None,
 ) -> ReplyT:
-    reply = client.post_form(path, fields)
+    reply = client.post_form(path, fields, files)
     result.steps.append(StepRecord(step=step, status_code=reply.status_code, seconds=reply.seconds, reply=reply.body))
     return check_reply(reply, reply_model, step, f"The {step.value} step")
 
@@ -52,12 +55,17 @@ def _with_custom_instructions(fields: dict[str, str], custom_instructions: Optio
 
 
 def run_lesson_case(
-    client: CollageClient, course_id: str, case: LessonCase, source_text: str, result: LessonRunResult,
+    client: CollageClient, course_id: str, case: LessonCase, case_dir: Path, result: LessonRunResult,
 ) -> str:
     """Run upload, objectives, concepts, plan, create and generate. Returns the new lesson id."""
     language = case.language
-    upload = _post_step(client, result, LessonStep.UPLOAD, UPLOAD_PATH.format(course_id=course_id),
-                        {"materialSource": TEXT_MATERIAL_SOURCE, "sourceText": source_text}, UploadReply)
+    upload_path = UPLOAD_PATH.format(course_id=course_id)
+    if case.source_files:
+        upload = _post_step(client, result, LessonStep.UPLOAD, upload_path, {"materialSource": UPLOAD_MATERIAL_SOURCE},
+                            UploadReply, read_source_files(case_dir, case))
+    else:
+        upload = _post_step(client, result, LessonStep.UPLOAD, upload_path,
+                            {"materialSource": TEXT_MATERIAL_SOURCE, "sourceText": read_source_text(case_dir, case)}, UploadReply)
     session_id = upload.data.upload_session_id
 
     objectives_reply = _post_step(

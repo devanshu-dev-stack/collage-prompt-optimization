@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 .mypy_cache/
+
+# Course materials stay out of the repo; test cases list them by name and they live on the machine that runs the case.
+test-set/**/*.pdf
+test-set/**/*.pdf.txt

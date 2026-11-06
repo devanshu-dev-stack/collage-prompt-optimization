@@ -48,6 +48,14 @@ ASSESSMENTS_PATH: Final[str] = "/api/assessments"
 LESSON_PAGE_PATH: Final[str] = "/courses/{course_id}/lessons/{lesson_id}"
 
 TEXT_MATERIAL_SOURCE: Final[str] = "text"
+UPLOAD_MATERIAL_SOURCE: Final[str] = "upload"
+UPLOAD_FILES_FIELD: Final[str] = "files"
+# File types a test case may upload, as the wizard accepts them (server/utils/file_handling).
+UPLOAD_MIME_TYPES: Final[dict[str, str]] = {
+    ".pdf": "application/pdf",
+    ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    ".pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+}
 EXERCISE_MODE: Final[str] = "exercise"
 FORMATIVE_MODE: Final[str] = "formative"
 # The lesson page asks for up to 100 concepts in one page (client/src/hooks/use-lesson-with-content.ts).

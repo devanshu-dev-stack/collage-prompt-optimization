@@ -1,0 +1,32 @@
+# AI and learning, week 2: the Week 2 slides (main source), the Compass page and How People Learn II, uploaded as PDFs, with the teacher's lesson flow as custom instructions.
+id: ai-learning-week2
+course_title: AI and Learning - Week 2
+subject: education     # a CollageAI subject key (server/utils/subject_categories.py)
+difficulty: graduate   # a CollageAI course level (server/constants/course.py)
+language: en
+source_files:          # uploaded in this order, like choosing files in the wizard
+  - week2-slides.pdf
+  - compass-visible-invisible-ai.pdf
+  - how-people-learn-ii.pdf
+custom_instructions: |
+  Generate me a lesson with the following flow: Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.
+  Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you
+  Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.
+  One learner, three ecosystems: Priya’s contrasting cases and what varies across them
+  Learning is situated; learning moves through people (can AI help it move?)
+  Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.
+  Opportunities to learn: practice, participation, and relationships
+  Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it. Link: https://pz.harvard.edu/sites/default/files/2026-03/Digital%20Habits%20Checkup.pdf
+  Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people. Adapted from week 2 slide
+  Key ideas: every learner draws on a whole ecosystem; AI is one node in it
+  Recap: the six questions
+  Focus areas: emerging questions by age band, as ideas for a capstone
+  Capstone Brief and Scoping Guide, plus a worked scoping example.
+  Activity: scope your capstone with the six questions
+  Knowledge check covering this week’s ideas, with a few items from Week 1
+  Closing judgment: adopt, adapt, or reject for a short case
+  Capstone scope: submit the scoped capstone (the Week 2 capstone step). Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”. Also, keep in mind the four overall course objectives as you generate: Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage
+  Appraise claims and evidence about AI and learning, including when the evidence does not yet exist
+  Design AI-enabled learning experiences in which developmental consequences shaped what got built
+  Write and present a recommendation (adopt, adapt, or reject) that decision-makers can act on. This lesson primarily focuses on the first 3 of these objectives. This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.
+# The website asks for 5 objectives and 10 concepts and keeps them all; this case does the same.

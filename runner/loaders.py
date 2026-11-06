@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from runner.constants import CASE_FILE_NAME, TEST_SET_DIR
+from runner.constants import CASE_FILE_NAME, TEST_SET_DIR, UPLOAD_MIME_TYPES
 from runner.errors import RunnerInputError
 from runner.models import LessonCase
 
@@ -31,9 +31,19 @@ def load_case(repo_root: Path, case_dir: Path) -> LessonCase:
     if not isinstance(raw, dict):
         raise RunnerInputError(f"{case_file} must hold key: value pairs.")
     case = LessonCase.model_validate(raw)
-    require_inside(folder / case.source_file, folder, "source_file")
+    for name in [case.source_file] if case.source_file else case.source_files:
+        path = require_inside(folder / name, folder, "A source file")
+        if not path.is_file():
+            raise RunnerInputError(f"Missing source file: {path}")
+        if case.source_files and path.suffix.lower() not in UPLOAD_MIME_TYPES:
+            raise RunnerInputError(f"{name}: only {', '.join(UPLOAD_MIME_TYPES)} files can be uploaded.")
     return case
 
 
 def read_source_text(case_dir: Path, case: LessonCase) -> str:
-    return (case_dir / case.source_file).read_text(encoding="utf-8")
+    return (case_dir / (case.source_file or "")).read_text(encoding="utf-8")
+
+
+def read_source_files(case_dir: Path, case: LessonCase) -> list[tuple[str, bytes, str]]:
+    """(file name, bytes, media type) for each file to upload, in the order the case lists them."""
+    return [(name, (case_dir / name).read_bytes(), UPLOAD_MIME_TYPES[Path(name).suffix.lower()]) for name in case.source_files]

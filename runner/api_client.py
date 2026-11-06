@@ -15,6 +15,7 @@ from runner.constants import (
     READ_TIMEOUT_SECONDS,
     SSE_DATA_PREFIX,
     SSE_DONE_MARKER,
+    UPLOAD_FILES_FIELD,
 )
 from runner.errors import RunnerStepError
 
@@ -74,10 +75,13 @@ class CollageClient:
         response = self._session.post(self._url(path), json=body, headers=self._csrf_headers(), timeout=_TIMEOUT)
         return RouteReply(response.status_code, time.monotonic() - started, _body(response))
 
-    def post_form(self, path: str, fields: dict[str, str]) -> RouteReply:
-        """A multipart form post, like the website's FormData calls."""
+    def post_form(self, path: str, fields: dict[str, str], files: list[tuple[str, bytes, str]] | None = None) -> RouteReply:
+        """A multipart form post, like the website's FormData calls. Files go under one repeated field."""
         started = time.monotonic()
-        multipart = {name: (None, value) for name, value in fields.items()}
+        multipart: list[tuple[str, tuple[str | None, str | bytes] | tuple[str, bytes, str]]] = [
+            (name, (None, value)) for name, value in fields.items()
+        ]
+        multipart += [(UPLOAD_FILES_FIELD, (file_name, content, media_type)) for file_name, content, media_type in files or []]
         response = self._session.post(self._url(path), files=multipart, headers=self._csrf_headers(), timeout=_TIMEOUT)
         return RouteReply(response.status_code, time.monotonic() - started, _body(response))
 

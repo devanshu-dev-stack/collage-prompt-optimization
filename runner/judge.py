@@ -4,7 +4,7 @@ The judge itself is a Claude agent run during the relay check. This module only 
 input and validates its output, so every lesson is judged from the same text and rules.
 
 Usage:
-    python -m runner.judge prompt --result <result.json> --out <prompt.md>
+    python -m runner.judge prompt --result <result.json> --out <prompt.md> [--case-dir <test case folder>]
     python -m runner.judge check --judgement <answer.json> --out <side.json>
     python -m runner.judge combine --case <case id> --baseline <side.json> --experiment <side.json> --out <case.json>
 """
@@ -29,10 +29,15 @@ SCORE_POINTS: dict[Check, int] = {
     Check.OFF_SOURCE_CONTENT: 3,
 }
 MADE_UP_EXAMPLE_POINTS = 3
-from runner.models import LessonRunResult
+from runner.loaders import load_case
+from runner.models import LessonCase, LessonRunResult
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RUBRIC_FILE = REPO_ROOT / "JUDGE.md"
+# Text the judge reads in full; a longer source is handed over as a file to search instead.
+LONG_SOURCE_CHARS = 60_000
+# Each uploaded source's text sits next to it as "<file>.txt", made once with pdftotext.
+SOURCE_TEXT_SUFFIX = ".txt"
 # Block fields that hold ids, layout or scoring, not words a student reads.
 NON_CONTENT_KEYS = frozenset({
     "blockId", "id", "_id", "type", "isAiGenerated", "settings", "variant", "points", "calloutType",
@@ -80,8 +85,26 @@ def render_lesson(result: LessonRunResult) -> str:
     return "\n".join(lines)
 
 
-def build_prompt(result: LessonRunResult) -> str:
-    source = _field(result.lesson, "sourceContent") or ""
+def _labeled_sources(case_dir: Path, case: LessonCase) -> str:
+    """Each uploaded source under its own name. A long one is named with the path of its text, to search."""
+    blocks: list[str] = []
+    for name in case.source_files:
+        text_file = (case_dir / (name + SOURCE_TEXT_SUFFIX)).resolve()
+        text = text_file.read_text(encoding="utf-8")
+        if len(text) <= LONG_SOURCE_CHARS:
+            blocks.append(f'<source name="{name}">\n{text}\n</source>')
+        else:
+            blocks.append(
+                f'<source name="{name}" long="true">\nThis source is too long to include. Its full text is in '
+                f"{text_file}. Before you call any claim off-source, search that file for its key terms "
+                f"(Grep), and quote it as source text when you find support.\n</source>"
+            )
+    return "\n".join(blocks)
+
+
+def build_prompt(result: LessonRunResult, case_dir: Path | None = None) -> str:
+    case = load_case(REPO_ROOT, case_dir) if case_dir else None
+    source = _labeled_sources(case_dir, case) if case_dir and case and case.source_files else _field(result.lesson, "sourceContent") or ""
     custom = _field(result.lesson, "customInstructions") or "(none)"
     schema = json.dumps(LessonJudgement.model_json_schema(), indent=2)
     return "\n\n".join([
@@ -119,6 +142,7 @@ def main() -> int:
     prompt = commands.add_parser("prompt")
     prompt.add_argument("--result", type=Path, required=True)
     prompt.add_argument("--out", type=Path, required=True)
+    prompt.add_argument("--case-dir", type=Path, help="The test case folder, to give the judge each uploaded source by name.")
     check = commands.add_parser("check")
     check.add_argument("--judgement", type=Path, required=True)
     check.add_argument("--out", type=Path, required=True)
@@ -131,7 +155,7 @@ def main() -> int:
     try:
         if args.command == "prompt":
             result = LessonRunResult.model_validate_json(args.result.read_text(encoding="utf-8"))
-            args.out.write_text(build_prompt(result), encoding="utf-8")
+            args.out.write_text(build_prompt(result, args.case_dir.resolve() if args.case_dir else None), encoding="utf-8")
         elif args.command == "check":
             side = check_judgement(args.judgement.read_text(encoding="utf-8"))
             args.out.write_text(side.model_dump_json(indent=2), encoding="utf-8")

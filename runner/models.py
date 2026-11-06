@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import BaseModel, ConfigDict, Field, JsonValue
+from pydantic import BaseModel, ConfigDict, Field, JsonValue, model_validator
 
 from runner.constants import WEBSITE_CONCEPT_COUNT, WEBSITE_OBJECTIVE_COUNT
 
@@ -18,13 +18,21 @@ class LessonCase(BaseModel):
     subject: str = Field(min_length=1)
     difficulty: str = Field(min_length=1)
     language: str = Field(min_length=1)
-    source_file: str = Field(min_length=1)
+    # Either pasted text (source_file) or files to upload (source_files), never both.
+    source_file: Optional[str] = Field(default=None, min_length=1)
+    source_files: list[str] = Field(default_factory=list)
     custom_instructions: Optional[str] = None
     objective_count: int = Field(default=WEBSITE_OBJECTIVE_COUNT, ge=1)
     concept_count: int = Field(default=WEBSITE_CONCEPT_COUNT, ge=1)
     # What the teacher keeps. Left out means keep everything, which is the website's default.
     keep_objectives: Optional[int] = Field(default=None, ge=1)
     keep_concepts: Optional[int] = Field(default=None, ge=1)
+
+    @model_validator(mode="after")
+    def _one_kind_of_source(self) -> "LessonCase":
+        if bool(self.source_file) == bool(self.source_files):
+            raise ValueError("Give either source_file (pasted text) or source_files (uploads), not both and not neither.")
+        return self
 
 
 class LessonStep(str, Enum):
