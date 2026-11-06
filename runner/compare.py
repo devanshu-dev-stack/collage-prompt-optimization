@@ -1,4 +1,5 @@
 """Compare a baseline run (dev) with an experiment run (a preview), case by case.
+Without a baseline it summarizes the experiment alone, for tries compared with fixed scores.
 
 Writes summary.json (read by the shared page) and comment.md (posted on the try's issue).
 This compares structure only: counts, block types, objectives and timing. Judging quality
@@ -94,8 +95,9 @@ def _comment(summary: RunSummary) -> str:
     return "\n".join(lines)
 
 
-def build_summary(baseline_dir: Path, experiment_dir: Path, target: str, commit: Optional[str], issue: Optional[int]) -> RunSummary:
-    baseline, experiment = _load_cases(baseline_dir), _load_cases(experiment_dir)
+def build_summary(baseline_dir: Optional[Path], experiment_dir: Path, target: str, commit: Optional[str], issue: Optional[int]) -> RunSummary:
+    baseline = _load_cases(baseline_dir) if baseline_dir else {}
+    experiment = _load_cases(experiment_dir)
     cases = [CaseComparison(case_id=case_id, baseline=baseline.get(case_id), experiment=experiment.get(case_id))
              for case_id in sorted(baseline.keys() | experiment.keys())]
     return RunSummary(issue=issue, target=target, commit=commit, created_at=datetime.now(UTC).isoformat(), cases=cases)
@@ -103,7 +105,7 @@ def build_summary(baseline_dir: Path, experiment_dir: Path, target: str, commit:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compare a dev run with an experiment run.")
-    parser.add_argument("--baseline", type=Path, required=True)
+    parser.add_argument("--baseline", type=Path, help="Leave out for a try compared with fixed scores.")
     parser.add_argument("--experiment", type=Path, required=True)
     parser.add_argument("--target", required=True)
     parser.add_argument("--commit")

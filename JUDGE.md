@@ -2,7 +2,8 @@
 
 The judge reads one generated lesson next to its source material and custom instructions,
 and lists every problem it finds. It never changes prompts: these rules are only for
-checking output. Dev's lesson and the try's lesson are judged the same way, then compared.
+checking output. Every lesson is judged the same way: a try's lesson, and the lessons behind
+the fixed scores of Current dev and Megan's PR (RELAY.md, "Fixed scores").
 
 ## What the judge reads
 
@@ -19,6 +20,11 @@ checking output. Dev's lesson and the try's lesson are judged the same way, then
 | **Factual error** | A claim contradicts the source. For a claim the source does not cover, it contradicts well-established knowledge. When sources disagree, the lesson picks one side without saying so. | The lesson presents several viewpoints or arguments as such, or names which source says what. |
 | **Wrong viewpoint** | The lesson states a different stance, emphasis or conclusion than the source. | The custom instructions ask for it. |
 | **Off-source content** | A topic or fact that is not in the source. | The custom instructions ask for it, it is a short definition needed to read the source, or it is an example (examples follow the rule below). |
+
+**Extra checks.** Anyone can suggest a check on the page's Checks tab. Once Claude accepts
+it, it reaches the judge inside `<extra_checks>`: an id, a name and what counts as a problem.
+The judge lists problems for it like any other check, and its points count the same way. A
+lesson judged before a check existed shows "-" for it (`checked` lists what it was judged on).
 
 **Examples.** The judge lists every example in the lesson and marks whether it comes from
 the source. An example is a specific case that shows the concept in use: a scenario, a
@@ -57,8 +63,9 @@ The score is 100 minus the points lost per concept, so a long lesson is not puni
 its length: a lesson with 6 concepts that loses 129 points scores 100 - 129 / 6 = 78.
 It never goes below 0. The weights live in `runner/judge.py` (`SCORE_POINTS`).
 
-## Comparing a try with dev
+## Comparing a try with the fixed scores
 
-Per test case: fewer problems and fewer made-up examples is better, and a higher share of
-examples from the source is better. AI output changes from run to run, so a difference counts only when it holds across
+Per test case, a try is compared with the average of the lessons behind each fixed score:
+fewer problems and fewer made-up examples is better, and a higher share of examples from the
+source is better. AI output changes from run to run, so a difference counts only when it holds across
 repeated runs of the same try.

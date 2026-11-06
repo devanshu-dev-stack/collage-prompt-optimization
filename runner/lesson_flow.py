@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Optional, TypeVar
 
+import requests
 from pydantic import BaseModel, JsonValue
 
 from runner.api_client import CollageClient
@@ -107,7 +108,12 @@ def run_lesson_case(
 
 def _generate_content(client: CollageClient, result: LessonRunResult, course_id: str, lesson_id: str) -> None:
     """The step that writes every block. Its events are kept so failures inside the stream show up."""
-    stream = client.read_stream(STREAM_PATH.format(course_id=course_id, lesson_id=lesson_id))
+    try:
+        stream = client.read_stream(STREAM_PATH.format(course_id=course_id, lesson_id=lesson_id))
+    except requests.RequestException as error:
+        # A dropped connection must still leave a result file, so the run shows as failed instead of vanishing.
+        raise RunnerStepError(f"The connection dropped while the lesson was being written ({type(error).__name__}).",
+                              LessonStep.GENERATE_CONTENT) from error
     result.stream_events = stream.events
     error_events = [
         event for event in stream.events
