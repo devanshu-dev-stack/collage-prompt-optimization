@@ -6,7 +6,7 @@ shared draft pull request, and carries the results back.
 
 ## Where things are
 
-- **Page:** PAGE_URL_AFTER_PUBLISH (its data is read and written with the ArtifactData tool)
+- **Page:** https://claude.ai/artifact/ChCNUJdV5WYRCZVVJK5mZy (its data is read and written with the ArtifactData tool)
 - **Shared draft PR:** CollageAI-Org/CollageAI#2095, branch `experiment/prompt-lab`, preview
   `https://collageai-dev-pr-2095.onrender.com`. Never merge it. Never force-push it.
 - **Runs:** this repo's "Run experiment" workflow, started by a "Prompt try:" issue.
