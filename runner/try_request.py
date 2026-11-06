@@ -1,4 +1,4 @@
-"""Read a "Prompt try" issue opened by the shared page, check it, and hand the target to the workflow.
+"""Read a "Prompt try" issue opened by the relay, check it, and hand the target to the workflow.
 
 The issue body is written by people, so nothing from it reaches a shell: it is parsed here,
 checked against strict patterns, and only the checked values are written to GITHUB_OUTPUT.
@@ -14,7 +14,14 @@ import sys
 
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
-from runner.constants import COMMIT_SHA_PATTERN, PREVIEW_TARGET_PREFIX, TRUSTED_AUTHOR_ASSOCIATIONS, TRY_JSON_BLOCK_PATTERN
+from runner.constants import (
+    AUTHOR_PATTERN,
+    COMMIT_SHA_PATTERN,
+    PREVIEW_TARGET_PREFIX,
+    TRUSTED_AUTHOR_ASSOCIATIONS,
+    TRY_ID_PATTERN,
+    TRY_JSON_BLOCK_PATTERN,
+)
 from runner.errors import RunnerInputError
 
 
@@ -23,14 +30,28 @@ class TryRequest(BaseModel):
 
     pr_number: int = Field(alias="prNumber", gt=0)
     commit: str
-    step: str = Field(min_length=1)
-    file: str = Field(min_length=1)
+    try_id: str = Field(alias="tryId")
+    author: str
 
     @field_validator("commit")
     @classmethod
     def _full_sha(cls, value: str) -> str:
         if not COMMIT_SHA_PATTERN.match(value):
             raise ValueError("commit must be a full 40-character commit id")
+        return value
+
+    @field_validator("try_id")
+    @classmethod
+    def _known_try_id(cls, value: str) -> str:
+        if not TRY_ID_PATTERN.match(value):
+            raise ValueError("tryId must look like t1730900000000")
+        return value
+
+    @field_validator("author")
+    @classmethod
+    def _short_name(cls, value: str) -> str:
+        if not AUTHOR_PATTERN.match(value):
+            raise ValueError("author must be a short name of lowercase letters, digits or dashes")
         return value
 
 
@@ -55,7 +76,7 @@ def main() -> int:
     with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
         output.write(f"target={PREVIEW_TARGET_PREFIX}{request.pr_number}\n")
         output.write(f"commit={request.commit}\n")
-    print(f"Try for pull request {request.pr_number} at {request.commit[:7]} ({request.step}: {request.file})")
+    print(f"Try {request.try_id} by {request.author}: pull request {request.pr_number} at {request.commit[:7]}")
     return 0
 
 

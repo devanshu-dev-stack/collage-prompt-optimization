@@ -3,7 +3,7 @@
 Usage (from the repo root):
     python -m runner --target pr-2101
     python -m runner --target dev --case test-set/biology-photosynthesis
-    python -m runner --target pr-2101 --expect-commit <sha> --run-name try
+    python -m runner --target pr-2101 --run-name try
 """
 
 import argparse
@@ -16,7 +16,6 @@ from pathlib import Path
 from runner.api_client import CollageClient
 from runner.constants import DEFAULT_OUTPUT_DIR, LESSON_PAGE_PATH, RESULT_FILE_NAME, TEACHER_EMAIL_ENV, TEACHER_PASSWORD_ENV
 from runner.course_setup import find_or_create_course
-from runner.deploy_wait import wait_for_commit
 from runner.errors import RunnerInputError, RunnerStepError
 from runner.lesson_flow import run_lesson_case
 from runner.lesson_reader import read_lesson
@@ -34,7 +33,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--case", type=Path, action="append", default=[], help="A test case folder. Repeat for more. Default: all.")
     parser.add_argument("--out", type=Path, default=REPO_ROOT / DEFAULT_OUTPUT_DIR, help="Where results are written.")
     parser.add_argument("--run-name", help="Folder name for this run under --out. Default: <target>-<time>.")
-    parser.add_argument("--expect-commit", help="Wait until the target reports this deployed commit before running.")
     return parser.parse_args()
 
 
@@ -72,8 +70,6 @@ def run(args: argparse.Namespace) -> int:
         raise RunnerInputError("No test cases found.")
     run_name = args.run_name or f"{target.name}-{datetime.now(UTC).strftime(RUN_STAMP_FORMAT)}"
     run_dir = args.out.resolve() / run_name
-    if args.expect_commit:
-        wait_for_commit(target.base_url, args.expect_commit)
 
     client = CollageClient(target.base_url)
     client.login(email, password)

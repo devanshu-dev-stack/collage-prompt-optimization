@@ -1,7 +1,7 @@
 # Two ways to run the test cases against CollageAI:
-#  - A "Prompt try:" issue, opened by the shared page: wait for the preview to deploy the try's
-#    commit, run the preview and dev, save the comparison to the results branch, then comment on
-#    the issue and close it.
+#  - A "Prompt try:" issue, opened by the relay once the preview has deployed the try's commit:
+#    run the preview and dev, save the comparison to the results branch, then comment on the
+#    issue and close it.
 #  - By hand: Actions tab -> Run experiment -> Run workflow.
 name: Run experiment
 
@@ -58,7 +58,7 @@ jobs:
           COMMIT: ${{ steps.request.outputs.commit }}
         run: >
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY"
-          --body "Started. Waiting for the preview to deploy ${COMMIT:0:7}, then running it and dev. Log: $RUN_URL"
+          --body "Started: running the preview at ${COMMIT:0:7}, then dev. Log: $RUN_URL"
 
       - name: Run the preview, then dev, and compare
         env:
@@ -66,7 +66,7 @@ jobs:
           COMMIT: ${{ steps.request.outputs.commit }}
         run: |
           set +e
-          python -m runner --target "$TARGET" --expect-commit "$COMMIT" --run-name try
+          python -m runner --target "$TARGET" --run-name try
           if ls outputs/try/*/result.json > /dev/null 2>&1; then
             python -m runner --target dev --run-name baseline
             python -m runner.compare --baseline outputs/baseline --experiment outputs/try \
