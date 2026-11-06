@@ -1,4 +1,4 @@
-"""Typed shapes for what the runner reads (experiments, test cases, route replies) and writes (results)."""
+"""Typed shapes for what the runner reads (test cases, route replies) and writes (results)."""
 
 from enum import Enum
 from typing import Optional
@@ -6,18 +6,6 @@ from typing import Optional
 from pydantic import BaseModel, ConfigDict, Field, JsonValue
 
 from runner.constants import WEBSITE_CONCEPT_COUNT, WEBSITE_OBJECTIVE_COUNT
-
-
-class ExperimentSpec(BaseModel):
-    """experiments/<name>/experiment.yaml"""
-
-    model_config = ConfigDict(extra="forbid")
-
-    name: str = Field(min_length=1)
-    author: str = Field(min_length=1)
-    description: str = Field(min_length=1)
-    # Prompt map stations this experiment changes (for example "lesson-exercise"), shown in the report.
-    stations: list[str] = Field(default_factory=list)
 
 
 class LessonCase(BaseModel):
@@ -40,12 +28,14 @@ class LessonCase(BaseModel):
 
 
 class LessonStep(str, Enum):
+    COURSE = "course"
     UPLOAD = "upload"
     OBJECTIVES = "objectives"
     CONCEPTS = "concepts"
     SCAFFOLD = "scaffold"
     CREATE_LESSON = "create_lesson"
     GENERATE_CONTENT = "generate_content"
+    READ_LESSON = "read_lesson"
 
 
 # Route replies. Only the fields the next step needs are declared; the full reply is kept in StepRecord.
@@ -122,13 +112,44 @@ class SelectedObjective(BaseModel):
     text: str
 
 
-class TokenUsageRow(BaseModel):
-    """One token_usage document CollageAI writes for each AI call (db/models/token_usage.py)."""
+class CourseItem(BaseModel):
+    id: str = Field(alias="_id")
+    title: str
 
-    feature: str
-    model: Optional[str] = None
-    input_tokens: int = Field(default=0, alias="inputTokens")
-    output_tokens: int = Field(default=0, alias="outputTokens")
+
+class CoursesPage(BaseModel):
+    items: list[CourseItem]
+
+
+class CoursesReply(BaseModel):
+    data: CoursesPage
+
+
+class CreatedCourseReply(BaseModel):
+    data: CourseItem
+
+
+class ItemWithId(BaseModel):
+    """Any saved document; only its id is needed to fetch what belongs to it."""
+
+    id: str = Field(alias="_id")
+
+
+class JsonPage(BaseModel):
+    items: list[JsonValue]
+
+
+class LessonReply(BaseModel):
+    data: JsonValue
+
+
+class ConceptsPageReply(BaseModel):
+    data: JsonPage
+
+
+class AssessmentsReply(BaseModel):
+    # The route answers with a plain list, or a page when paging is asked for.
+    data: list[JsonValue] | JsonPage
 
 
 # Results
@@ -140,25 +161,20 @@ class StepRecord(BaseModel):
     reply: JsonValue
 
 
-class TokenUsageTotal(BaseModel):
-    feature: str
-    model: Optional[str]
-    calls: int
-    input_tokens: int
-    output_tokens: int
-
-
 class LessonRunResult(BaseModel):
     case_id: str
-    experiment: str
-    collage_ref: str
-    changed_files: list[str]
-    finished: bool
+    target: str
+    base_url: str
+    started_at: str
+    finished: bool = False
     failed_step: Optional[LessonStep] = None
     error: Optional[str] = None
+    course_id: Optional[str] = None
+    lesson_id: Optional[str] = None
+    lesson_url: Optional[str] = None
     steps: list[StepRecord] = Field(default_factory=list)
     stream_events: list[JsonValue] = Field(default_factory=list)
     lesson: JsonValue = None
     concepts: list[JsonValue] = Field(default_factory=list)
-    exercises: list[JsonValue] = Field(default_factory=list)
-    token_usage: list[TokenUsageTotal] = Field(default_factory=list)
+    exercises_by_concept: dict[str, list[JsonValue]] = Field(default_factory=dict)
+    formatives: list[JsonValue] = Field(default_factory=list)

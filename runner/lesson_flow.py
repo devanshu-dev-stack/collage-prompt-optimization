@@ -3,8 +3,9 @@
 import json
 from typing import Optional, TypeVar
 
-from pydantic import BaseModel, JsonValue, ValidationError
+from pydantic import BaseModel, JsonValue
 
+from runner.api_client import CollageClient
 from runner.constants import (
     CONCEPTS_PATH,
     CREATE_LESSON_PATH,
@@ -28,25 +29,19 @@ from runner.models import (
     StepRecord,
     UploadReply,
 )
+from runner.replies import check_reply
 from runner.website_mirror import keep_first, normalize_concepts, normalize_objectives, scaffold_for_generate
-from runner.wizard_client import WizardClient
 
 ReplyT = TypeVar("ReplyT", bound=BaseModel)
-SUCCESS_STATUSES = (200, 201)
 
 
 def _post_step(
-    client: WizardClient, result: LessonRunResult, step: LessonStep, path: str,
+    client: CollageClient, result: LessonRunResult, step: LessonStep, path: str,
     fields: dict[str, str], reply_model: type[ReplyT],
 ) -> ReplyT:
     reply = client.post_form(path, fields)
     result.steps.append(StepRecord(step=step, status_code=reply.status_code, seconds=reply.seconds, reply=reply.body))
-    if reply.status_code not in SUCCESS_STATUSES:
-        raise RunnerStepError(f"The {step.value} step answered with status {reply.status_code}.", step)
-    try:
-        return reply_model.model_validate(reply.body)
-    except ValidationError as error:
-        raise RunnerStepError(f"The {step.value} step's reply did not have the expected fields.", step) from error
+    return check_reply(reply, reply_model, step, f"The {step.value} step")
 
 
 def _with_custom_instructions(fields: dict[str, str], custom_instructions: Optional[str]) -> dict[str, str]:
@@ -57,7 +52,7 @@ def _with_custom_instructions(fields: dict[str, str], custom_instructions: Optio
 
 
 def run_lesson_case(
-    client: WizardClient, course_id: str, case: LessonCase, source_text: str, result: LessonRunResult,
+    client: CollageClient, course_id: str, case: LessonCase, source_text: str, result: LessonRunResult,
 ) -> str:
     """Run upload, objectives, concepts, plan, create and generate. Returns the new lesson id."""
     language = case.language
@@ -96,12 +91,13 @@ def run_lesson_case(
     shell = _post_step(client, result, LessonStep.CREATE_LESSON, CREATE_LESSON_PATH.format(course_id=course_id),
                        _with_custom_instructions(lesson_fields, case.custom_instructions), LessonShellReply)
     lesson_id = shell.data.id
+    result.lesson_id = lesson_id
 
     _generate_content(client, result, course_id, lesson_id)
     return lesson_id
 
 
-def _generate_content(client: WizardClient, result: LessonRunResult, course_id: str, lesson_id: str) -> None:
+def _generate_content(client: CollageClient, result: LessonRunResult, course_id: str, lesson_id: str) -> None:
     """The step that writes every block. Its events are kept so failures inside the stream show up."""
     stream = client.read_stream(STREAM_PATH.format(course_id=course_id, lesson_id=lesson_id))
     result.stream_events = stream.events

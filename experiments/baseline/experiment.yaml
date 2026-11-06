@@ -1,6 +1,0 @@
-# The prompts exactly as they are on CollageAI's dev branch (the commit in collage_ref.txt).
-# Every other experiment is compared against this one.
-name: baseline
-author: devanshu
-description: Today's dev prompts, unchanged.
-stations: []

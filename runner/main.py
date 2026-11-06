@@ -1,93 +1,88 @@
-"""Run every test case through the real lesson pipeline for one experiment and save the results.
+"""Run every test case through a CollageAI site (dev or a pull request preview) and save the results.
 
 Usage (from the repo root):
-    python -m runner --collage-dir ../CollageAI --experiment experiments/baseline
+    python -m runner --target pr-2101
+    python -m runner --target dev --case test-set/biology-photosynthesis
 """
 
 import argparse
 import os
 import sys
-import tempfile
 import traceback
 from datetime import UTC, datetime
 from pathlib import Path
 
-from runner.collage_env import apply_experiment, configure_environment, copy_server, load_app, read_collage_ref
-from runner.constants import DEFAULT_MONGO_URI, DEFAULT_OUTPUT_DIR, MONGO_URI_ENV, RESULT_FILE_NAME, RUN_DB_NAME_PREFIX
+from runner.api_client import CollageClient
+from runner.constants import DEFAULT_OUTPUT_DIR, LESSON_PAGE_PATH, RESULT_FILE_NAME, TEACHER_EMAIL_ENV, TEACHER_PASSWORD_ENV
+from runner.course_setup import find_or_create_course
 from runner.errors import RunnerInputError, RunnerStepError
 from runner.lesson_flow import run_lesson_case
-from runner.loaders import check_case_against_collage, find_case_dirs, load_case, load_experiment, read_source_text
+from runner.lesson_reader import read_lesson
+from runner.loaders import find_case_dirs, load_case, read_source_text
 from runner.models import LessonCase, LessonRunResult
-from runner.readback import read_lesson, read_token_usage
-from runner.seed import SeededTeacher, seed_course, seed_teacher
-from runner.wizard_client import WizardClient
+from runner.target import Target, resolve_target
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+RUN_STAMP_FORMAT = "%Y%m%d-%H%M%S"
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Run test cases through the CollageAI lesson pipeline.")
-    parser.add_argument("--collage-dir", type=Path, required=True, help="A git checkout of CollageAI.")
-    parser.add_argument("--experiment", type=Path, required=True, help="An experiment folder, e.g. experiments/baseline.")
+    parser = argparse.ArgumentParser(description="Run test cases through a CollageAI site's lesson pipeline.")
+    parser.add_argument("--target", required=True, help="'dev', or 'pr-<number>' for a pull request preview.")
     parser.add_argument("--case", type=Path, action="append", default=[], help="A test case folder. Repeat for more. Default: all.")
     parser.add_argument("--out", type=Path, default=REPO_ROOT / DEFAULT_OUTPUT_DIR, help="Where results are written.")
     return parser.parse_args()
 
 
-def _run_one_case(
-    client: WizardClient, teacher: SeededTeacher, case_dir: Path, case: LessonCase, result: LessonRunResult,
-) -> None:
-    course_id = seed_course(teacher, case)
+def _teacher_login() -> tuple[str, str]:
+    email = os.environ.get(TEACHER_EMAIL_ENV, "")
+    password = os.environ.get(TEACHER_PASSWORD_ENV, "")
+    if not email or not password:
+        raise RunnerInputError(f"Set {TEACHER_EMAIL_ENV} and {TEACHER_PASSWORD_ENV} to the test teacher's login.")
+    return email, password
+
+
+def _run_one_case(client: CollageClient, target: Target, case_dir: Path, case: LessonCase) -> LessonRunResult:
+    result = LessonRunResult(case_id=case.id, target=target.name, base_url=target.base_url,
+                             started_at=datetime.now(UTC).isoformat())
     try:
+        course_id = find_or_create_course(client, case)
+        result.course_id = course_id
         lesson_id = run_lesson_case(client, course_id, case, read_source_text(case_dir, case), result)
-        result.lesson, result.concepts, result.exercises = read_lesson(teacher.org_id, lesson_id)
+        # Teammates can open this page (logged in as the test teacher) to see the lesson as a teacher would.
+        result.lesson_url = target.base_url + LESSON_PAGE_PATH.format(course_id=course_id, lesson_id=lesson_id)
+        read_lesson(client, course_id, lesson_id, result)
         result.finished = True
     except RunnerStepError as error:
         result.failed_step = error.step
         result.error = str(error)
-    finally:
-        result.token_usage = read_token_usage(teacher.org_id, course_id)
+    return result
 
 
 def run(args: argparse.Namespace) -> int:
-    repo_root = REPO_ROOT
-    collage_dir = args.collage_dir.resolve()
-    experiment_dir = (repo_root / args.experiment).resolve()
-    experiment = load_experiment(repo_root, experiment_dir)
-    case_dirs = [(repo_root / c).resolve() for c in args.case] or find_case_dirs(repo_root)
-    cases = [(case_dir, load_case(repo_root, case_dir)) for case_dir in case_dirs]
+    target = resolve_target(args.target)
+    email, password = _teacher_login()
+    case_dirs = [(REPO_ROOT / c).resolve() for c in args.case] or find_case_dirs(REPO_ROOT)
+    cases = [(case_dir, load_case(REPO_ROOT, case_dir)) for case_dir in case_dirs]
     if not cases:
         raise RunnerInputError("No test cases found.")
-    collage_ref = read_collage_ref(collage_dir)
-    out_dir = args.out.resolve() / experiment.name
-    mongo_uri = os.environ.get(MONGO_URI_ENV, DEFAULT_MONGO_URI)
-    db_name = RUN_DB_NAME_PREFIX + datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
+    run_dir = args.out.resolve() / f"{target.name}-{datetime.now(UTC).strftime(RUN_STAMP_FORMAT)}"
 
-    with tempfile.TemporaryDirectory() as work:
-        work_dir = Path(work)
-        server_dir = copy_server(collage_dir, work_dir)
-        changed_files = apply_experiment(experiment_dir, work_dir)
-        configure_environment(mongo_uri, db_name)
-        app = load_app(server_dir, mongo_uri)
-        for _, case in cases:
-            check_case_against_collage(case)
-        teacher = seed_teacher()
-        client = WizardClient(app)
-        client.login(teacher.email, teacher.password)
+    client = CollageClient(target.base_url)
+    client.login(email, password)
+    finished = 0
+    for case_dir, case in cases:
+        result = _run_one_case(client, target, case_dir, case)
+        case_out = run_dir / case.id
+        case_out.mkdir(parents=True, exist_ok=True)
+        (case_out / RESULT_FILE_NAME).write_text(result.model_dump_json(indent=2), encoding="utf-8")
+        finished += int(result.finished)
+        status = "finished" if result.finished else f"FAILED at {result.failed_step}: {result.error}"
+        print(f"[{case.id}] {status}")
+        if result.lesson_url:
+            print(f"  lesson page: {result.lesson_url}")
 
-        finished = 0
-        for case_dir, case in cases:
-            result = LessonRunResult(case_id=case.id, experiment=experiment.name, collage_ref=collage_ref,
-                                     changed_files=changed_files, finished=False)
-            _run_one_case(client, teacher, case_dir, case, result)
-            case_out = out_dir / case.id
-            case_out.mkdir(parents=True, exist_ok=True)
-            (case_out / RESULT_FILE_NAME).write_text(result.model_dump_json(indent=2), encoding="utf-8")
-            finished += int(result.finished)
-            status = "finished" if result.finished else f"FAILED at {result.failed_step}: {result.error}"
-            print(f"[{case.id}] {status} -> {case_out / RESULT_FILE_NAME}")
-
-    print(f"{finished} of {len(cases)} case(s) finished. Database used: {db_name}")
+    print(f"{finished} of {len(cases)} case(s) finished. Results: {run_dir}")
     return 0 if finished == len(cases) else 1
 
 

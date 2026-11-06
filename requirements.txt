@@ -1,0 +1,4 @@
+# Same versions CollageAI pins in server/requirements.txt.
+requests==2.33.0
+pydantic==2.13.3
+PyYAML==6.0.3
