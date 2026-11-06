@@ -94,6 +94,7 @@ def check_judgement(raw: str) -> SideJudgement:
         problem_counts={check.value: counts.get(check.value, 0) for check in Check},
         examples_total=len(judgement.examples),
         examples_from_source=sum(1 for example in judgement.examples if example.from_source),
+        made_up_examples=sum(1 for example in judgement.examples if not example.from_source and example.source_had_one),
         problems=judgement.problems, examples=judgement.examples,
     )
 

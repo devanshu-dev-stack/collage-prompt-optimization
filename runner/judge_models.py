@@ -25,6 +25,9 @@ class Example(BaseModel):
     location: str = Field(description="Concept or exercise title, and block number")
     summary: str = Field(description="The example in a few words")
     from_source: bool
+    source_had_one: bool = Field(
+        description="Only for an example not from the source: true when the source has an example that fits the same concept"
+    )
 
 
 class LessonJudgement(BaseModel):
@@ -38,6 +41,8 @@ class SideJudgement(BaseModel):
     problem_counts: dict[str, int]
     examples_total: int
     examples_from_source: int
+    # Made up although the source had an example that fits the same concept.
+    made_up_examples: int
     problems: list[Problem]
     examples: list[Example]
 
