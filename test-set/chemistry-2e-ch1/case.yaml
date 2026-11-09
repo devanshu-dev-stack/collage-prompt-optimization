@@ -1,0 +1,8 @@
+# Chemistry 2e, Chapter 1 "Essential Ideas" (OpenStax, CC BY 4.0), uploaded as one PDF, with no custom instructions.
+id: chemistry-2e-ch1
+course_title: Chemistry 2e - Chapter 1
+subject: physical_sciences   # a CollageAI subject key (server/utils/subject_categories.py)
+difficulty: introductory     # a CollageAI course level (server/constants/course.py)
+language: en
+source_files:
+  - chemistry-2e-ch1.pdf
