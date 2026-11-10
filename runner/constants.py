@@ -50,12 +50,50 @@ LESSON_PAGE_PATH: Final[str] = "/courses/{course_id}/lessons/{lesson_id}"
 TEXT_MATERIAL_SOURCE: Final[str] = "text"
 UPLOAD_MATERIAL_SOURCE: Final[str] = "upload"
 UPLOAD_FILES_FIELD: Final[str] = "files"
-# File types a test case may upload, as the wizard accepts them (server/utils/file_handling).
+# File types a test case may upload, as the wizard accepts them (SUPPORTED_EXTENSIONS in
+# server/utils/file_handling/helpers/constants.py).
 UPLOAD_MIME_TYPES: Final[dict[str, str]] = {
     ".pdf": "application/pdf",
     ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     ".pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    ".txt": "text/plain",
+    ".md": "text/markdown",
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
 }
+# Sources the judge sees as pictures: they have no text to read, so it opens the image itself.
+IMAGE_SOURCE_SUFFIXES: Final[frozenset[str]] = frozenset({".png", ".jpg", ".jpeg"})
+TEXT_SOURCE_SUFFIXES: Final[frozenset[str]] = frozenset({".txt", ".md"})
+PDF_SUFFIX: Final[str] = ".pdf"
+
+# A person's own material from the Prompt Lab page, held to the lesson wizard's limits on CollageAI dev.
+# The test case is built in test-set/own-<material id>/, which git ignores: course material never
+# goes into a repo.
+OWN_CASE_PREFIX: Final[str] = "own-"
+MATERIAL_ID_PATTERN: Final[re.Pattern[str]] = re.compile(r"^m\d{10,16}$")
+# The page stores each file as an artifact asset; this is the id format the asset store gives.
+ASSET_ID_PATTERN: Final[str] = r"^[0-9a-f]{32}$"
+MAX_OWN_FILES: Final[int] = 10  # MAX_WIZARD_UPLOAD_FILES, server/constants/lesson_wizard/upload.py
+MAX_OWN_TOTAL_BYTES: Final[int] = 100 * 1024 * 1024  # MAX_WIZARD_UPLOAD_TOTAL_BYTES, same file
+# The platform allows 100 MB per file, but the page's asset store takes at most 20 MiB per file.
+MAX_OWN_FILE_BYTES: Final[int] = 20 * 1024 * 1024
+MAX_OWN_PDF_PAGES_TOTAL: Final[int] = 1_000  # MAX_MULTIMODAL_ATTACHMENT_PAGES_TOTAL, same file
+MAX_CUSTOM_INSTRUCTIONS_CHARS: Final[int] = 4_000  # CUSTOM_INSTRUCTIONS_MAX_LENGTH, server/constants/source_content.py
+MAX_COURSE_TITLE_CHARS: Final[int] = 255  # COURSE_TITLE_MAX_LENGTH, client/src/utils/constants.ts
+MAX_OWN_FILE_NAME_CHARS: Final[int] = 200
+# Files are saved as "<number>-<safe name><extension>"; the safe name keeps only a-z and 0-9 runs.
+SAFE_NAME_MAX_CHARS: Final[int] = 60
+SAFE_NAME_FALLBACK: Final[str] = "file"
+# Each file's first bytes must match its type, so a renamed file cannot pass as another type.
+FILE_SIGNATURES: Final[dict[str, tuple[bytes, ...]]] = {
+    ".pdf": (b"%PDF-",),
+    ".png": (b"\x89PNG\r\n\x1a\n",),
+    ".jpg": (b"\xff\xd8\xff",),
+}
+# pdftotext and pdfinfo (poppler) read PDFs; a stuck one is stopped after this many seconds.
+PDF_TOOL_TIMEOUT_SECONDS: Final[int] = 120
+PDF_PAGES_PATTERN: Final[re.Pattern[str]] = re.compile(r"^Pages:\s+(\d+)\s*$", re.MULTILINE)
 EXERCISE_MODE: Final[str] = "exercise"
 FORMATIVE_MODE: Final[str] = "formative"
 # The lesson page asks for up to 100 concepts in one page (client/src/hooks/use-lesson-with-content.ts).

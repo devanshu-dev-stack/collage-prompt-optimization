@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from runner.constants import CASE_FILE_NAME, TEST_SET_DIR, UPLOAD_MIME_TYPES
+from runner.constants import CASE_FILE_NAME, OWN_CASE_PREFIX, TEST_SET_DIR, UPLOAD_MIME_TYPES
 from runner.errors import RunnerInputError
 from runner.models import LessonCase
 
@@ -18,7 +18,9 @@ def require_inside(child: Path, parent: Path, label: str) -> Path:
 
 
 def find_case_dirs(repo_root: Path) -> list[Path]:
-    return sorted(path.parent for path in (repo_root / TEST_SET_DIR).glob(f"*/{CASE_FILE_NAME}"))
+    """The shared test cases. A person's own material runs only when named with --case."""
+    return sorted(path.parent for path in (repo_root / TEST_SET_DIR).glob(f"*/{CASE_FILE_NAME}")
+                  if not path.parent.name.startswith(OWN_CASE_PREFIX))
 
 
 def load_case(repo_root: Path, case_dir: Path) -> LessonCase:

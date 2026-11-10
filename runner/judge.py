@@ -18,6 +18,7 @@ from pathlib import Path
 
 from pydantic import JsonValue, ValidationError
 
+from runner.constants import IMAGE_SOURCE_SUFFIXES
 from runner.judge_models import CaseJudgement, Check, ExtraCheck, ExtraChecks, LessonJudgement, SideJudgement
 
 # The score starts here and loses points per problem, divided by the lesson's concept count so
@@ -44,6 +45,8 @@ RUBRIC_FILE = REPO_ROOT / "JUDGE.md"
 LONG_SOURCE_CHARS = 60_000
 # Each uploaded source's text sits next to it as "<file>.txt", made once with pdftotext.
 SOURCE_TEXT_SUFFIX = ".txt"
+SOURCE_CLOSE_TAG = "</source"
+SOURCE_CLOSE_TAG_ESCAPED = "< /source"
 # Block fields that hold ids, layout or scoring, not words a student reads.
 NON_CONTENT_KEYS = frozenset({
     "blockId", "id", "_id", "type", "isAiGenerated", "settings", "variant", "points", "calloutType",
@@ -95,8 +98,16 @@ def _labeled_sources(case_dir: Path, case: LessonCase) -> str:
     """Each uploaded source under its own name. A long one is named with the path of its text, to search."""
     blocks: list[str] = []
     for name in case.source_files:
+        if Path(name).suffix.lower() in IMAGE_SOURCE_SUFFIXES:
+            blocks.append(
+                f'<source name="{name}" image="true">\nThis source is a picture with no text file. Open '
+                f"{(case_dir / name).resolve()} with Read to see it, and judge claims about it against what it "
+                f"shows.\n</source>"
+            )
+            continue
         text_file = (case_dir / (name + SOURCE_TEXT_SUFFIX)).resolve()
-        text = text_file.read_text(encoding="utf-8")
+        # People's own files land here, so a closing tag inside one must not end its source early.
+        text = text_file.read_text(encoding="utf-8").replace(SOURCE_CLOSE_TAG, SOURCE_CLOSE_TAG_ESCAPED)
         if len(text) <= LONG_SOURCE_CHARS:
             blocks.append(f'<source name="{name}">\n{text}\n</source>')
         else:

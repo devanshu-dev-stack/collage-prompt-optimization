@@ -7,3 +7,5 @@ __pycache__/
 # Course materials stay out of the repo; test cases list them by name and they live on the machine that runs the case.
 test-set/**/*.pdf
 test-set/**/*.pdf.txt
+# A person's own material from the Prompt Lab page: files, their text and their custom instructions.
+test-set/own-*/
