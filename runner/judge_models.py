@@ -1,8 +1,9 @@
 """The judge's answer for one lesson (see JUDGE.md). Also used as the output schema of the judge call."""
 
+from dataclasses import dataclass
 from enum import Enum
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from runner.summary_models import CaseSummary
 
@@ -24,6 +25,14 @@ FIRST_CHECKS: list[str] = [
 ]
 
 
+class ScoreGroup(str, Enum):
+    """The score an extra check's problems count toward."""
+
+    SOURCE = "source"
+    # How well the lesson teaches, whatever its source says. Has its own score (JUDGE.md, "Score").
+    TEACHING = "teaching"
+
+
 class ExtraCheck(BaseModel):
     """A check someone added on the page and Claude accepted. Its points work like the built-in checks'."""
 
@@ -31,10 +40,37 @@ class ExtraCheck(BaseModel):
     name: str = Field(min_length=1, max_length=80)
     look_for: str = Field(min_length=15, max_length=600, description="What counts as a problem, in plain words")
     points: int = Field(ge=1, le=10)
+    score: ScoreGroup = ScoreGroup.SOURCE
 
 
-class ExtraChecks(BaseModel):
-    checks: list[ExtraCheck]
+class BuiltinCheckSetting(BaseModel):
+    """A built-in check as the page's lab/checks holds it. The team can change its points or wording."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    id: Check
+    name: str = Field(min_length=1, max_length=80)
+    look_for: str = Field(min_length=15, max_length=600)
+    points: int = Field(ge=1, le=10)
+    # True once the team changed the wording: the judge then gets look_for instead of the checklist's row.
+    edited: bool = False
+
+
+class ChecksConfig(BaseModel):
+    """The page's lab/checks: built-in check settings, the team's extra checks and the made-up example rule.
+
+    A file with only {"checks": [...]} still works: everything else keeps the checklist's defaults.
+    """
+
+    model_config = ConfigDict(extra="ignore")
+
+    builtin: list[BuiltinCheckSetting] = Field(default_factory=list)
+    checks: list[ExtraCheck] = Field(default_factory=list)
+    made_up_example_points: int | None = Field(default=None, ge=0, le=10)
+    # Set when the team rewrote what counts as a made-up example.
+    made_up_example_look_for: str | None = Field(default=None, min_length=15, max_length=600)
+    # Built-in checks the team removed: the judge is not asked for them and they cost nothing.
+    removed: list[Check] = Field(default_factory=list)
 
 
 class Problem(BaseModel):
@@ -78,8 +114,20 @@ class SideJudgement(BaseModel):
     # Follows the custom instructions, 0-100: 100 minus the points per problem, for the whole lesson.
     # None for lessons judged before this check existed.
     instructions_score: int | None = None
+    # Teaching quality, 0-100, from the teaching checks only. None when the lesson was judged on none.
+    teaching_score: int | None = None
     problems: list[Problem]
     examples: list[Example]
+
+
+@dataclass(frozen=True)
+class LessonScores:
+    """A lesson's scores, worked out by the code from its problem counts (JUDGE.md, "Score")."""
+
+    points_lost: int
+    score: int
+    instructions_score: int | None
+    teaching_score: int | None
 
 
 class CaseJudgement(BaseModel):

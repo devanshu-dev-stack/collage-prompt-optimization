@@ -9,7 +9,12 @@ the fixed scores of Current dev and Megan's PR (RELAY.md, "Fixed scores").
 
 - The source material, with each source's name when there is more than one.
 - The custom instructions.
-- Every concept block and every exercise block (text, quiz questions, answers, feedback).
+- The lesson's learning objectives.
+- Every concept block and every exercise block in the order a student meets them (text,
+  quiz questions, answers, feedback, table cells, graph values, mind-map links), then any
+  end-of-lesson quiz.
+- Each image as a file. Open an image with Read when a check depends on what it shows, for
+  example whether a visual fits the explanation around it or contradicts the source.
 
 ## Checks
 
@@ -66,7 +71,7 @@ by the judge itself. Each problem costs points:
 | Custom instructions not followed | 5 |
 | Made-up example (the source had one) | 3 |
 
-Each lesson gets two scores:
+Each lesson gets three scores:
 
 - **Source accuracy:** 100 minus the points lost per concept, so a long lesson is not punished
   for its length: a lesson with 6 concepts that loses 129 points scores 100 - 129 / 6 = 78.
@@ -74,8 +79,12 @@ Each lesson gets two scores:
 - **Follows instructions:** 100 minus 5 points for each "Custom instructions not followed"
   problem, for the whole lesson. It is kept apart so a long list of missing steps does not hide
   differences in accuracy.
+- **Teaching quality:** 100 minus the points lost per concept on the team's teaching checks
+  (the extra checks marked as teaching on the page's Checks tab). It is about how well the
+  lesson teaches, not about the source, so it is kept apart from source accuracy. A lesson
+  judged before the teaching checks existed has no teaching score.
 
-Neither goes below 0. The weights live in `runner/judge.py` (`SCORE_POINTS`). The leaderboard
+None goes below 0. The weights live in `runner/judge.py` (`SCORE_POINTS`). The leaderboard
 ranks by source accuracy.
 
 ## Comparing a try with the fixed scores

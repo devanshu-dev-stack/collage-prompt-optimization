@@ -127,3 +127,12 @@ TRUSTED_AUTHOR_ASSOCIATIONS: Final[frozenset[str]] = frozenset({"OWNER", "MEMBER
 SUMMARY_FILE_NAME: Final[str] = "summary.json"
 COMMENT_FILE_NAME: Final[str] = "comment.md"
 QUIZ_BLOCK_TYPE: Final[str] = "quiz"
+MIND_MAP_BLOCK_TYPE: Final[str] = "mind_map"
+
+# Lesson images the judge can open: each is downloaded once next to the judge's prompt.
+IMAGE_URL_KEY: Final[str] = "imageUrl"
+IMAGE_DOWNLOAD_TIMEOUT_SECONDS: Final[float] = 30.0
+IMAGE_MAX_BYTES: Final[int] = 10 * 1024 * 1024
+IMAGE_FILE_SUFFIXES: Final[dict[str, str]] = {
+    "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif",
+}

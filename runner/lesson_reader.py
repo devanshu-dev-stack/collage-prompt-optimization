@@ -39,5 +39,5 @@ def read_lesson(client: CollageClient, course_id: str, lesson_id: str, result: L
             "mode": EXERCISE_MODE, "withQuestions": "true",
         }, "Reading exercises")
     result.formatives = _assessments(
-        client, {"courseId": course_id, "lessonId": lesson_id, "mode": FORMATIVE_MODE}, "Reading formatives",
+        client, {"courseId": course_id, "lessonId": lesson_id, "mode": FORMATIVE_MODE, "withQuestions": "true"}, "Reading formatives",
     )
