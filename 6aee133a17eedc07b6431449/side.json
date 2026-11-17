@@ -8,7 +8,7 @@
     "off_source_content": 3,
     "ignores_custom_instructions": 20,
     "x1": 2,
-    "x2": 1,
+    "x2": 10,
     "x3": 1,
     "x4": 2,
     "x5": 0,
@@ -52,7 +52,7 @@
   "points_lost": 97,
   "score": 81,
   "instructions_score": 0,
-  "teaching_score": 82,
+  "teaching_score": 77,
   "problems": [
     {
       "check": "factual_error",
@@ -265,13 +265,6 @@
       "reason": "Terms such as 'agent trialogues' and 'MoFaCTS' are used without ever being explained to students."
     },
     {
-      "check": "x2",
-      "location": "Concept 4: Multidimensional Touchpoints in Adult Learning Ecologies / block 1",
-      "lesson_text": "Newcomers begin at the periphery and progressively move toward full participation within a community of practice",
-      "source_text": "not about the source",
-      "reason": "The same three situated-learning ideas (embedded in practice, peripheral participation, learning through people and tools) are taught again after Concept 1 block 1 already covered them."
-    },
-    {
       "check": "x3",
       "location": "Concept 4: Multidimensional Touchpoints in Adult Learning Ecologies / block 1",
       "lesson_text": "While all three scenarios target the same deliverable, they diverge fundamentally in **where** learning occurs, **who or what** guides instruction, and **how much cognitive agency** the learner exercises in the authentic work context.",
@@ -417,6 +410,76 @@
       "lesson_text": "Enables just-in-time retrieval and cognitive offloading",
       "source_text": "Learning in the flow of work means learning through real work, with other people, not just getting answers at the moment of need.",
       "reason": "The lesson never addresses the common mistake that an AI platform giving just-in-time answers (Case B) is learning in the flow of work; it presents just-in-time retrieval only as a benefit."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Sociocultural Foundations and Asset-Based Pedagogies / block 3",
+      "lesson_text": "Developed by Carol Lee (2001, 2006), this approach supports learners in transferring metalinguistic competence from cultural discourse styles (such as rap lyrics and oral narratives) to complex academic literary analysis.",
+      "source_text": "not about the source",
+      "reason": "The Cultural Modeling card explains again what the table in block 2 already said (using rap or signifying to decode literary devices), with no link back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Sociocultural Foundations and Asset-Based Pedagogies / block 3",
+      "lesson_text": "Formulated by Kris Gutiérrez (2008), third spaces are co-constructed hybrid social environments where students' informal repertoires and school discourses interact, fostering authentic critical inquiry.",
+      "source_text": "not about the source",
+      "reason": "The Third Space card defines the third space again right after the block 2 table defined it as a dialogic space mediating home knowledge with academic disciplines."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Architecture and Strategies for Knowledge Retention / block 1",
+      "lesson_text": "Educational practice has long been misled by the **spatial storage and search metaphor** (Roediger, 1980), which envisions the mind as a warehouse, file cabinet, or hard drive where experiences are recorded as exact copies and filed away for later retrieval.",
+      "source_text": "not about the source",
+      "reason": "Concept 1 block 1 already explained and rejected the mental file cabinet view of the mind, and Concept 2 explains the same rejected metaphor again from scratch without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Architecture and Strategies for Knowledge Retention / block 3",
+      "lesson_text": "High perceived fluency; immediate performance during practice appears rapid and error-free.",
+      "source_text": "not about the source",
+      "reason": "The table row on the learner's experience explains again the illusion of fluency and effortful practice that the block 2 callout had just explained."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Architecture and Strategies for Knowledge Retention / block 4",
+      "lesson_text": "Separating learning episodes by time intervals requires learners to re-engage with concepts after partial forgetting has occurred.",
+      "source_text": "not about the source",
+      "reason": "The Spaced Practice card gives the same definition and the same forgetting-then-rebuilding reason that the block 3 table row on spaced practice already gave."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Architecture and Strategies for Knowledge Retention / block 4",
+      "lesson_text": "Juxtaposing different categories or problem types within the same session enhances the learner's ability to discriminate between problem structures.",
+      "source_text": "not about the source",
+      "reason": "The Interleaved Category Practice card repeats the definition and the telling-apart reason that the block 3 table row on interleaved practice already explained."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Generative Learning Strategies and Model-Based Transfer / block 3",
+      "lesson_text": "Ionas et al. (2012) found that college students with strong background knowledge benefited substantially from self-explanation, whereas students with minimal prior knowledge experienced disrupted learning.",
+      "source_text": "not about the source",
+      "reason": "The callout explains again the same Ionas et al. (2012) finding that the block 2 table already gave for self-explanation, that low prior knowledge can overwhelm learners."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Generative Learning Strategies and Model-Based Transfer / block 4",
+      "lesson_text": "Learners infer unseen mechanisms to explain visible phenomena, such as Foldit players developing algorithmic 'recipes' for protein structures.",
+      "source_text": "not about the source",
+      "reason": "The Abductive Model Construction card defines abductive reasoning again after block 1 already defined it as forming the most plausible explanatory model for observed cues."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Multidimensional Touchpoints in Adult Learning Ecologies / block 1",
+      "lesson_text": "**Embedded in Practice**: Learning occurs through authentic tasks, physical tools, and real social interactions, rather than through abstracted simulations (Brown, Collins, & Duguid, 1989).",
+      "source_text": "not about the source",
+      "reason": "Concept 1 block 1 already explained Embedded in Practice with the same wording and citation, and Concept 4 explains it again in full instead of pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Multidimensional Touchpoints in Adult Learning Ecologies / block 1",
+      "lesson_text": "**Participation as Learning**: Newcomers begin at the periphery and progressively move toward full participation within a community of practice; this trajectory of legitimate peripheral participation *is* the learning process, not mere preparation for it (Lave & Wenger, 1991).",
+      "source_text": "not about the source",
+      "reason": "Concept 1 block 1 already explained legitimate peripheral participation (Lave & Wenger, 1991) as the learning itself, and Concept 4 explains it again in full."
     }
   ],
   "examples": [

@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 0,
     "x1": 0,
-    "x2": 2,
+    "x2": 6,
     "x3": 2,
     "x4": 1,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 84,
   "score": 86,
   "instructions_score": 100,
-  "teaching_score": 88,
+  "teaching_score": 86,
   "problems": [
     {
       "check": "factual_error",
@@ -116,20 +116,6 @@
       "lesson_text": "Flammability, acidity, heat of combustion, toxicity",
       "source_text": "not in source",
       "reason": "Heat of combustion is not among the source's chemical properties and is a new technical term the lesson never explains."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 6: Temperature Scales and Temperature Conversions / block 3",
-      "lesson_text": "Comparison of freezing and boiling points of water across Celsius, Fahrenheit, and Kelvin scales.",
-      "source_text": "not about the source",
-      "reason": "The table repeats, value for value, the freezing and boiling points already listed in block 1, without adding anything new."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 6: Temperature Scales and Temperature Conversions / block 4",
-      "lesson_text": "Multiply by $$\\frac{9}{5}$$ and add 32: $$T_{\\text{F}} = \\frac{9}{5} T_{\\text{C}} + 32$$",
-      "source_text": "not about the source",
-      "reason": "The Celsius-to-Fahrenheit equation and its 'multiply by 9/5 and add 32' wording repeat block 2 exactly."
     },
     {
       "check": "x3",
@@ -263,6 +249,48 @@
       "lesson_text": "The salt and water combine on a molecular level, but can be separated by physical means.",
       "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
       "reason": "Saying salt and water 'combine' invites the common confusion of a solution with a compound, and the lesson never explains how a uniform mixture differs from a compound."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Observed without altering chemical composition",
+      "source_text": "not about the source",
+      "reason": "The table's Definition, Substance Identity and Key Properties rows define physical and chemical properties and changes again, with mostly the same properties (boiling point, density, color, flammability, acidity, toxicity), right after block 1 already explained them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 3",
+      "lesson_text": "Density defines the ratio of a substance's mass to its volume.",
+      "source_text": "not about the source",
+      "reason": "Density as the ratio of mass to volume was already explained in Concept 2 / block 3 (\"their ratio—density—is a constant characteristic of that substance\"), and it is defined again here as new without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 1",
+      "lesson_text": "Every measurement in science involves an inherent degree of **uncertainty** originating from the limits of measuring instruments and human estimation.",
+      "source_text": "not about the source",
+      "reason": "Concept 3 / block 1 already explained that every measurement carries uncertainty from the measuring device (\"Uncertainty: The degree of precision inherent in the measurement device\"), and this block introduces it again as if new instead of building on that."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Temperature Conversions / block 1",
+      "lesson_text": "**Kelvin (K):** The SI unit for temperature; absolute zero is 0 K, water freezes at 273.15 K and boils at 373.15 K.",
+      "source_text": "not about the source",
+      "reason": "Concept 3 / block 1 already explained the kelvin as the SI base unit of temperature on an absolute scale where 0 K is the lowest temperature, and this block explains it again without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Temperature Conversions / block 3",
+      "lesson_text": "Comparison of freezing and boiling points of water across Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table gives exactly the same freezing and boiling points (0 and 100 °C, 32 and 212 °F, 273.15 and 373.15 K) that block 1 of the same concept already listed, adding nothing new."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Temperature Conversions / block 4",
+      "lesson_text": "Multiply by $$\\frac{9}{5}$$ and add 32: $$T_{\\text{F}} = \\frac{9}{5} T_{\\text{C}} + 32$$",
+      "source_text": "not about the source",
+      "reason": "The Celsius to Fahrenheit card explains the same equation and the same \"multiply by 9/5 and add 32\" step that the equation block (block 2) of this concept already gave."
     }
   ],
   "examples": [

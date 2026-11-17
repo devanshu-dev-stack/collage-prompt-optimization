@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 0,
     "x1": 2,
-    "x2": 2,
+    "x2": 8,
     "x3": 0,
     "x4": 1,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 101,
   "score": 83,
   "instructions_score": 100,
-  "teaching_score": 86,
+  "teaching_score": 83,
   "problems": [
     {
       "check": "factual_error",
@@ -195,13 +195,6 @@
       "reason": "By the source's rules the sum 12.37 g has four significant figures and dividing by the exact count 3 keeps four, so 4.123 g is correct and the key marks a right value wrong by applying the decimal-place rule to a division."
     },
     {
-      "check": "x2",
-      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 2",
-      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
-      "source_text": "not about the source",
-      "reason": "The density definition, this same equation and the 'density is intensive' point were already taught in Concept 3 block 3 ('Density: Ratio of Two Extensive Values') and are restated here."
-    },
-    {
       "check": "x9",
       "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 3",
       "lesson_text": "For irregularly shaped solids, the object is submerged in a known volume of liquid within a graduated cylinder.",
@@ -258,13 +251,6 @@
       "reason": "The equation is never connected to the reference points in blocks 1 and 5 (100 Celsius degrees span 180 Fahrenheit degrees, giving 9/5, and 0 °C equals 32 °F, giving +32), even though block 1 says conversions require understanding the scale intervals and zero points."
     },
     {
-      "check": "x2",
-      "location": "Concept 6: Temperature Measurement and Scale Conversions / block 5",
-      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
-      "source_text": "not about the source",
-      "reason": "The table repeats exactly the freezing and boiling points already listed in block 1 of the same concept and adds nothing new."
-    },
-    {
       "check": "factual_error",
       "location": "Exercise 6.1: Interpreting the mathematical structure and zero-point offsets connecting Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
       "lesson_text": "The numbers $$9$$ and $$5$$ are constants that set the proportional relationship between the scales.",
@@ -284,6 +270,62 @@
       "lesson_text": "Describes how Kelvin avoids negative values and is useful for calculations",
       "source_text": "not about the source",
       "reason": "Concept 6 never explains why the Kelvin scale is useful (no negative values, its use in gas laws), so the teaching before this question does not give students the knowledge it grades."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "lesson_text": "A tentative explanation of observations ... Guides experimentation and data gathering; easily modified",
+      "source_text": "not about the source",
+      "reason": "The hypothesis row explains hypothesis again in the same words as block 1 of this concept (\"a tentative, testable explanation of observations that acts as a guide for gathering and verifying data\"), so the student reads the same definition twice."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: States and Classification of Matter / block 4",
+      "lesson_text": "Molecules containing two or more distinct elements chemically combined in fixed numerical ratios, such as water",
+      "source_text": "not about the source",
+      "reason": "The compound card explains compounds again with the same defining trait and the same example that the mind map in block 3 already gave (\"Fixed Mass Ratios\", \"Water and Sucrose\")."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: States and Classification of Matter / block 5",
+      "lesson_text": "mixtures can vary widely in their relative proportions and can be separated back into pure components through purely physical means such as evaporation, filtration, or distillation.",
+      "source_text": "not about the source",
+      "reason": "The callout explains mixtures again, repeating block 4 (\"physically intermingled without chemical bonds, allowing separation via physical processes\") and the mind map's \"Variable Composition\" instead of pointing back to them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Chemical identity remains constant ... Produces one or more new substances",
+      "source_text": "not about the source",
+      "reason": "The table defines physical and chemical changes again, with the same kind of examples (melting, dissolving, combustion), right after block 1 already defined them (\"leaves its underlying chemical composition unchanged\", \"converted into new substances\")."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 1",
+      "lesson_text": "The ratio of an object's mass to its volume. Because density is an **intensive property**, it remains constant regardless of sample size",
+      "source_text": "not about the source",
+      "reason": "Density, and why it is an intensive property, is explained again here although Concept 3 block 3 already taught it (\"their ratio yields density ... density is an intensive property\"), with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 2",
+      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "The density equation is presented again as a new equation block, although Concept 3 block 3 already gave the same equation and block 1 of this concept just restated it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Measurement and Scale Conversions / block 1",
+      "lesson_text": "Temperature is an **intensive property** that measures the hotness or coldness of a substance, independent of the amount present.",
+      "source_text": "not about the source",
+      "reason": "Temperature as an intensive property was already taught in Concept 3 (block 3 lists temperature as intensive and block 4 uses it as the worked comparison), and this block explains it again instead of pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Measurement and Scale Conversions / block 5",
+      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table repeats exactly the freezing and boiling points of water on all three scales that block 1 of this concept already listed, adding nothing new."
     }
   ],
   "examples": [

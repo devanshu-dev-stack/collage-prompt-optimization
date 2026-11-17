@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 15,
     "x1": 3,
-    "x2": 2,
+    "x2": 7,
     "x3": 1,
     "x4": 2,
     "x5": 0,
@@ -52,7 +52,7 @@
   "points_lost": 90,
   "score": 78,
   "instructions_score": 25,
-  "teaching_score": 78,
+  "teaching_score": 74,
   "problems": [
     {
       "check": "ignores_custom_instructions",
@@ -237,20 +237,6 @@
       "reason": "'Extraneous cognitive load' is used here and in later cards and the mind map, but the lesson never defines it."
     },
     {
-      "check": "x2",
-      "location": "Concept 1: Situated Learning and Workplace Learning Ecologies / block 4",
-      "lesson_text": "Novices do not absorb abstract models in isolation; they begin at the periphery of practice (observing, conducting partial tasks) and move toward central mastery through authentic social contributions.",
-      "source_text": "not about the source",
-      "reason": "These cards explain legitimate peripheral participation and cognitive apprenticeship again, after the block 2 callout already did."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 4: Pedagogical Affordances, Universal Design, and AI Integration in Digital Learning / block 1",
-      "lesson_text": "**Core Principle**: Digital tools and AI must act as *connective tissue* and cognitive scaffolds within the learner’s social ecosystem, rather than functioning as stand-alone substitutes for human mentorship and collaborative practice.",
-      "source_text": "not about the source",
-      "reason": "This repeats the connective-tissue versus stand-in idea from Concept 1 block 5, and block 5 of this concept says it a third time."
-    },
-    {
       "check": "x3",
       "location": "Concept 2: Cognitive Strategies for Knowledge Retention Versus Generative Understanding / block 1",
       "lesson_text": "**Retention does not guarantee transfer**: As Koedinger et al. (2013) demonstrated, pedagogical strategies optimized purely for memory retention produce different cognitive outcomes than those structured for flexible, inferential transfer.",
@@ -382,6 +368,55 @@
       "lesson_text": "To prepare for her first deliverable, three alternative ecosystems are proposed:",
       "source_text": "In Case C Case Aʼs course ... In Case C Case Bʼs platform",
       "reason": "The lesson frames the course and the AI platform as weaker alternatives to people-centered learning and never says the source's Case C includes both, which leaves the likely misconception that formal courses or AI tools are the problem rather than nodes in an ecosystem."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Situated Learning and Workplace Learning Ecologies / block 4",
+      "lesson_text": "Novices do not absorb abstract models in isolation; they begin at the periphery of practice (observing, conducting partial tasks) and move toward central mastery through authentic social contributions.",
+      "source_text": "not about the source",
+      "reason": "The Legitimate Peripheral Participation card explains again what block 2 already explained (\"learning is the process of legitimate peripheral participation moving from peripheral tasks to the core of a community\") instead of pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Situated Learning and Workplace Learning Ecologies / block 4",
+      "lesson_text": "Tacit expertise cannot be transferred via lecture slides. It requires mentors to make thinking visible, externalize heuristic models, and gradually fade scaffolding as the apprentice develops autonomy.",
+      "source_text": "not about the source",
+      "reason": "The Cognitive Apprenticeship card explains again the block 2 point that \"both explicit and tacit knowledge travel through cognitive apprenticeships and developmental relationships\" (and the block 3 relational row \"Making expert thinking visible\"), so the same idea is taught a second time."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Strategies for Knowledge Retention Versus Generative Understanding / block 3",
+      "lesson_text": "Prompting learners with 'why' and 'how-what-if' questions rather than factual queries.",
+      "source_text": "not about the source",
+      "reason": "The Elaborative Interrogation card defines the strategy again right after the block 2 table already explained it as \"Generates causal links between isolated facts and prior schema through 'why' and 'how' inquiry\", citing the same study."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Strategies for Knowledge Retention Versus Generative Understanding / block 3",
+      "lesson_text": "Explaining reasoning step-by-step during problem solving. Novices who articulate the rationale of worked examples generate deeper conceptual understanding of complex systems, such as the human circulatory system (Chi et al., 1994).",
+      "source_text": "not about the source",
+      "reason": "The Self-Explanation card explains self-explanation again after the block 2 table already did (\"Mental model construction; learners articulate underlying principles and identify structural misconceptions\", same Chi et al., 1994 citation)."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Strategies for Knowledge Retention Versus Generative Understanding / block 4",
+      "lesson_text": "Research demonstrates that prior domain knowledge moderates self-explanation effectiveness (Ionas et al., 2012). Learners with sufficient domain foundations use self-explanation to build sophisticated mental models, but for novices lacking basic factual knowledge, unguided self-explanation impedes performance because they attempt to anchor new concepts in nonexistent or erroneous schemas.",
+      "source_text": "not about the source",
+      "reason": "The callout explains again the prior-knowledge limit that the block 2 table already gave for self-explanation (\"may impede learners with low prior knowledge (Ionas et al., 2012)\"), with the same citation."
+    },
+    {
+      "check": "x2",
+      "location": "Exercise 2.1: Applying generative elaboration and retention-oriented mechanisms across professional curriculum designs / block 1",
+      "lesson_text": "Retention-oriented mechanisms, such as retrieval practice and spaced repetition, strengthen memory traces and automate access to facts or procedures. In contrast, generative strategies—like elaborative interrogation, self-explanation, and learner-generated representations—require learners to actively integrate new information with prior knowledge, supporting transfer and adaptive expertise.",
+      "source_text": "not about the source",
+      "reason": "This exercise opens with a full paragraph that explains the retention-versus-generative distinction again, already taught in Concept 2 block 1 (\"retention-oriented mechanisms—which stabilize specific pathways and automate retrieval—and generative understanding strategies\"), instead of practicing it or pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances, Universal Design, and AI Integration in Digital Learning / block 1",
+      "lesson_text": "Digital tools and AI must act as *connective tissue* and cognitive scaffolds within the learner’s social ecosystem, rather than functioning as stand-alone substitutes for human mentorship and collaborative practice.",
+      "source_text": "not about the source",
+      "reason": "This \"Core Principle\" explains again, in a different concept, the idea Concept 1 block 5 already set out (\"Does the tool function as connective tissue that links learners to authentic communities and practices, or does it stand in for human relationships\") without pointing back to it."
     }
   ],
   "examples": [

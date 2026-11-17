@@ -8,7 +8,7 @@
     "off_source_content": 3,
     "ignores_custom_instructions": 0,
     "x1": 1,
-    "x2": 1,
+    "x2": 3,
     "x3": 2,
     "x4": 2,
     "x5": 0,
@@ -52,7 +52,7 @@
   "points_lost": 99,
   "score": 84,
   "instructions_score": 100,
-  "teaching_score": 86,
+  "teaching_score": 85,
   "problems": [
     {
       "check": "inexact_quote",
@@ -130,13 +130,6 @@
       "lesson_text": "Law of Conservation of Mass",
       "source_text": "not about the source",
       "reason": "The table uses a law and a theory (\"Atomic Theory of Matter\") as examples before the lesson introduces either one (conservation comes in Concept 2, atomic theory is never explained), so they cannot help students tell laws from theories."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 6: Temperature Scales and Interconversions / block 5",
-      "lesson_text": "Because the degree intervals are identical (100 divisions between the freezing and boiling points of water for both scales), the conversion simply shifts by the absolute zero offset:",
-      "source_text": "not about the source",
-      "reason": "The Celsius-to-kelvin equation and its reason were already given in block 4 (\"Because 1 K equals the magnitude of 1 °C, converting from Celsius to Kelvin requires only adding an offset\"), so the same content is repeated."
     },
     {
       "check": "x3",
@@ -284,6 +277,27 @@
       "lesson_text": "A student weighs a rock and finds it is 2 kilograms. What is the mass of the rock?",
       "source_text": "not about the source",
       "reason": "Right after teaching that weight is a force and not mass, the item treats \"weighs ... 2 kilograms\" as the mass without comment, which reinforces the mass-weight confusion."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "lesson_text": "Can be modified as new experimental evidence arises",
+      "source_text": "not about the source",
+      "reason": "Block 1 already defined hypothesis, law and theory (a law 'summarizes a vast body of experimental observations', a theory is 'repeatedly verified' but 'open to refinement if new experimental evidence emerges'), and this table explains the same three ideas again in its 'Core Question', 'Empirical Basis' and 'Adaptability' rows instead of pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Observed without altering chemical composition",
+      "source_text": "not about the source",
+      "reason": "The 'Defining Criterion' and 'Sample Dependence' columns explain again all six ideas that block 1 just defined (physical and chemical properties, physical and chemical changes, extensive and intensive properties), so the student reads the same definitions twice in a row."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Interconversions / block 5",
+      "lesson_text": "Because the degree intervals are identical (100 divisions between the freezing and boiling points of water for both scales), the conversion simply shifts by the absolute zero offset:",
+      "source_text": "not about the source",
+      "reason": "The Celsius-to-Kelvin equation and its reason were already explained in block 4 ('Because 1 K equals the magnitude of 1 °C, converting from Celsius to Kelvin requires only adding an offset'), and this block explains and writes out the same equation again instead of pointing back."
     }
   ],
   "examples": [

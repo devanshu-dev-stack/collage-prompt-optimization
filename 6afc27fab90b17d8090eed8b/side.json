@@ -8,7 +8,7 @@
     "off_source_content": 3,
     "ignores_custom_instructions": 19,
     "x1": 3,
-    "x2": 1,
+    "x2": 5,
     "x3": 1,
     "x4": 2,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 90,
   "score": 85,
   "instructions_score": 5,
-  "teaching_score": 82,
+  "teaching_score": 80,
   "problems": [
     {
       "check": "ignores_custom_instructions",
@@ -265,13 +265,6 @@
       "reason": "'Germane cognitive load' is never taught in Concept 6, which only mentions limited working memory, so learners meet the term undefined."
     },
     {
-      "check": "x2",
-      "location": "Concept 6: Evidence-Based Instructional Strategies and Multimedia Learning Design / block 4",
-      "lesson_text": "must determine whether the tool builds an internal cognitive capacity or merely offloads it",
-      "source_text": "not about the source",
-      "reason": "Concept 4's callout already taught the same idea ('distinguish between tools that scaffold executive function and tools that replace it'), so the build-or-replace idea is repeated across two concepts."
-    },
-    {
       "check": "x3",
       "location": "Concept 4: Executive Function, Reconstructive Memory, and Self-Regulated Learning / block 1",
       "lesson_text": "For education systems and workforce development programs, an instructional design that micromanages every task step deprives learners of the very conditions required to exercise and strengthen autonomous cognitive regulation.",
@@ -445,6 +438,41 @@
       "lesson_text": "Designing effective workforce development requires looking past surface delivery media (courses vs. platforms vs. coaching) to analyze structural alignment.",
       "source_text": "Learning in the flow of work means learning through real work, with other people, not just getting answers at the moment of need.",
       "reason": "The common belief that learning in the flow of work just means getting answers when needed, which AI tools encourage, is never addressed even though the slides name it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: The Visible-to-Invisible Spectrum of Artificial Intelligence in Education / block 4 (card 1, Choosing)",
+      "lesson_text": "Determines the sequence of content encountered next, such as recommended learning modules or autoplays. While maximizing engagement, it obscures the criteria governing which topics or perspectives are excluded.",
+      "source_text": "not about the source",
+      "reason": "Choosing was already explained in the block 2 table (\"Algorithmic curation of subsequent content and priority\", \"Learners see what is prioritized but remain unaware of excluded perspectives.\"), and this card explains the same function and the same hidden-exclusion risk again without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: The Visible-to-Invisible Spectrum of Artificial Intelligence in Education / block 4 (card 2, Judging)",
+      "lesson_text": "Assesses and scores text or problem-solving behavior. Automated evaluators rely on predefined rubrics that can penalize unconventional reasoning, linguistic dialect variations, and authentic creative variance.",
+      "source_text": "not about the source",
+      "reason": "Judging was already explained in the block 2 table (\"Evaluates, scores, or screens human performance\", \"Relies on rigid standardized rubrics; penalizes non-normative expressions.\"), and this card explains the same function and the same rubric risk again."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: The Visible-to-Invisible Spectrum of Artificial Intelligence in Education / block 4 (card 3, Watching)",
+      "lesson_text": "Continuously records user behaviors, attention flags, and network usage. Built to offer safety or administrative oversight, it generates longitudinal digital footprints that students cannot readily inspect or expunge.",
+      "source_text": "not about the source",
+      "reason": "Watching was already explained in the block 2 table (\"Ambient surveillance of telemetry and activity logs\", \"Trades continuous oversight for student privacy; constructs enduring compliance records.\"), and this card explains the same tracking and lasting-record point again."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: The Visible-to-Invisible Spectrum of Artificial Intelligence in Education / block 4 (card 4, Sorting)",
+      "lesson_text": "Assigns learners to academic tracks, risk categories, or remedial tiers based on predictive thresholds. Risks institutionalizing static labels before human educators interact directly with the learner.",
+      "source_text": "not about the source",
+      "reason": "Sorting was already explained in the block 2 table (\"Classifies individuals to govern subsequent access\", \"Creates deterministic labels; educators encounter institutional flags before knowing the learner.\"), and this card explains the same grouping and label-before-learner risk again."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Evidence-Based Instructional Strategies and Multimedia Learning Design / block 4",
+      "lesson_text": "When evaluating an instructional technology, intelligent tutoring platform, or AI tool, curriculum directors and L&D leaders must determine whether the tool builds an internal cognitive capacity or merely offloads it. If an algorithm performs the synthesis, inferential reasoning, or problem representation for the student, it risks atrophy of foundational competence.",
+      "source_text": "not about the source",
+      "reason": "The build-versus-replace test for AI tools was already explained in Concept 4 block 4 (\"decision-makers must distinguish between tools that scaffold executive function and tools that replace it\" ... \"it risks inducing cognitive dependency\"), and this callout explains it again as a new framework without pointing back."
     }
   ],
   "examples": [

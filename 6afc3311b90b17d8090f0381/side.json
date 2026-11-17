@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 0,
     "x1": 1,
-    "x2": 1,
+    "x2": 4,
     "x3": 0,
     "x4": 2,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 119,
   "score": 76,
   "instructions_score": 100,
-  "teaching_score": 85,
+  "teaching_score": 83,
   "problems": [
     {
       "check": "factual_error",
@@ -109,13 +109,6 @@
       "lesson_text": "Pure substances made of a single type of atom that cannot be decomposed into simpler substances by any chemical transformation",
       "source_text": "not about the source",
       "reason": "Elements, compounds and mixtures are told apart by chemical versus physical change, but the lesson only defines chemical and physical changes later, in Concept 3."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 3",
-      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
-      "source_text": "not about the source",
-      "reason": "The density equation was already given and explained in Concept 3 (blocks 3 and 4), and Concept 5 presents it again as new without linking back."
     },
     {
       "check": "x4",
@@ -256,6 +249,34 @@
       "lesson_text": "Density is unaffected",
       "source_text": "not about the source",
       "reason": "Both questions offer \"Density stays the same\" and \"Density is unaffected\", which mean the same thing, so both can be ruled out together and only two real choices remain."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 3",
+      "lesson_text": "Explains why or how natural phenomena occur",
+      "source_text": "not about the source",
+      "reason": "The table defines hypothesis, law and theory again right after block 1 defined a hypothesis as a tentative explanation and block 2 explained that a law says what happens while a theory explains why, so the student reads the same distinction a third time without anything new."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Observable without altering composition",
+      "source_text": "not about the source",
+      "reason": "The table defines physical property, physical change, chemical property and chemical change again, restating the definitions block 1 of the same concept had just given in full."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 2",
+      "lesson_text": "This table summarizes SI base units and examples of derived units used in chemistry.",
+      "source_text": "not about the source",
+      "reason": "The table lists the meter, kilogram, second, kelvin and mole with their symbols again, repeating the list of SI base units that block 1 of the same concept had just given."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 3",
+      "lesson_text": "Density is calculated as mass divided by volume.",
+      "source_text": "not about the source",
+      "reason": "The density equation is taught again as if new, although Concept 3 block 4 already explained density as mass divided by volume with the formula density = m/V, and this block does not point back to it."
     }
   ],
   "examples": [

@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 0,
     "x1": 1,
-    "x2": 1,
+    "x2": 4,
     "x3": 1,
     "x4": 2,
     "x5": 0,
@@ -52,7 +52,7 @@
   "points_lost": 94,
   "score": 81,
   "instructions_score": 100,
-  "teaching_score": 85,
+  "teaching_score": 83,
   "problems": [
     {
       "check": "factual_error",
@@ -102,13 +102,6 @@
       "lesson_text": "Exact numbers have an infinite number of significant figures",
       "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
       "reason": "The term \"significant figures\" is used here and in the rules table that follows, but the lesson never defines it, yet Exercise 4.2 later asks students to name it from its definition."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 3",
-      "lesson_text": "Density is a derived property defined as the mass of an object divided by its volume.",
-      "source_text": "not about the source",
-      "reason": "The same density = mass / volume equation was already presented in Concept 2, block 3, so it is taught twice in two concept blocks."
     },
     {
       "check": "x3",
@@ -249,6 +242,34 @@
       "lesson_text": "Explain how the factor-label method helps prevent mistakes when converting units between metric and imperial systems. Give an example involving temperature or length.",
       "source_text": "Consequently, converting a temperature from one of these scales into the other requires more than simple multiplication by a conversion factor, m; it also must take into account differences in the scales’ zero points (b).",
       "reason": "Asking for a factor-label example with temperature invites the common mistake of converting temperature scales with a conversion factor alone, which Concept 5 itself says does not work."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "A measurable attribute inherent to the material that does not alter chemical identity upon evaluation, such as boiling point, color, or electrical conductivity.",
+      "source_text": "not about the source",
+      "reason": "The cards define physical property, physical change, chemical property and chemical change all over again, with the same examples, right after block 1 of the same concept already explained all four, and they do not point back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 3",
+      "lesson_text": "Density is a derived property defined as the mass of an object divided by its volume.",
+      "source_text": "not about the source",
+      "reason": "The density equation and its definition were already taught in Concept 2 block 3 (\"their ratio—**density** ($$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$$)—is an intensive property\"), and this block presents it again as new without referring back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 5",
+      "lesson_text": "Accuracy gauges closeness to the true reference mark, while precision reflects the reproducibility of repeated trials.",
+      "source_text": "not about the source",
+      "reason": "These cards explain exact versus inexact numbers, accuracy versus precision, and the rules for significant figures in addition and multiplication again, all of which blocks 1 and 4 of the same concept already explained in full."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 3",
+      "lesson_text": "**Kelvin scale (K):** The official SI unit of temperature. It is an **absolute temperature scale** where 0 K represents absolute zero (the lowest theoretical temperature achievable).",
+      "source_text": "not about the source",
+      "reason": "Concept 3 block 1 already explained the kelvin as the SI base unit of absolute temperature where 0 K is the lowest theoretical temperature achievable, and this block explains it again in nearly the same words without pointing back."
     }
   ],
   "examples": [

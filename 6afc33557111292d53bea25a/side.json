@@ -8,7 +8,7 @@
     "off_source_content": 5,
     "ignores_custom_instructions": 17,
     "x1": 2,
-    "x2": 2,
+    "x2": 6,
     "x3": 2,
     "x4": 2,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 113,
   "score": 81,
   "instructions_score": 15,
-  "teaching_score": 84,
+  "teaching_score": 82,
   "problems": [
     {
       "check": "factual_error",
@@ -272,20 +272,6 @@
       "reason": "Stereotype threat is used here but not defined until Concept 4, block 3."
     },
     {
-      "check": "x2",
-      "location": "Concept 3: Knowledge Architecture, Inferential Reasoning, and Conceptual Models / block 1",
-      "lesson_text": "Neurocognitive evidence reveals that this occurs through the continuous reactivation and reconsolidation of memory traces: when new information overlaps with prior elements, the brain establishes relational links that transform individual episodes into generalized semantic structures.",
-      "source_text": "not about the source",
-      "reason": "This repeats Concept 2's material on reconsolidation, relational binding and episodes becoming semantic memory, rather than building on it."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 5: The Functional and Ethical Spectrum of AI in Education / block 1",
-      "lesson_text": "Connects symbolic, conceptual, and dynamic models (e.g., simulating circuit behaviors while displaying underlying mathematical formulas), cultivating conceptual flexibility.",
-      "source_text": "not about the source",
-      "reason": "The same linked-representation circuit simulation was already taught in Concept 3's table ('Electronic circuit simulation via linked equations, diagrams, and physical outputs')."
-    },
-    {
       "check": "x3",
       "location": "Exercise 2.1: Deconstructing memory reconstruction and environmental cueing in adult skill retrieval / block 3",
       "lesson_text": "Analyze experience-dependent neural tuning processes",
@@ -445,6 +431,48 @@
       "lesson_text": "In robust workplace learning, digital platforms and AI tools serve as connective nodes that scaffold practice and amplify human interaction",
       "source_text": "Learning in the flow of work means learning through real work, with other people, not just getting answers at the moment of need.",
       "reason": "The lesson never warns against the predictable mistake the slides address, treating instant AI answers at the moment of need as learning in the flow of work; its Self-Paced card even frames learning as filling 'a specific factual gap'."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Developmental Neurobiology and Dynamic Memory Systems / block 5",
+      "lesson_text": "Educational leaders and instructional designers must recognize that a single isolated assessment measures cue compatibility and contextual performance at one snapshot in time, rather than a permanent ceiling on a learner's cognitive capability.",
+      "source_text": "not about the source",
+      "reason": "Block 3 of the same concept already explained that \"Failure to retrieve a concept during a formal assessment reflects a mismatch in retrieval cues rather than an intrinsic absence of knowledge\", and this callout explains the same point again in new words instead of building on it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Knowledge Architecture, Inferential Reasoning, and Conceptual Models / block 1",
+      "lesson_text": "Neurocognitive evidence reveals that this occurs through the continuous reactivation and reconsolidation of memory traces: when new information overlaps with prior elements, the brain establishes relational links that transform individual episodes into generalized semantic structures.",
+      "source_text": "not about the source",
+      "reason": "Concept 2 already explained reconsolidation (block 3) and how relational binding links features and how semantic memory is abstracted away from specific episodes (block 4), and this sentence explains that process again as new evidence without pointing back to Concept 2."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Knowledge Architecture, Inferential Reasoning, and Conceptual Models / block 2",
+      "lesson_text": "Infers underlying causal structures or explanatory processes from incomplete data.",
+      "source_text": "not about the source",
+      "reason": "The table defines abductive, inductive and deductive reasoning and model-based simulation again (with the same geometry-theorem and thermostat and flat-disk examples), although block 1 of the same concept had just defined each of them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: The Functional and Ethical Spectrum of AI in Education / block 3",
+      "lesson_text": "Invisible AI tools do not announce their presence; students and educators simply encounter their consequences.",
+      "source_text": "not about the source",
+      "reason": "Block 1 already explained that with invisible AI learners and instructors \"simply encounter the systemic consequences of its decisions\", and block 2 already gave the labeling risk, so the callout explains both points again instead of only adding the feedback-loop idea."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Evidence-Centered Instructional Design and Assessment / block 2",
+      "lesson_text": "Mixing contrasting case problems to train learners in structural discrimination and adaptive selection of mathematical or diagnostic procedures.",
+      "source_text": "not about the source",
+      "reason": "Three of the four cards (spaced retrieval, interleaving, generative explanation) explain again the strategies block 1 had just explained, for example block 1 already said interleaving \"trains learners to identify deep structural differences and select appropriate strategies\"."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Evidence-Centered Instructional Design and Assessment / block 4",
+      "lesson_text": "When appraising instructional software, curriculum designs, or digital platforms, education leaders must evaluate whether the tool builds an internal cognitive capacity or silently replaces it.",
+      "source_text": "not about the source",
+      "reason": "Concept 5 block 4 already explained the adopt, adapt or reject lens of capacity building versus cognitive replacement and learner agency, and this callout explains the same lens again in a different concept without pointing back to it."
     }
   ],
   "examples": [

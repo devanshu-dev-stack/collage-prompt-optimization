@@ -8,7 +8,7 @@
     "off_source_content": 3,
     "ignores_custom_instructions": 20,
     "x1": 0,
-    "x2": 2,
+    "x2": 7,
     "x3": 1,
     "x4": 2,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 99,
   "score": 84,
   "instructions_score": 0,
-  "teaching_score": 84,
+  "teaching_score": 82,
   "problems": [
     {
       "check": "ignores_custom_instructions",
@@ -279,20 +279,6 @@
       "reason": "The slides pose AI's effect on adult expertise as an open emerging question, but the lesson states a firm conclusion that such tools prevent far transfer."
     },
     {
-      "check": "x2",
-      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
-      "lesson_text": "Spaced scheduling and interleaved practice increase immediate training errors but establish robust retrieval cues",
-      "source_text": "not about the source",
-      "reason": "This repeats Concept 2's table row that spacing and interleaved retrieval practice stabilize memory against interference."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
-      "lesson_text": "Workplace cultures that treat mistakes as analytical feedback rather than infractions",
-      "source_text": "not about the source",
-      "reason": "This repeats Concept 3's mastery climate, where errors are 'Informative feedback; natural part of learning' and mistakes are 'valuable diagnostic feedback'."
-    },
-    {
       "check": "x3",
       "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 1",
       "lesson_text": "This neurocognitive scaffolding allows experienced professionals to maintain high-level real-world performance by substituting accumulated knowledge frameworks for raw processing speed.",
@@ -452,6 +438,55 @@
       "lesson_text": "provides synchronized captions for narration",
       "source_text": "Redundancy Principle. People learn better from graphics and narration than from the combination of graphics, narration, and on-screen text.",
       "reason": "Concept 5 warns against duplicating narration with on-screen text, yet this solution adds captions as evidence-based design; the lesson never explains when accessibility captions are worth that cost, which leaves a predictable confusion in place."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Architecture: Memory Reconstruction and Executive Function / block 3",
+      "lesson_text": "Active reconstruction triggered by context, expectations, and present retrieval cues.",
+      "source_text": "not about the source",
+      "reason": "The table explains the storage-locker view versus memory reconstruction, cue-based recall and sleep consolidation again, though block 1 of the same concept already explained them (\"storage locker\", \"Consolidation\", \"Cue-Dependent Retrieval\"), and it does not point back to that explanation."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "lesson_text": "Background algorithms that score essays, flag network keystrokes, track physical presence, or assign students to intervention groups. The learner rarely sees the scoring rubric or decision tree, encountering only the consequential administrative label.",
+      "source_text": "not about the source",
+      "reason": "The cards explain the visible-to-invisible tiers again with the same examples and the same point about lost agency that block 1 already gave (for example its \"Invisible AI (Ambient & Systemic)\" bullet on screening assignments, flagging behavior and assigning students to tracks)."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "Minimal: Algorithm decides outcomes without user awareness",
+      "source_text": "not about the source",
+      "reason": "The \"Learner Agency & Visibility\" column explains the spectrum tiers and how learner agency drops along them a third time, after the block 1 text and the block 2 cards already explained it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Evidence-Based Instructional Design: Multimedia Learning and Universal Design / block 1",
+      "lesson_text": "Working memory possesses a strictly limited capacity, operating through two partially independent processing streams",
+      "source_text": "not about the source",
+      "reason": "Working memory's limited capacity and the overload it causes were already explained in Concept 2 block 1 (\"Working Memory Bottlenecks\"), and this block explains them again as if new instead of pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 2",
+      "lesson_text": "Reading industry journals, engaging in peer networks, listening to specialized podcasts, or self-guided exploration.",
+      "source_text": "not about the source",
+      "reason": "The table sorts again the same places adults learn at work (required compliance courses, outside podcasts and networks, shadowing, communities of practice with psychological safety) that the six-touchpoint table in Concept 1 block 3 already explained, without linking back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Spaced scheduling and interleaved practice increase immediate training errors but establish robust retrieval cues and cognitive flexibility required for sustained job execution.",
+      "source_text": "not about the source",
+      "reason": "Spaced and interleaved practice was already explained in Concept 2 block 3 (\"Spacing and interleaved retrieval practice stabilize neural pathways against interference.\"), and this card explains it again without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Workplace cultures that treat mistakes as analytical feedback rather than infractions promote deeper exploration, higher intrinsic motivation, and stronger problem-solving schemas.",
+      "source_text": "not about the source",
+      "reason": "Treating errors as useful feedback in a mastery climate was already explained in Concept 3 (block 2 table on classroom and organizational climate: \"Informative feedback; natural part of learning\", and the block 4 callout), and this card explains it again without pointing back."
     }
   ],
   "examples": [

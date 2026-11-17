@@ -8,7 +8,7 @@
     "off_source_content": 1,
     "ignores_custom_instructions": 0,
     "x1": 1,
-    "x2": 3,
+    "x2": 8,
     "x3": 1,
     "x4": 1,
     "x5": 0,
@@ -52,7 +52,7 @@
   "points_lost": 50,
   "score": 90,
   "instructions_score": 100,
-  "teaching_score": 84,
+  "teaching_score": 81,
   "problems": [
     {
       "check": "x1",
@@ -139,13 +139,6 @@
       "reason": "The Precision card's image (image-10) shows darts scattered over different parts of the board rather than grouped together, so it does not show repeated results that agree."
     },
     {
-      "check": "x2",
-      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
-      "lesson_text": "Quantities defined by convention or whole-number counts that introduce zero uncertainty into scientific computations.",
-      "source_text": "not about the source",
-      "reason": "Exact numbers are already explained in block 1 ('Values known with complete certainty') and again in the block 5 callout, and this card repeats them inside a set about measurement quality."
-    },
-    {
       "check": "off_source_content",
       "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 5",
       "lesson_text": "When solving multi-step mathematical problems, carry extra digits throughout all intermediate calculation steps and round only at the final result. Rounding intermediate steps prematurely introduces cumulative round-off error.",
@@ -165,13 +158,6 @@
       "lesson_text": "The calculator gives a raw volume value of 694.975 mm³. ... The reported volume is 695 mm³ (rounded to three significant figures).",
       "source_text": "not in source",
       "reason": "125.6 mm × π × (8.40 mm)²/4 is about 6960 mm³ (6.96 × 10³ mm³), so the given raw value and reported answer are off by about a factor of ten, and the grading criteria in block 3 repeat the wrong value."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 2",
-      "lesson_text": "Density is an intensive property defined as the ratio of an object's mass to its volume.",
-      "source_text": "not about the source",
-      "reason": "Concept 2 block 3 already defines density as 'An intrinsic property determined by the ratio of mass to volume', so the same definition is taught again in Concept 4."
     },
     {
       "check": "x4",
@@ -202,13 +188,6 @@
       "reason": "The source does not say motion stops, and well-established physics holds that particles keep a minimum (zero-point) motion even at absolute zero, so the claim teaches a common misconception."
     },
     {
-      "check": "x2",
-      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 3",
-      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
-      "source_text": "not about the source",
-      "reason": "The table repeats exactly the freezing and boiling points already listed in block 1 (0/100 °C, 32/212 °F, 273.15/373.15 K) and adds nothing new."
-    },
-    {
       "check": "x3",
       "location": "Concept 5: Temperature Scales and Linear Interconversions / block 4",
       "lesson_text": "To convert Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add 32.",
@@ -228,6 +207,62 @@
       "lesson_text": "A thermometer reads $$0\\ ^\\circ\\text{C}$$. What is this temperature in Kelvin? / 273 K",
       "source_text": "Convert 50 °F to °C and K. Answer: 10 °C, 280 K",
       "reason": "The key is '273.15 K', but the distractor '273 K' is also correct, and by the lesson's own addition rule 0 °C + 273.15 rounds to 273 K, so the question has two defensible answers."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Classification and Nature of Matter / block 5",
+      "lesson_text": "A compound is not simply a blend of elements—its constituent atoms are chemically bonded in fixed ratios, giving the compound properties entirely distinct from those of the uncombined elements. In contrast, mixtures contain substances combined in variable proportions that retain their individual identities and can be separated purely by physical means.",
+      "source_text": "not about the source",
+      "reason": "The callout explains again the compound-versus-mixture difference that the table in block 4 just set out (\"Two or more elements bonded in fixed ratios\", \"Separated by physical processes\"), without pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Changes state or form; no new substances form",
+      "source_text": "not about the source",
+      "reason": "The table's \"Defining Feature\" column explains again all four terms (physical property, physical change, chemical property, chemical change) that block 1 has just defined, instead of only adding the new examples."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Quantities defined by convention or whole-number counts that introduce zero uncertainty into scientific computations.",
+      "source_text": "not about the source",
+      "reason": "The \"Exact Standards\" card explains exact numbers again, although block 1 already explained that they come from direct counting or defined quantities and carry no uncertainty."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 5",
+      "lesson_text": "exact numbers (such as definition factors like 100 cm / 1 m or integers from direct counting) have an infinite number of significant figures",
+      "source_text": "not about the source",
+      "reason": "The callout explains exact numbers a third time in this concept (where they come from and their infinite significant figures), repeating block 1 instead of only pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 1",
+      "lesson_text": "**Volume** measures the amount of three-dimensional space an object occupies.",
+      "source_text": "not about the source",
+      "reason": "Volume was already explained in Concept 2, block 3 (\"Quantifies the three-dimensional space occupied\"), and is explained again here in a different concept with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 2",
+      "lesson_text": "Density is an intensive property defined as the ratio of an object's mass to its volume.",
+      "source_text": "not about the source",
+      "reason": "Density as an intensive property equal to mass over volume was already explained in Concept 2, block 3 (\"An intrinsic property determined by the ratio of mass to volume\"), and is explained again here without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 1",
+      "lesson_text": "Temperature is a fundamental measurement in science, used to describe the hotness or coldness of matter.",
+      "source_text": "not about the source",
+      "reason": "What temperature measures was already explained in Concept 2, block 3 (\"Measures hotness or thermal energy state regardless of sample size\"), and is explained again in this later concept with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 3",
+      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table repeats exactly the freezing and boiling points of water (0/100 °C, 32/212 °F, 273.15/373.15 K) that block 1 of the same concept already listed, adding nothing new."
     }
   ],
   "examples": [

@@ -8,7 +8,7 @@
     "off_source_content": 6,
     "ignores_custom_instructions": 17,
     "x1": 3,
-    "x2": 1,
+    "x2": 8,
     "x3": 2,
     "x4": 1,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 107,
   "score": 82,
   "instructions_score": 15,
-  "teaching_score": 82,
+  "teaching_score": 78,
   "problems": [
     {
       "check": "ignores_custom_instructions",
@@ -293,13 +293,6 @@
       "reason": "Construct maps and learning progressions are defined only in block 3, after this table relies on them."
     },
     {
-      "check": "x2",
-      "location": "Concept 5: Digital and AI Affordances for Cognitive Scaffolding / block 3",
-      "lesson_text": "In effective instructional design, AI acts as 'connective tissue'—enabling joint attention, providing just-in-time support, and facilitating peer cohort interaction across distributed networks.",
-      "source_text": "not about the source",
-      "reason": "Concept 1 block 6 already taught that AI should be connective tissue, not a human substitute; the same idea is taught again here."
-    },
-    {
       "check": "x3",
       "location": "Concept 6: Evidence-Centered Design and Coherent Learning Systems / block 1",
       "lesson_text": "**The Evidence Model (Interpretation)**",
@@ -480,6 +473,62 @@
       "lesson_text": "Step 4: The assessment system is coherent because all students are tested on the same content, and the results can be compared across classrooms.",
       "source_text": "not about the source",
       "reason": "The belief that the same test for everyone means a coherent system is planted, but the block 4 rubric never corrects it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Retention Strategies: Retrieval, Spacing, and Interleaving / block 4",
+      "lesson_text": "Shift the role of low-stakes quizzes from formative audits to primary learning events. Requiring active retrieval across multiple sessions forces learners to reconstruct knowledge, creating durable retrieval routes into long-term memory.",
+      "source_text": "not about the source",
+      "reason": "The 'Recurrent Retrieval Architecture' card explains retrieval practice again (testing as learning rather than an evaluative post-mortem, retrieval reconstructing memory), which block 1 already explained, without pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Retention Strategies: Retrieval, Spacing, and Interleaving / block 4",
+      "lesson_text": "Structure deliberate gaps of 24 hours to multiple weeks between repetitions. This delay allows partial forgetting to occur, which induces the desirable cognitive difficulty needed to trigger synaptic consolidation.",
+      "source_text": "not about the source",
+      "reason": "The 'Interval Calibration for Spacing' card explains spacing again (the 24-hour gap, wider intervals, effortful reactivation of fading traces), which the block 2 table already explained, without pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Retention Strategies: Retrieval, Spacing, and Interleaving / block 4",
+      "lesson_text": "Juxtapose problems that share superficial features but demand different underlying mathematical or analytical strategies. This forces learners to notice critical diagnostic contrasts rather than blindly executing routines.",
+      "source_text": "not about the source",
+      "reason": "The 'Discriminative Interleaving' card explains interleaving again (use it for items with high surface similarity; it forces cross-category comparison), which the block 2 table already explained, without pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Digital and AI Affordances for Cognitive Scaffolding / block 2",
+      "lesson_text": "Dynamically alters content and task sequences based on real-time learner diagnostics.",
+      "source_text": "not about the source",
+      "reason": "The table defines adaptivity again, with the same MoFaCTS example, right after block 1 defined it as making task decisions 'contingent on performance, latency, and error patterns'."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Digital and AI Affordances for Cognitive Scaffolding / block 2",
+      "lesson_text": "Simultaneously coordinates symbolic, visual, and animated models of dynamic phenomena.",
+      "source_text": "not about the source",
+      "reason": "The table defines linked representations again, with the same BEETLE II example and benefit (flexible, connected understanding), right after block 1 explained them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Digital and AI Affordances for Cognitive Scaffolding / block 2",
+      "lesson_text": "Multi-agent conversational architecture modeling expert and peer reasoning roles.",
+      "source_text": "not about the source",
+      "reason": "The table explains conversational trialogues again, with the same AutoTutor example, right after block 1 explained them as 'three-way interactions involving a student, a digital tutor agent, and a digital peer agent'."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Digital and AI Affordances for Cognitive Scaffolding / block 3",
+      "lesson_text": "AI is one node within a larger learning ecosystem: it can connect, scaffold, and mediate, but it should never replace the human developmental relationships at the center of learning. Systems that isolate the learner by serving as sole conversational partners risk undermining relational trust and collaborative sense-making. In effective instructional design, AI acts as 'connective tissue'—enabling joint attention, providing just-in-time support, and facilitating peer cohort interaction across distributed networks.",
+      "source_text": "not about the source",
+      "reason": "This callout explains the 'connective tissue, not a substitute' idea again, which Concept 1 block 6 already explained ('Technology and AI systems should function as connective tissue rather than human substitutes'), with no pointer back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Evidence-Centered Design and Coherent Learning Systems / block 5",
+      "lesson_text": "Does the system facilitate collaboration and joint attention among peers and educators, or does it isolate the user?",
+      "source_text": "not about the source",
+      "reason": "The 'Preserving Developmental Relationality' criterion asks the same connect-or-isolate question already explained in Concept 1 block 6 and Concept 5 block 3, presented as new instead of pointing back."
     }
   ],
   "examples": [

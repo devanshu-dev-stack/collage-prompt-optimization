@@ -8,7 +8,7 @@
     "off_source_content": 2,
     "ignores_custom_instructions": 21,
     "x1": 3,
-    "x2": 1,
+    "x2": 8,
     "x3": 1,
     "x4": 2,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 118,
   "score": 83,
   "instructions_score": 0,
-  "teaching_score": 81,
+  "teaching_score": 78,
   "problems": [
     {
       "check": "inexact_quote",
@@ -279,13 +279,6 @@
       "reason": "The table relies on terms such as dual coding, structural alignment and the Zone of Proximal Development that the lesson never defines."
     },
     {
-      "check": "x2",
-      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 1",
-      "lesson_text": "Over time—and critically during sleep—activation within structures like the hippocampus binds and stabilizes these distributed cortical traces.",
-      "source_text": "not about the source",
-      "reason": "Sleep consolidation through the hippocampus was already taught in Concept 1 block 3 and both concepts' mind maps repeat a \"Sleep Consolidation\" node."
-    },
-    {
       "check": "x3",
       "location": "Concept 4: Situated Learning and Workplace Learning Ecologies / block 1",
       "lesson_text": "While **surface differences** focus on delivery media (a seminar vs. an algorithm vs. a person), the **structural differences** govern cognitive and social outcomes:",
@@ -487,6 +480,62 @@
       "lesson_text": "whereas growth mindsets cultivate mastery orientations and active problem-solving.",
       "source_text": "However, the effect size was small and limited to a small subset of underachieving students (Blackwell et al., 2007).",
       "reason": "The lesson never addresses the common belief that growth-mindset interventions reliably raise achievement, although the source notes small, limited effects, which matters for leaders weighing evidence."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Sociocultural Foundations and Reciprocal Brain Development / block 3",
+      "lesson_text": "Cultural practices shape basic cognitive processes like visual perception and categorization. Extended immersion in specialized practices—from abacus mental calculations to mindfulness meditation—alters physical cortical thickness and neural activation patterns.",
+      "source_text": "not about the source",
+      "reason": "The 'Cultural Tools and Cognitive Adaptation' card explains again that cultural practices such as abacus calculation physically reshape the brain, which block 1 already explained under 'Neural Reuse and Recycling' and 'Lifelong Malleability', with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 1",
+      "lesson_text": "Over time—and critically during sleep—activation within structures like the hippocampus binds and stabilizes these distributed cortical traces. New memories reactivate older related traces, leading to continuous reorganization and integration",
+      "source_text": "not about the source",
+      "reason": "Sleep-based hippocampal consolidation was already explained in Concept 1 block 3 ('During sleep, hippocampal-neocortical activation replays daytime traces, integrating new knowledge into durable long-term mental models'), and it is explained again here in a different concept without referring back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 4",
+      "lesson_text": "Practicing active recall solidifies memory pathways far more effectively than passive re-reading.",
+      "source_text": "not about the source",
+      "reason": "The 'Retrieval as a Learning Engine' card explains retrieval practice again right after the block 2 table already did ('Active neural reconstruction strengthens trace consolidation' and 'Replace repetitive reading in training modules with low-stakes scenario quizzing')."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 4",
+      "lesson_text": "Distributing learning across temporal intervals forces the mind to reconstruct knowledge after forgetting begins.",
+      "source_text": "not about the source",
+      "reason": "The 'Spacing and Variable Schedules' card restates almost word for word the block 2 Spaced Practice row ('Temporal separation demands effortful retrieval and mental reactivation after partial forgetting')."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 4",
+      "lesson_text": "Interleaving distinct problem categories enables learners to detect deep structural contrasts.",
+      "source_text": "not about the source",
+      "reason": "The same card explains interleaving again, repeating the block 2 Interleaved Practice row ('Alternating related problem types forces contrastive analysis and discriminative categorization')."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture and Generative Learning Strategies / block 4",
+      "lesson_text": "Preparing to teach or engaging in reciprocal tutoring compels individuals to structure knowledge, anticipate breakdowns in logic, and generate robust verbal and causal models of complex systems.",
+      "source_text": "not about the source",
+      "reason": "The 'Protege Effect' card explains learning by teaching again after the block 2 'Self-Explanation & Teaching' row already did ('Translating content into own words exposes comprehension gaps and forces coherent modeling', 'Incorporate reciprocal peer-teaching rotations')."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: The Spectrum of Visible to Invisible AI and Learner Agency / block 3",
+      "lesson_text": "Predictive learning platforms generate real-time performance diagnostics to guide instruction. Yet when invisible sorting mechanisms assign automated risk classifications or fixed academic tracks, they reify stereotypes before an instructor meets the individual.",
+      "source_text": "not about the source",
+      "reason": "The 'Diagnostic Cues vs. Deficit Labels' card explains again the same trade-off the block 2 'Watching & Sorting' row already gave ('Enables proactive institutional intervention; risks permanent deficit labeling'), with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Formative Assessment, Learning Progressions, and Evidence-Centered Design / block 4",
+      "lesson_text": "Research demonstrates that feedback is most powerful when it is **narrative, descriptive, and task-focused** rather than evaluative or graded.",
+      "source_text": "not about the source",
+      "reason": "Concept 6 block 2 already explained that good feedback 'Delivers task-focused diagnostic cues during problem execution rather than terminal grades', and this callout explains the same principle again in a different concept without referring back."
     }
   ],
   "examples": [

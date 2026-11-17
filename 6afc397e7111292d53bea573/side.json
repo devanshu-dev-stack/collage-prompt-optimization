@@ -8,7 +8,7 @@
     "off_source_content": 3,
     "ignores_custom_instructions": 20,
     "x1": 2,
-    "x2": 2,
+    "x2": 7,
     "x3": 1,
     "x4": 1,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 118,
   "score": 76,
   "instructions_score": 0,
-  "teaching_score": 83,
+  "teaching_score": 80,
   "problems": [
     {
       "check": "inexact_quote",
@@ -286,20 +286,6 @@
       "reason": "\"Funds of knowledge\" is given as a leadership action but is never defined anywhere in the lesson."
     },
     {
-      "check": "x2",
-      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 4",
-      "lesson_text": "Learning is situated: Professional competence develops through authentic participation in real tasks, tools, and communities.",
-      "source_text": "not about the source",
-      "reason": "Situated learning (embedded in practice, participation, knowledge through people) is already taught in Concept 1 block 1 and is taught again here as if new."
-    },
-    {
-      "check": "x2",
-      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 1",
-      "lesson_text": "The Architecture of Cognition: From Filing Cabinets to Active Reconstruction",
-      "source_text": "not about the source",
-      "reason": "The \"filing cabinet\" view of the mind and its rejection open both Concept 1 and Concept 2."
-    },
-    {
       "check": "x3",
       "location": "Exercise 4.2: Evaluating the trade-offs of invisible algorithmic decision-making on learner autonomy, privacy, and systemic bias / block 2",
       "lesson_text": "have reduced learner agency and increased systemic inequity by steering students toward easier tasks and reinforcing existing achievement gaps.",
@@ -424,6 +410,55 @@
       "lesson_text": "Align training with authentic practice to stimulate structural neural reorganization",
       "source_text": "not about the source",
       "reason": "Telling leaders to design training to stimulate neural reorganization feeds the common \"brain-based training\" myth instead of making clear that all learning changes the brain and this is not a useful design goal."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 1",
+      "lesson_text": "For decades, conventional schooling and corporate training relied on an intuitive metaphor of human cognition: the **mental filing cabinet**. Under this passive view, teaching deposits information into mental drawers, and recall simply pulls out an exact duplicate of the stored file.",
+      "source_text": "not about the source",
+      "reason": "Concept 1 block 1 already explained and rejected the view of the mind as a \"digital filing cabinet or a computer processor\" (\"For decades, conventional models...\"), and Concept 2 explains the same metaphor and its rejection again as if it were new, with no pointer back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 4",
+      "lesson_text": "Learning is situated: Professional competence develops through authentic participation in real tasks, tools, and communities. Knowledge is inseparable from the context in which it is used—developmental relationships and peer networks are not just supports, but essential channels for learning to move through an organization.",
+      "source_text": "not about the source",
+      "reason": "Situated learning (\"inseparable from the contexts, tools, activities, and communities in which it occurs\", participation as learning, knowledge travelling through people) was already fully explained in Concept 1 block 1, and this callout explains it again in a different concept without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 2",
+      "lesson_text": "Automated evaluators (screening algorithms, essay scorers, code validators)",
+      "source_text": "not about the source",
+      "reason": "The table's mechanism and agency columns describe all nine AI categories again almost word for word after block 1's tree already described each one (for example \"Judging: Automated essay grading, screening filters, algorithmic assessment\") and its visible and invisible agency poles."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Predictive classifiers assign learners to remediation tracks or risk levels based on historic performance data. Because subsequent educators encounter the diagnostic label before the person, institutional expectations drop, reifying initial deficits into permanent structural ceilings.",
+      "source_text": "not about the source",
+      "reason": "The \"Automated Sorting\" card explains again the sorting risk that the table in block 2 just explained (\"Label permanence: deficit models become automated structural tracks from which students have no transparent exit pathway\"), on top of block 1's \"institutional determinism\" passage."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Automated scoring systems favor highly standardized stylistic norms and dominant cultural dialects. When used in admissions, hiring, or writing assessment, these rubrics routinely screen out innovative or culturally diverse approaches, masking bias behind perceived objectivity.",
+      "source_text": "not about the source",
+      "reason": "The \"Algorithmic Gatekeeping\" card explains again the Judging tension the table in block 2 already gave (\"Rubric rigidity; rewards algorithmic conformity while penalizing divergent, creative, or non-dominant cultural expressions\")."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Background monitoring, remote proctoring, and behavioral flagging convert learning spaces into permanent audit logs. The pervasive sense of being monitored triggers affective anxiety and depletes working memory, penalizing learners under stereotype threat.",
+      "source_text": "not about the source",
+      "reason": "The \"Continuous Surveillance\" card explains again the Watching tension the table in block 2 already gave (\"Destroys psychological safety; induces evaluation anxiety, exacerbates stereotype threat\")."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 4",
+      "lesson_text": "technology implementations fail when introduced as isolated software interventions. High-performing deployments require systemic coordination: explicit alignment with curricular goals, extensive and sustained educator training, and continuous formative assessment that guides human-to-human instructional coaching.",
+      "source_text": "not about the source",
+      "reason": "This is the third telling of the same idea in Concept 5, after block 1 (\"technology is never an independent pedagogical solution; its effectiveness depends entirely on its alignment with ... learning goals, and the social context of implementation\") and the block 3 card (\"in harmony with classroom coaching, curriculum pacing ... or operates as an isolated silo\")."
     }
   ],
   "examples": [

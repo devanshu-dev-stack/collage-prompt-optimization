@@ -8,7 +8,7 @@
     "off_source_content": 4,
     "ignores_custom_instructions": 17,
     "x1": 2,
-    "x2": 1,
+    "x2": 8,
     "x3": 1,
     "x4": 1,
     "x5": 1,
@@ -52,7 +52,7 @@
   "points_lost": 161,
   "score": 77,
   "instructions_score": 15,
-  "teaching_score": 87,
+  "teaching_score": 84,
   "problems": [
     {
       "check": "inexact_quote",
@@ -293,13 +293,6 @@
       "reason": "This table names elaborative interrogation, interleaving and spaced retrieval practice as fixes before Concept 5 explains any of them."
     },
     {
-      "check": "x2",
-      "location": "Concept 5: Evidence-Based Instructional Strategies for Knowledge Integration and Transfer / block 1",
-      "lesson_text": "durable learning is fundamentally reconstructive and inferential. Rather than retrieving verbatim replicas",
-      "source_text": "not about the source",
-      "reason": "Concept 5 opens by re-teaching reconstructive memory, which Concept 3 already covered in its callout, cards and mind map."
-    },
-    {
       "check": "x3",
       "location": "Exercise 1.1: Analyze contrasting workforce training models to isolate the structural mechanisms of situated learning. / block 3",
       "lesson_text": "Robust competence is justified by confirming Priya integrated all touchpoints.",
@@ -445,6 +438,62 @@
       "lesson_text": "Collectivist cultures emphasize group goals, so group tasks boost motivation through belonging and shared achievement.",
       "source_text": "Although assigning cultural groups to either a collectivist or individualistic category oversimplifies very complex phenomena",
       "reason": "The feedback treats a student's culture label as settling how they are motivated, leaving unaddressed the predictable stereotyping mistake that the source warns about."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Situated Learning and Multidimensional Workforce Learning Ecologies / block 3",
+      "lesson_text": "Embedded directly within real project tasks and team meetings",
+      "source_text": "not about the source",
+      "reason": "The table walks through the same four structural differences of Priya's cases (where learning happens, who teaches, what she does cognitively, how much agency she has) that block 1 already explained in its numbered list, so the student reads the same contrast a second time."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Architecture: Executive Function, Metacognition, and Reconstructive Memory / block 4",
+      "lesson_text": "Each retrieval event reactivates memory traces, rendering them labile before undergoing reconsolidation. New information, emotions, and peer suggestions can weave into the memory, altering future recollections.",
+      "source_text": "not about the source",
+      "reason": "The cards explain again that memory is rebuilt at each retrieval and shaped by context, cues and emotion, which the block 2 callout had just explained (\"rebuilt anew during each retrieval event, shaped dynamically by current context, ambient retrieval cues, emotional states\")."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Evidence-Based Instructional Strategies for Knowledge Integration and Transfer / block 1",
+      "lesson_text": "Educational systems often treat learning as an accumulative process—depositing discrete facts into a passive mental storehouse. Cognitive research synthesized in *How People Learn II* reveals that durable learning is fundamentally reconstructive and inferential.",
+      "source_text": "not about the source",
+      "reason": "This explains again the idea that memory is reconstructive rather than a passive store of intact copies, which Concept 3 block 2 already taught as the \"Mental File Cabinet Fallacy\", without pointing back to it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: The Visible to Invisible AI Spectrum: Learner Agency, Ethics, and Transparency / block 2",
+      "lesson_text": "User-facing systems (chatbots, synthesis tools, code generators) where the learner explicitly initiates prompts and negotiates outputs.",
+      "source_text": "not about the source",
+      "reason": "The four cards explain the visible, embedded, recommending and background tiers of AI again with the same definitions and examples that block 1 already gave for Visible, Ambient and Invisible AI."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Learning Technology Affordances: Adaptive Tutoring, Collaboration, and Universal Design / block 1",
+      "lesson_text": "Systems shift assessment from evaluative grading to formative scaffolding. Rather than simply flagging a response as incorrect, platforms provide immediate diagnostic cues that prompt self-correction, address latent misconceptions, and preserve learner motivation.",
+      "source_text": "not about the source",
+      "reason": "The contrast between right/wrong scoring and formative diagnostic feedback that addresses misconceptions was already explained in Concept 5 block 3 (\"Cognitive Feedback\" row), and is explained again here without pointing back."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Learning Technology Affordances: Adaptive Tutoring, Collaboration, and Universal Design / block 1",
+      "lesson_text": "These interactions require students to articulate deep-level causal explanations (`why`, `how`, and `what-if`), which dramatically improves inferential reasoning and conceptual retention relative to passive textbook reading.",
+      "source_text": "not about the source",
+      "reason": "Why asking why and how and explaining one's reasoning beats passive reading was already explained in Concept 5 block 2 (Elaborative Interrogation and Self-Explanation cards), and is explained again here as if new."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Learning Technology Affordances: Adaptive Tutoring, Collaboration, and Universal Design / block 2",
+      "lesson_text": "Systems like Cognitive Tutors and AutoTutor model novice versus expert cognition, diagnose misconceptions in domains like STEM, and scaffold step-by-step problem solving with adaptive feedback.",
+      "source_text": "not about the source",
+      "reason": "The card describes again what Cognitive Tutors and AutoTutor do (adapt to the learner, diagnose misconceptions, give feedback), which block 1 of the same concept had just explained."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Learning Technology Affordances: Adaptive Tutoring, Collaboration, and Universal Design / block 4",
+      "lesson_text": "True impact emerges only when digital affordances are embedded within a coherent instructional system that couples teacher professional development, curriculum alignment, formative assessment routines, and equitable infrastructure support.",
+      "source_text": "not about the source",
+      "reason": "The callout explains again the point already made in the block 3 table's \"Systems Coherence\" row, that technology needs professional development and curriculum alignment rather than being deployed as stand-alone software."
     }
   ],
   "examples": [
