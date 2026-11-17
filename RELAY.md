@@ -67,10 +67,29 @@ that version's prompts (dev, and #2100 for Megan's PR), each judged, kept togeth
 2. Judge each one (step 1 below), with `--checks <checks.json>` (the whole `lab/checks` document).
 3. `python -m runner.baseline --base <dev|pr2097> --commit <full sha> --run <result.json> <side.json>`
    (once per lesson) `--out <file>`, then `set` it as `baselines/<base>-<sha7>` and point the
-   version's lab settings `baselineId` at it. Keep the lessons' files: a new check needs them.
+   version's lab settings `baselineId` at it. Save every lesson to the store ("Stored lessons")
+   with `--used-by baselines/<id>`: a new or reworded check judges them again.
 
 Re-make Current dev's fixed score when step 4 finds a lab file changed on dev. Megan's PR's
 changes only when Devanshu refreshes the frozen copy.
+
+### Stored lessons
+
+Every judged lesson is kept on this repo's `lessons` branch, so a new or reworded check judges
+the same lessons again and never makes new ones. New lessons are made only for a new try, or
+when a fixed score is re-made because a lab file changed on dev.
+
+- Open the store once per container: `git fetch origin lessons && git worktree add
+  ../prompt-lab-lessons lessons` (when it already exists: `git -C ../prompt-lab-lessons pull`).
+- Right after a lesson's answer passes `runner.judge check`: `python -m runner.lesson_store save
+  --store ../prompt-lab-lessons --result <result.json> --judgement <answer> --side <side.json>
+  --used-by <tries/<user id>/items/<try id> or baselines/<id>>`. Saving a lesson again replaces
+  its judgement and keeps its other users.
+- To judge a stored lesson again: `python -m runner.lesson_store get --store
+  ../prompt-lab-lessons --lesson-url <url> --out <folder>` prints the paths of its
+  `result.json`, answer and side.
+- At the end of a check that saved any lesson, commit the store ("Store <n> judged lesson(s)")
+  and push the `lessons` branch. It holds lesson data only, never code.
 
 ### Own material
 
@@ -122,7 +141,8 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    **Judge it** (see JUDGE.md), right after the lessons finish. Each try has 2 lessons per
    test case (`try-1`, `try-2`). Write the whole `lab/checks` document to a local file
    (`checks.json`). Build the judge's input with
-   `python -m runner.judge prompt --result <file> --checks <checks.json> --out <prompt.md>`
+   `python -m runner.judge prompt --result <file> --case-dir <case folder> --checks <checks.json> --out <prompt.md>`
+   (without `--case-dir` the prompt has no source material)
    (with no changed, removed or extra checks the prompt is the same as without `--checks`), then start one judge agent per
    lesson, all at once. Give each the same short brief: read the whole prompt file, follow
    it exactly, write one JSON answer to a given path, change nothing else. Check each answer
@@ -130,7 +150,7 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    `python -m runner.baseline --base <the try's base> --commit <the try's commit> --run
    <result.json> <side.json>` (once per lesson) to group them, and write
    `{judged_at, baselines: {dev, start}, cases: <its cases>}` to the try's `judge` field with
-   `update`, then `status: done`. If an answer fails the check, run that lesson's judge once
+   `update`, then `status: done`, and save each lesson to the store ("Stored lessons"). If an answer fails the check, run that lesson's judge once
    more; if it fails again, leave that lesson out and say so in `statusNote`.
    **Where runs happen.** Test cases whose source files are not in the repo (their PDFs are
    kept out by `.gitignore`) cannot run in GitHub Actions; today that is every test case.
@@ -223,20 +243,19 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
      <file> --checks <checks.json> --out <file>`, and write it back pinned by `if_version` (a
      try: `update` its `judge` only; a baseline: `set`, same id). No judging is needed.
    - **New wording for a built-in check or the made-up example rule:** re-judge every lesson
-     behind every judged try and every `baselines/*` document. Find each lesson's
-     `result.json` by its `lesson_url` (the run's `summary.lesson_url`) in this session's
-     output folders, judge it again as in step 1 with `--checks <checks.json>`, and rebuild
+     behind every judged try and every `baselines/*` document. Get each lesson from
+     the store by its `lesson_url` (the run's `summary.lesson_url`) with `runner.lesson_store get`, judge it again as in step 1 with `--checks <checks.json>`, and rebuild
      with `python -m runner.baseline` (same base and commit). A try keeps `judged_at` and
-     `baselines` and gets `rejudged_at`; a baseline keeps its id. A lesson whose
-     `result.json` is gone (a new container) cannot be re-judged: rescore it as above and
+     `baselines` and gets `rejudged_at`; a baseline keeps its id. Save each lesson again with its new
+     answer. A lesson missing from the store cannot be re-judged: rescore it as above and
      name it in the try's `statusNote` ("judged with the old wording of <check>"). If the
      current fixed scores have such lessons, re-make them from new lessons instead.
-   - **New check, or new wording for an extra check:** a second pass on the same lessons,
+   - **New check, or new wording for an extra check:** a second pass on the same stored lessons,
      only for those checks: `python -m runner.judge prompt --result <result.json> --case-dir
      <case folder> --checks <checks.json> --only-extra --only <ids>`, one judge agent each,
      then `python -m runner.judge merge --side <its side.json> --judgement <answer> --result
      <result.json> --checks <checks.json> --only <ids>` (the merged side keeps the other
-     answers). For a new check, do it for the lessons of the current fixed scores, rebuild each
+     answers). Save each lesson again with its stored answer and the merged side. For a new check, do it for the lessons of the current fixed scores, rebuild each
      baseline with `python -m runner.baseline`, save it under a new id ending in
      `-c<revision>` and point `baselineId` at it. A page document holds at most 256 KB, so
      the page copy of a fixed score has no examples, and its teaching problems keep only

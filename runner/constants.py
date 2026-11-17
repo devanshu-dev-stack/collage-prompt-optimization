@@ -136,3 +136,12 @@ IMAGE_MAX_BYTES: Final[int] = 10 * 1024 * 1024
 IMAGE_FILE_SUFFIXES: Final[dict[str, str]] = {
     "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif",
 }
+
+# Stored lessons: the `lessons` branch keeps every judged lesson, one folder per lesson id.
+LESSONS_BRANCH: Final[str] = "lessons"
+LESSON_INDEX_FILE_NAME: Final[str] = "index.json"
+STORED_RESULT_FILE_NAME: Final[str] = "result.json.gz"
+STORED_ANSWER_FILE_NAME: Final[str] = "answer.json"
+STORED_SIDE_FILE_NAME: Final[str] = "side.json"
+# A lesson id is a Mongo id, which is also safe as a folder name.
+LESSON_ID_PATTERN: Final[re.Pattern[str]] = re.compile(r"^[0-9a-f]{24}$")
