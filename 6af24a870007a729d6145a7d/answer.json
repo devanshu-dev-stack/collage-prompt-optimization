@@ -1,0 +1,525 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 1",
+      "lesson_text": "The Retention–Transfer Trade-Off",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The requested opening prompt is missing; the lesson opens instead with retrieval-practice research from How People Learn II."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Lesson start (before Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 1)",
+      "lesson_text": "Designing Learning Ecologies: Cognition, Culture, and AI",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The Tessa and Dock step, which links last week's map to the learner's own context and the capstone, is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 2",
+      "lesson_text": "Visible vs. Invisible AI: Pedagogical Functions & Critical Audit Criteria",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "Visible and Invisible AI should come before Priya's cases, but the lesson puts it in the last concept, after Priya and after unrelated concepts."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "The Six Touchpoints of a Workplace Learning Ecology",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six places are shown, but the requested part on what real learning ecologies look like (the two apprentices' maps from the slides) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "Manifestation in Priya's Ecosystem (Case C)",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places get only Priya's workplace examples, with no versions adapted for home and school as asked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 4",
+      "lesson_text": "Ecological Drivers of Workplace Training Transfer",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The step on opportunities for deliberate practice, legitimate participation and relationships is missing; this spot holds How People Learn II transfer research instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 1",
+      "lesson_text": "Moving from Cultural Deficit to Asset Frameworks",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup routine is never used; the lesson moves on to culturally responsive teaching, which the flow does not ask for."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 2.2: Deconstructing organizational transfer climates to determine how relational scaffolding facilitates far transfer of workplace training / block 3",
+      "lesson_text": "Identify the touchpoints in the learning ecology present in the initiative.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity is replaced by naming touchpoints in a made-up teacher onboarding case, with no mapping of seen and hidden AI and no marks for where AI connects people or stands in for them."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 4",
+      "lesson_text": "The Institutional Audit: Adopt, Adapt, or Reject",
+      "source_text": "Recap: the six questions",
+      "reason": "There is no recap of the six questions anywhere in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.1: Predicting the impact of replacing human relational learning touchpoints with conversational AI agents across developmental age bands / block 2",
+      "lesson_text": "The program serves both early-career and mid-career educators.",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas' emerging questions for early childhood, K-12 and higher education plus workforce are never shown; the only nod to 'age bands' is a title over a case about career stages."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Lesson end (after Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3)",
+      "lesson_text": "Describe how all three examples illustrate the importance of critically appraising AI's integration in learning ecologies.",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "The capstone brief, the scoping guide and the worked scoping example are all missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Lesson end (after Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3)",
+      "lesson_text": "Describe how all three examples illustrate the importance of critically appraising AI's integration in learning ecologies.",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "There is no activity where students scope their capstone with the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Lesson end (after Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3)",
+      "lesson_text": "Describe how all three examples illustrate the importance of critically appraising AI's integration in learning ecologies.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "The lesson has no knowledge check covering the week's ideas and no items from Week 1."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3",
+      "lesson_text": "In the example of the AI-Powered Adaptive Microlearning Platform, which critical appraisal concern is most relevant for institutional leaders?",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Students never make a closing adopt, adapt or reject judgment on a short case; the exercise only asks which audit concern applies."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Lesson end (after Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3)",
+      "lesson_text": "Describe how all three examples illustrate the importance of critically appraising AI's integration in learning ecologies.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The Week 2 capstone submission step is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives (objective[2]) and Concepts 1, 3 and 4",
+      "lesson_text": "objective[2]: Analyze the empirical trade-offs among cognitive learning strategies—specifically retrieval practice, spaced practice, interleaving, and self-explanation—in optimizing long-term retention versus conceptual transfer.",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Three of the five concepts (retrieval and practice schedules, culturally responsive classrooms, Mayer's principles and universal design) and three of the four objectives come from How People Learn II, so the lesson is built mainly on a supporting source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives (objective[3])",
+      "lesson_text": "objective[3]: Design culturally responsive learning environments by applying asset-based frameworks, stereotype threat mitigation strategies, and mastery-oriented classroom goal structures.",
+      "source_text": "Appraise claims and evidence about AI and learning, including when the evidence does not yet exist",
+      "reason": "The lesson's objectives replace the course objectives it was told to focus on; none asks students to appraise evidence about AI or to judge whether a tool builds or replaces a capacity by age and stage."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 4",
+      "lesson_text": "Near transfer applies procedural skills in settings identical to training; far transfer requires adapting underlying principles to novel, ill-structured situations (Barnett & Ceci, 2002).",
+      "source_text": "Near transfer is using a skill learned in training at another time, outside of the training environment. Far transfer is using a trained skill in combination with other elements and/or at a time distant from training.",
+      "reason": "The source defines near transfer as use outside the training environment, but the lesson says it happens in settings identical to training, and it also changes the definition of far transfer."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 4",
+      "lesson_text": "AI systems and digital repositories represent single nodes within a larger ecosystem (HPL II, Ch. 8).",
+      "source_text": "AI is one node in the ecosystem.",
+      "reason": "The 'one node' idea comes from the week 2 slides; How People Learn II's digital technology chapter does not say it, so the citation misstates what that source says."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 3",
+      "lesson_text": "significantly outperforming passive reading in factual retention and conceptual inference (McDaniel & Donnelly, 1996)",
+      "source_text": "those who engaged in elaborative interrogation outperformed learners who produced labeled diagrams of the concepts in each brief text",
+      "reason": "In the source, McDaniel and Donnelly compared elaborative interrogation with drawing labeled diagrams, not with passive reading, so the lesson misreports the study."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 4",
+      "lesson_text": "The system operates as an invisible sorting or surveillance engine that bypasses learner agency",
+      "source_text": "None of the nine below is good or bad on its own. ... Invisible doesn’t mean sinister.",
+      "reason": "The lesson makes invisible sorting and watching AI grounds for rejection, while the Compass source says invisible AI is not bad on its own and that what matters is whether it was chosen on purpose and whether people knew."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 4",
+      "lesson_text": "Empirical research highlights concrete design interventions to buffer against stereotype threat and bolster academic identity",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The lesson presents values-affirmation as a settled fix and drops the source's warning that later studies did not replicate the results."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "Daily stand-up check-ins and strategic debriefs with her experienced project engagement lead.",
+      "source_text": "Her project lead",
+      "reason": "The table adds made-up details to Priya's case, such as daily stand-ups, a regulatory and compliance briefing, an expert clinician's YouTube walkthrough and hospital administrators, none of which are in the slides."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 2",
+      "lesson_text": "Tier 5: Institutional Governance (Invisible System)",
+      "source_text": "We’ve ordered these roughly from most visible to least.",
+      "reason": "The five named tiers and their agency labels are not in the Compass page, yet the table presents them as a framework adapted from it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 3",
+      "lesson_text": "Algorithmic routing connects learners across disparate regional offices, classrooms, or departments based on complementary knowledge gaps and mutual inquiry goals.",
+      "source_text": "Learning across locations, in channels",
+      "reason": "The slide asks whether AI can help peer collaboration across locations, but the lesson makes up a specific AI feature that matches learners by their knowledge gaps."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 1",
+      "lesson_text": "fostering flexible, far-transferable problem solving",
+      "source_text": "not about the source",
+      "reason": "Far transfer is used from the first block and throughout Concept 1 and Exercise 1.1, but near and far transfer are not defined until Concept 2, block 4."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 3",
+      "lesson_text": "Mastery Goal Orientation",
+      "source_text": "not about the source",
+      "reason": "The table compares mastery and performance goal orientations before any block explains what those goals are; block 4 explains them afterwards and never defines 'performance-avoidance'."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 2",
+      "lesson_text": "Empirical guidelines formulated by Richard Mayer (2001, 2009, 2014) to manage extraneous cognitive load and optimize dual-channel working memory during multimedia instruction.",
+      "source_text": "not about the source",
+      "reason": "Extraneous cognitive load and dual-channel working memory are never defined, yet Exercise 4.1 is built around extraneous cognitive load."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 1",
+      "lesson_text": "Consider the contrasting case of **Priya**, a consultant with seven years in financial services transitioning to her first healthcare transformation project:",
+      "source_text": "not about the source",
+      "reason": "Priya's three cases and the four structural differences (where learning happens, what she does in her head, who teaches, how much control she has) were already taught in Concept 2, block 1."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 3",
+      "lesson_text": "How learning systems deploy AI as connective tissue across social touchpoints rather than a human replacement.",
+      "source_text": "not about the source",
+      "reason": "The idea of AI as connective tissue between people (joint attention, timely scaffolding, connecting peers) repeats Concept 2's card 'Digital Tools as Connective Tissue'."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 3",
+      "lesson_text": "Learning in the flow of work is not merely retrieving quick answers from an AI interface at the moment of need; it requires legitimate participation in authentic tasks where tools, social feedback, and contextual stakes align.",
+      "source_text": "not about the source",
+      "reason": "The callout jumps from a finding about supervisor support and training transfer to a claim about AI quick answers without explaining how one leads to the other."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 1",
+      "lesson_text": "Repeatedly retrieving information produces significantly greater retention than re-reading or restudying the same content for equal durations.",
+      "source_text": "Roediger and Karpicke (2006a) had students read brief educational texts and practice recalling them.",
+      "reason": "Retrieval practice and the retention-versus-transfer split are explained only in general terms, even though the source has a concrete study (reading four times versus recalling) that would make them clear."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 3",
+      "lesson_text": "exerts a stronger influence on training transfer than instructional characteristics alone",
+      "source_text": "a new database management software designed to streamline a process that had previously involved multiple spreadsheets",
+      "reason": "Transfer climate is explained only in general terms, although it is the focus of Exercise 2.2 and the source has a simple case of an employee going back to the old way when coworkers and managers do not support the new skill."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 4",
+      "lesson_text": "This threat induces cognitive interference, activates fear circuits such as the amygdala, and depletes working memory and prefrontal executive function",
+      "source_text": "For example, women are given a test in math.",
+      "reason": "Stereotype threat is explained through brain terms with no concrete case, though the source's basic experiment (the same math test framed as neutral or as one women do worse on) would show what it looks like."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 2",
+      "lesson_text": "Empirical Comparison of Practice Schedules and Structuring",
+      "source_text": "not about the source",
+      "reason": "Massed, spaced, blocked and interleaved practice appear only as dense table cells; the text never discusses or explains them, yet Exercises 1.1 and 1.2 depend on them."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 3",
+      "lesson_text": "Generating explanations of one's own thought processes or explicating rationale while solving problems (Chi et al., 1994).",
+      "source_text": "not about the source",
+      "reason": "The Self-Explanation card shows a stock photo of a web-page wireframe on a whiteboard ('H1-H6 Design', 'Video module'), which has nothing to do with learners explaining their thinking."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 4",
+      "lesson_text": "Digital Tools as Connective Tissue",
+      "source_text": "not about the source",
+      "reason": "The images do not fit the cards: a decorative desk with roses illustrates near versus far transfer, and a group watching a Portuguese sales website for business software illustrates digital tools connecting learners."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 2",
+      "lesson_text": "Extraneous words, pictures, and sounds must be excluded rather than included.",
+      "source_text": "not about the source",
+      "reason": "The cards that teach Mayer's principles use unrelated decorative photos, such as a cluttered career-portal dashboard for segmenting and pretraining and a microphone for modality, so the visuals show none of the principles and themselves add the extra pictures the coherence principle warns against."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 3",
+      "lesson_text": "Joint Attention & Co-Creation",
+      "source_text": "not about the source",
+      "reason": "The card about people sharing attention and co-editing is shown with a photo of an empty desk with two monitors of code and wallpaper software, and no people in it."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 1",
+      "lesson_text": "Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation",
+      "source_text": "not about the source",
+      "reason": "One page holds three separate ideas (asset frameworks, mastery versus performance goals with praise, and stereotype threat) and never says how they relate to each other or to the lesson's theme of learning ecosystems and AI."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 2",
+      "lesson_text": "Leadership Audit Question (Adopt / Adapt / Reject)",
+      "source_text": "What changes the outcome is whether someone chose it on purpose, and whether the person on the other end knew.",
+      "reason": "Visible and invisible AI is taught only through a dense table of tier labels and jargon-heavy audit questions, while the source's basic ideas (AI usually arrives inside something else, and what matters is whether it was chosen on purpose and whether people knew) never appear."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Evaluating empirical trade-offs between retrieval schedules and generative explanation strategies for long-term retention versus transfer / block 2",
+      "lesson_text": "What is the term for the phenomenon where attempting to retrieve information—even unsuccessfully—enhances subsequent learning?",
+      "source_text": "Attempting retrieval but failing has also been shown to promote learning.",
+      "reason": "The question only asks students to recall a label the lesson made up ('productive failure of retrieval'), when the objective calls for analyzing trade-offs."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Evaluating empirical trade-offs between retrieval schedules and generative explanation strategies for long-term retention versus transfer / block 2",
+      "lesson_text": "According to the empirical comparison, which practice schedule is more likely to improve the learner’s ability to discriminate among similar concepts?",
+      "source_text": "not about the source",
+      "reason": "The answer can be read straight off the table row for interleaved practice, so the question tests lookup, not understanding."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.2: Forecasting cognitive and behavioral performance trajectories under contrasting classroom goal structures and stereotype threat mitigations / block 2",
+      "lesson_text": "Explain how asset frameworks, goal structures, and threat mitigation interact to produce these outcomes.",
+      "source_text": "not about the source",
+      "reason": "Concept 3 teaches the three ideas separately and never explains how they interact, so the instruction does not support what the task asks."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.2: Mapping intelligent tutoring system features to Universal Design for Learning guidelines to evaluate accessibility and cognitive scaffolds / block 2",
+      "lesson_text": "does not fully meet UDL by lacking open-ended input and user-controlled pacing",
+      "source_text": "not about the source",
+      "reason": "Concept 4 taught open-ended input as a technology affordance and user pacing as Mayer's segmenting principle, and its universal design table includes neither, so students cannot reach this answer from the instruction; the solution also says 'Modality and Segmenting' while question 2's key says 'Modality and Redundancy'."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Inducing principles of situated cognition and peripheral participation from contrasting professional onboarding case studies / block 2",
+      "lesson_text": "Memorizing rules in a training room ensures robust workplace transfer.",
+      "source_text": "not about the source",
+      "reason": "The distractors are obvious strawmen with absolute words like 'ensures', so the correct choice is easy to spot without understanding situated learning."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Deconstructing organizational transfer climates to determine how relational scaffolding facilitates far transfer of workplace training / block 3",
+      "lesson_text": "Compare the onboarding initiative's cost to previous programs.",
+      "source_text": "not about the source",
+      "reason": "Distractors such as comparing costs, timing the bootcamp or counting completed modules are clearly unrelated to how transfer happened, so the questions give the answers away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Operationalizing funds of knowledge and third-space frameworks to transform instructional contexts from deficit to asset-based models / block 3",
+      "lesson_text": "It replaces students’ community practices with standardized academic routines.",
+      "source_text": "not about the source",
+      "reason": "Each correct answer restates the example card, and the distractors describe plainly deficit-based practices, so no choice is a believable alternative."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Mapping intelligent tutoring system features to Universal Design for Learning guidelines to evaluate accessibility and cognitive scaffolds / block 3",
+      "lesson_text": "Review the ITS’s marketing materials",
+      "source_text": "not about the source",
+      "reason": "Distractors such as reviewing marketing materials, checking for a help button or rating the system's popularity are not believable steps, so the right answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 3",
+      "lesson_text": "A school deploys real-time closed captioning and smart audio hardware, providing assistive support for diverse learners while raising questions about transparency and data governance.",
+      "source_text": "not about the source",
+      "reason": "Each example card already names its concern (transparency and data, biases and contesting decisions, sense-making and agency), and the correct choices copy those words and the earlier table, so the answers are given away."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 1.2: Critiquing flawed professional curriculum designs that confound superficial interleaving with effective cognitive desirable difficulties / block 4",
+      "lesson_text": "correct: sustained interleaving across learning, not just at the end, is needed for schema abstraction and transfer.",
+      "source_text": "interleaved study improves learning of highly similar categories (by facilitating between-category comparisons), whereas blocked study improves learning of low-similarity categories",
+      "reason": "The plan interleaves 'unrelated strategies', but the answer key only asks for more interleaving and never addresses the common mistake that interleaving always helps, even though the source and the lesson's own table say interleaving helps with similar categories and blocking helps with unrelated ones."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Empirical Cognitive Strategies: Retention versus Transfer / block 4",
+      "summary": "Bonawitz and Lombrozo finding: learners merge two independent causes into one explanation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Evaluating empirical trade-offs between retrieval schedules and generative explanation strategies for long-term retention versus transfer / block 2",
+      "summary": "District leader choosing an approach so students apply science concepts to new problems (question 1)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating empirical trade-offs between retrieval schedules and generative explanation strategies for long-term retention versus transfer / block 2",
+      "summary": "District pilot comparing massed and spaced study schedules tested after two weeks (question 2)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating empirical trade-offs between retrieval schedules and generative explanation strategies for long-term retention versus transfer / block 2",
+      "summary": "Learner studying math procedures with blocked versus interleaved practice (question 4)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Critiquing flawed professional curriculum designs that confound superficial interleaving with effective cognitive desirable difficulties / block 2",
+      "summary": "Flawed teacher professional development plan using massed, blocked, then brief interleaved practice",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 1",
+      "summary": "Priya's three contrasting onboarding cases (course, AI platform, project team)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "summary": "Priya's Case C sources placed in the six touchpoints",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of situated cognition and peripheral participation from contrasting professional onboarding case studies / block 1",
+      "summary": "Maya, a new district instructional designer, struggles after a three-day orientation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of situated cognition and peripheral participation from contrasting professional onboarding case studies / block 3",
+      "summary": "Priya learning inside a live team (Case C)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Deconstructing organizational transfer climates to determine how relational scaffolding facilitates far transfer of workplace training / block 2",
+      "summary": "STEM magnet school teacher onboarding with bootcamp, AI knowledge base and mentorship",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Culturally Responsive Environments: Asset Frameworks, Goal Structures, and Threat Mitigation / block 4",
+      "summary": "Mueller and Dweck study on praising intelligence versus effort",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge and third-space frameworks to transform instructional contexts from deficit to asset-based models / block 2",
+      "summary": "Science teacher builds experiments on household skills like gardening and auto repair",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge and third-space frameworks to transform instructional contexts from deficit to asset-based models / block 2",
+      "summary": "English teacher uses rap lyrics to teach literary analysis (cultural modeling)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge and third-space frameworks to transform instructional contexts from deficit to asset-based models / block 2",
+      "summary": "Social studies class blends community stories with curriculum (third space)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Forecasting cognitive and behavioral performance trajectories under contrasting classroom goal structures and stereotype threat mitigations / block 2",
+      "summary": "District pilot of a mastery cohort with values-affirmation versus a performance cohort",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 1",
+      "summary": "FaCT system adapting retrieval spacing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 1",
+      "summary": "Circuit diagram linked with Ohm's law formula and simulation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 4",
+      "summary": "Mouth-operated controller as an after-the-fact accommodation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Learning Technology Affordances, Multimedia Principles, and Universal Design / block 5",
+      "summary": "Universal design examples: accessible job postings, read-or-listen displays, multi-signal alarms, large buttons, adjustable stations",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Auditing digital courseware modules for extraneous cognitive load and violations of Mayer multimedia design principles / block 2",
+      "summary": "Auditing a flawed high school Ohm's law courseware module",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Mapping intelligent tutoring system features to Universal Design for Learning guidelines to evaluate accessibility and cognitive scaffolds / block 2",
+      "summary": "District leader evaluating an algebra intelligent tutoring system",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 1",
+      "summary": "Priya's three contrasting cases, repeated",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Pedagogical Integration and Critical Appraisal of AI in Learning Ecologies / block 2",
+      "summary": "Compass examples of visible to invisible AI (screen readers, captions, autoplay, essay scoring, monitoring, grouping)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Predicting the impact of replacing human relational learning touchpoints with conversational AI agents across developmental age bands / block 2",
+      "summary": "District replacing mentors and peer coaching with conversational AI agents for educators",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 2",
+      "summary": "District AI platform with adaptive micro-content and quizzes (Case B reframed)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 2",
+      "summary": "School closed captioning and audio hardware (Compass helping AI reframed)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Developing institutional decision rubrics to adopt, adapt, or reject visible and invisible AI systems based on learner agency criteria / block 2",
+      "summary": "Automated rubric scoring and student track assignment (Compass judging and sorting reframed)",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

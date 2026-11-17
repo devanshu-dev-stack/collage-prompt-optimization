@@ -1,0 +1,482 @@
+{
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Dynamics: Mindsets, Goal Orientations, and Self-Regulation / block 4",
+      "lesson_text": "praising children for innate ability ('You are so smart')",
+      "source_text": "Some students were praised for their ability (“well done for being so smart”)",
+      "reason": "The praise wording is quoted with words changed and dropped from the source's “well done for being so smart”."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Dynamics: Mindsets, Goal Orientations, and Self-Regulation / block 4",
+      "lesson_text": "praising effort ('You worked very hard')",
+      "source_text": "and others for their effort (“well done for working so hard”)",
+      "reason": "The effort-praise wording is quoted with words changed and added compared with the source's “well done for working so hard”."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Motivational Dynamics: Mindsets, Goal Orientations, and Self-Regulation / block 4",
+      "lesson_text": "led 86% of students to adopt performance goals and seek flattering comparisons",
+      "source_text": "Students who received praise for ability were more likely to adopt performance goals on a subsequent test ... a higher proportion (86%) of students praised for ability chose to examine a folder they were told contained average scores of other test takers",
+      "reason": "In the source, 86% is the share who chose to look at other test takers' scores, not the share who adopted performance goals."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 1",
+      "lesson_text": "Priya is paired with an experienced project director, embedded in a peer Slack channel, shadowed during client workshops",
+      "source_text": "A project lead, a peer network, shadowing and shared past work ... In Case C Shadowing the workshop",
+      "reason": "In the source, Priya does the shadowing at the workshop, but the lesson says she is the one being shadowed."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.2: Critiquing misconceptions of memory storage and flawed instructional practice schedules / block 4",
+      "lesson_text": "both strategies enhance long-term retention and flexible transfer by promoting discrimination and reducing cognitive load",
+      "source_text": "both also present learners with a variety of useful challenges, or “desirable difficulties.”",
+      "reason": "The source says spaced and interleaved practice work by adding useful difficulty and effort, not by reducing cognitive load, so the answer key teaches the opposite."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Evaluating technological affordances and unintended consequences across visible and invisible AI systems / block 4",
+      "lesson_text": "recommendation algorithms provide implicit feedback by adjusting resource curation, which can influence learner experience even if not direct",
+      "source_text": "Feedback. The technology gives feedback to the learner on the quality of the learner’s performance, sometimes including how the quality could be improved.",
+      "reason": "Under the source's definition, reordering resources is not feedback on the learner's performance, so the answer key marks a correct step as an error."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 2",
+      "lesson_text": "Rote acquisition and episodic recall",
+      "source_text": "A well-designed three-day course before the project starts ... In Case C Case Aʼs course ... In Case C Case Bʼs platform",
+      "reason": "The slides call Case A well designed and place Case A's course and Case B's platform inside Case C's ecosystem, while the lesson casts the course as rote learning and treats Case C as a replacement for A and B."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 3",
+      "lesson_text": "Non-transparent systems that dictate information flow and attentional focus",
+      "source_text": "None of the nine below is good or bad on its own. ... Invisible doesn’t mean sinister. Most of what’s on this list is useful",
+      "reason": "The Compass page says invisible AI is neither good nor bad, but the lesson frames it as dictating, surveillance and (in block 5) an \"invisible surrogate\" that displaces people."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: Sociocultural Identity, Stereotype Threat, and Asset-Based Educational Design / block 3",
+      "lesson_text": "buffering academic self-concept and dramatically reducing stereotype threat",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The source presents mixed evidence for values affirmation, while the lesson states it dramatically reduces stereotype threat."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 1",
+      "lesson_text": "While long-term memory has virtually limitless capacity for interconnected schemas, working memory can manipulate only a very limited number of elements simultaneously.",
+      "source_text": "not in source",
+      "reason": "This working-memory section (limited elements, extraneous processing, and the highlighted claim about rote copying) comes from cognitive load theory, which none of the sources covers."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Motivational Dynamics: Mindsets, Goal Orientations, and Self-Regulation / block 4",
+      "lesson_text": "Similarly, external surveillance systems or extrinsic reward contingencies that undermine a learner's perceived autonomy can erode intrinsic motivation and encourage maladaptive self-handicapping.",
+      "source_text": "External rewards, it is argued, may also undermine the learner’s perceptions of autonomy and control.",
+      "reason": "The source discusses rewards and autonomy, but nothing about surveillance systems eroding motivation or causing self-handicapping."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 1",
+      "lesson_text": "Take an immediate cognitive inventory: **List every encounter with an artificial intelligence system that you, or a learner under your supervision, experienced today—both seen and hidden.**",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The opening prompt was asked for first, but it appears in the last concept."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 3",
+      "lesson_text": "The Visible-to-Invisible Continuum of Educational AI",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "Visible and Invisible AI was asked for before Priya's cases, but it comes last, after Priya, situated learning and the six places."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 3",
+      "lesson_text": "Direct client engagements, authentic project deliverables, crisis management, and shadowing experts during live operations.",
+      "source_text": "Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places get only workforce descriptions, with no adaptation for home and school."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The requested section on opportunities for practice, participation and relationships is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup routine and its link are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity across home, school and work is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key-ideas section stating that every learner draws on a whole ecosystem and that AI is one node in it."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas (emerging questions by age band) are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "The Capstone Brief, the Scoping Guide and the worked scoping example are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The activity to scope the capstone with the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no knowledge check on this week's ideas with Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 5",
+      "lesson_text": "When conducting a programmatic audit or preparing a capstone recommendation to adopt, adapt, or reject an educational technology",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Adopt, adapt or reject is only mentioned in a callout, and there is no closing judgment on a short case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The step to submit the scoped capstone is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concepts 2, 3 and 4 (whole concepts)",
+      "lesson_text": "Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Three of the five concepts (memory, motivation, stereotype threat) and two of the four objectives come from How People Learn II, so the lesson is built mainly on a supporting source rather than the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.1: Evaluating situated learning and participation structures across multidimensional learning ecologies / block 1",
+      "lesson_text": "A new nurse begins working at a busy urban hospital.",
+      "source_text": "This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "The exercises use a nurse, a jazz ensemble, graduate students and a seminar instructor instead of cases for learning and development (L&D) leaders or district leaders."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Apply evidence-based cognitive learning strategies, such as retrieval practice, spaced repetition, interleaving, and elaborative explanation, to design instructional activities that enhance long-term memory retention and conceptual transfer.",
+      "source_text": "Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage ... This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives swap the course objectives for study strategies and stereotype threat, with nothing on whether AI builds or replaces a capacity by age and stage, on appraising evidence, or on designing AI-enabled learning."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 2",
+      "lesson_text": "Structural vs. Surface Variations in Learning Ecosystems",
+      "source_text": "not about the source",
+      "reason": "The table is titled with the surface vs structural distinction, but the lesson does not explain that distinction until Concept 5 block 1."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 1",
+      "lesson_text": "One Learner, Three Ecosystems: The Case of Priya",
+      "source_text": "not about the source",
+      "reason": "Priya's three cases and a second four-column comparison table (block 2) repeat what Concept 1 blocks 1 and 2 already taught."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 1",
+      "lesson_text": "Memory is not a repository of static files; it is an active, dynamic process of **neural reconstruction**.",
+      "source_text": "when people were asked in a 1995 study to listen to short lists of related words, such as bed, rest, tired, awake, dream, and snooze",
+      "reason": "Reconstructive memory is explained only through brain terms like distributed traces and reconsolidation, with no concrete case such as the source's word-list study."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Sociocultural Identity, Stereotype Threat, and Asset-Based Educational Design / block 1",
+      "lesson_text": "When a learning environment triggers negative cultural stereotypes regarding an individual's social identity group (such as gender, race, or socioeconomic background), the resulting cognitive disruption is biological in nature",
+      "source_text": "not about the source",
+      "reason": "Stereotype threat is taught only as brain mechanisms, with no concrete classroom or test situation on the concept page to show what a threat cue looks like."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 3",
+      "lesson_text": "Six Primary Contexts of a Complete Learning Ecology",
+      "source_text": "In Case C The healthcare Slack channel",
+      "reason": "The six touchpoint cards are never linked to Priya's case or table, so students do not see how one learner's ecosystem spans all six."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Sociocultural Identity, Stereotype Threat, and Asset-Based Educational Design / block 3",
+      "lesson_text": "Cultural Modeling",
+      "source_text": "not about the source",
+      "reason": "The card image (image-14) is a printed poem by Brianna Wiest about becoming oneself, which has nothing to do with using cultural narratives to teach literary analysis."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 3",
+      "lesson_text": "Embedded Cognitive Assistants (Helping & Agents)",
+      "source_text": "not about the source",
+      "reason": "The card image (image-19) shows a Gemini chat prompt, a visible talking AI, which blurs the very difference between chat tools and background helpers that the card is meant to show."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 4",
+      "lesson_text": "Mental Model Building -> Abductive Inference",
+      "source_text": "not about the source",
+      "reason": "The mind map adds a whole branch (Mental Model Building, Abductive Inference, Spatial Diagrams, Guided Discovery) that the text never explains, so students cannot read it."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 1",
+      "lesson_text": "Mapping the Technological Infiltration of Learning",
+      "source_text": "not about the source",
+      "reason": "One page mixes the AI inventory prompt, the How People Learn II technology features, a retelling of Priya and the visible-to-invisible cards, with no stated link between them."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 3",
+      "lesson_text": "Learning occurs simultaneously across structured, self-directed, and relational domains throughout life.",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to sort a learner's sources into the six touchpoints or to judge which are strong or missing."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 1.2: Deconstructing workplace learning ecosystems into constituent formal, relational, and practice-based dimensions / block 3",
+      "lesson_text": "Before analyzing outcomes, what does examining the use of cultural tools in the new program accomplish?",
+      "source_text": "not about the source",
+      "reason": "The exercise depends on how \"cultural tools\" shape learning and on \"developmental relationships\", and Concept 1 teaches neither."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Applying generative cognitive strategies to optimize memory reconstruction and conceptual transfer / block 2",
+      "lesson_text": "What term describes the process by which memory is reconstructed rather than retrieved as a fixed record?",
+      "source_text": "not about the source",
+      "reason": "The answer, \"Reconstructive memory\", can be copied from the wording of the question, so it tests no understanding."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.1: Applying generative cognitive strategies to optimize memory reconstruction and conceptual transfer / block 2",
+      "lesson_text": "Evaluate how retrieval cues and cognitive load interact in designing educational interventions that enhance long-term retention.",
+      "source_text": "not about the source",
+      "reason": "The concept gives one line on working memory and never explains cognitive load or how it interacts with retrieval cues, so it does not prepare students for this question."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating situated learning and participation structures across multidimensional learning ecologies / block 2",
+      "lesson_text": "Practicing skills alone outside the hospital",
+      "source_text": "not about the source",
+      "reason": "The distractors (lectures, memorizing beforehand, practicing alone) are plainly ruled out by the example's own words \"Rather than learning solely through formal orientation sessions\"."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating situated learning and participation structures across multidimensional learning ecologies / block 4",
+      "lesson_text": "By completing written exams on jazz theory",
+      "source_text": "not about the source",
+      "reason": "The distractors are implausible because the example says \"New members do not receive formal instruction\", so only one option fits."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Deconstructing workplace learning ecosystems into constituent formal, relational, and practice-based dimensions / block 3",
+      "lesson_text": "Check if all faculty completed an online survey",
+      "source_text": "not about the source",
+      "reason": "Distractors like counting participants, surveys and cost checks are obviously off-topic, so the right step is easy to spot."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Applying generative cognitive strategies to optimize memory reconstruction and conceptual transfer / block 2",
+      "lesson_text": "Elaborative interrogation after reading",
+      "source_text": "not about the source",
+      "reason": "Elaborative interrogation is also a generative strategy in the lesson's own table, so question 2 has two correct answers, but only self-explanation is keyed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Designing goal structures and evaluative feedback to foster mastery orientations and self-regulation / block 3",
+      "lesson_text": "Mastery goal orientation with self-regulation",
+      "source_text": "not about the source",
+      "reason": "Each card already names its answer (\"mastery goal orientation ... demonstrating self-regulation\", \"sets performance goals ... struggles with self-regulation\"), so students only match words."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Analyzing the cognitive mechanisms of stereotype threat and designing asset-based interventions / block 3",
+      "lesson_text": "Limiting participation to students with prior neuroscience coursework",
+      "source_text": "not about the source",
+      "reason": "Distractors like extra neuroscience readings, more graded work and rote memorization are obviously wrong for an equity redesign, so the questions test little."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Implementing cultural modeling and funds of knowledge frameworks within classroom instructional design / block 3",
+      "lesson_text": "Improved memory encoding through repetition of stereotypes",
+      "source_text": "not about the source",
+      "reason": "The distractors are implausible, and the card's words \"anxiety and reduced working memory\" give away the keyed answer."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 3.2: Predicting behavioral persistence and cognitive regulation under differing incentive and choice conditions / block 3",
+      "lesson_text": "Considers all variables in the setup, including mindset, goal orientation, and the absence of environmental or reward changes.",
+      "source_text": "However, the effect size was small and limited to a small subset of underachieving students (Blackwell et al., 2007).",
+      "reason": "Neither the concept nor the grading addresses the common belief that a short growth-mindset module will change motivation by itself, which the source shows has small, limited effects."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning and Multidimensional Learning Ecologies / block 1",
+      "summary": "Priya, a financial services consultant on her first healthcare project, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Evaluating situated learning and participation structures across multidimensional learning ecologies / block 1",
+      "summary": "New nurse learns by shadowing and moving from the margins to full team member",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating situated learning and participation structures across multidimensional learning ecologies / block 3",
+      "summary": "Community jazz ensemble newcomers move from peripheral to core players",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing workplace learning ecosystems into constituent formal, relational, and practice-based dimensions / block 2",
+      "summary": "University redesigns new-faculty development around departments and mentoring",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 3",
+      "summary": "Physics students explain why an object speeds up as its radius shrinks (elaborative interrogation)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 3",
+      "summary": "Learner explains each step of a worked math problem (self-explanation)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 3",
+      "summary": "Reciprocal teaching groups rotate questioning, clarifying, summarizing, predicting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Generative Learning Strategies / block 3",
+      "summary": "Biology students sketch blood flow through the heart instead of rereading (drawing)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Critiquing misconceptions of memory storage and flawed instructional practice schedules / block 2",
+      "summary": "Instructional designer chooses between review and retrieval-based activities for a psychology course",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Motivational Dynamics: Mindsets, Goal Orientations, and Self-Regulation / block 4",
+      "summary": "Mueller and Dweck praise study (ability vs effort praise)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Designing goal structures and evaluative feedback to foster mastery orientations and self-regulation / block 2",
+      "summary": "Graduate student with mastery goals revises a thesis after setbacks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Designing goal structures and evaluative feedback to foster mastery orientations and self-regulation / block 2",
+      "summary": "Employee with performance goals struggles in corporate training",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Designing goal structures and evaluative feedback to foster mastery orientations and self-regulation / block 2",
+      "summary": "Self-paced online learner driven by autonomy and interest",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Predicting behavioral persistence and cognitive regulation under differing incentive and choice conditions / block 2",
+      "summary": "Growth-mindset module added to a workplace training program",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the cognitive mechanisms of stereotype threat and designing asset-based interventions / block 2",
+      "summary": "Graduate seminar instructor redesigns a unit after minoritized students participate less",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Implementing cultural modeling and funds of knowledge frameworks within classroom instructional design / block 2",
+      "summary": "Stereotyped group's math test performance drops after a stereotype reminder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Implementing cultural modeling and funds of knowledge frameworks within classroom instructional design / block 2",
+      "summary": "English teacher uses home languages and storytelling to analyze texts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Implementing cultural modeling and funds of knowledge frameworks within classroom instructional design / block 2",
+      "summary": "Science teacher builds a third space linking cooking to science",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Educational Technology Affordances and the Visible-to-Invisible Spectrum of AI / block 1",
+      "summary": "Priya's three onboarding designs retold with surface and structural differences",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Evaluating technological affordances and unintended consequences across visible and invisible AI systems / block 2",
+      "summary": "Graduate student compares a dialogue AI tutor with a recommendation algorithm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Appraising the systemic implementation of AI-enabled learning tools against human-centered pedagogical criteria / block 2",
+      "summary": "University pilots a platform with visible and invisible AI for a graduate cohort",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

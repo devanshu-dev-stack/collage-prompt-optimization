@@ -1,0 +1,505 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 12,
+    "wrong_viewpoint": 0,
+    "off_source_content": 1,
+    "ignores_custom_instructions": 0,
+    "x1": 0,
+    "x2": 0,
+    "x3": 1,
+    "x4": 1,
+    "x5": 0,
+    "x6": 3,
+    "x7": 2,
+    "x8": 0,
+    "x9": 2,
+    "x10": 0,
+    "x11": 4,
+    "x12": 1,
+    "x14": 3,
+    "x15": 1
+  },
+  "examples_total": 38,
+  "examples_from_source": 26,
+  "made_up_examples": 12,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 159,
+  "score": 68,
+  "instructions_score": 100,
+  "teaching_score": 88,
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Matter commonly exists in three physical states on Earth, with a fourth high-energy state dominating the broader universe.",
+      "source_text": "not in source",
+      "reason": "The source only says plasma occurs in stars and some high-temperature places; the claim that plasma dominates the universe is added from outside the source."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Naturally found inside stars, lightning strikes, and plasma torches.",
+      "source_text": "In addition to stars, plasmas are found in some other high-temperature environments (both natural and man-made), such as lightning strikes, certain television screens, and specialized analytical instruments used to detect trace amounts of metals.",
+      "reason": "A plasma torch is a man-made cutting tool, so listing it as a place where plasma is found naturally is wrong and drops the source's natural versus man-made split."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Takes both the shape and volume of its container. Particles are far apart and disorganized, allowing gases to expand or compress freely.",
+      "source_text": "not about the source",
+      "reason": "The Gas card's image shows smoke, which is tiny solid and liquid bits floating in air (a mixture), so it misleads students about what a gas looks like when most gases are invisible."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying everyday matter into physical states and categorizing samples as pure substances or mixtures / block 3",
+      "lesson_text": "Which classification best describes the ice cube example?",
+      "source_text": "not about the source",
+      "reason": "The cards just above already state each answer (\"It is a pure substance\", \"Saltwater is a homogeneous mixture\", \"is a homogeneous mixture\"), so questions 1 to 3 are copying, not classifying as objective 1 asks."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 1",
+      "lesson_text": "The molecules themselves remain the same, and the process can be reversed without altering what the substance is.",
+      "source_text": "not about the source",
+      "reason": "Examples 1 and 2 stress that one change can be reversed and the other cannot, which feeds the common mistake that reversibility decides physical versus chemical, and the lesson never says that a change in chemical identity is the real test."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 4",
+      "lesson_text": "Which property is demonstrated when iron reacts to form rust?",
+      "source_text": "not about the source",
+      "reason": "Iron's ability to rust does not depend on the amount of iron, so the distractor \"Intensive property\" is also correct, especially after block 2 keyed \"Intensive property\" for a similar question."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 6",
+      "lesson_text": "The ability to react with oxygen",
+      "source_text": "not about the source",
+      "reason": "For the question about what stays constant when granite is ground, this distractor is also correct, because minerals that keep their chemical identity also keep their chemical properties such as reacting with oxygen."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.2: Predicting behavioral changes in substances and distinguishing intensive from extensive properties / block 2",
+      "lesson_text": "The container is weighed and its total mass is recorded. Next, a student adds a few iron nails into the solution and lets the system sit for several hours.",
+      "source_text": "It states that there is no detectable change in the total quantity of matter present when matter converts from one type to another (a chemical change) or changes among solid, liquid, or gaseous states (a physical change).",
+      "reason": "The nails are added after the mass is recorded, so the total mass does go up (and the container cannot stay sealed while nails are added), which makes the expected conservation-of-mass answer wrong."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Predicting behavioral changes in substances and distinguishing intensive from extensive properties / block 2",
+      "lesson_text": "Predicting behavioral changes in substances and distinguishing intensive from extensive properties",
+      "source_text": "not about the source",
+      "reason": "The exercise promises intensive versus extensive properties, but its questions only ask about total mass and physical versus chemical change, and mainly test the conservation law taught in Concept 1."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 2",
+      "lesson_text": "Zeros sandwiched between nonzero digits (such as in $$70.607$$ or the middle zeros of $$3090$$) result directly from measurement. Captive zeros are always significant.",
+      "source_text": "not about the source",
+      "reason": "The Captive Zeros card's image shows a cylinder marked \"60\", whose zero is a trailing zero, not a captive one, so the picture points students to the wrong kind of zero."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 2",
+      "lesson_text": "Zeros to the right of the last nonzero digit are significant if a decimal point is present (e.g., $$55.0\\text{ g}$$ has $$3$$ significant figures).",
+      "source_text": "not about the source",
+      "reason": "The Trailing Zeros card's image is a blurred page of summation equations with no trailing zeros in it, so it has nothing to do with the rule it sits next to."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "lesson_text": "High (values agree within 0.2 mL)",
+      "source_text": "she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter)",
+      "reason": "Dispenser #1's values run from 283.3 to 284.1 mL, a spread of 0.8 mL, not 0.2 mL."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "lesson_text": "Evaluating Dispenser Accuracy and Precision",
+      "source_text": "not about the source",
+      "reason": "Accuracy and precision show up only as a table dropped between the significant-zero rules and the calculation rules, with no text that introduces or defines the two terms, though Exercise 3.2 tells students to \"Review the definitions\"."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 4",
+      "lesson_text": "Round the result to match the measurement with the fewest *decimal places* (least certain position):",
+      "source_text": "not about the source",
+      "reason": "Exercises 3.1 and 3.2 practice only division and counting significant figures, so students never use the addition and subtraction rule or the round-to-even rule from block 5, which are part of objective 3."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 5",
+      "lesson_text": "For example, $$31.57$$ rounds to $$32$$ (dropped digit is $$5$$ followed by $$7$$, so round up)",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit. If any nonzero digits follow the dropped 5, round up.",
+      "reason": "The callout states round-to-even only for a lone 5 and then gives as its first example a 5 followed by a nonzero digit, which follows a different rule (always round up) the lesson never states, along with the basic below-5 and above-5 rules."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Evaluating experimental measurement uncertainty and distinguishing between accuracy and precision / block 2",
+      "lesson_text": "Which is true about their accuracy and precision?",
+      "source_text": "not about the source",
+      "reason": "The question repeats the exact dispenser data from the Concept 3 table, which already labels each dispenser's accuracy and precision, so students can copy the answer instead of judging the data."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "$$\\text{Volume in mL} = 4.00\\text{ qt} \\times \\frac{1\\text{ L}}{1.0567\\text{ qt}} \\times \\frac{1000\\text{ mL}}{1\\text{ L}} = 3.78 \\times 10^3\\text{ mL}$$",
+      "source_text": "The necessary conversion factors are given in Table 1.6: 1 lb = 453.59 g; 1 L = 1.0567 qt; 1 L = 1,000 mL.",
+      "reason": "4.00 divided by 1.0567 times 1000 is 3785 mL, which rounds to 3.79 × 10^3 mL, not 3.78 × 10^3 mL."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Deconstructing unit conversion setups to verify proper dimensional cancellation steps / block 2",
+      "lesson_text": "The volume is $$2.37\\text{ qt}$$.",
+      "source_text": "1 L = 1.0567 qt",
+      "reason": "Since 1 L equals 1.0567 qt, 2.50 L is 2.50 × 1.0567 = 2.64 qt; the given answer divides instead and is wrong (a liter is bigger than a quart, so the quart number must be larger)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Deconstructing unit conversion setups to verify proper dimensional cancellation steps / block 3",
+      "lesson_text": "What does setting up the conversion factor as $$\\frac{1\\text{ qt}}{1.0567\\text{ L}}$$ accomplish before multiplying by $$2.50\\text{ L}$$?",
+      "source_text": "1 L = 1.0567 qt",
+      "reason": "The factor 1 qt / 1.0567 L is not a ratio of equal amounts (the correct one is 1.0567 qt / 1 L), yet questions 2, 3 and 5 key it, and the division 2.50 ÷ 1.0567, as correct."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Deconstructing unit conversion setups to verify proper dimensional cancellation steps / block 3",
+      "lesson_text": "Divide $$2.50$$ by $$4$$ to get the number of cups.",
+      "source_text": "not about the source",
+      "reason": "Distractors about cups, gallons, cubic meters and cubic centimeters have nothing to do with a liters-to-quarts task, and the right choice repeats the setup's own wording (\"the lesson's table\"), so the questions give the answer away."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.2: Applying conversion factors to solve single-step and multi-step metric and English conversions / block 2",
+      "lesson_text": "Convert $$1.0936\\text{ yd}$$ to meters using the conversion factor $$1\\text{ m} = 1.0936\\text{ yd}$$. Give your answer to two decimal places.",
+      "source_text": "not about the source",
+      "reason": "The answer is just the given equality read backwards, so the question needs no real dimensional analysis."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Derived Properties: Density and Temperature Calculations / title",
+      "lesson_text": "Derived Properties: Density and Temperature Calculations",
+      "source_text": "The SI unit of temperature is the kelvin (K). ... We can derive many units from the seven SI base units. For example, we can use the base unit of length to define a unit of volume, and the base units of mass and length to define a unit of density.",
+      "reason": "Temperature is a base quantity, not a derived one (the lesson's own block 4 calls the kelvin \"the official SI base unit\"), so calling it a derived property is wrong."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Derived Properties: Density and Temperature Calculations / block 4",
+      "lesson_text": "## Temperature Scales and Conversion Relationships",
+      "source_text": "not about the source",
+      "reason": "Density and temperature-scale conversion are unrelated ideas put on one page, while temperature conversion fits with the unit conversions of Concept 4."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Derived Properties: Density and Temperature Calculations / block 4",
+      "lesson_text": "$$T_{^{\\circ}\\text{F}} = \\left(\\frac{9}{5} \\times T_{^{\\circ}\\text{C}}\\right) + 32$$",
+      "source_text": "not about the source",
+      "reason": "The Celsius, Fahrenheit and kelvin conversions are given only as formulas, with no worked conversion of a real temperature to show how to use them."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Derived Properties: Density and Temperature Calculations / block 4",
+      "lesson_text": "### Converting Between Celsius and Fahrenheit",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to convert between Celsius and Fahrenheit (only one Celsius-to-kelvin question appears), although temperature calculation is part of objective 4."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Explaining mathematical relationships between mass, volume, and density alongside temperature scales / block 3",
+      "lesson_text": "What does the symbol $$d$$ represent in the equation $$d = \\frac{m}{V}$$?",
+      "source_text": "not about the source",
+      "reason": "Block 2 just listed what d, m and V stand for, so these three questions only ask students to copy those labels back."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Explaining mathematical relationships between mass, volume, and density alongside temperature scales / block 7",
+      "lesson_text": "Density $$d = \\frac{m}{V} = \\frac{25.0}{8.9} = 2.81$$ $$\\text{g/cm}^3$$. Rounded to two decimal places.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "8.9 cm³ has two significant figures, so the density should be 2.8 g/cm³; rounding a quotient to a fixed number of decimal places breaks the rule the lesson taught."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Explaining mathematical relationships between mass, volume, and density alongside temperature scales / block 7",
+      "lesson_text": "Density $$d = \\frac{m}{V} = \\frac{15.0}{20.0} = 0.75$$ $$\\text{g/mL}$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "Both 15.0 g and 20.0 mL have three significant figures, so the answer should be 0.750 g/mL, not 0.75."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "lesson_text": "$$d = \\frac{18.0}{8.0} = 2.25\\ \\text{g/cm}^3$$",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "The 2.0 cm side and 8.0 cm³ volume have two significant figures, so by the lesson's own rules the density is 2.2 g/cm³, not 2.25."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "lesson_text": "Density $$= \\frac{34.8}{15.5} = 2.32\\ \\text{g/cm}^3$$.",
+      "source_text": "not in source",
+      "reason": "34.8 divided by 15.5 is 2.25 g/cm³, so the keyed answer 2.32 is wrong and the right value is not among the choices."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "lesson_text": "$$T_{\\text{K}} = T_{^{\\circ}\\text{C}} + 273.15 = 25.0 + 273.15 = 298.15\\ \\text{K}$$.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction). ... The 273.15 in these equations has been determined experimentally, so it is not exact.",
+      "reason": "25.0 has one decimal place, so the sum should be 298.2 K, as the lesson's own Concept 5 callout says, not 298.15 K."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Astronaut on the Moon weighs one-sixth as much but keeps the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Molecules of O2, S8, water and glucose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "summary": "Everyday elements, compounds and mixtures (iron, gold, oxygen; water, sucrose, mercury(II) oxide; sports drink, air, gasoline, maple syrup; Italian dressing, chocolate chip cookies, granite)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Brewing beer and discharging a lead-acid battery conserve mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes (melting wax, condensing steam, sugar in coffee, magnetizing, grinding) and chemical changes (combustion, cooking or rotting food, copper with nitric acid)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Candle wax melting and steam condensing on a pot lid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Grinding granite into fine powder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron nail rusting in air and moisture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Striking a match, browning meat (myoglobin), burning gasoline",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Combining milk at 20 °C; a drop versus a pot of hot oil for heat and temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday matter into physical states and categorizing samples as pure substances or mixtures / block 2",
+      "summary": "Classifying an ice cube, saltwater and air in a balloon",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing between elements, compounds, homogeneous solutions, and heterogeneous mixtures / block 2",
+      "summary": "Vegetable soup with chunks as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing between elements, compounds, homogeneous solutions, and heterogeneous mixtures / block 2",
+      "summary": "Sand and water mixture compared with salt water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 1",
+      "summary": "Ice on a counter melting, boiling to steam and refreezing",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 3",
+      "summary": "Iron nail left outside rusting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Identifying criteria that differentiate physical changes from chemical reactions / block 5",
+      "summary": "Granite ground into powder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting behavioral changes in substances and distinguishing intensive from extensive properties / block 2",
+      "summary": "Iron nails in copper(II) sulfate solution in a sealed, weighed container",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 1",
+      "summary": "Counted eggs and defined equalities (1 ft = 12 in., 1 in. = 2.54 cm, 1 g = 0.001 kg) as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 1",
+      "summary": "Reading 21.6 mL in a graduated cylinder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 2",
+      "summary": "Significant-zero cases (0.008020, 70.607, 3090, 55.0 g, 1300 g and 1.30 × 10^3 g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "summary": "Three cough-syrup dispensers targeting 296 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 4",
+      "summary": "1.0023 g + 4.383 g, 486 g − 421.23 g, 0.6238 cm × 6.6 cm, 421.23 g ÷ 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Precision, and Significant Figures / block 5",
+      "summary": "Rounding 31.57, 92.85 and 0.051065",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying and correcting errors in significant figures and arithmetic rounding rules / block 2",
+      "summary": "Flawed density of a 12.30 g, 2.5 cm³ metal cylinder",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental measurement uncertainty and distinguishing between accuracy and precision / block 2",
+      "summary": "Graduated cylinder reading of 28.7 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental measurement uncertainty and distinguishing between accuracy and precision / block 2",
+      "summary": "Three dispensers delivering 296 mL of medicine",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 4",
+      "summary": "125 g frisbee converted to ounces",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5",
+      "summary": "4.00 qt converted to milliliters in two steps",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Deconstructing unit conversion setups to verify proper dimensional cancellation steps / block 2",
+      "summary": "2.50 L bottle converted to quarts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Applying conversion factors to solve single-step and multi-step metric and English conversions / block 2",
+      "summary": "4.00 qt to mL conversion steps",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Applying conversion factors to solve single-step and multi-step metric and English conversions / block 2",
+      "summary": "125 g converted to ounces",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Explaining mathematical relationships between mass, volume, and density alongside temperature scales / block 7",
+      "summary": "Mineral of 25.0 g and 8.9 cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Explaining mathematical relationships between mass, volume, and density alongside temperature scales / block 7",
+      "summary": "Liquid of 15.0 g and 20.0 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "summary": "Cube of 18.0 g with 2.0 cm sides",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "summary": "Mineral of 34.8 g raising water from 50.0 to 65.5 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Computing density via geometric and displacement methods and converting between temperature units / block 2",
+      "summary": "25.0 °C converted to kelvin",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

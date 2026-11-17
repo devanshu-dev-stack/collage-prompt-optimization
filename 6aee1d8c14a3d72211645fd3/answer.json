@@ -1,0 +1,547 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 1",
+      "lesson_text": "## Opening Prompt: Surfacing Misconceptions\nList every AI or digital tool you, or a learner you know, encountered today—whether visible (like a chatbot) or hidden (like an algorithm recommending content).",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The requested opening prompt is buried in the fifth concept instead of opening the lesson, so it is put in a different order."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock section is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 1",
+      "lesson_text": "## The Continuum of Algorithmic Presence",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "Visible and invisible AI was asked for before Priya's cases and situated learning, but the lesson puts it after both (Concept 3)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 2",
+      "lesson_text": "Comprehensive learning ecosystems distribute developmental opportunities across six interdependent formal and informal spaces.",
+      "source_text": "Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places come before situated learning instead of after it, are not adapted for home and school, and the 'what real learning ecologies look like' part is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "No section teaches the practice, participation and relationships lens; it is only named inside Exercise 1.2."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine and its link are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The AI-mapping activity across home, school and work is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key ideas section, and the lesson never says AI is one node in the ecosystem."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas by age band (early childhood, K-12, higher ed and workforce) from the slides are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "The capstone brief, scoping guide and worked scoping example are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The capstone scoping activity is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no end-of-lesson knowledge check and no Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "The closing adopt, adapt or reject judgment is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The capstone scope submission step is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concepts 4 to 7 (whole lesson)",
+      "lesson_text": "Concept 4: Structuring Practice for Durable Knowledge Integration",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Four of the seven concepts (practice, learning progressions, stereotype threat, asset-based pedagogy) come only from How People Learn II, so the lesson is built mainly on a supporting source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives / objective[3]",
+      "lesson_text": "Apply evidence-based cognitive strategies, including retrieval practice, spaced intervals, and elaborative explanation, within learning progressions to diagnose student misconceptions and support robust knowledge integration.",
+      "source_text": "This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "Objectives 3 and 4 swap the requested course focus (judging whether AI builds or replaces a capacity, appraising AI evidence, designing AI-enabled learning) for retrieval practice and stereotype threat."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 1",
+      "lesson_text": "**Case C (The Ecological Model):** An ecosystem combining an experienced project lead, an active peer network, real-time shadowing, and an archive of past deliverables.",
+      "source_text": "One learner, three ecosystems ... Same person, same project, same first deliverable. Different ecosystem.",
+      "reason": "The source treats all three cases as ecosystems, but the lesson labels only Case C the 'Ecological Model', which changes the framing."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 4",
+      "lesson_text": "A learning ecosystem is defined not by the presence of a single sophisticated platform or curriculum, but by the **coherence of the connections** between its touchpoints. Isolating formal courses or standalone AI systems from relational coaching and authentic work tasks prevents knowledge transfer and reduces learning to compliance rather than genuine professional development.",
+      "source_text": "Every learner draws on a whole ecosystem: formal, self-paced, outside, community, relational and work-based. The connections matter as much as any one source.",
+      "reason": "The source says connections matter as much as any one source, while the lesson says connections, not sources, define the ecosystem and claims isolation 'prevents knowledge transfer', a stronger conclusion."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Situated Participation Within Communities of Practice / block 3",
+      "lesson_text": "Collaborative inquiry promotes second-order disciplinary reasoning and deeper mental models.",
+      "source_text": "Collaborative learning requires interdependency, wherein group members work together to plan and organize joint activities to complete a task or solve a problem. ... In contrast, cooperative learning involves breaking a task into pieces: group members work separately, although they may coordinate activities that proceed in parallel. The completed pieces are assembled by the group (Hesse et al., 2015).",
+      "reason": "The source only defines the two modes; the 'Implications for Practice' and cooperative 'Vulnerabilities' cells (second-order reasoning, 'siloed skill acquisition', 'premature cooperative fragmentation') are not in it."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 4",
+      "lesson_text": "**Evidence-Based Technology Selection (HPL II Conclusion 8-1)**: The effectiveness of any learning technology depends entirely on its alignment with specific learning goals, learner characteristics, and the social context.",
+      "source_text": "CONCLUSION 8-1: The decision to use a technology for learning should be based on evidence indicating that the technology has a positive impact in situations that are similar with respect to: the types of learning and goals for learning; characteristics of the learners; the learning environment; features of the social and cultural context likely to affect learning; and the level of support in using the technology to be provided to learners and educators.",
+      "reason": "Conclusion 8-1 is about basing decisions on evidence of impact in similar situations, but the lesson turns it into 'effectiveness depends entirely on alignment' and adds invisible-AI claims that the conclusion does not make."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Critiquing misalignments between invisible algorithmic sorting systems and learner autonomy goals / block 4",
+      "lesson_text": "correct evaluation is that the tool adapts to performance data but does not engage in dynamic, learner-driven adaptivity as defined in learning sciences research.",
+      "source_text": "Adaptivity. The technology presents information that is contingent on the behavior, knowledge, and characteristics of the learner.",
+      "reason": "The source defines adaptivity as the system responding to the learner, not as 'learner-driven', so the grading key mixes up adaptivity with learner choice."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Structuring Practice for Durable Knowledge Integration / block 3",
+      "lesson_text": "Optimal lag depends on test timing; excessive delays before initial consolidation cause complete retrieval failure.",
+      "source_text": "Cepeda and colleagues (2006) found that spaced practice led to greater recall than massed practice regardless of the size of the lag between practice and recall.",
+      "reason": "The source only says wider spacing is not always better; 'complete retrieval failure' from delays 'before initial consolidation' is not in the source."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 3",
+      "lesson_text": "(e.g., \"It gets dark at night because the Sun goes around the Earth\")",
+      "source_text": "COMMON ERROR: It gets dark at night because the Sun goes around the Earth once a day.",
+      "reason": "The quoted misconception drops 'once a day' from the source's wording."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 4",
+      "lesson_text": "\"It gets dark at night because something covers the Sun.\"",
+      "source_text": "COMMON ERROR: It gets dark at night because something (e.g., clouds, the atmosphere, “darkness”) covers the Sun.",
+      "reason": "The quoted Level 1 response drops the source's words '(e.g., clouds, the atmosphere, “darkness”)'."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 4",
+      "lesson_text": "Level 2: Apparent Motion Not Linked to Model ... \"The Sun goes below the Earth at night.\"",
+      "source_text": "Student does not recognize the systematic nature of the appearance of objects in the sky. ... COMMON ERROR: The Sun goes below the Earth at night.",
+      "reason": "In the source's construct map this error is listed under Level 1, not Level 2."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 4",
+      "lesson_text": "\"The Earth rotates on its axis once a day, causing day and night.\"",
+      "source_text": "the Earth rotates on its axis once per day, causing the day/night cycle and the appearance that the Sun moves across the sky",
+      "reason": "The quoted Level 4 response changes the source's words ('once per day', 'the day/night cycle') and cuts the end."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 1",
+      "lesson_text": "Under evaluative conditions that emphasize normative comparison, stereotype threat systematically shifts learners away from **mastery goals** (orienting toward skill acquisition and deep understanding) toward **performance-avoidance goals** (orienting toward avoiding the public appearance of incompetence or failure) (Senko et al., 2011; Elliot, 1999).",
+      "source_text": "not in source",
+      "reason": "The source defines performance-avoidance goals but never says stereotype threat shifts learners toward them; the cited works are cited for other points."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 3",
+      "lesson_text": "('well done for being smart')",
+      "source_text": "(“well done for being so smart”)",
+      "reason": "The quoted ability praise from Mueller and Dweck drops the word 'so'."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 3",
+      "lesson_text": "Effort praise fosters incremental growth mindsets and mastery goals, whereas ability praise breeds performance-avoidance behaviors (Mueller & Dweck, 1998).",
+      "source_text": "Students who received praise for ability were more likely to adopt performance goals on a subsequent test, whereas those praised for effort were more likely to adopt mastery goals.",
+      "reason": "The source reports that ability praise led to performance goals (students sought others' scores), not performance-avoidance; the source treats these as different goal types."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 4",
+      "lesson_text": "Artifacts and management systems designed to regulate behavior can inadvertently activate performance-avoidance goals. For instance, public behavior monitoring charts (e.g., color-coded green/yellow/red boards) signal to learners that teacher surveillance, compliance, and impression management are prioritized over intellectual exploration, heightening evaluative anxiety and undermining autonomous engagement (Immordino-Yang, 2015).",
+      "source_text": "The teacher reported that from March through September this student was judged consistently as green (successful) ... the teacher’s strategy for managing the class caused him to infer that his teacher’s main goal was to control his behavior, rather than to help him learn.",
+      "reason": "The source's point is that a consistently 'green' student lost enthusiasm because he read the chart as control rather than learning; the lesson recasts it as performance-avoidance and evaluative anxiety."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Learning objectives / objective[4]",
+      "lesson_text": "Critique classroom structures, motivational cues, and feedback mechanisms to eliminate stereotype threat",
+      "source_text": "Interventions of this sort are likely to work not because they reduce the perception of, or eliminate, stereotype threat, but because they change students responses to the threatening situation ... Although research suggests steps that educators can take that may help to eliminate stereotype threat, much of this research has been in highly controlled settings.",
+      "reason": "The source is cautious and says interventions work by changing responses, not by eliminating threat, while the objective promises to eliminate it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 3",
+      "lesson_text": "Moje et al. and Kirkland demonstrated that pairing comics (Batman, X-Men) with epic poetry scaffolds critical literacy.",
+      "source_text": "An ethnographic study of students in a middle school science classroom showed ... (Moje et al., 2004). Another ethnographic study, of critical literacy among male African American high school students, illustrates this point (Kirland, 2008). In this study, students who explored themes ... through close reading of scenes from the Iliad and comic strips such as Batman and X-Men demonstrated rich and sophisticated understanding.",
+      "reason": "The source credits the Iliad and comics finding only to Kirkland's study; Moje et al. studied a middle school science classroom."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 4",
+      "lesson_text": "community-based mathematical estimation (Taylor et al., 2006)",
+      "source_text": "Hurley, E.A., Boykin, W.A., and Allen, B.A. (2005). Communal versus individual learning of a math-estimation task: African-American children and the culture of learning contexts.",
+      "reason": "The source has no 'Taylor et al., 2006'; the citation is not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 5",
+      "lesson_text": "Adult training programs that incorporate workers' existing cultural models and informal peer learning networks significantly enhance transfer (*Tannenbaum et al., 2010*).",
+      "source_text": "Formal training accounts for a relatively small percentage of workplace learning, but it is still important for many learners (Tannenbaum et al., 2010).",
+      "reason": "The source cites Tannenbaum only for how much workplace learning is formal; the claim that cultural models 'significantly enhance transfer' is not in the source."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 3",
+      "lesson_text": "Taxonomy of Learning Environments: Volition vs. Formality",
+      "source_text": "not about the source",
+      "reason": "A second framework (self-directed vs required, formal vs informal) appears right after the six touchpoints, and students are never shown how the two fit together."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Categorizing organizational learning initiatives across the six workplace touchpoints / block 3",
+      "lesson_text": "It relies solely on peer-to-peer learning outside the organization. ... It depends exclusively on algorithmic learning platforms for knowledge transfer. ... It restricts learning to external webinars only.",
+      "source_text": "not about the source",
+      "reason": "The wrong options in questions 1 and 3 use extreme words ('solely', 'exclusively', 'only') and contradict the example cards, so the answer is obvious without understanding."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 1.2: Evaluating learner ecology maps to identify systemic gaps in relational and work-based touchpoints / block 2",
+      "lesson_text": "The leader wants to identify systemic gaps in Maya’s learning ecology, especially where opportunities for practice, participation, and relationships are limited or disconnected.",
+      "source_text": "not about the source",
+      "reason": "The exercise and its answers depend on the practice, participation and relationships lens, which the lesson never teaches; participation only appears later in Concept 2."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 2: Situated Participation Within Communities of Practice / block 3",
+      "lesson_text": "Mechanisms of Group Learning: Collaborative vs. Cooperative Modes",
+      "source_text": "not about the source",
+      "reason": "A large side table on collaborative vs cooperative groups gets more space than the core slide question 'Can AI help it move?', which gets only one short callout."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 1",
+      "lesson_text": "Educational technologies are rarely neutral conduits of information; they embody specific architectural choices that either expand learner agency or quietly constrain it.",
+      "source_text": "None of the nine below is good or bad on its own. ... Invisible doesn’t mean sinister. Most of what’s on this list is useful, and some of it is the reason a person can take part at all.",
+      "reason": "The lesson never warns against the common belief that visible AI is good and invisible AI is bad, a belief the Compass source addresses directly; the exercises lean the same way."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 3",
+      "lesson_text": "Key affordances defined in learning sciences research that govern how technology interacts with cognition.",
+      "source_text": "not about the source",
+      "reason": "The affordance cards are never linked to the visibility tiers in the table above, though the concept title and objective 2 depend on that link."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 3",
+      "lesson_text": "Contingent Adaptivity ... Dynamic Interactivity & Feedback",
+      "source_text": "not about the source",
+      "reason": "The images are a website analytics dashboard (page load and bounce rate) and a tablet signing a lease form, which have nothing to do with adaptivity or feedback and could mislead."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Analyzing institutional trade-offs across conversational, generative, and evaluative AI affordances / block 2",
+      "lesson_text": "An educational leader is selecting an AI tool for formative assessment. Which scenario best exemplifies a trade-off between learner agency and algorithmic curation, according to the operational spectrum of visibility?",
+      "source_text": "not about the source",
+      "reason": "None of the options is a formative assessment tool, and only the correct answer mentions curation ('automatically sequences learning materials without learner input'), so its wording gives the answer away."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Structuring Practice for Durable Knowledge Integration / block 2",
+      "lesson_text": "Desirable Difficulties ... Testing Effect",
+      "source_text": "not about the source",
+      "reason": "The mind map uses 'Desirable Difficulties' before block 5 defines it, and uses 'Testing Effect', which the lesson never defines."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 1",
+      "lesson_text": "List every AI or digital tool you, or a learner you know, encountered today—whether visible (like a chatbot) or hidden (like an algorithm recommending content).",
+      "source_text": "not about the source",
+      "reason": "An AI inventory prompt opens a concept about learning progressions and construct maps, and nothing in the concept connects the two."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 2",
+      "lesson_text": "Learning Progression ... Construct Map",
+      "source_text": "not about the source",
+      "reason": "The 'Learning Progression' image shows phone app wireframes and the 'Construct Map' image shows a social media posting calendar, which do not explain either idea and could mislead."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Designing ordered multiple-choice diagnostic items mapped to developmental construct levels / block 2",
+      "lesson_text": "questions[4].correctAnswer: Level 2: Apparent Motion Not Linked to Model",
+      "source_text": "COMMON ERROR: The Sun goes below the Earth at night. (listed under Level 1)",
+      "reason": "The answer key places 'The Sun goes below the Earth at night' at Level 2, but the source's construct map lists it at Level 1, so the key is wrong."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Translating mastery-oriented classroom climate dimensions into evaluative feedback protocols / block 3",
+      "lesson_text": "Ranking students by their test scores in each subject ... Emphasizing that only high grades indicate success",
+      "source_text": "not about the source",
+      "reason": "In each question the wrong options are plain opposites of the example (ranking, only high grades, speed alone), so students can pick the answer without understanding mastery climate."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 7.2: Deconstructing cultural modeling units that scaffold disciplinary discourse from out-of-school literacies / block 3",
+      "lesson_text": "Assign decontextualized vocabulary drills to address perceived language gaps ... Focus exclusively on test preparation strategies",
+      "source_text": "not about the source",
+      "reason": "The wrong options are deficit-model or test-prep choices that the situation already rules out, so they are not plausible."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 1",
+      "summary": "Priya, a financial services consultant on a healthcare project, with Cases A (three-day course), B (AI platform) and C (project lead, peers, shadowing, past work)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Mapping Ecologies Across Six Learning Touchpoints / block 3",
+      "summary": "Self-directed vs required learning in formal and informal settings (evening course, annual compliance training, mentoring by a colleague), adapted from HPL II Figure 9-1",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Pedagogical Affordances Across the AI Spectrum / block 2",
+      "summary": "Compass AI types with their cases (captions, translation, calendar agents, autoplay feeds, essay scoring, laptop flags, reading groups), plus AutoTutor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Structuring Practice for Durable Knowledge Integration / block 3",
+      "summary": "Roediger and Karpicke 1-week recall study; spacing and interleaving findings (Cepeda, Carvalho and Goldstone)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Structuring Practice for Durable Knowledge Integration / block 4",
+      "summary": "Pressley why-questions, Chi sentence-by-sentence self-explanation, Bargh and Schul preparing to teach, Mueller and Oppenheimer handwritten vs laptop notes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Diagnosing Misconceptions Through Formative Learning Progressions / block 4",
+      "summary": "Day/night construct map with sample responses per level (Briggs et al.)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 3",
+      "summary": "Values-affirmation writing, Walton and Cohen belonging intervention, high-expectation feedback, Mueller and Dweck effort vs ability praise",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 4",
+      "summary": "Green/yellow/red behavior monitoring chart",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Mitigating Stereotype Threat Through Goal Orientation / block 5",
+      "summary": "Demographic intake forms before high-stakes exams as a threat cue",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 1",
+      "summary": "Thirty Million Words initiative and the word gap",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 3",
+      "summary": "Lee's rap lyrics cultural modeling, Moll's household funds of knowledge, Iliad with Batman and X-Men comics, Boykin's communal learning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 4",
+      "summary": "Ecological observation (Medin and Bang) and communal math estimation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 7: Designing Asset-Based Pedagogies Using Cultural Funds / block 5",
+      "summary": "Complex instruction task on historical migration using oral histories, diaries and records",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing organizational learning initiatives across the six workplace touchpoints / block 2",
+      "summary": "MedTech Inc. new hires: three-day bootcamp, digital modules, peer Slack group, mentors",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Categorizing organizational learning initiatives across the six workplace touchpoints / block 2",
+      "summary": "Remote sales team using an adaptive AI quiz platform, knowledge base, forum and manager feedback",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Categorizing organizational learning initiatives across the six workplace touchpoints / block 2",
+      "summary": "Consultant new to healthcare shadows a project lead, joins a community, reviews past deliverables (Priya's Case C)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Evaluating learner ecology maps to identify systemic gaps in relational and work-based touchpoints / block 2",
+      "summary": "District leader maps the learning ecology of new instructional coach Maya",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of legitimate peripheral participation from apprentice and professional onboarding cases / block 1",
+      "summary": "'Priya' as a new instructional coach moving from observer to facilitator in a district learning community (reuses the source's name with different facts)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of legitimate peripheral participation from apprentice and professional onboarding cases / block 3",
+      "summary": "High school robotics team newcomers move from simple tasks to leading sub-teams",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Forecasting the trajectory of tacit knowledge transmission when peer cohort interactions are reduced / block 2",
+      "summary": "District AI platform for professional learning that reduces peer cohort interaction",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Critiquing misalignments between invisible algorithmic sorting systems and learner autonomy goals / block 2",
+      "summary": "AI tool that places students in math ability groups in the background (Compass 'Sorting' reading-group case, reframed for a district leader)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Analyzing institutional trade-offs across conversational, generative, and evaluative AI affordances / block 2",
+      "summary": "AI-curated learning path that hides excluded content (Compass 'Choosing')",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Deconstructing training curricula to integrate optimal spaced intervals and retrieval schedules / block 2",
+      "summary": "District leader redesigns a massed two-day coach workshop into spaced retrieval sessions",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Anticipating long-term retention and category discrimination outcomes from blocked versus interleaved practice / block 2",
+      "summary": "Math professional development pilot comparing blocked and interleaved function-type problems",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Designing ordered multiple-choice diagnostic items mapped to developmental construct levels / block 2",
+      "summary": "Teacher designs a photosynthesis diagnostic item with misconception-based wrong answers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Diagnosing persistent student mental model flaws through evidence-centered assessment analysis / block 2",
+      "summary": "District leader diagnoses water cycle misconceptions with a construct map",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Translating mastery-oriented classroom climate dimensions into evaluative feedback protocols / block 2",
+      "summary": "District policy of effort-focused written feedback",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Translating mastery-oriented classroom climate dimensions into evaluative feedback protocols / block 2",
+      "summary": "Middle school math mastery rubric rewarding growth instead of ranking",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Translating mastery-oriented classroom climate dimensions into evaluative feedback protocols / block 2",
+      "summary": "Professional learning community meetings that analyze student work without comparing students",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.2: Identifying evaluative cues that induce performance-avoidance goals and cognitive threat in testing / block 2",
+      "summary": "High school math exam plan with public score posting, 'innate ability' framing and a hobby writing prompt",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 7.1: Deriving third-space instructional principles from community funds of knowledge implementations / block 1",
+      "summary": "Children's food truck budgeting at home used as the base for a ratios and percentages unit",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 7.1: Deriving third-space instructional principles from community funds of knowledge implementations / block 3",
+      "summary": "English unit pairing the Iliad with X-Men comics (Kirkland case)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 7.2: Deconstructing cultural modeling units that scaffold disciplinary discourse from out-of-school literacies / block 2",
+      "summary": "District unit combining rap lyrics analysis, family trades (carpentry, mechanics) and comics with classical texts (Lee, Moll, Kirkland cases)",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "Everything in the observable universe is composed of **matter**, formally defined as anything that occupies space and has mass.",
+      "source_text": "Chemists study and describe the behavior of matter and energy in three different domains: macroscopic, microscopic, and symbolic.",
+      "reason": "Not everything in the universe is matter (light and other energy have no mass), and the source treats matter and energy as separate things."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "At the microscopic level, particles are packed tightly together in fixed positions and vibrate without moving past one another.",
+      "source_text": "gas molecules are far apart and disorganized, solid water molecules are close together and organized, and liquid molecules are close together and disorganized.",
+      "reason": "The source only says how close and how organized the particles are; the particle motion (vibrating, sliding past one another, rapid random movement) is extra kinetic theory that is not in the chapter."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 5",
+      "lesson_text": "possess an infinite number of significant figures",
+      "source_text": "not in source",
+      "reason": "The source says counted and defined numbers are exact, but it never says they have an infinite number of significant figures or how they affect rounding."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Identifying misapplied rules for significant figures and zero types in reported experimental measurements / block 4",
+      "lesson_text": "Step 1: Incorrect sum; correct sum is $$12.45 + 12.40 + 12.43 = 37.28$$, but the flawed solution did not show the correct process for significant figures in addition.",
+      "source_text": "not in source",
+      "reason": "The flawed Step 1 already gives the correct sum 37.28, so the answer key marks a correct step as an error (and the task's claim of 'several errors' is false, since only Step 4 is wrong)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Identifying misapplied rules for significant figures and zero types in reported experimental measurements / block 4",
+      "lesson_text": "must be rounded to two decimal places, so the correct average is $$12.43\\ \\text{cm}$$, matching the least number of decimal places in the measurements.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "The key rounds a division by the decimal-place rule meant for addition, which contradicts the source's rule, and it calls the flawed Step 2 wrong although it gives the same 12.43 cm."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "lesson_text": "Single type of atom",
+      "source_text": "not about the source",
+      "reason": "The table and the mind map classify matter using atoms and molecules, but the lesson only defines atom and molecule later, in the block 5 callout."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Rigid form with constant volume and shape. Constituent particles vibrate within locked positions in an orderly arrangement.",
+      "source_text": "not about the source",
+      "reason": "The four state cards restate the block 1 descriptions of solids, liquids, gases and plasma almost word for word and add no new idea."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Compressible fluid with indefinite shape and volume. Particles travel at high speeds across large empty distances.",
+      "source_text": "Note that clouds are actually comprised of either very small liquid water droplets or solid water crystals; gaseous water in our atmosphere is not visible to the naked eye",
+      "reason": "The Gaseous State card shows a white cloud or steam plume, which is made of liquid droplets, so the picture teaches the wrong idea of what a gas looks like."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which statement best explains why an ice cube in a glass is considered a pure substance and a solid?",
+      "source_text": "not about the source",
+      "reason": "The Examples cards just above already state each classification and its reason, so students can copy the answers instead of classifying anything themselves."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "It is a solid with tightly packed particles.",
+      "source_text": "not about the source",
+      "reason": "For air in a balloon, wrong choices like a solid, oxygen molecules in a fixed arrangement, or parts separated by hand are obviously wrong, so the question gives the answer away."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures",
+      "source_text": "not about the source",
+      "reason": "Objective 1 asks students to classify matter, but no exercise asks them to tell an element from a compound or to spot a heterogeneous mixture; the only cases are one pure substance and two mixtures, with answers given."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Distinguishing macroscopic physical states and their microscopic particulate arrangements / block 2",
+      "lesson_text": "What change occurs when the ice cube melts on the plate?",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for particle arrangements, but every question only asks to name a change of state (melting, evaporation, boiling, condensation), which Concept 1 does not teach."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 1.2: Distinguishing macroscopic physical states and their microscopic particulate arrangements / block 6",
+      "lesson_text": "Explains how these changes are physical transformations, not chemical",
+      "source_text": "not about the source",
+      "reason": "The rubric expects students to explain physical versus chemical changes, which the lesson only teaches later, in Concept 2."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 2",
+      "lesson_text": "Common examples include temperature, density, electrical conductivity, and color.",
+      "source_text": "not about the source",
+      "reason": "The Intensive Properties card shows a blood glucose meter reading 103 mg/dL, which has no label or link to any of the listed examples."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 4",
+      "lesson_text": "Thermal energy (heat) of a hot water tub",
+      "source_text": "Both the drop and the pot of oil are at the same temperature (an intensive property), but the pot clearly contains much more heat (extensive property).",
+      "reason": "The lesson lists heat as extensive and temperature as intensive but never contrasts them, so the common mix-up between heat and temperature is left unaddressed."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.1: Differentiating between physical and chemical properties and their corresponding changes / block 2",
+      "lesson_text": "Identifies key observable signs of chemical change (e.g., color change, gas formation, new substance)",
+      "source_text": "grinding solids into powders (which can sometimes yield noticeable changes in color)",
+      "reason": "The rubric rewards color change and gas formation as signs of chemical change without warning that physical changes such as boiling or grinding can also give off gas or change color."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Evaluating whether physical properties change with sample quantity to classify them as intensive or extensive / block 2",
+      "lesson_text": "You add 20 grams of table salt (sodium chloride) and stir until it dissolves completely.",
+      "source_text": "not about the source",
+      "reason": "Adding salt changes what the substance is, not just how much there is, so the density really changes and students are pushed toward wrongly calling density extensive."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Zeros that appear before the first nonzero digit act only as locators for the decimal point.",
+      "source_text": "not about the source",
+      "reason": "The Leading Zeros card reuses the vintage balance photo from the extensive properties card, which shows nothing about leading zeros."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Zeros located between nonzero digits are part of the measurement.",
+      "source_text": "not about the source",
+      "reason": "The Captive Zeros card shows an abstract stack of blue cylinders that has nothing to do with zeros inside a number."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Zeros to the right of nonzero digits are significant only if a decimal point is explicitly present.",
+      "source_text": "not about the source",
+      "reason": "The Trailing Zeros card shows a chalkboard of random math formulas that does not illustrate trailing zeros."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 3.2: Distinguishing accuracy from precision and executing proper rounding rules in arithmetic calculations / block 2",
+      "lesson_text": "Calculate the result of $$4.56 + 1.4$$ using the correct number of significant figures.",
+      "source_text": "not about the source",
+      "reason": "Only the addition rule gets a practice item; the multiplication and division rule and the round-to-even rule from Concept 3 are never correctly practiced (Exercise 3.1 rounds its division by decimal places)."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions in Chemical Systems / block 3",
+      "lesson_text": "Multi-step conversions link sequential unit factors so intermediate units cancel out in series, leaving only the desired final unit.",
+      "source_text": "not about the source",
+      "reason": "Multi-step conversion is shown only with generic Unit A, B and C, and the concept never works through a real numeric conversion chain."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions in Chemical Systems / block 5",
+      "lesson_text": "acts as a physical bridge between mass and volume.",
+      "source_text": "not about the source",
+      "reason": "The Density as a Conversion Factor card shows a glass thermometer, which is about temperature, not mass, volume or density."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Deconstructing multi-step dimensional analysis setups to verify proper unit cancellation and conversion ratios / block 3",
+      "lesson_text": "Subtract $$1000$$ from $$250.0$$",
+      "source_text": "not about the source",
+      "reason": "The wrong choices (subtract 1000, add 1, divide by 1) are obviously implausible, so only the correct choice looks like a real conversion step."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Applying conversion factors to solve single-step and derived unit problems involving volume and density / block 2",
+      "lesson_text": "Applying conversion factors to solve single-step and derived unit problems involving volume and density",
+      "source_text": "not about the source",
+      "reason": "Objective 4 names density, and the concept teaches density factors, cubed units and multi-step chains, but every practice item is a single-step metric prefix change (g to kg, mL to L, cm to m)."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Converting quantitative temperature values among Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "lesson_text": "$$25 \times 2 + 273.15$$",
+      "source_text": "not about the source",
+      "reason": "Two answer choices have broken math code (a tab in place of the times sign), so they show as garbled text and point students to the clean correct choice."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Plasma in stars, lightning strikes and metal-cutting plasma torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Copper wire, pure water, air or sports drink, oil and vinegar dressing as the four classes of matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "O2 as a molecule of one element and H2O as a molecule of a compound",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Ice cube as solid water, a pure substance",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Air in a balloon as a gaseous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic physical states and their microscopic particulate arrangements / block 1",
+      "summary": "Ice cube melts on a plate and the water then evaporates",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic physical states and their microscopic particulate arrangements / block 3",
+      "summary": "Boiling soup with steam condensing on the pot lid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 1",
+      "summary": "Physical changes: ice melting, steam condensing, sugar dissolving in coffee, grinding, magnetizing metals",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 1",
+      "summary": "Chemical changes: iron rusting, combustion, cooking or rotting food, copper in nitric acid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 4",
+      "summary": "Table rows for rusting of an iron chain and condensation of water vapor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties: Intensive and Extensive Characteristics / block 4",
+      "summary": "Table rows for gold's melting point (1064 C), a 5.0 kg iron ingot, ethanol's flammability and the heat of a hot water tub, in place of the source's milk and hot-oil cases",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Evaluating whether physical properties change with sample quantity to classify them as intensive or extensive / block 2",
+      "summary": "20 g of salt dissolved in 100 mL of water to predict mass, volume and density",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Counting 12 eggs in a carton as an exact number",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Reading a graduated cylinder between 21 and 22 mL as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "summary": "Three dispensers targeting 296 mL compared for accuracy and precision",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Leading zeros: 0.00802 g has 3 significant figures",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Captive zeros: 70.607 mL has 5 significant figures",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Trailing zeros: 55.0 g, and 1300 g being ambiguous unless written as 1.30 x 10^3 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Adding 1.0023 g and 4.383 g to get 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm to get 4.1 cm2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Round-to-even: 31.55 to 31.6 and 31.45 to 31.4",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Identifying misapplied rules for significant figures and zero types in reported experimental measurements / block 2",
+      "summary": "Metal rod measured as 12.45, 12.40 and 12.43 cm against a true 12.42 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions in Chemical Systems / block 1",
+      "summary": "Building the two conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions in Chemical Systems / block 4",
+      "summary": "Cubing the 2.54 cm per inch factor to convert in.3 to cm3",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Deconstructing multi-step dimensional analysis setups to verify proper unit cancellation and conversion ratios / block 2",
+      "summary": "250.0 g lab sample converted to 0.2500 kg",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Relationships / block 2",
+      "summary": "Absolute zero, water's freezing and boiling points and body temperature 37.0 C on three scales",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Relationships / block 3",
+      "summary": "Deriving the 9/5 slope and 32 intercept from water's freezing and boiling points",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

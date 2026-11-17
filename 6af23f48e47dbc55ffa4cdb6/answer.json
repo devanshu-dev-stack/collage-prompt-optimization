@@ -1,0 +1,212 @@
+{
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Matter commonly exists in three physical states on Earth, with a fourth high-energy state dominating the broader cosmos.",
+      "source_text": "A fourth state of matter, plasma, occurs naturally in the interiors of stars.",
+      "reason": "The source says plasma occurs in stars and some high-temperature places; the claim that plasma dominates the cosmos is not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Enzymatic reactions in a ripening banana convert carbohydrates and oxidize tissues into new, darker chemical substances, representing a chemical change.",
+      "source_text": "A banana turning brown is a chemical change as new, darker (and less tasty) substances form.",
+      "reason": "The mechanism (enzymatic reactions, converting carbohydrates, oxidizing tissues) is added and is not in the source."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 2",
+      "lesson_text": "$$\\frac{9^\\circ\\text{F}}{5^\\circ\\text{C}}$$: The ratio of the size of one Fahrenheit degree to one Celsius degree (unitless factor).",
+      "source_text": "On the Fahrenheit scale, the freezing point of water is defined as 32 °F and the boiling temperature as 212 °F. The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "9 °F/5 °C is the number of Fahrenheit degrees per Celsius degree, so one Fahrenheit degree is 5/9 the size of a Celsius degree (the ratio is inverted), and the factor has units of °F/°C, so it is not unitless."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 5",
+      "lesson_text": "The $$32^\\circ\\text{F}$$ offset raises all Fahrenheit values compared to Celsius, even for negative temperatures.",
+      "source_text": "not in source",
+      "reason": "Below −40 degrees the Fahrenheit number is lower than the Celsius number (for example −50 °C = −58 °F), so the claim that every Fahrenheit value is higher than the Celsius value is false."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 5",
+      "lesson_text": "It increases by a factor of $$\\frac{9}{5}$$",
+      "source_text": "not about the source",
+      "reason": "For the question 'If the Celsius temperature doubles, what happens to the Fahrenheit temperature (ignoring the offset)?', 9/5 × (2C) = 2 × (9/5 × C), so the right answer is the distractor 'It also doubles' and the answer key is wrong."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Converting quantities between metric prefix units and English units using conversion factors / block 2",
+      "lesson_text": "Multiply $$250\\text{ mL}$$ by $$\\frac{1.057\\text{ qt}}{1000\\text{ mL}}$$ directly",
+      "source_text": "not about the source",
+      "reason": "Since 1.057 qt = 1 L = 1000 mL, this distractor is also a valid conversion factor that gives the right answer, so the question has two correct choices and converting to liters first is not 'necessary'."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Tracing unit cancellation steps in multi-step dimensional analysis setups / block 3",
+      "lesson_text": "Subtract $$1000$$ from the grams value to get milligrams",
+      "source_text": "not about the source",
+      "reason": "Several distractors in this block (subtracting 1000, 'Add the grams and milligrams values together', 'Ensuring that the conversion factors are added, not multiplied') are clearly wrong to any student who has seen one conversion, so the questions test little."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying everyday matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best describes oxygen gas ($$\\text{O}_2$$) as shown in the first example card?",
+      "source_text": "not about the source",
+      "reason": "The example cards already state each classification and its reason, so questions 1 to 3 can be answered by copying the card text, while the objective asks students to classify samples themselves."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Categorizing properties of matter as extensive or intensive / block 2",
+      "lesson_text": "Comparing the mass of a gallon of milk to a cup of milk",
+      "source_text": "not about the source",
+      "reason": "The answer choices of question 1 and the gold density in question 4 are copied straight from the concept's table, and question 3 asks only for the definition, so students can answer without classifying any new property."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Applying rounding rules to arithmetic calculations involving addition, subtraction, multiplication, and division / block 2",
+      "lesson_text": "Calculate $$0.90275$$ rounded to four significant figures using the round-to-even rule.",
+      "source_text": "not about the source",
+      "reason": "This is the exact worked case from the concept callout ('$$0.90275$$ rounds to four significant figures as $$0.9028$$'), so it can be answered by copying instead of applying the rule."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 3",
+      "lesson_text": "What does $$T_{^\\circ\\text{C}}$$ represent in the equation above?",
+      "source_text": "not about the source",
+      "reason": "The equation block directly above lists the meaning of every symbol, so the four questions in this block only ask students to copy those lines."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "A **chemical property** refers to the ability (or inability) of a substance to change into a different kind of matter.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to distinguish physical and chemical properties, but no exercise asks them to classify a property (for example flammability or melting point) as physical or chemical; the exercises cover only changes and extensive versus intensive."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "**Heterogeneous Mixture**: A mixture whose composition varies from point to point.",
+      "source_text": "not about the source",
+      "reason": "Objective 1 includes heterogeneous mixtures and classifying by state, but Exercise 1.1 practices only an element, a compound and a homogeneous mixture, and no item asks students to identify a heterogeneous mixture or a state of matter."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes based on substance identity / block 2",
+      "lesson_text": "Physical changes are often reversible and do not change the chemical identity of the substance.",
+      "source_text": "not about the source",
+      "reason": "The exercise keys 'It is reversible' as the defining trait and contrasts rust as not reversible, which strengthens the common misconception that reversibility decides physical versus chemical, without warning that some physical changes (grinding) are hard to undo and some chemical changes can be reversed."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "When converting rates or multi-dimensional units such as speed ($$\\text{km/h}$$ to $$\\text{m/s}$$) or volume ($$\\text{in.}^3$$ to $$\\text{L}$$, apply separate factors sequentially for length and time.",
+      "source_text": "not about the source",
+      "reason": "For volume the length factor must be applied three times (cubed), a step students often miss; the card does not say this and even speaks of 'length and time' for a volume conversion."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "$$31.57$$ rounds to two significant figures as $$32$$",
+      "source_text": "If any nonzero digits follow the dropped 5, round up.",
+      "reason": "The callout states the even rule only for a 5 'followed only by zeros', but this example has a 5 followed by 7, and the lesson never gives the rule for that case, so students cannot see why it rounds up."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "lesson_text": "Comparison of Accuracy and Precision: Cough Syrup Dispensers",
+      "source_text": "Measurements are said to be precise if they yield very similar results when repeated in the same manner. A measurement is considered accurate if it yields a result that is very close to the true or accepted value.",
+      "reason": "Accuracy and precision appear only in this table's title and column headers; the lesson never defines or explains them, so students meet the terms without being taught them."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 3.1: Identifying counting errors with leading, captive, and trailing zeros in significant figure determinations / block 2",
+      "lesson_text": "They are asked to calculate the density, report the answer with the correct number of significant figures, and round properly.",
+      "source_text": "not about the source",
+      "reason": "The task and its rubric need density = mass / volume, which the lesson first teaches in Concept 5, two concepts later."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Takes both the shape and volume of its container, expanding to fill available space. Particles are separated by vast distances relative to their size and move randomly.",
+      "source_text": "gaseous water in our atmosphere is not visible to the naked eye, although it may be sensed as humidity.",
+      "reason": "The Gas card's image is a hot spring giving off white steam clouds, which are tiny liquid droplets rather than gas, so the picture teaches students that a gas is the visible cloud."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Rules for Identifying Significant Zeros",
+      "source_text": "not about the source",
+      "reason": "The images do not show the zero rules: the Trailing Zeros card shows smoking beakers of dry ice, and the Captive Zeros card shows a '60' marking whose zero is a trailing zero, not a captive one."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 4",
+      "lesson_text": "Compounds -> Chemical Bonds",
+      "source_text": "not about the source",
+      "reason": "The mind map gives 'Chemical Bonds' as the feature of compounds, but elements such as O2 also have bonds (as the next callout says), so the map points students to the wrong way to tell compounds from elements."
+    }
+  ],
+  "examples": [
+    {"location": "Concept 1: Phases and Classification of Matter / block 1", "summary": "Astronaut on the Moon weighs one-sixth as much but keeps the same mass", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 1", "summary": "Yeast converts sugar to ethanol and carbon dioxide with no mass change", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 1", "summary": "Lead and sulfuric acid reacting in a car battery conserve mass", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 3", "summary": "Sucrose is always 42.1% C, 6.5% H, 51.4% O by mass", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 3", "summary": "Mercury(II) oxide decomposes on heating into mercury and oxygen", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 3", "summary": "Heterogeneous mixtures: Italian dressing, granite, chocolate chip cookies", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 3", "summary": "Homogeneous mixtures: sports drinks, air, gasoline, salt in water", "from_source": true, "source_had_one": false},
+    {"location": "Concept 1: Phases and Classification of Matter / block 3", "summary": "Molecules of the same atoms (H2, O2, P4, S8) and different atoms (H2O, CO2, glucose)", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 1.1: Classifying everyday matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2", "summary": "Oxygen gas as an element", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 1.1: Classifying everyday matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2", "summary": "Sucrose as a compound", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 1.1: Classifying everyday matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2", "summary": "Saltwater as a homogeneous mixture", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 1.2: Predicting total mass changes during physical and chemical processes using the law of conservation of matter / block 2", "summary": "Sealed container of ice and water melting at 0 °C keeps its mass", "from_source": false, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 1", "summary": "Iron rusts while chromium resists oxidation (chemical property)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 1", "summary": "Physical changes: melting wax, condensing steam, sugar in coffee, magnetizing metal, grinding", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 1", "summary": "Chemical changes: burning a match, copper with nitric acid, cooking, digesting, rotting food", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 2", "summary": "Melting wax as a physical change", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 2", "summary": "Rusting iron as a chemical change", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 2", "summary": "Dissolving sugar in water as a physical change", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 2", "summary": "Banana browning as a chemical change", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 3", "summary": "Gallon of milk has more mass than a cup (extensive)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 3", "summary": "Full bathtub holds more volume than a small beaker (extensive)", "from_source": false, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 3", "summary": "Combining two samples at 20 °C gives 20 °C (temperature is intensive)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 3", "summary": "Gold density 19.3 g/cm3 in a coin or a bar (intensive)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 2: Physical and Chemical Properties and Changes / block 4", "summary": "Drop of hot oil versus a pot of hot oil: same temperature, different heat", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 2.1: Distinguishing between physical and chemical changes based on substance identity / block 1", "summary": "Ice melting on a kitchen counter as a physical change", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 2.1: Distinguishing between physical and chemical changes based on substance identity / block 3", "summary": "Iron rusting outdoors as a chemical change", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 2.1: Distinguishing between physical and chemical changes based on substance identity / block 5", "summary": "Sugar dissolving in coffee as a physical change", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 2.2: Categorizing properties of matter as extensive or intensive / block 2", "summary": "Heated metal bar whose temperature rises while mass stays the same (intensive temperature)", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 2.2: Categorizing properties of matter as extensive or intensive / block 2", "summary": "Gold coin of density 19.3 g/cm3 melted into a bar keeps its density", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1", "summary": "Exact numbers: 12 eggs, 1 in. = 2.54 cm, 1 ft = 12 in.", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1", "summary": "Graduated cylinder reading of 21.6 mL with the 6 estimated", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2", "summary": "0.00832407 mL has six significant figures (leading zeros)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2", "summary": "70.607 mL has five significant figures (captive zeros)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2", "summary": "55.0 g and 1300 g written as 1.30 × 10^3 g (trailing zeros)", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3", "summary": "Rounding 31.57, 0.051065 and 0.90275", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4", "summary": "1.0023 g + 4.383 g = 5.385 g", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4", "summary": "0.6238 cm × 6.6 cm = 4.1 cm2 and 421.23 g / 486 mL = 0.867 g/mL", "from_source": true, "source_had_one": false},
+    {"location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 5", "summary": "Three cough syrup dispensers targeting 296 mL (accuracy and precision)", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 3.1: Identifying counting errors with leading, captive, and trailing zeros in significant figure determinations / block 2", "summary": "Flawed density calculation 0.00840 g / 55.0 mL", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 3.2: Applying rounding rules to arithmetic calculations involving addition, subtraction, multiplication, and division / block 2", "summary": "Density from 12.50 g and 3.6 mL (multiplication/division rule)", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 3.2: Applying rounding rules to arithmetic calculations involving addition, subtraction, multiplication, and division / block 2", "summary": "Adding 15.23 mL, 8.1 mL and 0.005 mL (addition rule)", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 3.2: Applying rounding rules to arithmetic calculations involving addition, subtraction, multiplication, and division / block 2", "summary": "Rounding 0.90275 to four significant figures", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 1", "summary": "1 km = 1000 m and 1 mm = 0.001 m prefix examples", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 2", "summary": "Prefix table examples changed to 1 Gg, 1 MHz, 1 cm, 1 mL, 1 ng instead of the source table's 8 Gyr, 3 MHz, 7 cm, 2 mmol, 4 ng", "from_source": false, "source_had_one": true},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 4", "summary": "Basketball player's 34 in. vertical jump converted to 86 cm", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 4", "summary": "125 g competition frisbee converted to 4.41 oz", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5", "summary": "Orienting the factor 1 lb / 453.59 g", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5", "summary": "Chaining quarts to liters to milliliters", "from_source": true, "source_had_one": false},
+    {"location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5", "summary": "Derived units: km/h to m/s and in.3 to L", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 4.1: Tracing unit cancellation steps in multi-step dimensional analysis setups / block 2", "summary": "Converting 0.425 kg to 425 000 mg in two steps", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 4.2: Converting quantities between metric prefix units and English units using conversion factors / block 2", "summary": "Converting 250 mL to quarts through liters", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 4.2: Converting quantities between metric prefix units and English units using conversion factors / block 2", "summary": "Converting 5.00 km to meters", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 4.2: Converting quantities between metric prefix units and English units using conversion factors / block 2", "summary": "Converting 75.0 g to 2.65 oz", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 5", "summary": "A 20 °C rise equals a 36 °F rise", "from_source": false, "source_had_one": false},
+    {"location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 7", "summary": "Converting 15 °C outdoor temperature to 59 °F", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 5.1: Explaining the linear relationships and zero-point offsets in temperature conversion equations / block 7", "summary": "Converting 37 °C body temperature to 98.6 °F", "from_source": true, "source_had_one": false},
+    {"location": "Exercise 5.2: Calculating density and converting temperatures across Celsius, Kelvin, and Fahrenheit scales / block 2", "summary": "Density of a 2.0 cm metal cube with mass 32.0 g", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 5.2: Calculating density and converting temperatures across Celsius, Kelvin, and Fahrenheit scales / block 2", "summary": "Converting 68 °F to Celsius", "from_source": false, "source_had_one": true},
+    {"location": "Exercise 5.2: Calculating density and converting temperatures across Celsius, Kelvin, and Fahrenheit scales / block 2", "summary": "Converting 25 °C water to 298.15 K", "from_source": false, "source_had_one": true}
+  ]
+}

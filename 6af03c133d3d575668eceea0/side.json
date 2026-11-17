@@ -1,0 +1,472 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 2,
+    "wrong_viewpoint": 1,
+    "off_source_content": 2,
+    "ignores_custom_instructions": 0,
+    "x1": 3,
+    "x2": 2,
+    "x3": 1,
+    "x4": 2,
+    "x5": 0,
+    "x6": 4,
+    "x7": 0,
+    "x8": 0,
+    "x9": 3,
+    "x10": 1,
+    "x11": 2,
+    "x12": 2,
+    "x14": 1,
+    "x15": 2
+  },
+  "examples_total": 36,
+  "examples_from_source": 27,
+  "made_up_examples": 9,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 58,
+  "score": 88,
+  "instructions_score": 100,
+  "teaching_score": 84,
+  "problems": [
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 5",
+      "lesson_text": "A common misconception is that a scientific hypothesis graduates into a theory, which eventually \"graduates\" into a law once proven true.",
+      "source_text": "If such a hypothesis turns out to be capable of explaining a large body of experimental data, it can reach the status of a theory.",
+      "reason": "The source says a hypothesis can reach the status of a theory (and gives Dalton's atomic hypothesis becoming a central theory), but the lesson presents a hypothesis becoming a theory as part of a misconception."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 1",
+      "lesson_text": "A functional hypothesis must be testable and falsifiable.",
+      "source_text": "not in source",
+      "reason": "Falsifiability is a philosophy-of-science idea the source never mentions; the source only says a hypothesis is tested and refined."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Identifying and correcting errors in applying significant figure and rounding rules in calculations / block 4",
+      "lesson_text": "Step 1: Fails to round the intermediate product; uses all calculator digits instead of considering significant figures from measurements.",
+      "source_text": "One way to do this is to report the result of a calculation with the correct number of significant figures",
+      "reason": "Keeping all digits while multiplying and rounding only the reported result is correct (the source and the lesson's own 0.6238 cm x 6.6 cm example do this), so marking Step 1 as an error teaches something false."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Applying dimensional analysis to multi-step unit conversions and derived density calculations / block 2",
+      "lesson_text": "Add $$273.15$$ to the Celsius temperature: $$30.0 + 273.15 = 303.15$$ kelvin.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places ... The 273.15 in these equations has been determined experimentally, so it is not exact.",
+      "reason": "By the source's addition rule, 30.0 (one decimal place) + 273.15 must be reported as 303.2 K, so the answer key of 303.15 contradicts the rule the lesson teaches."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 3.2: Evaluating whether physical properties are intensive or extensive based on quantity dependence / block 3",
+      "lesson_text": "Physical changes are typically reversible and do not form new substances.",
+      "source_text": "not in source",
+      "reason": "The source defines a physical change only by unchanged chemical identity; reversibility as a test for physical change is not in the source (and the lesson's own grinding example is not easily reversible)."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 2",
+      "lesson_text": "The pressure of an ideal gas is directly proportional to its absolute temperature at constant volume.",
+      "source_text": "not about the source",
+      "reason": "\"Ideal gas\" is never defined and \"absolute temperature\" is not introduced until the kelvin scale in Concept 5, so a beginning student cannot read this example."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 2",
+      "lesson_text": "All nonzero digits are inherently significant. Zeros require careful classification based on their position in the number.",
+      "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "The lesson gives rules for identifying significant figures but never says what a significant figure is, so the term is used without being defined."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 3",
+      "lesson_text": "Evaluating Accuracy vs. Precision: The Dispenser Trial",
+      "source_text": "Precise values agree with each other; accurate values agree with a true value.",
+      "reason": "The table grades accuracy and precision, and Exercise 4.1 asks for their definitions, but the lesson never defines either term."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 4",
+      "lesson_text": "d = \\frac{m}{V}",
+      "source_text": "not about the source",
+      "reason": "Density as mass over volume, and its being intensive, was already taught in Concept 3 block 4 and is repeated again in Concept 5 blocks 2, 3 and 4."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 3",
+      "lesson_text": "Encompasses phenomena large enough to be directly sensed by sight, touch, or laboratory instruments.",
+      "source_text": "not about the source",
+      "reason": "The three domain cards restate the macroscopic, microscopic and symbolic definitions already given in block 1 (and again in the block 4 mind map) without adding a new idea."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 5",
+      "lesson_text": "This establishes a slope ratio of:",
+      "source_text": "The y-intercept of the equation, b, is then calculated using either of the equivalent temperature pairs, (100 °C, 212 °F) or (0 °C, 32 °F)",
+      "reason": "The text derives only the slope 9/5 and never finds the intercept of 32, yet block 6 then gives the full Fahrenheit formula with + 32, so students cannot follow how it was built."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Phases and Classification of Matter / block 3",
+      "lesson_text": "Homogeneous Mixtures -> Uniform Solutions",
+      "source_text": "Italian dressing is an example of a heterogeneous mixture ... An example of a solution is a sports drink",
+      "reason": "Elements, compounds, homogeneous and heterogeneous mixtures are shown only as abstract mind-map labels with no concrete samples, although classifying samples is the first learning objective."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 1",
+      "lesson_text": "To convert a quantity, multiply it by the conversion factor that places the unwanted unit in the denominator, leaving only the desired unit in the product.",
+      "source_text": "a basketball player’s vertical jump of 34 inches can be converted to centimeters",
+      "reason": "The factor-label method is described only in general terms; the lesson never carries out a single worked conversion showing units cancelling."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 3",
+      "lesson_text": "Symbolic Domain",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain image is a 3D ball-and-stick molecule with no formulas or symbols, looking like the Microscopic Domain image, so it blurs the very distinction the cards teach."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Phases and Classification of Matter / block 2",
+      "lesson_text": "Comparison of the macroscopic and macroscopic properties defining the four states of matter.",
+      "source_text": "not about the source",
+      "reason": "The caption says \"macroscopic and macroscopic\" instead of macroscopic and microscopic, mislabeling what the table compares."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "The four card images (a kitchen scale, an abstract cylinder, a beaker and a calculator) show nothing about captive, leading or trailing zeros, so they are decorative and do not support the rules."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 6",
+      "lesson_text": "Primary Temperature Scales in Chemical Science",
+      "source_text": "not about the source",
+      "reason": "The Kelvin card shows smoke over a grill, unrelated to the scale, and the Fahrenheit card shows a dial thermometer marked in °C, which is misleading."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.2: Classifying chemical phenomena into macroscopic, microscopic, and symbolic domains / block 1",
+      "lesson_text": "Classifying chemical phenomena into macroscopic, microscopic, and symbolic domains",
+      "source_text": "not about the source",
+      "reason": "The three domains get three blocks in Concept 1, but no exercise practices them; even this exercise, titled for the domains, only asks about hypotheses and laws again."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 4",
+      "lesson_text": "The result must be rounded to the same number of **decimal places** as the measurement with the fewest decimal places (the least precise place value):",
+      "source_text": "not about the source",
+      "reason": "Objective 3 asks students to apply rounding rules in calculations, but only the multiplication rule is practiced; the addition/subtraction rule and the round-to-even rule never appear in an exercise."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.2: Applying dimensional analysis to multi-step unit conversions and derived density calculations / block 2",
+      "lesson_text": "Which calculation correctly converts $$25.0$$ centimeters to meters using the factor-label method?",
+      "source_text": "not about the source",
+      "reason": "Objective 4 calls for multi-step dimensional analysis problems, but the only conversion practice is this one-step centimeter-to-meter choice; no multi-step conversion is ever practiced."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 3.2: Evaluating whether physical properties are intensive or extensive based on quantity dependence / block 3",
+      "lesson_text": "If temperature stays constant, the energy input is going into changing state, not raising temperature.",
+      "source_text": "not about the source",
+      "reason": "The question relies on the idea that energy goes into a change of state at constant temperature, which the lesson never teaches."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories based on observational statements / block 3",
+      "lesson_text": "In the example 'Dropping Objects and Gravity', which part of the scientific method is best illustrated when a scientist summarizes repeated observations that all objects fall toward the ground?",
+      "source_text": "not about the source",
+      "reason": "Each example card already names its category (\"leading to the development of a law\", \"Atomic Theory of Matter\"), so students can copy the answer instead of distinguishing hypotheses, laws and theories."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes in various substances / block 3",
+      "lesson_text": "In the 'Rusting Iron' example, what best describes the change taking place?",
+      "source_text": "not about the source",
+      "reason": "The cards state the answers outright (\"a new substance with different properties from iron\", \"a property independent of the sample size\"), so the questions only ask students to match wording."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.2: Evaluating whether physical properties are intensive or extensive based on quantity dependence / block 2",
+      "lesson_text": "Evaluating whether physical properties are intensive or extensive based on quantity dependence",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for intensive versus extensive properties but every question classifies melting ice as a physical change, an idea already tested in Exercise 3.1."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 5.1: Explaining linear relationships and reference points when converting between Celsius, Fahrenheit, and kelvin / block 1",
+      "lesson_text": "Explaining linear relationships and reference points when converting between Celsius, Fahrenheit, and kelvin",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for temperature-scale conversions but all its blocks practice the density equation."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Evaluating whether physical properties are intensive or extensive based on quantity dependence / block 3",
+      "lesson_text": "Determine if new substances are formed during melting",
+      "source_text": "not about the source",
+      "reason": "This distractor is the same check as the keyed answer (whether chemical composition changes), so question 1 has two correct choices."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 3",
+      "lesson_text": "The symbolic language that translates microscopic entities into concise, manipulable expressions.",
+      "source_text": "One of the challenges for students learning chemistry is recognizing that the same symbols can represent different things in the macroscopic and microscopic domains",
+      "reason": "The source flags that one symbol (such as H2O) can stand for a macroscopic sample or a molecule, but the lesson never addresses this and even ties symbols to microscopic entities only."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.1: Explaining linear relationships and reference points when converting between Celsius, Fahrenheit, and kelvin / block 5",
+      "lesson_text": "If the volume $$V$$ of an object is kept constant but the mass $$m$$ doubles, what happens to the density $$\\rho$$?",
+      "source_text": "not about the source",
+      "reason": "Saying density doubles when mass doubles, without noting this means a different material, clashes with the lesson's point that density is intensive and invites the misconception that more of a substance is denser."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 1",
+      "summary": "Symbolic domain: formula H2O and state symbols (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 2",
+      "summary": "Hypothesis: sugar dissolves faster at higher temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 2",
+      "summary": "Law: gas pressure directly proportional to temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 2",
+      "summary": "Theory: Kinetic Molecular Theory of gases",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: The Scientific Method: Hypotheses, Laws, and Theories / block 3",
+      "summary": "Macroscopic domain: ice melting at 0 °C, steam pressure, rust on iron",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories based on observational statements / block 2",
+      "summary": "Dropping objects leads to a law of falling bodies",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories based on observational statements / block 2",
+      "summary": "Hypothesis that water boils at a lower temperature at high altitude",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories based on observational statements / block 2",
+      "summary": "Atomic theory of matter as a theory",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Classifying chemical phenomena into macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Chemist hypothesizes magnesium reacts with hydrochloric acid to make gas",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Classifying chemical phenomena into macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Gas volume-temperature relationship summarized as a law",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut weighs one-sixth as much on the Moon but keeps the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 1",
+      "summary": "Conservation of matter in melting ice, burning fuel, fermenting sugar",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "summary": "Molecules O2, P4, S8 and H2O, CO2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Applying the law of conservation of matter to predict mass balances in closed and open systems / block 2",
+      "summary": "Sealed container of water and air frozen; predict mass and molecular arrangement",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, grinding a mineral",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical property: iron oxidizes while gold resists oxidation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: combustion, rusting, cooking, caramelizing, digesting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Mass: gallon of milk versus a cup",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Volume: two 500 mL water samples make 1000 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Temperature: combining samples at 20 °C stays at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Density: gold nugget and gold bar both 19.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Heat: drop of hot oil versus a pot of hot oil",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes in various substances / block 2",
+      "summary": "Melting ice as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes in various substances / block 2",
+      "summary": "Rusting iron as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Evaluating whether physical properties are intensive or extensive based on quantity dependence / block 2",
+      "summary": "Ice at 0 °C melting on a counter classified as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 1",
+      "summary": "Exact numbers: eggs in a carton, 1 in. = 2.54 cm, 1 ft = 12 in.",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL at the meniscus",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 2",
+      "summary": "Captive and leading zeros: 3090, 70.607 mL, 0.008020 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 2",
+      "summary": "Trailing zeros: 1300 g written as 1.3 x 10^3 or 1.300 x 10^3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 3",
+      "summary": "Three cough syrup dispensers judged for accuracy and precision",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 4",
+      "summary": "1.0023 g + 4.383 g rounded to 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 4",
+      "summary": "0.6238 cm x 6.6 cm rounded to 4.1 cm2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision / block 5",
+      "summary": "Round-to-even: 18.35 g to 18.4 g and 92.85 g to 92.8 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Identifying and correcting errors in applying significant figure and rounding rules in calculations / block 2",
+      "summary": "Flawed area calculation for a 12.35 cm by 2.1 cm metal rod",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 1",
+      "summary": "Conversion factor built from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Derived Quantities, and Temperature Conversions / block 5",
+      "summary": "Celsius-Fahrenheit slope from 100 and 180 degree intervals (9/5)",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

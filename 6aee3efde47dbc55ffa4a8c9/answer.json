@@ -1,0 +1,445 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 1",
+      "lesson_text": "### One Learner, Three Ecosystems: The Case of Priya",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step (moving from last week's map to the learner's own context and what the capstone asks) is left out; the lesson jumps from the opening prompt straight to Priya."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 1",
+      "lesson_text": "* **Visible AI**: Interactive platforms you consciously opened, queried, or directed (such as conversational tutors, translation engines, or draft-generation assistants).",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The Compass webpage section is reduced to two bullet definitions inside the opening prompt; its forms of AI ordered from visible to invisible (Talking through Sorting) and its framing are never taught."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 4",
+      "lesson_text": "Learning inherently travels through people. Digital platforms and AI tools can serve as **connective tissue** that expands these developmental touchpoints",
+      "source_text": "Learning is situated; learning moves through people (can AI help it move?)",
+      "reason": "The custom flow puts \"learning moves through people (can AI help it move?)\" right after \"learning is situated\" and before the six places, but the lesson puts it after the six places table and the opportunities-to-learn triad."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 3",
+      "lesson_text": "School District / Educational Counterpart",
+      "source_text": "Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places are adapted only for school districts, not for home, and the \"what real learning ecologies look like\" part (the two apprentices' maps) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 1",
+      "lesson_text": "### Matching Digital Affordances to Cognitive Demands",
+      "source_text": "Recap: the six questions",
+      "reason": "The requested recap of the six questions is left out; after the Concept 1 key ideas the lesson moves to a new How People Learn II topic instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 1",
+      "lesson_text": "### Matching Digital Affordances to Cognitive Demands",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The slides' Focus Areas (emerging questions for Early Childhood, K-12 and Higher Ed + Workforce) are never presented as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 1",
+      "lesson_text": "### Matching Digital Affordances to Cognitive Demands",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "There is no Capstone Brief, no Scoping Guide and no worked scoping example anywhere in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 1",
+      "lesson_text": "### Matching Digital Affordances to Cognitive Demands",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The activity where learners scope their own capstone with the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Appraising the systemic adoption, adaptation, or rejection of AI-driven evaluation tools based on cognitive and socio-affective impacts / block 3",
+      "lesson_text": "Explain and justify your prediction.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no knowledge check across the week's ideas and no Week 1 items; the lesson only has exercises tied to each concept."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Appraising the systemic adoption, adaptation, or rejection of AI-driven evaluation tools based on cognitive and socio-affective impacts / block 3",
+      "lesson_text": "Explain and justify your prediction.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson ends without the requested step to submit the scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 2",
+      "lesson_text": "Synthesis of affordance-task alignments based on National Academies of Sciences, Engineering, and Medicine (2018), Chapter 8.",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2 to 5 (four of the five concepts: technology affordances, asset-based pedagogy, goal structures, stereotype threat) are built on How People Learn II, so the lesson is built mainly on a supporting source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives / objective[3]",
+      "lesson_text": "Critique instructional deficit models by formulating asset-based pedagogical strategies that leverage learners' out-of-school funds of knowledge and culturally grounded cognitive practices.",
+      "source_text": "Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage",
+      "reason": "The lesson's objectives replace the requested course-objective focus (whether AI builds or replaces a capacity by age and stage, appraising evidence including where it does not exist, designing AI-enabled learning) with deficit models, goal structures and stereotype threat."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Evaluating workplace learning ecologies through contrasting cases of professional onboarding and situated participation / block 3",
+      "lesson_text": "Instead of a pre-project course, she is embedded directly into the project team.",
+      "source_text": "In Case C Case Aʼs course",
+      "reason": "The slides show that Priya's Case C ecosystem includes Case A's course (and Case B's platform) as its required formal touchpoint, so saying Case C replaces the course contradicts the source."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 4",
+      "lesson_text": "Research syntheses demonstrate that an instructional tool's efficacy is contingent on four interlocking dimensions:",
+      "source_text": "CONCLUSION 8-1: The decision to use a technology for learning should be based on evidence indicating that the technology has a positive impact in situations that are similar with respect to: the types of learning and goals for learning; characteristics of the learners; the learning environment; features of the social and cultural context likely to affect learning; and the level of support in using the technology to be provided to learners and educators.",
+      "reason": "Conclusion 8-1 names five factors and none is \"Contextual Transparency\"; the lesson attributes a different four-part list, with an invented dimension, to Conclusion 8-1."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 5",
+      "lesson_text": "whenever it displaces the developmental human relationships at the center of the system, deeper conceptual learning and tacit knowledge transfer break down.",
+      "source_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it.",
+      "reason": "The slide gives a design recommendation (AI shouldn't replace people), while the lesson turns it into a categorical empirical claim that learning always breaks down."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Asset-Based Pedagogies and Funds of Knowledge / block 1",
+      "lesson_text": "**The 'Word Gap' Fallacy:** Interventions prioritizing continuous parental monologue assume that Western middle-class conversational styles are superior (Avineri et al., 2015).",
+      "source_text": "The effects of such expectations is illustrated by controversy over the relationship between the richness of a mother’s speech and her child’s vocabulary development and academic outcomes such as grades, a relationship known as the word gap (Huttenlocher et al., 2002).",
+      "reason": "The source describes a controversy and says continuous talk is one of many ways to foster learning, while the lesson labels the word gap a \"fallacy\", a stronger stance than the source takes."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Asset-Based Pedagogies and Funds of Knowledge / block 1",
+      "lesson_text": "Cognitive science and educational research demonstrate that student learning is maximized when educational structures discard compensatory models and actively leverage out-of-school practices as legitimate intellectual assets.",
+      "source_text": "A growing body of research supports adopting an asset model of education in which curricula and instructional techniques support all learners in connecting academic learning goals to the learning they do outside of school settings",
+      "reason": "Conclusion 7-3 says a growing body of research supports an asset model, but the lesson says research demonstrates learning is maximized, which overstates the source's conclusion."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: Classroom Goal Structures, Motivation, and Self-Regulated Learning / block 1",
+      "lesson_text": "While they can boost short-term task execution, they do not facilitate long-term conceptual transfer.",
+      "source_text": "However, research regarding the impact of performance goals on academic outcomes has yielded mixed findings (Elliot and McGregor, 2001; Midgley et al., 2001). Some researchers have found positive outcomes when learners have endorsed normative goals (a type of performance goal)",
+      "reason": "The source reports mixed findings and some positive outcomes for performance-approach (normative) goals, but the lesson states flatly that they do not support long-term learning."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Contextual Buffers / block 2",
+      "lesson_text": "This reinforces self-integrity and mitigates executive resource depletion during high-stakes tasks (Cohen et al., 2006).",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The lesson presents values affirmation as a settled evidence-based buffer and drops the source's warning that the findings have not replicated."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Contextual Buffers / block 1",
+      "lesson_text": "or automated algorithmic assessment tools that invisibly judge or track learners—trigger threat appraisals.",
+      "source_text": "not in source",
+      "reason": "None of the sources lists AI assessment tools as a stereotype threat cue; the lesson adds this as an established trigger."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Contextual Buffers / block 3",
+      "lesson_text": "Transparent learner dashboards supporting self-directed remediation.",
+      "source_text": "not in source",
+      "reason": "The table presents transparent dashboards as an \"Evidence-Based Buffering Design\" against stereotype threat, but no source mentions or tests them."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 1",
+      "lesson_text": "Fixed lockstep progression vs. learner-negotiated goal selection and legitimate participation",
+      "source_text": "not about the source",
+      "reason": "The table uses \"legitimate participation\" and \"community of practice\" before block 2 introduces legitimate peripheral participation and communities."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Classroom Goal Structures, Motivation, and Self-Regulated Learning / block 4",
+      "lesson_text": "Core Dimensions for Program Diagnostic: Opportunities to Learn",
+      "source_text": "not about the source",
+      "reason": "The practice, participation and relational triad already taught in Concept 1 block 4 is repeated here, and \"Legitimate Participation\" is now recast as learner choice, which muddles the earlier meaning."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 1.2: Deconstructing learner touchpoints across formal, relational, and work-based dimensions in real-world learning ecologies / block 2",
+      "lesson_text": "Maya’s learning is most robust where AI connects her to people and authentic tasks (e.g., Slack channel, mentor shadowing), rather than where AI replaces human judgment (e.g., automated scheduling).",
+      "source_text": "not about the source",
+      "reason": "The solution calls a peer Slack channel and mentor shadowing places where \"AI connects her to people\", though neither is AI in the situation, and never says what learning relationship automated scheduling replaces, so the conclusion does not follow from the facts given."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Classroom Goal Structures, Motivation, and Self-Regulated Learning / block 1",
+      "lesson_text": "**Expectancy-Value Theory (Eccles & Wigfield, 2002)**: Learners expend effort and persist when they both *expect to succeed* and *value the task*.",
+      "source_text": "a less-than-skilled reader may nevertheless approach a difficult reading task with strong motivation to persist in the task if it is interesting, useful, or important to the reader’s identity",
+      "reason": "Three motivation theories with many new terms (utility value, entity theory, performance-avoidance) are explained only in general terms, with no concrete learner case, although the source offers one."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 2",
+      "lesson_text": "Legitimate Peripheral Participation",
+      "source_text": "not about the source",
+      "reason": "The card's image is an architectural floor plan with drafting tools, which shows nothing about newcomers moving from the edge to the centre of a community."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 3",
+      "lesson_text": "Optimally Spaced Adaptive Retrieval",
+      "source_text": "not about the source",
+      "reason": "The image of a hand holding a Kodachrome photo slide is unrelated to spaced, adaptive retrieval practice."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 3",
+      "lesson_text": "Agent-Led Conversational Trialogues",
+      "source_text": "not about the source",
+      "reason": "The image shows a human-led online language class on a video call, which misleads students about trialogues with two computer agents."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Contextual Buffers / block 2",
+      "lesson_text": "Attributional Reframing",
+      "source_text": "not about the source",
+      "reason": "A wide shot of a library reading room has no link to reframing early setbacks as normal and temporary."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Contextual Buffers / block 4",
+      "lesson_text": "Safe Condition Rebound",
+      "source_text": "not about the source",
+      "reason": "The mind map's \"Systemic Consequences\" nodes (\"Selective Underperformance\", \"Safe Condition Rebound\") are never explained anywhere in the lesson, so students cannot read them."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 4",
+      "lesson_text": "### Application Routine: Digital Habits Checkup",
+      "source_text": "not about the source",
+      "reason": "One block packs the opportunities-to-learn triad, AI as connective tissue and a separate thinking routine, inside a concept that already holds the AI audit, Priya's cases, situated learning, the six places and the key ideas, so the slides' whole session is crammed into one page."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 3",
+      "lesson_text": "The Six Places People Learn: Workforce to School Ecologies",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to sort a learner's sources into the six touchpoints, although the six places are a core idea of the session."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Mapping functional digital affordances to cognitive demands of factual retention versus mental model construction / block 3",
+      "lesson_text": "Algorithmic scheduling spaces recall opportunities based on mastery, supporting durable memory.",
+      "source_text": "not about the source",
+      "reason": "Each correct option restates the matching card's description, so the questions can be answered by matching words rather than by analyzing alignment as the objective asks."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.1: Analyzing the influence of evaluative cues and classroom goal structures on student self-regulation and achievement orientation / block 2",
+      "lesson_text": "What type of goal orientation prioritizes improvement, progress, and the process of learning over peer comparison?",
+      "source_text": "not about the source",
+      "reason": "This item is answered by copying the mastery column of the Concept 4 table, while the objective asks students to assess impact."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Predicting learning outcomes and cognitive load when integrating visible versus invisible AI systems in instruction / block 2",
+      "lesson_text": "How might the visibility of the AI systems impact students’ ability to transfer learning to novel problems?",
+      "source_text": "not about the source",
+      "reason": "The concept never teaches how an AI's visibility affects cognitive load or transfer, and the two systems also differ in task type, so students cannot reason about visibility from what was taught."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.1: Analyzing the influence of evaluative cues and classroom goal structures on student self-regulation and achievement orientation / block 2",
+      "lesson_text": "A learner values a task because it is central to their identity and sees errors as informative feedback. According to the frameworks discussed, what implicit theory of intelligence is this learner most likely to hold?",
+      "source_text": "not about the source",
+      "reason": "The cues were taught as identity value (expectancy-value) and a mastery-goal trait, not as signs of a mindset, and the expected answer's link between identity and incremental theory was never taught."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating workplace learning ecologies through contrasting cases of professional onboarding and situated participation / block 2",
+      "lesson_text": "Which principle of workplace learning is least supported by Maya's onboarding process?",
+      "source_text": "not about the source",
+      "reason": "Only one option is a principle; the other three describe features of Maya's onboarding, so the wording gives the answer away, and in question 2 the three wrong options are things the example clearly lacks."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating workplace learning ecologies through contrasting cases of professional onboarding and situated participation / block 4",
+      "lesson_text": "Isolated progression through digital quizzes",
+      "source_text": "not about the source",
+      "reason": "The wrong options describe things the Priya example explicitly rules out, and the correct options repeat the example's own words, so the questions test nothing."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Deconstructing learner touchpoints across formal, relational, and work-based dimensions in real-world learning ecologies / block 3",
+      "lesson_text": "List all digital tools used by the district, regardless of Maya’s usage",
+      "source_text": "not about the source",
+      "reason": "Distractors carry giveaway words (\"in isolation\", \"only\", \"regardless\", \"Rank the AI tools by their technical sophistication\") while the correct options copy the situation's own phrasing."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Designing third spaces and cultural modeling practices that connect out-of-school literacies to academic domains / block 3",
+      "lesson_text": "By discouraging the use of home experiences in classroom discussions.",
+      "source_text": "not about the source",
+      "reason": "In all three questions every wrong option is an obviously anti-asset statement, so the right answer is clear without understanding the concepts."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Analyzing the influence of evaluative cues and classroom goal structures on student self-regulation and achievement orientation / block 2",
+      "lesson_text": "what unintended motivational effect might this have, even for students who are consistently rated as 'successful'?",
+      "source_text": "not about the source",
+      "reason": "The stem asks for an \"unintended\" effect and three of the four options are positive effects, so the wording gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Evaluating instructional feedback and choice mechanisms that foster intrinsic motivation and metacognitive monitoring / block 3",
+      "lesson_text": "Survey students about their preferred color codes",
+      "source_text": "not about the source",
+      "reason": "Distractors such as surveying color preferences, adding more color codes or reinstating public reminders are implausible, so the steps can be picked without reasoning."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 1",
+      "lesson_text": "* **Invisible AI**: Background systems that made decisions or shaped pathways without an explicit prompt (such as applicant-tracking filters, adaptive courseware sequencing, automated attendance flaggers, or content recommendation feeds).",
+      "source_text": "Invisible doesn’t mean sinister.",
+      "reason": "The lesson never tells students that invisible AI is not harmful in itself (for example captions or screen readers), and later blocks only show hidden AI as judging or threatening, so the likely belief that visible means good and invisible means bad goes unchallenged."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Cognition and Workplace Learning Ecologies / block 1",
+      "summary": "Priya, a financial services consultant new to healthcare, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Evaluating workplace learning ecologies through contrasting cases of professional onboarding and situated participation / block 1",
+      "summary": "Maya, a new district instructional coach, onboarded through a three-day orientation and modules",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating workplace learning ecologies through contrasting cases of professional onboarding and situated participation / block 3",
+      "summary": "Priya embedded in the healthcare project team with a project lead, shadowing, past deliverables and a Slack channel (Case C)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing learner touchpoints across formal, relational, and work-based dimensions in real-world learning ecologies / block 2",
+      "summary": "District L&D leader audits new teacher Maya's visible and invisible AI, Slack channel and mentor across school, home and an afterschool job",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 1",
+      "summary": "FaCT system spacing fact practice and dropping mastered items (Pavlik et al., 2016)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 2",
+      "summary": "Exemplar platforms per cognitive target: FaCT, Kellman's perceptual learning modules, SimCalc, BEETLE II, AutoTutor, WISE",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 3",
+      "summary": "Spaced adaptive retrieval, linked-representation circuit simulations, agent trialogues and mixed-reality embodied environments",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Alignment of Digital Technology Affordances / block 4",
+      "summary": "Texas SimCalc implementation tied to teacher professional development",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Mapping functional digital affordances to cognitive demands of factual retention versus mental model construction / block 2",
+      "summary": "Adaptive flashcard system, synchronized simulation platform and three-way agent conversation, generalized from the source's systems",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting learning outcomes and cognitive load when integrating visible versus invisible AI systems in instruction / block 2",
+      "summary": "District leader pilots a visible AI tutor and an invisible recall-sequencing AI in middle school science",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Asset-Based Pedagogies and Funds of Knowledge / block 1",
+      "summary": "Word gap and interventions urging parents to talk more",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Asset-Based Pedagogies and Funds of Knowledge / block 2",
+      "summary": "Funds of knowledge: families' repair and building skills used as classroom resources (Moll et al., 1992)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Asset-Based Pedagogies and Funds of Knowledge / block 2",
+      "summary": "Cultural modeling using rap lyrics as interpretive frameworks (Lee)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Critiquing deficit assumptions in instructional design and reframing tasks to incorporate community funds of knowledge / block 2",
+      "summary": "District curriculum team revising a science unit that treats home languages as barriers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Designing third spaces and cultural modeling practices that connect out-of-school literacies to academic domains / block 2",
+      "summary": "Middle school science teacher uses students' family farming knowledge to design experiments",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Designing third spaces and cultural modeling practices that connect out-of-school literacies to academic domains / block 2",
+      "summary": "English teacher uses hip-hop lyrics to scaffold analysis of poetic devices",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Designing third spaces and cultural modeling practices that connect out-of-school literacies to academic domains / block 2",
+      "summary": "Co-designed after-school makerspace merging community repair skills with engineering",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Classroom Goal Structures, Motivation, and Self-Regulated Learning / block 3",
+      "summary": "Elementary student always on green on a color-coded behavior chart loses enthusiasm (Box 6-2)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the influence of evaluative cues and classroom goal structures on student self-regulation and achievement orientation / block 2",
+      "summary": "District dashboard showing real-time student rankings by test score",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the influence of evaluative cues and classroom goal structures on student self-regulation and achievement orientation / block 2",
+      "summary": "Teacher's color-coded behavior chart undermining motivation of 'successful' students",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Evaluating instructional feedback and choice mechanisms that foster intrinsic motivation and metacognitive monitoring / block 2",
+      "summary": "District feedback system with weekly color-coded performance charts and public praise",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Identifying environmental threat cues in evaluative contexts and formulating identity-safe buffering interventions / block 2",
+      "summary": "Math assessment platform asking race and gender, showing male scientists and using AI scoring",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Appraising the systemic adoption, adaptation, or rejection of AI-driven evaluation tools based on cognitive and socio-affective impacts / block 2",
+      "summary": "District AI evaluation tool with demographic prompts and opaque grouping algorithms",
+      "from_source": false,
+      "source_had_one": false
+    }
+  ]
+}

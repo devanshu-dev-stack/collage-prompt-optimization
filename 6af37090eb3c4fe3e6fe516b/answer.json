@@ -1,0 +1,413 @@
+{
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 1",
+      "lesson_text": "The units of quantities must be subjected to the exact same mathematical operations as their associated numbers.",
+      "source_text": "Dimensional analysis is based on this premise: the units of quantities must be subjected to the same mathematical operations as their associated numbers.",
+      "reason": "The lesson sets the source's premise apart as a block quote but adds the word \"exact\", so the quoted rule does not match the source word for word."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Interpreting the mathematical formulation of density and unit cancellation in derived quantities / block 5",
+      "lesson_text": "Correct! $$Q$$ decreases when $$U_1$$ is larger than $$U_2$$.",
+      "source_text": "The numbers of these two quantities are multiplied to yield the number of the product quantity, 86",
+      "reason": "Converting from a larger unit to a smaller one gives a larger number (the source turns 34 inches into 86 cm, and the lesson's own block 7 turns 5.0 m into 500 cm), so the answer key for question 3 is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Analyzing the linear relationships and zero-point offsets among Fahrenheit, Celsius, and Kelvin scales / block 5",
+      "lesson_text": "$$T_F$$ decreases proportionally",
+      "source_text": "The Celsius and Fahrenheit temperature scales, however, do not share a common zero point, and so the relationship between these two scales is a linear one rather than a proportional one (y = mx + b).",
+      "reason": "The keyed answer calls the Fahrenheit-Celsius relationship proportional, which the source (and Concept 5 block 1) says it is not, because of the +32 offset."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "lesson_text": "Particles remain in close contact but have enough kinetic energy to move and slide past one another.",
+      "source_text": "gas molecules are far apart and disorganized, solid water molecules are close together and organized, and liquid molecules are close together and disorganized",
+      "reason": "The source only describes how close and how organized the particles are; particle kinetic energy and motion (vibrating in place, sliding, moving rapidly) are not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "table sugar (sucrose, $$\\text{C}_{12}\\text{H}_{22}\\text{O}_{11}$$)",
+      "source_text": "Any sample of sucrose (table sugar) consists of 42.1% carbon, 6.5% hydrogen, and 51.4% oxygen by mass.",
+      "reason": "The molecular formula of sucrose is not given anywhere in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "to produce iron(III) oxide ($$\\text{Fe}_2\\text{O}_3$$), an entirely new compound commonly known as rust.",
+      "source_text": "Iron, for example, combines with oxygen in the presence of water to form rust; chromium does not oxidize",
+      "reason": "The source calls the product only \"rust\"; naming it iron(III) oxide with the formula Fe2O3 is not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Exact conversion factors and counting numbers have an infinite number of significant figures and therefore never limit the significant digits in a calculation.",
+      "source_text": "not in source",
+      "reason": "The source says counted and defined numbers are exact, but it does not state that they have infinite significant figures or discuss how they affect the significant-figure rules."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Temperature Scales and Mathematical Conversions / block 1",
+      "lesson_text": "Temperature is an intensive property that quantifies the average kinetic energy of the particles within a sample of matter.",
+      "source_text": "We use the word temperature to refer to the hotness or coldness of a substance.",
+      "reason": "Defining temperature as the average kinetic energy of particles is not in the source, which describes temperature only as hotness or coldness."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Temperature Scales and Mathematical Conversions / block 2",
+      "lesson_text": "-459.67 °F",
+      "source_text": "not in source",
+      "reason": "The source never gives the Fahrenheit value of absolute zero."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Temperature Scales and Mathematical Conversions / block 3",
+      "lesson_text": "0 K corresponds to absolute zero, the theoretical state where all classical molecular kinetic motion ceases.",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved",
+      "reason": "The source defines 0 K only as the lowest temperature that can theoretically be reached; the claim that molecular motion stops there is not in the source."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "lesson_text": "If the meniscus rests between the 21 mL and 22 mL lines and is slightly past the midpoint, the volume is appropriately recorded as 21.6 mL.",
+      "source_text": "you should make a reading at the bottom of the meniscus, the lowest point on the curved surface of the liquid",
+      "reason": "The lesson uses \"meniscus\" without ever saying what it is or where to read it, though the source defines it."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Exact conversion factors and counting numbers have an infinite number of significant figures",
+      "source_text": "not about the source",
+      "reason": "The note relies on \"conversion factors\", a term the lesson does not define until Concept 4 block 1."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 3",
+      "lesson_text": "Derived units originate from algebraic combinations of the seven base SI units.",
+      "source_text": "not about the source",
+      "reason": "The lesson never introduces or lists the SI base units, so students meet \"seven base SI units\" and \"SI derived unit\" with no definition."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 2",
+      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "Concept 2 block 4 already gives the same density equation and the same point that density is intensive."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 5.2: Executing temperature conversions across relative and absolute thermal measurement scales / block 2",
+      "lesson_text": "Add $$273$$ to Celsius: $$25 + 273 = 298$$ Kelvin.",
+      "source_text": "not about the source",
+      "reason": "Concept 5 taught T_K = T_C + 273.15, but the explanation switches to 273 without saying why (rounding to match 25), so a student who gets 298.15 cannot follow the step."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 3",
+      "lesson_text": "Complex unit conversions string multiple factors together sequentially. Intermediate units cancel across fractions, leaving only the desired final unit.",
+      "source_text": "not about the source",
+      "reason": "Concept 4 explains conversion factors and multi-step chains only in general terms and never works one conversion with real numbers, although objective 4 asks students to do this."
+    },
+    {
+      "check": "x5",
+      "location": "Exercise 4.1: Interpreting the mathematical formulation of density and unit cancellation in derived quantities / block 2",
+      "lesson_text": "To use the equation, multiply the initial quantity $$q$$ by a conversion factor $$\\frac{U_2}{U_1}$$, which cancels the original unit and replaces it with the desired unit.",
+      "source_text": "not about the source",
+      "reason": "The units-only ratio U2/U1 is never linked to the number-and-unit factors from Concept 4 (such as 2.54 cm / 1 in.), which the lesson said equal 1, so students cannot see where a number like 100 comes from or how a factor can be \"greater than 1\" as block 5 claims."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Expands completely to occupy container volume and shape due to high-speed, widely dispersed particles.",
+      "source_text": "Note that clouds are actually comprised of either very small liquid water droplets or solid water crystals; gaseous water in our atmosphere is not visible to the naked eye, although it may be sensed as humidity.",
+      "reason": "The Gas State card's photo (image-3) shows visible steam over a pot, which is tiny liquid droplets rather than gas, so it supports the common misconception the source warns against."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 3",
+      "lesson_text": "Multi-Step Pathways",
+      "source_text": "not about the source",
+      "reason": "The Multi-Step Pathways card's image (image-11) is a blank notebook that shows nothing about chaining conversion factors."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.2: Distinguishing elements, compounds, homogeneous mixtures, and heterogeneous mixtures using macroscopic and particulate models / block 1",
+      "lesson_text": "Distinguishing elements, compounds, homogeneous mixtures, and heterogeneous mixtures using macroscopic and particulate models",
+      "source_text": "not about the source",
+      "reason": "Objective 1 asks students to classify samples as elements or compounds, but no question in either Concept 1 exercise asks for that; elements and compounds appear only as wrong answer choices."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to count significant figures in a number with leading, captive or trailing zeros, or to apply the round-to-even rule, though both are central to objective 3."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Deconstructing multi-step dimensional analysis setups to evaluate unit conversion pathways / block 2",
+      "lesson_text": "A laboratory sample has a mass of 45.0 grams and occupies a volume of 15.0 milliliters. Calculate the density of the sample in units of grams per cubic centimeter using dimensional analysis.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 calls for multi-step conversions, but this \"multi-step\" task is one division (1 mL = 1 cm³) and Exercise 4.1 has only one-step conversions, so students never practice chaining factors."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.2: Predicting the behavior of extensive versus intensive properties when sample quantities change / block 2",
+      "lesson_text": "A student places a small piece of sodium metal into a beaker of water at room temperature.",
+      "source_text": "Free sodium, an element that is a soft, shiny, metallic solid",
+      "reason": "To predict what happens next, students must know how sodium reacts with water (gas, heat, a new compound), which the lesson never teaches and is not an assumed prerequisite."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances into physical states and taxonomic categories of matter based on composition / block 3",
+      "lesson_text": "What classification describes the air inside a balloon?",
+      "source_text": "not about the source",
+      "reason": "The cards directly above already state each answer (for example, \"illustrating the gas phase and a homogeneous mixture\"), so the questions can be answered by copying rather than classifying."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.1: Interpreting the mathematical formulation of density and unit cancellation in derived quantities / block 3",
+      "lesson_text": "What does the symbol $$Q$$ represent in the equation $$Q = q \\times \\frac{U_2}{U_1}$$?",
+      "source_text": "not about the source",
+      "reason": "All four questions ask what a symbol means, which block 2 has just listed, so they test copying, not the application objective 4 calls for."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Analyzing the linear relationships and zero-point offsets among Fahrenheit, Celsius, and Kelvin scales / block 3",
+      "lesson_text": "What does $$T_F$$ represent in the equation $$T_F = \\frac{9}{5} T_C + 32$$?",
+      "source_text": "not about the source",
+      "reason": "Each question asks for a symbol's meaning that the equation block right above spells out, so students can answer by copying."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Distinguishing elements, compounds, homogeneous mixtures, and heterogeneous mixtures using macroscopic and particulate models / block 2",
+      "lesson_text": "Which property changes as the ice melts and then boils?",
+      "source_text": "not about the source",
+      "reason": "Besides the keyed \"Shape and volume\", the option \"Temperature and density\" is also correct: the water is heated to boiling and the density changes from ice to water to steam."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Deconstructing multi-step dimensional analysis setups to evaluate unit conversion pathways / block 3",
+      "lesson_text": "Which sanity-check step most directly justifies the reported solution's units and value?",
+      "source_text": "not about the source",
+      "reason": "The keyed unit-cancellation check confirms only the units, while the option \"Compare the result to typical densities of known substances\" checks the value, so two answers are defensible."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Interpreting the mathematical formulation of density and unit cancellation in derived quantities / block 7",
+      "lesson_text": "Multiply 5.0 m by the conversion factor $$\\frac{100\\text{ cm}}{1\\text{ m}}$$ to get 500 cm.",
+      "source_text": "not about the source",
+      "reason": "5.0 m has two significant figures, but the key gives 500 cm, which the lesson's own table calls ambiguous; the feedback never says conversions keep the significant figures, which reinforces the idea that they can be ignored."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Elements: gold, iron, sulfur, oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Compounds: water (H and O in 2:1) and sucrose breaking down into carbon and water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Heterogeneous mixtures: Italian dressing, chocolate chip cookies, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Homogeneous mixtures: air, sports drinks, salt dissolved in water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "summary": "Conservation of matter shown by ice melting and water breaking down into hydrogen and oxygen",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into physical states and taxonomic categories of matter based on composition / block 2",
+      "summary": "Ice cube as a solid pure substance",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into physical states and taxonomic categories of matter based on composition / block 2",
+      "summary": "Air in a balloon as a gas and a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into physical states and taxonomic categories of matter based on composition / block 2",
+      "summary": "Saltwater solution as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing elements, compounds, homogeneous mixtures, and heterogeneous mixtures using macroscopic and particulate models / block 1",
+      "summary": "Ice cube melts on a plate, then the water is boiled into steam",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing elements, compounds, homogeneous mixtures, and heterogeneous mixtures using macroscopic and particulate models / block 3",
+      "summary": "Chef compares salt in water with sand in water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: melting ice, boiling water, sugar dissolving in coffee, grinding a crystal",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical property: iron rusts while chromium does not",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: burning, digestion, cooking eggs, rotting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron rusting as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Sugar dissolving in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Burning wood (cellulose plus oxygen gives carbon dioxide and water vapor)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A gallon of milk has more mass than a cup (extensive)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Two samples at 20 °C combined stay at 20 °C (intensive)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gold nugget and gold ingot share a density of 19.3 g/cm³ (intensive)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Flammability of ethanol does not depend on amount (intensive)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting the behavior of extensive versus intensive properties when sample quantities change / block 2",
+      "summary": "Sodium metal dropped into water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Exact numbers: counting 12 eggs, 1 ft = 12 in., 1 kg = 1000 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL between the 21 and 22 mL marks",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero-rule examples such as 0.00832 g and 1300 g written as 1.30 × 10³ g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "31.55 rounds up to 31.6 (round to even)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "92.85 rounds down to 92.8 (round to even)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying flaws in significant figure determination and rounding procedures during arithmetic operations / block 2",
+      "summary": "Flawed solution for the area of a metal rod, 23.60 cm × 1.3 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 1",
+      "summary": "Conversion factor built from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 4",
+      "summary": "Bar graph of densities of gasoline, water, iron, lead and gold",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Deconstructing multi-step dimensional analysis setups to evaluate unit conversion pathways / block 2",
+      "summary": "Density of a 45.0 g, 15.0 mL lab sample is 3.00 g/cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Mathematical Conversions / block 4",
+      "summary": "Body temperature 37.0 °C converted to 98.6 °F and 310.2 K",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

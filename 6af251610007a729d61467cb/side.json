@@ -1,0 +1,415 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 2,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 2,
+    "x2": 1,
+    "x3": 2,
+    "x4": 0,
+    "x5": 0,
+    "x6": 4,
+    "x7": 1,
+    "x8": 0,
+    "x9": 1,
+    "x10": 1,
+    "x11": 1,
+    "x12": 0,
+    "x14": 5,
+    "x15": 2
+  },
+  "examples_total": 30,
+  "examples_from_source": 25,
+  "made_up_examples": 5,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 44,
+  "score": 91,
+  "instructions_score": 100,
+  "teaching_score": 85,
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 2",
+      "lesson_text": "Contains significant proportions of charged ions and electrons; responds to electric fields",
+      "source_text": "not in source",
+      "reason": "The source says only that plasma's charged particles give it unique properties; the claim that plasma responds to electric fields is an added fact the source does not contain."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 2",
+      "lesson_text": "A transformation in state or physical form without altering chemical bonds, such as melting wax or condensing steam.",
+      "source_text": "not in source",
+      "reason": "The source defines a physical change by unchanged chemical identity, not by chemical bonds; the bond claim is added and is not true in general (melting or dissolving an ionic solid separates bonded ions)."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 2",
+      "lesson_text": "The intrinsic potential or resistance of a substance to undergo chemical transformation, including flammability and oxidation potential.",
+      "source_text": "not in source",
+      "reason": "'Oxidation potential' is an electrochemistry term the source never uses (it lists flammability, toxicity, acidity and reactivity), and the lesson never explains it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Counting significant figures in measured quantities and applying proper rounding rules in arithmetic calculations / block 2",
+      "lesson_text": "Calculate the result of $$6.72\\text{ g} \\times 0.040\\text{ g}$$ and round it to the correct number of significant figures. ... $$0.27\\text{ g}$$",
+      "source_text": "Dimensional analysis is based on this premise: the units of quantities must be subjected to the same mathematical operations as their associated numbers.",
+      "reason": "Grams times grams gives square grams, so the keyed answer 0.27 g has the wrong unit, breaking the rule the lesson itself teaches in Concept 5."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Critiquing calculation steps containing incorrect significant figure tracking or faulty rounding rules / block 4",
+      "lesson_text": "Step 1: Incorrect significant figures in volume calculation; $$24.3 - 21.6 = 2.7\\text{ mL}$$ is correct in value, but the result should have one decimal place (least decimal places of the inputs), so $$2.7\\text{ mL}$$ is correct, but must explicitly state the rule: answer should match the least decimal places used in subtraction.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "By this rule 2.7 mL is already correct, yet the rubric calls Step 1 (and the unrounded Step 2) an error, so students are graded for finding mistakes that do not exist when only Step 3 is wrong."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 3",
+      "lesson_text": "Precise, but not accurate (>10 mL below target, but tightly clustered)",
+      "source_text": "Measurements are said to be precise if they yield very similar results when repeated in the same manner. A measurement is considered accurate if it yields a result that is very close to the true or accepted value.",
+      "reason": "The table judges the dispensers as accurate or precise, but the lesson never defines accuracy or precision anywhere, although the source does."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 3",
+      "lesson_text": "Evaluating Accuracy vs. Precision: Dispenser Performance",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision is taught in this table, but no exercise asks students to judge a set of measurements as accurate, precise, both or neither."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 3",
+      "lesson_text": "Pure substances that cannot be broken down into simpler substances by chemical changes.",
+      "source_text": "not about the source",
+      "reason": "Elements and compounds are defined through 'chemical changes', but the lesson only explains what a chemical change is later, in Concept 3."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.2: Deducing whether a sample is a pure substance or a mixture by tracing physical and chemical separation pathways / block 3",
+      "lesson_text": "The first step is to assess whether physical separation methods alter the sample's properties, which helps distinguish pure substances from mixtures.",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
+      "reason": "The exercise depends on the rule that mixtures can be separated by physical means while compounds need a chemical change, but the lesson never states that rule for mixtures and teaches physical versus chemical change only in Concept 3, after this exercise."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 2.2: Deducing whether a sample is a pure substance or a mixture by tracing physical and chemical separation pathways / block 2",
+      "lesson_text": "The sample is classified as a pure compound, not a mixture or element. It can be separated into simpler substances only by chemical change.",
+      "source_text": "not about the source",
+      "reason": "Getting the same crystals back after dissolving and evaporating does not rule out a homogeneous mixture (the lesson's own explanation says it 'suggests a pure substance or homogeneous mixture'), so the jump to 'pure compound' is not supported."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Deducing whether a sample is a pure substance or a mixture by tracing physical and chemical separation pathways / block 3",
+      "lesson_text": "It tests whether the sample is a homogeneous mixture by checking if the composition stays uniform",
+      "source_text": "not about the source",
+      "reason": "The keyed answer says this step tests for a homogeneous mixture, but its own explanation ('if the original substance is recovered, it suggests a pure substance or homogeneous mixture') admits the step cannot tell the two apart."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 2",
+      "lesson_text": "Particles are close together but disorganized; flows and forms a top surface",
+      "source_text": "not about the source",
+      "reason": "The shape, volume and particle arrangement of solids, liquids and gases were already taught in Concept 1's water table ('Molecules are close together but disorganized and free to flow'), so the same content appears in two concepts."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 5",
+      "lesson_text": "**Mass vs. Weight**: Mass is a fundamental measure of the amount of matter in an object, whereas weight is the gravitational force exerted upon that mass.",
+      "source_text": "not about the source",
+      "reason": "A page titled on classifying matter also packs in states of matter, plasma, the history of the atom, the conservation law and mass versus weight, with nothing tying these ideas to the page's main goal."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 2",
+      "lesson_text": "steam billowing from a kettle",
+      "source_text": "gaseous water in our atmosphere is not visible to the naked eye, although it may be sensed as humidity.",
+      "reason": "The lesson treats visible steam as an observation of gaseous water while its own table in block 3 calls the gas 'Invisible', and never explains that the visible cloud is tiny liquid droplets, a predictable confusion the source addresses."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 2",
+      "lesson_text": "Standardized chemical shorthand bridging the unseen particles and visible phenomena: formulas like $$\\text{H}_2\\text{O}$$ and state labels such as $$(s)$$, $$(l)$$, and $$(g)$$.",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Realm card's image (image-3) shows physics and math equations such as E = mc² and the quadratic formula, not chemical formulas or state labels, so it misrepresents the symbolic domain of chemistry."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing everyday chemical phenomena into macroscopic observations, microscopic particle representations, and symbolic expressions / block 3",
+      "lesson_text": "Which domain of chemistry is illustrated when you observe water boiling in a kettle, seeing steam rise and measuring the temperature?",
+      "source_text": "not about the source",
+      "reason": "The cards just above state each answer outright ('Watching water turn into steam in a kettle is a macroscopic event'), so students can copy the answers instead of telling the domains apart."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Categorizing everyday chemical phenomena into macroscopic observations, microscopic particle representations, and symbolic expressions / block 3",
+      "lesson_text": "Biological domain",
+      "source_text": "not about the source",
+      "reason": "Made-up 'domains' that were never taught ('Biological domain', 'Physical domain', 'Experimental domain') are implausible distractors, so each question shrinks to a pick among the three taught names."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Inferring the microscopic interactions that explain observable macroscopic behaviors and matching them with chemical symbolism / block 2",
+      "lesson_text": "Quantum domain",
+      "source_text": "not about the source",
+      "reason": "As in Exercise 1.1, invented 'domains' ('Quantum domain', 'Thermodynamic domain', 'Physical domain') can be ruled out by anyone who remembers the list of three, so they test nothing."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 1.2: Inferring the microscopic interactions that explain observable macroscopic behaviors and matching them with chemical symbolism / block 3",
+      "lesson_text": "Students use this equation to predict what will happen if the temperature drops below zero degrees Celsius.",
+      "source_text": "not about the source",
+      "reason": "The equation carries no temperature information, so the lesson jumps from writing a symbolic equation to predicting freezing below 0 °C without explaining how the symbols make that prediction possible."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 2",
+      "lesson_text": "Measurable or observable trait that does not require altering identity, such as color, hardness, or electrical conductivity.",
+      "source_text": "not about the source",
+      "reason": "The Physical Property card's image (image-8) shows heavily rusted metal, the lesson's own main example of a chemical change, which can mislead students about what a physical property is."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "lesson_text": "Rules for Identifying Significant Zeros",
+      "source_text": "not about the source",
+      "reason": "The four card images (a dropper, an abstract balance sculpture, an old candy scale and a physics chalkboard) show no numbers or zeros and are unrelated to the zero rule each card explains."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "Fahrenheit Scale (°F)",
+      "source_text": "not about the source",
+      "reason": "The Fahrenheit card's image is a thermometer marked in °C and the Celsius card's image is a glucose meter reading 103 mg/dL, so the images contradict or are unrelated to the scales they sit beside."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Counting significant figures in measured quantities and applying proper rounding rules in arithmetic calculations / block 2",
+      "lesson_text": "There are $$4$$ significant figures because trailing zeros after the decimal are counted.",
+      "source_text": "not about the source",
+      "reason": "This distractor also gives the correct count of 4 with a true reason, so two options are defensible for 0.04050 g."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Executing multi-step unit conversions across metric and customary systems and between temperature scales / block 2",
+      "lesson_text": "Correct! $$2.5\\text{ L} \\times 1.0567 = 2.64\\text{ qt}$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "2.5 L has two significant figures, so by the lesson's own rule the answer is 2.6 qt; the keyed 2.64 qt is over-precise and no option offers 2.6 qt."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.1: Analyzing the mathematical structure of conversion factors and dimensional analysis equations to ensure unit cancellation / block 5",
+      "lesson_text": "Correct! Multiplying by a factor less than 1 decreases the value.",
+      "source_text": "not about the source",
+      "reason": "This feedback clashes with the next question's answer that conversion leaves 'the physical value' unchanged and never separates the number from the amount, feeding the common belief that converting units changes the quantity."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 2",
+      "summary": "Water across the three domains: icebergs (plus kettle steam and engine combustion), ice and gas particles, H2O with (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 3",
+      "summary": "Table of ice, liquid water and steam in macroscopic, microscopic and symbolic terms",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 4",
+      "summary": "H2O as one molecule or a whole glass of water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing everyday chemical phenomena into macroscopic observations, microscopic particle representations, and symbolic expressions / block 2",
+      "summary": "Water boiling in a kettle seen as an event, as moving molecules, and as H2O(g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Inferring the microscopic interactions that explain observable macroscopic behaviors and matching them with chemical symbolism / block 1",
+      "summary": "Glass of water freezing in a freezer and melting back",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Inferring the microscopic interactions that explain observable macroscopic behaviors and matching them with chemical symbolism / block 3",
+      "summary": "Chemist writes H2O(l) -> H2O(s) with state labels",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Inferring the microscopic interactions that explain observable macroscopic behaviors and matching them with chemical symbolism / block 5",
+      "summary": "Boiling explained by water molecules moving apart and escaping",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 3",
+      "summary": "Classification cases: gold, iron, sucrose, water, sports drink, air, gasoline, Italian dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 4",
+      "summary": "Molecules of H2, O2, S8 and glucose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 4",
+      "summary": "Ice melting and sugar fermenting to ethanol and carbon dioxide keep total mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter: Elements, Compounds, and Mixtures / block 5",
+      "summary": "Astronaut weighs one-sixth as much on the Moon but keeps her mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Deducing whether a sample is a pure substance or a mixture by tracing physical and chemical separation pathways / block 2",
+      "summary": "'Crystal salt' dissolved, recovered, then heated into a yellow solid and a sharp-smelling gas",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 1",
+      "summary": "Physical changes (wax melting, steam condensing, sugar in coffee, magnetizing) and chemical changes (rust, nitroglycerin, copper with nitric acid, combustion, banana browning)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 3",
+      "summary": "Gallon versus cup of milk: mass and volume differ, both at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 3",
+      "summary": "Drop versus pot of hot cooking oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties and Changes of Matter: Physical, Chemical, Intensive, and Extensive / block 5",
+      "summary": "NFPA 704 hazard diamond on chemical bottles",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Predicting whether observed transformations represent physical or chemical changes and determining if observed properties vary with sample size / block 2",
+      "summary": "50 mL of ethanol at 22 °C heated until it evaporates from a beaker",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Identifying and correcting misconceptions regarding intensive versus extensive properties and physical versus chemical changes / block 2",
+      "summary": "50 g copper sample: mass, hammering, color, reaction with oxygen, density",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 1",
+      "summary": "Exact numbers: 12 eggs in a carton, 1 in. = 2.54 cm, 1 ft = 12 in.",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL with an estimated last digit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 1",
+      "summary": "Balance reading of 6.72 g with uncertainty of 0.01 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "summary": "Zero rules shown with 0.00832407 mL, 70.607 mL, 55.0 g and 1,300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 3",
+      "summary": "Three cough-medicine dispensers targeting 296 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 4",
+      "summary": "92.85 rounds down to 92.8",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 4",
+      "summary": "31.55 rounds up to 31.6",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 5",
+      "summary": "1.0023 g + 4.383 g and 486 g - 421.23 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding in Calculations / block 5",
+      "summary": "0.6238 cm x 6.6 cm and 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.2: Critiquing calculation steps containing incorrect significant figure tracking or faulty rounding rules / block 2",
+      "summary": "Metal sample of 6.72 g raises water from 21.6 mL to 24.3 mL; find its density",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 1",
+      "summary": "125 g competition frisbee converted to 4.41 oz",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 3",
+      "summary": "Antifreeze density from 9.26 lb per 4.00 qt to 1.11 g/mL",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

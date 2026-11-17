@@ -1,0 +1,440 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 1,
+    "misattributed_quote": 0,
+    "factual_error": 4,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 1,
+    "x3": 0,
+    "x4": 1,
+    "x5": 1,
+    "x6": 3,
+    "x7": 1,
+    "x8": 0,
+    "x9": 4,
+    "x10": 0,
+    "x11": 2,
+    "x12": 0,
+    "x14": 2,
+    "x15": 2
+  },
+  "examples_total": 33,
+  "examples_from_source": 24,
+  "made_up_examples": 7,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 7,
+  "points_lost": 73,
+  "score": 90,
+  "instructions_score": 100,
+  "teaching_score": 91,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 3",
+      "lesson_text": "The realm of everyday matter large enough to be perceived directly through sight and touch. Includes tangible physical properties such as phase, volume, color, flammability, and temperature.",
+      "source_text": "Examples of chemical properties include flammability, toxicity, acidity, and many other types of reactivity.",
+      "reason": "The source classes flammability as a chemical property, but the Macroscopic Domain card lists it as a physical property, which also contradicts the lesson's own Concept 3."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes / block 2",
+      "lesson_text": "A student heats a blue copper sulfate crystal and observes water vapor forming, but the substance remains copper sulfate. Is this a physical or chemical change? (answer: \"Physical change\"; explanation: \"No new substance is formed, so this is a physical change.\")",
+      "source_text": "A chemical change always produces one or more types of matter that differ from the matter present before the change.",
+      "reason": "Heating blue hydrated copper sulfate drives off its bound water and leaves white anhydrous copper sulfate, a different substance, so by well-established chemistry this is a chemical change, not a physical one as the keyed answer says."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Mathematical Operations and Significant Figure Rounding / block 1",
+      "lesson_text": "To avoid misleading claims of accuracy, specific rounding rules govern how uncertainty propagates through arithmetic operations.",
+      "source_text": "it is important to keep in mind the reason for these rules about significant figures and rounding—to correctly represent the certainty of the values reported and to ensure that a calculated result is not represented as being more certain than the least certain value used in the calculation.",
+      "reason": "The source says rounding rules show certainty, and it defines accuracy as closeness to the true value, so saying the rules prevent false claims of accuracy mixes up the two terms the lesson has just taught apart."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 7.2: Computing densities directly and via displacement alongside temperature conversions / block 2",
+      "lesson_text": "Divide 30.0 g by 12.0 mL to get 2.5 g/mL",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "30.0 g and 12.0 mL each have three significant figures, so by the source's rule the density is 2.50 g/mL; the keyed answer drops a significant figure, right after the lesson's callout stressed significant figures in displacement problems."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 1",
+      "lesson_text": "The units of quantities must be subjected to the exact same mathematical operations as their associated numbers.",
+      "source_text": "Dimensional analysis is based on this premise: the units of quantities must be subjected to the same mathematical operations as their associated numbers.",
+      "reason": "The lesson sets the source's premise off as a block quote but adds the word \"exact\"."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Release of light/heat, unexpected color change, gas or precipitate formation",
+      "source_text": "not in source",
+      "reason": "The source gives no list of signs of a chemical change (light, heat, gas or a precipitate forming); this row adds a topic the source does not cover."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 4",
+      "lesson_text": "A procedure can be highly precise while remaining entirely inaccurate due to systematic calibration errors.",
+      "source_text": "not in source",
+      "reason": "The source never discusses systematic or calibration errors as the cause of precise but inaccurate results."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Mathematical Operations and Significant Figure Rounding / block 4",
+      "lesson_text": "In multi-step calculations, carry extra digits through intermediate steps and round only at the final step to avoid compounding rounding errors.",
+      "source_text": "not in source",
+      "reason": "The source's rounding rules say nothing about guard digits or rounding only at the final step of a multi-step calculation."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 3",
+      "lesson_text": "Precise, but inaccurate (closely clustered, yet >10 mL below target)",
+      "source_text": "not about the source",
+      "reason": "The dispenser table labels its results as precise or accurate before block 4 defines accuracy and precision, and block 1 does not define them either."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 7: Density and Temperature Scale Calculations / block 1",
+      "lesson_text": "Density ($$d$$) is an intensive property defined as the ratio of an object's mass ($$m$$) to its volume ($$V$$):",
+      "source_text": "not about the source",
+      "reason": "Density as an intensive property with d = m/V is already taught in Concept 3, block 3 (\"Ratios of Extensive Properties\") and is taught again here with no link back."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 7: Density and Temperature Scale Calculations / block 3",
+      "lesson_text": "$$T_{\\text{C}} = \\frac{5}{9}(T_{\\text{F}} - 32)$$",
+      "source_text": "Normal body temperature has been commonly accepted as 37.0 °C (although it varies depending on time of day and method of measurement, as well as among individuals). What is this temperature on the kelvin scale and on the Fahrenheit scale?",
+      "reason": "The three temperature equations are given only as symbols with no worked conversion, although the source works through examples (body temperature, a pizza oven setting)."
+    },
+    {
+      "check": "x5",
+      "location": "Exercise 6.1: Constructing unit conversion factors and analyzing unit cancellation pathways / block 2",
+      "lesson_text": "The fraction $$\\frac{U_2}{U_1}$$ is the conversion factor, which relates the two units.",
+      "source_text": "A ratio of two equivalent quantities expressed with different measurement units can be used as a unit conversion factor.",
+      "reason": "The equation writes the conversion factor as a ratio of bare units and never ties it to the number-and-unit factors (2.54 cm/1 in.) taught in Concept 6, yet later questions ask whether U2/U1 is \"greater than 1\" and substitute 1/100 for it, so students must bridge symbols and numbers on their own."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 3",
+      "lesson_text": "The specialized language and shorthand used to represent macroscopic and microscopic components",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain card's image is a 3D ball-and-stick molecule model, a microscopic picture much like the Microscopic card's image, with no symbols, formulas or equations, so it blurs the distinction the card is teaching."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Inherent to the substance and independent of sample size.",
+      "source_text": "not about the source",
+      "reason": "The Intensive Properties card shows glass baubles hanging on colored ribbons, which has nothing to do with properties that do not depend on sample size."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "The four rule cards use stock photos (a ruler, a cylinder marked 60, a wall of copper tubes, an old scale) that show none of the digits or zeros the rules describe; the Captive Zeros photo even shows \"60\", whose zero is not a captive zero."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 7: Density and Temperature Scale Calculations / blocks 1 and 3",
+      "lesson_text": "## Calculating Density Directly and via Displacement / ## Temperature Scales and Interconversions",
+      "source_text": "not about the source",
+      "reason": "One concept page puts density calculations and temperature-scale conversions together, two ideas with no stated link."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "lesson_text": "Differentiating Hypotheses, Laws, and Theories",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to tell hypotheses, laws and theories apart, but no exercise asks them to sort a statement into these groups; Exercise 1.1, despite its title, tests the domains, and laws and theories are never tested."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 2",
+      "lesson_text": "Determining which digits in a reported measurement reflect genuine precision and certainty.",
+      "source_text": "not about the source",
+      "reason": "The rules for counting significant figures (leading, captive and trailing zeros) are never practiced; Exercise 4.1 is titled for significant figures but only tests accuracy and precision."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "Many physical conversions require stringing several conversion factors together into a single continuous equation.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks for multi-step conversions between metric and English units, but every numerical exercise item is a one-step metric conversion (cm to m, h to s, km to m, mg to g)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 7: Density and Temperature Scale Calculations / block 3",
+      "lesson_text": "Celsius to Fahrenheit",
+      "source_text": "not about the source",
+      "reason": "Converting between Celsius and Fahrenheit is taught but never practiced; the only temperature item is \"Convert 25 °C to Kelvin\", and Exercise 7.1, despite its title, has no temperature questions."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Differentiating among scientific hypotheses, theories, and laws / block 3",
+      "lesson_text": "By observing color changes and relating them to atomic-level oxidation",
+      "source_text": "not about the source",
+      "reason": "Questions 1 to 3 can be answered by matching words from the example cards (for example, the card already says the rust case \"connects macroscopic observations to the microscopic process of oxidation\"), so students do not have to apply the domains themselves."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Classifying matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "Based on the example card, what is the best classification for air?",
+      "source_text": "not about the source",
+      "reason": "Each classification question is answered word for word in the card above it (\"Air is a homogeneous mixture of gases\"), so students copy instead of classifying, although objective 1 asks them to classify matter."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Evaluating precision versus accuracy across replicate measurement data sets / block 3",
+      "lesson_text": "What is the most useful first step in understanding how the solution was reached?",
+      "source_text": "not about the source",
+      "reason": "\"Compare each measurement to the true value\" (or finding the average) is just as valid a first step as the keyed \"Identify the pattern among the measured values\", so the question has more than one defensible answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Performing multi-step metric and English unit conversions using dimensional analysis / block 2",
+      "lesson_text": "Kilometers to grams, grams to ounces, ounces to inches",
+      "source_text": "not about the source",
+      "reason": "Two of the four answer choices for converting km to inches go through mass or volume units (grams, liters), so they are obviously wrong and leave a near giveaway."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.2: Predicting the structural and macroscopic behavior of matter across physical states / block 2",
+      "lesson_text": "A beaker contains a mixture of ice and liquid water at 0 °C.",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes",
+      "reason": "The exercise asks for an answer \"in terms of the classification of matter\" but calls ice and water a \"mixture\", inviting the common mistake of classing one compound in two states as a heterogeneous mixture, and nothing corrects it."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Identifying significant figures and sources of uncertainty in experimental measurements / block 4",
+      "lesson_text": "One measurement is close to the actual value (accurate), but the measurements are not close to each other (not precise).",
+      "source_text": "A measurement is considered accurate if it yields a result that is very close to the true or accepted value. Precise values agree with each other; accurate values agree with a true value.",
+      "reason": "The feedback teaches that one lucky value close to the true value makes a set accurate, a common misconception, when two of the three readings are about 0.47 g off; Exercise 4.2 instead judges accuracy by the average."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Hypothesis, law and theory examples: gas mileage drop from a needed tune-up, conservation of mass, Dalton's atomic theory",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 4",
+      "summary": "Water changing state shown in the macroscopic, microscopic and symbolic domains (H2O(s) to H2O(l))",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating among scientific hypotheses, theories, and laws / block 2",
+      "summary": "Iron nails rusting reddish-brown, linked to oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating among scientific hypotheses, theories, and laws / block 2",
+      "summary": "Vinegar and baking soda bubbling, linked to the symbolic domain through an equation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Differentiating among scientific hypotheses, theories, and laws / block 2",
+      "summary": "Water boiling, linked to molecular motion",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical descriptions into macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Chemist tests whether the gas from vinegar and baking soda is carbon dioxide and why the mix cools",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical descriptions into macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Student puts nails in dry air, water and moist air to test what causes rusting",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter / block 1",
+      "summary": "Balloon expanding when filled with gas shows gases are matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter / block 1",
+      "summary": "Astronaut's weight on the Moon is one-sixth of her weight on Earth while her mass stays the same",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter / block 1",
+      "summary": "Plasma in stars, lightning and plasma cutting torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter / block 3",
+      "summary": "Classification examples: gold, iron, oxygen; water, sucrose; sports drink, air, brass; salad dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and States of Matter / block 5",
+      "summary": "Mass conserved when ice melts and when glucose ferments into ethanol and carbon dioxide",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Classifying matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Salt water, an ice cube and air classified by state and composition",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts in oxygen and moisture while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Ice melting and salt dissolving (physical); burning gasoline, baking bread, digesting food (chemical)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting candle wax, condensing steam, grinding coffee vs rusting iron, burning a match, milk souring",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon vs cup of milk; pot vs drop of hot oil (more heat at the same temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A drop of water and a whole lake both freeze at 0 °C (intensive property)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond rating fire, health, reactivity and special hazards from 0 to 4",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Evaluating conservation of matter and distinguishing intensive from extensive properties / block 2",
+      "summary": "Flawed worked solution about ice melting (type of change, mass, melting point)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 1",
+      "summary": "Exact numbers: counting eggs in a carton; 1 ft = 12 in. and 1 in. = 2.54 cm by definition",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 1",
+      "summary": "Reading a graduated cylinder meniscus between 21 and 22 mL as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 2",
+      "summary": "Significant-figure counting cases (1267 m, 70.607 mL, 0.00832 m, 55.0 g, 1300 g written as 1.30 × 10^3 g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, and Precision / block 3",
+      "summary": "Three cough syrup dispensers aimed at 296 mL compared for precision and accuracy",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying significant figures and sources of uncertainty in experimental measurements / block 1",
+      "summary": "Metal rod measured three times with a ruler (15.21, 15.22, 15.20 cm) against a true 15.50 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Identifying significant figures and sources of uncertainty in experimental measurements / block 3",
+      "summary": "Sample weighed three times (8.01, 8.47, 7.53 g) against a true 8.00 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating precision versus accuracy across replicate measurement data sets / block 2",
+      "summary": "Rod measured at 15.32, 15.27, 15.29 cm against a true 15.00 cm, judged precise but not accurate",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Mathematical Operations and Significant Figure Rounding / block 1",
+      "summary": "Worked sums and products: 1.0023 g + 4.383 g, 486 g − 421.23 g, 0.6238 cm × 6.6 cm, 421.23 g ÷ 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Mathematical Operations and Significant Figure Rounding / block 2",
+      "summary": "Table calculations: 2.334 + 0.31 mL, 56.533 − 55.8752 m, 2.334 × 0.320 cm, 55.8752 m ÷ 56.53 s",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Mathematical Operations and Significant Figure Rounding / block 3",
+      "summary": "Round-half-to-even: 92.85 to 92.8 and 31.55 to 31.6",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Identifying and correcting errors in uncertainty propagation across multi-step calculations / blocks 2-3",
+      "summary": "Flawed area calculation for a rod, 12.45 cm × 1.3 cm rounded to the wrong number of significant figures",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 1",
+      "summary": "Conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 5",
+      "summary": "Converting a 100 m sprint to feet through cm and inches (328.084 ft)",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

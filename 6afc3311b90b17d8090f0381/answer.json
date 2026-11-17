@@ -1,0 +1,539 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 2",
+      "lesson_text": "A common misconception is that a hypothesis becomes a theory, which eventually 'graduates' into a law.",
+      "source_text": "If such a hypothesis turns out to be capable of explaining a large body of experimental data, it can reach the status of a theory.",
+      "reason": "The lesson calls a hypothesis becoming a theory a misconception, but the source says a well-supported hypothesis can reach the status of a theory."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Distinguishing between hypotheses, laws, and theories within the scientific method / block 1",
+      "lesson_text": "A student wants to know why a metal spoon feels colder than a wooden spoon when both are left in a cup of hot tea. She forms a question, proposes that the metal conducts heat away from her hand faster than wood",
+      "source_text": "not in source",
+      "reason": "In hot tea a metal spoon carries heat from the tea to the hand and feels hotter, not colder, so the scenario and its hypothesis go against basic physics."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Altered permanently",
+      "source_text": "A chemical change always produces one or more types of matter that differ from the matter present before the change. ... A fuel cell generates electrical energy from hydrogen and oxygen via an electrochemical process and produces only water as the waste product.",
+      "reason": "The source never says chemical changes are permanent, and many can be reversed (the source itself splits water into hydrogen and oxygen, which a fuel cell turns back into water), so the table teaches a known misconception."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 3",
+      "lesson_text": "When the dropped digit is followed only by zeros or is exactly 5:",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit. If any nonzero digits follow the dropped 5, round up.",
+      "reason": "Round-to-even applies only when the dropped digit is a 5 that is last or followed only by zeros, but the lesson's wording also applies it to any digit followed by zeros and to a 5 followed by nonzero digits, which the source says always rounds up."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups for complex unit conversions and density calculations / block 2",
+      "lesson_text": "The final answer is 2500 grams.",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "2.50 kg has three significant figures, but 2500 g reads as two under the source's rule (and the lesson's own rule in Concept 4), so the answer should be reported as 2.50 × 10³ g."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 4",
+      "lesson_text": "To prevent accumulation of rounding errors, carry all digits through intermediate calculations in multi-step problems, and apply significant figure rounding rules only to the final reported result.",
+      "source_text": "not in source",
+      "reason": "The source gives no rule about keeping extra digits through intermediate steps; this rule is added content."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "lesson_text": "Such data reflects significant random error, poor instrument calibration, or inconsistent technique.",
+      "source_text": "not in source",
+      "reason": "The source defines precision and accuracy but does not discuss random error, instrument calibration or technique as causes of poor results."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "lesson_text": "Pure substances made of a single type of atom that cannot be decomposed into simpler substances by any chemical transformation",
+      "source_text": "not about the source",
+      "reason": "Elements, compounds and mixtures are told apart by chemical versus physical change, but the lesson only defines chemical and physical changes later, in Concept 3."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 3",
+      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "The density equation was already given and explained in Concept 3 (blocks 3 and 4), and Concept 5 presents it again as new without linking back."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 1",
+      "lesson_text": "When recording a measurement, scientists report all certain digits plus one final estimated digit.",
+      "source_text": "not about the source",
+      "reason": "The idea of certain digits plus one estimated digit is stated only in general terms, with no actual reading (such as a graduated cylinder or balance) showing which digit is estimated and why."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 4",
+      "lesson_text": "Dimensional analysis uses conversion factors to solve problems involving units.",
+      "source_text": "not about the source",
+      "reason": "Dimensional analysis is described only in general statements; no worked conversion shows a factor being set up and the units cancelling."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 5",
+      "lesson_text": "This graph shows the linear relationship between Celsius and Fahrenheit temperature scales.",
+      "source_text": "not about the source",
+      "reason": "The graph and the formula in block 6 are never connected: the lesson does not show that the slope 9/5 and the intercept 32 come from the graph's points, or why this is a line with an offset rather than a simple conversion factor."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 4",
+      "lesson_text": "The specialized symbols and notation used to communicate macroscopic and microscopic ideas.",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain image (image-3) is a chalkboard of physics and math equations such as E = mc² and the quadratic formula, not chemical symbols, formulas or equations, so it misrepresents the domain."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "lesson_text": "Measurements are closely clustered together and agree with the true or accepted reference value.",
+      "source_text": "not about the source",
+      "reason": "The Accurate and Precise image (image-8) shows arrows spread across different rings of the target, which shows neither precision nor accuracy."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "lesson_text": "Repeated measurements agree very closely with one another but diverge systematically from the true value.",
+      "source_text": "not about the source",
+      "reason": "The Precise but Inaccurate image (image-9) shows white arrow signs on a wooden wall, with no target or data, so it does not show this case."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "lesson_text": "Measurements exhibit wide scatter among individual trials and an average that misses the true value.",
+      "source_text": "not about the source",
+      "reason": "The Neither Accurate nor Precise image (image-10) shows one dart in the bullseye and others spread around the center, which looks more like accurate but imprecise, so it misleads."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 4",
+      "lesson_text": "Complex conversions may require several steps, such as converting gallons to liters using multiple factors.",
+      "source_text": "not about the source",
+      "reason": "The Multi-Step Conversions image (image-12) is a plain funnel graphic with no units or steps, so it does not help explain the idea."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 4",
+      "lesson_text": "Arrange conversion factors so units cancel, leaving only the desired unit.",
+      "source_text": "not about the source",
+      "reason": "The Canceling Units image (image-13) is a sudoku grid, which has nothing to do with cancelling units."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 3",
+      "lesson_text": "Comparison of hypotheses, laws, and theories in scientific discovery.",
+      "source_text": "not about the source",
+      "reason": "The difference between hypotheses, laws and theories is taught, but no exercise asks students to classify a statement as one of them; Exercise 1.2, despite its title, tests the method's steps and the three domains instead."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 4",
+      "lesson_text": "Multi-Step Conversions",
+      "source_text": "not about the source",
+      "reason": "The only dimensional analysis practice (Exercise 5.1) is a one-step 2.50 kg to grams conversion, so students never set up a multi-step or density unit conversion, although Exercise 5.1's title promises one."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 6",
+      "lesson_text": "When converting between temperature scales, remember:",
+      "source_text": "not about the source",
+      "reason": "Converting between Celsius, kelvin and Fahrenheit is part of objective 5, but no exercise asks for it; Exercise 5.2 is titled for temperature conversion yet only practices density."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying observations and chemical descriptions into macroscopic, microscopic, and symbolic domains / block 3",
+      "lesson_text": "In the example of **Rusting of Iron**, which domain is illustrated when you write the equation for iron reacting with oxygen?",
+      "source_text": "not about the source",
+      "reason": "The example cards in block 2 already label each part \"(macroscopic)\", \"(microscopic)\" and \"(symbolic)\", so questions 1 to 3 can be answered by copying the label instead of applying the domain definitions."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.2: Explaining mathematical relationships and converting values among Celsius, Kelvin, and Fahrenheit scales / block 3",
+      "lesson_text": "In the equation above, what does the symbol $$d$$ represent?",
+      "source_text": "not about the source",
+      "reason": "The block just before states what d, m and V stand for and their units, so these three questions only test copying that sentence."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.1: Classifying observations and chemical descriptions into macroscopic, microscopic, and symbolic domains / block 3",
+      "lesson_text": "Describe how the examples of rusting iron, mixing salt in water, and burning a candle each illustrate the scientific method and the three domains of chemistry.",
+      "source_text": "not about the source",
+      "reason": "None of the three examples involves a question, hypothesis or test, so students cannot explain how they show the scientific method, yet 35% of the grade asks for it."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Distinguishing between hypotheses, laws, and theories within the scientific method / block 6",
+      "lesson_text": "Reflecting on both examples, what is the single underlying principle that connects the student's investigation and the chemist's explanation?",
+      "source_text": "not about the source",
+      "reason": "The two examples show different ideas (the steps of the scientific method and the three domains), so there is no single connecting principle, and nothing in the exercise tests hypotheses, laws and theories as its title says."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Categorizing matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "A student finds a clear liquid that always boils at the same temperature and cannot be separated into simpler substances by physical means. Which classification best fits this liquid?",
+      "source_text": "Pure substances that cannot be broken down into simpler substances by chemical changes are called elements.",
+      "reason": "An element also has a constant boiling point and cannot be separated by physical means, so \"element\" fits the clues as well as the keyed \"compound\"; only a chemical test tells them apart."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and their corresponding changes / block 2",
+      "lesson_text": "Which property remains unchanged during the melting of ice?",
+      "source_text": "not about the source",
+      "reason": "The example says \"the mass stays the same\", so \"Mass\" is also a correct answer, but only \"Identity\" is keyed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups for complex unit conversions and density calculations / block 3",
+      "lesson_text": "Before the main computation, what does setting up the conversion factor accomplish in this problem?",
+      "source_text": "not about the source",
+      "reason": "\"Shows what kilo means numerically\" is also defensible (the lesson's own grading step says knowing kilo means 1000 establishes the factor), and the keyed answer \"Sets up a ratio for units\" echoes the stem's wording."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Explaining mathematical relationships and converting values among Celsius, Kelvin, and Fahrenheit scales / block 5",
+      "lesson_text": "Density is unaffected",
+      "source_text": "not about the source",
+      "reason": "Both questions offer \"Density stays the same\" and \"Density is unaffected\", which mean the same thing, so both can be ruled out together and only two real choices remain."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 3",
+      "summary": "Hypothesis: a truck gets poor mileage because it needs a tune-up",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 3",
+      "summary": "Law of conservation of matter as an example of a law",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 3",
+      "summary": "Dalton's atomic theory as an example of a theory",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Three Domains of Chemistry / block 4",
+      "summary": "Water across the three domains: iceberg and boiling, H2O molecules, H2O formula and (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying observations and chemical descriptions into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Rusting of iron described in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying observations and chemical descriptions into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Salt dissolving in water described in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying observations and chemical descriptions into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Burning candle described in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing between hypotheses, laws, and theories within the scientific method / block 1",
+      "summary": "Student investigates why a metal spoon feels colder than a wooden one in hot tea",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing between hypotheses, laws, and theories within the scientific method / block 3",
+      "summary": "Chemist describes vinegar and baking soda reaction in words, particle diagram and symbols",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 1",
+      "summary": "72 kg astronaut weighs one-sixth as much on the Moon but keeps the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 1",
+      "summary": "Molecules of O2, S8, H2O and glucose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "summary": "Elements: gold, iron, oxygen gas",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "summary": "Compounds: sucrose, water, sodium chloride",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "summary": "Homogeneous mixtures: sports drinks, clean air",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 4",
+      "summary": "Heterogeneous mixtures: Italian dressing, chocolate chip cookies, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 5",
+      "summary": "Conservation of matter in ice melting and glucose fermenting into ethanol and carbon dioxide",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Categorizing matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Clear liquid with a constant boiling point classified as a compound",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Categorizing matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water classified as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Categorizing matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "10 g of ice melting in a closed container gives 10 g of water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Categorizing matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Wood burned in a closed container keeps the same total mass",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Applying the law of conservation of matter to physical and chemical transformations / block 2",
+      "summary": "Ice cubes melting in an uncovered beaker at 22 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: ice melting, water boiling, sugar dissolving in coffee, grinding a crystal, magnetizing a needle",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical property: iron rusts in moist air while gold and platinum resist oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: burning gasoline or a match, rust on an iron nail, digestion, fermentation, fruit browning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Mass as extensive: a gallon of water versus a droplet",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Volume as extensive: a block of copper versus a copper penny",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Heat as extensive: a pot versus a drop of boiling water at 100 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Temperature as intensive: a 10-gallon tank and a 10 mL beaker both at 20 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Water freezes at 0 °C and boils at 100 °C whatever the amount",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and their corresponding changes / block 1",
+      "summary": "Ice cube melting in a warm bowl with unchanged mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and their corresponding changes / block 3",
+      "summary": "Metal spoon left in vinegar overnight gets a reddish-brown coating",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing extensive properties from intensive properties across various physical samples / block 2",
+      "summary": "Ice cube melting stays H2O (physical change)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing extensive properties from intensive properties across various physical samples / block 2",
+      "summary": "Iron nail rusting into iron oxide (chemical change)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing extensive properties from intensive properties across various physical samples / block 2",
+      "summary": "Density of a gold bar as an intensive property",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 1",
+      "summary": "Exact numbers: eggs in a carton, 1000 m in 1 km, 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 2",
+      "summary": "70.607 mL: captive zeros, 5 significant figures",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 2",
+      "summary": "0.008324 m: leading zeros not significant",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 2",
+      "summary": "55.0 g: trailing zero after a decimal point is significant",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 2",
+      "summary": "1300 g: ambiguous trailing zeros resolved as 1.3 × 10³ or 1.300 × 10³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 3",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 3",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 3",
+      "summary": "31.55 rounds to 31.6 (odd retained digit)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 3",
+      "summary": "92.85 rounds to 92.8 (even retained digit)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "summary": "Cough syrup dispenser delivering 296.0, 296.1, 296.1 mL for a 296.0 mL target (accurate and precise)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Precision vs. Accuracy / block 5",
+      "summary": "Dispenser delivering 284.0, 284.1, 283.9 mL for a 296.0 mL target (precise but inaccurate)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying errors in determining significant figures and applying rounding rules in mathematical calculations / block 2",
+      "summary": "Area of a metal rod 12.45 cm by 1.3 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating experimental measurement datasets to differentiate between accuracy and precision / block 2",
+      "summary": "Masses 12.3, 12.4, 12.2 g against a true 13.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating experimental measurement datasets to differentiate between accuracy and precision / block 2",
+      "summary": "Multiplying 3.56 by 2.1 for significant figures",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating experimental measurement datasets to differentiate between accuracy and precision / block 2",
+      "summary": "24 students in a classroom as an exact number",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating experimental measurement datasets to differentiate between accuracy and precision / block 2",
+      "summary": "Adding 2.56 g and 1.4 g to get 4.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 3",
+      "summary": "Block of 90.7 g and 8.00 cm³ has density 11.3 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: SI Units, Dimensional Analysis, and Unit Conversions / block 4",
+      "summary": "1 in. = 2.54 cm as a unit conversion factor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups for complex unit conversions and density calculations / block 2",
+      "summary": "Converting 2.50 kg to grams",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Explaining mathematical relationships and converting values among Celsius, Kelvin, and Fahrenheit scales / block 7",
+      "summary": "Density of a 2.0 kg block with volume 0.50 m³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Explaining mathematical relationships and converting values among Celsius, Kelvin, and Fahrenheit scales / block 7",
+      "summary": "Volume of 3.0 kg of a liquid with density 1,200 kg/m³",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

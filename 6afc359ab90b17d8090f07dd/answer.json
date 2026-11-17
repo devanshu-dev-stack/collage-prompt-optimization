@@ -1,0 +1,430 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 1",
+      "lesson_text": "In 1964, the international scientific community adopted the **International System of Units** (*Le Système International d'Unités*, abbreviated **SI**)",
+      "source_text": "SI units have been used by the United States National Institute of Standards and Technology (NIST) since 1964.",
+      "reason": "The source ties 1964 to the United States NIST starting to use SI units, not to an international adoption of the system, so the lesson changes what the date means."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Interpreting the mathematical relationship between mass, volume, and density using standard SI units / block 7",
+      "lesson_text": "A liquid has a density of 1.2 kg/m³ and a volume of 3.0 m³. What is its mass in kg?",
+      "source_text": "Although there are exceptions, most liquids and solids have densities that range from about 0.7 g/cm3 (the density of gasoline) to 19 g/cm3 (the density of gold). The density of air is about 1.2 g/L.",
+      "reason": "1.2 kg/m³ (that is, 1.2 g/L) is the density of air; a liquid is roughly a thousand times denser (about 700 kg/m³ or more), so the problem states an impossible value for a liquid."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups to verify unit cancellation and conversion factor orientation / block 2",
+      "lesson_text": "8.46 fl oz (rounded to three significant figures)",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "250.0 mL ÷ 29.57 mL/fl oz = 8.4545… fl oz, so the correct answer is 8.455 fl oz (both values have four significant figures); 8.46 is not even a correct three-figure rounding, which would be 8.45."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups to verify unit cancellation and conversion factor orientation / block 3",
+      "lesson_text": "Round the answer to three significant figures (matching 250.0 mL): report 8.46 fl oz; this ensures the answer's precision matches the input.",
+      "source_text": "Starting with the first nonzero digit on the left, count this digit and all remaining digits to the right. This is the number of significant figures in the measurement unless the last digit is a trailing zero lying to the left of the decimal point.",
+      "reason": "250.0 mL has four significant figures (its trailing zero is after the decimal point, as the lesson's own table says), so the grading rubric and the keyed answer to question 4 teach a wrong count."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 1",
+      "lesson_text": "The **second (s)**, defined by atomic transitions in cesium atoms.",
+      "source_text": "not in source",
+      "reason": "The source only names the second as the SI base unit of time; the cesium-atom definition is a fact the source does not give."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 1",
+      "lesson_text": "Exact numbers have an infinite number of significant figures and do not limit calculation precision.",
+      "source_text": "not in source",
+      "reason": "The source says exact numbers are free from uncertainty but never says they have infinite significant figures or that they do not limit a calculation."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 1",
+      "lesson_text": "Exact numbers have an infinite number of significant figures",
+      "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "The term \"significant figures\" is used here and in the rules table that follows, but the lesson never defines it, yet Exercise 4.2 later asks students to name it from its definition."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 3",
+      "lesson_text": "Density is a derived property defined as the mass of an object divided by its volume.",
+      "source_text": "not about the source",
+      "reason": "The same density = mass / volume equation was already presented in Concept 2, block 3, so it is taught twice in two concept blocks."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 3",
+      "lesson_text": "Factoring in the 32-degree shift in their zero points provides the conversion between the two scales.",
+      "source_text": "The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale.",
+      "reason": "The text shows a Celsius degree is 9/5 of a Fahrenheit degree, then the next block uses 5/9 and subtracts 32 first, with no step showing how the slope and the shift combine into that equation."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 1",
+      "lesson_text": "If a problem requires multiple conversions, factors can be chained sequentially so that intermediate units cancel out systematically.",
+      "source_text": "not about the source",
+      "reason": "Dimensional analysis, including chained multi-step conversions, is explained only with a general unit formula and no worked conversion with real numbers."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 4",
+      "lesson_text": "Converts temperatures from the Fahrenheit scale to the Celsius scale by accounting for the 32 °F offset and the 5/9 scale factor.",
+      "source_text": "not about the source",
+      "reason": "Temperature conversion is given only as equations; the concept never works through a single Fahrenheit, Celsius or kelvin conversion with numbers."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "A measurable attribute inherent to the material that does not alter chemical identity upon evaluation, such as boiling point, color, or electrical conductivity.",
+      "source_text": "not about the source",
+      "reason": "The Physical Property card's image (image-5) shows a heavily rusted metal part, and rusting is a chemical change, so the picture contradicts the card and blurs it with the Chemical Property card's rust image."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 5",
+      "lesson_text": "Accuracy gauges closeness to the true reference mark, while precision reflects the reproducibility of repeated trials.",
+      "source_text": "not about the source",
+      "reason": "The image (image-13) shows two archery targets with no arrows or hits on them, so it cannot show grouping or closeness to the center, which is the whole point of the card."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "A pure substance formed from two or more elements chemically combined in fixed proportions that can be broken down into simpler substances only by chemical changes (e.g., water, sucrose).",
+      "source_text": "not about the source",
+      "reason": "The Compound card's image (image-2) is an unlabeled, rough white-and-brown mineral crust that shows neither water nor sucrose and, with its brown streaks, looks more like a mixture than a pure compound."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Describe how the examples of the ice cube in water, air in a balloon, and salt dissolved in water each illustrate the phases and classification of matter in your own words.",
+      "source_text": "not about the source",
+      "reason": "Objective 1 is to classify samples as elements, compounds, homogeneous or heterogeneous mixtures, but no exercise ever asks students to classify an element, a compound or a heterogeneous mixture."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.2: Categorizing physical and chemical properties as intensive or extensive based on sample size dependence / block 3",
+      "lesson_text": "Describe how each example above illustrates the difference between physical and chemical changes.",
+      "source_text": "not about the source",
+      "reason": "Despite this exercise's title, every question tests physical versus chemical change, so intensive versus extensive properties (part of objective 2) are taught but never practiced anywhere."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 3.2: Calculating volume and density using direct measurement values and water displacement data / block 2",
+      "lesson_text": "Describe how you would use water displacement to find the volume of an irregularly shaped rock, and explain why this method works.",
+      "source_text": "not about the source",
+      "reason": "Objective 3 and this exercise's title ask students to calculate volume, but no question has them compute a volume from edge lengths or from displacement readings."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Distinguishing between accuracy and precision and reporting calculated quantities with appropriate uncertainty / block 2",
+      "lesson_text": "Explain how measurement uncertainty affects the reporting of calculated results and why following significant figure rules is important in scientific communication.",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision (objective 4 and this exercise's title) is taught, but no question asks students to judge the accuracy or precision of any set of measurements."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "lesson_text": "Convert 20 °C to Kelvin. (Recall: $$K = °C + 273$$)",
+      "source_text": "not about the source",
+      "reason": "Objective 5 asks for conversions among Celsius, Kelvin and Fahrenheit, but the only temperature item is one Celsius-to-kelvin addition; the Fahrenheit-Celsius equation is never practiced."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 3.2: Calculating volume and density using direct measurement values and water displacement data / block 2",
+      "lesson_text": "A laboratory thermometer reads temperatures in kelvin. A student records a value of 273 K. What does this measurement represent in terms of the SI base unit for temperature?",
+      "source_text": "not about the source",
+      "reason": "Knowing that 273 K is the freezing point of water needs the kelvin-Celsius relation, which the lesson only teaches later in Concept 5; Concept 3 only says 0 K is the lowest temperature."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "The solution is homogeneous, so its composition is uniform",
+      "source_text": "not about the source",
+      "reason": "Each keyed answer restates the example card above it (the card already says salt water \"forms a homogeneous mixture called a solution\" and that air is \"a mixture of gases\"), so students can copy rather than classify."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on whether a substance's chemical identity is altered / block 2",
+      "lesson_text": "To the first sample, the student heats it gently.",
+      "source_text": "not about the source",
+      "reason": "No observation is given for the heated sample, so students cannot decide physical or chemical, and the lesson never taught observable signs such as bubbling or a new solid that the second sample relies on."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "The ice cube is water, so both are chemically identical",
+      "source_text": "not about the source",
+      "reason": "This distractor is a true statement (ice and liquid water are both H₂O) marked wrong, which can make students think a phase change alters chemical identity."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "lesson_text": "Multiply by 237, then multiply by 1",
+      "source_text": "not about the source",
+      "reason": "The key's \"then multiply by 1\" step is meaningless, the 1 cup = 237 mL factor is never given in the question or lesson, and distractors such as \"Multiply by 28, then add 100\" are implausible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "lesson_text": "Divide by 1 kilometer per 1000 meters",
+      "source_text": "not about the source",
+      "reason": "Dividing by (1 km / 1000 m) is the same as multiplying by 1000 m/km, so this distractor is also correct, giving the question two right answers."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Identifying and correcting errors in significant figure determination and rounding across arithmetic operations / block 4",
+      "lesson_text": "Provides a complete corrected step-by-step solution with all errors resolved: Multiply 12.47 cm × 3.6 cm = 44.892 cm², round to two significant figures (because 3.6 cm has two), report answer as 45 cm².",
+      "source_text": "not about the source",
+      "reason": "The flawed solution's Step 4 plants the misconception that results calculated from measured values are exact, but no grading criterion checks that students find and correct it."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.2: Distinguishing between accuracy and precision and reporting calculated quantities with appropriate uncertainty / block 2",
+      "lesson_text": "The sum is 39.05 m, but must be rounded to 39.0 m because 25.6 m has only one decimal place.",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "Students who always round a 5 up will expect 39.1 m, and the feedback never says that the round-to-even rule is what gives 39.0 m."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "lesson_text": "Explain how the factor-label method helps prevent mistakes when converting units between metric and imperial systems. Give an example involving temperature or length.",
+      "source_text": "Consequently, converting a temperature from one of these scales into the other requires more than simple multiplication by a conversion factor, m; it also must take into account differences in the scales’ zero points (b).",
+      "reason": "Asking for a factor-label example with temperature invites the common mistake of converting temperature scales with a conversion factor alone, which Concept 5 itself says does not work."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut on the Moon weighs one-sixth as much but keeps the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Boiling water into steam or metabolizing glucose conserves mass",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Gold, iron, oxygen; water, sucrose; sports drinks, air; Italian dressing, granite as classes of matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Ice cube floating in a glass of liquid water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Air in a balloon as a gaseous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water as a homogeneous solution",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing states of matter and microscopic particulate arrangements from macroscopic behaviors / block 1",
+      "summary": "Student freezes water in an ice tray, then the ice melts on the counter",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing states of matter and microscopic particulate arrangements from macroscopic behaviors / block 3",
+      "summary": "Teacher dissolves salt in water, then evaporates the water to recover salt",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Wax melting, water boiling, sugar dissolving and grinding solids as physical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts in moist air while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Burning match (cellulose plus oxygen), souring milk, digestion, rotting banana as chemical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon of milk has more mass and volume than a cup",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Cup of coffee and a carafe from the same brew have the same temperature",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop of hot cooking oil versus a pot of hot oil (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gold flake and gold ingot share a density of 19.3 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond ratings",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on whether a substance's chemical identity is altered / block 2",
+      "summary": "Clear liquid split in two: one heated, one mixed with white powder that bubbles and forms a solid",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical and chemical properties as intensive or extensive based on sample size dependence / block 2",
+      "summary": "Ice melting as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical and chemical properties as intensive or extensive based on sample size dependence / block 2",
+      "summary": "Burning wood producing ash, smoke and gases",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical and chemical properties as intensive or extensive based on sample size dependence / block 2",
+      "summary": "Dissolving salt in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Interpreting the mathematical relationship between mass, volume, and density using standard SI units / block 7",
+      "summary": "Block of 2.0 kg and 0.50 m³ has density 4.0 kg/m³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Interpreting the mathematical relationship between mass, volume, and density using standard SI units / block 7",
+      "summary": "Liquid of density 1.2 kg/m³ and volume 3.0 m³ has mass 3.6 kg",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Calculating volume and density using direct measurement values and water displacement data / block 2",
+      "summary": "250 mL of water expressed as 0.25 L",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Calculating volume and density using direct measurement values and water displacement data / block 2",
+      "summary": "Water displacement to find the volume of an irregular rock",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 1",
+      "summary": "12 eggs in a carton, 1 foot = 12 inches, 1 inch = 2.54 cm as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 1",
+      "summary": "Reading 21.6 mL on a 1-mL graduated cylinder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 1",
+      "summary": "Target groupings showing precise-not-accurate, accurate-and-precise, and neither (source's archery target, told with darts)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 2",
+      "summary": "Significant-figure counts for 1267 m, 70.607 mL, 0.008020 g, 55.0 g, 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 3",
+      "summary": "Rounding 92.85, 31.55 and 6.8752",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 4",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Mathematical Operations / block 4",
+      "summary": "421.23 g / 486 mL = 0.867 g/mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying and correcting errors in significant figure determination and rounding across arithmetic operations / block 2",
+      "summary": "Area of a 12.47 cm × 3.6 cm metal rectangle",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Distinguishing between accuracy and precision and reporting calculated quantities with appropriate uncertainty / block 2",
+      "summary": "25.6 m + 13.45 m rounded to 39.0 m",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Deconstructing multi-step dimensional analysis setups to verify unit cancellation and conversion factor orientation / block 2",
+      "summary": "Converting 250.0 mL of water to fluid ounces",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "summary": "Converting 2.5 cups of flour to milliliters",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "summary": "Converting 5.0 km to miles",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Converting temperatures among Celsius, Fahrenheit, and Kelvin scales using linear mathematical equations / block 2",
+      "summary": "Converting 20 °C to 293 K",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

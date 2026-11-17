@@ -1,0 +1,603 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 5",
+      "lesson_text": "Meta-analyses on training transfer (Blume et al., 2010; Rouiller & Goldstein, 1993) confirm that while individual cognitive ability and conscientiousness play a role, **environmental support**—specifically supervisor coaching and a supportive transfer climate where peer norms reinforce experimentation—exerts the strongest causal effect on whether learned competencies are sustained.",
+      "source_text": "1. Environmental support for training, including peer and supervisor support 2. Transfer climate, in the form of implicit cues in the environment that using what is learned in training on the job is expected ... They found that environmental support has the largest effect on transfer; organizational constraints also had a modest effect.",
+      "reason": "The source describes one meta-analysis of associations (Blume et al.) in which transfer climate is a separate factor from environmental support, so calling it several meta-analyses that show the 'strongest causal effect' of a merged factor misstates the finding."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 3",
+      "lesson_text": "Alfieri et al. (2013) and Kellman et al. (2010) demonstrated comparing near-contrasting instances tripled students' capacity to extract underlying mathematical structures.",
+      "source_text": "Twelfth-grade students who completed the module nearly tripled their abilities to translate between graphs and equations, even though they had previously completed algebra. ... compare related problems in order to highlight exactly what they have in common, increasing the likelihood that they will recall previously acquired knowledge with similar properties (Alfieri et al., 2013; Gentner et al., 2009).",
+      "reason": "Only Kellman's perceptual-learning modules nearly tripled one specific skill (moving between graphs and equations); the source cites Alfieri et al. (2013) for recalling prior knowledge, not for any tripling."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 3",
+      "lesson_text": "Often dominated by teachers; low student creation rates without active scaffolding",
+      "source_text": "Two examples for which the developers have shown positive effects are described in Box 8-2. However, the availability of communication technologies for cooperation and collaboration does not necessarily translate into learning gains. For example, Reich and colleagues (2012) studied the use of Wikis in kindergarten through twelfth grade (K-12) classrooms ... Nearly three-quarters of the Wikis showed no evidence of student-created content",
+      "reason": "The low student-creation finding is about general classroom Wikis, but the lesson pins it on Knowledge Forum and WISE, which the source gives as tools with positive effects."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Evaluating values-affirmation interventions designed to buffer against stereotype threat and working memory depletion / block 3",
+      "lesson_text": "Demonstrating that students' cultural values were explicitly recognized and validated.",
+      "source_text": "Values-affirmation exercises in which students write about their personal values (e.g., art, sports, music) have bolstered personal identity, reduced threat, and improved academic performance among students experiencing threat",
+      "reason": "In values affirmation, students write privately about their own personal values; the answer key says it works because cultural values were recognized and validated as sociocultural assets, which neither the source nor the scenario supports."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Exercise 6.2: Appraising digital affordances to determine whether technologies scaffold cognitive capacity or substitute for it / block 3",
+      "lesson_text": "Analyze how each tool’s affordances scaffold or substitute for cognitive capacity: Tool X automates item practice (risk of substitution), Tool Y enables model building and deeper reasoning (scaffolding cognitive capacity).",
+      "source_text": "the FaCT system is adaptable in that it offers the learner optimally spaced training trials rather than massed training (see Chapter 4 for discussion of spacing) and stops the training on a particular fact if the learner performs correctly on it three times (Pavlik et al., 2016). This approach can result in more efficient learning because learners do not waste time studying facts they already know.",
+      "reason": "The source presents adaptive, spaced drill as a sound support for learning through practice, but the lesson's model answer treats it as replacing the learner's own thinking (substitution)."
+    },
+    {
+      "check": "misattributed_quote",
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 1",
+      "lesson_text": "— Harvard Graduate School of Education, *The Future of Workforce Learning & AI*",
+      "source_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it. (week2-slides.pdf, footer 'THE FUTURE OF WORKFORCE LEARNING & AI'; no author named)",
+      "reason": "The slides name no author for this line, but the lesson credits it to the Harvard Graduate School of Education."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "High risk of 'inert knowledge'; requires explicit bridges to prevent compartmentalization.",
+      "source_text": "not in source",
+      "reason": "The claim that required formal training carries a high risk of 'inert knowledge' is not in the slides or the other sources."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Maximizes far transfer; performance depends heavily on autonomy and low error-penalty.",
+      "source_text": "not in source",
+      "reason": "No source links each touchpoint to near or far transfer (this cell, and 'Promotes near transfer of factual recall' for self-paced learning), or to a 'low error-penalty'."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Metacognition, Executive Function, and Self-Regulated Learning / block 3",
+      "lesson_text": "Interventions conceptualize self-regulation across three drivers: domain-general strength (willpower capacity), motivational investment (willingness and perceived utility), and targeted cognitive processes (habit formation and self-efficacy cues).",
+      "source_text": "not in source",
+      "reason": "Berkman (2016) and this three-driver model of self-regulation do not appear in any source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Metacognition, Executive Function, and Self-Regulated Learning / block 3",
+      "lesson_text": "Providing authentic learner control mitigates ego depletion and boosts task persistence. Learners who perceive instructional autonomy exhibit increased situational interest and greater metacognitive monitoring.",
+      "source_text": "When learners believe they have control over their learning environment, they are more likely to take on challenges and persist with difficult tasks ... The perception of choice also may affect learning by fostering situational interest and engagement",
+      "reason": "Persistence and interest are in the source, but 'ego depletion' and greater metacognitive monitoring are not; Exercise 5.1 then marks the monitoring claim as the correct answer."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "not in lesson",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested second section, which moves from last week's map to the learner's own context and explains what the capstone asks, is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "Consider both **visible applications** (conversational agents, tutoring platforms, search interfaces) and **invisible background systems** (recommendation engines, surveillance flags, automated applicant filters).",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The requested section on the Compass webpage is reduced to one sentence, with none of its forms of AI from visible to invisible, its examples or its main points."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "not in lesson",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The 'what real learning ecologies look like' part (the two apprentices' learning maps on the slide) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Priya Case C Expression",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six-touchpoint examples stay workplace-only; none are adapted for home or school as requested."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the opportunities-to-learn section)",
+      "lesson_text": "not in lesson",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the thinking routine)",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity is left out; no exercise asks students to map the AI in a learner's life across home, school and work."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the key ideas)",
+      "lesson_text": "not in lesson",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the recap)",
+      "lesson_text": "not in lesson",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The slides' focus areas (emerging questions for early childhood, K-12, and higher education plus workforce) are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the focus areas)",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "The capstone brief, scoping guide and worked scoping example are left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the capstone brief)",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The capstone scoping activity is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the scoping activity)",
+      "lesson_text": "not in lesson",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no knowledge check covering the week's ideas, and there are no Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; would follow the knowledge check)",
+      "lesson_text": "not in lesson",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "No closing adopt, adapt or reject judgment is given; the only recommendation task (Exercise 6.2) asks which tool to prioritize."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (missing; final step)",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The capstone submission step is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Retention Strategies / block 1",
+      "lesson_text": "### Memory as Reconstruction, Not Retrieval",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2 to 6 come almost entirely from How People Learn II (memory, generative learning, stereotype threat, self-regulation, technology affordances), so the lesson is built mainly on a supporting source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "objective[3]: Design learning environments that apply an asset model of education, leveraging learners' cultural funds of knowledge to mitigate stereotype threat and support self-regulated learning.",
+      "source_text": "Appraise claims and evidence about AI and learning, including when the evidence does not yet exist",
+      "reason": "The lesson's objectives replace the requested course objectives (judging whether AI builds or replaces a capacity by age and stage, appraising AI evidence, designing AI-enabled learning) with asset-model, memory and affordance goals."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 3.1: Predicting learner reasoning outcomes based on abductive inference and mental model construction / block 2",
+      "lesson_text": "A group of elementary students is introduced to the concept that the Earth is round, but their daily experience suggests the ground is flat.",
+      "source_text": "This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Exercise 3.1 (and Exercise 1.1, built on Priya's consulting onboarding) gives no example framed for an education leader, though all exercises were asked to have one."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Promotes near transfer of factual recall; lacks contextual nuance without applied tasks.",
+      "source_text": "not about the source",
+      "reason": "The touchpoint table uses 'near transfer', 'far transfer' and 'training transfer' before block 5 defines them."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Retention Strategies / block 2",
+      "lesson_text": "Evidence-Based Retention Strategies and Desirable Difficulties",
+      "source_text": "not about the source",
+      "reason": "'Desirable difficulties' heads the strategy cards in block 2 but is only explained in the block 4 callout."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 1",
+      "lesson_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldn’t replace the people at the centre of it.",
+      "source_text": "not about the source",
+      "reason": "This repeats Concept 1 block 4 ('AI is a single node within an ecosystem, not the ecosystem itself') without adding anything."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Metacognition, Executive Function, and Self-Regulated Learning / block 3",
+      "lesson_text": "Adult professional learning is predominantly self-directed and nonformal.",
+      "source_text": "not about the source",
+      "reason": "This repeats Concept 1 block 2's 'The Protean Career Reality' card ('In contemporary workplaces, learning is self-directed and continuous')."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 6.2: Appraising digital affordances to determine whether technologies scaffold cognitive capacity or substitute for it / block 2",
+      "lesson_text": "Recommend prioritizing Tool Y, the simulation platform with linked representations and open-ended input, because its affordances scaffold both procedural fluency and deeper conceptual modeling",
+      "source_text": "not about the source",
+      "reason": "Concept 6 ties procedural fluency to drill tools with feedback and adaptivity, and the situation gives Tool Y neither, so the claim that Tool Y also builds procedural fluency is never reasoned out."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 3",
+      "lesson_text": "Nasir and McKinney de Royston (2013) demonstrated this situated identity effect directly",
+      "source_text": "One explanation for these findings is that a sense of competence emerges from identity: as players, students felt competent to calculate scoring averages and percentages, but because they did not identify as math students, they felt ill-equipped to solve the same problems in the classroom context.",
+      "reason": "The basketball study comes straight after the stereotype-threat brain chain with no explanation of how it connects, so students may read it as stereotype threat rather than the identity effect the source describes."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 2",
+      "lesson_text": "Co-constructing classrooms where popular culture narratives and academic inquiry mutually challenge and illuminate disciplinary texts (Gutiérrez, 2008; Moje et al., 2004).",
+      "source_text": "An ethnographic study of students in a middle school science classroom showed not only that students’ funds of knowledge can be valuable resources for making sense of school texts",
+      "reason": "Third spaces, an unfamiliar idea, are described only in abstract terms (here and in block 1), with no concrete classroom case, although the source offers one."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 1",
+      "lesson_text": "Observation / Data  ──(Abductive Inference)──>  Mental Model  ──(Deduction/Prediction)──>  Novel Application",
+      "source_text": "not about the source",
+      "reason": "The process diagram is never walked through with the Neptune or pancake-Earth examples beside it, so students are not shown how each arrow maps to a real case."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 2 (cards[3] image-3.jpg)",
+      "lesson_text": "Relational Knowledge Transmission",
+      "source_text": "not about the source",
+      "reason": "The image shows an empty aircraft cockpit with no people, which does not fit a card about learning by watching, working alongside and being coached by experienced practitioners."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Retention Strategies / block 2 (cards[1] image-5.jpg)",
+      "lesson_text": "Retrieval Practice",
+      "source_text": "not about the source",
+      "reason": "A standardized-test (SAT, GRE) bubble answer sheet suggests high-stakes testing, the very trap the block 3 table warns against ('Treating testing solely as an evaluative grading tool'), instead of low-stakes recall."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 4",
+      "lesson_text": "Level 1: Teacher Presentation",
+      "source_text": "not about the source",
+      "reason": "The mind map's labels (classroom levels, Universal Design branches, Digital Inclusion branches) are not explained anywhere in the concept, so students cannot tell what they mean."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "### Diagnostic Starting Point: The Ubiquity of Learning Technologies",
+      "source_text": "not about the source",
+      "reason": "The AI inventory prompt is placed on the Priya page with no link to the cases that follow and is never revisited, so the page mixes unrelated ideas (later also near and far transfer)."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Retention Strategies / block 1",
+      "lesson_text": "Initial sensory inputs (auditory, visual, somatosensory) activate distributed neural patterns across specialized cortical areas, which are synthesized in association areas.",
+      "source_text": "not about the source",
+      "reason": "Brain-area detail with many citations gets as much space as the practical idea education leaders need (memory is rebuilt, so re-reading is weak)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "The Six Workplace Learning Touchpoints in Practice",
+      "source_text": "not about the source",
+      "reason": "The six touchpoints are objective 1, yet no exercise asks students to place activities in them, even though Exercise 1.1's title promises it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 5",
+      "lesson_text": "### Diagnostic Framework: Opportunities to Learn (OtL)",
+      "source_text": "not about the source",
+      "reason": "The practice, participation and relationship framework is taught, but no exercise asks students to audit a program or learner with it."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 6.1: Diagnosing breakdowns in educational technology implementations lacking systems alignment and universal design / block 4",
+      "lesson_text": "Step 3: Dismisses universal design for learning; correct interpretation is that adaptivity does not guarantee accessibility for all learners. Correction: Evaluate and enhance UDL features to ensure equitable access and participation.",
+      "source_text": "not about the source",
+      "reason": "The exercise expects students to apply Universal Design for Learning (UDL), which the lesson never teaches beyond three mind-map labels."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Evaluating schedules of spaced and interleaved practice to optimize long-term schema retention / block 2",
+      "lesson_text": "What is the primary cognitive mechanism underlying retrieval practice, according to the taught content?",
+      "source_text": "not about the source",
+      "reason": "The answer is copied word for word from the Concept 2 table, so the question tests recall when objective 4 asks students to compare mechanisms."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Analyzing the interaction between classroom goal structures and learners' self-regulatory monitoring / block 2",
+      "lesson_text": "What is the term for the capacity to reflect upon, monitor, and deliberately direct one’s own mental processes toward specific objectives?",
+      "source_text": "not about the source",
+      "reason": "The question asks for a term matching the definition word for word (as does the doer/checker question), so it tests recall rather than use."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.1: Inducing principles of reconstructive memory and retrieval cue dependency from cognitive performance patterns / block 8",
+      "lesson_text": "States the general principle of reconstructive memory and cue-dependent retrieval",
+      "source_text": "not about the source",
+      "reason": "The three examples show only the results of retrieval, spacing and interleaving, and none shows retrieval depending on cues, so students cannot work out the principle the rubric expects."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Classifying workplace learning activities across six distinct learning touchpoints and analyzing situated participation / block 3",
+      "lesson_text": "By operating in the background to connect learners to resources and people",
+      "source_text": "not about the source",
+      "reason": "Each correct option repeats the wording of its example card ('operating in the background', 'observing coworkers ... coaching'), and the wrong options are obviously off, so the answer can be found by matching words."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Deconstructing workplace learning ecosystems to determine conditions enabling near and far transfer / block 3",
+      "lesson_text": "Determine which group had the highest workshop attendance.",
+      "source_text": "not about the source",
+      "reason": "Distractors such as counting teachers, attendance or tools used are obviously implausible, so the questions do not test understanding."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Translating community funds of knowledge into third spaces that counter deficit instructional models / block 3",
+      "lesson_text": "Assigning extra homework to students unfamiliar with scientific terminology",
+      "source_text": "not about the source",
+      "reason": "The wrong options are plainly deficit-minded or unrelated, and the correct options repeat the example cards' wording, so the answers are given away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Appraising digital affordances to determine whether technologies scaffold cognitive capacity or substitute for it / block 3",
+      "lesson_text": "Comparing the tools’ user interface colors",
+      "source_text": "not about the source",
+      "reason": "Distractors like interface colors, response time or budget are obviously implausible, so they offer no real choice."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.2: Evaluating schedules of spaced and interleaved practice to optimize long-term schema retention / block 2",
+      "lesson_text": "Evaluate the potential trade-offs for an L&D leader choosing between spaced and interleaved practice when designing a professional learning sequence for educators.",
+      "source_text": "Interleaved study naturally includes delays between learning blocks and thus easily allows for spaced practice",
+      "reason": "The question presents spacing and interleaving as competing choices, which builds the misconception that they exclude each other instead of being combined."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.2: Evaluating values-affirmation interventions designed to buffer against stereotype threat and working memory depletion / block 2",
+      "lesson_text": "After this change, the performance gap between these students and their peers is significantly reduced, and students report less anxiety and greater confidence.",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The exercise presents a 10-minute values-affirmation task as a sure fix and never asks students to weigh the mixed replication evidence, which reinforces the misconception that it reliably closes gaps."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "summary": "Priya, a financial services consultant new to healthcare, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "summary": "Priya's Case C sources placed in the six touchpoints (Slack channel, project lead, shadowing the workshop)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 5",
+      "summary": "Near transfer: using a software tool right after a step-by-step module",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 5",
+      "summary": "Far transfer: applying financial modeling rules of thumb to a hospital operational crisis",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying workplace learning activities across six distinct learning touchpoints and analyzing situated participation / block 2",
+      "summary": "Priya's embedded onboarding with a project lead, peer network and client workshops",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying workplace learning activities across six distinct learning touchpoints and analyzing situated participation / block 2",
+      "summary": "Invisible AI recommendation engine connecting workers to resources and colleagues",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying workplace learning activities across six distinct learning touchpoints and analyzing situated participation / block 2",
+      "summary": "Over-the-shoulder peer learning by watching coworkers and trial and error (Tannenbaum's survey finding)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing workplace learning ecosystems to determine conditions enabling near and far transfer / block 2",
+      "summary": "District teachers given a workshop, an AI microlearning platform or peer mentoring; only the mentored group transfers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture, Memory Reconstruction, and Retention Strategies / block 1",
+      "summary": "Anderson and Pichert: recalling a story from a homebuyer's then a burglar's perspective",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of reconstructive memory and retrieval cue dependency from cognitive performance patterns / block 1",
+      "summary": "Teacher A re-reading and highlighting vs Teacher B low-stakes recall quizzes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of reconstructive memory and retrieval cue dependency from cognitive performance patterns / block 3",
+      "summary": "Coaches trained in one intensive week vs spread over four weeks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Inducing principles of reconstructive memory and retrieval cue dependency from cognitive performance patterns / block 5",
+      "summary": "Math enrichment with blocked vs mixed problem types",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Evaluating schedules of spaced and interleaved practice to optimize long-term schema retention / block 2",
+      "summary": "District leader runs spaced review every three days for compliance protocols",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 1",
+      "summary": "Le Verrier infers an unseen planet from Uranus's orbit, leading to Neptune (1846)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 1",
+      "summary": "Vosniadou and Brewer: children's pancake or disc Earth model",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 2",
+      "summary": "Chi et al. (1994): students explaining biology text sentence by sentence",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 2",
+      "summary": "Bargh and Schul (1980): expecting to teach improves test performance",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 3",
+      "summary": "Mueller and Oppenheimer: laptop vs longhand note-taking",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 3",
+      "summary": "Leopold and Leutner: drawing vs written summaries for a spatial science text",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 3",
+      "summary": "Kellman et al.: contrasting equation and graph cases in math modules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Model Building, and Inferential Reasoning / block 4",
+      "summary": "Lombrozo: adults blame two symptoms on one disease",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Predicting learner reasoning outcomes based on abductive inference and mental model construction / block 2",
+      "summary": "Elementary students building a pancake-Earth model",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Critiquing flawed explanatory prompts in peer-teaching and self-explanation interventions / block 2",
+      "summary": "District leader's flawed peer-teaching prompts on photosynthesis",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 1",
+      "summary": "Cultural modeling with rap lyrics to read canonical literature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 3",
+      "summary": "Nasir and McKinney de Royston: basketball vs classroom math problems",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 4",
+      "summary": "Master et al.: gendered classroom objects and girls' interest in computer science",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Sociocultural Asset Frameworks, Social Identity, and Stereotype Threat / block 5",
+      "summary": "Values-affirmation writing trials (Cohen et al.; Miyake et al.) and failed replications",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Translating community funds of knowledge into third spaces that counter deficit instructional models / block 2",
+      "summary": "District leader brings families' farming and craft skills into science lessons",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Translating community funds of knowledge into third spaces that counter deficit instructional models / block 2",
+      "summary": "English department uses hip-hop lyrics and podcasts before canonical texts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Translating community funds of knowledge into third spaces that counter deficit instructional models / block 2",
+      "summary": "Math teacher discusses students' sports and home problem-solving alongside formal math",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating values-affirmation interventions designed to buffer against stereotype threat and working memory depletion / block 2",
+      "summary": "District values-affirmation writing before a math assessment closes the gap",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Metacognition, Executive Function, and Self-Regulated Learning / block 1",
+      "summary": "Tools of the Mind doer and checker roles",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Analyzing the interaction between classroom goal structures and learners' self-regulatory monitoring / block 2",
+      "summary": "District adopts a model built on student autonomy and choice",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Analyzing the interaction between classroom goal structures and learners' self-regulatory monitoring / block 2",
+      "summary": "Teacher alternates students between doer and checker roles",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Forecasting shifts in learner task persistence under varying conditions of autonomy and performance feedback / block 2",
+      "summary": "Early-career teachers in Module A (autonomy, process feedback) vs Module B (fixed sequence, peer comparison)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 1",
+      "summary": "Spaced-practice drill system that retires known items (Pavlik et al.)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 2",
+      "summary": "SimCalc linking graphs, equations and simulations",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Digital Technology Affordances and Systems-Level Instructional Integration / block 5",
+      "summary": "Dynarski et al. (2007): same software helps at some schools and hurts at others",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.1: Diagnosing breakdowns in educational technology implementations lacking systems alignment and universal design / block 2",
+      "summary": "District rolls out an intelligent tutoring system without teacher coordination or alignment",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.2: Appraising digital affordances to determine whether technologies scaffold cognitive capacity or substitute for it / block 2",
+      "summary": "Tool X drill-and-practice app vs Tool Y model-building simulation",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

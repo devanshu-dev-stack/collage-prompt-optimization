@@ -1,0 +1,406 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 4",
+      "lesson_text": "Elements such as gold, helium, and neon exist as individual, unbonded atoms.",
+      "source_text": "Only a few elements, such as the gases helium, neon, and argon, consist of a collection of individual atoms that move about independently of one another.",
+      "reason": "The source names only a few gases as existing as single atoms; gold is a metallic solid whose atoms are bonded together, so listing it with helium and neon is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Counting significant figures and applying standard rounding rules in arithmetic calculations / block 2",
+      "lesson_text": "The measurement $$0.04050\\text{ g}$$ has two leading zeros (not significant), three nonzero digits, and one trailing zero after the decimal (significant), totaling $$4$$ significant figures.",
+      "source_text": "Captive zeros result from measurement and are therefore always significant.",
+      "reason": "0.04050 has only two nonzero digits (4 and 5) plus one captive zero and one trailing zero, so the explanation miscounts the captive zero as a nonzero digit."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Deconstructing a rounded calculation to verify precision limits from original measurements / block 2",
+      "lesson_text": "The reported density is $$3.95\\text{ g/mL}$$.",
+      "source_text": "The density of a substance is the ratio of the mass of a sample of the substance to its volume.",
+      "reason": "0.04860 g divided by 12.3 mL is 0.00395 g/mL (3.95 x 10^-3 g/mL), so the given solution is 1000 times too large."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Deconstructing a rounded calculation to verify precision limits from original measurements / block 3",
+      "lesson_text": "Round $$0.0039512195\\text{ g/mL}$$ to three significant figures, resulting in $$3.95\\text{ g/mL}$$ (using exponential notation to express the answer appropriately).",
+      "source_text": "not in source",
+      "reason": "Rounding 0.0039512195 g/mL to three significant figures gives 0.00395 g/mL, not 3.95 g/mL, and question 4 repeats the error by contrasting 3.95 g/mL with 3.9512195 g/mL."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Setting up conversion factors and unit cancellations using the factor-label method / block 7",
+      "lesson_text": "$$1.5\\text{ yd} \\times \\frac{1\\text{ m}}{1.0936\\text{ yd}} = 1.37\\text{ m}$$ (rounded to 2 significant figures).",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "1.5 yd has two significant figures, so the answer should be 1.4 m; 1.37 m has three and contradicts the explanation's own claim."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Setting up conversion factors and unit cancellations using the factor-label method / block 7",
+      "lesson_text": "$$300\\text{ g} \\times \\frac{1\\text{ lb}}{453.59\\text{ g}} = 0.661\\text{ lb}$$ (rounded to 3 significant figures).",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "300 g written without a decimal point has trailing zeros that the source says to treat as not significant, so reporting three significant figures contradicts the rule the lesson itself taught."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "Other relationships, such as $$1\\text{ lb} = 453.59\\text{ g}$$, are measured quantities and carry a specific number of significant figures.",
+      "source_text": "not in source",
+      "reason": "The pound is defined exactly (1 lb = 453.59237 g), so 453.59 g is a rounded form of a defined value, not a measured quantity; it limits significant figures because it was rounded."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Executing multi-step unit conversions across metric prefixes and common units / block 2",
+      "lesson_text": "while measured conversion factors, like $$1\\text{ lb} = 453.59\\text{ g}$$, do.",
+      "source_text": "not in source",
+      "reason": "The question asks students to explain a false premise, because 1 lb = 453.59 g is a rounded exact definition, not a measured conversion factor."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Calculating densities of solids and fluids via geometric volume and water displacement / block 2",
+      "lesson_text": "Density is $$\\frac{25.0\\text{ g}}{12.5\\text{ mL}} = 2.0\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "Both 25.0 g and 12.5 mL have three significant figures, so the answer key should be 2.00 g/cm3, not 2.0 g/cm3."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Comparing linear conversion relationships between the Celsius, Kelvin, and Fahrenheit scales / block 8",
+      "lesson_text": "Mass = Density $$\\times$$ Volume = $$1.2\\text{ g/mL} \\times 10.0\\text{ mL} = 12.0\\text{ g}$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "1.2 g/mL has two significant figures, so the mass should be reported as 12 g; 12.0 g claims more precision than the data allow."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "lesson_text": "Single type of atom; constant composition",
+      "source_text": "not about the source",
+      "reason": "The table relies on \"atom\" (first defined in block 4) and \"chemical changes\" (first defined in Concept 2) before either term is introduced."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 5",
+      "lesson_text": "There is no detectable change in the total quantity of matter present during a chemical or physical conversion.",
+      "source_text": "not about the source",
+      "reason": "The law is stated in terms of chemical and physical conversions, which the lesson does not define until Concept 2."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 2",
+      "lesson_text": "\\text{given quantity} \\times \\frac{\\text{desired unit}}{\\text{given unit}} = \\text{desired quantity}",
+      "source_text": "For example, a basketball player's vertical jump of 34 inches can be converted to centimeters by:",
+      "reason": "Concept 4 gives only the general equation, a table of factors and abstract steps, and never works one numeric conversion, although the source offers the 34-inch jump and the 125 g frisbee."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Derived Quantities: Density Computations and Temperature Conversions / block 4",
+      "lesson_text": "$$T_{^{\\circ}\\text{F}} = \\left(\\frac{9}{5} \\times T_{^{\\circ}\\text{C}}\\right) + 32$$",
+      "source_text": "Normal body temperature has been commonly accepted as 37.0 °C",
+      "reason": "Four temperature formulas (and the density methods in block 1) are given with no worked calculation, although the source works body temperature and a pizza oven setting."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 4",
+      "lesson_text": "The Microscopic Building Blocks of Matter",
+      "source_text": "not about the source",
+      "reason": "The three images are everyday photos (a gold nugget, a gas cylinder regulator, a splashing glass of water) that show nothing about atoms or molecules, so they do not support the microscopic ideas on the cards."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Rules for Identifying Significant Zeros",
+      "source_text": "not about the source",
+      "reason": "The images (beaker markings, an old balance, a calculator) show no numbers or zeros, so they do not help students see which zeros are leading, captive or trailing."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 4",
+      "lesson_text": "The Four-Step Dimensional Analysis Workflow",
+      "source_text": "not about the source",
+      "reason": "The step images (people in a lab, a booklet on a desk, physics equations, a calculator) are generic and none shows the step it sits beside, such as a factor oriented so units cancel."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 1",
+      "lesson_text": "### States of Matter",
+      "source_text": "not about the source",
+      "reason": "A page titled for classifying pure substances and mixtures also holds mass versus weight, states of matter, plasma, atoms and molecules, and the conservation law, with no link drawn between these ideas and classification."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 5",
+      "lesson_text": "Law of Conservation of Matter",
+      "source_text": "Apply the law of conservation of matter",
+      "reason": "The conservation law is taught but no exercise asks students to apply it, although the source lists applying it as a learning objective."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "lesson_text": "Two or more elements in fixed chemical proportions",
+      "source_text": "not about the source",
+      "reason": "No exercise ever asks students to recognize a compound; the practice covers only an element and the two kinds of mixture, so part of objective 1 is never practiced."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Accuracy vs. Precision",
+      "source_text": "not about the source",
+      "reason": "Accuracy and precision are taught with the dispenser case but never appear in any exercise."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Derived Quantities: Density Computations and Temperature Conversions / block 4",
+      "lesson_text": "$$T_{\\text{K}} = T_{^{\\circ}\\text{C}} + 273.15$$",
+      "source_text": "not about the source",
+      "reason": "Fahrenheit-to-Celsius and Celsius-to-kelvin conversions are taught but never practiced; the only conversion asked is 25 °C to Fahrenheit, and it is asked twice (Exercise 5.1 and Exercise 5.2)."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which category best describes the gold bar example?",
+      "source_text": "not about the source",
+      "reason": "The cards just above already say \"It is an example of an element\" and name each mixture type, so questions 1 to 3 can be answered by copying, and students never classify a new sample as objective 1 asks."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Setting up conversion factors and unit cancellations using the factor-label method / block 3",
+      "lesson_text": "It is the conversion factor's denominator",
+      "source_text": "not about the source",
+      "reason": "In the equation shown, the given unit is the conversion factor's denominator, so this distractor is also correct and question 2 has two right answers."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Setting up conversion factors and unit cancellations using the factor-label method / block 3",
+      "lesson_text": "The conversion factor's numerator",
+      "source_text": "not about the source",
+      "reason": "The desired unit is the conversion factor's numerator in the equation shown, so this distractor is also correct and question 3 has two right answers."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Comparing linear conversion relationships between the Celsius, Kelvin, and Fahrenheit scales / block 4",
+      "lesson_text": "Temperature in cubic centimeters",
+      "source_text": "not about the source",
+      "reason": "This distractor (like \"The mass of a sample in grams\" for the number 32 in question 4) is obviously impossible, so it tests nothing."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "both are irreversible chemical changes",
+      "source_text": "A chemical change always produces one or more types of matter that differ from the matter present before the change.",
+      "reason": "Labeling the physical example \"reversible\" and the chemical ones \"irreversible\" without comment invites the common mistake of using reversibility as the test, when the test is whether new substances form."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "Round up or down so that the retained digit is even (the round-to-even rule).",
+      "source_text": "If any nonzero digits follow the dropped 5, round up.",
+      "reason": "Only the round-to-even tie rule is given, with no basic up/down rule and no warning that a 5 followed by nonzero digits always rounds up, so students are likely to over-apply round-to-even."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 1",
+      "summary": "Astronaut on the Moon weighs one-sixth as much but keeps the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 2",
+      "summary": "Mind map examples: gold, iron, oxygen; water, sucrose; sports drink, air; Italian dressing, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "summary": "Table examples: Au, Fe, S; water, sucrose, HgO; sports drinks, air, maple syrup, gasoline; Italian dressing, cookies, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 4",
+      "summary": "Single atoms (helium, neon), element molecules O2 and P4, compound molecules water and glucose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 5",
+      "summary": "Decomposing water: mass of H2 and O2 equals mass of water, to show conservation of matter",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, grinding a solid to powder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical properties and changes: neon unreactive, rusting iron, exploding nitroglycerin, burning match",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting paraffin wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron rusting in air and water as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Dissolving sugar in coffee as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Cooking red meat and caramelizing sugar as chemical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus cup of milk: larger mass, same 20 °C temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop versus pot of hot cooking oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Gold brick weighs more than a gold coin (mass is extensive)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Swimming pool occupies more space than a bucket of water (volume is extensive)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Gold density 19.3 g/cm3 regardless of sample size",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "A cup and a gallon of water both at 25 °C (reworded milk case)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 5",
+      "summary": "NFPA 704 hazard diamond",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Exact numbers: counting eggs in a carton, 1 ft = 12 in., 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL with one estimated digit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Leading zeros in 0.008020 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Captive zeros in 70.607 mL",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Trailing zeros: 55.0 g and the ambiguous 1300 g written in exponential notation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Addition and subtraction: 1.0023 g + 4.383 g and 486 g - 421.23 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Multiplication and division: 0.6238 cm x 6.6 cm and 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Round-to-even: 92.85 to 92.8 and 31.55 to 31.6",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Cough syrup dispenser aimed at 296 mL: precise but not accurate",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Derived Quantities: Density Computations and Temperature Conversions / block 3",
+      "summary": "Bar graph of densities of ice, water, iron, copper, silver, lead, gold",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing everyday substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Gold bar, sports drink and Italian salad dressing cards",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing pure substances from mixtures based on composition and physical separation methods / block 1",
+      "summary": "Jeweler finds a gold bar keeps the same properties however it is divided",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing pure substances from mixtures based on composition and physical separation methods / block 3",
+      "summary": "Chef's Italian dressing separates into layers and can be filtered",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Identifying misclassified physical versus chemical changes and extensive versus intensive properties / block 2",
+      "summary": "Iron sample list (mass, rusting, hammering, melting point, conductivity, volume) with a flawed classification",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting whether observed transformations alter chemical identity or merely physical state / block 2",
+      "summary": "Iron strip left in water develops a reddish-brown coating",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Deconstructing a rounded calculation to verify precision limits from original measurements / block 2",
+      "summary": "Technician computes density of a powder from 0.04860 g and 12.3 mL",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

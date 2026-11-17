@@ -1,0 +1,544 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 1",
+      "lesson_text": "### The Interplay of Biology, Culture, and Context",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens with brain biology instead of the requested opening prompt, and the closest idea (a 'typical day' passage in Concept 6) comes last and never asks learners to list the AI they met."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecosystems: Science of Learning and AI",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step, which links last week's map to the learner's own context and the capstone, is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "### The Omnipresence of AI: Visible Interfaces to Invisible Infrastructure",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "Visible and invisible AI was asked for as the third step, before Priya's cases, but it appears only in the last concept, after Priya's cases were already taught in Concept 1."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 3",
+      "lesson_text": "The Six Touchpoints of a Comprehensive Learning Ecology",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The lesson lists the six touchpoints but leaves out 'what real learning ecologies look like' (the slides' two apprentices, with each box a source of learning and each line how they reach it)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 2",
+      "lesson_text": "Direct, authentic problem solving in the flow of daily work—shadowing senior leaders, handling live client demands, navigating failures, and using specialized tooling.",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The touchpoint examples stay workplace-only and are never adapted for home and school, as the instructions ask."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 4",
+      "lesson_text": "Digital tools must act as connective tissue that strengthens practice, participation, and human developmental relationships rather than isolating the learner from them.",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "Practice, participation and relationships are named once in passing, but the requested step on a learner's opportunities to learn is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "Before noon, an educator or corporate analyst may interact directly with a large language model to draft a syllabus",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is never used or linked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.1: Anticipating the developmental and equity consequences of deploying visible versus invisible artificial intelligence tools across varied learning touchpoints / block 2",
+      "lesson_text": "A university launches a new digital learning platform integrating adaptive learning pathways, interactive feedback, and an AI-driven conversational agent.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The requested mapping activity is replaced by a prediction task about a university platform, so learners never map one learner's AI or mark where it connects or stands in for people."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 2",
+      "lesson_text": "Every learner draws across an interconnected ecosystem rather than a single instructional silo.",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key-ideas step: the first idea only appears as a card description, and 'AI is one node in it' is never stated."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 5",
+      "lesson_text": "ask three non-negotiable questions",
+      "source_text": "Recap: the six questions",
+      "reason": "The requested recap of the six questions is replaced by three questions the lesson made up."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecosystems: Science of Learning and AI",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The slides' focus areas (emerging questions for Early Childhood, K-12, and Higher Ed + Workforce) are never presented as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 2",
+      "lesson_text": "A graduate-level education researcher is tasked with designing a digital learning intervention for a diverse cohort.",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "There is no capstone brief, no scoping guide and no worked scoping example."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 3",
+      "lesson_text": "What is the most useful first step in reverse-engineering the solution for maximizing ecosystem equity with digital and AI tools?",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "Learners never scope their own capstone with the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 3.2: Designing and evaluating schedules combining retrieval practice, spaced repetition, and elaborative self-explanation for deep conceptual transfer / block 1",
+      "lesson_text": "Answer the questions below covering evidence-based cognitive and generative learning strategies, including retrieval practice, spaced and interleaved practice, and generative methods such as self-explanation and learner-generated drawing.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "The quizzes test learning-science topics from the book, one concept at a time; no knowledge check covers this week's ecosystem and AI ideas or includes Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 1",
+      "lesson_text": "Reverse engineer the steps needed to go from the situation to the solution provided by answering the questions.",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Only the exercise title mentions adopt, adapt or reject; learners never make that judgment on a short case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson ends without the step where learners submit their scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Memory Architecture, Cognitive Governance, and Reconstructive Retrieval / block 1",
+      "lesson_text": "### Deconstructing the File-Cabinet Fallacy: Memory as Active Reconstruction",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2 to 5 (memory, study strategies, motivation, identity) come entirely from How People Learn II, so the lesson is built mainly on that book rather than the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Evaluate evidence-based cognitive strategies, including retrieval practice, spaced repetition, and elaborative self-explanation, to enhance knowledge retention and conceptual transfer.",
+      "source_text": "keep in mind the four overall course objectives as you generate: Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage",
+      "reason": "The course objectives the lesson should focus on are replaced by general learning-science objectives, and appraising claims and evidence (including when evidence does not yet exist) is never addressed."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.2: Deconstructing adult compensatory neural recruitment and experience-dependent cognitive adaptation in organizational learning programs / block 2",
+      "lesson_text": "A graduate seminar is analyzing how learning outcomes in early childhood are shaped by both neurobiological processes and cultural practices.",
+      "source_text": "make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Most exercises are built around graduate students, a doctoral student, a medical resident or a pottery learner rather than education leaders such as L&D or district leaders."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Evaluating how neural plasticity and environmental experiences interact to shape learning trajectories across different developmental life stages / block 2",
+      "lesson_text": "An adult learning traditional pottery techniques from a community elder adapts neural pathways while integrating culturally transmitted knowledge, showing compensatory neural recruitment and situated learning.",
+      "source_text": "older adults are able to compensate for declines in some abilities by recruiting different or additional neural mechanisms",
+      "reason": "In the source, compensatory neural recruitment is how older adults make up for age-related decline, not a sign of an adult learning a new craft."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Deconstructing adult compensatory neural recruitment and experience-dependent cognitive adaptation in organizational learning programs / block 2",
+      "lesson_text": "and compensatory neural recruitment in response to dual language demands",
+      "source_text": "Older adults often recruit regions bilaterally (from both left and right cerebral hemispheres), especially within the prefrontal cortex, under conditions where younger adults only recruit regions unilaterally (from one hemisphere).",
+      "reason": "The solution uses compensatory neural recruitment, which the source describes in aging adults, to explain a young child's bilingual development."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "shadowing client interviews",
+      "source_text": "Shadowing the workshop",
+      "reason": "The slides say Priya shadows the workshop (as Concept 1 also says), but here the lesson changes it to client interviews."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 2",
+      "lesson_text": "Instructor-led transmission to passive recipients",
+      "source_text": "A well-designed three-day course before the project starts",
+      "reason": "The slides call Case A a well-designed course and ask learners to look past format, while the lesson casts it as passive transmission."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "Passive absorption (Case A) versus externally sequenced micro-tasks (Case B)",
+      "source_text": "A well-designed three-day course before the project starts",
+      "reason": "The lesson judges the well-designed course as passive absorption, a verdict the slides do not give."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 3",
+      "lesson_text": "Case C: Situated Relational Ecosystem",
+      "source_text": "Required formal ... In Case C Case Aʼs course; Self-paced ... In Case C Case Bʼs platform; The connections matter as much as any one source.",
+      "reason": "In the slides, Case C's ecosystem includes Case A's course and Case B's platform, connected to people; the lesson treats Case C as a separate model that replaces A and B, and rates A and B as failing."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "An AI application is rarely neutral in isolation.",
+      "source_text": "None of the nine below is good or bad on its own.",
+      "reason": "The Compass page says no form of AI is good or bad on its own (and 'Invisible doesn't mean sinister'), while the lesson says AI is rarely neutral and calls invisible AI 'Ambient Governance'."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Social Identity, Cultural Assets, and Stereotype Threat Mitigation / block 3",
+      "lesson_text": "Research shows this restores self-integrity and buffers working memory against stereotype threat.",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The source says the evidence on values affirmation is mixed, but the lesson presents it as settled."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Exercise 3.2: Designing and evaluating schedules combining retrieval practice, spaced repetition, and elaborative self-explanation for deep conceptual transfer / block 2",
+      "lesson_text": "Which generative learning strategy is empirically shown to enhance durable retention by actively engaging cognitive mechanisms?",
+      "source_text": "However, relatively few studies have examined the effects of self-explanation on long-term retention",
+      "reason": "The question's keyed answer (self-explanation) is said to be proven for durable retention, while the source says this has rarely been studied."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 3",
+      "lesson_text": "High transfer failure; assumes equal transfer capacity across varying prior workplace backgrounds.",
+      "source_text": "not in source",
+      "reason": "The equity-risk claims about Priya's cases (high transfer failure for Case A, 'can reinforce tracking biases' for Case B, mentor social capital for Case C) are not in any source."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Motivational Dynamics, Goal Orientations, and Self-Regulated Learning / block 4",
+      "lesson_text": "('You are so smart')",
+      "source_text": "well done for being so smart",
+      "reason": "The praise wording from Mueller and Dweck (1998) is quoted with words changed."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Motivational Dynamics, Goal Orientations, and Self-Regulated Learning / block 4",
+      "lesson_text": "('You worked hard to figure out that strategy')",
+      "source_text": "well done for working so hard",
+      "reason": "The study's effort-praise wording is quoted with words changed and added."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 2",
+      "lesson_text": "Targeted retrieval practice and fact reinforcement",
+      "source_text": "not about the source",
+      "reason": "Retrieval practice is used to describe Case B here but is not explained until Concept 3."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 1",
+      "lesson_text": "Priya is paired with a project lead for cognitive apprenticeship",
+      "source_text": "not about the source",
+      "reason": "'Cognitive apprenticeship' is used here and in the touchpoint cards but is never defined for the reader."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "### One Learner, Three Ecosystems: The Case of Priya",
+      "source_text": "not about the source",
+      "reason": "Priya's three cases are taught in full again after Concept 1 already covered them, along with a comparison table."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "knowing cannot be separated from the authentic tools, social contexts, and communities in which practice occurs",
+      "source_text": "not about the source",
+      "reason": "The situated-learning point (Brown, Collins and Duguid; Lave and Wenger) repeats what Concept 1 block 1 already taught."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 2",
+      "lesson_text": "The Six Touchpoints of Modern Learning Ecologies",
+      "source_text": "not about the source",
+      "reason": "The same six touchpoint cards already appear in Concept 1 block 3."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 2: Memory Architecture, Cognitive Governance, and Reconstructive Retrieval / block 2",
+      "lesson_text": "Executive Function Architecture and Cognitive Governance",
+      "source_text": "not about the source",
+      "reason": "The concept jumps from reconstructive memory to a table of executive functions without explaining how working memory, inhibition or set-shifting shape retrieval, yet the exercises that follow depend on that link."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 4: Motivational Dynamics, Goal Orientations, and Self-Regulated Learning / block 1",
+      "lesson_text": "Quite literally, it is neurobiologically impossible to think deeply about or remember information about which one has had no emotion",
+      "source_text": "not about the source",
+      "reason": "The emotion quote is dropped in after the mindset section, with nothing linking emotion to self-efficacy, value or mindsets."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 5.1: Analyzing how asset-based pedagogical models and values-affirmation interventions counteract stereotype threat and bolster academic identity / block 2",
+      "lesson_text": "After the values-affirmation intervention, students' average exam scores increased by 15 points, and self-reported belonging rose from 2.8 to 4.1 on a 5-point scale",
+      "source_text": "not about the source",
+      "reason": "Learners are asked to reverse-engineer steps to specific numbers that nothing in the situation leads to, so there is no line of reasoning to rebuild."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 1",
+      "lesson_text": "aging adults demonstrate **compensatory neural recruitment**—reorganizing neural networks bilaterally across cerebral hemispheres to sustain high performance",
+      "source_text": "not about the source",
+      "reason": "Synaptic pruning and compensatory recruitment are given only in technical terms, with no concrete case, and the exercises then misapply them."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 3",
+      "lesson_text": "Learners do not develop inside single programs; their growth is distributed across six intersecting touchpoints that shape cognitive development across the lifespan.",
+      "source_text": "In Case C Her project lead",
+      "reason": "The touchpoint cards are never tied back to Priya's case (the slides place each of her sources in a touchpoint), so learners don't see how one learner's ecosystem maps onto the six places."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Memory Architecture, Cognitive Governance, and Reconstructive Retrieval / block 3",
+      "lesson_text": "Metamemory & Strategic Organization",
+      "source_text": "not about the source",
+      "reason": "The card's image is filing drawers labelled with years, which shows the file-cabinet view of memory that the concept has just rejected."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Evidence-Based Cognitive and Generative Learning Strategies / block 3",
+      "lesson_text": "Learners explain step-by-step logic or deduce sentence-by-sentence meaning during problem-solving.",
+      "source_text": "not about the source",
+      "reason": "The Self-Explanation card shows a man drawing a blueprint (easy to confuse with the next card, Learner-Generated Drawing), and the Elaborative Interrogation card shows a product roadmap; neither image shows the strategy."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Evidence-Based Cognitive and Generative Learning Strategies / block 5",
+      "lesson_text": "Pre-testing Potentiation",
+      "source_text": "not about the source",
+      "reason": "Mind-map nodes such as 'Pre-testing Potentiation', 'Lag Calibration', 'Boundary Detection' and 'Error Signal Feedback' are never explained anywhere in the lesson."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Social Identity, Cultural Assets, and Stereotype Threat Mitigation / block 3",
+      "lesson_text": "Third Spaces",
+      "source_text": "not about the source",
+      "reason": "The Third Spaces card shows a desk with a power socket (and Cultural Modeling shows a blank notebook), so the images say nothing about these ideas."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 4",
+      "lesson_text": "Visibility Spectrum -> Algorithmic Sorting",
+      "source_text": "not about the source",
+      "reason": "The mind map puts Algorithmic Sorting next to Visible Interfaces and Invisible Systems as if it were a third level, when sorting is one kind of invisible AI."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 1",
+      "lesson_text": "### Contrasting Learning Ecosystems: The Case of Priya",
+      "source_text": "not about the source",
+      "reason": "One page mixes brain maturation, lifespan aging, situated learning, Priya's cases and the six touchpoints, and the Priya and touchpoint material is then split again across Concept 6."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 2",
+      "lesson_text": "Structural Analysis of Learning Ecosystems",
+      "source_text": "not about the source",
+      "reason": "Priya's contrasting cases and the six touchpoints are central, but no exercise has learners analyze the cases or sort sources into touchpoints: Exercises 1.1 and 1.2 test only biology."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "lesson_text": "Artificial intelligence operates across a continuum of visibility:",
+      "source_text": "not about the source",
+      "reason": "Visible versus invisible AI is never practiced; despite its title, Exercise 6.1 asks about equity effects of an adaptive algorithm."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 3",
+      "lesson_text": "Integrate cross-modal linked representations and conversational agents to support diverse learning ecologies",
+      "source_text": "not about the source",
+      "reason": "The exercise depends on linked representations and conversational agents as design features, but the lesson only names them in a table cell and a mind-map node and never teaches them."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Designing and evaluating schedules combining retrieval practice, spaced repetition, and elaborative self-explanation for deep conceptual transfer / block 2",
+      "lesson_text": "What is the term for learning that occurs by spacing study sessions over time rather than concentrating them in a single period?",
+      "source_text": "not about the source",
+      "reason": "This and the next item only ask for a term, although the exercise title promises designing and evaluating schedules."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.2: Designing structural learning interventions that integrate students' cultural funds of knowledge into core disciplinary inquiry / block 2",
+      "lesson_text": "What is the term for the neurocognitive and affective mechanism by which awareness of negative stereotypes impairs academic performance?",
+      "source_text": "not about the source",
+      "reason": "The item asks only for the name 'stereotype threat', although the objective calls for assessing how it affects engagement."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.1: Identifying flaws in learning designs that treat memory as passive storage rather than active, cue-dependent reconstruction governed by executive function / block 4",
+      "lesson_text": "Step 3: States attentional set-shifting is unrelated to memory; correct alternative is that attentional set-shifting allows flexible adaptation to new cues and retrieval strategies, facilitating reconstructive retrieval.",
+      "source_text": "not about the source",
+      "reason": "The grading expects specific claims about how inhibition and set-shifting shape reconstructive retrieval, but Concept 2 never taught those links."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating how neural plasticity and environmental experiences interact to shape learning trajectories across different developmental life stages / block 3",
+      "lesson_text": "It suggests that bilingualism is only possible when formal schooling is provided.",
+      "source_text": "not about the source",
+      "reason": "The wrong options are absolute and clearly false, and each correct option repeats the stem's 'biological and cultural' wording, so the answers are given away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Applying self-determination theory and goal orientation frameworks to diagnose motivation breakdowns and enhance self-regulated learning / block 3",
+      "lesson_text": "Avoiding feedback to minimize effort and maintain self-esteem",
+      "source_text": "not about the source",
+      "reason": "Wrong options such as this and 'Limiting student autonomy to ensure uniform outcomes' contradict the scenario outright, so the right answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Designing structural learning interventions that integrate students' cultural funds of knowledge into core disciplinary inquiry / block 2",
+      "lesson_text": "Strict adherence to standardized testing protocols",
+      "source_text": "not about the source",
+      "reason": "None of the wrong options is a believable way to use cultural assets, so no one would pick them."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 3",
+      "lesson_text": "Begin by selecting the platform's color scheme for accessibility",
+      "source_text": "not about the source",
+      "reason": "Wrong options like the color scheme, 'branding and marketing strategy' and 'only the speed of the platform's interface' are not believable, and Q2 asks about 'the main computation' in a task with no computation."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 2",
+      "lesson_text": "Asynchronous portals, internal knowledge bases, and on-demand intelligent tutoring systems where learners search for answers or complete modular tutorials independently.",
+      "source_text": "Learning in the flow of work means learning through real work, with other people, not just getting answers at the moment of need.",
+      "reason": "A common mistaken belief is that learning in the flow of work just means getting answers at the moment of need; the source corrects it, but the lesson never does."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Sociocultural, Biological, and Lifespan Dynamics in Learning / block 1",
+      "summary": "Priya, a financial services consultant on a healthcare project, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Memory Architecture, Cognitive Governance, and Reconstructive Retrieval / block 1",
+      "summary": "Anderson and Pichert (1978) burglar versus homebuyer perspective study",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Memory Architecture, Cognitive Governance, and Reconstructive Retrieval / block 1",
+      "summary": "Hirst et al. (2015) flashbulb memories changing over time",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Motivational Dynamics, Goal Orientations, and Self-Regulated Learning / block 4",
+      "summary": "Mueller and Dweck (1998) praise for intelligence versus effort",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Social Identity, Cultural Assets, and Stereotype Threat Mitigation / block 1",
+      "summary": "Nasir and McKinney de Royston (2013) basketball averages versus school math",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "summary": "An educator's or analyst's morning: drafting a syllabus with a chatbot, early-warning alert, navigation app, expense screening",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "summary": "Visible AI (AutoTutor, co-writers) versus invisible AI (essay scoring, tracking, feed curation, sorting into groups)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Digital Technologies, Artificial Intelligence, and Ecosystem Equity / block 1",
+      "summary": "Priya's three cases retold, with structural analysis",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating how neural plasticity and environmental experiences interact to shape learning trajectories across different developmental life stages / block 2",
+      "summary": "Child in a multilingual household learns to switch languages",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating how neural plasticity and environmental experiences interact to shape learning trajectories across different developmental life stages / block 2",
+      "summary": "Adult learns pottery from a community elder",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Evaluating how neural plasticity and environmental experiences interact to shape learning trajectories across different developmental life stages / block 2",
+      "summary": "Teenager's music practice strengthens circuits and prunes others",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing adult compensatory neural recruitment and experience-dependent cognitive adaptation in organizational learning programs / block 2",
+      "summary": "Graduate seminar explains a bilingual child's development with synaptic density data",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Forecasting the impact of working memory constraints and environmental retrieval cues on instructional problem-solving tasks / block 2",
+      "summary": "Student recalls material in a new, distracting setting with unfamiliar cues",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing core principles of generative learning and desirable difficulties from contrasting curricular practice schedules / block 1",
+      "summary": "Statistics instructor mixes t-test, ANOVA and regression problems with spoken explanations",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing core principles of generative learning and desirable difficulties from contrasting curricular practice schedules / block 3",
+      "summary": "Doctoral student spaces flashcard review and writes applications",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing core principles of generative learning and desirable difficulties from contrasting curricular practice schedules / block 5",
+      "summary": "Faculty workshop has students draw concept maps after reading an article",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Applying self-determination theory and goal orientation frameworks to diagnose motivation breakdowns and enhance self-regulated learning / block 2",
+      "summary": "Graduate student revises a research proposal after critical feedback",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Applying self-determination theory and goal orientation frameworks to diagnose motivation breakdowns and enhance self-regulated learning / block 2",
+      "summary": "Medical resident sets goals and monitors board-exam preparation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Applying self-determination theory and goal orientation frameworks to diagnose motivation breakdowns and enhance self-regulated learning / block 2",
+      "summary": "STEM instructor redesigns a course around mastery goals",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Analyzing how asset-based pedagogical models and values-affirmation interventions counteract stereotype threat and bolster academic identity / block 2",
+      "summary": "Graduate seminar values-affirmation raises exam scores 15 points and belonging from 2.8 to 4.1",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Anticipating the developmental and equity consequences of deploying visible versus invisible artificial intelligence tools across varied learning touchpoints / block 2",
+      "summary": "University rolls out an adaptive platform across high- and low-resource students with uneven internet access",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.2: Evaluating institutional decisions to adopt, adapt, or reject digital learning technologies based on learner affordances and systemic equity / block 2",
+      "summary": "Education researcher designs an integrated AI platform for a diverse cohort",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

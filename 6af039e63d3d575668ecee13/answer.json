@@ -1,0 +1,380 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Trailing zeros in numbers without a decimal point (e.g., $$1300\\text{ g}$$) are ambiguous and should be written in scientific notation ($$1.30 \\times 10^3\\text{ g}$$).",
+      "source_text": "The ambiguity can be resolved with the use of exponential notation: 1.3 103 (two significant figures), 1.30 103 (three significant figures, if the tens place was measured), or 1.300 103 (four significant figures, if the ones place was also measured). In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "The source says the digits kept depend on which places were measured and that, given only 1300 g, the trailing zeros should be assumed not significant (1.3 x 10^3 g), but the lesson tells students to write it as 1.30 x 10^3 g."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Calculating substance density from geometric volume determinations and water displacement measurements / block 2",
+      "lesson_text": "A sample of copper has a mass of $$89.6$$ grams and a volume of $$10.0$$ cubic centimeters. What is its density in SI units? | correctAnswers[1]: $$8.96$$ grams per cubic centimeter",
+      "source_text": "The SI unit for density is the kilogram per cubic meter (kg/m3).",
+      "reason": "The key gives the density in g/cm3 as the answer 'in SI units', but the SI unit is kg/m3 (8.96 g/cm3 = 8960 kg/m3), so the key contradicts the source and the lesson's own Concept 3."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversion / block 5",
+      "lesson_text": "Simultaneously converts independent dimensions in composite units (such as converting distance and time from $$\\text{km/h}$$ into $$\\text{mi/gal}$$ or $$\\text{m/s}$$) across multiple steps.",
+      "source_text": "all the factors involved in the calculation must be appropriately oriented to ensure that their labels (units) will appropriately cancel and/or combine to yield the desired unit in the result.",
+      "reason": "A speed in km/h (distance per time) cannot be converted into mi/gal (distance per volume of fuel); the source gets mi/gal from a distance and a fuel volume, so this example breaks the very unit-cancellation rule it teaches."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Deconstructing solved multi-step unit conversion setups to verify appropriate dimensional cancellation of units / block 2",
+      "lesson_text": "$$593$$ milliliters of flour",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures ... If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "2.5 cups has two significant figures and the 237 mL per cup is given as exact, so the answer should be 590 mL (5.9 x 10^2 mL); even keeping three digits, 592.5 rounds to 592 under the round-to-even rule taught in Concept 4, so the solution and the rubric's 'round to 593' are wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Detecting and correcting mistakes in significant figure counting and zero classification across measured values / block 4",
+      "lesson_text": "Step 2: Uses unrounded product $$28.520$$ instead of applying significant figures immediately; correct product is $$28.52$$ before rounding, but significant figures must be considered next.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "Working out the unrounded product and then rounding the result is the correct method (the lesson's own Concept 4 examples do exactly this), and 28.520 equals 28.52, so the rubric grades a correct step as an error."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "lesson_text": "There is no detectable change in the total quantity of matter present during a physical change (such as ice melting) or a chemical reaction (such as decomposing liquid $$\\text{H}_2\\text{O}$$ into $$\\text{H}_2$$ and $$\\text{O}_2$$ gases). The total mass of reactants always equals the total mass of products.",
+      "source_text": "not about the source",
+      "reason": "Physical change and chemical reaction are only defined later in Concept 2, and 'reactants' and 'products' are never defined, so students meet these terms before they are taught."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: SI Units, Metric Prefixes, and Derived Quantities / block 4",
+      "lesson_text": "Density ($$d$$) is calculated by dividing an object's mass ($$m$$) by its volume ($$V$$).",
+      "source_text": "not about the source",
+      "reason": "Density as mass over volume, its equation and its being intensive were already taught in Concept 2 block 4 with the symbol rho, and Concept 3 repeats them with a new symbol d without linking the two."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "Taking the ratio of two extensive properties creates an **intensive property**. For example, both mass ($$m$$) and volume ($$V$$) depend directly on sample size, but their quotient yields density",
+      "source_text": "not about the source",
+      "reason": "The lesson states that a ratio of two extensive properties is intensive but skips the step students need to follow it (doubling a sample doubles both mass and volume, so their ratio stays the same)."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "lesson_text": "**Accuracy**: Indicates how closely a measured result aligns with the true or accepted reference value.",
+      "source_text": "she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter) but not accurate (none of the values are close to the target value of 296 mL, each being more than 10 mL too low).",
+      "reason": "Accuracy and precision, which students often confuse, get only two abstract definitions with no example, although the source offers the archery targets and the cough-syrup dispensers."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversion / block 5",
+      "lesson_text": "Links multiple conversion ratios in a single continuous line, canceling intermediate units step-by-step from starting measurements to complex derived targets like density ($$\\text{g/mL}$$).",
+      "source_text": "What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.",
+      "reason": "Multi-step chaining, which learning objective 4 names, is only described in general words; the lesson never works through a multi-step chain such as the source's antifreeze density or fuel-economy problems."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "The value $$0.008020\\text{ g}$$ has three leading zeros that do not count as significant figures.",
+      "source_text": "not about the source",
+      "reason": "The Leading Zeros card's image (image-13) is an orange striped screen reading 'You've gone through 60.0010582011% of your work week', which has no leading zeros and has nothing to do with the rule, so it distracts instead of helping."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Trailing Zeros",
+      "source_text": "not about the source",
+      "reason": "The Trailing Zeros card's image (image-14) is a photo of an old pressure gauge, which shows nothing about trailing zeros or the 55.0 g and 1300 g cases the card explains."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversion / block 5",
+      "lesson_text": "Single-Step Conversion",
+      "source_text": "not about the source",
+      "reason": "The card's image (image-16) is an abstract seesaw with colored balls, with no units, ratio or conversion shown, so it does not help students see the grams-to-ounces conversion it sits next to."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "**Chemical Property**: The ability (or inability) of a sample of matter to change into one or more new substances.",
+      "source_text": "not about the source",
+      "reason": "Learning objective 2 asks students to tell physical from chemical properties, but no exercise asks them to classify a property such as flammability or density; the questions only classify changes and intensive or extensive properties."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: SI Units, Metric Prefixes, and Derived Quantities / block 3",
+      "lesson_text": "**Water Displacement:** For irregularly shaped solids that do not dissolve in water, the volume is measured by submersion in a graduated cylinder containing an initial liquid volume ($$V_{\\text{initial}}$$).",
+      "source_text": "not about the source",
+      "reason": "Water displacement is taught here and named in Exercise 3.2's title, but no question has students find a volume or density from displacement readings."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.2: Executing single-step and multi-step unit conversions using dimensional analysis and standard conversion factors / block 2",
+      "lesson_text": "Executing single-step and multi-step unit conversions using dimensional analysis and standard conversion factors",
+      "source_text": "not about the source",
+      "reason": "Learning objective 4 calls for multi-step computational problems, but every conversion in Exercises 5.1 and 5.2 (cups to mL, inches to cm, km to m, mL to L) is single-step, so multi-step chaining is never practiced."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures based on compositional uniformity / block 3",
+      "lesson_text": "Which statement best describes Salt Water in terms of the phases and classification of matter?",
+      "source_text": "not about the source",
+      "reason": "The example cards just above already state each answer (salt water is 'forming a homogeneous mixture with properties of a liquid', copper wire is 'an element' in 'the solid phase'), so students can copy instead of classifying as objective 1 requires."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases / block 2",
+      "lesson_text": "Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases",
+      "source_text": "not about the source",
+      "reason": "The exercise says it targets phase characteristics and particle arrangements, but every question only asks about mixtures and pure substances (oil and water, salt water, copper wire, river water)."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Categorizing sample properties as intensive or extensive based on their dependence on the quantity of matter / block 2",
+      "lesson_text": "What physical change, if any, do you expect to observe in the liquid after 30 minutes? Explain whether this change is a physical or chemical change",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for sorting properties into intensive and extensive, but the task is predicting whether an unnamed liquid freezes and calling it a physical change, so it does not test the idea it claims."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 6.2: Interconverting temperatures among Celsius, Fahrenheit, and Kelvin scales using algebraic formulas / block 2",
+      "lesson_text": "Explains the importance of absolute zero and non-negative temperatures for calculations",
+      "source_text": "not about the source",
+      "reason": "The rubric expects students to explain why non-negative kelvin temperatures matter for calculations, which the lesson never teaches."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures based on compositional uniformity / block 3",
+      "lesson_text": "It is a pure element in the plasma phase.",
+      "source_text": "not about the source",
+      "reason": "Each distractor pairs the sample with an absurd phase (salt water or copper wire as plasma, air as a solid compound), so students can pick the key from the phase alone without judging composition."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases / block 2",
+      "lesson_text": "Oil and water are different types of matter that do not form a uniform mixture",
+      "source_text": "not about the source",
+      "reason": "The keyed 'explanation' only restates that oil and water do not mix, and the distractor 'Oil is heavier than water and always floats on top' contradicts itself, so the question does not test real understanding."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases / block 4",
+      "lesson_text": "Which sample from the classroom is a pure substance?",
+      "source_text": "Pure substances may be divided into two classes: elements and compounds.",
+      "reason": "Distilled water is also a pure substance (the compound water), so two samples are correct while the key accepts only copper wire, and the hint 'contains only one kind of particle' also fits distilled water."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Deconstructing solved multi-step unit conversion setups to verify appropriate dimensional cancellation of units / block 3",
+      "lesson_text": "Which check most directly justifies that the final answer, $$593$$ milliliters, has the correct units and magnitude?",
+      "source_text": "not about the source",
+      "reason": "The keyed check (units cancel) confirms only the units, while the distractor 'Estimate whether 2.5 times 237 is about 593' is the one that checks magnitude, so more than one option is defensible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Deconstructing solved multi-step unit conversion setups to verify appropriate dimensional cancellation of units / block 3",
+      "lesson_text": "Add the two units together directly",
+      "source_text": "not about the source",
+      "reason": "Most distractors in questions 1 and 3 ('Subtract milliliters from cups', 'Add 237 milliliters to 2.5 cups') are operations no student would choose, so the questions give the answer away."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "For example, $$3090$$ contains captive zeros",
+      "source_text": "The number of significant figures is uncertain in a number that ends with a zero to the left of the decimal point location.",
+      "reason": "3090 has only one captive zero and its last zero is a trailing zero of uncertain significance, so calling both 'captive zeros' feeds the common mistake of counting every zero in 3090 as significant."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "summary": "Everyday cases of each state: copper wire, ice, water, gasoline, helium balloons, lightning, star interiors",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 4",
+      "summary": "Gold and sulfur as elements, sucrose and water as compounds, sports drinks, air and salt water as solutions, oil-and-vinegar dressing and granite as heterogeneous mixtures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "summary": "Conservation of matter shown with ice melting and decomposing water into hydrogen and oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures based on compositional uniformity / block 2",
+      "summary": "Classifying salt water, copper wire and air in a balloon",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases / block 1",
+      "summary": "Chef pours oil into water and dissolves salt in it",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Differentiating macroscopic phase characteristics from microscopic particle arrangements across solids, liquids, and gases / block 3",
+      "summary": "Classroom samples: copper wire, distilled water, muddy river water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes (melting ice, dissolving sugar, magnetizing a needle) and chemical changes (rusting iron, burning, cooking, nitroglycerin explosion)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Cards: gold and copper appearance, gasoline flammability, inert neon, wax hardening, condensation, wood burning, nail rusting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Combining two samples at 20 °C stays at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Drop of hot cooking oil versus a pot of hot oil (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing between physical and chemical properties and changes during transformations of matter / block 2",
+      "summary": "Nail rusting in moist air; sugar heated until it turns black",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing sample properties as intensive or extensive based on their dependence on the quantity of matter / block 2",
+      "summary": "Beaker of colorless liquid at 25 °C placed in a -10 °C freezer",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: SI Units, Metric Prefixes, and Derived Quantities / block 3",
+      "summary": "Densities of water (1.0 g/mL), gold (19.3 g/cm3) and dry air (1.2 g/L)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: SI Units, Metric Prefixes, and Derived Quantities / block 5",
+      "summary": "A 10 cm cube holds 1 L; a 1 cm3 cube holds 1 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Interpreting the mathematical relationship between mass, volume, and density using standard SI base and derived units / block 7",
+      "summary": "Density of a 2.0 kg, 0.50 m3 block; mass from 1.5 kg/m3 and 2.0 m3",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Calculating substance density from geometric volume determinations and water displacement measurements / block 2",
+      "summary": "Copper sample 89.6 g in 10.0 cm3; block 0.20 m x 0.10 m x 0.05 m volume",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL, balance reading 6.72 g, 12 eggs and 1 in. = 2.54 cm as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero-counting cases 3090, 70.607 mL, 0.008020 g and 55.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "1300 g as an ambiguous trailing-zero case",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Round-to-even: 18.35 to 18.4 and 92.85 to 92.8",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "1.0023 g + 4.383 g, 486 g - 421.23 g, 0.6238 cm x 6.6 cm, 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "summary": "2.334 mL + 0.31 mL, 56.533 m - 55.8752 m, 2.334 cm x 0.320 cm, 55.8752 m / 56.53 s",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Detecting and correcting mistakes in significant figure counting and zero classification across measured values / block 2",
+      "summary": "Area of a metal rod 12.40 cm by 2.3 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Applying significant figure and rounding rules to arithmetic calculations to report proper measurement uncertainty / block 2",
+      "summary": "Counting figures in 0.04050; 12.3 + 4.56 + 7.891; 3.24 x 1.1",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversion / block 1",
+      "summary": "34 in. converted to 86 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversion / block 5",
+      "summary": "125 g converted to 4.41 oz",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Deconstructing solved multi-step unit conversion setups to verify appropriate dimensional cancellation of units / block 2",
+      "summary": "Recipe needing 2.5 cups of flour converted to milliliters",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Executing single-step and multi-step unit conversions using dimensional analysis and standard conversion factors / block 2",
+      "summary": "12 in. to cm, 5.0 km to m, 750 mL to L",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Mathematical Interconversions / block 2",
+      "summary": "Water's boiling and freezing points, body temperature 37.0 °C and absolute zero on three scales",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.1: Analyzing the linear relationships and reference zero points governing the Celsius, Fahrenheit, and Kelvin scales / block 7",
+      "summary": "68 °F to °C and 15 °C to °F",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.2: Interconverting temperatures among Celsius, Fahrenheit, and Kelvin scales using algebraic formulas / block 2",
+      "summary": "Lab sample at 25 °C converted to kelvin",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.2: Interconverting temperatures among Celsius, Fahrenheit, and Kelvin scales using algebraic formulas / block 2",
+      "summary": "100 °C (water's boiling point) converted to 212 °F",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 1,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 0,
+    "x2": 2,
+    "x3": 0,
+    "x4": 2,
+    "x5": 0,
+    "x6": 5,
+    "x7": 0,
+    "x8": 0,
+    "x9": 5,
+    "x10": 1,
+    "x11": 3,
+    "x12": 1,
+    "x14": 6,
+    "x15": 1
+  },
+  "examples_total": 30,
+  "examples_from_source": 23,
+  "made_up_examples": 7,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 40,
+  "score": 92,
+  "instructions_score": 100,
+  "teaching_score": 82,
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Particles are held tightly in place and vibrate about fixed positions.",
+      "source_text": "not in source (the source only says: solid water molecules are close together and organized)",
+      "reason": "The source never says the particles of a solid vibrate about fixed positions, so this is an added fact."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "lesson_text": "Exact numbers—such as defined relationships (1 kg = 1000 g or 1 ft = 12 in.) and directly counted items—have infinite significant figures. Never let an exact conversion factor or count restrict the number of significant figures in your final calculated answer.",
+      "source_text": "not in source (the source only says: The numbers of defined quantities are also exact.)",
+      "reason": "The rule that exact numbers have infinite significant figures and never limit a calculated answer is not stated anywhere in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 3",
+      "lesson_text": "its zero point (0 K) corresponds to absolute zero, the lowest theoretically attainable temperature where molecular motion reaches a minimum",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved",
+      "reason": "The claim that molecular motion reaches a minimum at 0 K is not in the source."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.2: Evaluating misconceptions when classifying physical properties as extensive or intensive / block 4",
+      "lesson_text": "Step 2: states melting salt is a chemical property; correct classification is physical property because melting does not alter the salt's chemical identity. ... 2. Melting salt is a physical property;",
+      "source_text": "Physical changes are observed when wax melts, when sugar dissolves in coffee, and when steam condenses into liquid water ... Other physical properties, such as the melting temperature of iron or the freezing temperature of water, can only be observed as matter undergoes a physical change.",
+      "reason": "The answer key calls melting itself a physical property, while the source treats melting as a physical change and only the melting temperature as a property, so a student who correctly answers 'physical change' would be marked wrong."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Zeros between nonzero digits result from actual measurement. (block 1: Zeros nestled between nonzero digits are *always* significant (e.g., in 70.607 mL, both zeros are significant).)",
+      "source_text": "not about the source",
+      "reason": "The table teaches the same zero rules again with almost the same example numbers (70.607 mL, 0.00802 g, 55.0 g, 1300 g) that block 1 already used."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 4",
+      "lesson_text": "Water freezes at 32 °F and boils at 212 °F, creating 180 equal degree intervals between phase transitions. (block 3: water freezes at 32 °F and boils at 212 °F, defining an interval of 180 degrees.)",
+      "source_text": "not about the source",
+      "reason": "The Celsius and Fahrenheit cards repeat the freezing and boiling points and degree intervals already given in block 3."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Temperature Conversions / block 1",
+      "lesson_text": "In such calculations, each conversion factor is aligned so that intermediate units successively cancel until only the target unit remains.",
+      "source_text": "The mass of a competition frisbee is 125 g. Convert its mass to ounces using the unit conversion factor derived from the relationship 1 oz = 28.349 g (Table 1.6).",
+      "reason": "Dimensional analysis, including multi-step and derived-unit conversions, is explained only as a general formula with no worked conversion, although the source gives several."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "The result is rounded to the same number of decimal places as the measurement with the fewest decimal places (the least certain place value), regardless of total significant digits.",
+      "source_text": "(a) Add 1.0023 g and 4.383 g. (b) Subtract 421.23 g from 486 g. ... (a) Multiply 0.6238 cm by 6.6 cm.",
+      "reason": "The addition/subtraction and multiplication/division rules are only stated in words, with no worked calculation showing how to apply them."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Takes both the shape and the volume of its container. Particles are separated by large distances and move independently.",
+      "source_text": "gaseous water in our atmosphere is not visible to the naked eye",
+      "reason": "The Gas card image is a visible blue haze of mist or smoke, which is droplets or particles in air rather than a gas, so it misleads and clashes with the lesson's own cloud example."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "A gaseous state containing high concentrations of electrically charged ions and free electrons, found naturally in stars and lightning.",
+      "source_text": "FIGURE 1.7 A plasma torch can be used to cut metal.",
+      "reason": "The Plasma card image shows an ordinary yellow flame from a fuel-gas cutting torch, not a plasma, a star or lightning, so students may think any flame is a plasma."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: SI Base Units, Metric Prefixes, and Derived Quantities / block 4",
+      "lesson_text": "For irregularly shaped solids, volume is measured by water displacement: submerging the object causes a liquid level rise equal to the object's total volume.",
+      "source_text": "not about the source",
+      "reason": "The Water Displacement image is an underwater photo of a reef or wreck with fish, which has nothing to do with reading a liquid level rise in a measuring container."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Accuracy reflects how closely a measurement agrees with the true or accepted reference value. Precision reflects the reproducibility and agreement among repeated measurements performed identically.",
+      "source_text": "(a) These arrows are close to both the bull’s eye and one another, so they are both accurate and precise. (b) These arrows are close to one another but not on target, so they are precise but not accurate.",
+      "reason": "The image is one unlabeled archery target with scattered arrows, so without labeled contrasting cases it cannot show how accuracy differs from precision."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "When the dropped digit is exactly 5 followed only by zeros, round the retained digit to the nearest even number (e.g., 421.25 rounds to 421.2; 28,683.5 rounds to 28,684) to eliminate systematic bias.",
+      "source_text": "not about the source",
+      "reason": "The Round-to-Even card's image is a screenshot of a business 'Technology Adoption Life Cycle' chart with Chinese notes, which is unrelated to rounding."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "Describes how each example fits a category of matter (homogeneous mixture, pure substance, heterogeneous mixture)",
+      "source_text": "not about the source",
+      "reason": "Objective 1 asks students to classify matter as an element, compound, homogeneous or heterogeneous mixture, but no exercise includes a compound or asks students to tell an element from a compound."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "A glass of salt dissolved in water forms a homogeneous mixture, where the salt and water are evenly distributed at the particle level. ... The salt and water are evenly mixed at the particle level.",
+      "source_text": "not about the source",
+      "reason": "Each example card already states its class and the reason, so the questions can be answered by copying the card instead of classifying the matter, which is what objective 1 asks for."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Predicting mass conservation outcomes during physical and chemical changes in closed and open systems / block 2",
+      "lesson_text": "A sealed, empty glass jar is placed in a freezer. After one hour, the jar is removed and quickly opened in a warm, humid room.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled as predicting mass conservation in closed and open systems, but the task has no mass, no chemical change and no closed-versus-open comparison, so the conservation law taught in Concept 1 is never tested."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 1.2: Predicting mass conservation outcomes during physical and chemical changes in closed and open systems / block 3",
+      "lesson_text": "Names a relevant scientific principle or law, such as condensation or classification of matter by state and composition.",
+      "source_text": "not about the source",
+      "reason": "The expected answer depends on water vapor in humid air condensing on a cold surface, which Concept 1 never teaches (condensation first appears in Concept 2)."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical and chemical changes using macroscopic observations and chemical identity criteria / block 2",
+      "lesson_text": "What property of water remains unchanged during the melting of ice? ... Its color",
+      "source_text": "not about the source",
+      "reason": "Ice and liquid water are both colorless, so the distractor 'Its color' is also a defensible answer and the item has more than one correct choice."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical and chemical changes using macroscopic observations and chemical identity criteria / block 4",
+      "lesson_text": "Because the iron is now an extensive property ... Because the process is only physical",
+      "source_text": "not about the source",
+      "reason": "Two of the three distractors are nonsense or contradict the question's own premise, so the answer can be picked without understanding."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.1: Differentiating physical and chemical changes using macroscopic observations and chemical identity criteria / block 3",
+      "lesson_text": "The process cannot be reversed by simply changing the temperature or breaking the iron into smaller pieces.",
+      "source_text": "not about the source",
+      "reason": "Here and in the sugar card ('can be reversed simply by evaporating') the lesson uses reversibility as a sign of physical versus chemical change but never warns that this test is unreliable, even though grinding crystals into powder, which it lists as physical, is not easily reversed."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.2: Evaluating misconceptions when classifying physical properties as extensive or intensive / block 3",
+      "lesson_text": "Step 4: The mass of the salt sample is 5 grams is an intensive property because mass does not depend on the amount of substance.",
+      "source_text": "not about the source",
+      "reason": "Extensive versus intensive properties, half of objective 2, are practiced by this single item about mass, and no exercise asks students to identify an intensive property."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Calculating density and volume of solid and liquid samples using direct measurement and water displacement / block 2",
+      "lesson_text": "Add the object's mass in grams to its volume in cubic meters ... Subtract the object's volume in cubic centimeters from its mass in grams",
+      "source_text": "not about the source",
+      "reason": "Adding or subtracting a mass and a volume are implausible distractors, which leaves the only 'divide' option as an obvious answer."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 3.2: Calculating density and volume of solid and liquid samples using direct measurement and water displacement / block 1",
+      "lesson_text": "Answer the questions below covering SI base units, metric prefixes, and the calculation of derived quantities such as volume and density.",
+      "source_text": "not about the source",
+      "reason": "No question asks students to find a volume from an object's dimensions or by water displacement, although Concept 3 teaches both, the exercise title promises it and objective 3 asks students to calculate volume."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.1: Distinguishing between accuracy and precision and differentiating exact numbers from uncertain measurements / block 3",
+      "lesson_text": "The values are close together, showing high precision even if not perfectly accurate. ... High precision in the measurements",
+      "source_text": "not about the source",
+      "reason": "Each example card states its own answer (exact count, estimated last digit, high precision), so the questions can be answered by copying instead of distinguishing accuracy, precision and exactness."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Distinguishing between accuracy and precision and differentiating exact numbers from uncertain measurements / block 3",
+      "lesson_text": "Because the marbles were measured with a ruler ... Because the number is rounded to the nearest ten ... Because the marbles are all the same color",
+      "source_text": "not about the source",
+      "reason": "All three distractors are implausible, so the question checks almost nothing."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Applying significant figure conventions and rounding rules to multi-step arithmetic calculations / block 2",
+      "lesson_text": "Calculate the sum of 3.25 m and 2.1 m, and express the result with the correct number of decimal places according to significant figure rules.",
+      "source_text": "not about the source",
+      "reason": "Counting significant figures (captive, leading and trailing zeros) and the round-to-even rule are taught at length but never practiced, and the only calculation is this one single-step sum despite the 'multi-step' title."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.2: Applying significant figure conventions and rounding rules to multi-step arithmetic calculations / block 2",
+      "lesson_text": "When multiplying two measured values, how should the result be rounded?",
+      "source_text": "not about the source",
+      "reason": "The multiplication and division rule is only recalled and never applied to numbers, although objective 4 asks students to apply significant figure rules to calculations."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Reconstructing conversion factor sequences in multi-step dimensional analysis problems / block 3",
+      "lesson_text": "Which check most directly justifies the reported solution's units and magnitude? ... Verify that the conversion formulas were used in the correct order ... Step 4: Confirm that the final value is labeled with the correct units (K) and is a plausible laboratory temperature. This verifies both the unit and the magnitude of the answer.",
+      "source_text": "not about the source",
+      "reason": "Checking the K label and a plausible temperature range answers 'units and magnitude' more directly than the keyed answer, and the exercise's own rubric says so, so the key is wrong or at least not the only correct choice."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.1: Reconstructing conversion factor sequences in multi-step dimensional analysis problems / block 2",
+      "lesson_text": "A chemistry student records the temperature of a reaction mixture as 104 °F and needs to report the result in Kelvin.",
+      "source_text": "not about the source",
+      "reason": "Multi-step dimensional analysis with chained conversion factors (objective 5) is never practiced: this exercise, titled for it, is a temperature-formula problem, and the only factor-label item is a single centimeter-to-meter choice."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Performing temperature interconversions among the Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "lesson_text": "Subtract 25 from 100 to find the meter value ... Add 100 to the value in centimeters",
+      "source_text": "not about the source",
+      "reason": "Two distractors are nonsense arithmetic, and the two real choices (the 1 m/100 cm and 100 cm/1 m factors) are written in broken math markup that will not render as fractions, so students cannot properly read the factors they must compare."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut's mass is unchanged on the Moon while her weight drops to one-sixth (180 lb to about 30 lb)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Mass is conserved when sugar ferments to ethanol and carbon dioxide in brewing and in a lead-acid car battery",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Molecules of identical atoms (O2, S8) and of different atoms (H2O, glucose)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 4",
+      "summary": "Example substances for each class: iron, gold, oxygen; water, sucrose, sodium chloride; air, sports drinks, gasoline, brass; Italian dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "summary": "Burning wood or baking bread dough seems to lose mass in the open but not in a sealed container",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Saltwater as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Copper wire as a pure element",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "A cloud as a mixture of water droplets and air",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Predicting mass conservation outcomes during physical and chemical changes in closed and open systems / block 2",
+      "summary": "Sealed jar from the freezer opened in a warm, humid room",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: ice melting, steam condensing, dissolving sucrose, magnetizing a screwdriver, grinding crystals",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: rusting iron, burning fuel, tarnishing silver, browning fruit and cooked meat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron rusting as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Match combustion of cellulose and oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Sugar dissolving in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Heat: a pot of hot oil holds far more heat than a spattered droplet",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Temperature stays the same when two containers at the same temperature are combined",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Flammability as intensive: a drop of gasoline burns as readily as a barrel",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical and chemical changes using macroscopic observations and chemical identity criteria / block 1",
+      "summary": "Ice cube melting in a glass of water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical and chemical changes using macroscopic observations and chemical identity criteria / block 3",
+      "summary": "Iron left outside forms a reddish-brown rust coating",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Evaluating misconceptions when classifying physical properties as extensive or intensive / block 2",
+      "summary": "Table salt dissolving, melting at 801 °C, reacting with silver nitrate, and a 5 g mass",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Exact numbers: counting 12 eggs, 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "summary": "Counting significant figures in 1267 m, 70.607 mL, 0.008020 g, 55.0 g and 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Round-to-even: 421.25 to 421.2 and 28,683.5 to 28,684",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Exact defined relationships: 1 kg = 1000 g, 1 ft = 12 in.",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Distinguishing between accuracy and precision and differentiating exact numbers from uncertain measurements / block 2",
+      "summary": "Counting 15 marbles as an exact number",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Distinguishing between accuracy and precision and differentiating exact numbers from uncertain measurements / block 2",
+      "summary": "Reading 42.5 mL in a graduated cylinder with an estimated last digit",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Distinguishing between accuracy and precision and differentiating exact numbers from uncertain measurements / block 2",
+      "summary": "Thermometer readings of 23.1, 23.0 and 23.2 °C showing precision",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Reconstructing conversion factor sequences in multi-step dimensional analysis problems / block 2",
+      "summary": "Converting a 104 °F reaction mixture to 313 K",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

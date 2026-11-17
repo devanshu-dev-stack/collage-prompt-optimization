@@ -1,0 +1,411 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 2",
+      "lesson_text": "Zeros trapped between nonzero digits (such as the zeros in 3090 or 70.607) are always significant because they represent measured intervals.",
+      "source_text": "The number of significant figures is uncertain in a number that ends with a zero to the left of the decimal point location.",
+      "reason": "Only the middle zero of 3090 is trapped; its last zero is a trailing zero to the left of the decimal point, which the source (and the lesson's own Trailing Zeros card) calls uncertain, so calling both zeros always significant is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Relating mass, volume, and density through derived SI units and evaluating metric prefix relationships / block 7",
+      "lesson_text": "If a liquid has a density of 0.80 kg/m³ and a volume of 5.0 m³, what is its mass in kg?",
+      "source_text": "most liquids and solids have densities that range from about 0.7 g/cm3 (the density of gasoline) to 19 g/cm3 (the density of gold). The density of air is about 1.2 g/L.",
+      "reason": "0.80 kg/m³ is 0.00080 g/cm³, lower than the density of air, so no liquid can have it; the problem teaches a false sense of liquid densities."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 2",
+      "lesson_text": "using the SI-derived unit for volume and a metric prefix for precision.",
+      "source_text": "Fractional or multiple SI units are named using a prefix and the name of the base unit.",
+      "reason": "A metric prefix only scales a unit by a power of 10; it does not add precision (25.0 mL and 0.0250 L are equally precise), so the example teaches a wrong purpose for prefixes."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying errors in counting significant figures and applying rounding rules to computed quantities / block 2",
+      "lesson_text": "A student measures the length of a metal rod using a ruler marked in millimeters. The measured value is 128.50 mm.",
+      "source_text": "numerical scales such as the one on this graduated cylinder will permit measurements to one-tenth of the smallest scale division",
+      "reason": "A millimeter ruler can only be read to 0.1 mm, so 128.50 mm claims a hundredths digit the ruler cannot give, yet the answer key accepts it as correct (and Exercise 4.2 marks the same kind of over-reporting as wrong)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying errors in counting significant figures and applying rounding rules to computed quantities / block 4",
+      "lesson_text": "Step 4: Reports 12.8500 cm with 7 digits",
+      "source_text": "Starting with the first nonzero digit on the left, count this digit and all remaining digits to the right.",
+      "reason": "12.8500 has six digits, not seven, so the grading criterion itself miscounts."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Critiquing experimental data sets to identify systematic bias versus random variability in measurements / block 4",
+      "lesson_text": "correct evaluation is that values are closely grouped (10.2–10.8 grams), so measurements are precise.",
+      "source_text": "Results for dispenser #2 represent improved accuracy (each volume is less than 3 mL away from 296 mL) but worse precision (volumes vary by more than 4 mL).",
+      "reason": "A 0.6 g spread on about 10 g is far wider, relative to the value, than the dispenser #2 spread the source (and the lesson's own table) calls poor precision, so the key marks the student's correct 'not precise' claim as an error."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Deconstructing multi-step dimensional analysis setups to verify conversion factor orientation and unit cancellation / block 3",
+      "lesson_text": "Step 4: Confirm that the answer is in liters and has three significant figures, matching the original value (0.250 L).",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "250 mL ends in a trailing zero with no decimal point, so by the source's rule (and the lesson's own 1300 g card) it has two certain significant figures, not three, and 0.250 L overstates it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "represent irreversible molecular rearrangements",
+      "source_text": "not in source",
+      "reason": "The source never describes chemical changes as irreversible; the claim is added and supports the common mix-up that 'irreversible' means 'chemical'."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Requires a subsequent chemical reaction to reverse",
+      "source_text": "not in source",
+      "reason": "The source does not use reversibility to tell physical and chemical changes apart; the whole Reversibility row is added content."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Color change, gas release, temperature shift, precipitate formation",
+      "source_text": "not in source",
+      "reason": "The source gives no list of signs of a chemical change; temperature shift and precipitate formation are not mentioned anywhere in it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Foundations and SI Units / block 5",
+      "lesson_text": "whose zero point corresponds to the theoretical point at which all molecular motion ceases",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved",
+      "reason": "The source defines 0 K as the lowest temperature that can theoretically be achieved; the claim that all molecular motion stops is added and is an oversimplification."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Data Evaluation / block 1",
+      "lesson_text": "A measurement with high accuracy exhibits minimal systematic deviation from reality.",
+      "source_text": "not in source",
+      "reason": "The source never discusses systematic deviation or error; it defines accuracy only as closeness to the true or accepted value."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Data Evaluation / block 2",
+      "lesson_text": "This typically indicates an uncalibrated instrument or consistent operational bias.",
+      "source_text": "not in source",
+      "reason": "The cards add causes (calibration, operational bias, random fluctuations canceling out, compounding random and systematic errors) and an 'accurate but imprecise by the mean' category that the source does not have."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Data Evaluation / block 4",
+      "lesson_text": "If replicate trials are tightly grouped but consistently offset from the accepted value, suspect a systematic error, such as a zero-point offset or miscalibrated sensor.",
+      "source_text": "not in source",
+      "reason": "Diagnosing random versus systematic laboratory error is a topic the source does not cover."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "The smallest unit of an element that retains the chemical properties of that element and can participate in a chemical reaction.",
+      "source_text": "not about the source",
+      "reason": "Atoms are defined using 'element' and 'chemical properties', but elements are defined only in block 3 and chemical properties only in Concept 2."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "lesson_text": "there is no detectable change in the total quantity of matter present during a physical transition or a chemical transformation",
+      "source_text": "not about the source",
+      "reason": "The law relies on physical and chemical changes, which the lesson does not define until Concept 2."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 6: Dimensional Analysis and Quantitative Problem Solving / block 5",
+      "lesson_text": "Volume Displacement",
+      "source_text": "not about the source",
+      "reason": "The mind map lists volume displacement as a derived-property method, but the lesson never introduces or explains it."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Dimensional Analysis and Quantitative Problem Solving / block 1",
+      "lesson_text": "For composite quantities such as density, apply the governing relationship:",
+      "source_text": "not about the source",
+      "reason": "The density equation, already given in Concept 2 block 4 and again in Concept 3 block 3, is repeated a third time here (and again in the block 5 mind map)."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Dimensional Analysis and Quantitative Problem Solving / block 5",
+      "lesson_text": "TK = TC + 273.15",
+      "source_text": "not about the source",
+      "reason": "The Kelvin–Celsius equation from Concept 3 block 4 is repeated in this concept's mind map."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 4",
+      "lesson_text": "For example, 31.57 rounds to 32, while 0.051065 rounds to 0.05106.",
+      "source_text": "(a) 31.57 (to two significant figures)",
+      "reason": "The examples do not say how many significant figures to round to, and in 31.57 the dropped 5 is followed by a 7, a case the stated round-to-even rule does not cover, so students cannot follow why these results come out."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 6: Dimensional Analysis and Quantitative Problem Solving / block 1",
+      "lesson_text": "When a measured value is multiplied by a conversion factor, its numerical representation and units change, but its underlying physical magnitude remains unchanged.",
+      "source_text": "a basketball player’s vertical jump of 34 inches can be converted to centimeters by",
+      "reason": "Dimensional analysis and multi-step chaining are explained only through a general template and steps; the concept never works one numerical conversion, although the source offers several."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Has neither a definite shape nor a fixed volume, expanding completely to fill both the shape and volume of its container.",
+      "source_text": "gaseous water in our atmosphere is not visible to the naked eye",
+      "reason": "The Gas card's photo shows a visible steam plume from a kettle, which is tiny liquid droplets, not gas, so it reinforces the misconception that you can see water vapor."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Foundations and SI Units / block 3",
+      "lesson_text": "Density is the ratio of mass to volume. Standard SI units are kg/m³, while chemists routinely use g/cm³ for solids and liquids, and g/L for gases.",
+      "source_text": "not about the source",
+      "reason": "The Density card's image is a museum photo of an old candy scale with unrelated store-history captions; it shows nothing about mass per volume."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "The three rule cards show a museum candy scale, a graduated cylinder and a calculator icon, none of which shows any digits or zeros, so the images do not help with the zero rules."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Accuracy and Precision in Data Evaluation / block 2",
+      "lesson_text": "Distributions of Measurement Quality",
+      "source_text": "These arrows are close to one another but not on target, so they are precise but not accurate.",
+      "reason": "The four cards use a single dart, a scale dial, test tubes and a gauge, none of which shows a spread of measurements around a target, so the images cannot show the four distributions they label."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Determining significant digits in measured values and performing mathematical operations with correct rounding / block 2",
+      "lesson_text": "When multiplying $$2.56$$ by $$3.1$$, how many significant figures should the result have?",
+      "source_text": "not about the source",
+      "reason": "The addition and subtraction rule (round to the fewest decimal places), a core part of objective 3, is taught in Concept 4 but never practiced; the only operation practiced is one multiplication."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 6.2: Executing unit conversions and solving derived quantity calculations using the factor-label method / block 2",
+      "lesson_text": "Convert $$3.5$$ liters to milliliters using dimensional analysis. (Recall $$1$$ liter $$=$$ $$1000$$ milliliters.)",
+      "source_text": "not about the source",
+      "reason": "Objective 5 asks students to solve multi-step problems, but every conversion practiced is a single metric step; multi-step chains, compound units and temperature conversions are never practiced."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 1.2: Inferring particulate-level characteristics of matter from macroscopic observations of solids, liquids, and gases / block 2",
+      "lesson_text": "Why do the ice cubes float in the liquid water in this scenario?",
+      "source_text": "not about the source",
+      "reason": "The correct answer, 'Ice is less dense than liquid water', needs density, which the lesson does not teach until Concept 2 and Concept 3."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Distinguishing states of matter and classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "What makes the **air in a balloon** an example of a homogeneous mixture?",
+      "source_text": "not about the source",
+      "reason": "The example cards already state each item's state and classification and the reason, so students only copy them back instead of classifying matter themselves as objective 1 asks."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 3",
+      "lesson_text": "In the example \"Measuring Liquid Volume in a Graduated Cylinder,\" why is it important to specify the unit as milliliters?",
+      "source_text": "not about the source",
+      "reason": "Each question only asks students to recall that units allow comparison, from the concept text just above; students never select a unit, prefix or derived unit, which is what the exercise title and objective call for."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Distinguishing states of matter and classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "It is made entirely of water molecules",
+      "source_text": "not about the source",
+      "reason": "For a salad bowl of lettuce, tomatoes and cucumbers, the options 'It is made entirely of water molecules' and 'It contains only one ingredient' are obviously wrong, leaving little to choose between."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 3",
+      "lesson_text": "It shows the experiment is conducted in winter.",
+      "source_text": "not about the source",
+      "reason": "The distractors (winter, the liquid's color, the sample being metal, the solution being safe) are not plausible, so the right answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Deconstructing multi-step dimensional analysis setups to verify conversion factor orientation and unit cancellation / block 3",
+      "lesson_text": "It changes the answer to a negative value",
+      "source_text": "not about the source",
+      "reason": "Distractors such as 'It changes the answer to a negative value', 'It makes the calculation more complicated' and 'Check if the answer is negative' are not plausible, so the questions test little."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "About 7,000 carbon atoms span the width of one spider silk strand",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Molecules: O2, S8, water and glucose",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Classification table examples: gold, oxygen, copper, water, sucrose, sports drinks, saltwater, oil and vinegar dressing, chocolate chip cookies, granite",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Mass unchanged when ice melts or when hydrogen and oxygen react to form water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Distinguishing states of matter and classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Ice cube as a solid compound (water)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Distinguishing states of matter and classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Air in a balloon as a gaseous homogeneous mixture",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Distinguishing states of matter and classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salad bowl of lettuce, tomatoes and cucumbers as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Inferring particulate-level characteristics of matter from macroscopic observations of solids, liquids, and gases / block 1",
+      "summary": "Glass of ice water: ice keeps its shape and floats, liquid water takes the glass's shape",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Inferring particulate-level characteristics of matter from macroscopic observations of solids, liquids, and gases / block 3",
+      "summary": "Sprayed perfume evaporating and spreading across a room",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Melting point of ice (0 °C) as a physical property",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron combining with oxygen and moisture to form rust as a chemical property",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Unreactivity of gold as a chemical property of inertness (source used chromium not oxidizing and unreactive neon)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: melting wax, evaporating water, dissolving sugar in coffee, grinding granite",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: burning wood, souring milk, copper with nitric acid, browning banana",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Condensation of water vapor (physical) versus combustion in a burner (chemical)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop versus pot (cauldron) of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 5",
+      "summary": "Boiling water (physical) versus splitting water with electric current (chemical)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Foundations and SI Units / block 1",
+      "summary": "Medication dose of 100 g instead of 100 mg would be fatal",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 2",
+      "summary": "Chemist records 25.0 mL in a graduated cylinder",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 2",
+      "summary": "Sample weighed on a balance as 0.500 kg",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Selecting appropriate SI base units, derived units, and metric prefixes for diverse scientific measurements / block 2",
+      "summary": "Reaction temperature recorded from 22 °C to 35 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 1",
+      "summary": "Exact numbers: counting eggs in a carton, 1 ft = 12 in., 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL between the 21 and 22 mL marks",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 2",
+      "summary": "Zero-rule numbers 3090, 70.607, 0.008020 and 55.0 g (only 1300 g is the source's)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 3",
+      "summary": "1.0023 g + 4.383 g, 486 g - 421.23 g, 0.6238 cm x 6.6 cm, 421.23 g / 486 mL with rounded results",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty and Significant Figures / block 4",
+      "summary": "Rounding 31.57 to 32 and 0.051065 to 0.05106",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Accuracy and Precision in Data Evaluation / block 3",
+      "summary": "Three 296 mL cough medicine dispensers with five trials each",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement distributions to differentiate between accuracy and precision / block 1",
+      "summary": "Student weighs a metal sample five times (about 50.2 g) against a true mass of 50.6 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement distributions to differentiate between accuracy and precision / block 3",
+      "summary": "Miscalibrated thermometer always reads 37.0 °C for a 36.5 °C water bath",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

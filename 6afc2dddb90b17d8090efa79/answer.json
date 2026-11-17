@@ -1,0 +1,561 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 1",
+      "lesson_text": "## Deconstructing Workforce Learning: Beyond the Isolated Event",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens straight into workforce learning theory, so the requested opening prompt asking students to list the AI they came across today is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 1",
+      "lesson_text": "When organizational or educational leaders design professional development, the default intervention is frequently an isolated event",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step (from last week's map to the student's own context and what the capstone asks) does not appear anywhere in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "lesson_text": "However, artificial intelligence in educational environments exists along a **visibility spectrum**",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The instructions place Visible and Invisible AI before Priya's cases, but the lesson puts it in Concept 4, after Priya and two unrelated concepts."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 2",
+      "lesson_text": "Theoretical Pillars of Situated Learning",
+      "source_text": "Learning is situated; learning moves through people (can AI help it move?)",
+      "reason": "Situated learning is covered, but the requested part on how learning moves through peer cohorts and experienced others and whether AI can help it move (joint attention, just-in-time support, peer collaboration) appears only as bare mind-map labels."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 3",
+      "lesson_text": "Mapping how different learning environments manifest in professional practice.",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places are given only with workforce examples; the requested adaptation of those examples for home and school is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 3",
+      "lesson_text": "The Six Touchpoints of Workplace Learning Ecologies",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The lesson never shows what real learning ecologies look like (the slides' two apprentices with their sources of learning and connections)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Architecture: Memory Reconstruction and Executive Function / block 1",
+      "lesson_text": "For decades, learning was widely conceptualized through the **storage locker** or **computer file** metaphor",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The requested section on opportunities for practice, participation and relationships is missing; the lesson moves on to memory architecture instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine and its link are not included anywhere in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 4.1: Classifying educational AI technologies along the continuum from user-facing tools to ambient sorting mechanisms / block 1",
+      "lesson_text": "Explore the examples below and then discover the concept that connects them.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "No activity asks students to map the AI in one learner's life across home, school and work or to mark where AI connects to people or stands in for them; the exercises only classify given scenarios."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 5",
+      "lesson_text": "Designing effective professional training requires treating learning as an ecosystem rather than a standalone deliverable.",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key-ideas section; this callout touches the ecosystem idea only for professional training and never states that AI is one node in the ecosystem."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Recap: the six questions",
+      "reason": "The requested recap of the six questions is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The slides' focus areas (emerging questions for early childhood, K-12 and higher ed and workforce) are never presented as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "No capstone brief, scoping guide or worked scoping example is included."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The activity to scope the capstone with the six questions is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 1",
+      "lesson_text": "Answer the questions below covering lifelong learning, self-regulation in autonomous environments, and workplace transfer of training.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "The lesson ends with a quiz on lifelong learning only; there is no knowledge check across this week's ideas and no Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "The closing adopt, adapt or reject judgment on a short case is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "Designing Learning Ecologies and AI in Education",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson has no step for submitting the scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 1",
+      "lesson_text": "## The Socio-Affective Architecture of Learning",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Four of the six concepts (memory, motivation, multimedia design, adult transfer) come from How People Learn II, so the lesson is built mainly on a supporting source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Apply evidence-based instructional design strategies, including multimedia principles and Universal Design for Learning, to develop effective and equitable digital learning experiences.",
+      "source_text": "This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives replace the course objectives it was asked to focus on (judge whether AI builds or replaces a capacity by age and stage, appraise evidence on AI, design AI-enabled learning) with memory, motivation and multimedia design goals."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.1: Analyzing workplace learning cases to identify underlying situated learning touchpoints and relational mechanisms / block 1",
+      "lesson_text": "A newly hired nurse in a large hospital begins her onboarding not just through formal orientation sessions",
+      "source_text": "make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Many exercises use nurses, software engineers, a graduate student and generic professionals rather than examples relevant to learning and development (L&D) leaders or district leaders."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 3",
+      "lesson_text": "Industry podcasts and curated expert articles found independently",
+      "source_text": "Her sisterʼs YouTube tip",
+      "reason": "The table says Priya's outside learning in Case C was podcasts and articles, but the slide says it was her sister's YouTube tip (and lists external courses, YouTube, family and non-company AI as outside learning)."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 1",
+      "lesson_text": "explicit shadowing opportunities during client negotiations",
+      "source_text": "Shadowing the workshop",
+      "reason": "The lesson adds case details the slides do not give (shadowing client negotiations, Case A's dense lectures, reference manuals and slide decks), and the negotiation detail clashes with the slide's workshop and the lesson's own table."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Cognitive Architecture: Memory Reconstruction and Executive Function / block 2",
+      "lesson_text": "Executive functions are top-down neurocognitive processes orchestrated primarily across prefrontal cortical networks",
+      "source_text": "Early research suggested that the frontal lobes were the site of this capacity (Chung et al., 2014; Damasio, 1994), but more recent neuroimaging research has shown that the various components of executive function use many areas and networks across the brain",
+      "reason": "The lesson stresses the frontal view that the source describes as early research, instead of the source's conclusion that executive function uses networks across the brain."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 4",
+      "lesson_text": "praising ability ('You are so smart!')",
+      "source_text": "Some students were praised for their ability (“well done for being so smart”)",
+      "reason": "The praise wording from the Mueller and Dweck study is quoted with words changed."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 4",
+      "lesson_text": "('You worked hard to figure out that solution')",
+      "source_text": "others for their effort (“well done for working so hard”)",
+      "reason": "The effort-praise wording from the Mueller and Dweck study is quoted with words changed and added."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 3",
+      "lesson_text": "buffer against identity threat, reduce belonging uncertainty, and generate enduring grade-point improvements",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The lesson presents lasting grade gains from values-affirmation as settled, while the source stresses failed replications and open questions."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "lesson_text": "Invisible doesn't mean sinister. Most of what operates in the background is useful, and some of it makes participation possible at all. But you cannot interrogate, shape, or opt out of systems you do not notice.",
+      "source_text": "Invisible doesn’t mean sinister. Most of what’s on this list is useful, and some of it is the reason a person can take part at all. But you can’t shape what you can’t see.",
+      "reason": "The Compass passage is shown in quotation marks but most of its wording is changed."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 4.2: Critiquing institutional implementations of background AI algorithms for biases, autonomy loss, and privacy deficits / block 4",
+      "lesson_text": "Step 3: Asserts AI eliminates bias and fairness concerns; correct: AI can perpetuate or amplify bias, especially in automated sorting and judging, so fairness must still be critically examined.",
+      "source_text": "not in source",
+      "reason": "Algorithmic bias is not in any source (and Concept 4 never teaches it), yet the exercise and its grading rest on it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Evidence-Based Instructional Design: Multimedia Learning and Universal Design / block 1",
+      "lesson_text": "two partially independent processing streams: **auditory/verbal** and **visual/pictorial** channels",
+      "source_text": "not in source",
+      "reason": "The dual-channel model and the extraneous, essential and generative load types are not in the sources, which give Mayer's principles without this framework."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Evidence-Based Instructional Design: Multimedia Learning and Universal Design / block 2",
+      "lesson_text": "Fostering Generative Processing",
+      "source_text": "not in source",
+      "reason": "The table files Modality & Redundancy under fostering generative processing, but in Mayer's framework modality manages essential processing and redundancy reduces extraneous processing."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Near transfer applies a trained skill to an identical workplace setting. Far transfer requires adapting general underlying principles to complex, unstructured, or novel conditions.",
+      "source_text": "Near transfer is using a skill learned in training at another time, outside of the training environment. Far transfer is using a trained skill in combination with other elements and/or at a time distant from training.",
+      "reason": "The lesson's definitions of near and far transfer differ from the source's: the source defines near transfer as use outside the training environment, not in an identical setting."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 5",
+      "lesson_text": "Tools that passively generate solutions without requiring active mental effort bypass the desirable difficulties needed to consolidate memory, preventing true far transfer and leaving adult learners unable to execute complex problem solving independently.",
+      "source_text": "How do emerging workers build expertise and a foundation for pattern recognition when the foundational work that builds it is disappearing?",
+      "reason": "The slides pose AI's effect on adult expertise as an open emerging question, but the lesson states a firm conclusion that such tools prevent far transfer."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Spaced scheduling and interleaved practice increase immediate training errors but establish robust retrieval cues",
+      "source_text": "not about the source",
+      "reason": "This repeats Concept 2's table row that spacing and interleaved retrieval practice stabilize memory against interference."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Workplace cultures that treat mistakes as analytical feedback rather than infractions",
+      "source_text": "not about the source",
+      "reason": "This repeats Concept 3's mastery climate, where errors are 'Informative feedback; natural part of learning' and mistakes are 'valuable diagnostic feedback'."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 1",
+      "lesson_text": "This neurocognitive scaffolding allows experienced professionals to maintain high-level real-world performance by substituting accumulated knowledge frameworks for raw processing speed.",
+      "source_text": "not about the source",
+      "reason": "The text jumps from older brains recruiting both hemispheres to professionals substituting knowledge for speed, without explaining how one leads to the other."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Cognitive Architecture: Memory Reconstruction and Executive Function / block 1",
+      "lesson_text": "Rather, environmental and internal **retrieval cues** prompt the neural network to reconstitute the memory pattern anew.",
+      "source_text": "when people were asked in a 1995 study to listen to short lists of related words, such as bed, rest, tired, awake, dream, and snooze, and later recall as many of the words as they could, they were highly likely to recall related words that were not on the list, such as sleep",
+      "reason": "Memory reconstruction and cue-dependent retrieval are explained only in abstract terms, although the source offers concrete cases (word lists, the guitar student) that would make the idea graspable."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 1",
+      "lesson_text": "Motivation is a multiplicative function of whether a learner *expects* to succeed and how much they *value* the task.",
+      "source_text": "not about the source",
+      "reason": "Self-efficacy, expectancy-value and self-determination theory are given as definitions only, with no learner example showing any of them at work."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "Helping, Embodied, Agents",
+      "source_text": "not about the source",
+      "reason": "The text groups the forms of AI into three tiers, the cards into four groups with Agents beside Choosing, and the table into four tiers with Agents beside Helping, and the lesson never reconciles these groupings."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 4",
+      "lesson_text": "Distributed Cognition",
+      "source_text": "not about the source",
+      "reason": "The mind map adds nodes the lesson never explains (Joint Attention, Distributed Cognition, System Dynamics) and groups the touchpoints differently from the six-touchpoint table (no Outside Learning), so it does not help students read it."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Evidence-Based Instructional Design: Multimedia Learning and Universal Design / block 4",
+      "lesson_text": "Tolerance for Error",
+      "source_text": "not about the source",
+      "reason": "The card photos (an AI chatbot screen for Tolerance for Error, a gaming desk for Low Physical Effort, an audio mixer for Perceptible Information) do not show the principles and are the decorative stock art the lesson's own coherence row says to remove."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 3",
+      "lesson_text": "Near vs. Far Transfer",
+      "source_text": "not about the source",
+      "reason": "The card photos (an aircraft cockpit, an architectural blueprint, a materials-testing lab) are unrelated to transfer, desirable difficulties or error culture."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 1",
+      "lesson_text": "Models such as **HAROLD** (*Hemispheric Asymmetry Reduction in Older Adults*, Cabeza, 2002) and **STAC**",
+      "source_text": "not about the source",
+      "reason": "Neuroimaging model names and acronyms get as much space as the main point for education leaders, that knowledge keeps growing while reasoning speed declines."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 1",
+      "lesson_text": "a deeper instructional design lens reveals profound **structural variances**",
+      "source_text": "not about the source",
+      "reason": "The structural differences across Priya's cases (where learning happens, what she does in her head, who teaches, how much control she has) are never practiced; the exercises switch to new nurse and engineer cases."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.1: Deconstructing how retrieval cues and consolidation processes drive memory reconstruction over passive storage models / block 3",
+      "lesson_text": "Restructure practice to reduce cognitive load",
+      "source_text": "not about the source",
+      "reason": "The exercise relies on cognitive load, which the lesson only defines in Concept 5."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Distinguishing the effects of mastery versus performance goal structures on learner persistence and cognitive processing / block 2",
+      "lesson_text": "What is the term for the belief that intelligence can be developed through effort and learning?",
+      "source_text": "not about the source",
+      "reason": "This item asks only for a term's name, while the objective calls for examining how mindsets and context interact."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 2",
+      "lesson_text": "What term describes the transfer of learning when new tasks closely resemble the original training context?",
+      "source_text": "not about the source",
+      "reason": "This item is pure term recall, with no application to a case."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 2",
+      "lesson_text": "If an adult learner uses metacognitive monitoring during a complex project, what self-regulation strategy are they employing?",
+      "source_text": "not about the source",
+      "reason": "Metacognitive monitoring and self-regulated learning appear in Concept 6 only as mind-map labels and are never taught, and the question's wording names its own answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing workplace learning cases to identify underlying situated learning touchpoints and relational mechanisms / block 2",
+      "lesson_text": "Personal study, so learning occurs alone without social input",
+      "source_text": "not about the source",
+      "reason": "The distractors (online modules, scheduled-sessions-only training, learning alone) plainly contradict a scenario full of shadowing, peers and break-room talk, so the answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing workplace learning cases to identify underlying situated learning touchpoints and relational mechanisms / block 4",
+      "lesson_text": "Formal courses, so skill development happens exclusively in scheduled sessions",
+      "source_text": "not about the source",
+      "reason": "The distractors use absolute words ('limited', 'isolated', 'exclusively') that the scenario openly contradicts, which gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Mapping the six workplace learning touchpoints across formal and informal organizational contexts / block 3",
+      "lesson_text": "Shadowing a senior colleague",
+      "source_text": "not about the source",
+      "reason": "Each correct option repeats the example card's own wording while the distractors are absent from the card, so the questions can be answered by word matching."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Distinguishing the effects of mastery versus performance goal structures on learner persistence and cognitive processing / block 2",
+      "lesson_text": "Stereotype threat, so the student excels",
+      "source_text": "not about the source",
+      "reason": "The distractors for the goal-structure question (stereotype threat making a student excel, a mastery structure causing disengagement) are implausible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Classifying educational AI technologies along the continuum from user-facing tools to ambient sorting mechanisms / block 2",
+      "lesson_text": "Visible, user-directed interaction with the AI",
+      "source_text": "not about the source",
+      "reason": "The correct option echoes the scenario's words 'visible, user-initiated', and the other options contradict facts stated in the scenario."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Classifying educational AI technologies along the continuum from user-facing tools to ambient sorting mechanisms / block 4",
+      "lesson_text": "Learner agency is increased by hidden automation",
+      "source_text": "not about the source",
+      "reason": "Distractors such as hidden automation increasing agency or students choosing their own groups contradict the scenario outright, so they are not plausible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Auditing digital educational interfaces against Mayer's multimedia learning principles to eliminate extraneous cognitive load / block 3",
+      "lesson_text": "Enhance background music",
+      "source_text": "not about the source",
+      "reason": "The distractors (more complex text, more background music, more decorative images) are obviously wrong for a course meant to reduce load."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Applying Universal Design for Learning principles to develop accessible and flexible digital instructional experiences / block 3",
+      "lesson_text": "Clear step-by-step instructions and highlighted controls, 10 words",
+      "source_text": "not about the source",
+      "reason": "Every option ends with a stray and wrong word count (this option has 6 words, not 10), which makes the choices confusing."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 2",
+      "lesson_text": "Her expertise fits old contexts, so near transfer is limited in novel environments",
+      "source_text": "not about the source",
+      "reason": "The keyed answer says near transfer is limited in novel settings, which contradicts the lesson's own definitions and its feedback that novel settings call for far transfer."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.1: Auditing digital educational interfaces against Mayer's multimedia learning principles to eliminate extraneous cognitive load / block 2",
+      "lesson_text": "provides synchronized captions for narration",
+      "source_text": "Redundancy Principle. People learn better from graphics and narration than from the combination of graphics, narration, and on-screen text.",
+      "reason": "Concept 5 warns against duplicating narration with on-screen text, yet this solution adds captions as evidence-based design; the lesson never explains when accessibility captions are worth that cost, which leaves a predictable confusion in place."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 1",
+      "summary": "Priya's three contrasting cases: three-day course, adaptive AI platform, project lead with peers and shadowing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Touchpoints / block 3",
+      "summary": "Priya's Case C sources mapped onto the six touchpoints (Case A course, Case B platform, healthcare channel, project lead, workshop shadowing)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Analyzing workplace learning cases to identify underlying situated learning touchpoints and relational mechanisms / block 1",
+      "summary": "Newly hired hospital nurse learning by shadowing and peer talk",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing workplace learning cases to identify underlying situated learning touchpoints and relational mechanisms / block 3",
+      "summary": "Software engineer on a distributed team learning through code reviews, Slack and open-source communities",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping the six workplace learning touchpoints across formal and informal organizational contexts / block 2",
+      "summary": "Junior nurse shadowing a senior colleague on daily rounds",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping the six workplace learning touchpoints across formal and informal organizational contexts / block 2",
+      "summary": "Engineer completing a required self-paced online certification and applying it to a project",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping the six workplace learning touchpoints across formal and informal organizational contexts / block 2",
+      "summary": "Teachers meeting monthly as a community of practice to share strategies",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Cognitive Architecture: Memory Reconstruction and Executive Function / block 4",
+      "summary": "Reading and algebra reusing older visual and spatial brain circuits",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Deconstructing how retrieval cues and consolidation processes drive memory reconstruction over passive storage models / block 2",
+      "summary": "Graduate student designing an intervention for adults with attention lapses who fail to retain skills",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Motivational Systems: Mindsets, Goal Orientations, and Identity / block 4",
+      "summary": "Mueller and Dweck study of praising ability versus effort",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing the effects of mastery versus performance goal structures on learner persistence and cognitive processing / block 2",
+      "summary": "Teacher notices students who see mistakes as learning persist longer",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing the effects of mastery versus performance goal structures on learner persistence and cognitive processing / block 2",
+      "summary": "Student who disengages when only high grades are rewarded",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing the effects of mastery versus performance goal structures on learner persistence and cognitive processing / block 2",
+      "summary": "Student from a negatively stereotyped group entering a test",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Predicting learner engagement and threat vulnerability from interactions between social identity and classroom cultural norms / block 2",
+      "summary": "Classroom switching mid-unit from mastery goals to public ranking, with students who have faced stereotype threat",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Tiers illustrated with a tutor, outline drafting, screen readers, translation and schedule managers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "summary": "Card examples: tutors and chatbots, captioning, search summaries, essay scoring, flagged keystrokes, intervention groups",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Classifying educational AI technologies along the continuum from user-facing tools to ambient sorting mechanisms / block 1",
+      "summary": "University chatbot writing assistant that acts only when students ask",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Classifying educational AI technologies along the continuum from user-facing tools to ambient sorting mechanisms / block 3",
+      "summary": "District system that silently flags at-risk students and sorts them into intervention groups",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Auditing digital educational interfaces against Mayer's multimedia learning principles to eliminate extraneous cognitive load / block 2",
+      "summary": "Online cognitive science course with dense narrated slides, decorative images and background music",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Applying Universal Design for Learning principles to develop accessible and flexible digital instructional experiences / block 2",
+      "summary": "Interactive science simulation with signaling, segmented steps and keyboard navigation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Applying Universal Design for Learning principles to develop accessible and flexible digital instructional experiences / block 2",
+      "summary": "Recorded video lecture with synchronized visuals, captions and transcripts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Applying Universal Design for Learning principles to develop accessible and flexible digital instructional experiences / block 2",
+      "summary": "Modular online course with multiple modes and flexible pathways",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Lifelong Learning, Self-Regulation, and Workplace Transfer / block 2",
+      "summary": "Self-directed and mandated, formal and informal adult learning activities adapted from HPL II Figure 9-1",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.1: Projecting near and far transfer outcomes across varying organizational climates and self-regulatory demands / block 2",
+      "summary": "Mid-career professional learning new software tools, then applying them with little supervision",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 2",
+      "summary": "Adult moving to a fast-changing field whose old strategies stop working",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.2: Evaluating adult cognitive shifts and scaffolding strategies across autonomous professional career paths / block 2",
+      "summary": "Multinational self-directed training where autonomous-role employees engage more",
+      "from_source": false,
+      "source_had_one": false
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Sociocultural Contexts, Asset Pedagogy, and Motivational Dynamics / block 1",
+      "lesson_text": "Evaluating development in one pathway with the principles and standards of another is unscientific and unethical.",
+      "source_text": "“evaluating the development in one pathway with the principles and standards of the other is unscientific and unethical” (Keller, 2017, p. 833)",
+      "reason": "The quoted words drop \"the\" before \"development\" and change \"the other\" to \"another\"."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 1",
+      "lesson_text": "The decision to use a technology for learning should be based on evidence indicating that the technology has a positive impact in situations that are similar with respect to the types and goals of learning, characteristics of the learners, and the level of support provided.",
+      "source_text": "CONCLUSION 8-1: The decision to use a technology for learning should be based on evidence indicating that the technology has a positive impact in situations that are similar with respect to: the types of learning and goals for learning; characteristics of the learners; the learning environment; features of the social and cultural context likely to affect learning; and the level of support in using the technology to be provided to learners and educators.",
+      "reason": "Inside quotation marks the lesson rewords the list items and drops two of the five conditions (learning environment, social and cultural context)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Sociocultural Contexts, Asset Pedagogy, and Motivational Dynamics / block 2",
+      "lesson_text": "Adapted from Ames & Archer (1988) and National Research Council (2018) frameworks on achievement goals.",
+      "source_text": "Suggested citation: National Academies of Sciences, Engineering, and Medicine. ... SOURCE: Adapted from Ames and Archer (1988,Tbl. 1, p. 261).",
+      "reason": "The 2018 report the table comes from is credited by the source to the National Academies of Sciences, Engineering, and Medicine, not the National Research Council."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Case C: Shadowing hospital stakeholder interviews and past audits",
+      "source_text": "In Case C Shadowing the workshop",
+      "reason": "The slide says Priya's work-based learning in Case C is shadowing the workshop; the lesson changes it to stakeholder interviews and \"past audits\" (and block 1 to \"shadowing executive meetings\")."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Case A: 3-day healthcare landscape course",
+      "source_text": "In Case C Case Aʼs course ... In Case C Case Bʼs platform",
+      "reason": "The source shows Case C's ecosystem holding all six places, including Case A's course and Case B's platform, while the table splits them off as separate cases, so the point that a good ecosystem includes the course and the AI platform is lost."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "Who decides what counts as competence—an external test rubric, a personalized algorithm, or the collective norms of active practitioners?",
+      "source_text": "Who, or what, is teaching her",
+      "reason": "The source's structural difference is who or what teaches Priya; the lesson swaps it for a different question about who certifies competence."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "These systems enforce unexamined cultural norms, assign risk categorizations, and shape life opportunities without transparent appeal paths.",
+      "source_text": "None of the nine below is good or bad on its own. A screen reader and a screening tool can both be the right call or the wrong one. ... Invisible doesn’t mean sinister.",
+      "reason": "The source holds that no type of AI is good or bad on its own, but the card states as fact that judging and sorting systems enforce unexamined norms and block appeal."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Evidence-Based Cognitive Strategies for Memory and Knowledge Integration / block 3",
+      "lesson_text": "cognitive strategies that introduce friction—such as spaced intervals, variable problem sets, and retrieval struggles—consistently generate superior long-term retention and flexible transfer.",
+      "source_text": "Researchers have identified potential benefits of variable and interleaved practice learning, but they have also found a few benefits for blocked practice. ... the optimal way to present material—interleaved or blocked—and the mechanisms most heavily involved will likely depend on the nature of the study task.",
+      "reason": "The source is cautious and says blocked practice sometimes helps, while the lesson says these strategies \"consistently\" win."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "lesson_text": "Imposes rigid standardization; penalizes neurodivergent or culturally nonconforming discourse patterns.",
+      "source_text": "Fast can be useful. But scoring wants neat categories, and one rubric for everybody leaves little room for the things that make a person interesting.",
+      "reason": "No source claims that AI judging penalizes neurodivergent or culturally nonconforming discourse; the lesson adds this as fact."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "When algorithms control pathways, self-directed search skills atrophy.",
+      "source_text": "not in source",
+      "reason": "The claim that recommendation systems make search skills wither is not in any source; Compass only says you never see what got left out."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 2.1: Classifying educational AI technologies along the spectrum from user-facing agency to opaque systemic decision-making / block 2",
+      "lesson_text": "AI sorting based on historical data can reinforce existing biases, affecting equity.",
+      "source_text": "not in source",
+      "reason": "Bias from historical training data is not discussed in any source; Compass describes sorting only by its consequence (the label arrives before the learner)."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 1",
+      "lesson_text": "learning architects build environments where multiple means of representation, action, expression, and engagement are foundational defaults.",
+      "source_text": "Universal Design for Learning refers to a framework for drawing on relevant research to design educational experiences that are optimal for all learners, including those with specific learning challenges.",
+      "reason": "The \"multiple means\" framework is not in the source, which defines Universal Design for Learning differently, yet Exercise 5.1 relies on it as the answer."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "lesson_text": "Take a moment to inventory your day as an educational leader, teacher, or learner: **How many artificial intelligence systems did you interact with in the last 24 hours?**",
+      "source_text": "Generate me a lesson with the following flow: Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden. ... Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background. One learner, three ecosystems",
+      "reason": "The opening prompt and the Visible and Invisible AI section come after all of Concept 1 (Priya, situated learning, six places) instead of opening the lesson before Priya."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "Beyond the Classroom: Learning as an Ecological System",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The Tessa and Dock step (last week's map, own context, what the capstone asks) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 2",
+      "lesson_text": "Complex tacit expertise travels through interpersonal observation, coaching, and situated modeling.",
+      "source_text": "Learning is situated; learning moves through people (can AI help it move?)",
+      "reason": "The \"learning moves through people, can AI help it move?\" part (peer cohorts, experienced others, joint attention, just-in-time support) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Mapping learning touchpoints across formal, informal, and relational channels.",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "\"What real learning ecologies look like\" (the two apprentices' maps from the study) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "Orientation seminars, compliance bootcamps, corporate courses",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places are given only workforce examples; no version for home and school is provided."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 5",
+      "lesson_text": "Effortful Practice",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The opportunities-to-learn section (practice, participation, relationships, and how AI changes them) is missing; only a mind-map node hints at practice."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "lesson_text": "Most people list visible conversational interfaces",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is not in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.2: Mapping professional development across the six workplace touchpoints using legitimate peripheral participation principles / block 1",
+      "lesson_text": "Apply your understanding of workplace learning ecologies and situated cognition by connecting each example below to the concept.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity is replaced by a quiz on three generic workplace examples; no exercise maps one learner's seen and hidden AI or marks where AI connects or stands in for people."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 4",
+      "lesson_text": "Learning in the flow of work is an active social and cultural practice, not merely instantaneous question-answering.",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key-ideas section, and the idea that AI is one node in the ecosystem is never stated."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 4",
+      "lesson_text": "In your own words, explain how all three examples demonstrate the principles of designing inclusive learning systems and Universal Design for Learning.",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 1",
+      "lesson_text": "from working memory limitations in developing children to sensory shifts in aging adults",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas (emerging questions for early childhood, K-12, and higher education plus workforce) are never presented as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.1: Analyzing how technological affordances and evidence-centered design coordinate to build accessible learning progressions / block 2",
+      "lesson_text": "A university is redesigning its online learning platform to ensure accessibility for neurodiverse adult learners and to support self-regulated learning across multiple career stages.",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "No capstone brief, scoping guide or worked scoping example is given; the only worked case is a platform redesign unrelated to the capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.1: Analyzing how technological affordances and evidence-centered design coordinate to build accessible learning progressions / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The activity to scope one's own capstone with the six questions is replaced by reverse-engineering a given design case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 3",
+      "lesson_text": "How does the **Adaptive Online Math Platform** exemplify the design of inclusive learning systems?",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no closing knowledge check across the week's ideas with Week 1 items; the lesson ends on a per-concept exercise."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 4",
+      "lesson_text": "Appraise instructional technologies using a rigorous Adopt, Adapt, or Reject triage.",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Adopt, adapt, or reject is only named on a card; students never make a closing judgment on a short case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 4",
+      "lesson_text": "In your own words, explain how all three examples demonstrate the principles of designing inclusive learning systems and Universal Design for Learning.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The Week 2 capstone submission step is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Evidence-Based Cognitive Strategies for Memory and Knowledge Integration / block 1",
+      "lesson_text": "Reconstructive Memory and Cognitive Architecture",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Three of the five concepts (memory strategies, asset pedagogy and motivation, Universal Design) are built on How People Learn II, so the lesson is built mainly on a supporting source rather than the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives / objective[3]",
+      "lesson_text": "Apply evidence-based cognitive strategies, including retrieval practice, spaced intervals, interleaving, and self-explanation, to enhance long-term memory retention and conceptual knowledge integration.",
+      "source_text": "Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage ... Appraise claims and evidence about AI and learning, including when the evidence does not yet exist ... This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives swap the course focus (judging whether AI builds or replaces a capacity by age and stage, appraising evidence on AI) for study strategies and inclusive design."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 3.1: Diagnosing flaws in instructional scheduling and study techniques using principles of retrieval, spacing, and interleaving / block 2",
+      "lesson_text": "A graduate student is asked to design an instructional intervention that optimizes long-term memory retention for a complex concept.",
+      "source_text": "This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Many exercises use cases such as a graduate student, a software engineer or nurses instead of situations an L&D or district leader would face."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 3",
+      "lesson_text": "Open Learner Models",
+      "source_text": "not about the source",
+      "reason": "The mind map lists Evidence-Centered Design, Competency Claims and Learning Progressions before block 4 explains them, and Open Learner Models is never explained."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 2",
+      "lesson_text": "Reduces extraneous load and supports learner agency across diverse entry points.",
+      "source_text": "not about the source",
+      "reason": "Terms like \"extraneous load\" and \"dual-coding pathways\" are used as explanations but are never introduced anywhere in the lesson."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "lesson_text": "Direct interactive dialogue via conversational prompting.",
+      "source_text": "not about the source",
+      "reason": "The table restates the nine definitions already given in block 1, and blocks 3 and 5 run through the same nine types again, so one list fills four blocks."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "lesson_text": "the critical learning sciences question centers on **structural differences**:",
+      "source_text": "not about the source",
+      "reason": "The four structural differences are listed as abstract questions but never applied to Cases A, B and C, so students are not shown how the cases actually differ."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Evidence-Based Cognitive Strategies for Memory and Knowledge Integration / block 1",
+      "lesson_text": "Through **episodic integration**, overlapping features between a novel encounter and an existing memory trace reactivate and restructure prior representations.",
+      "source_text": "not about the source",
+      "reason": "Reconstructive memory and episodic integration are explained only in abstract neural terms, with no concrete case to make them understandable."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Sociocultural Contexts, Asset Pedagogy, and Motivational Dynamics / block 1",
+      "lesson_text": "cultural modeling demonstrates how everyday discursive and cultural practices (such as interpretative vernacular discourse or narrative storytelling) can serve as cognitive scaffolding for disciplinary reasoning and critical analysis in academic and professional tasks.",
+      "source_text": "Lee (2006) investigated how African American students can be encouraged to apply their understanding of everyday narratives with which they were familiar (e.g., rap lyrics) to their reading of material being taught in class.",
+      "reason": "Cultural modeling and third spaces are described only in general terms, though the source has a concrete classroom case that would make them clear."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "Includes Choosing and Watching systems.",
+      "source_text": "not about the source",
+      "reason": "The four zones group Choosing with Watching and Judging with Sorting, which breaks the most-to-least-visible order (6 Choosing, 7 Judging, 8 Watching, 9 Sorting) shown just above, and nothing explains how the two views fit."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 2",
+      "lesson_text": "Cognitive Apprenticeship",
+      "source_text": "not about the source",
+      "reason": "The image shows one carpenter working alone, which misleads for a card about knowledge passing from mentor to learner through coaching."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 3",
+      "lesson_text": "Systemic Gatekeeper Zone: Evaluative Labeling",
+      "source_text": "not about the source",
+      "reason": "The image is a university graduation ceremony, which has nothing to do with AI that scores, screens or sorts people."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Evidence-Based Cognitive Strategies for Memory and Knowledge Integration / block 4",
+      "lesson_text": "Elaborative Interrogation",
+      "source_text": "not about the source",
+      "reason": "The image is a hand-drawn progress chart from \"sucking\" to \"not sucking\", unrelated to asking why and how questions and unprofessional in tone."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 4: Sociocultural Contexts, Asset Pedagogy, and Motivational Dynamics / block 2",
+      "lesson_text": "Classroom and Organizational Climate Dimensions Across Goal Structures",
+      "source_text": "not about the source",
+      "reason": "The page jumps from asset pedagogy to goal orientations, mindset, self-efficacy and stereotype threat without saying how these ideas relate."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 4",
+      "lesson_text": "Systemic Pillars for Implementing Inclusive Learning",
+      "source_text": "not about the source",
+      "reason": "A page about Universal Design adds learning progressions, evidence-centered assessment, capacity versus replacement and adopt-adapt-reject triage with no clear link between them."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "lesson_text": "The Six Places People Learn at Work",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to place learning sources into the six places; Exercise 1.2 is titled as a mapping task but only asks about three generic examples."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 3.1: Diagnosing flaws in instructional scheduling and study techniques using principles of retrieval, spacing, and interleaving / block 2",
+      "lesson_text": "maximize knowledge integration and minimize cognitive bias",
+      "source_text": "not about the source",
+      "reason": "The task and Step 4 ask students to judge claims about reducing \"cognitive bias\", a concept the lesson never teaches."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Classifying educational AI technologies along the spectrum from user-facing agency to opaque systemic decision-making / block 2",
+      "lesson_text": "What term describes AI systems that operate without direct user interaction, often shaping educational outcomes behind the scenes?",
+      "source_text": "not about the source",
+      "reason": "This only asks students to recall the label \"Invisible AI\", while the objective asks them to evaluate AI's effects on agency and equity."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.2: Evaluating motivational interventions that mitigate stereotype threat and cultivate mastery goal orientations / block 2",
+      "lesson_text": "What term describes the framework that recognizes and utilizes learners' cultural and familial knowledge as resources for teaching?",
+      "source_text": "not about the source",
+      "reason": "This asks only for the name \"Funds of knowledge\", copied from the concept page, while the objective calls for designing with it."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing structural variations and situated learning mechanisms across contrasting professional workplace ecosystems / block 2",
+      "lesson_text": "Development of expertise solely via formal classroom instruction",
+      "source_text": "not about the source",
+      "reason": "The example says \"Instead of being sent to a formal training session\", so the distractors (rote memorization, formal classroom only, isolated modules) are plainly wrong."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Mapping professional development across the six workplace touchpoints using legitimate peripheral participation principles / block 3",
+      "lesson_text": "Employees only learn during scheduled training events outside their workflow.",
+      "source_text": "not about the source",
+      "reason": "Every distractor uses an absolute like \"only\", \"solely\" or \"exclusively\", which gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Classifying educational AI technologies along the spectrum from user-facing agency to opaque systemic decision-making / block 2",
+      "lesson_text": "It records behavioral data without explicit student input.",
+      "source_text": "not about the source",
+      "reason": "Only this option mentions monitoring at all; the distractors describe unrelated positive features, and the key states what the system does rather than its effect on agency, which is what the question asks."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Deconstructing generative learning routines to evaluate how elaborative questioning and self-explanation restructure mental models / block 3",
+      "lesson_text": "Evaluate the instructional designer’s background and expertise",
+      "source_text": "not about the source",
+      "reason": "The distractors are implausible and the answers just repeat the situation text; Q2 even refers to \"the main computation\" in a task with no computation."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Inducing principles of asset-based pedagogy and third spaces from culturally responsive learning interactions / block 2",
+      "lesson_text": "Growth mindset, by encouraging students to see ability as developable",
+      "source_text": "not about the source",
+      "reason": "Nothing in the family-stories example concerns beliefs about ability, so the key is unsupported, and it is the only positive option among deficit orientation, stereotype threat and fixed mindset."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Evaluating motivational interventions that mitigate stereotype threat and cultivate mastery goal orientations / block 2",
+      "lesson_text": "Ranking students publicly based on test scores",
+      "source_text": "not about the source",
+      "reason": "The distractors (public ranking, grading by peer comparison, praising only top achievers) are obviously harmful, so the one positive option is the answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Analyzing how technological affordances and evidence-centered design coordinate to build accessible learning progressions / block 3",
+      "lesson_text": "Ensures only neurotypical learners are supported",
+      "source_text": "not about the source",
+      "reason": "Distractors like this, \"Skip directly to system deployment\" and \"Eliminating feedback\" are not credible choices for a design team."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 3",
+      "lesson_text": "Limiting interactive elements to management-level employees.",
+      "source_text": "not about the source",
+      "reason": "The distractors (management-only features, printed manuals only, identical modules) obviously go against accessibility, so the answer is given away."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 1",
+      "summary": "Priya, a financial services consultant staffed on a healthcare project, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "summary": "Priya's ecosystem across the six places (course, platform, healthcare Slack group, project lead)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace Learning Ecologies and Situated Cognition / block 3",
+      "summary": "Priya's outside learning: reviewing public health policy briefs and clinical podcasts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing structural variations and situated learning mechanisms across contrasting professional workplace ecosystems / block 1",
+      "summary": "New software engineer paired with a senior developer, joining real meetings and code reviews",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing structural variations and situated learning mechanisms across contrasting professional workplace ecosystems / block 3",
+      "summary": "Hospital nurses learning a new electronic health record system through mixed touchpoints",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping professional development across the six workplace touchpoints using legitimate peripheral participation principles / block 2",
+      "summary": "New employee mentored in a project team",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping professional development across the six workplace touchpoints using legitimate peripheral participation principles / block 2",
+      "summary": "Professionals sharing tacit know-how in online forums",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Mapping professional development across the six workplace touchpoints using legitimate peripheral participation principles / block 2",
+      "summary": "Employee doing self-directed skill development during routine work",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Visible AI: drafting an email with a generative assistant, asking a chatbot to debug a spreadsheet formula",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Learning management system flags a student as disengaged from mouse-click latency",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Music or video platform choosing what plays next without showing what was left out",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Applicant tracking algorithm reading resumes before a recruiter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 1",
+      "summary": "Digital textbook adjusting readability behind the scenes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "summary": "Table examples per AI type: tutor working through a math proof, illustrated slide decks, lecture captions, screen readers, smart glasses, essay scoring, laptop keyword flags",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 2",
+      "summary": "Sorting: dropout risk-scoring models and automatic assignment to remedial tracks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: The Spectrum of Visible and Invisible Artificial Intelligence in Education / block 4",
+      "summary": "Screen reader enabling participation versus a chatbot confidently misguiding a novice",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Forecasting the impact of invisible monitoring and sorting algorithms on learner autonomy and equity / block 2",
+      "summary": "District AI silently sorting students into advanced, standard or remedial tracks from monitored click data",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Diagnosing flaws in instructional scheduling and study techniques using principles of retrieval, spacing, and interleaving / block 3",
+      "summary": "Graduate student's flawed plan using retrieval, spacing and summarization",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Deconstructing generative learning routines to evaluate how elaborative questioning and self-explanation restructure mental models / block 2",
+      "summary": "Instructional designer applies a suite of strategies to an adult cohort and sees better transfer",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Inducing principles of asset-based pedagogy and third spaces from culturally responsive learning interactions / block 1",
+      "summary": "Middle school teacher builds science investigations on students' family stories",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Inducing principles of asset-based pedagogy and third spaces from culturally responsive learning interactions / block 3",
+      "summary": "University engineering third-space makerspace co-designed with rural and Indigenous communities",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 2",
+      "summary": "Universal Design applications: simulation sandboxes with undo, dashboards with progress indicators, portals with varied media",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Designing Inclusive Learning Systems and Universal Design for Learning / block 5",
+      "summary": "Same software showing positive results in some schools and negative in others",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Analyzing how technological affordances and evidence-centered design coordinate to build accessible learning progressions / block 2",
+      "summary": "University redesigns its online platform for neurodiverse adult learners",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 2",
+      "summary": "Adaptive online math platform with multiple representations and tailored feedback",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 2",
+      "summary": "Corporate upskilling program with flexible pathways and accessible materials",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Translating Universal Design for Learning guidelines into multi-tiered instructional and technological architectures / block 2",
+      "summary": "Blended course for adults changing careers",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

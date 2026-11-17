@@ -1,0 +1,574 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 1,
+    "misattributed_quote": 0,
+    "factual_error": 5,
+    "wrong_viewpoint": 3,
+    "off_source_content": 7,
+    "ignores_custom_instructions": 17,
+    "x1": 2,
+    "x2": 3,
+    "x3": 1,
+    "x4": 2,
+    "x5": 0,
+    "x6": 2,
+    "x7": 1,
+    "x8": 1,
+    "x9": 1,
+    "x10": 0,
+    "x11": 1,
+    "x12": 1,
+    "x14": 4,
+    "x15": 0
+  },
+  "examples_total": 25,
+  "examples_from_source": 13,
+  "made_up_examples": 12,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 125,
+  "score": 75,
+  "instructions_score": 15,
+  "teaching_score": 86,
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 5",
+      "lesson_text": "None of the nine is good or bad on its own... What changes the outcome is whether someone chose it on purpose, and whether the person on the other end knew.",
+      "source_text": "None of the nine below is good or bad on its own.",
+      "reason": "The quote attributed to the Compass Collaborative drops the word \"below\" from the source sentence."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 1",
+      "lesson_text": "newly assigned to lead a healthcare transformation project with no prior domain background",
+      "source_text": "Priya: seven years in financial services consulting, just staffed on a healthcare transformation project.",
+      "reason": "The source says Priya is staffed on the project (and Case C gives her a separate project lead), not that she leads it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 5",
+      "lesson_text": "Workplace training research indicates that environmental support and transfer climate exert the strongest influence on whether skills transfer to live contexts (Blume et al., 2010; Rouiller & Goldstein, 1993).",
+      "source_text": "They found that environmental support has the largest effect on transfer; organizational constraints also had a modest effect.",
+      "reason": "The source names environmental support alone as having the largest effect; it does not rank transfer climate as strongest."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "lesson_text": "Spacing intervals must match retention schedules; excessively long lags cause catastrophic forgetting, whereas massed cramming creates short-term fluency followed by steep decay.",
+      "source_text": "Cepeda and colleagues (2006) found that spaced practice led to greater recall than massed practice regardless of the size of the lag between practice and recall.",
+      "reason": "The source says spacing beat massing whatever the lag and only that wider spacing is \"not necessarily always better\", which contradicts the claim that long lags cause catastrophic forgetting."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 2",
+      "lesson_text": "Typing often defaults to non-generative transcription; students require explicit guidance to distill rather than copy.",
+      "source_text": "Even when study participants using laptops were instructed to think about the information and type the notes in their own words, they were no better at synthesizing material than students who were not given the warning.",
+      "reason": "The source found that telling laptop typists to use their own words did not help, so the lesson's fix (explicit guidance) contradicts it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Achievement Goal Orientations, Self-Regulation, and Identity Threat / block 1",
+      "lesson_text": "While performance-approach goals can occasionally sustain short-term engagement and immediate rote recall, they often leave learners vulnerable to anxiety, task avoidance, and self-handicapping when difficulty spikes.",
+      "source_text": "These kinds of performance-avoidance goals have been associated with maladaptive learning behaviors including task avoidance (Middleton and Midgley, 1997; sixth-grade students), reduced effort (Elliot, 1999), and self-handicapping",
+      "reason": "After setting up approach and avoidance goals as separate, the lesson pins on approach goals the task avoidance and self-handicapping that the source links to avoidance goals."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 3",
+      "lesson_text": "Relational, Community, Work-Based",
+      "source_text": "In Case C Case Aʼs course ... In Case C Case Bʼs platform ... The connections matter as much as any one source.",
+      "reason": "The slides show Case C as a whole ecosystem that includes Case A's course and Case B's platform, but the lesson casts Case C as a separate alternative that rivals the course and the platform."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 4",
+      "lesson_text": "Although deployed for security or proctoring, persistent monitoring changes classroom psychological safety and erodes learner trust.",
+      "source_text": "None of the nine below is good or bad on its own. ... It can give peace of mind on one side of the screen. On the other side, it’s a record.",
+      "reason": "The source presents watching AI as two-sided and not good or bad on its own, but the lesson states as fact that it harms safety and trust."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "lesson_text": "Interleaving problem types dramatically enhances mathematical problem solving and category induction (Carvalho & Goldstone, 2014a; Rohrer et al., 2015).",
+      "source_text": "Several studies have shown benefits for blocking, at least for category learning ... interleaved study improves learning of highly similar categories (by facilitating between-category comparisons), whereas blocked study improves learning of low-similarity categories",
+      "reason": "The source presents mixed evidence where the best choice depends on the task, but the lesson presents interleaving as plainly better and leaves out the benefits of blocking."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 3",
+      "lesson_text": "High risk of rapid decay; requires conscious, unassisted far transfer to project work.",
+      "source_text": "not in source",
+      "reason": "The slides use Priya's cases to ask what varies across them; no source rates each case's transfer potential, decay risk or organizational weak points, as this table does."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 2",
+      "lesson_text": "Rigid rubrics penalize non-standard creativity; reinforces historical bias",
+      "source_text": "Fast can be useful. But scoring wants neat categories, and one rubric for everybody leaves little room for the things that make a person interesting.",
+      "reason": "The Compass page does not say judging AI reinforces historical bias; the lesson adds this claim."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 2",
+      "lesson_text": "Chills intellectual exploration; generates permanent disciplinary records",
+      "source_text": "It can give peace of mind on one side of the screen. On the other side, it’s a record. ... Try this: Ask your school what its monitoring software flags, who sees the list, and how long it’s kept.",
+      "reason": "The source says watching creates a record and asks how long it is kept; \"chills intellectual exploration\" and \"permanent disciplinary records\" are not in it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 2",
+      "lesson_text": "Kinesthetic learning; natural, voice-driven interaction",
+      "source_text": "When AI has a voice or a body, it feels less like software and more like a friend. That makes it intuitive, and easy to get attached to.",
+      "reason": "The source never presents embodied AI as an opportunity for kinesthetic learning."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 1",
+      "lesson_text": "Rereading and highlighting create an illusion of fluency because the perceptual representation is currently active in working memory; however, this passive familiarity fails to engage the neural mechanisms that secure long-term access.",
+      "source_text": "one possible reason why massed re-readings do not promote learning is that when people reread immediately, they do not attend to the most informative and meaningful portions of the material during the second reading",
+      "reason": "The source gives a different reason why rereading fails and never mentions an \"illusion of fluency\" or working-memory activation."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 3",
+      "lesson_text": "The Expertise Reversal & Simplicity Bias",
+      "source_text": "They found that prior knowledge moderated the effectiveness of self-explanation",
+      "reason": "The term \"expertise reversal\" is not in any source, yet the lesson brings it in here and Exercise 4.2 relies on it as the key justification."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Achievement Goal Orientations, Self-Regulation, and Identity Threat / block 4",
+      "lesson_text": "Their efficacy is heavily moderated by institutional context, teacher implementation fidelity, and the objective structural barriers present in the learning ecology. Brief psychological interventions cannot compensate for chronically under-resourced learning environments.",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The source leaves open which conditions matter; the specific moderators and the claim about under-resourced settings are added by the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens with situated cognition theory and has no opening prompt."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The Tessa and Dock step linking last week's map to the learner's context and the capstone is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 1",
+      "lesson_text": "### The Continuum from Agency to Encounter",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The instructions put Visible and Invisible AI before Priya's three ecosystems, but the lesson teaches Priya's cases first (Concept 1)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "Comprehensive workforce and educational ecosystems draw upon six distinct learning touchpoints across formal and informal boundaries.",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six places are covered, but the part on what real learning ecologies look like (the two apprentices' maps) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "Structured, mandated onboarding programs, compliance certifications, and bootcamps intended to set institutional baselines (e.g., Priya's 3-day healthcare workshop in Case A).",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six touchpoints are given only workforce examples, with no adaptation for home and school as asked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The section on opportunities for practice, participation and relationships is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is not included."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "No activity has students map the AI in one learner's life or mark where it connects people versus stands in for them."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "There is no key-ideas section stating that every learner draws on a whole ecosystem and AI is one node in it."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas with emerging questions by age band are not included."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "Neither the capstone brief and scoping guide nor a worked scoping example appears."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "There is no activity for scoping the capstone with the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no end-of-lesson knowledge check across this week's ideas with Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 5",
+      "lesson_text": "### The Institutional Audit: Adopt, Adapt, or Reject",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Adopt, adapt or reject appears only as a protocol in the middle of the lesson; students never make a closing judgment on a short case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson",
+      "lesson_text": "not in lesson",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The capstone scope submission step is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 1",
+      "lesson_text": "### The Reconstructive Architecture of Memory",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Three of five concepts (retention, generative strategies, goal orientation and stereotype threat) and two of four objectives come from How People Learn II, so the lesson is built mainly on it rather than the slides."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 3",
+      "lesson_text": "Strong near transfer on discrete factual queries; limited holistic problem solving.",
+      "source_text": "not about the source",
+      "reason": "The table relies on \"near transfer\", \"far transfer\" and \"epistemic agency\", but the lesson never defines them."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 4",
+      "lesson_text": "Cognitive Apprenticeship",
+      "source_text": "not about the source",
+      "reason": "The mind map names cognitive apprenticeship, transfer climate and supervisor support cues before the lesson introduces them, and cognitive apprenticeship is never explained at all."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 4",
+      "lesson_text": "While learners get tailored recommendations, they never see what was excluded, subtly narrowing divergent inquiry and exploratory autonomy.",
+      "source_text": "not about the source",
+      "reason": "These cards repeat the risks of choosing, judging, sorting and watching already given in the table (block 2) and the callout (block 3)."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 4",
+      "lesson_text": "When given autonomous control over study workflows, the majority of learners select blocked, massed restudy because it feels effortless and provides immediate perceptual fluency (Carvalho et al., 2014; Dunlosky & Rawson, 2005).",
+      "source_text": "not about the source",
+      "reason": "This repeats the table's point (block 2) that students prefer blocked practice because it feels fluent."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 3",
+      "lesson_text": "Research by Ionas et al. (2012) and Williams & Lombrozo (2013) reveals that when learners lack foundational schemas, open-ended self-explanation can disrupt learning because novices search fruitlessly for concepts they do not yet possess.",
+      "source_text": "not about the source",
+      "reason": "This repeats the self-explanation pitfall already given in the table (block 2, Ionas et al., 2012)."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 5",
+      "lesson_text": "Technology should serve as connective tissue linking learners to peers and experienced practitioners, rather than a siloed substitute for human developmental relationships.",
+      "source_text": "not about the source",
+      "reason": "The callout moves from transfer-climate research straight to a conclusion about technology without explaining how one leads to the other."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 1",
+      "lesson_text": "Biological memory is fundamentally **reconstructive**: every act of retrieval rebuilds representations based on residual traces, contextual cues, and existing schema (Tulving & Thomson, 1973).",
+      "source_text": "not about the source",
+      "reason": "Reconstructive memory and consolidation are explained only in abstract terms, with no concrete case to show what reconstruction looks like."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Achievement Goal Orientations, Self-Regulation, and Identity Threat / block 3",
+      "lesson_text": "When evaluative situations trigger negative group-based stereotypes, learners experience **stereotype threat**—a physiological and psychological disruption resulting from fear of confirming negative stereotypes about their group (Steele & Aronson, 1995).",
+      "source_text": "not about the source",
+      "reason": "Stereotype threat is explained through definitions and brain mechanisms only, with no concrete case (such as the classic test experiment) to make it real."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 4",
+      "lesson_text": "Evaluative Sorting & Deficit Framing",
+      "source_text": "not about the source",
+      "reason": "The card's image is a web-analytics dashboard showing revenue and users by country, which has nothing to do with scoring or sorting learners."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Pedagogical Functions and Ethical Trade-offs of Visible versus Invisible AI / block 4",
+      "lesson_text": "Surveillance vs. Safety",
+      "source_text": "not about the source",
+      "reason": "The image shows a hooded figure at screens of code (a hacker cliché), which points to cybercrime rather than school or workplace monitoring software."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Achievement Goal Orientations, Self-Regulation, and Identity Threat / block 5",
+      "lesson_text": "Programs like Tools of the Mind embed executive function coaching into daily problem-solving activities, scaffolding planning, self-monitoring, and cognitive set-shifting directly within content instruction.",
+      "source_text": "not about the source",
+      "reason": "An early-childhood executive-function program appears in a concept about goal orientations and stereotype threat, with no stated link to those ideas."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "lesson_text": "Separating practice sessions by at least 24 hours yields robust gains across ages 4 to 76 (Cepeda et al., 2006; Balota et al., 1989).",
+      "source_text": "not about the source",
+      "reason": "The table crowds in research details (age ranges, named hypotheses, stacks of citations) that get as much space as the core idea of why effortful practice works, and Exercise 3.2 then tests those details."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "lesson_text": "The Six Touchpoints of an Adult Learning Ecology",
+      "source_text": "not about the source",
+      "reason": "Objective 1 centers on the six touchpoints, but no exercise asks students to place learning sources in them or analyze how they interact."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Analyzing empirical memory effects, testing benefits, and desirable difficulties across instructional curriculum designs / block 2",
+      "lesson_text": "According to empirical benchmarks, how long should practice sessions be separated to yield robust retention gains across ages?",
+      "source_text": "not about the source",
+      "reason": "It asks students to recall a number from the table, while the objective asks them to compare how the strategies work and when to use them."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.2: Analyzing empirical memory effects, testing benefits, and desirable difficulties across instructional curriculum designs / block 2",
+      "lesson_text": "Name the cognitive illusion that leads learners to drop items after a single successful recall during self-testing.",
+      "source_text": "they are likely to retrieve something once and then, believing they have learned it for the long term, drop the item from further practice.",
+      "reason": "The expected answer \"Illusion of fluency\" is not what the lesson taught: it linked dropping items to using self-tests as a diagnostic check and linked the fluency illusion to rereading."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Deconstructing the structural affordances and relational touchpoints of professional learning ecologies that drive workplace skill transfer / block 3",
+      "lesson_text": "List the number of participants in each group.",
+      "source_text": "not about the source",
+      "reason": "Across these questions the wrong options (counting participants, logins or modules completed) are plainly beside the point, so the answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Applying the taxonomy of visible versus invisible artificial intelligence to diverse educational technologies and organizational decision models / block 3",
+      "lesson_text": "It enables kinesthetic learning through natural interaction.",
+      "source_text": "not about the source",
+      "reason": "Each wrong option describes a different AI type (embodied, monitoring, scheduling) that plainly does not fit the scenario, so students can pick the answer by elimination."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Synthesizing generative learning activities through elaborative interrogation, self-explanation, and multi-representational drawing / block 3",
+      "lesson_text": "It prompts teachers to generate causal explanations in response to structured questions",
+      "source_text": "not about the source",
+      "reason": "The correct options repeat the example cards almost word for word, while the wrong options are all obviously passive (memorize, passively read, skip steps)."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Tracing how abductive reasoning and mental model revision operate during guided discovery and reciprocal peer explanations / block 3",
+      "lesson_text": "Comparing the cost of different AI platforms",
+      "source_text": "not about the source",
+      "reason": "Wrong options such as comparing costs, surveying attitudes or checking the latest technology are plainly unrelated to explaining learning outcomes, so they are not real choices."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 1",
+      "summary": "Priya, a financial services consultant new to healthcare, in three contrasting learning ecosystems (Cases A, B, C)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Transfer / block 2",
+      "summary": "Priya's Case A course as an example of the required formal touchpoint",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Deconstructing the structural affordances and relational touchpoints of professional learning ecologies that drive workplace skill transfer / block 2",
+      "summary": "District L&D leader pilots a 2-day workshop, an AI microlearning app and a connected ecosystem for mid-career staff; only the ecosystem transfers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Inducing core principles of situated learning and legitimate peripheral participation from contrasting professional development pathways / block 1",
+      "summary": "District sends teachers to a three-day off-site workshop with no follow-up; practice does not change",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Inducing core principles of situated learning and legitimate peripheral participation from contrasting professional development pathways / block 3",
+      "summary": "Newly hired consulting project manager learns through shadowing, Slack channels and past deliverables alongside an AI platform",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Evaluating ethical vulnerabilities and accountability gaps in automated learner surveillance and algorithmic tracking implementations / block 2",
+      "summary": "District evaluating a system with a student chatbot plus hidden monitoring and sorting into intervention tiers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Applying the taxonomy of visible versus invisible artificial intelligence to diverse educational technologies and organizational decision models / block 2",
+      "summary": "Student uses a chatbot tutor for math homework (Talking AI)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Applying the taxonomy of visible versus invisible artificial intelligence to diverse educational technologies and organizational decision models / block 2",
+      "summary": "AI scores essays before teachers review them (Judging AI)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Applying the taxonomy of visible versus invisible artificial intelligence to diverse educational technologies and organizational decision models / block 2",
+      "summary": "Learning platform curates daily readings and filters out materials without saying what is left out (Choosing AI)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "summary": "Roediger & Karpicke (2006a): repeated testing beats repeated study on a 1-week recall test",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 3",
+      "summary": "Adaptive fact-training system (Pavlik) that schedules optimally spaced trials",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Cognitive Mechanisms of Retention: Retrieval, Spacing, and Interleaving / block 3",
+      "summary": "Kellman et al. (2010) near-contrast modules tripling students' ability to translate between graphs and equations",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Forecasting long-term retention and category discriminability outcomes under varied schedules of spacing, massing, and interleaving / block 2",
+      "summary": "District leader pilots massed, spaced-retrieval and interleaved schedules for a science curriculum",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 1",
+      "summary": "Vosniadou & Brewer: children's flat-disc and hollow-sphere models of the Earth",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 1",
+      "summary": "Kempton: valve versus feedback models of a home thermostat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 2",
+      "summary": "Mueller & Oppenheimer: longhand notes versus laptop typing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 2",
+      "summary": "Leopold & Leutner: drawing beats summaries for a spatial science text on molecules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Generative Comprehension and Inferential Schema Building / block 2",
+      "summary": "Bargh & Schul: expecting to teach improves test performance over studying for a test",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Synthesizing generative learning activities through elaborative interrogation, self-explanation, and multi-representational drawing / block 2",
+      "summary": "Biology teacher has students turn a cellular respiration text into a flowchart and compare it with an expert model",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Synthesizing generative learning activities through elaborative interrogation, self-explanation, and multi-representational drawing / block 2",
+      "summary": "Teacher PD workshop using why and how prompts about formative assessment",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Synthesizing generative learning activities through elaborative interrogation, self-explanation, and multi-representational drawing / block 2",
+      "summary": "District math worked examples with scaffolded self-explanation prompts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Tracing how abductive reasoning and mental model revision operate during guided discovery and reciprocal peer explanations / block 2",
+      "summary": "AI peer-tutoring platform with open-ended self-explanation prompts; novices keep misconceptions",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Achievement Goal Orientations, Self-Regulation, and Identity Threat / block 5",
+      "summary": "Tools of the Mind program embedding executive-function support in daily activities",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Diagnosing evaluative classroom practices that trigger stereotype threat and deplete cognitive resources / block 2",
+      "summary": "District observation protocol with posted rankings, public red-pen errors, a targeted growth mindset workshop and math-only values affirmation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Anticipating self-regulatory behaviors and cognitive engagement across contrasting mastery and performance goal structures / block 2",
+      "summary": "School A (mastery climate) versus School B (leaderboards) using an AI formative assessment tool, then values affirmation",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: States and Classification of Matter / block 2",
+      "lesson_text": "High-energy ionized gas composed of free electrons and ions. Conducts electricity and responds strongly to electromagnetic fields.",
+      "source_text": "not in source (the source only says: \"The presence of these charged particles imparts unique properties to plasmas that justify their classification as a state of matter distinct from gases.\")",
+      "reason": "The source never says that plasmas conduct electricity or respond to electromagnetic fields, so these added properties are off-source."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: States and Classification of Matter / block 2",
+      "lesson_text": "Variable shape and variable volume. Particles are separated by large distances relative to their size and move rapidly in random directions.",
+      "source_text": "Note that clouds are actually comprised of either very small liquid water droplets or solid water crystals; gaseous water in our atmosphere is not visible to the naked eye",
+      "reason": "The Gaseous State card is illustrated with a photo of clouds, which the source says are liquid droplets or ice crystals, so the picture teaches students that a visible cloud is a gas."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: States and Classification of Matter / block 4",
+      "lesson_text": "Substances that cannot be broken down into simpler substances by chemical changes.",
+      "source_text": "not about the source",
+      "reason": "Elements, compounds and mixtures are defined through \"chemical changes\" and \"physical methods\", but physical and chemical changes are only defined later in Concept 2, so students meet the key terms of the definitions before they are taught."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "What is the main physical change observed when the ice cube melts on the counter?",
+      "source_text": "not about the source",
+      "reason": "The example text right above already says \"the ice cube first melted into liquid water, and then the water evaporated into the air\" (and blocks 4 and 6 repeat this pattern, for example \"the helium does not have a fixed shape or volume\"), so students can answer by copying the scenario instead of applying any classification."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 8",
+      "lesson_text": "Clearly identifies the concept of states of matter",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled as classifying substances into elements, compounds and mixtures, but every item asks about phase changes (melting, evaporation, boiling) and the gas state, which Concept 1 does not teach (phase changes come in Concept 2), and no item asks students to classify a substance."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and atomic versus molecular structures / block 3",
+      "lesson_text": "Which classification best describes an **ice cube** based on its physical state and composition?",
+      "source_text": "not about the source",
+      "reason": "The cards in block 2 already give each answer (\"representing a pure substance (compound) in the solid state\", \"Air is a homogeneous mixture of gases\", \"A salad is a heterogeneous mixture\"), so the classification questions only test copying, not the classifying that objective 1 asks for."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and atomic versus molecular structures / block 3",
+      "lesson_text": "How should **air** be classified according to its composition? / Heterogeneous mixture of solids / Solid, compound",
+      "source_text": "not about the source",
+      "reason": "Calling air a mixture of solids or a solid compound is obviously wrong to any student, so only one option is plausible and the question gives the answer away."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "A banana turning brown or meat browning on a grill stems from enzymatic breakdown and protein oxidation that generate new substances.",
+      "source_text": "not about the source",
+      "reason": "The card's photo shows fresh, yellow, peeled bananas with no browning and no meat, so the picture does not show the chemical change the card is about."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "A property that is an inherent attribute of the substance, completely independent of sample size.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to categorize properties as intensive or extensive, but no exercise practices it: Exercise 2.2 is titled \"Differentiating intensive properties from extensive properties in physical samples\" yet only asks physical versus chemical properties and changes."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.2: Differentiating intensive properties from extensive properties in physical samples / block 4",
+      "lesson_text": "Step 2: Notes that rusting iron is wrongly labeled a physical property; correct classification is chemical change because iron reacts with oxygen to form rust.",
+      "source_text": "One of the chemical properties of iron is that it rusts",
+      "reason": "\"Iron rusts when exposed to air\" reads as a chemical property (the source's own wording), so a key that accepts only \"chemical change\" blurs the property-versus-change distinction students commonly confuse and can mark a correct answer wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Analyzing the mathematical relationship connecting mass, volume, and derived density / block 7",
+      "lesson_text": "A liquid has a density of 0.80 kg/m³ and a mass of 2.4 kg. What is its volume in m³?",
+      "source_text": "Although there are exceptions, most liquids and solids have densities that range from about 0.7 g/cm3 (the density of gasoline) to 19 g/cm3 (the density of gold). The density of air is about 1.2 g/L.",
+      "reason": "A liquid of 0.80 kg/m³ (0.0008 g/cm³) would be less dense than air, which contradicts the source's density values (the same block also gives a solid block of only 2.0 kg/m³)."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 2",
+      "lesson_text": "The agreement among repeated independent measurements of the same quantity performed under identical conditions.",
+      "source_text": "(c) These arrows are neither on target nor close to one another, so they are neither accurate nor precise.",
+      "reason": "The Experimental Precision card shows an archery target with arrows spread across different rings, which by the source's own archery figure shows a lack of precision, so the image teaches the opposite of the definition."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.1: Evaluating laboratory measurements to distinguish between accuracy and precision / block 2",
+      "lesson_text": "The reported length is 120.5 mm, with four significant figures.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled as distinguishing accuracy from precision, but it only works out significant figures for one ruler reading, and its feedback uses \"precision\" to mean the ruler's smallest division instead of the lesson's meaning (agreement among repeated measurements)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 3",
+      "lesson_text": "Limit to fewest decimal places (least certain position)",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks students to apply rounding rules to calculations, but they never round a computed result: the addition and subtraction rule and round-to-even are never practiced, and Exercise 4.2's only calculation item just asks how many significant figures a product has."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Identifying significant figures and applying rounding rules to computed quantities / block 2",
+      "lesson_text": "The measurement has five significant figures because the zero is counted as significant.",
+      "source_text": "not about the source",
+      "reason": "The reading 14.32 cm contains no zero, so this option is obviously implausible."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 1",
+      "lesson_text": "When converting between compound units—such as determining density in g/mL from mass in pounds and volume in quarts—factors are strung together sequentially. Each link in the calculation chain cancels a single unit until only the target units remain.",
+      "source_text": "What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.",
+      "reason": "Chaining several conversion factors is the hardest part of dimensional analysis, yet it is described only in general terms with no worked chain, although the source works one through."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "Rates and Mileage / Absolute Kelvin",
+      "source_text": "not about the source",
+      "reason": "The mind map has nodes for fuel-economy rates and the Kelvin scale that the lesson never explains, so students have no context to understand them."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 5.1: Structuring dimensional analysis conversion factor chains for single and multi-unit quantities / block 2",
+      "lesson_text": "A student wants to convert a temperature of 25 °C to Fahrenheit using the factor-label method.",
+      "source_text": "converting a temperature from one of these scales into the other requires more than simple multiplication by a conversion factor",
+      "reason": "Titled as building conversion-factor chains, the exercise instead asks for a single Celsius-to-Fahrenheit formula conversion, which is not a factor-label chain, and Concept 5 gave only the Fahrenheit-to-Celsius form, so students must rearrange it without instruction."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Structuring dimensional analysis conversion factor chains for single and multi-unit quantities / block 3",
+      "lesson_text": "Multiply 25 by 1000 to convert to millidegrees",
+      "source_text": "not about the source",
+      "reason": "Options like this one and \"Multiply 25 by a metric prefix factor\" have nothing to do with temperature conversion, so they are obviously wrong and do not test understanding."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 5.2: Interconverting temperatures across Celsius, Fahrenheit, and Kelvin scales / block 1",
+      "lesson_text": "Work through the questions below to identify and define each variable used in the factor-label equation for unit conversions.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled as converting temperatures across Celsius, Fahrenheit and Kelvin, but it contains no temperature conversion at all, only metric and inch-to-centimeter conversions."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Interconverting temperatures across Celsius, Fahrenheit, and Kelvin scales / block 5",
+      "lesson_text": "Increasing $$U_1$$ makes the conversion factor smaller, so $$Q$$ decreases.",
+      "source_text": "A ratio of two equivalent quantities expressed with different measurement units can be used as a unit conversion factor.",
+      "reason": "A conversion factor is a ratio of equal quantities, so it cannot be doubled or shrunk by changing a unit (as questions 1 and 3 assume), and a larger starting unit actually means a larger quantity, so the converted value would increase, not decrease."
+    },
+    {
+      "check": "x5",
+      "location": "Exercise 5.2: Interconverting temperatures across Celsius, Fahrenheit, and Kelvin scales / block 7",
+      "lesson_text": "Convert 250 centimeters to meters using the factor-label equation. (Hint: $$N = 250$$, $$U_1 = \\text{cm}$$, $$U_2 = \\text{m}$$, $$\\frac{U_2}{U_1} = \\frac{1 \\text{m}}{100 \\text{cm}}$$)",
+      "source_text": "not about the source",
+      "reason": "The equation in block 2 uses only unit symbols, yet the hint sets m/cm equal to 1 m/100 cm, and the lesson never shows how the numbers in a conversion factor enter Q = N × U2/U1."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.2: Interconverting temperatures across Celsius, Fahrenheit, and Kelvin scales / block 7",
+      "lesson_text": "32 in × (2.54 cm / 1 in) = 81.28 cm",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "The key keeps every calculator digit although 32 in has two significant figures (the lesson itself rounds 34 in to 86 cm), which reinforces the common mistake of reporting more digits than the measurement supports."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: States and Classification of Matter / block 1",
+      "summary": "Plasma in lightning, stars and plasma cutting torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: States and Classification of Matter / block 4",
+      "summary": "Elements gold, iron, sulfur; helium atoms; O2 and S8 molecules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: States and Classification of Matter / block 4",
+      "summary": "Compounds water and sucrose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: States and Classification of Matter / block 4",
+      "summary": "Heterogeneous mixtures: Italian salad dressing, chocolate chip cookies, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: States and Classification of Matter / block 4",
+      "summary": "Homogeneous mixtures: air, sports drinks, saltwater",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: States and Classification of Matter / block 5",
+      "summary": "Sugar dissolved in water versus pure liquid water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 1",
+      "summary": "Ice cube melts on a counter, then the water evaporates",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "summary": "Chef boils water for pasta and steam escapes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 5",
+      "summary": "Helium fills a balloon and takes its shape",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and atomic versus molecular structures / block 2",
+      "summary": "Ice cube as solid water, a pure compound",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and atomic versus molecular structures / block 2",
+      "summary": "Air as a homogeneous mixture of gases",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and atomic versus molecular structures / block 2",
+      "summary": "Salad as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: melting wax, sugar in coffee, steam condensing, grinding crystals",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: combustion, nitroglycerin, copper with nitric acid, food spoiling or cooking",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop versus vat of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Melting ice or boiling water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Iron nail rusting in moist air",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Burning match",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Banana turning brown and meat browning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Predicting whether macroscopic transformations represent physical or chemical changes / block 2",
+      "summary": "Water heated past 100 °C in an open container",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Differentiating intensive properties from extensive properties in physical samples / block 2",
+      "summary": "Classify ice melting, iron rusting, gold density 19.3 g/cm³, wood burning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: SI Units, Metric Prefixes, and Derived Quantities / block 1",
+      "summary": "Doctor's dosage of \"100\": 100 mg versus 100 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Analyzing the mathematical relationship connecting mass, volume, and derived density / block 7",
+      "summary": "Density problems: 4.0 kg block of 2.0 m³, liquid of 0.80 kg/m³ and 2.4 kg, 0.50 m³ sample at 10 kg/m³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Applying standard SI base units and decimal metric prefixes to physical quantities / block 2",
+      "summary": "Density of an object of 3.0 kg and 0.50 m³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 1",
+      "summary": "Exact numbers: 12 eggs in a carton, 1 in. defined as 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 1",
+      "summary": "Counting significant figures in 48.3, 70.607, 0.00832 and 55.0",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 1",
+      "summary": "1300 is ambiguous: 1.3 × 10³ versus 1.300 × 10³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 3",
+      "summary": "1.0023 g + 4.383 g, 486 g − 421.23 g, 0.6238 cm × 6.6 cm, 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Experimental Precision / block 4",
+      "summary": "Round to even: 421.25 to 421.2 and 28.6835 to 28.684",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Evaluating laboratory measurements to distinguish between accuracy and precision / block 2",
+      "summary": "Metal rod measured as 120.5 mm with a millimeter ruler",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Identifying significant figures and applying rounding rules to computed quantities / block 2",
+      "summary": "Pencil measured as 14.32 cm with a millimeter ruler",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Identifying significant figures and applying rounding rules to computed quantities / block 2",
+      "summary": "Significant figures when multiplying 3.45 by 2.1",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 1",
+      "summary": "34 in. converted to 86 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Structuring dimensional analysis conversion factor chains for single and multi-unit quantities / block 2",
+      "summary": "25 °C converted to 77 °F",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Interconverting temperatures across Celsius, Fahrenheit, and Kelvin scales / block 7",
+      "summary": "250 cm to m, 4.5 L to mL, 32 in to cm",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

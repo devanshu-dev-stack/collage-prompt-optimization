@@ -1,0 +1,480 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 4,
+    "wrong_viewpoint": 0,
+    "off_source_content": 6,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 0,
+    "x3": 2,
+    "x4": 2,
+    "x5": 0,
+    "x6": 4,
+    "x7": 0,
+    "x8": 0,
+    "x9": 3,
+    "x10": 0,
+    "x11": 3,
+    "x12": 0,
+    "x14": 4,
+    "x15": 1
+  },
+  "examples_total": 35,
+  "examples_from_source": 30,
+  "made_up_examples": 5,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 73,
+  "score": 88,
+  "instructions_score": 100,
+  "teaching_score": 88,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Categorizing chemical phenomena and representations into macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "An ice cube melting shows water changing from solid to liquid (macroscopic), water molecules moving apart as bonds loosen (microscopic)",
+      "source_text": "solid water molecules are close together and organized, and liquid molecules are close together and disorganized",
+      "reason": "The source says water molecules are close together in both ice and liquid water, so describing melting as molecules moving apart while bonds loosen contradicts it (and the lesson's own Concept 1 table) and suggests melting breaks bonds."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Connecting observable macroscopic changes to microscopic atomic and molecular behavior / block 4",
+      "lesson_text": "If the chemist draws a diagram showing water molecules spreading apart as they change from liquid to gas, which domain is being used? ... Diagrams of particles are part of the microscopic domain.",
+      "source_text": "Chemical symbols (such as those used in the periodic table), chemical formulas, and chemical equations are part of the symbolic domain, as are graphs, drawings, and calculations.",
+      "reason": "The source puts drawings in the symbolic domain (as symbols for a microscopic feature), so keying only 'Microscopic domain' and saying diagrams belong to the microscopic domain contradicts it, and also the lesson's own Concept 1 list of diagrams under the symbolic domain."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Applying significant figure conventions to arithmetic operations in laboratory calculations / block 2",
+      "lesson_text": "Calculate the volume (rounded correctly) when multiplying $$4.56\\ \\text{cm}$$ by $$1.4\\ \\text{cm}$$.",
+      "source_text": "The standard volume is a cubic meter (m3), a cube with an edge length of exactly one meter.",
+      "reason": "Multiplying two lengths gives an area in cm² (the keyed answer is 6.4 cm²), not a volume, which the source measures in cubic units."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Explaining unit cancellation and mathematical relationships in temperature and density conversions / block 2",
+      "lesson_text": "The ratio $$\\frac{u_2}{u_1}$$ is the conversion factor that relates the two units.",
+      "source_text": "A ratio of two equivalent quantities expressed with different measurement units can be used as a unit conversion factor.",
+      "reason": "A conversion factor is a ratio of equal quantities such as 1000 m / 1 km, not the desired unit divided by the original unit, so the equation Q = q × u2/u1 misstates the source's definition and the lesson's own Concept 6."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 3",
+      "lesson_text": "Rigid structure maintaining a fixed shape; floats on liquid",
+      "source_text": "not in source",
+      "reason": "The source never says ice floats on liquid water; it is an added fact."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "Temperature is an intensive property reflecting thermal energy per particle, whereas heat is an extensive property representing total thermal energy.",
+      "source_text": "not in source",
+      "reason": "The source describes temperature only as the hotness or coldness of matter and never links temperature or heat to thermal energy per particle or total thermal energy."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 5",
+      "lesson_text": "Mass, volume, heat capacity",
+      "source_text": "not in source",
+      "reason": "Heat capacity is not in the source and the lesson never explains it; the source's extensive examples are mass, volume and heat."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "lesson_text": "Exact numbers have zero uncertainty and an infinite number of significant figures.",
+      "source_text": "not in source",
+      "reason": "The source says counted and defined numbers are exact and free from uncertainty, but it never says they have an infinite number of significant figures."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 1",
+      "lesson_text": "A systematically miscalibrated instrument can produce readings that are exceptionally consistent (highly precise) while remaining substantially wrong (inaccurate).",
+      "source_text": "not in source",
+      "reason": "The source never discusses calibration or systematic error as the cause of precise but inaccurate results."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2",
+      "lesson_text": "Indicates low random error and low systematic bias.",
+      "source_text": "not in source",
+      "reason": "Random error and systematic bias are not in the source, and the cards use them throughout without defining them."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 1",
+      "lesson_text": "encompassing atoms, molecules, ions, and chemical bonds",
+      "source_text": "not about the source",
+      "reason": "Concept 1 and Exercises 1.1 and 1.2 lean on atoms, molecules and chemical bonds, but the lesson only defines them in Concept 2 block 3, and never defines ions."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "For example, 92.85 rounds to 92.8, while 31.57 rounds to 32.",
+      "source_text": "If any nonzero digits follow the dropped 5, round up.",
+      "reason": "31.57 is not a case of the round-to-even rule just stated (its dropped 5 is followed by a 7), and the lesson never gives the ordinary rounding rule that makes it round up, so students cannot see why it becomes 32."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Water displacement volume: $$V = 22.4\\text{ mL} - 13.5\\text{ mL} = 8.9\\text{ mL}$$ ... $$d = \\frac{69.658\\text{ g}}{8.9\\text{ cm}^3}",
+      "source_text": "A cubic centimeter is equivalent to a milliliter (mL) and is 1/1000 of a liter.",
+      "reason": "The worked density silently turns 8.9 mL into 8.9 cm³, but the lesson never says that 1 mL equals 1 cm³, so students cannot follow the unit change."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 1",
+      "lesson_text": "A **unit conversion factor** is a ratio derived from an equivalence between two different units representing the same physical quantity.",
+      "source_text": "a basketball player’s vertical jump of 34 inches can be converted to centimeters",
+      "reason": "Concept 6 explains conversion factors, unit cancelling and the Fahrenheit equation only in general terms and never works a single conversion with numbers, although the source works several."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "When converting dimensional quantities raised to a power (such as area in cm² or volume in m³), the entire conversion factor must be raised to that identical power.",
+      "source_text": "not about the source",
+      "reason": "Raising a conversion factor to a power, like chaining factors in the card before it, is hard for new students, yet it is stated only as a rule with no worked case."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 3",
+      "lesson_text": "$$\\text{H}_2\text{O}(l)$$",
+      "source_text": "not about the source",
+      "reason": "In the symbolic column the second \\text has lost its backslash (it is stored as a tab), so the formulas for liquid water, ice and vapor render as broken text like 'H2extO(l)' in the very column meant to show symbolic representation."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2 (cards[1] image)",
+      "lesson_text": "All replicate measurements cluster tightly together and center closely on the true target value.",
+      "source_text": "not about the source",
+      "reason": "The card's photo shows arrows spread over the yellow, red and blue rings with one below the target, not a tight group on the bull's-eye, so it shows the opposite of 'accurate and precise'."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2 (cards[2] image)",
+      "lesson_text": "Measurements agree closely with one another but remain consistently offset from the true value.",
+      "source_text": "not about the source",
+      "reason": "The photo is a row of empty archery targets with no arrows or grouped hits, so it cannot show a tight cluster away from the center."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2 (cards[4] image)",
+      "lesson_text": "Readings are widely scattered and their average deviates substantially from the true value.",
+      "source_text": "not about the source",
+      "reason": "The photo shows cryptocurrency-style coins and upward arrows, which has nothing to do with readings scattered around a target."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.1: Classifying samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Which scenario best demonstrates the difference between a pure substance and a mixture?",
+      "source_text": "not about the source",
+      "reason": "Objective 1 and this exercise's title ask students to classify samples as elements or compounds, but no question in the lesson asks them to tell an element from a compound."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures and Classifying Zeros",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to count the significant figures in a number or apply the zero rules, although objective 3 and Exercise 4.1's title name this skill."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 6.2: Executing multi-step unit conversions and derived property calculations using dimensional analysis / block 2",
+      "lesson_text": "A student wants to convert 2.0 liters to milliliters using dimensional analysis. Which conversion factor should they use?",
+      "source_text": "not about the source",
+      "reason": "Objective 4 and this exercise's title call for multi-step conversions between unit systems, but every conversion in the lesson is one step (km to m, g to kg, L to mL, °C to K), with no chained, English-to-metric or Fahrenheit conversion."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing chemical phenomena and representations into macroscopic, microscopic, and symbolic domains / block 3",
+      "lesson_text": "For the \"Melting Ice Cube\" example, what does the macroscopic domain focus on?",
+      "source_text": "not about the source",
+      "reason": "The example cards just above already tag each part '(macroscopic)', '(microscopic)' or '(symbolic)', so every question can be answered by copying a label instead of telling the domains apart."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and their corresponding transformations / block 3",
+      "lesson_text": "Which statement best explains why **Ice Melting** is considered a physical change?",
+      "source_text": "not about the source",
+      "reason": "Each card already states its own answer (for example 'This is a physical change because the chemical identity of H₂O does not change'), so the questions only ask students to copy it back."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 6.1: Explaining unit cancellation and mathematical relationships in temperature and density conversions / block 3",
+      "lesson_text": "What does the symbol $$Q$$ represent in the equation above?",
+      "source_text": "not about the source",
+      "reason": "The four questions only ask what Q, q, u1 and u2 stand for, which the block right above lists word for word, while objective 4 is about carrying out conversions."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Classifying samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "A block of ice compared to a block of wood ... A balloon filled with helium compared to a balloon filled with air",
+      "source_text": "not about the source",
+      "reason": "Ice versus wood and helium versus air each also compare a pure substance with a mixture, so three of the four options are correct but only distilled water versus saltwater is keyed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Assessing laboratory measurement discrepancies by evaluating calibration and repeatability data / block 3",
+      "lesson_text": "Before calculating accuracy, what does finding the average of the measurements accomplish? ... It shows whether the measurements are consistent with each other",
+      "source_text": "not about the source",
+      "reason": "An average gives the central value and says nothing about how close the readings are to each other, so the key is wrong and clashes with question 1, which treats 'Calculate the average of the measurements to check for consistency' as a wrong choice."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Explaining unit cancellation and mathematical relationships in temperature and density conversions / block 3",
+      "lesson_text": "correctAnswers",
+      "source_text": "not about the source",
+      "reason": "One answer choice in question 2 is the leftover field name 'correctAnswers', a broken option no student would pick."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Explaining unit cancellation and mathematical relationships in temperature and density conversions / block 5",
+      "lesson_text": "What happens to $$Q$$ if you switch $$u_1$$ and $$u_2$$ in the conversion factor? ... $$Q$$ becomes the reciprocal of the original result",
+      "source_text": "not about the source",
+      "reason": "Switching the units flips only the factor, giving q × u1/u2, not 1/Q, so the keyed answer is wrong."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 6.1: Explaining unit cancellation and mathematical relationships in temperature and density conversions / block 5",
+      "lesson_text": "If the conversion factor $$\\frac{u_2}{u_1}$$ is less than 1, what can you say about the size of $$Q$$ compared to $$q$$? ... $$Q$$ will be smaller than $$q$$",
+      "source_text": "not about the source",
+      "reason": "Calling Q and q quantities and saying the quantity gets smaller feeds the common mistake that converting units changes the amount, which Concept 6 says never happens, and nothing separates the number from the amount."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 3",
+      "summary": "Water as liquid, ice, vapor and its decomposition shown in all three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Three Domains of Chemistry: Macroscopic, Microscopic, and Symbolic / block 4",
+      "summary": "H2O meaning one molecule or a liter of drinking water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing chemical phenomena and representations into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Rusting of iron described in the three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing chemical phenomena and representations into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Melting ice cube described in the three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing chemical phenomena and representations into macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Combustion of propane described in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Connecting observable macroscopic changes to microscopic atomic and molecular behavior / block 1",
+      "summary": "Student heats water, sees boiling and steam condensing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Connecting observable macroscopic changes to microscopic atomic and molecular behavior / block 3",
+      "summary": "Chemist explains boiling as molecules escaping",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut's mass unchanged on the Moon while weight drops to one-sixth",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases and Classification of Matter / block 3",
+      "summary": "Any sample of sucrose has the same makeup and properties",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts in moist air while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting candle wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Dissolving sugar in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Rusting of an iron nail as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Burning cellulose with oxygen to carbon dioxide and water vapor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus teaspoon of milk for mass and volume",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon and teaspoon at 20 °C combine and stay at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gold bar density stays 19.3 g/cm³ when its size doubles",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Drop of hot oil versus a pot of hot oil for heat and temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and their corresponding transformations / block 2",
+      "summary": "Ice melting as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and their corresponding transformations / block 2",
+      "summary": "Iron rusting as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and their corresponding transformations / block 2",
+      "summary": "Measuring a liquid's density as a physical property",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Eggs in a carton and 1 in. = 2.54 cm as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Reading 21.6 mL on a graduated cylinder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero-rule examples such as 0.008324 m and 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Rounding 92.85 to 92.8 and 31.57 to 32",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Adding 1.0023 g and 4.383 g to get 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Subtracting 421.23 g from 486 g to get 65 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm to get 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Rebar density by water displacement, 7.8 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying and correcting errors in counting significant figures and applying rounding rules / block 2",
+      "summary": "Flawed density of a 24.68 g, 8.3 mL metal sample",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2",
+      "summary": "Archery target patterns for accuracy and precision",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 3",
+      "summary": "Three cough syrup dispensers aiming for 296 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement datasets to distinguish between accuracy and precision / block 1",
+      "summary": "Metal rod measured at 12.1-12.2 cm against 13.0 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement datasets to distinguish between accuracy and precision / block 3",
+      "summary": "Sample mass measured near 8.0 g against 8.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Assessing laboratory measurement discrepancies by evaluating calibration and repeatability data / block 2",
+      "summary": "Metal sample weighed at 52.1-52.2 g against 52.5 g",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

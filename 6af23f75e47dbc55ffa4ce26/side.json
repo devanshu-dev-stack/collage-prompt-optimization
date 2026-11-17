@@ -1,0 +1,668 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 1,
+    "misattributed_quote": 0,
+    "factual_error": 1,
+    "wrong_viewpoint": 6,
+    "off_source_content": 1,
+    "ignores_custom_instructions": 13,
+    "x1": 2,
+    "x2": 2,
+    "x3": 1,
+    "x4": 1,
+    "x5": 0,
+    "x6": 5,
+    "x7": 1,
+    "x8": 0,
+    "x9": 1,
+    "x10": 0,
+    "x11": 3,
+    "x12": 1,
+    "x14": 5,
+    "x15": 0
+  },
+  "examples_total": 50,
+  "examples_from_source": 38,
+  "made_up_examples": 12,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 82,
+  "score": 86,
+  "instructions_score": 35,
+  "teaching_score": 87,
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 1",
+      "lesson_text": "Mueller & Dweck (1998) demonstrated that praising learners for intelligence (`\"well done, you are so smart\"`) fosters a fixed mindset",
+      "source_text": "Some students were praised for their ability (“well done for being so smart”)",
+      "reason": "The quoted praise changes the source's words \"for being so smart\" to \"you are so smart\"."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 3",
+      "lesson_text": "Providing task autonomy reduces cognitive dissonance and buffers against discouragement from negative feedback (Patall et al., 2010; Murayama et al., 2015).",
+      "source_text": "One possible reason why exercising choice seems to increase motivation is that the act of making a choice induces cognitive dissonance",
+      "reason": "The source says making a choice creates cognitive dissonance (which then makes people value what they chose), the opposite of the lesson's claim that autonomy reduces it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 3",
+      "lesson_text": "Facilitates semantic matchmaking and synthesizes group inquiry threads.",
+      "source_text": "not in source",
+      "reason": "The whole \"Role of AI Integration\" column gives each touchpoint a specific AI function that no source describes, and the custom instructions do not ask for it here."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 4",
+      "lesson_text": "Digital tools and AI cannot substitute for relational learning.",
+      "source_text": "Learning moves through people. Can AI help it move? ... It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it.",
+      "reason": "The slides pose AI's role as an open question and a design choice (\"shouldn't\"), while the lesson states as settled fact that AI cannot substitute."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Exercise 1.2: Deconstructing multi-touchpoint learning ecologies and legitimate peripheral participation / block 2",
+      "lesson_text": "The leader selects the situated learning ecosystem, enabling Priya to move from peripheral participation to full engagement through authentic tasks, developmental relationships, and community interaction.",
+      "source_text": "In Case C Case Aʼs course ... In Case C Case Bʼs platform ... The connections matter as much as any one source.",
+      "reason": "The source places Case A's course and Case B's platform inside Case C's ecosystem, but the exercise treats them as rival options that the leader rejects in favor of the ecosystem."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 3",
+      "lesson_text": "Conversely, retrieval practice, spacing, and interleaving introduce **desirable difficulties**—they feel slower, more difficult, and error-prone, yet they produce far greater long-term retention and conceptual transfer.",
+      "source_text": "However, most of this research has addressed retrieval of relatively simple information (e.g., vocabulary), rather than deep understanding.",
+      "reason": "The source files these under strategies for knowledge retention, warns that the retrieval evidence is mostly about simple facts, and notes some benefits of blocking, so \"far greater ... conceptual transfer\" goes past its conclusion."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 4",
+      "lesson_text": "when students encounter public behavioral tracking charts (e.g., green/yellow/red boards) or overly rigid monitoring interfaces, they frequently deduce that the institution's primary goal is behavioral subjugation rather than cognitive development.",
+      "source_text": "This example is a reminder that sometimes the materials and strategies that teachers intend to support learning can have the opposite effect for some students.",
+      "reason": "The source builds this on one student's letter and says it happens sometimes, for some students, but the lesson turns it into a frequent, general effect."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 2",
+      "lesson_text": "Predictive analytics, automated scoring, monitoring platforms, and algorithmic grouping. They categorize learners before educators meet them, institutionalizing labels through hidden criteria.",
+      "source_text": "None of the nine below is good or bad on its own. ... Invisible doesn’t mean sinister.",
+      "reason": "The Compass page says these background uses are neither good nor bad in themselves (scoring \"can be useful\", watching gives \"peace of mind\"), but the lesson lists only their harms."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 7",
+      "lesson_text": "*Cognitive Risk*: Parallels findings from institutional deprivation research (Nelson et al., 2014) demonstrating that language and emotional neural circuits require responsive human interaction, which synthetic dialogue cannot replicate.",
+      "source_text": "Does companion AI prompt more back-and-forth between children and caregivers, or substitute for it?",
+      "reason": "The slides present these as open emerging questions, but the lesson answers each one as a settled risk (also \"Fully automated solutions eliminate the experiential base required for expert intuition\"), leaning on studies that are not about AI."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 1",
+      "lesson_text": "List every artificial intelligence tool encountered since morning—both the tools actively selected and those operating invisibly in the background.",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The opening prompt, with the Visible and Invisible AI section after it, sits in the last concept instead of opening the lesson, which starts with Priya's cases."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 1",
+      "lesson_text": "Most learners navigate through automated algorithms continuously without naming them.",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "There is no Tessa and Dock part linking last week's map to the learner's own context and the capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 3",
+      "lesson_text": "The Six Touchpoints of a Workplace Learning Ecology",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six places are covered, but nothing shows what real learning ecologies look like (the slide's two apprentices' maps of sources and connections)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 4",
+      "lesson_text": "**Workplace Manifestation (Case C)**",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "Both touchpoint tables keep only workplace examples; none are adapted for home or school."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 5",
+      "lesson_text": "Situated Foundations -> Legitimate Participation",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "No part teaches opportunities for deliberate, effortful practice, legitimate participation and relationships; only bare mind-map labels hint at it."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 8",
+      "lesson_text": "Diagnostic Routine (Project Zero Digital Habits Checkup): Before mapping or adopting an algorithmic tool, conduct an audit of one learner's daily workflow.",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The routine comes after the mapping table, the key-ideas callout and the age-band focus areas, as a short callout, instead of before the mapping."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.1: Digital Habits Checkup: Classifying visible and invisible AI tools across learning ecologies / block 1",
+      "lesson_text": "A district learning and development leader reviews a day in the life of a high school student.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "Learners never map the AI in a learner's life across home, school and work or mark where it connects or stands in for people; a ready-made workplace table and a classify-the-examples exercise replace the activity."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 9",
+      "lesson_text": "For your leadership capstone, you will evaluate an AI product, policy, or algorithmic process within your district or organization and formulate an actionable executive recommendation: **Adopt**, **Adapt**, or **Reject**.",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "No activity has learners scope their own capstone with the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 1",
+      "lesson_text": "Answer the questions below covering pedagogical affordances, developmental constraints, and ethical trade-offs of visible and invisible AI in educational learning ecologies.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no knowledge check across the week's ideas and no Week 1 items; the closing questions cover only visible and invisible AI."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "lesson_text": "Evaluate the ethical trade-offs of adopting an invisible AI system for automated learner grouping in a district’s LMS.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson ends without a step where learners submit their scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 1",
+      "lesson_text": "### Reconstructive Memory and the Architecture of Retention",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2 to 5, four of six, are built on How People Learn II (retention, generative learning, motivation, stereotype threat), so the lesson rests mainly on a source the instructions name as extra."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives (objective[2] and objective[3])",
+      "lesson_text": "Analyze how classroom goal structures, learner self-efficacy, and stereotype threat interact to shape academic persistence and self-regulated learning across diverse student populations.",
+      "source_text": "Appraise claims and evidence about AI and learning, including when the evidence does not yet exist ... This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives swap in How People Learn II topics, and nothing asks learners to appraise evidence about AI and learning or to design an AI-enabled learning experience."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 3.1: Applying abductive reasoning and guided discovery to conceptual model building / block 2",
+      "lesson_text": "An employee in a workplace training session organizes their knowledge to teach a new process to a colleague, which leads them to clarify and deepen their own conceptual understanding.",
+      "source_text": "This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Exercises 1.1, 3.1, 3.2 and 5.2 use student, employee or Priya cases with no education-leader angle."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 5",
+      "lesson_text": "Decision Framework -> Adopt Criteria",
+      "source_text": "not about the source",
+      "reason": "The mind map names adopt, adapt and reject criteria and developmental demands such as \"Early Social Synchrony\" before blocks 7 and 9 introduce them."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 9",
+      "lesson_text": "*Visibility*: Level 7/8 (Judging and Sorting).",
+      "source_text": "We’ve ordered these roughly from most visible to least.",
+      "reason": "The lesson never numbers the nine kinds as levels (its cards number four groups 1 to 4), so \"Level 7/8\" is undefined, and in the source's order Sorting is ninth, not eighth."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 3",
+      "lesson_text": "Consider the case of **Priya**: an experienced consultant with seven years in financial services, newly staffed on an intricate healthcare transformation project where she possesses no background domain knowledge.",
+      "source_text": "not about the source",
+      "reason": "Priya's three cases and the surface versus structural differences are taught again after Concept 1 block 1 already covered them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 4",
+      "lesson_text": "Mapping AI Across the Six Workplace Learning Touchpoints",
+      "source_text": "not about the source",
+      "reason": "The six touchpoints with Priya's Case C sources and an AI column repeat the table in Concept 1 block 3."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 1",
+      "lesson_text": "Because recall depends on current environmental cues, internal cognitive states, and active schema assembly, retrieval is itself an active learning event.",
+      "source_text": "not about the source",
+      "reason": "It jumps from \"recall depends on cues\" to \"retrieval builds learning\" without saying why rebuilding a memory makes it stronger."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 3",
+      "lesson_text": "Directing cognitive resources, switching strategies, and sustaining attention without constant external prompts (Barker et al., 2014; Bodrova & Leong, 2007).",
+      "source_text": "not about the source",
+      "reason": "The four self-regulation mechanisms are given only as abstract definitions with citations and no concrete case an education leader could picture."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 2",
+      "lesson_text": "Legitimate Peripheral Participation",
+      "source_text": "not about the source",
+      "reason": "The card's image is an architectural blueprint with pens, which shows nothing about newcomers moving from the edge toward the centre of a community."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 4",
+      "lesson_text": "Discriminative Interleaving",
+      "source_text": "not about the source",
+      "reason": "The image of hands fitting puzzle pieces together suggests teamwork or things fitting together, not mixing and contrasting similar categories."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 3",
+      "lesson_text": "Mechanisms of Self-Regulated Learning (SRL)",
+      "source_text": "not about the source",
+      "reason": "A blank notebook, a monthly planner and a coffee to-do list do not show metacognitive monitoring, meaningful choice or feedback loops."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Asset-Based Instructional Design / block 5",
+      "lesson_text": "Third Space Environments",
+      "source_text": "not about the source",
+      "reason": "The third-space card reuses the architectural blueprint photo, which has nothing to do with dialogue that links home and school knowledge."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 5",
+      "lesson_text": "System Affordances -> Linked Representations",
+      "source_text": "not about the source",
+      "reason": "The mind map has nodes the lesson never explains (\"Linked Representations\", \"Intelligent Adaptivity\") and an unexplained cross-link from \"Intelligent Adaptivity\" to \"K-12 Effortful Practice\", so students cannot read it."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 9",
+      "lesson_text": "### Capstone Scoping Guide & Institutional Decision Framework",
+      "source_text": "not about the source",
+      "reason": "One concept page about AI trade-offs also holds the opening reflection, the nine AI types, Priya's cases, the touchpoint map, a mind map, the age bands, the Digital Habits routine and the capstone guide, with no clear thread between them."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 7",
+      "lesson_text": "### Developmental Constraints & Emerging Questions Across Age Bands",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks about developmental stages, but no exercise has learners weigh AI for early childhood or adult learners; Exercise 6.2 covers only one high school student."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Applying cognitive principles of retrieval practice and spaced distribution schedules / block 2",
+      "lesson_text": "According to Sobel et al. (2011), what spacing interval optimized 5th-grade vocabulary retention?",
+      "source_text": "not about the source",
+      "reason": "This asks only for a remembered study detail, while objective 3 asks learners to compare how the strategies work."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.2: Evaluating motivational feedback mechanisms, mindset attributions, and self-efficacy / block 2",
+      "lesson_text": "What term describes a learner’s conviction about their capability to perform specific academic tasks?",
+      "source_text": "not about the source",
+      "reason": "This can be answered by copying the definition from Concept 4, while the objective asks learners to analyze how these factors interact."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "lesson_text": "What is the term for the principle describing the range from AI that users actively invoke to AI whose decisions they simply encounter?",
+      "source_text": "not about the source",
+      "reason": "It asks learners to recall a label the lesson made up (\"Visibility Spectrum Principle\") instead of judging an AI tool."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "lesson_text": "A district leader is reviewing two AI tools: one is a visible chatbot for writing support, the other is an invisible recommendation engine embedded in the LMS. Which pairing of affordance and constraint best distinguishes the visible tool from the invisible one?",
+      "source_text": "not about the source",
+      "reason": "Under an adopt, adapt or reject title, the questions test visibility labels and term recall, and even the final case never asks for a verdict."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing workplace learning ecosystems through contrasting cases of professional transition / block 2",
+      "lesson_text": "It provides too much autonomy for the learner",
+      "source_text": "not about the source",
+      "reason": "For a scheduled, instructor-led bootcamp, choices like \"too much autonomy\" and \"overemphasizes informal, community-based learning\" are plainly wrong, so the answer is easy to spot."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Applying abductive reasoning and guided discovery to conceptual model building / block 3",
+      "lesson_text": "Abductive reasoning to infer underlying mechanisms",
+      "source_text": "a person who knows both that liquids expand with heat and that thermometers contain liquid may integrate these two pieces of information and infer that thermometers work because liquid expands as heat increases",
+      "reason": "Concept 3 and the source present the thermometer case as joining two known facts (generative synthesis), not abduction, yet the key calls it abductive reasoning, and the other choices (\"Rote memorization\", \"Passive listening\") are not believable."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Digital Habits Checkup: Classifying visible and invisible AI tools across learning ecologies / block 2",
+      "lesson_text": "Students always benefit from not knowing how background AI systems function.",
+      "source_text": "not about the source",
+      "reason": "Wrong choices worded with \"always\", \"every\" and \"All\" give the right answer away in both questions."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Digital Habits Checkup: Classifying visible and invisible AI tools across learning ecologies / block 4",
+      "lesson_text": "All invisible AI systems guarantee equitable access to learning opportunities.",
+      "source_text": "not about the source",
+      "reason": "Again the wrong choices use \"always\", \"All\" and \"eliminates the need\", so they are not believable and the answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "lesson_text": "Case B, because the adaptive platform provides visible, user-invoked micro-content and retrieval quizzes within the workflow.",
+      "source_text": "not about the source",
+      "reason": "The key contradicts the lesson: Exercise 1.1 says Case B learning \"occurs outside of direct project work\" and Exercise 6.1 calls the platform invisible AI, so Case B is neither situated nor clearly visible."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 1",
+      "summary": "Priya, a finance consultant new to healthcare, in three cases: course, AI platform, project lead and peers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 3",
+      "summary": "Priya's Case C sources across touchpoints: Case A's course, YouTube explainer, healthcare Slack, project lead, shadowing a workshop",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Workplace Architecture / block 3",
+      "summary": "Self-paced touchpoint shown as queries in clinical knowledge bases instead of Case B's platform",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing workplace learning ecosystems through contrasting cases of professional transition / block 1",
+      "summary": "Priya's three-day bootcamp before the project (Case A)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Analyzing workplace learning ecosystems through contrasting cases of professional transition / block 3",
+      "summary": "Priya's AI adaptive micro-content platform (Case B)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Analyzing workplace learning ecosystems through contrasting cases of professional transition / block 5",
+      "summary": "Priya with project lead, peers, shadowing and past deliverables (Case C)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing multi-touchpoint learning ecologies and legitimate peripheral participation / block 2",
+      "summary": "L&D leader choosing how to onboard Priya among the three cases",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "summary": "Roediger and Karpicke study: repeated retrieval beats rereading at one week",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "summary": "Sobel et al.: 2-week spacing best for 5th-grade vocabulary",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Foundations of Retention: Retrieval, Spacing, and Interleaving / block 2",
+      "summary": "Carvalho and Goldstone: interleaving aids telling similar categories apart, blocking shows within-category likeness",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Applying cognitive principles of retrieval practice and spaced distribution schedules / block 2",
+      "summary": "L&D leader using low-stakes quizzes so staff retain compliance protocols",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Applying cognitive principles of retrieval practice and spaced distribution schedules / block 2",
+      "summary": "District math curriculum alternating problem types",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Diagnosing structural flaws in massed and blocked instructional training designs / block 2",
+      "summary": "One-day blocked teacher workshop on formative assessment with an end-of-day test",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 1",
+      "summary": "Adams and Leverrier inferring Neptune from Uranus's orbit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 1",
+      "summary": "Inferring how a thermometer works from liquid expansion",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 2",
+      "summary": "Bargh and Schul: expecting to teach peers improves learning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 2",
+      "summary": "Leopold and Leutner: drawing beats summaries for spatial content",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 3",
+      "summary": "Children's dual, disc and hollow-sphere Earth models (Vosniadou and Brewer)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 3",
+      "summary": "Valve versus feedback models of a home thermostat (Kempton)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 3",
+      "summary": "Ionas et al.: chemistry self-explanation hurts low-prior-knowledge students",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Generative Learning, Abductive Reasoning, and Conceptual Model Building / block 3",
+      "summary": "Lombrozo: adults blame two symptoms on one disease",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Applying abductive reasoning and guided discovery to conceptual model building / block 2",
+      "summary": "Student explaining how thermometers work",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Applying abductive reasoning and guided discovery to conceptual model building / block 2",
+      "summary": "Learner explaining chemical reaction steps aloud",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Applying abductive reasoning and guided discovery to conceptual model building / block 2",
+      "summary": "Employee preparing to teach a colleague a new process",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Predicting schema integration and misconception persistence from generative explanations / block 2",
+      "summary": "Middle schoolers explaining a thermometer, some saying heat pushes the liquid up",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 1",
+      "summary": "Mueller and Dweck: ability praise versus effort praise",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Motivational Dynamics: Achievement Goal Structures, Self-Efficacy, and Self-Regulation / block 4",
+      "summary": "Green/yellow/red behavior chart read by a student as control",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Reconstructing classroom and organizational goal climates to foster self-regulation / block 2",
+      "summary": "Secondary school moving from \"naturally smart\" praise to effort praise and progress portfolios",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating motivational feedback mechanisms, mindset attributions, and self-efficacy / block 2",
+      "summary": "District leader choosing practices for resilience; two students crediting effort or ability",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Asset-Based Instructional Design / block 1",
+      "summary": "Student-athletes doing averages in basketball versus classroom math (Nasir and McKinney de Royston)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Asset-Based Instructional Design / block 2",
+      "summary": "Walton and Spencer: stereotyped students outperform peers under safe conditions",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Asset-Based Instructional Design / block 3",
+      "summary": "Walton and Cohen belonging intervention with GPA gains; values-affirmation writing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Social Identity, Stereotype Threat, and Asset-Based Instructional Design / block 5",
+      "summary": "Funds of knowledge from family skills; cultural modeling with rap lyrics",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Diagnosing deficit-model assumptions and cognitive triggers of stereotype threat / block 2",
+      "summary": "Math enrichment program using sports statistics that leaves non-athletes behind",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Translating community funds of knowledge and third spaces into asset-based designs / block 2",
+      "summary": "Basketball math versus classroom math",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Translating community funds of knowledge and third spaces into asset-based designs / block 2",
+      "summary": "Values-affirmation writing for middle school and undergraduate students",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Translating community funds of knowledge and third spaces into asset-based designs / block 2",
+      "summary": "Teachers using students' community knowledge in lessons",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 2",
+      "summary": "Compass examples by type: chatbots, captions, screen readers, smart glasses, voice toys, feeds, search summaries",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 3",
+      "summary": "Priya's three cases, again",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 4",
+      "summary": "Case C sources per touchpoint: Case A's course, Case B's platform, YouTube, Slack, project lead, shadowing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 4",
+      "summary": "AI tools that connect people or stand in for them per touchpoint (meeting co-pilots, empathy bots, answer bots)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 7",
+      "summary": "Romanian institution children, abacus masters and radiologists used for age-band risks",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Pedagogical Affordances, Developmental Constraints, and Ethical Trade-offs of Visible and Invisible AI / block 9",
+      "summary": "Worked scoping case: automated essay scoring for 9th-grade English, verdict Adapt",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.1: Digital Habits Checkup: Classifying visible and invisible AI tools across learning ecologies / block 1",
+      "summary": "High schooler's day: voice assistant, LMS notice, AI calculator, security monitoring, video recommendations, writing tool",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Digital Habits Checkup: Classifying visible and invisible AI tools across learning ecologies / block 3",
+      "summary": "Priya's onboarding with course, adaptive platform and project-management AI",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.2: Predicting developmental impacts and cognitive offloading risks in AI-mediated environments / block 2",
+      "summary": "High schooler relying on a writing assistant while scheduling AI cuts study-group time",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "summary": "Visible writing chatbot versus invisible LMS recommendation engine",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "summary": "Which of Priya's cases uses visible AI",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "summary": "Student using a translation app and LMS content recommendations",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.3: Closing judgment: Formulating adopt, adapt, or reject recommendations for learning technologies / block 2",
+      "summary": "Invisible AI grouping learners in a district LMS",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

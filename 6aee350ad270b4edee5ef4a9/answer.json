@@ -1,0 +1,521 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 1",
+      "lesson_text": "### Deconstructing Learning Ecologies: Beyond the Isolated Course",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens straight into Priya's cases; the requested opening prompt asking learners to list the seen and hidden AI they met today is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 1",
+      "lesson_text": "When evaluating institutional training and professional development, organizational and educational leaders often default to evaluating discrete interventions",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock bridge from last week's map to the learner's own context and the capstone is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 1",
+      "lesson_text": "### The Visible–Invisible Spectrum of Algorithmic Mediation",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "Visible and Invisible AI was asked for as the third part, before Priya's cases, but the lesson puts it in the last concept, after Priya, situated learning and three topics that were not asked for."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 3",
+      "lesson_text": "Ecosystem Manifestation (Priya's Case)",
+      "source_text": "Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six places are shown only with Priya's workforce examples; the requested home and school versions are never given."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 5",
+      "lesson_text": "Architecture of a Situated Learning Ecology",
+      "source_text": "What real learning ecologies look like ... Two apprentices from our study. Each box is a source of learning; each line, how they reach it.",
+      "reason": "The requested look at real learning ecologies (the two apprentices' maps) is replaced by an abstract mind map of categories."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 1",
+      "lesson_text": "### Reconstructive Memory and Retrieval-Induced Strengthening",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "No part asks learners to look at a learner's opportunities for practice, participation and relationships; the slot after the six places goes to a memory-research concept instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecologies, Cognitive Science, and Educational AI",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is never used or mentioned."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.1: Assessing visible and invisible algorithmic mediation on learner autonomy / block 1",
+      "lesson_text": "Apply your understanding of algorithmic mediation, invisible AI, and learner agency by analyzing the examples below and connecting them to the core concept.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity is replaced by analysis of three given examples; learners never map one learner's AI across home, school and work or mark where it connects them to people or stands in for people."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecologies, Cognitive Science, and Educational AI",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecologies, Cognitive Science, and Educational AI",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "There is no Capstone Brief, no Scoping Guide and no worked scoping example."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecologies, Cognitive Science, and Educational AI",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The activity where learners scope their capstone with the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Learning Ecologies, Cognitive Science, and Educational AI",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no knowledge check covering the week's ideas, and no items from Week 1."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Formulating institutional adoption decisions to preserve developmental relationships / block 3",
+      "lesson_text": "Explain and justify your prediction.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson ends with a prediction task; the closing step where learners submit their scoped capstone is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 1",
+      "lesson_text": "Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Three of the five concepts (desirable difficulties, culturally sustaining pedagogy, technology affordances) are built from How People Learn II, which the instructions name only as gap-filling material, so the lesson is not built mainly on the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Evaluate the comparative effectiveness of cognitive retention mechanisms—including retrieval practice, spaced practice, and interleaved learning—versus massed practice across varying task complexities and retention intervals.",
+      "source_text": "This lesson primarily focuses on the first 3 of these objectives. ... Appraise claims and evidence about AI and learning, including when the evidence does not yet exist ... Design AI-enabled learning experiences in which developmental consequences shaped what got built",
+      "reason": "The lesson's objectives swap the requested focus on appraising AI evidence and designing AI-enabled experiences for memory techniques and culturally sustaining pedagogy."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 3",
+      "lesson_text": "Reviewing an external video tutorial suggested by an industry peer.",
+      "source_text": "In Case C Her sisterʼs YouTube tip",
+      "reason": "The source's outside-learning example for Priya is a YouTube tip from her sister (family), not a tutorial from an industry peer."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Analyzing peripheral participation across diverse workplace learning touchpoints / block 3",
+      "lesson_text": "She is not given a standalone training course.",
+      "source_text": "Required formal ... In Case C Case Aʼs course",
+      "reason": "The source places Case A's course inside Priya's Case C ecosystem, so saying she gets no training course contradicts it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Evaluating retention schedules and spacing intervals across variable task complexities / block 2",
+      "lesson_text": "At least 1 day",
+      "source_text": "if the learner will be tested 1 month or more after the last learning session, then the learning should be distributed over weeks or months.",
+      "reason": "For the question's six-month retention goal, the source calls for spacing over weeks or months, so the keyed answer of one day contradicts it."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.2: Diagnosing instructional design flaws involving massed and blocked practice schedules / block 4",
+      "lesson_text": "error—spacing enhances retention by requiring effortful re-engagement, and interleaving improves discrimination between strategies. Correct: Spacing and interleaving are desirable difficulties that strengthen memory and transfer, not sources of confusion or loss.",
+      "source_text": "interleaved study improves learning of highly similar categories (by facilitating between-category comparisons), whereas blocked study improves learning of low-similarity categories (by facilitating within-category comparisons).",
+      "reason": "The case mixes distinct strategies (formative assessment, project-based learning), where the source says blocking helps, yet the answer key marks the blocking argument as plainly wrong and says interleaving is never a source of confusion."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 1",
+      "lesson_text": "While Case A and Case B vary primarily in surface features—such as delivery format, modular pacing, and digital medium—**Case C alters the structural core of how learning happens**.",
+      "source_text": "Surface diﬀerences / A course, an AI platform, a project lead / Different formats and timing / Different amounts of technology / Structural diﬀerences / Where the learning happens / What Priya is doing in her head / Who, or what, is teaching her / How much control she has",
+      "reason": "The source lists surface and structural differences that vary across all three cases (A and B also differ in who or what teaches her and how much control she has), but the lesson concludes that only Case C differs structurally."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 4",
+      "lesson_text": "but they cannot replace the relational scaffolding and legitimate social participation necessary to build robust professional judgment",
+      "source_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it.",
+      "reason": "The source makes a design choice ('shouldn't replace') and asks 'Can AI do this, with people?' as an open question, while the lesson states that AI cannot replace people."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 1",
+      "lesson_text": "When instruction explicitly values and incorporates these out-of-school practices, students' engagement and conceptual mastery increase substantially (Boykin & Noguera, 2011):",
+      "source_text": "There is also evidence that when cultural practices are regarded as assets in the classroom, students’ motivation and achievement may increase (Boykin and Noguera, 2011).",
+      "reason": "The source's cautious 'may increase' becomes a firm 'increase substantially'."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 5",
+      "lesson_text": "When learners struggle with instructional tasks, the barrier is rarely a lack of intellectual capacity; rather, it often stems from incongruence between their home cultural meaning systems and the implicit communicative norms embedded in the classroom (Conclusion 7-1, Conclusion 7-3).",
+      "source_text": "School failure may be partly explained by the mismatch between what students have learned in their home cultures and what is required of them in school.",
+      "reason": "The source says the mismatch partly explains school failure, and Conclusions 7-1 and 7-3 make no claim about how often capacity is the barrier; the lesson turns this into a sweeping rule."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 1",
+      "lesson_text": "When algorithms operate invisibly, they alter the educational environment before educators or learners make deliberate choices.",
+      "source_text": "None of the nine below is good or bad on its own. ... Invisible doesn’t mean sinister. Most of what’s on this list is useful, and some of it is the reason a person can take part at all.",
+      "reason": "The lesson presents invisible AI as 'Invisible Structural Control' to guard against, and leaves out the source's stance that invisible AI is not bad in itself and is often useful."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 3",
+      "lesson_text": "As highlighted in *How People Learn II*, cognitive self-regulation requires deliberate, effortful practice. If automated systems eliminate productive struggle, essential capacities for metacognition and pattern recognition risk premature atrophy.",
+      "source_text": "When AI can do much of what school asks of students, which capacities most need eﬀortful practice, and which can be allowed to quietly atrophy? ... How do emerging workers build expertise and a foundation for pattern recognition when the foundational work that builds it is disappearing?",
+      "reason": "The slides ask these as open, emerging questions, but the lesson states them as an established risk and credits How People Learn II, which says nothing about AI causing atrophy."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 1",
+      "lesson_text": "The Metacognitive Illusion",
+      "source_text": "Instead, they are likely to retrieve something once and then, believing they have learned it for the long term, drop the item from further practice.",
+      "reason": "The source describes this behavior but never names it 'metacognitive illusion', yet the lesson gives it that name and later tests the name as a term."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 2",
+      "lesson_text": "Learning leaders must recognize that subjective fluency during training (e.g., rapid massed practice) frequently correlates inversely with durable, transferable retention.",
+      "source_text": "not in source",
+      "reason": "None of the sources makes the claim that feeling fluent during training goes against lasting retention, and the lesson reuses it as a grading criterion in Exercise 2.2."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 4",
+      "lesson_text": "providing joint screen attention, adaptive spacing, or rapid retrieval",
+      "source_text": "not about the source",
+      "reason": "'Adaptive spacing' and retrieval are used here but not explained until Concept 2, and 'joint screen attention' is never explained."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 3",
+      "lesson_text": "AI is one node in the learning ecosystem—it should act as connective tissue between learners, peers, and mentors rather than replacing the people at the center.",
+      "source_text": "not about the source",
+      "reason": "This repeats the Concept 1 block 4 callout (AI as a node that does not replace people) without being framed as a recap."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 5",
+      "lesson_text": "As demonstrated in the Texas SimCalc project (Roschelle et al., 2010), technology works best when tightly coupled with curriculum goals, narrative scaffolding, student collaboration, and extensive teacher professional development.",
+      "source_text": "not about the source",
+      "reason": "The systems-approach point with the same citation was just made in the block 4 callout, so the idea is restated in the next block."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 1.2: Deconstructing relational and situated scaffolding in professional onboarding ecologies / block 2",
+      "lesson_text": "The most significant contributor to the new hires’ integration and professional growth was the ecological integration of situated learning, specifically through legitimate peripheral participation in authentic project work and social networks, rather than the formal or algorithmic training components.",
+      "source_text": "not about the source",
+      "reason": "All three elements ran together and the case gives no evidence that separates their effects, so the solution, which students must justify, jumps to a causal conclusion."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 3",
+      "lesson_text": "Interleaving highlights boundary conditions and between-category differences; blocking isolates and reinforces shared within-category attributes (Carvalho & Goldstone, 2014a).",
+      "source_text": "a study of vocabulary learning among fifth graders suggested that a 2-week interval showed the best results (Sobel et al., 2011)",
+      "reason": "The concept explains spacing and interleaving only through abstract mechanisms and citations, with no concrete case of what a spaced or interleaved schedule looks like, though the source offers classroom studies."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 5",
+      "lesson_text": "Formal & Self-Paced Channels -> Outside Independent Inquiry",
+      "source_text": "Six places people learn at work: Required formal / Self-paced / Outside learning / Community-based / Relational / Work-based",
+      "reason": "The mind map regroups the six touchpoints from the table just above (outside learning under formal and self-paced, community merged with relational, technology as its own branch) without explanation, which is confusing."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 2",
+      "lesson_text": "Embedded in Practice",
+      "source_text": "not about the source",
+      "reason": "The card image is an empty trestle desk and stool with no people or work under way, so it does not show learning embedded in real practice."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Desirable Difficulties: Retrieval, Spaced Distribution, and Interleaved Practice / block 4",
+      "lesson_text": "Formative Retrieval Practice",
+      "source_text": "not about the source",
+      "reason": "The card image shows tax collection forms and a notebook, which have nothing to do with self-quizzing or retrieval practice."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 2",
+      "lesson_text": "Cultural Modeling",
+      "source_text": "not about the source",
+      "reason": "The card image is a blank spiral notebook, unrelated to using rap lyrics or storytelling to teach literary analysis."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 2",
+      "lesson_text": "Third Spaces",
+      "source_text": "not about the source",
+      "reason": "The card image is an empty corporate meeting room, which does not show the dialogue between home and school discourses that defines a third space."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 2",
+      "lesson_text": "Intelligent Tutoring Systems (ITS)",
+      "source_text": "not about the source",
+      "reason": "The card image is a laptop showing HTML code in an editor, not a tutoring system guiding algebra or geometry problem solving."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 2",
+      "lesson_text": "Conversational Agents & Trialogues",
+      "source_text": "not about the source",
+      "reason": "The card image shows a phone and tablet scrolling social media videos, unrelated to tutor and peer agents talking with a student."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 2",
+      "lesson_text": "Strategy & Metacognitive Trainers",
+      "source_text": "not about the source",
+      "reason": "The card image shows someone in a branded sweatshirt signing a lease agreement on a tablet, unrelated to tools that train self-regulated learning."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 4",
+      "lesson_text": "K–12 Education (Ages 8–18)",
+      "source_text": "not about the source",
+      "reason": "The card image shows adults in a university lecture hall, which misrepresents the K–12 age band the card describes."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 3",
+      "lesson_text": "### Disciplinary Knowledge Integration",
+      "source_text": "not about the source",
+      "reason": "The concept puts asset models of culture together with a separate idea, disciplinary literacy constructs and proficiency strands, and never links them."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 5",
+      "lesson_text": "### Systems Integration and Cognitive Optimization",
+      "source_text": "not about the source",
+      "reason": "One concept page holds technology affordances, four tutoring-system families, seven universal design principles, the systems approach, dashboards and multimedia hazards, with no clear thread tying them together."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 3",
+      "lesson_text": "Adjustable digital workstations accommodating both left- and right-handed users in physical spaces.",
+      "source_text": "not about the source",
+      "reason": "An eight-row table of physical accessibility principles gets more space than the lesson's core ideas about AI as one node in a learning ecosystem."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 3",
+      "lesson_text": "The Six Touchpoints of a Workplace Learning Ecology",
+      "source_text": "not about the source",
+      "reason": "The six touchpoints are the core of objective 1, but no exercise asks learners to sort learning sources into them or map an ecosystem."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 4.1: Predicting learning outcomes based on multimedia affordances and cognitive load principles / block 2",
+      "lesson_text": "Which cognitive load or multimedia principles are most relevant to interpreting the results?",
+      "source_text": "not about the source",
+      "reason": "Cognitive load and multimedia principles are only named in passing ('spatial contiguity and coherence') and never taught, yet the exercise depends on them."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Evaluating retention schedules and spacing intervals across variable task complexities / block 2",
+      "lesson_text": "What is the term for the phenomenon where learners mistakenly believe that successful recall once means further practice is unnecessary?",
+      "source_text": "not about the source",
+      "reason": "The item only asks learners to recall a label, while the objective asks them to evaluate retention strategies."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Operationalizing funds of knowledge into disciplinary inquiry in science and history / block 3",
+      "lesson_text": "Applying sourcing and corroboration to compare oral histories with academic accounts",
+      "source_text": "not about the source",
+      "reason": "The answer can be copied from the card above ('apply disciplinary inquiry practices such as sourcing and corroboration to compare these narratives with textbook accounts'), so it tests reading, not application."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing peripheral participation across diverse workplace learning touchpoints / block 2",
+      "lesson_text": "New teachers begin by observing, then gradually take on more central teaching roles within the team.",
+      "source_text": "not about the source",
+      "reason": "The right answer repeats the scenario's wording ('begin by observing lessons, then gradually take on') and the definition's 'central', while distractors such as feedback 'only after formal assessments' are clearly wrong."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Deconstructing relational and situated scaffolding in professional onboarding ecologies / block 3",
+      "lesson_text": "Count the number of peer network messages sent by each new hire.",
+      "source_text": "not about the source",
+      "reason": "In this and the other questions, the distractors are counting tasks (messages, modules, minutes) that no one would take for a reasoning step, so the answer is obvious."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Operationalizing funds of knowledge into disciplinary inquiry in science and history / block 3",
+      "lesson_text": "Assigning textbook geometry problems unrelated to students' experiences",
+      "source_text": "not about the source",
+      "reason": "Every distractor plainly ignores students' backgrounds, and only the right answer mentions carpentry, so the question gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Evaluating third-space instructional architectures that dismantle deficit models / block 3",
+      "lesson_text": "Increasing the number of science content standards covered per week",
+      "source_text": "not about the source",
+      "reason": "The distractors (more standards per week, only individual written work, teacher-only dialogue) plainly go against the scenario's goals, so they are not believable."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Assessing visible and invisible algorithmic mediation on learner autonomy / block 3",
+      "lesson_text": "The learner actively chooses, directs, and evaluates the AI's contributions during the creative process.",
+      "source_text": "not about the source",
+      "reason": "The right answer copies the card's wording ('chooses ... actively directing the tool and evaluating'), while distractors such as the AI 'independently generates and submits the project' contradict the scenario."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 1",
+      "summary": "Priya's three contrasting cases: three-day course, AI adaptive platform, project lead with peers, shadowing and past work",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Ecologies and Legitimate Peripheral Participation / block 3",
+      "summary": "Priya's learning sources mapped onto the six touchpoints (course, platform, Slack channel, project lead, shadowing a workshop)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Analyzing peripheral participation across diverse workplace learning touchpoints / block 1",
+      "summary": "District L&D leader onboards novice teachers through a grade-level team, mentor and shared workspace, moving from observing to leading",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing peripheral participation across diverse workplace learning touchpoints / block 3",
+      "summary": "Priya embedded with a project lead, shadowing client workshops and asking in a healthcare Slack channel",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing relational and situated scaffolding in professional onboarding ecologies / block 2",
+      "summary": "District L&D leader onboards instructional designers with compliance training, an AI platform and mentor shadowing",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Evaluating retention schedules and spacing intervals across variable task complexities / block 2",
+      "summary": "District leader designs teacher professional development for retention over several months",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Evaluating retention schedules and spacing intervals across variable task complexities / block 2",
+      "summary": "Math department chooses blocked or interleaved practice for similar algebraic techniques",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Diagnosing instructional design flaws involving massed and blocked practice schedules / block 2",
+      "summary": "PD scheduling choice: two massed, blocked days versus four spaced, interleaved half-days",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Culturally Sustaining Pedagogy and Disciplinary Knowledge Integration / block 2",
+      "summary": "Lee's cultural modeling using rap lyrics and everyday storytelling to teach literary analysis",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge into disciplinary inquiry in science and history / block 2",
+      "summary": "Teacher uses students' family carpentry work to teach area and perimeter",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge into disciplinary inquiry in science and history / block 2",
+      "summary": "Students analyze community rap lyrics as a bridge to literary analysis",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Operationalizing funds of knowledge into disciplinary inquiry in science and history / block 2",
+      "summary": "Students compare family oral histories with textbook accounts using sourcing and corroboration",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Evaluating third-space instructional architectures that dismantle deficit models / block 2",
+      "summary": "District leader redesigns a secondary science curriculum as a third space built on students' funds of knowledge",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 2",
+      "summary": "Named systems: Cognitive Tutors and ALEKS, AutoTutor trialogues, MetaTutor and iDRIVE, Knowledge Forum and WISE",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 3",
+      "summary": "Universal design examples: accessible job postings, text or audio choice, error guidance, large buttons, adjustable workstations",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Cognitive Affordances and Systems Integration of Learning Technologies / block 5",
+      "summary": "Texas SimCalc systems approach and ASSISTments dashboards",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Predicting learning outcomes based on multimedia affordances and cognitive load principles / block 2",
+      "summary": "Adaptive math platform piloted in two schools, one with affordances disabled and one with all enabled",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Critiquing systemic failures in educational technology implementation and tutor alignment / block 2",
+      "summary": "District leader's flawed plan to adopt an intelligent tutoring system for high school algebra",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 1",
+      "summary": "Visibility spectrum examples: chatbot, screen readers, agents, recommendation feeds, essay scoring, keyword monitoring, sorting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Algorithmic Mediation, Invisible AI, and Learner Agency / block 2",
+      "summary": "Compass's nine forms of AI (talking to sorting) with their mechanisms and questions to ask",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Assessing visible and invisible algorithmic mediation on learner autonomy / block 2",
+      "summary": "AI invisibly scores student essays and sorts them into performance bands",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Assessing visible and invisible algorithmic mediation on learner autonomy / block 2",
+      "summary": "Learner directs a generative AI tool to brainstorm and draft a class project",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Assessing visible and invisible algorithmic mediation on learner autonomy / block 2",
+      "summary": "Corporate learning portal where AI ranks training modules without showing how",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Formulating institutional adoption decisions to preserve developmental relationships / block 2",
+      "summary": "District leader decides on an LMS with a visible chatbot and hidden recommendation and cohort-sorting algorithms",
+      "from_source": false,
+      "source_had_one": false
+    }
+  ]
+}

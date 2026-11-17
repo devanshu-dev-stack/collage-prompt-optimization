@@ -1,0 +1,367 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry / block 2",
+      "lesson_text": "is described by the equation C₃H₈ + O₂ → CO₂ + H₂O.",
+      "source_text": "not in source",
+      "reason": "The equation is unbalanced (3 C and 8 H on the left, 1 C and 2 H on the right), so it does not correctly describe propane burning and breaks the conservation of matter the lesson teaches (balanced: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 4",
+      "lesson_text": "$$24.1\\text{ g}$$ rust",
+      "source_text": "If the mass of the iron nail increases to 24.1 g, what mass of oxygen combined with the iron?",
+      "reason": "In the source 24.1 g is the mass of the rust-coated nail, not of rust; 23.2 g of iron and 0.9 g of oxygen cannot form 24.1 g of Fe2O3, which would need far more oxygen."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Dimensional Analysis, Derived Units, and Temperature Conversions / block 1",
+      "lesson_text": "While the SI base unit is the cubic meter ($$\\text{m}^3$$)",
+      "source_text": "We can derive many units from the seven SI base units. For example, we can use the base unit of length to define a unit of volume",
+      "reason": "The cubic meter is a derived unit built from the base unit of length, not an SI base unit, which the lesson's own seven-unit table and its 'derived units' heading also contradict."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying and correcting errors in significant figure determination and calculation rounding rules / block 4",
+      "lesson_text": "Step 2: Fails to limit the answer to the correct number of significant figures after calculation; the division result should not be written with excessive digits.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "Writing the unrounded quotient before rounding the result is not an error (the rubric's own corrected solution keeps the same Step 2, and the lesson's examples show 5.3853 g and 4.11708 cm² before rounding), so the key rewards finding a mistake that is not there and counts the one real Step 3 error twice."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Evaluating experimental measurement sets for accuracy, precision, and measurement uncertainty / block 2",
+      "lesson_text": "Not quite. Remember to count only nonzero digits and zeros between or after nonzero digits as significant.",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "The feedback says every zero after a nonzero digit is significant, which would give 4050 four significant figures and contradicts the source and the lesson's own card that trailing zeros count only when a decimal point is shown."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Analyzing the mathematical structure and reference points of temperature conversion formulas / block 7",
+      "lesson_text": "Plug $$T_C = 25.0$$ into the equation: $$T_K = 25.0 + 273.15 = 298.15$$.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places ... The 273.15 in these equations has been determined experimentally, so it is not exact.",
+      "reason": "By the source's addition rule, 25.0 + 273.15 must be reported as 298.2, so the keyed answer 298.15 overstates certainty and would mark a correctly rounded answer wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Deconstructing multi-step dimensional analysis setups for unit conversions and density calculations / block 3",
+      "lesson_text": "Step 4: State the final answer as $$1.25\\ \\text{kg/L}$$, including units and correct significant figures.",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "With 250 g and 200 mL written without decimal points, the source's rule gives them two and one significant figures, so 1.25 kg/L does not have the correct significant figures the rubric claims."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "lesson_text": "Quantities that are known with complete certainty, possessing infinitely many significant figures.",
+      "source_text": "not about the source",
+      "reason": "The term 'significant figures' is used here and in every later rule, but the lesson never says what significant figures are (all measured digits, including the estimated last one), so students learn to count and round something that was never defined."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: The Nature of Science and the Three Domains of Chemistry / block 2",
+      "lesson_text": "Dalton's Atomic Theory",
+      "source_text": "not about the source",
+      "reason": "The table uses the Law of Conservation of Mass and Dalton's Atomic Theory as its law and theory examples before the lesson explains either (conservation comes in Concept 3, Dalton's theory is never explained), so the examples cannot help students tell a law from a theory."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, Derived Units, and Temperature Conversions / block 1",
+      "lesson_text": "**Density ($$d$$):** An intensive property describing the ratio of mass ($$m$$) to volume ($$V$$):",
+      "source_text": "not about the source",
+      "reason": "Density as an intensive mass-to-volume ratio with d = m/V was already taught in Concept 3's 'The Ratio of Two Extensive Properties' card, and Concept 5 repeats it instead of building on it."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis, Derived Units, and Temperature Conversions / block 1",
+      "lesson_text": "Because the numerator and denominator represent identical physical magnitudes, multiplying by a conversion factor is mathematically equivalent to multiplying by $$1$$",
+      "source_text": "not about the source",
+      "reason": "Dimensional analysis is explained only in general terms; the lesson never works a single conversion showing how to orient the factor so units cancel, yet Exercise 5.2 then asks for a two-unit conversion."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Nature of Science and the Three Domains of Chemistry / block 3",
+      "lesson_text": "Symbolic Domain",
+      "source_text": "not about the source",
+      "reason": "The card's image is a printed color-swatch chart of colored squares with percentages, not chemical symbols, formulas or equations, and because it looks a little like a periodic table it can mislead students."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Classification of Zeros",
+      "source_text": "not about the source",
+      "reason": "The card's image shows cannabis buds on a digital scale, which has nothing to do with leading, captive or trailing zeros and is unsuitable for a school chemistry lesson."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Accuracy vs. Precision",
+      "source_text": "not about the source",
+      "reason": "The card's image is one unlabeled archery target with arrows scattered over different rings, and the card text never refers to it, so it does not show students what accurate, precise, or both look like."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry / block 3",
+      "lesson_text": "Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry",
+      "source_text": "not about the source",
+      "reason": "Despite this title, no question in Exercise 1.1 or 1.2 asks students to tell a hypothesis, law or theory apart (all questions are about the three domains), so that part of objective 2 is never practiced."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 3.2: Categorizing physical and chemical characteristics as intensive or extensive properties / block 6",
+      "lesson_text": "Categorizing physical and chemical characteristics as intensive or extensive properties",
+      "source_text": "not about the source",
+      "reason": "No question asks students to classify a property as intensive or extensive, or as physical or chemical; Exercises 3.1 and 3.2 only test physical versus chemical changes and conservation of mass."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "lesson_text": "**Addition and Subtraction**: Round the final result to the same number of *decimal places* as the input quantity with the fewest decimal places.",
+      "source_text": "not about the source",
+      "reason": "The addition/subtraction rule and the round-to-even rule are taught, but no exercise asks students to apply them; Exercises 4.1 and 4.2 practice only multiplication/division and counting zeros."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Dimensional Analysis, Derived Units, and Temperature Conversions / block 3",
+      "lesson_text": "**Fahrenheit and Celsius:** The interval between the freezing and boiling points of water is divided into $$180$$ degrees on the Fahrenheit scale and $$100$$ degrees on the Celsius scale",
+      "source_text": "not about the source",
+      "reason": "Fahrenheit-Celsius conversion is taught with two equations but never practiced; Exercise 5.1 covers only the simpler kelvin-Celsius shift."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Analyzing the mathematical structure and reference points of temperature conversion formulas / block 3",
+      "lesson_text": "What does the symbol $$T_K$$ represent in the equation above?",
+      "source_text": "not about the source",
+      "reason": "These questions can be answered by copying the explanation printed just above, and the rest of the exercise only plugs numbers into T_K = T_C + 273.15, so it checks recall rather than the application objective 4 asks for."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying observations into the macroscopic, microscopic, and symbolic domains of chemistry / block 2",
+      "lesson_text": "By focusing only on the mass of the metal",
+      "source_text": "not about the source",
+      "reason": "The distractors in both questions are obviously wrong ('only', 'ignoring', 'safety requirements', 'equipment used'), so students can pick the answer without understanding the domains."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying observations into the macroscopic, microscopic, and symbolic domains of chemistry / block 4",
+      "lesson_text": "She focuses only on the gas's color",
+      "source_text": "not about the source",
+      "reason": "The distractors ('only the gas's color', 'only the temperature readings', 'the color of the balloon', 'the temperature of the laboratory') are implausible, so the correct answers give themselves away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Classifying matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "A substance with a uniform composition throughout",
+      "source_text": "not about the source",
+      "reason": "The keyed answer calls a mixture 'a substance' and fits a pure substance just as well, so it does not single out a homogeneous mixture and feeds the mixture-versus-pure-substance confusion."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Classifying matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Which state of matter is characterized by particles moving freely and filling the entire volume of their container?",
+      "source_text": "not about the source",
+      "reason": "Plasma, also an option, fits too (the lesson's own table says plasma 'Fills container volume'), so the question has two correct answers but only Gas is keyed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Evaluating experimental measurement sets for accuracy, precision, and measurement uncertainty / block 2",
+      "lesson_text": "Which of the following numbers contains exactly three significant figures?",
+      "source_text": "Leading zeros, however, are never significant—they merely tell us where the decimal point is located.",
+      "reason": "0.00405 also has exactly three significant figures (4, 0, 5), and 4050 has three under the trailing-zero rule, but only 0.0405 is keyed correct."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Deconstructing multi-step dimensional analysis setups for unit conversions and density calculations / block 3",
+      "lesson_text": "Calculate the density using the given mass and volume in their original units",
+      "source_text": "not about the source",
+      "reason": "Converting grams to kilograms or milliliters to liters first is an equally valid first step, so two other options are also correct, while 'Add the mass and volume values together' is an implausible distractor."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Nature of Science and the Three Domains of Chemistry / block 2",
+      "summary": "Table examples: a compound dissolving faster when heated (hypothesis), Law of Conservation of Mass (law), Dalton's Atomic Theory (theory)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Nature of Science and the Three Domains of Chemistry / block 4",
+      "summary": "Steam condensing on a lid described in the macroscopic, microscopic and symbolic domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 1",
+      "summary": "Sand pours like a liquid; clouds behave like gases",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 3",
+      "summary": "Mixture examples: Italian dressing, granite, cookie dough; sports drinks, air, maple syrup, saltwater",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 5",
+      "summary": "O2, N2 and S8 molecules are elements, while H2O and CO2 are compounds",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 1",
+      "summary": "Iron rusts while chromium does not; melting wax, condensing steam; souring milk, copper with nitric acid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 2",
+      "summary": "A gallon of milk has more mass and volume than a cup",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 4",
+      "summary": "10.0 g of ice melting to 10.0 g of water in a sealed container",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 4",
+      "summary": "200.0 g glucose fermented to 102.3 g ethanol and 97.7 g CO2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 4",
+      "summary": "Iron nail of 23.2 g combining with 0.9 g oxygen as it rusts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 5",
+      "summary": "Wood burning down to ashes appears to lose mass in an open system",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Properties of Matter, Changes, and the Conservation of Matter / block 5",
+      "summary": "Iron nail gaining mass from 23.2 g to 24.1 g as it rusts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Exact numbers: 12 items in a dozen, 1 in. = 2.54 cm, 1 g = 0.001 kg",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Adding 1.0023 g and 4.383 g gives 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm gives 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Round-to-even: 421.25 to 421.2 and 0.90275 to 0.9028",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Derived Units, and Temperature Conversions / block 1",
+      "summary": "Conversion factor 2.54 cm / 1 in. equals 1",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry / block 2",
+      "summary": "Rusting iron nail seen in the three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry / block 2",
+      "summary": "Ice cube melting, written as H2O(s) to H2O(l)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws in scientific inquiry / block 2",
+      "summary": "Propane burning in a grill seen in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Classifying observations into the macroscopic, microscopic, and symbolic domains of chemistry / block 1",
+      "summary": "Student heats a silver-gray metal that forms a white powder with oxygen",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Classifying observations into the macroscopic, microscopic, and symbolic domains of chemistry / block 3",
+      "summary": "Researcher studies a new gas in a balloon with particle diagrams and a formula",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing the physical states of matter and comparing atomic versus molecular structures / block 2",
+      "summary": "Ice cube floating in liquid water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing the physical states of matter and comparing atomic versus molecular structures / block 2",
+      "summary": "Air in a balloon as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing the physical states of matter and comparing atomic versus molecular structures / block 2",
+      "summary": "Table salt dissolved in water as a solution",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Predicting mass conservation and distinguishing physical from chemical changes during reactions / block 2",
+      "summary": "Beaker of water frozen in a freezer with no change in mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Categorizing physical and chemical characteristics as intensive or extensive properties / block 1",
+      "summary": "Ice cube melting in a glass with mass unchanged",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Categorizing physical and chemical characteristics as intensive or extensive properties / block 3",
+      "summary": "Magnesium ribbon burning to magnesium oxide with mass conserved",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying and correcting errors in significant figure determination and calculation rounding rules / block 2",
+      "summary": "Density from a 12.30 g mass and 7.1 mL volume",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating experimental measurement sets for accuracy, precision, and measurement uncertainty / block 2",
+      "summary": "Mass readings of 5.21, 5.22 and 5.20 g against a true mass of 5.50 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Deconstructing multi-step dimensional analysis setups for unit conversions and density calculations / block 2",
+      "summary": "Liquid of 250 g and 200 mL converted to a density in kg/L",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

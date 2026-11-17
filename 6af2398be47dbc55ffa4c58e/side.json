@@ -1,0 +1,524 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 7,
+    "wrong_viewpoint": 0,
+    "off_source_content": 1,
+    "ignores_custom_instructions": 0,
+    "x1": 2,
+    "x2": 1,
+    "x3": 1,
+    "x4": 1,
+    "x5": 1,
+    "x6": 2,
+    "x7": 0,
+    "x8": 0,
+    "x9": 3,
+    "x10": 0,
+    "x11": 2,
+    "x12": 0,
+    "x14": 4,
+    "x15": 1
+  },
+  "examples_total": 47,
+  "examples_from_source": 34,
+  "made_up_examples": 11,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 106,
+  "score": 79,
+  "instructions_score": 100,
+  "teaching_score": 87,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Sugar is made from two types of elements chemically combined in a fixed ratio; it can be broken down by chemical changes, so it is a compound.",
+      "source_text": "white crystalline sugar (sucrose) is a compound resulting from the chemical combination of the element carbon, which is a black solid in one of its uncombined forms, and the two elements hydrogen and oxygen",
+      "reason": "Sucrose is made of three elements (carbon, hydrogen and oxygen), not two, as the source and the lesson's own formula C12H22O11 show."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Compound, because it is made from two elements chemically combined and can be broken down by chemical changes.",
+      "source_text": "Any sample of sucrose (table sugar) consists of 42.1% carbon, 6.5% hydrogen, and 51.4% oxygen by mass.",
+      "reason": "The answer key again says sugar is made from two elements, so students who pick it are told a wrong fact is correct."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 4",
+      "lesson_text": "can be separated by physical techniques like filtration or evaporation",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
+      "reason": "Filtration is not in the source, which names only evaporation, yet the lesson adds it and later tests it in Exercise 1.2."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 2",
+      "lesson_text": "link: Heterogeneous Mixtures -> Physically Separable",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
+      "reason": "The mind map puts the four classes directly under Matter with no pure-substance and mixture branches, and links 'Physically Separable' only to heterogeneous mixtures, which suggests solutions cannot be separated by physical means."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 1",
+      "lesson_text": "Rigid materials that maintain a definite shape and a fixed volume regardless of the container.",
+      "source_text": "not about the source",
+      "reason": "The states of matter (solid, liquid, gas, plasma) are taught, and Exercise 1.2's title promises 'Distinguishing physical states of matter', but no question asks students to identify or compare states."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best fits the example of Oxygen Gas from the cards above?",
+      "source_text": "not about the source",
+      "reason": "The cards just above already give each answer ('so it is classified as an element', 'so it is a compound', 'making it a heterogeneous mixture'), so students copy the answers instead of classifying matter themselves, which is what objective 1 asks."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 2",
+      "lesson_text": "Changing state without altering chemical identity is a physical property.",
+      "source_text": "A physical change is a change in the state or properties of matter without any accompanying change in the chemical identities of the substances contained in the matter.",
+      "reason": "The source calls a change of state without a change of identity a physical change, not a physical property, so the explanation mixes up the property-versus-change idea the lesson is meant to teach."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 2",
+      "lesson_text": "Which property is demonstrated when water changes from solid to liquid to gas without forming a new substance?",
+      "source_text": "not about the source",
+      "reason": "The distractor 'Intensive property' can also be defended, because the melting and boiling points shown are intensive (Concept 2 lists boiling point as intensive), so the question has more than one correct answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 4",
+      "lesson_text": "Intensive change",
+      "source_text": "not about the source",
+      "reason": "'Intensive change' and 'Extensive change' are not real categories (the lesson only teaches intensive and extensive properties), so two of the four choices are easy to rule out."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 4",
+      "lesson_text": "Correct! The transformation into iron oxide is a chemical property.",
+      "source_text": "The ability to change from one type of matter into another (or the inability to change) is a chemical property.",
+      "reason": "The source says rust forming is a chemical change and the ability to rust is the chemical property, so calling the transformation itself a property contradicts the source."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 6",
+      "lesson_text": "Extensive change",
+      "source_text": "not about the source",
+      "reason": "Again, two of the four choices ('Intensive change', 'Extensive change') are made-up categories that no student would seriously consider."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Categorizing physical properties as extensive or intensive based on sample size dependence / block 3",
+      "lesson_text": "Why is density considered an intensive property when measuring a liquid?",
+      "source_text": "not about the source",
+      "reason": "Each of the three questions repeats a card directly above it (for example, 'density does not depend on the amount of liquid present'), so students can answer by copying instead of applying the ideas."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Measurable properties are further categorized based on their relationship to sample size.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to sort properties into extensive or intensive, but no exercise asks them to classify any property as extensive, and the only intensive item repeats a card, even though Exercise 2.2's title promises this sorting."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "lesson_text": "Precise, but not accurate (>10 mL below target)",
+      "source_text": "Measurements are said to be precise if they yield very similar results when repeated in the same manner. A measurement is considered accurate if it yields a result that is very close to the true or accepted value.",
+      "reason": "The table uses 'precise' and 'accurate' without the concept ever defining them; the definition first appears in Exercise 3.2's explanation, after students have answered."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Zeros located between two nonzero digits",
+      "source_text": "not about the source",
+      "reason": "The card images do not show the zero rules: the Captive Zeros card shows a graduated cylinder at the '60' mark (a trailing zero, not a captive one), and the Trailing Zeros card shows a general lab bench, so the pictures add nothing or mislead."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Identifying and correcting errors in counting significant figures and rounding arithmetic results / block 4",
+      "lesson_text": "Step 1: Fails to round the multiplication result to the correct number of significant figures; correct area should be rounded to 2 significant figures, so area = $$86\\text{ cm}^2$$.",
+      "source_text": "not about the source",
+      "reason": "The grading key counts Step 1 (the unrounded product) as an error, even though its own corrected solution keeps that same step ('Multiply 12.30 cm x 7.0 cm = 86.10 cm^2, then round'), and it counts the one real mistake twice, so a student who rightly says Step 1 is fine loses points."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 3",
+      "lesson_text": "Standard SI units are kilograms per cubic meter (kg/m³)",
+      "source_text": "not about the source",
+      "reason": "The short form 'SI' is used here but first spelled out only in Concept 5 block 1 ('the SI (International System) unit')."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 1",
+      "lesson_text": "Multi-step conversions string several factors together in sequence so that each intermediate unit cancels until only the target unit remains.",
+      "source_text": "What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.",
+      "reason": "Multi-step conversion is a core part of objective 4, but it is only described in general words with no worked chain of factors, although the source has worked examples (antifreeze, Lamborghini fuel economy)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 2",
+      "lesson_text": "To set up a conversion correctly, always write the conversion factor so that the unit you want to eliminate is in the denominator",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to convert units with a conversion factor; Exercises 4.1 and 4.2 promise 'unit cancellation' and 'multi-step unit conversion paths' but only use 1 mL = 1 cm³."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 5",
+      "lesson_text": "Comparison of densities of common liquids and solids at 25 °C.",
+      "source_text": "From Table 1.4, the density of iron is 7.9 g/cm3, very close to that of rebar, which lends some support to the fact that rebar is mostly iron.",
+      "reason": "The bar graph stands alone and is never linked to the worked results just above (lead cube 11.3 g/cm³, rebar 7.8 g/cm³ close to iron's 7.9), so students miss how density is used to identify a material."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density using unit cancellation / block 5",
+      "lesson_text": "If the mass of a sample doubles while its volume stays the same, what happens to its density?",
+      "source_text": "not about the source",
+      "reason": "Students just learned that density is intensive and does not depend on amount, and this item says density doubles without explaining that the same volume with twice the mass means a different or denser material, which invites the belief that adding more of a substance raises its density."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density using unit cancellation / block 7",
+      "lesson_text": "Density = mass / volume = $$57.9\\text{ g} / 3.0\\text{ cm}^3 = 19.3\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "3.0 cm³ has two significant figures, so the answer should be 19 g/cm³; the key's 19.3 claims more certainty than the data allow, breaking the rule the lesson teaches."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Reconstructing multi-step unit conversion paths and density determinations via water displacement / block 3",
+      "lesson_text": "It ensures the volume and mass units match for the formula $$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$$.",
+      "source_text": "A cubic centimeter is equivalent to a milliliter (mL) and is 1/1000 of a liter.",
+      "reason": "Mass and volume units can never 'match'; changing mL to cm³ only states the volume in the unit asked for in the answer (g/cm³) and does not change the number, so the keyed reason (also used in the step-by-step grading) is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Temperature Scales and Linear Conversions / block 4",
+      "lesson_text": "This means that both the size of the degree and the zero point differ between scales.",
+      "source_text": "Celsius degrees are the same magnitude as those of kelvin, but the two scales place their zeros in different places.",
+      "reason": "A linear rather than proportional link means the zero points differ, not that degree sizes always differ; Celsius and kelvin have the same degree size, as the source and the lesson's own block 1 say."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Temperature Scales and Linear Conversions / block 4",
+      "lesson_text": "The general form of a linear equation is $$y = mx + b$$, where $$m$$ is the slope and $$b$$ is the intercept.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "The lesson goes from the general form straight to a slope of 9/5 and an intercept of 32 without showing they come from 180 Fahrenheit degrees for every 100 Celsius degrees and water freezing at 32 °F, as the source works out."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Linear Conversions / block 5",
+      "lesson_text": "This equation converts a temperature from Celsius to Fahrenheit. Multiply the Celsius temperature by $$\\frac{9}{5}$$ and then add $$32$$ to get the Fahrenheit value.",
+      "source_text": "not about the source",
+      "reason": "This equation block repeats the Celsius-to-Fahrenheit equation already given in block 4 and adds nothing new."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 1",
+      "summary": "Sand pours like a liquid because it is made of tiny solid grains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 1",
+      "summary": "Clouds behave like gases but are mixtures of air and water particles",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "summary": "Elements: gold, iron, sulfur, oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "summary": "Compounds: sucrose and water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "summary": "Homogeneous mixtures: sports drinks, gasoline, salt water, air",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 3",
+      "summary": "Heterogeneous mixtures: Italian dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification of Matter: Pure Substances and Mixtures / block 4",
+      "summary": "Sucrose is always 42.1% carbon, 6.5% hydrogen, 51.4% oxygen by mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Oxygen gas classified as an element",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Sugar (sucrose) classified as a compound",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying common substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Italian salad dressing classified as a heterogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and separating mixtures versus pure substances / block 2",
+      "summary": "Air in a sealed container as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and separating mixtures versus pure substances / block 2",
+      "summary": "Choosing the heterogeneous mixture among water, sports drink, Italian dressing and gold",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and separating mixtures versus pure substances / block 2",
+      "summary": "Sand and salt in water separated by filtering",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium does not (chemical property)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: melting wax, steam condensing, grinding crystals",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: burning match, copper with nitric acid, banana browning, cooking meat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Table: wax and sugar in coffee, antitheft tag, rusting iron, nitroglycerin explosion",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop of hot oil versus pot of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 1",
+      "summary": "Ice melts and water boils without changing composition",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 3",
+      "summary": "Iron left outside forms rust",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical changes from chemical changes through observed transformations of matter / block 5",
+      "summary": "Sugar dissolving in hot coffee",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical properties as extensive or intensive based on sample size dependence / block 2",
+      "summary": "Melting candle wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical properties as extensive or intensive based on sample size dependence / block 2",
+      "summary": "Rusting of iron as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical properties as extensive or intensive based on sample size dependence / block 2",
+      "summary": "Density of a liquid as an intensive property",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Exact numbers: eggs in a carton, 1 in. = 2.54 cm, 1 ft = 12 in.",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Reading a graduated cylinder meniscus as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "summary": "Captive zeros in 70.607 mL and 3090",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "summary": "Leading zeros in 0.008020",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "summary": "Trailing zeros in 55.0 g and the ambiguous 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Three cough syrup dispensers judged for accuracy and precision",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Adding 1.0023 g and 4.383 g to get 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "0.6238 cm x 6.6 cm and 421.23 g / 486 mL rounded by significant figures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 5",
+      "summary": "Rounding 92.85, 0.051065, 0.90275 and 6.8752",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying and correcting errors in counting significant figures and rounding arithmetic results / block 2",
+      "summary": "Area of a 12.30 cm by 7.0 cm tile",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental accuracy versus precision and applying significant figure arithmetic rules / block 2",
+      "summary": "Five cylinder readings of 21.6 to 21.7 mL against a true 22.0 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental accuracy versus precision and applying significant figure arithmetic rules / block 2",
+      "summary": "Which rule applies to 5.3853 g + 4.383 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental accuracy versus precision and applying significant figure arithmetic rules / block 2",
+      "summary": "0.008020 x 55.0 g rounded to 0.441 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 1",
+      "summary": "34 in. vertical jump converted to 86 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 4",
+      "summary": "Lead cube 2.00 cm edge, 90.7 g, density 11.3 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Density Calculations / block 4",
+      "summary": "Rebar density by water displacement, 7.8 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density using unit cancellation / block 7",
+      "summary": "Copper 72.0 g in 8.0 cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density using unit cancellation / block 7",
+      "summary": "Gasoline 37.0 g in 50.0 cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density using unit cancellation / block 7",
+      "summary": "Gold 57.9 g in 3.0 cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Reconstructing multi-step unit conversion paths and density determinations via water displacement / block 2",
+      "summary": "Metal object raises water from 15.0 to 23.2 mL, mass 71.2 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Predicting and comparing temperature values across Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "summary": "Water heated to 37 °C body temperature, converted to °F and K",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Converting temperatures among Fahrenheit, Celsius, and Kelvin using linear equations / block 2",
+      "summary": "Lab temperature of 20 °C converted to Fahrenheit",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Converting temperatures among Fahrenheit, Celsius, and Kelvin using linear equations / block 2",
+      "summary": "Body temperature 98.6 °F converted to 37 °C",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

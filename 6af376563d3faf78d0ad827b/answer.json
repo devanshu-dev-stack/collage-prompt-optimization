@@ -1,0 +1,429 @@
+{
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Color change, gas generation, flame/heat, precipitate formation",
+      "source_text": "not in source",
+      "reason": "The source gives no list of signs that a chemical change happened, so this table row (including precipitate formation) adds facts the source does not cover."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Often reversible by physical methods such as boiling or freezing",
+      "source_text": "not in source",
+      "reason": "The source never discusses whether physical or chemical changes can be reversed, so the whole 'Reversibility by Physical Means' row is off-source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 1",
+      "lesson_text": "By analyzing multiple data points from the same procedure, you can diagnose whether errors stem from instrument calibration flaws or inconsistent measurement technique.",
+      "source_text": "not in source",
+      "reason": "The source defines accuracy and precision but never links them to calibration flaws or poor technique as causes of error."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 3",
+      "lesson_text": "This outcome typically signals a systematic error, such as an uncalibrated scale or incorrect tare.",
+      "source_text": "not in source",
+      "reason": "Systematic error, tare, random variations that cancel out, and 'poor technique and calibration issues' in these cards are not in the source, which never names causes of inaccuracy or imprecision."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 5.1: Evaluating replicate measurement sets to differentiate accuracy and precision / block 4",
+      "lesson_text": "If the balance is not calibrated correctly, which aspect of measurement is most affected?",
+      "source_text": "not in source",
+      "reason": "The question tests the link between calibration and accuracy, which the source never mentions."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying errors in significant figure determination and rounding rules / block 4",
+      "lesson_text": "Step 3: Misinterprets significance of zeros; zeros after the decimal in 26.1 cm² are significant, and the correct rounded value should have two significant figures, which is 26 cm².",
+      "source_text": "all nonzero digits are significant, and it is only zeros that require some thought.",
+      "reason": "The number 26.1 has no zeros at all, so the answer key's claim about 'zeros after the decimal in 26.1 cm²' is false and teaches nothing correct about zeros."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Reconstructing multi-step unit conversion pathways using dimensional analysis / block 5",
+      "lesson_text": "Step 4: Perform the calculation 250 × (1 / 1000) = 0.250, and confirm the answer is in kilograms with the correct number of significant figures.",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "Under the source's rule (and the lesson's own '1300 g is ambiguous and assumed to have two'), 250 g has two significant figures, so 0.250 kg claims three and is wrongly called the correct number of significant figures."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "An **atom** is the smallest particle of an element that retains that element's unique chemical properties",
+      "source_text": "not about the source",
+      "reason": "The atom is defined using 'element' and 'chemical properties', but the lesson never defines an element in prose (only a mind-map label in block 3) and does not define chemical properties until Concept 2."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "lesson_text": "Chemical Separation Only",
+      "source_text": "not about the source",
+      "reason": "The mind map (and the block 5 callout's 'physical separation techniques') relies on the difference between chemical and physical changes, which is only taught in Concept 2, and uses 'Solutions' without defining it."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "lesson_text": "Exact numbers have an infinite number of significant figures and do not limit the precision of calculated results.",
+      "source_text": "not about the source",
+      "reason": "Significant figures are used here before block 2 defines them, so students cannot yet understand what 'infinite significant figures' means."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "Defined relationships (such as 1 in. = 2.54 cm exactly, or 1000 mL = 1 L) possess infinite significant figures and never limit the precision of your calculated result.",
+      "source_text": "not about the source",
+      "reason": "This repeats the exact-number idea, with the same 1 in. = 2.54 cm case, already taught in Concept 4 block 1."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "Because weight is directly proportional to local gravity ($$w = mg$$), an astronaut with a mass of 72 kg weighs roughly six times less on the Moon than on Earth, even though her mass remains strictly unchanged.",
+      "source_text": "But her weight on the moon is only one-sixth her earth-bound weight because the moon’s gravity is only one-sixth that of the earth’s.",
+      "reason": "The lesson jumps to 'six times less' without the key step the source gives, that the Moon's gravity is about one-sixth of Earth's, and never says what g stands for."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2",
+      "lesson_text": "Accurate Mean, Not Precise",
+      "source_text": "Results for dispenser #2 represent improved accuracy (each volume is less than 3 mL away from 296 mL) but worse precision (volumes vary by more than 4 mL).",
+      "reason": "The table gives each dispenser's verdict without computing the mean or showing how spread and distance from 296.0 mL were judged, so students cannot follow how the data leads to the labels."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "lesson_text": "Classification Hierarchy of Matter",
+      "source_text": "Italian dressing is an example of a heterogeneous mixture",
+      "reason": "Elements, compounds, heterogeneous and homogeneous mixtures (the core of objective 1) are shown only as short mind-map labels, with no concrete case of each in the concept, although the source offers many."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 3",
+      "lesson_text": "For example, to convert a density reported in pounds per cubic foot to grams per milliliter:",
+      "source_text": "What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.",
+      "reason": "Multi-step chains and temperature conversions are given only as general steps and formulas, and the whole concept never works a single conversion with actual numbers."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Has neither a fixed shape nor a fixed volume, expanding completely to fill both the shape and volume of any container.",
+      "source_text": "gaseous water in our atmosphere is not visible to the naked eye, although it may be sensed as humidity.",
+      "reason": "The Gas card's image is a hot-spring landscape with visible mist, which is tiny liquid droplets, so it can mislead students about what a gas is and does not show a gas filling its container."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "The images for Nonzero Digits (a museum candy scale with Walmart exhibit labels), Captive Zeros (a small digital readout) and Leading Zeros (a rack of pipettes) do not show the digit rule on their cards and only distract."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 3",
+      "lesson_text": "Replicates are grouped closely together and fall directly on the accepted target.",
+      "source_text": "not about the source",
+      "reason": "The images contradict their cards: 'Accurate and Precise' shows two darts far apart with one well off the bull's-eye, 'Precise, Not Accurate' shows a single arrow near the center, and 'Neither Accurate nor Precise' shows arrows stuck in grass with no target."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 4",
+      "lesson_text": "Directly converts a single unit into an equivalent unit using one conversion ratio, such as changing an object's mass from grams to ounces.",
+      "source_text": "not about the source",
+      "reason": "The Single-Step Conversion image shows cannabis buds on a balance, which is unsuitable for students and shows a weighing, not a unit conversion."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "lesson_text": "Major Elemental Abundances in Earth's Crust and Atmosphere",
+      "source_text": "not about the source",
+      "reason": "A full bar graph is given to Earth's element percentages, a minor detail tied to no objective, while the classification of matter that objective 1 rests on gets only mind-map labels."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Properties of matter are further categorized according to whether they depend on the amount of material present in a given sample",
+      "source_text": "not about the source",
+      "reason": "Intensive versus extensive properties (objective 2) are never tested: Exercise 2.2, titled for them, only repeats physical versus chemical changes with the same ice and rust cases."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 3",
+      "lesson_text": "Temperature Transformations: Non-Zero Baselines",
+      "source_text": "not about the source",
+      "reason": "Celsius, Fahrenheit and kelvin conversions are taught but no exercise asks students to convert a temperature, even though Exercise 6.2's title promises it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 3",
+      "lesson_text": "Complex calculations often require linking several conversion factors sequentially.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks for multi-step calculations, but every conversion students do (g to kg, km to m, mL to L, hours to minutes) is single-step, despite Exercise 6.1 and 6.2 titles saying multi-step."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which statement best explains why **Salt Water** is considered a homogeneous mixture?",
+      "source_text": "not about the source",
+      "reason": "The cards just above already state each classification and its reason, so all three questions can be answered by copying the card text instead of classifying anything as objective 1 requires."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Distinguishing between extensive and intensive properties of matter / block 3",
+      "lesson_text": "Which statement best explains why **Melting Ice** is considered a physical change?",
+      "source_text": "not about the source",
+      "reason": "Each card above already says why the change is physical or chemical, so the three questions only ask students to match the card wording."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Relating mass, volume, and density using derived SI units / block 3",
+      "lesson_text": "What does the symbol $$\\rho$$ represent in the equation $$\\rho = \\frac{m}{V}$$?",
+      "source_text": "not about the source",
+      "reason": "The three symbol questions repeat the definitions printed in the block directly above, so they test copying rather than understanding."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and particulate arrangements / block 2",
+      "lesson_text": "A sample of matter occupies 250 cm³ and has a mass of 500 g. What is its volume?",
+      "source_text": "not about the source",
+      "reason": "The question states the answer in its own first sentence, so it tests nothing."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and particulate arrangements / block 2",
+      "lesson_text": "A material that can be separated by physical means into its components",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes",
+      "reason": "This distractor is also true of every homogeneous mixture, so the question has two correct answers."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on substance composition / block 2",
+      "lesson_text": "An intensive property change affecting density",
+      "source_text": "ice (at 0 °C) 0.92 g/cm3",
+      "reason": "Melting ice does change its density (0.92 to 1.0 g/cm³ in the source's table), so this distractor is also a true answer to 'What kind of change is illustrated'."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on substance composition / block 4",
+      "lesson_text": "An intensive property change affecting color",
+      "source_text": "not about the source",
+      "reason": "Rusting does change the color of iron, an intensive property, so this distractor is also a true description and mixes property types with change types."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Solving multi-step unit conversions and temperature scale transformations / block 2",
+      "lesson_text": "Divide 5.0 kilometers by the conversion factor",
+      "source_text": "not about the source",
+      "reason": "Dividing 5.0 km by (1 km / 1000 m) gives the same 5000 m as the keyed answer, so two options are correct, while 'Add 1000' and 'Subtract 1' are not plausible distractors."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Reconstructing multi-step unit conversion pathways using dimensional analysis / block 3",
+      "lesson_text": "Which check most directly justifies that the solution, 0.250 kilograms, has the correct units and magnitude?",
+      "source_text": "not about the source",
+      "reason": "The keyed answer (unit cancellation) checks only the units, while 'Checking the answer by converting back to grams' checks the magnitude the question also asks about, so the key is debatable."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Identifying errors in significant figure determination and rounding rules / block 4",
+      "lesson_text": "Step 2: Incorrectly rounds to three significant figures based on 12.45; correct rule is to use the least number of significant figures in the measurements, which is two from 2.1 cm.",
+      "source_text": "not about the source",
+      "reason": "The flawed solution also says '12.45 has three' significant figures (it has four), a common counting mistake that the grading criteria never name, so it goes uncorrected."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Astronaut whose weight on the Moon is about one-sixth of her Earth weight while her mass is unchanged",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "summary": "Bar graph of the elemental composition of Earth (oxygen 49.2%, silicon 25.7%, aluminum 7.5% ...)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Sucrose is always 42.1% carbon, 6.5% hydrogen and 51.4% oxygen by mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Tank of pure oxygen gas as an element and pure substance",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Granite with visible quartz, feldspar and mica as a heterogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: melting wax, condensing steam, sugar dissolving in coffee, grinding a solid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts with oxygen and water while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: burning gasoline, copper with nitric acid, nitroglycerin explosion, banana browning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Everyday changes table: melting ice, dissolving salt, chopping wood versus baking bread, burning gasoline, souring milk",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A drop of hot cooking oil versus a pot of oil at the same temperature (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond summarizing a substance's hazards",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on substance composition / block 1",
+      "summary": "Ice cube melting into liquid water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes based on substance composition / block 3",
+      "summary": "Iron left outside forming rust as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing between extensive and intensive properties of matter / block 2",
+      "summary": "Sugar dissolving in water and recovered by evaporation as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: The SI System and Derived Units of Measurement / block 2",
+      "summary": "Prefix table examples such as 1 megahertz, 1 kilometer, 1 deciliter, 1 microliter, 1 picometer",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: The SI System and Derived Units of Measurement / block 5",
+      "summary": "Densities from gasoline (0.7 g/cm³) to gold (19.3 g/cm³), water about 1.0 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Counting exactly 12 test tubes as an exact number",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Significant-figure rule cases: 1267 g, 70.607 mL, 0.00832, 55.0 g, 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Table of 3090 g, 0.008020 m, 55.0 mL and 70.607 kg rewritten in scientific notation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "Round-to-even: 31.5 rounds to 32 and 32.5 rounds to 32",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "summary": "Adding 1.0023 g and 4.383 g to get 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm to get 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying errors in significant figure determination and rounding rules / block 2",
+      "summary": "Area of a metal rod measured as 12.45 cm by 2.1 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 2",
+      "summary": "Three dispensers with five trials each against a 296 mL target",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Accuracy and Precision in Experimental Data / block 3",
+      "summary": "Target (darts and archery) pictures for the accuracy and precision outcomes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement sets to differentiate accuracy and precision / block 1",
+      "summary": "Thermometer readings of 99.8, 99.9 and 100.0 °C for boiling water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Evaluating replicate measurement sets to differentiate accuracy and precision / block 3",
+      "summary": "Balance readings of 51.2 to 51.3 g for a sample whose true mass is 50.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Predicting the accuracy and precision profile of laboratory dispenser trials / block 2",
+      "summary": "Metal cylinder weighed at 52.1 to 52.2 g when its true mass is 54.0 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 1",
+      "summary": "Two conversion factors built from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis and Unit Conversions / block 3",
+      "summary": "Converting a density from pounds per cubic foot to grams per milliliter",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 6.1: Reconstructing multi-step unit conversion pathways using dimensional analysis / block 2",
+      "summary": "Converting a 250 g lab sample to 0.250 kg",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

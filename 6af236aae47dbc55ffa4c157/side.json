@@ -1,0 +1,400 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 10,
+    "wrong_viewpoint": 0,
+    "off_source_content": 1,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 0,
+    "x3": 0,
+    "x4": 0,
+    "x5": 0,
+    "x6": 4,
+    "x7": 0,
+    "x8": 0,
+    "x9": 1,
+    "x10": 1,
+    "x11": 1,
+    "x12": 1,
+    "x14": 1,
+    "x15": 1
+  },
+  "examples_total": 31,
+  "examples_from_source": 27,
+  "made_up_examples": 3,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 112,
+  "score": 78,
+  "instructions_score": 100,
+  "teaching_score": 92,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 4: SI Units, Density, and Dimensional Analysis / block 4",
+      "lesson_text": "For example, to find the mass in grams of $$4.00\\text{ qt}$$ of liquid with known density relationships:",
+      "source_text": "Volume may be converted from quarts to milliliters via two steps:",
+      "reason": "The chain of factors turns 4.00 qt into a volume in milliliters (as in the source's antifreeze example), not a mass in grams, so the stated goal contradicts the calculation shown."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Predicting macroscopic and microscopic phase behaviors of matter under varying container conditions / block 2",
+      "lesson_text": "A sealed transparent container holds a homogeneous mixture of clean air (a gas) and a small amount of liquid water at room temperature.",
+      "source_text": "A homogeneous mixture, also called a solution, exhibits a uniform composition and appears visually the same throughout.",
+      "reason": "Air with a separate pool of liquid water is not uniform throughout, so it is a heterogeneous mixture; calling it homogeneous misclassifies the system the student must reason from."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Distinguishing physical properties from chemical properties using observable substance changes / block 6",
+      "lesson_text": "Dissolving is a physical property; the chemical identity of sugar remains unchanged.",
+      "source_text": "Physical changes are observed when wax melts, when sugar dissolves in coffee, and when steam condenses into liquid water",
+      "reason": "The source calls sugar dissolving a physical change (solubility would be the property), so this feedback blurs the property-versus-change distinction the exercise is meant to teach."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.2: Categorizing properties as intensive or extensive and identifying physical versus chemical changes / block 2",
+      "lesson_text": "Heating hydrated copper(II) sulfate drives off water as vapor, but the remaining solid is still copper(II) sulfate—no new substance forms, so this is a physical change.",
+      "source_text": "A chemical change always produces one or more types of matter that differ from the matter present before the change.",
+      "reason": "Driving the bound water out of blue hydrated copper(II) sulfate leaves white anhydrous copper(II) sulfate, a different substance with a different composition, so this is a chemical change and the keyed answer is wrong (the 'new substances' option is the correct one)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Identifying and correcting errors in significant figure determination and rounding calculations / block 4",
+      "lesson_text": "Step 3: Incorrect identification of significant figures; the average should be rounded to the same number of decimal places as the measurement with the fewest decimal places, so $$21.56\\text{ mL}$$ rounds to $$21.6\\text{ mL}$$, not $$21.5\\text{ mL}$$.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places",
+      "reason": "Step 3 of the flawed solution already rounds correctly to 21.6 mL, so the grading key marks a correct step as an error, and it never credits the real error in Step 5, which calls 21.5 mL 'two significant figures' though it has three."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Tracing step-by-step unit cancellations in multi-step dimensional analysis setups / block 2",
+      "lesson_text": "A student is given a sample of copper with a mass of $$45.0\\text{ g}$$.",
+      "source_text": "copper 9.0 g/cm3",
+      "reason": "The block's mass and dimensions give a density of about 5 g/cm³, far from copper's 9.0 g/cm³ (also shown in the lesson's own density graph), so the scenario describes a copper sample that cannot exist."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Tracing step-by-step unit cancellations in multi-step dimensional analysis setups / block 2",
+      "lesson_text": "The calculated density is $$5.0\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "45.0 g divided by 9.00 cm³ uses values with three significant figures, so the result should be reported as 5.00 g/cm³, not 5.0 g/cm³."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Calculating mass, volume, and density using metric conversions and water displacement data / block 2",
+      "lesson_text": "Density is $$\\frac{20.0\\text{ g}}{7.5\\text{ cm}^3} = 2.67\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "The displaced volume 7.5 mL has only two significant figures, so the density should be 2.7 g/cm³; the keyed 2.67 g/cm³ breaks the rule the lesson just taught."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Calculating mass, volume, and density using metric conversions and water displacement data / block 2",
+      "lesson_text": "Density is $$\\frac{12.0\\text{ g}}{15.0\\text{ mL}} = 0.80\\text{ g/mL}$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "Both 12.0 g and 15.0 mL have three significant figures, so the answer should be 0.800 g/mL, and a student who answers correctly may be marked wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Explaining the linear relationships, slopes, and zero offsets among Fahrenheit, Celsius, and Kelvin scales / block 5",
+      "lesson_text": "Correct! $$\\frac{9}{5}$$ shows how much larger a Fahrenheit degree is compared to a Celsius degree.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "The same span holds 180 Fahrenheit degrees but only 100 Celsius degrees, so a Fahrenheit degree is smaller (5/9 of a Celsius degree); 9/5 is the number of Fahrenheit degrees in one Celsius degree."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Temperature Scales and Conversions / block 2",
+      "lesson_text": "Intersection Point",
+      "source_text": "not in source",
+      "reason": "The -40 degree point where the Fahrenheit and Celsius scales meet (233.15 K) does not appear in the source."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "lesson_text": "Whether during a physical phase transition or a chemical reaction—such as the fermentation of glucose into ethanol and carbon dioxide—the total mass of the reactants precisely equals the total mass of the products.",
+      "source_text": "not about the source",
+      "reason": "'Phase transition', 'chemical reaction', 'reactants' and 'products' are used before the states of matter (block 2) and physical and chemical changes (Concept 2) are taught, and reactants and products are never defined."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Expands to take both the shape and the entire volume of its container, with particles widely separated.",
+      "source_text": "not about the source",
+      "reason": "The Gas card's image shows visible white smoke or vapor wisps, which are suspended particles or droplets rather than a gas, so it reinforces the common belief that gases are visible clouds."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Zeros sandwiched between two nonzero digits result from actual measurement and are **always significant**.",
+      "source_text": "not about the source",
+      "reason": "The Captive Zeros image is an orange screen reading 'You've gone through 60.0010582011% of your work week', a joke graphic that has nothing to do with measurement or significant figures."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Trailing Zeros",
+      "source_text": "not about the source",
+      "reason": "The Trailing Zeros image is a museum display of an old candy scale with store-history labels, which shows nothing about trailing zeros or how to read them."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Temperature Scales and Conversions / block 5",
+      "lesson_text": "Retained for weather reports, cooking, and clinical use in the United States and territories, Belize, Palau, and the Bahamas.",
+      "source_text": "not about the source",
+      "reason": "The Fahrenheit card's image is a 0-100 dial gauge on industrial equipment with a Japanese label and no Fahrenheit marking, so it does not show the Fahrenheit scale or the weather, cooking or clinical uses the card names."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "lesson_text": "**Accuracy**: How closely a measured value aligns with the true or accepted reference value.",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision is taught with a diagram and the dispenser case study, but no exercise asks students to judge whether a data set is accurate, precise, both or neither."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 4.2: Calculating mass, volume, and density using metric conversions and water displacement data / block 2",
+      "lesson_text": "Not quite. Remember, $$1\\text{ g/cm}^3$$ equals $$1000\\text{ kg/m}^3$$ because of the difference in unit size.",
+      "source_text": "not about the source",
+      "reason": "Converting g/cm³ to kg/m³ needs the cubed length factor (1 m³ = 10^6 cm³), which the lesson never teaches; it only shows single prefixes and 1 mL = 1 cm³."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Calculating mass, volume, and density using metric conversions and water displacement data / block 2",
+      "lesson_text": "Multiply $$9.0\\text{ g/cm}^3$$ by $$1000$$ to get $$9000\\text{ kg/m}^3$$",
+      "source_text": "not about the source",
+      "reason": "The question asks which step correctly applies dimensional analysis, but the key is a bare 'multiply by 1000' with no unit factors, the only options with conversion factors are all set up wrong, and the correct factor setup is missing, so the one unit-free option gives the answer away."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Applying addition, subtraction, multiplication, and division rules to preserve measurement certainty / block 2",
+      "lesson_text": "Round $$92.85$$ to three significant figures using the round-to-even rule.",
+      "source_text": "not about the source",
+      "reason": "This is the exact worked example from Concept 3 block 3 (92.85 becomes 92.8), so students can copy the answer instead of applying the rounding rule to a new number."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.1: Tracing step-by-step unit cancellations in multi-step dimensional analysis setups / block 3",
+      "lesson_text": "What does setting up the dimensional analysis for the volume calculation accomplish before the main density computation?",
+      "source_text": "not about the source",
+      "reason": "The exercise is named for multi-step unit cancellations, but the task is only length times width times height and mass divided by volume, with no conversion factors or units to cancel, so it does not test the dimensional analysis it claims to."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "lesson_text": "**Exact Numbers**: Values with no uncertainty whatsoever.",
+      "source_text": "not about the source",
+      "reason": "The lesson never says that exact numbers (counts, defined factors like 2.54 cm per inch, or the 3 in an average) do not limit significant figures, although Exercise 3.1 divides by 3 and Concept 4 converts with 2.54, a common point of confusion."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Astronaut on the Moon weighs one-sixth as much but keeps her mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Fermentation of glucose into ethanol and carbon dioxide conserves mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Orange mercury(II) oxide decomposes on heating into mercury and oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Mixtures: Italian dressing, chocolate chip cookies, granite; sports drinks, air, maple syrup, gasoline",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Molecules O2, P4, S8, H2O and C6H12O6",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Wax melting, steam condensing, sugar dissolving, grinding vs copper with nitric acid, combustion, food rotting",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Candle wax melting and steam condensing on a lid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron nail rusting in air and water",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Striking a match and searing red meat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop of hot oil vs pot of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Combining two 1-L volumes gives 2 L; two cups of water at 20 °C stay at 20 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Counting eggs in a carton; defined relations 1 ft = 12 in, 1 in = 2.54 cm, 1 g = 0.001 kg",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Graduated cylinder meniscus read as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Coin weighed as 6.72 g vs 6.723 g on two balances",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero rules shown with 0.00832407 mL, 70.607 mL, 55.0 g and 1,300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Round-to-even: 92.85 to 92.8 and 0.90275 to 0.9028",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "1.0023 g + 4.383 g, 486 g - 421.23 g, 0.6238 cm x 6.6 cm, 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "summary": "Three cough syrup dispensers targeting 296 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Units, Density, and Dimensional Analysis / block 4",
+      "summary": "Lead cube 2.00 cm edge, 90.7 g, density 11.3 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Units, Density, and Dimensional Analysis / block 4",
+      "summary": "Iron sample 31.48 g raises water from 25.5 to 29.5 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Units, Density, and Dimensional Analysis / block 4",
+      "summary": "34-inch vertical jump converted to 86 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Units, Density, and Dimensional Analysis / block 4",
+      "summary": "4.00 qt converted to 3.78 x 10^3 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Conversions / block 4",
+      "summary": "Body temperature 37.0 °C converted to 98.6 °F",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Table salt, sports drink and granite countertop to classify",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Predicting macroscopic and microscopic phase behaviors of matter under varying container conditions / block 2",
+      "summary": "Sealed container of air and liquid water cooled in a freezer",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing physical properties from chemical properties using observable substance changes / block 1",
+      "summary": "Glass of water frozen into ice and melted back",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing physical properties from chemical properties using observable substance changes / block 3",
+      "summary": "Iron nail left in the rain rusts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing physical properties from chemical properties using observable substance changes / block 5",
+      "summary": "Sugar dissolving in hot coffee",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying and correcting errors in significant figure determination and rounding calculations / block 2",
+      "summary": "Student averages cylinder readings 21.60, 21.5 and 21.58 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Tracing step-by-step unit cancellations in multi-step dimensional analysis setups / block 2",
+      "summary": "Copper block 45.0 g measuring 2.50 x 3.00 x 1.20 cm",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

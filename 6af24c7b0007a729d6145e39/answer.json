@@ -1,0 +1,459 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories / block 2",
+      "lesson_text": "Chemists use Dalton's atomic theory to explain why water is made of two hydrogen atoms and one oxygen atom, and how its molecular structure leads to properties like boiling and freezing.",
+      "source_text": "The description of water as comprising two hydrogen atoms and one oxygen atom, and the explanation of freezing and boiling in terms of attractions between these molecules, is within the microscopic arena.",
+      "reason": "Dalton's atomic theory does not explain why water has two hydrogen atoms per oxygen atom (Dalton himself gave water the formula HO), and the source explains boiling and freezing by attractions between molecules, not by Dalton's theory."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 9",
+      "lesson_text": "$$K = 37.0 + 273.15 = 310.15\\ \\text{K}$$",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction). ... The 273.15 in these equations has been determined experimentally, so it is not exact.",
+      "reason": "37.0 has one decimal place, so by the source's addition rule the answer is 310.2 K; the worked example reports 310.15 K, which breaks the significant-figure rule the lesson taught in Concept 4."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying significant figures and correcting rounding errors in mathematical calculations / block 2",
+      "lesson_text": "A student measures the mass of a salt sample as $$0.0520\\text{ g}$$ and its volume as $$12.6\\text{ mL}$$.",
+      "source_text": "Although there are exceptions, most liquids and solids have densities that range from about 0.7 g/cm3 (the density of gasoline) to 19 g/cm3 (the density of gold).",
+      "reason": "These numbers give solid salt a density of about 0.004 g/mL, far below any solid in the source's range, so the exercise presents an impossible density as the correct result."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Analyzing the density relationship between mass, volume, and unit consistency / block 7",
+      "lesson_text": "Density $$= \\frac{45.0\\text{ g}}{5.00\\text{ cm}^3} = 9.0\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "Both measurements have three significant figures, so the answers should be 9.00 g/cm3 here and 0.790 g/mL for the ethanol question in the same block, but the keys give 9.0 and 0.79, breaking the rule the lesson just taught."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Solving multi-step unit conversion and density problems using dimensional analysis / block 2",
+      "lesson_text": "Density is $$\\frac{31.6\\text{ g}}{40.0\\text{ cm}^3} = 0.79\\text{ g/cm}^3$$.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "31.6 g and 40.0 cm3 each have three significant figures, so the result should be 0.790 g/cm3, not 0.79."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.2: Performing temperature conversions between relative and absolute temperature scales / block 2",
+      "lesson_text": "Convert $$68.0\\ ^\\circ\\text{F}$$ to Celsius. Show your answer to two decimal places.",
+      "source_text": "A second important principle of uncertainty is that results calculated from a measurement are at least as uncertain as the measurement itself.",
+      "reason": "68.0 °F is known only to one decimal place, so the answer is 20.0 °C; requiring 20.00 °C makes the result look more precise than the measurement, against the source's rules."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "Chromium resists oxidation, making it a protective coating for other metals.",
+      "source_text": "Iron, for example, combines with oxygen in the presence of water to form rust; chromium does not oxidize (Figure 1.19).",
+      "reason": "The use of chromium as a protective coating for other metals is not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "ripening bananas undergo enzyme-catalyzed chemical changes producing brown pigments and new flavors",
+      "source_text": "A banana turning brown is a chemical change as new, darker (and less tasty) substances form.",
+      "reason": "Enzymes and brown pigments are not in the source, which only says new, darker substances form."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 1",
+      "lesson_text": "Exact numbers possess an infinite number of significant figures.",
+      "source_text": "not in source",
+      "reason": "The source says counted and defined numbers are exact but never says they have an infinite number of significant figures."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 1",
+      "lesson_text": "It reflects the average kinetic energy of the particles in a substance.",
+      "source_text": "not in source",
+      "reason": "The source defines temperature only as the hotness or coldness of a substance; kinetic energy of particles is not covered."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 4",
+      "lesson_text": "Starts at absolute zero ($$0\\ \\text{K}$$), where molecular motion stops.",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved.",
+      "reason": "The claim that molecular motion stops is not in the source, and it oversimplifies, since particles keep a minimum motion even at 0 K."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "lesson_text": "Dalton's atomic theory explaining that matter consists of indivisible atoms.",
+      "source_text": "Other aspects of Dalton’s atomic theory are still used but with minor revisions",
+      "reason": "Giving indivisible atoms as the model example of a well-tested theory, with no note that this part was revised, leaves students with the common mistaken belief that atoms cannot be divided."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 5",
+      "lesson_text": "The specialized language of chemistry—chemical formulas, periodic table symbols, phase symbols, drawings, and mathematical equations—used to connect observations to atomic behavior.",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain card shows a 3D ball-and-stick molecule floating in a bubble, which looks like the microscopic domain, with no formula, symbol or equation, so it blurs the very difference the cards teach."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories / block 3",
+      "lesson_text": "Which statement best explains why the example about sugar dissolving in hot water illustrates a hypothesis?",
+      "source_text": "not about the source",
+      "reason": "Each example card is already titled Hypothesis, Law or Theory and each question names the category, so students only match a definition and never have to tell the three apart, which is what the objective asks."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying observations into macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "When the student draws a diagram showing sodium and chloride ions separated in water, which domain is being used?",
+      "source_text": "Chemical symbols (such as those used in the periodic table), chemical formulas, and chemical equations are part of the symbolic domain, as are graphs, drawings, and calculations.",
+      "reason": "The key accepts only Microscopic domain, but the source and the lesson's own Symbolic Domain card count drawings as symbolic, so the Symbolic domain option is also defensible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying observations into macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "Experimental domain",
+      "source_text": "not about the source",
+      "reason": "Each question pads the three real domains with a made-up one (Experimental or Physical domain) that any student who read the concept can rule out at once."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying observations into macroscopic, microscopic, and symbolic domains / block 4",
+      "lesson_text": "Physical domain",
+      "source_text": "not about the source",
+      "reason": "The questions again add a domain that does not exist (Physical or Experimental domain) as a distractor, so each item is really a three-option question with an obvious throwaway."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 1",
+      "lesson_text": "Some materials appear to display properties of multiple states at once due to scale or composition:",
+      "source_text": "not about the source",
+      "reason": "Sand and clouds are described as mixing the properties of states and as physical mixtures before the lesson says what defines a solid, liquid or gas (block 2) or a mixture (blocks 5 and 6)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 1",
+      "lesson_text": "Although people often use the terms interchangeably in daily speech, scientists distinguish clearly between **mass** and **weight**:",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to distinguish mass from weight, but no exercise asks them to; weight appears only once as a wrong option in a density question."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 2",
+      "lesson_text": "Matter commonly exists in three physical states on Earth, along with a fourth high-energy state prominent throughout the broader universe.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 names the physical states of matter, and Exercise 2.2 says it covers them, but no question asks students to use the properties of solids, liquids, gases or plasma."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "Dissolving sugar in coffee, grinding a solid into a fine powder, or magnetizing and demagnetizing metals (such as in security tags).",
+      "source_text": "grinding solids into powders (which can sometimes yield noticeable changes in color)",
+      "reason": "The lesson drops the source's note that a physical change can change color while every chemical-change example it gives is a color change (rust, browning meat and bananas), so the common belief that a color change always means a chemical change is left in place."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "A single splatter droplet of cooking oil and an entire stockpot of hot oil share the same temperature (intensive), but the pot holds far greater heat (extensive).",
+      "source_text": "not about the source",
+      "reason": "All four cards repeat examples already given in blocks 1 and 3 of the same concept (melting wax and burning match, rust and chromium, cooked meat and banana, oil drop and pot)."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Distinguishing physical properties and changes from chemical properties and changes / block 3",
+      "lesson_text": "Which statement best explains why melting ice cubes in a glass is considered a physical change?",
+      "source_text": "not about the source",
+      "reason": "Each example card already states whether it is a physical or chemical change or property and why, so the quiz only asks students to find that sentence again instead of classifying a new case."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "lesson_text": "When dropping the digit $$5$$, standard scientific rounding follows the **round-to-even rule** to eliminate statistical bias:",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks for proper rounding, but no exercise asks students to round a number where the dropped digit is 5."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 4",
+      "lesson_text": "Round the result to the same number of **decimal places** as the measurement with the fewest decimal places (the least certain position).",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to add or subtract measurements and round the result; Exercise 4.1 only practices the division rule."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 5",
+      "lesson_text": "Measurements are tightly clustered together and agree closely with the true target value.",
+      "source_text": "not about the source",
+      "reason": "The pictures do not show the patterns named: the Accurate and Precise target has arrows spread over several rings and one off the target, the Precise but Not Accurate picture shows empty targets, the Accurate but Not Precise picture shows a single dart in the bullseye, and the Neither picture shows a bow with no target."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Identifying significant figures and correcting rounding errors in mathematical calculations / block 4",
+      "lesson_text": "Step 2: Rounds answer to 5 decimal places based on mass and volume decimal places; correct rule is to use the number of significant figures from the least precise measurement (3 significant figures from volume), so answer should be rounded to 3 significant figures: $$0.00413\\text{ g/mL}$$.",
+      "source_text": "Leading zeros, however, are never significant—they merely tell us where the decimal point is located.",
+      "reason": "The flawed solution says 0.0520 g has 4 significant figures, a predictable leading-zero mistake, but the rubric never asks students to catch it, counts the correct rounding in Step 3 as an error, and gives a corrected answer identical to the flawed one."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 4",
+      "lesson_text": "While the SI unit of density is $$\\text{kg/m}^3$$",
+      "source_text": "not about the source",
+      "reason": "The term SI unit is used here and again in Concept 6, but the lesson never says what the SI (International System of Units) is."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 3",
+      "lesson_text": "Density is an intensive property defined as the ratio of an object's mass to its volume, independent of sample size.",
+      "source_text": "not about the source",
+      "reason": "Concept 3 block 3 already introduced d = m/V and explained why density is intensive, so the same equation and idea are taught again in a second concept."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.1: Analyzing the density relationship between mass, volume, and unit consistency / block 5",
+      "lesson_text": "If you double the mass of a sample but keep its volume the same, what happens to the density?",
+      "source_text": "not about the source",
+      "reason": "For one substance, more mass means more volume and the same density, as Concept 3 taught, but this question and its feedback say density doubles without explaining that this needs a different or compressed material, which feeds the common belief that a bigger sample is denser."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 7",
+      "lesson_text": "To convert from Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add $$32$$.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "The formula follows the reference-point table with no explanation that 9/5 comes from 180 Fahrenheit degrees per 100 Celsius degrees and 32 from the different freezing points, so students cannot see how the table leads to the equation."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 4",
+      "lesson_text": "Used mainly in the United States. Water freezes at $$32\\ ^\\circ\\text{F}$$ and boils at $$212\\ ^\\circ\\text{F}$$.",
+      "source_text": "not about the source",
+      "reason": "The Fahrenheit card shows a dial marked in °C and the kelvin card shows a blood-glucose meter reading 103 mg/dL, so neither picture matches the scale it illustrates."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Performing temperature conversions between relative and absolute temperature scales / block 2",
+      "lesson_text": "Correct! $$20.0 + 273.15 = 293.15\\ \\text{K}$$.",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "By the lesson's own addition rule the answer is 293.2 K, which is not among the choices, so the key rewards a result with too many decimal places."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Hypothesis example: solids dissolve faster at higher temperatures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Law example: gas pressure directly proportional to temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Theory example: Dalton's atomic theory",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 4",
+      "summary": "Water seen in the macroscopic, microscopic and symbolic domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories / block 2",
+      "summary": "Sugar dissolving faster in hot water as a hypothesis",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories / block 2",
+      "summary": "Gas pressure rising with temperature in a sealed container as a law",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific laws, and theories / block 2",
+      "summary": "Dalton's atomic theory applied to water's structure",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Classifying observations into macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Salt dissolving in water seen in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Classifying observations into macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Boiling water seen in the three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 1",
+      "summary": "Astronaut's mass and weight on the Moon",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 1",
+      "summary": "Sand and clouds showing properties of more than one state",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 4",
+      "summary": "Brewing beer conserves mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 4",
+      "summary": "Lead-acid car battery conserves matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States, Conservation, and Classification of Matter / block 6",
+      "summary": "Sample materials for each class (iron, gold, water, sucrose, sports drink, air, Italian dressing, granite and others)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Applying the law of conservation of matter to physical and chemical changes / block 2",
+      "summary": "Ice melting in a sealed container, total mass compared before and after",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, sugar in coffee, grinding, magnetizing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical properties and changes: iron vs chromium, nitroglycerin vs neon, copper and nitric acid, burning match, cooking meat, browning banana",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus cup of milk for mass, volume and temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop of hot oil versus a pot of hot oil for heat and temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Cards: wax vs match, rust vs chromium, cooked steak and banana, oil drop vs pot",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing physical properties and changes from chemical properties and changes / block 2",
+      "summary": "Ice cubes melting in a glass as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing physical properties and changes from chemical properties and changes / block 2",
+      "summary": "Iron rusting outdoors as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing physical properties and changes from chemical properties and changes / block 2",
+      "summary": "Measuring water's boiling point as a physical property",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Evaluating whether measured properties are extensive or intensive / block 2",
+      "summary": "Cup versus gallon of tap water measured for mass, volume, temperature and density",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 1",
+      "summary": "Eggs in a carton and defined unit relationships as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 1",
+      "summary": "Reading 21.6 mL on a graduated cylinder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 2",
+      "summary": "Counting significant figures in 1267 m, 70.607 mL, 0.00832407 mL, 55.0 g and 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "summary": "Rounding 92.85 to 92.8 and 6.8752 to 6.88",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 3",
+      "summary": "Rounding 31.55 up to 31.6",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 4",
+      "summary": "Adding 1.0023 g and 4.383 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 4",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, and Significant Figures / block 5",
+      "summary": "Cough syrup dispensers showing accuracy and precision",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying significant figures and correcting rounding errors in mathematical calculations / block 2",
+      "summary": "Flawed density calculation for a 0.0520 g salt sample in 12.6 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 1",
+      "summary": "Converting a 125 g frisbee to ounces",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 4",
+      "summary": "Density of a 2.00 cm lead cube with mass 90.7 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 4",
+      "summary": "Density of a piece of rebar by water displacement",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Thermal Conversions / block 9",
+      "summary": "Converting body temperature of 37.0 °C to kelvin and Fahrenheit",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 2",
+      "lesson_text": "Superficial conversational compliance; ineffective if prior domain knowledge is extremely low.",
+      "source_text": "The learning gains from natural language interactions have been strongest for underachieving college students ... conversational interactions with AutoTutor are not ideal for high-achieving college students",
+      "reason": "The source says open-ended dialogue tutors like AutoTutor help lower-achieving students most and suit high achievers least, so naming low prior knowledge as the risk turns the finding upside down."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 2",
+      "lesson_text": "Framework adapted from Harvard Graduate School of Education (2026) and National Academies of Sciences (2018).",
+      "source_text": "not in source",
+      "reason": "The six touchpoints come from the week 2 slides, which name no author, and How People Learn II has no such framework, so the credit line is not supported by the sources."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Asset-Based Frameworks: Funds of Knowledge, Cultural Modeling, and Third Spaces / block 3",
+      "lesson_text": "Culturally sustaining discourse; bidirectional translanguaging in third spaces",
+      "source_text": "not in source",
+      "reason": "Translanguaging is a new concept that none of the sources mention."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Asset-Based Frameworks: Funds of Knowledge, Cultural Modeling, and Third Spaces / block 4",
+      "lesson_text": "yet experienced acute distress and underperformance when presented with identical problems in abstract classroom formats",
+      "source_text": "players were visibly distressed. They shrunk down in their seats; they hemmed and hawed; they told the researcher how poor they were at mathematics ... they felt ill-equipped to solve the same problems in the classroom context.",
+      "reason": "The source reports distress and a felt lack of ability, not measured underperformance, so the lesson adds a finding the study summary does not give."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 4",
+      "lesson_text": "The Expertise Reversal Hazard in Generative Strategies",
+      "source_text": "They found that prior knowledge moderated the effectiveness of self-explanation",
+      "reason": "The source describes prior knowledge moderating self-explanation; the named 'expertise reversal' effect is not in the source, and the established term usually means the opposite direction (methods that help novices hurt experts)."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 2",
+      "lesson_text": "Over-reliance on closed-loop algorithms; deskilling of teacher diagnostic capacity.",
+      "source_text": "not in source",
+      "reason": "The table is credited to How People Learn II Chapter 8, but this risk of deskilling teachers does not appear in any source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 2",
+      "lesson_text": "Cognitive split-attention if representations are cluttered or poorly synchronized.",
+      "source_text": "not in source",
+      "reason": "Split attention is a cognitive load idea the sources never mention, yet it is presented as part of a How People Learn II synthesis."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 6",
+      "lesson_text": "Rather than replacing the instructor, intelligent tools free educators to provide targeted interventions to struggling dyads while higher-performing groups tackle open-ended extensions.",
+      "source_text": "not in source",
+      "reason": "The source's SimCalc account covers curriculum, storyline, paper materials, professional development and deeper outcome measures, and says nothing about tools freeing teachers to help struggling pairs, so this is new content presented as SimCalc evidence."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 1",
+      "lesson_text": "### Deconstructing Workplace Learning: Surface Formats vs. Structural Ecologies",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens with workplace learning theory; the requested opening prompt to list today's seen and hidden AI is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "No part of the lesson covers Tessa and Dock, moving from last week's map to the learner's own context, or what the capstone asks."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The requested section on visible and invisible AI from the Compass page is missing; only Exercise 4.2's title uses the phrase."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 2",
+      "lesson_text": "The Six Touchpoints of a Workplace Learning Ecology",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six places are taught, but the requested look at real learning ecologies (the two apprentices' maps from the slides) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 2",
+      "lesson_text": "Workplace System Example",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The touchpoint examples stay in the workplace and are never adapted for home and school as asked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.1: Analyzing systemic interactions across adult learning ecologies and touchpoints / block 2",
+      "lesson_text": "The leader should map each teacher’s learning ecology, identify which touchpoints are underutilized, and intentionally scaffold connections among them to support situated, authentic learning.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The requested activity of mapping one learner's seen and hidden AI across home, school and work is replaced by a quiz on teachers' training touchpoints, with no marking of where AI connects to people or stands in for them."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Recap: the six questions",
+      "reason": "The recap of the six questions is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The slides' focus areas (emerging questions for early childhood, K-12, and higher education and workforce) are never presented as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "There is no capstone brief, scoping guide or worked scoping example."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The capstone scoping activity is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "The lesson ends with Exercise 4.2; there is no knowledge check on this week's ideas and no Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "The closing adopt, adapt or reject judgment is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Whole lesson (no block)",
+      "lesson_text": "Designing Learning Ecologies and Educational Technologies",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The Week 2 capstone submission step is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 3",
+      "lesson_text": "Derived from experimental and classroom findings reviewed in How People Learn II (2018).",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2, 3 and 4 (asset-based frameworks, memory strategies, technology affordances) are built on How People Learn II, so most of the lesson rests on a supporting source rather than the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Critique deficit models of schooling by proposing instructional practices that leverage learners' cultural practices, funds of knowledge, and third spaces as cognitive and pedagogical assets.",
+      "source_text": "Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage ... This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives are replaced with asset-based pedagogy and memory-strategy goals instead of the first three course objectives (judging AI by age and stage, weighing evidence about AI and learning, designing AI-enabled experiences)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 2.1: Translating community funds of knowledge into instructional third spaces / block 2",
+      "lesson_text": "A middle school math teacher invites students to analyze basketball scoring averages and percentages, drawing on their community-based expertise to scaffold formal statistical concepts.",
+      "source_text": "make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "All three Exercise 2.1 examples are classroom teacher scenarios, with no learning and development (L&D) leader or district leader."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 3",
+      "lesson_text": "AI Mediation -> Joint Attention",
+      "source_text": "not about the source",
+      "reason": "The mind map uses 'Joint Attention' (never defined anywhere) and 'Organizational Climate', 'Transfer Norms' and 'Error Tolerance' before card 4 explains transfer climate."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 4",
+      "lesson_text": "Adults learn tradecraft through progressive boundary-crossing: starting with low-stakes observation and scaffolding before assuming independent ownership over critical client deliverables.",
+      "source_text": "not about the source",
+      "reason": "This card re-explains legitimate peripheral participation, which block 1 already taught, and adds nothing new."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 1",
+      "lesson_text": "In an era of non-linear **Protean careers** (*Hall & Mirvis, 1995*), where professionals manage their own cross-functional trajectories, learning is self-directed and distributed rather than externally mandated.",
+      "source_text": "not about the source",
+      "reason": "It jumps from Priya's assigned project to career-wide self-direction without showing how Case C gives Priya more control over her learning."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 1",
+      "lesson_text": "Because memory is reconstructive, instructional design must account for the critical distinction between **factual retention** and **conceptual transfer** (Koedinger et al., 2013)",
+      "source_text": "not about the source",
+      "reason": "The 'because' link is never explained: nothing shows why reconstructive memory leads to the retention-versus-transfer distinction."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 1",
+      "lesson_text": "When an experience is encoded and consolidated, distributed neural assemblies across cortical and subcortical structures are reorganized.",
+      "source_text": "For example, in practicing the guitar, a student’s eyes pass over the spots of ink on the sheet music",
+      "reason": "Reconstructive memory is explained only in abstract neural terms, with no concrete case such as the source's guitar example to make it graspable."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 4",
+      "lesson_text": "Systems-Level EdTech Integration",
+      "source_text": "not about the source",
+      "reason": "The mind map's four branches and block 6's five systems-approach components describe the same idea with different groupings, and the lesson never links one to the other."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 4",
+      "lesson_text": "Deliberate and Effortful Practice",
+      "source_text": "not about the source",
+      "reason": "The card's photo shows the word 'AUDIENCE' being written on a whiteboard, which has nothing to do with deliberate practice."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 2",
+      "lesson_text": "Retrieval Practice",
+      "source_text": "not about the source",
+      "reason": "The photo is an open notebook full of notes, which suggests reviewing notes, the very thing the card contrasts retrieval practice with."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 2",
+      "lesson_text": "Interleaved Categorization",
+      "source_text": "not about the source",
+      "reason": "The photo is a physics force diagram from a textbook, which does not show mixing different problem types or categories."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 5",
+      "lesson_text": "Level 2: Student-Directed Individual Learning",
+      "source_text": "not about the source",
+      "reason": "The photo shows six students crowded around one laptop, which suggests group work rather than individual, self-directed learning."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 5",
+      "lesson_text": "Three Levels of Classroom Technology Integration",
+      "source_text": "not about the source",
+      "reason": "The three integration levels are placed between the systems mind map and the SimCalc systems approach, with no link to either or to the affordances, so the concept page mixes unrelated ideas."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 2",
+      "lesson_text": "ALEKS, MoFaCTS, Cognitive Tutor",
+      "source_text": "not about the source",
+      "reason": "A whole column lists product names (MoFaCTS, SMALLab, Dragoon, iDRIVE) that are never explained, giving them as much space as the affordance-function ideas students actually need."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 2",
+      "lesson_text": "Evidence-Based Cognitive Learning Strategies",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks students to design interventions that combine the four strategies, but the exercises only ask them to name a strategy or predict an outcome, never to design one."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 2",
+      "lesson_text": "Pedagogical Alignment of Technological Affordances",
+      "source_text": "not about the source",
+      "reason": "Objective 3, matching affordances to the cognitive processes they support, is never practiced; Exercises 4.1 and 4.2 test only implementation context."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.2: Critiquing deficit orientations through cultural modeling and communal participation / block 2",
+      "lesson_text": "Provide an example of how this framework can support communal participation and identity development in a school or district setting.",
+      "source_text": "not about the source",
+      "reason": "Communal participation is never taught in Concept 2, yet the exercise title and this question depend on it."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 4.2: Evaluating developmental impacts of visible and invisible AI integration / block 2",
+      "lesson_text": "Explain how the affordances of the AI tool interact with visible and invisible system factors to shape developmental outcomes.",
+      "source_text": "not about the source",
+      "reason": "Visible and invisible AI, and developmental outcomes, are never taught, so students cannot apply them here."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Critiquing deficit orientations through cultural modeling and communal participation / block 2",
+      "lesson_text": "In Nasir and McKinney de Royston's (2013) study, students demonstrated advanced mathematical reasoning in which everyday context?",
+      "source_text": "not about the source",
+      "reason": "Recalling the word 'basketball' (and the term 'funds of knowledge' in Q3) tests memory of a detail, while the objective asks students to critique and propose practices."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.1: Inducing cognitive principles underlying retrieval, spacing, and interleaving schedules / block 8",
+      "lesson_text": "Clearly identifies the shared cognitive principle (reconstructive retrieval with desirable difficulties)",
+      "source_text": "not about the source",
+      "reason": "The lesson taught that interleaving works by contrasting categories, not by reconstructive retrieval, so the expected single principle does not fit Example 2 and the teaching does not prepare students for it."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing systemic interactions across adult learning ecologies and touchpoints / block 3",
+      "lesson_text": "Intentionally scaffold connections among touchpoints to promote authentic practice",
+      "source_text": "not about the source",
+      "reason": "The correct answers copy wording from the solution shown above the quiz, and the distractors use giveaway words like 'only' and 'exclusively', so students can match words without reasoning."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Translating community funds of knowledge into instructional third spaces / block 3",
+      "lesson_text": "Cultural Modeling, because it uses literary analysis strategies from rap lyrics to interpret sports data.",
+      "source_text": "not about the source",
+      "reason": "The distractors are obviously wrong (rap lyrics for sports data, and a 'Deficit Model' option when the question asks for an asset-based framework), so the key is easy to spot."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Critiquing deficit orientations through cultural modeling and communal participation / block 2",
+      "lesson_text": "Students analyze themes of social justice in both comic books and classic literature through collaborative discussion",
+      "source_text": "not about the source",
+      "reason": "This comics-plus-classics case is keyed as a third space, while Exercise 2.1 taught the same kind of case as Cultural Modeling, so two answers could be right; the other options (such as correcting vernacular speech) are obviously wrong."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Deconstructing systems-level alignment of technological affordances with cognitive goals / block 3",
+      "lesson_text": "Check if the platform's user interface was visually appealing.",
+      "source_text": "not about the source",
+      "reason": "The distractors (logins, the age of the technology, visual appeal) are implausible, and the keys repeat the given solution's words about dashboard data and curricular alignment."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 1",
+      "lesson_text": "Priya receives access to an AI-driven platform delivering personalized micro-content, diagnostic quizzes, and just-in-time answers.",
+      "source_text": "Learning in the flow of work means learning through real work, with other people, not just getting answers at the moment of need.",
+      "reason": "The lesson never tackles the likely belief that just-in-time AI answers are learning in the flow of work, a belief the slides take on directly."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 1",
+      "summary": "Priya, a financial services consultant moved onto a healthcare project, in Cases A, B and C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Workplace and Adult Learning Ecologies Across Multiple Touchpoints / block 2",
+      "summary": "Priya's sources mapped to the six touchpoints (course, platform, sister's video, Slack channel, project lead, shadowing the workshop)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Asset-Based Frameworks: Funds of Knowledge, Cultural Modeling, and Third Spaces / block 2",
+      "summary": "Lee's cultural modeling using rap lyrics as a bridge to literary analysis",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Asset-Based Frameworks: Funds of Knowledge, Cultural Modeling, and Third Spaces / block 4",
+      "summary": "Nasir and McKinney de Royston basketball averages study on identity and competence",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Cognitive Strategies for Robust Knowledge Retention and Conceptual Transfer / block 4",
+      "summary": "Ionas et al. chemistry study where self-explanation helped high-knowledge students and hindered low-knowledge students",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 3",
+      "summary": "Dynarski et al. federal trial of software in 132 schools with mixed impacts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Systems-Level Integration of Educational Technologies / block 6",
+      "summary": "Texas SimCalc study as a systems approach to technology",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Analyzing systemic interactions across adult learning ecologies and touchpoints / block 2",
+      "summary": "District L&D leader supporting mid-career teachers adopting project-based learning across touchpoints",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Evaluating structural flaws in workplace training transfer and organizational climate / block 2",
+      "summary": "District L&D leader reviewing a failed training initiative (bootcamp, AI platform, Slack group)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Translating community funds of knowledge into instructional third spaces / block 2",
+      "summary": "Middle school math teacher using basketball scoring averages to teach statistics",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Translating community funds of knowledge into instructional third spaces / block 2",
+      "summary": "Students reading the Iliad alongside Batman and X-Men comics on themes of revenge and intolerance",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Translating community funds of knowledge into instructional third spaces / block 2",
+      "summary": "Bilingual dialogue circles linking home stories to academic topics",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing cognitive principles underlying retrieval, spacing, and interleaving schedules / block 1",
+      "summary": "Weekly ungraded quizzes for teachers on formative assessment strategies (retrieval practice)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing cognitive principles underlying retrieval, spacing, and interleaving schedules / block 3",
+      "summary": "Instructional coaches alternating observation rubrics (interleaving)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Inducing cognitive principles underlying retrieval, spacing, and interleaving schedules / block 5",
+      "summary": "Science reviews scheduled at a day, a week and a month (spacing)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Predicting memory consolidation and conceptual transfer outcomes under elaborative interrogation / block 2",
+      "summary": "L&D leader using why and how questions in teacher professional development with a two-week follow-up",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Deconstructing systems-level alignment of technological affordances with cognitive goals / block 2",
+      "summary": "District leader evaluating an AI math platform with uneven pilot results across classrooms",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating developmental impacts of visible and invisible AI integration / block 2",
+      "summary": "AI feedback tool piloted in three schools with different learning ecologies and outcomes",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

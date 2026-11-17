@@ -1,0 +1,474 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 6,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 2,
+    "x2": 0,
+    "x3": 1,
+    "x4": 2,
+    "x5": 1,
+    "x6": 5,
+    "x7": 0,
+    "x8": 0,
+    "x9": 4,
+    "x10": 2,
+    "x11": 3,
+    "x12": 0,
+    "x14": 1,
+    "x15": 0
+  },
+  "examples_total": 34,
+  "examples_from_source": 21,
+  "made_up_examples": 12,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 105,
+  "score": 79,
+  "instructions_score": 100,
+  "teaching_score": 85,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "A single spattered droplet of boiling cooking oil and an entire gallon pot of that oil share the exact same temperature ($$100\\text{ }^\\circ\\text{C}$$.",
+      "source_text": "A drop of hot cooking oil spattered on your arm causes brief, minor discomfort, whereas a pot of hot oil yields severe burns. Both the drop and the pot of oil are at the same temperature (an intensive property), but the pot clearly contains much more heat (extensive property).",
+      "reason": "The source gives no temperature and says only hot oil, and cooking oil does not boil at 100 °C (that is the boiling point of water), so the added number is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "The full pot contains exponentially more total thermal energy than the tiny spattered droplet",
+      "source_text": "The value of an extensive property is directly proportional to the amount of matter in question.",
+      "reason": "Heat is an extensive property, so it grows in direct proportion to the amount of oil, not exponentially, and the lesson's word contradicts the rule it is teaching."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Differentiating physical versus chemical changes based on experimental observations and substance identity / block 2",
+      "lesson_text": "State changes are physical properties because they do not alter the substance's identity.",
+      "source_text": "A physical change is a change in the state or properties of matter without any accompanying change in the chemical identities of the substances contained in the matter.",
+      "reason": "A change of state is a physical change, not a physical property, so the feedback blurs the property-versus-change difference that the concept teaches."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Analyzing multi-step dimensional analysis setups to verify proper unit cancellation and factor orientation / block 3",
+      "lesson_text": "Correct! Grams are the SI base unit for mass.",
+      "source_text": "The standard unit of mass in the SI system is the kilogram (kg).",
+      "reason": "The SI base unit of mass is the kilogram, not the gram, so question 2's answer key, feedback and explanation are wrong (and Exercise 4.2 then says kilogram)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Calculations of Derived Properties: Density and Temperature Scales / block 1",
+      "lesson_text": "Calculations of Derived Properties: Density and Temperature Scales",
+      "source_text": "The SI unit of temperature is the kelvin (K). ... We can derive many units from the seven SI base units. For example, we can use the base unit of length to define a unit of volume, and the base units of mass and length to define a unit of density.",
+      "reason": "Block 1 defines derived properties as quantities formed by combining base measurements, but temperature is one of the seven SI base quantities (the lesson itself calls the kelvin an SI base unit), so it is not a derived property."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Calculating density using mass and volume displacement data to identify unknown substances / block 2",
+      "lesson_text": "Next, they drop the cube into a graduated cylinder containing $$20.0\\ \\text{mL}$$ of water. After the cube is fully submerged, the water level rises to $$26.0\\ \\text{mL}$$.",
+      "source_text": "Transfer the iron block to the beaker and notice that it sinks, displacing a volume of water equal to its own volume and causing the water level to rise to 29.5 mL.",
+      "reason": "A fully submerged cube with 2.00 cm edges has a volume of 8.00 cm3 and must displace 8.0 mL, not 6.0 mL, so the data cannot happen and the prediction task has no sound answer."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Cellulose and sulfur react vigorously with oxygen",
+      "source_text": "During the combustion of a match, cellulose in the match and oxygen from the air undergo a chemical change to form carbon dioxide and water vapor.",
+      "reason": "The source's match example names only cellulose and oxygen; sulfur in the match is an added fact not in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Mass, volume, heat capacity, total energy",
+      "source_text": "The mass and volume of a substance are examples of extensive properties ... but the pot clearly contains much more heat (extensive property).",
+      "reason": "Heat capacity and total energy are not in the source, which gives mass, volume and heat as extensive properties."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 1",
+      "lesson_text": "Exact numbers possess an infinite number of significant figures.",
+      "source_text": "not in source",
+      "reason": "The source explains exact numbers as counted or defined values but never states this significant-figure rule."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "Compounds can be broken down into their constituent elements only by chemical changes",
+      "source_text": "not about the source",
+      "reason": "Concept 1 depends on chemical changes and reactions (and writes Mass_reactants = Mass_products) before Concept 2 defines a chemical change, and reactants and products are never defined at all."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 2",
+      "lesson_text": "Standard metric prefixes used as fractional and multiple conversion factors relative to SI base units.",
+      "source_text": "not about the source",
+      "reason": "The International System of Units (SI) and its base units are never introduced, yet the lesson and later exercises rely on what an SI base unit is."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Calculations of Derived Properties: Density and Temperature Scales / block 1",
+      "lesson_text": "Although mass ($$m$$) and volume ($$V$$) are both **extensive properties** that vary with sample size, their ratio is an **intensive property** that is characteristic of the substance itself at a given temperature.",
+      "source_text": "not about the source",
+      "reason": "The lesson says the ratio of two extensive properties is intensive but never gives the reason (doubling the sample doubles both mass and volume, so their ratio stays the same), which is not obvious to a beginner."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 3",
+      "lesson_text": "General algebraic chain for a multi-step conversion, demonstrating sequential cancellation of unwanted units from denominator to numerator.",
+      "source_text": "not about the source",
+      "reason": "Concept 4 shows the factor-label method only as a placeholder chain and a list of steps, with no worked conversion with real numbers and units, so students never see the cancellation done."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Calculations of Derived Properties: Density and Temperature Scales / block 2",
+      "lesson_text": "When calculating density via water displacement, propagate significant figures in two distinct steps: first apply the subtraction rule to obtain the displaced volume",
+      "source_text": "not about the source",
+      "reason": "The two-step significant-figure procedure is described only in words, with no worked numbers to show how the subtraction and division rules combine."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 5: Calculations of Derived Properties: Density and Temperature Scales / block 4",
+      "lesson_text": "Linear conversion relationships between Fahrenheit and Celsius, accounting for the scale factor (9/5) and the 32-degree offset.",
+      "source_text": "not about the source",
+      "reason": "Only the Fahrenheit-Celsius equation is given, while the table in block 5 lists kelvin values, and nothing connects kelvin to Celsius (add 273.15), so students cannot link the table to a conversion they can do."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 4",
+      "lesson_text": "Also termed solutions, these exhibit a uniform distribution of substances down to the microscopic level. Examples include clear sports drinks, commercial gasoline, and filtered ambient air.",
+      "source_text": "not about the source",
+      "reason": "The image shows a plain bottle of water, which students will read as pure water (a compound, shown on the card next to it), not one of the mixtures the card names, so the image confuses the categories."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Solid paraffin turns into liquid upon heating. The individual hydrocarbon molecules remain chemically intact, making this a reversible physical change.",
+      "source_text": "not about the source",
+      "reason": "The image for this physical-change card is a burning candle flame, which shows combustion, a chemical change, so the image works against the point of the card."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 5",
+      "lesson_text": "Measurements yield reproducible, tightly clustered results with minimal variation, but they systematically deviate from the accepted true value due to calibration or procedural error.",
+      "source_text": "not about the source",
+      "reason": "The image shows darts spread across different parts of the board instead of a tight group away from the center, so it does not show high precision with low accuracy."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 5",
+      "lesson_text": "Repeated determinations are widely scattered with high variance and fail to center around the true target value, indicating poor experimental control.",
+      "source_text": "not about the source",
+      "reason": "The image for low accuracy and low precision shows a single dart next to the bull's-eye, which looks accurate and cannot show scatter, so it contradicts the card."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 4",
+      "lesson_text": "Follow these essential steps to execute error-free unit conversions.",
+      "source_text": "not about the source",
+      "reason": "The four step images are stock photos (a printed summation formula, a kitchen scale, a chalkboard of unrelated math, a calculator) that show nothing about choosing or lining up conversion factors."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.2: Distinguishing extensive properties from intensive properties in physical systems / block 1",
+      "lesson_text": "Apply your understanding of physical and chemical properties and changes by connecting the concept below to the real-world examples that follow.",
+      "source_text": "not about the source",
+      "reason": "Although its title promises extensive versus intensive properties, this exercise again tests only physical versus chemical changes, and no exercise in the lesson practices extensive and intensive properties (part of objective 2)."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.1: Explaining the mathematical structure and linear relationships of temperature conversions among Celsius, Kelvin, and Fahrenheit / block 1",
+      "lesson_text": "Work through the questions below to better understand the variables involved in the equation for density.",
+      "source_text": "not about the source",
+      "reason": "Although titled for temperature conversions, this exercise covers only density, and no exercise anywhere asks students to convert between Celsius, Fahrenheit and kelvin, which objective 4 names."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 2",
+      "lesson_text": "Rules for Identifying Significant Figures",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to count significant figures in numbers with leading, captive or trailing zeros, so this core part of objective 3 is never practiced."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "The **law of conservation of matter** states that there is no detectable change in the total mass present during a chemical or physical process",
+      "source_text": "not about the source",
+      "reason": "The law of conservation of matter gets its own heading and equation but no exercise ever asks students to apply it."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 4.1: Analyzing multi-step dimensional analysis setups to verify proper unit cancellation and factor orientation / block 3",
+      "lesson_text": "Write the given value with its unit as a fraction over one",
+      "source_text": "not about the source",
+      "reason": "The keyed first step, writing the given value as a fraction over one, is never taught in Concept 4, whose first step is only to identify the given and target units."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 4.2: Executing unit conversions between metric prefixes and English-metric units using the factor-label method / block 2",
+      "lesson_text": "What is the SI base unit for mass?",
+      "source_text": "not about the source",
+      "reason": "The lesson never says which unit is the SI base unit for mass (and Exercise 4.1 wrongly says grams), so students have not been taught what this question asks."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying everyday substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "How should Copper Wire be classified according to its composition?",
+      "source_text": "not about the source",
+      "reason": "The example cards right above already state each answer (salt water is uniform throughout, copper wire is a pure substance, air is a mixture), so students can copy the answers instead of classifying."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Distinguishing extensive properties from intensive properties in physical systems / block 3",
+      "lesson_text": "Which statement best explains why melting ice is considered a physical change?",
+      "source_text": "not about the source",
+      "reason": "Each example card already says whether the change is physical or chemical and why, so the three questions only ask students to repeat the card text."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Explaining the mathematical structure and linear relationships of temperature conversions among Celsius, Kelvin, and Fahrenheit / block 3",
+      "lesson_text": "What does the symbol \\(d\\) represent in the equation above?",
+      "source_text": "not about the source",
+      "reason": "The block right above states what d, m and V mean, and the wrong choices are unrelated quantities (distance, voltage, momentum), so these three questions test only copying."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Analyzing multi-step dimensional analysis setups to verify proper unit cancellation and factor orientation / block 3",
+      "lesson_text": "Which check most directly justifies the units and magnitude in the final answer $$2.5 \\times 10^{-4}$$ kilograms?",
+      "source_text": "not about the source",
+      "reason": "The keyed answer about units cancelling checks only the units, not the size, while \"Verify that the original number is larger than the result\" is a fair size check that matches the lesson's step 4, so more than one choice can be defended."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut on the Moon keeps her mass but weighs one-sixth as much",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "summary": "Sucrose is always 42.1% C, 6.5% H, 51.4% O, while a sports drink can vary in sugar",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while platinum resists oxidation (chemical property contrast)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Dissolving sugar in hot water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Rusting iron forming iron(III) oxide as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Combustion of a match as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Drop of hot oil versus a pot of hot oil (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 1",
+      "summary": "Exact numbers: counting eggs in a carton, defined 1 in = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 1",
+      "summary": "Reading a graduated cylinder between 21 and 22 mL as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 3",
+      "summary": "1.0023 g + 4.383 g rounded to 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 3",
+      "summary": "0.6238 cm x 6.6 cm rounded to 4.1 cm2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Scientific Accuracy / block 4",
+      "summary": "Round-to-even: 92.85 rounds to 92.8",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 1",
+      "summary": "Two conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversions / block 5",
+      "summary": "Cubing (1 m / 100 cm) to convert cm3 to m3",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Calculations of Derived Properties: Density and Temperature Scales / block 5",
+      "summary": "Normal body temperature 37.0 °C = 98.6 °F = 310.15 K and water's freezing and boiling points on three scales",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Salt water as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Copper wire as a pure substance (element)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Air in a balloon as a mixture of gases",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Identifying physical states of matter and distinguishing macroscopic characteristics from atomic-scale arrangements / block 2",
+      "summary": "Sand and salt combined in a beaker as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical versus chemical changes based on experimental observations and substance identity / block 1",
+      "summary": "Water freezing to ice overnight and melting back",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical versus chemical changes based on experimental observations and substance identity / block 3",
+      "summary": "Copper penny left in the rain develops a green coating",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing extensive properties from intensive properties in physical systems / block 2",
+      "summary": "Melting ice as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing extensive properties from intensive properties in physical systems / block 2",
+      "summary": "Rusting iron as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Distinguishing extensive properties from intensive properties in physical systems / block 2",
+      "summary": "Dissolving sugar in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying errors in determining significant figures and applying standard rounding rules in arithmetic calculations / block 2",
+      "summary": "Metal rod measured as 12.34, 12.3 and 12.345 cm and averaged",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing between accuracy and precision in replicate measurement sets and assessing experimental uncertainty / block 2",
+      "summary": "Table length measured as 1.23, 1.24, 1.23, 1.22 m (precise, accuracy unknown)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing between accuracy and precision in replicate measurement sets and assessing experimental uncertainty / block 2",
+      "summary": "2.13 x 4.1 rounded to 8.7",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Analyzing multi-step dimensional analysis setups to verify proper unit cancellation and factor orientation / block 2",
+      "summary": "Converting a 250 mg lab sample to 2.5 x 10^-4 kg",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Executing unit conversions between metric prefixes and English-metric units using the factor-label method / block 2",
+      "summary": "Car travels 1500 m, converted to kilometers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Executing unit conversions between metric prefixes and English-metric units using the factor-label method / block 2",
+      "summary": "Converting 2500 mL to 2.5 L",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Explaining the mathematical structure and linear relationships of temperature conversions among Celsius, Kelvin, and Fahrenheit / block 7",
+      "summary": "Block of 30 g and 10 cm3 has density 3 g/cm3",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Explaining the mathematical structure and linear relationships of temperature conversions among Celsius, Kelvin, and Fahrenheit / block 7",
+      "summary": "Liquid of density 0.8 g/cm3 and mass 40 g has volume 50 cm3",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Calculating density using mass and volume displacement data to identify unknown substances / block 2",
+      "summary": "48.0 g metal cube with 2.00 cm edges, density by ruler versus water displacement",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

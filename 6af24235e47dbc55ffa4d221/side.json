@@ -1,0 +1,434 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 5,
+    "wrong_viewpoint": 1,
+    "off_source_content": 1,
+    "ignores_custom_instructions": 0,
+    "x1": 3,
+    "x2": 2,
+    "x3": 0,
+    "x4": 1,
+    "x5": 1,
+    "x6": 4,
+    "x7": 0,
+    "x8": 0,
+    "x9": 2,
+    "x10": 0,
+    "x11": 1,
+    "x12": 2,
+    "x14": 2,
+    "x15": 1
+  },
+  "examples_total": 32,
+  "examples_from_source": 27,
+  "made_up_examples": 4,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 70,
+  "score": 86,
+  "instructions_score": 100,
+  "teaching_score": 87,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 2.1: Differentiating physical and chemical changes and categorizing properties as extensive or intensive / block 2",
+      "lesson_text": "A pure sample of copper has a mass of $$50\\text{ g}$$ and a volume of $$5\\text{ cm}^3$$. Calculate its density.",
+      "source_text": "copper 9.0 g/cm3",
+      "reason": "The question makes pure copper's density 10 g/cm³, but the source (and the lesson's own density graph) gives copper as 9.0 g/cm³."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Identifying significant figure determination errors and improper rounding across mathematical calculations / block 4",
+      "lesson_text": "Step 3: Rounds $$3.35$$ to $$3.4$$, which is incorrect for $$2$$ significant figures. Correct rounding: $$3.35\\text{ g/mL}$$ becomes $$3.4\\text{ g/mL}$$ if reporting $$2$$ significant figures, but the calculation should first truncate to $$2$$ significant figures before rounding.",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "Under the source's round-to-even rule, 3.35 correctly rounds to 3.4 at two significant figures, so the key wrongly calls this step an error and invents a 'truncate before rounding' step; criterion 3 repeats the mistake by marking the correct final answer 3.4 g/mL as wrong."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 3.1: Identifying significant figure determination errors and improper rounding across mathematical calculations / block 3",
+      "lesson_text": "Step 3: Apply rounding. Since the calculated density is $$3.35\\text{ g/mL}$$, round up to $$3.4\\text{ g/mL}$$ because $$5$$ rounds up.",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "The flawed solution holds the common belief that a dropped 5 always rounds up, but the answer key never names it or explains the round-to-even reason, so the real misconception goes uncorrected."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 2",
+      "lesson_text": "Temperatures in Kelvin can never be negative, and it is used in all SI measurements.",
+      "source_text": "The degree Celsius (°C) is also allowed in the SI system, with both the word “degree” and the degree symbol used for Celsius measurements.",
+      "reason": "The source says kelvin is the official SI temperature unit but Celsius is also allowed in SI, so kelvin is not used in all SI measurements."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 6",
+      "lesson_text": "A typical human body temperature is $$37.0\\ ^\\circ\\text{C}$$. In Kelvin: $$310.15\\ \\text{K}$$.",
+      "source_text": "The 273.15 in these equations has been determined experimentally, so it is not exact. / When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "By the source's addition rule, 37.0 + 273.15 must be reported to one decimal place (310.2 K), so 310.15 K shows more certainty than the measurement has and breaks the rule the lesson taught in Concept 3."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Converting temperature values between the Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
+      "lesson_text": "Add $$273.15$$ to $$37.0$$: $$37.0 + 273.15 = 310.15\\ \\text{K}$$.",
+      "source_text": "The 273.15 in these equations has been determined experimentally, so it is not exact. / When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "The answer key demands 310.15 K, so a student who applies the source's addition rule correctly and answers 310.2 K is marked wrong."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Exercise 5.2: Converting temperature values between the Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
+      "lesson_text": "Explain why scientists prefer using the Kelvin scale for temperature measurements in experiments, and discuss how linear conversion equations help compare results across different scales.",
+      "source_text": "Although the kelvin (absolute) temperature scale is the official SI temperature scale, Celsius is commonly used in many scientific contexts and is the scale of choice for nonscience contexts in almost all areas of the world.",
+      "reason": "The question takes as given that scientists prefer kelvin in experiments, while the source stresses that Celsius is commonly used in many scientific contexts."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Dimensional Analysis and Derived Physical Quantities / block 5",
+      "lesson_text": "Exact numbers have an infinite number of significant figures and will never limit the significant figures of your calculated answer.",
+      "source_text": "not in source",
+      "reason": "The source says counted and defined numbers are exact but never says they have infinite significant figures or how they affect rounding of a result."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "lesson_text": "Can Be Decomposed Chemically?",
+      "source_text": "not about the source",
+      "reason": "The table tells elements, compounds and mixtures apart by chemical decomposition and physical separation, but physical and chemical changes are only defined later in Concept 2."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 1",
+      "lesson_text": "if the bottom of the meniscus rests between $$21\\text{ mL}$$ and $$22\\text{ mL}$$",
+      "source_text": "not about the source",
+      "reason": "The word 'meniscus' is used without saying what it is, though reading its bottom is the key step of the worked reading."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Dimensional Analysis and Derived Physical Quantities / block 1",
+      "lesson_text": "Instead, they are defined by combining two or more of the seven fundamental SI base units.",
+      "source_text": "not about the source",
+      "reason": "The lesson never introduces SI or the seven base units, so students cannot see what a derived unit is built from."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Dimensional Analysis and Derived Physical Quantities / block 2",
+      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "Density as mass over volume, and as an intensive property, was already taught with the same equation in Concept 2 block 4 and is taught again here in blocks 1 and 2."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 6",
+      "lesson_text": "Water freezes at $$0\\ ^\\circ\\text{C}$$, $$32\\ ^\\circ\\text{F}$$, or $$273.15\\ \\text{K}$$.",
+      "source_text": "not about the source",
+      "reason": "The freezing and boiling points of water on all three scales are given in block 1, again in the block 3 table, and a third time in these cards."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Derived Physical Quantities / block 4",
+      "lesson_text": "$$\\text{Value in Given Units} \\times \\frac{\\text{Desired Unit}}{\\text{Given Unit}} = \\text{Value in Desired Units}$$",
+      "source_text": "For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:",
+      "reason": "Dimensional analysis is shown only as a general formula and two conversion factors, with no worked conversion using numbers that shows the units cancelling, though the source has one."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 5",
+      "lesson_text": "To convert Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add $$32$$.",
+      "source_text": "The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale.",
+      "reason": "The equation is not linked to the reference-point table just above it (100 Celsius degrees span 180 Fahrenheit degrees, and 0 °C is 32 °F), so students cannot see where 9/5 and 32 come from."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Expands to completely fill both the shape and the entire volume of its container, with particles spaced far apart.",
+      "source_text": "Clouds appear to behave somewhat like gases, but they are actually mixtures of air (gas) and tiny particles of water (liquid or solid).",
+      "reason": "The Gas card's image is a thick cloud of smoke, which is gas mixed with solid particles, so it supports the common mistake that visible smoke or clouds are a gas."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 2",
+      "lesson_text": "Zeros that precede all nonzero digits serve purely as placeholders locating the decimal point.",
+      "source_text": "not about the source",
+      "reason": "The Leading Zeros image is a museum display of an old candy scale with shop labels, which shows nothing about leading zeros."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 2",
+      "lesson_text": "Zeros positioned between nonzero digits are true measured values and are **always significant**.",
+      "source_text": "not about the source",
+      "reason": "The Captive Zeros image shows a '100' mark on a beaker, whose zeros are trailing zeros, not captive ones, so the picture can mislead."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 3",
+      "lesson_text": "$$92.85 \\rightarrow 92.8$$ (retains even $$8$$); $$31.57 \\rightarrow 32$$ (dropped $$5$$, rounds to even $$2$$)",
+      "source_text": "If any nonzero digits follow the dropped 5, round up.",
+      "reason": "In 31.57 the dropped 5 is followed by 7, so it does not fit this row's own rule of a 5 'followed only by zeros', and the table leaves out the rule that a 5 followed by nonzero digits rounds up, so the example contradicts its row."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Calculating derived physical properties including volume and density using the factor-label method / block 2",
+      "lesson_text": "Which unit conversion factor would you use to convert $$25\\text{ in.}$$ to centimeters using dimensional analysis?",
+      "source_text": "not about the source",
+      "reason": "Objective 4 is solving unit conversion problems, but no exercise has students carry out a conversion with a real factor: this item stops at picking the factor, and the only computed conversion is 1 mL = 1 cm³."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 7",
+      "lesson_text": "$$T_{\\text{C}} = \\frac{5}{9}(T_{\\text{F}} - 32)$$",
+      "source_text": "not about the source",
+      "reason": "Objective 5 asks for conversions among all three scales, but converting from Fahrenheit or from kelvin appears only as a mind-map node and is never practiced; every exercise converts from Celsius."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying everyday matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best describes table salt (NaCl) as shown in the first example card?",
+      "source_text": "not about the source",
+      "reason": "Each multiple-choice question asks students to repeat the classification and reason printed on the cards just above, with keyed answers reusing the card wording, so they can be answered by copying instead of classifying."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Distinguishing physical states of matter and microscopic particulate arrangements from macroscopic observations / block 8",
+      "lesson_text": "Describe the single principle that connects all three examples. Explain how each scenario illustrates this principle.",
+      "source_text": "not about the source",
+      "reason": "The three examples show different ideas (a heterogeneous mixture, the gas state, and changes of state), so there is no single principle to find, and the Italian dressing example does not fit the exercise's stated focus on physical states and particle arrangements."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Predicting whether observable changes in matter represent physical alterations or chemical transformations / block 2",
+      "lesson_text": "As the temperature rises, bubbles form throughout the liquid, and eventually, the liquid turns into a vapor, leaving no solid residue.",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
+      "reason": "If solid B only dissolved, evaporation should leave it behind, so 'no solid residue' hints at a chemical change the lesson never taught students to detect; the task also says to predict what happens next though the whole process is already described, and the rubric gives no expected answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Differentiating physical and chemical changes and categorizing properties as extensive or intensive / block 2",
+      "lesson_text": "A scientist combines two $$1\\text{ L}$$ samples of water. Which property of the combined sample stays exactly the same as before?",
+      "source_text": "If the gallon and cup of milk are each at 20 °C (room temperature), when they are combined, the temperature remains at 20 °C.",
+      "reason": "The stem never says the two samples are at the same temperature, so the keyed answer 'Temperature' is right only under an unstated assumption and can teach that intensive properties never change when samples are mixed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Applying significant figure conventions and rounding rules to addition, subtraction, multiplication, and division / block 2",
+      "lesson_text": "Which value contains exactly $$3$$ significant figures according to the rules for identifying significant zeros?",
+      "source_text": "not about the source",
+      "reason": "The option 55.0 g also has exactly 3 significant figures (the lesson's own trailing-zeros card says so), so two choices are correct but only 0.00802 g is keyed."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Water in the three domains: ocean, iceberg and steam; water molecules; H2O and (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "summary": "Plasma in stars and in plasma cutting torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "summary": "Classification examples: gold, iron, sulfur; sucrose, water; sports drink, air, gasoline; Italian dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "O2 and S8 as molecules of one element versus water and glucose as compounds",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Table salt (NaCl) as a compound",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Italian dressing as a heterogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Air as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and microscopic particulate arrangements from macroscopic observations / block 1",
+      "summary": "Italian dressing separating into oil and vinegar layers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and microscopic particulate arrangements from macroscopic observations / block 3",
+      "summary": "Balloon filled with air shows a gas takes up space and fills its container",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter and microscopic particulate arrangements from macroscopic observations / block 5",
+      "summary": "Ice cube melting to water and boiling to steam",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 1",
+      "summary": "Iron rusts while chromium does not; nitroglycerin explodes while neon is unreactive",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 2",
+      "summary": "Physical changes: wax melting, steam condensing, sugar dissolving in coffee, demagnetizing, grinding to powder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 2",
+      "summary": "Chemical changes: burning, cooking and digesting food, banana browning, copper with nitric acid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 3",
+      "summary": "Combining two 1 L bottles gives 2 L (extensive property)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 3",
+      "summary": "Combining milk at 20 °C stays at 20 °C (intensive property)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 4",
+      "summary": "Gold nugget and gold brick share the density 19.3 g/cm³",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties, Changes, and Property Types / block 5",
+      "summary": "Drop of hot oil versus pot of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 1",
+      "summary": "Exact numbers: counting eggs in a carton; 1 in. = 2.54 cm by definition",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 1",
+      "summary": "Reading a graduated cylinder as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 1",
+      "summary": "Balance reading of 6.72 g with ±0.01 g uncertainty",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 2",
+      "summary": "Leading zeros in 0.00802 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 2",
+      "summary": "Captive zeros in 70.607 mL",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 2",
+      "summary": "Trailing zeros in 55.0 g and the ambiguous 1300 g written as 1.30 × 10³ g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 3",
+      "summary": "Addition 1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 3",
+      "summary": "Multiplication 0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 3",
+      "summary": "Rounding 0.028675, 18.3384, 92.85 and 31.57",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding Rules / block 4",
+      "summary": "Cough medicine dispenser that is precise but not accurate",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Physical Quantities / block 4",
+      "summary": "Two conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 4",
+      "summary": "25 °C converted to 298.15 K",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 5",
+      "summary": "20 °C converted to 68 °F",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 6",
+      "summary": "Normal body temperature 37.0 °C in kelvin and Fahrenheit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Thermal Conversions / block 6",
+      "summary": "Freezing and boiling points of water on the three scales",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

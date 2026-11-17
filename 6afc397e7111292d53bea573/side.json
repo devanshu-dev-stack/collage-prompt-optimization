@@ -1,0 +1,593 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 1,
+    "misattributed_quote": 0,
+    "factual_error": 4,
+    "wrong_viewpoint": 3,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 20,
+    "x1": 2,
+    "x2": 2,
+    "x3": 1,
+    "x4": 1,
+    "x5": 1,
+    "x6": 3,
+    "x7": 0,
+    "x8": 1,
+    "x9": 1,
+    "x10": 1,
+    "x11": 1,
+    "x12": 1,
+    "x14": 6,
+    "x15": 1
+  },
+  "examples_total": 27,
+  "examples_from_source": 9,
+  "made_up_examples": 17,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 118,
+  "score": 76,
+  "instructions_score": 0,
+  "teaching_score": 83,
+  "problems": [
+    {
+      "check": "inexact_quote",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 1",
+      "lesson_text": "\"Learning is an active verb; it is something people do, not something that happens to them. Through acting in the world, people encounter situations, problems, and ideas... and they adapt.\"",
+      "source_text": "“Learn” is an active verb; it is something people do, not something that happens to them. People are not passive recipients of learning, even if they are not always aware that the learning process is happening. Instead, through acting in the world, people encounter situations, problems, and ideas.",
+      "reason": "The quote changes “Learn” to “Learning” and silently drops a whole sentence and the word “Instead,” without marking the cut."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "lesson_text": "Generating causal explanations significantly outperforms rote memorization of complex texts (Pressley et al., 1987).",
+      "source_text": "in an early study, people were asked either to provide “why” explanations for several unrelated sentences or to read and study the sentences. Both groups were then tested on their memory of the sentences. Those who asked questions performed better than the group that just studied the sentences (Pressley et al., 1987).",
+      "reason": "Pressley et al. (1987) tested memory for unrelated sentences, not complex texts; the source credits the complex-material finding to other researchers (McDaniel and Donnelly, 1996)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 2",
+      "lesson_text": "Reading identical on-screen text aloud verbatim, overloading the visual phonological loop.",
+      "source_text": "Redundancy Principle. People learn better from graphics and narration than from the combination of graphics, narration, and on-screen text.",
+      "reason": "The phonological loop is the sound-based, verbal part of working memory, so a \"visual phonological loop\" does not exist; redundant on-screen text loads the visual channel."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 2",
+      "lesson_text": "Minimizes non-relevant mental fatigue and accidental penalty, keeping cognitive capacity reserved for learning.",
+      "source_text": "Low physical effort. The design can be used efficiently, comfortably, and with a minimum of fatigue.",
+      "reason": "The source's principle is about low physical effort (its example is large buttons for students with limited fine motor skills), but the lesson recasts it as cutting mental fatigue to save cognitive capacity."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Categorizing educational AI tools along the continuum from visible conversational agents to ambient sorting systems / block 4",
+      "lesson_text": "Recommendation is visible, sorting is invisible",
+      "source_text": "Decides what shows up next. Nothing announces itself here. Things just arrive in an order chosen for you.",
+      "reason": "The answer key calls the recommendation engine visible, but the source puts choosing what shows up next on the hidden side, as does the lesson's own Concept 4 list (\"Choosing: Content recommendation engines\" under INVISIBLE AI)."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 2",
+      "lesson_text": "Destroys psychological safety; induces evaluation anxiety, exacerbates stereotype threat, and criminalizes normative behaviors",
+      "source_text": "It can give peace of mind on one side of the screen. On the other side, it’s a record.",
+      "reason": "The source presents watching AI as two-sided and says none of the nine types is good or bad on its own, while the lesson states flatly that it destroys psychological safety and criminalizes normal behavior."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Because subsequent educators encounter the diagnostic label before the person, institutional expectations drop, reifying initial deficits into permanent structural ceilings.",
+      "source_text": "It can feel like being understood. It also means next year’s teacher meets the label before they meet the learner.",
+      "reason": "The source gives sorting both a benefit and a cost and asks how a learner gets out of a group, while the lesson asserts that sorting locks deficits into permanent ceilings."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "lesson_text": "Alternate diverse problem types in assignments instead of grouping problems by single topic.",
+      "source_text": "Researchers have identified potential benefits of variable and interleaved practice learning, but they have also found a few benefits for blocked practice.",
+      "reason": "The source says interleaving helps most with highly similar categories while blocking helps with dissimilar ones, but the lesson tells leaders to interleave everywhere with no caveat."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 4",
+      "lesson_text": "Rereading text, highlighting handouts, or watching a clean presentation creates a subjective feeling of fluency that learners mistake for mastery.",
+      "source_text": "not in source",
+      "reason": "No source discusses an \"illusion of competence\" from highlighting or watching presentations; How People Learn II only notes that immediate massed re-reading does not promote learning."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Automated scoring systems favor highly standardized stylistic norms and dominant cultural dialects.",
+      "source_text": "not in source",
+      "reason": "No source says automated scorers favor dominant cultural dialects or routinely screen out culturally diverse work; Compass only says one rubric for everybody leaves little room for what makes a person interesting."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "The pervasive sense of being monitored triggers affective anxiety and depletes working memory, penalizing learners under stereotype threat.",
+      "source_text": "not in source",
+      "reason": "No source links monitoring or proctoring to anxiety, lost working memory or stereotype threat; Compass says only that watching AI gives peace of mind on one side and is a record on the other."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 1",
+      "lesson_text": "Opening Prompt: Mapping Today's AI Encounters",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The opening prompt is asked for as the lesson's first step, but it appears only in Concept 3, after two full concepts and four exercises on neuroscience and memory."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 1",
+      "lesson_text": "Reflect on how these AIs shaped your learning or work experience.",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step, moving from last week's map to the student's own context and what the capstone asks, is left out; the lesson goes straight to the six touchpoints."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 1",
+      "lesson_text": "The Visibility Continuum in Educational Artificial Intelligence",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The Compass section is asked for third, before Priya's cases, but the lesson puts it after Priya's cases, the six touchpoints and situated learning."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 4",
+      "lesson_text": "developmental relationships and peer networks are not just supports, but essential channels for learning to move through an organization.",
+      "source_text": "Learning is situated; learning moves through people (can AI help it move?)",
+      "reason": "The lesson says relationships carry learning but leaves out the requested question of whether AI can help learning move through people (joint attention, just-in-time support, peer collaboration, self-directed learning)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 2",
+      "lesson_text": "Six Touchpoints of Workforce Learning Ecosystems",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six touchpoints appear, but the \"what real learning ecologies look like\" part (the slides' maps of two apprentices) is left out, and the touchpoints come before Priya's cases instead of after situated learning."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 2",
+      "lesson_text": "Structured programs such as onboarding, certifications, and bootcamps that deliver essential knowledge before or during new roles.",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The touchpoint descriptions stay workforce-only and are never adapted for home and school as asked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 5",
+      "lesson_text": "Workforce Learning Ecosystems: Structure and Dynamics",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "There is no part on a learner's opportunities for practice, participation and relationships; the concept ends with a mind map of touchpoints instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 4",
+      "lesson_text": "In every procurement and curriculum decision, leaders must conduct an algorithmic visibility audit",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Project Zero Digital Habits Checkup routine and its link are missing; the lesson offers its own three-question \"algorithmic visibility audit\" instead."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 4.1: Categorizing educational AI tools along the continuum from visible conversational agents to ambient sorting systems / block 1",
+      "lesson_text": "A university deploys a chatbot that helps students schedule meetings with advisors and answers basic questions about course registration.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "Instead of mapping the AI in one learner's life across home, school and work and marking where AI connects people or stands in for them, the exercise sorts made-up university and district tools as visible or invisible."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 5",
+      "lesson_text": "Technology Evaluation Framework in the Science of Learning",
+      "source_text": "Key ideas: every learner draws on a whole ecosystem; AI is one node in it",
+      "reason": "No key-ideas section appears, and the idea that AI is one node in a learner's ecosystem is never stated."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Describe, in your own words, how all three examples provided illustrate the process of evaluating learning technologies through learning sciences principles.",
+      "source_text": "Recap: the six questions",
+      "reason": "The requested recap of the six questions is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 1",
+      "lesson_text": "Does this technology cultivate and scaffold an internal cognitive capacity, or does it replace and quietly atrophy the learner's thinking?",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The lesson borrows one phrase from the focus areas but leaves out the emerging questions by age band (early childhood, K-12, higher ed and workforce) as capstone ideas."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Describe, in your own words, how all three examples provided illustrate the process of evaluating learning technologies through learning sciences principles.",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "No Capstone Brief, Scoping Guide or worked scoping example appears; the lesson ends on a technology-evaluation exercise."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Describe, in your own words, how all three examples provided illustrate the process of evaluating learning technologies through learning sciences principles.",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "There is no activity where students scope their capstone with the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Describe, in your own words, how all three examples provided illustrate the process of evaluating learning technologies through learning sciences principles.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "The lesson has per-concept exercises but no knowledge check of the week's ideas that also includes Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 5",
+      "lesson_text": "Adopt, Adapt, or Reject",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "Adopt, adapt or reject appears only as a mind-map node; there is no closing judgment on a short case."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Describe, in your own words, how all three examples provided illustrate the process of evaluating learning technologies through learning sciences principles.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson never asks students to submit their scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 1",
+      "lesson_text": "As synthesized in the National Academies' *How People Learn II*, human cognition does not happen in isolated neural vacuums.",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 1, 2 and 5 are built from How People Learn II (brain science, memory strategies, multimedia and Universal Design), so the lesson rests mainly on a background source instead of the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 1.1: Interactions between neurological development, neuroplasticity, and sociocultural contexts across the lifespan / block 1",
+      "lesson_text": "A group of children in a rural village participates in a traditional weaving workshop led by local elders.",
+      "source_text": "This is for an educational audience, so make sure all exercises have relevant examples to education leaders, such as L&D leaders or district leaders in schools.",
+      "reason": "Several exercises use examples with no education-leader angle, such as village children weaving and a medical student here, a medical residency and a language app in Exercise 2.2, and classroom tools in Exercise 5.2."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives / objective[4]",
+      "lesson_text": "Apply evidence-based instructional strategies—such as retrieval practice, spaced intervals, elaborative interrogation, and conceptual model building—to optimize memory retention and deep learning.",
+      "source_text": "Appraise claims and evidence about AI and learning, including when the evidence does not yet exist",
+      "reason": "The lesson's objectives swap in memory strategies and brain science, and no part asks students to appraise AI evidence (including missing evidence), design AI-enabled learning, or judge effects by age and stage, as the course objectives ask."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 3",
+      "lesson_text": "Contrasting Learning Ecosystems: Priya's Cases",
+      "source_text": "Priya: seven years in financial services consulting, just staffed on a healthcare transformation project.",
+      "reason": "Priya and her three cases are never introduced (who she is, her move into healthcare, what each case holds), so students meet a table about a person they do not know."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 3",
+      "lesson_text": "Shift from deficit remediation to leveraging learners' existing cultural funds of knowledge",
+      "source_text": "not about the source",
+      "reason": "\"Funds of knowledge\" is given as a leadership action but is never defined anywhere in the lesson."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 4",
+      "lesson_text": "Learning is situated: Professional competence develops through authentic participation in real tasks, tools, and communities.",
+      "source_text": "not about the source",
+      "reason": "Situated learning (embedded in practice, participation, knowledge through people) is already taught in Concept 1 block 1 and is taught again here as if new."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 1",
+      "lesson_text": "The Architecture of Cognition: From Filing Cabinets to Active Reconstruction",
+      "source_text": "not about the source",
+      "reason": "The \"filing cabinet\" view of the mind and its rejection open both Concept 1 and Concept 2."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 4.2: Evaluating the trade-offs of invisible algorithmic decision-making on learner autonomy, privacy, and systemic bias / block 2",
+      "lesson_text": "have reduced learner agency and increased systemic inequity by steering students toward easier tasks and reinforcing existing achievement gaps.",
+      "source_text": "not about the source",
+      "reason": "The situation reports only that students pick easier tasks and feel steered, yet the solution concludes that achievement gaps grew, a step the scenario gives no data for."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 1",
+      "lesson_text": "assessing their current understanding (`metacognitive monitoring`) and actively deploying strategies to close identified gaps (`metacognitive control`)",
+      "source_text": "not about the source",
+      "reason": "Executive function, metacognitive monitoring and metacognitive control are explained only in abstract terms, with no example of a learner checking and adjusting their own understanding."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 2",
+      "lesson_text": "Explore the diverse sources and contexts where professional learning occurs, each contributing uniquely to expertise.",
+      "source_text": "In Case C Her project lead",
+      "reason": "The slides place each of Priya's Case C sources in one of the six touchpoints, but the lesson shows the touchpoint cards and Priya's cases separately and never links them, though that link is how a learner's ecosystem is mapped."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 4",
+      "lesson_text": "Affective Brain Anchoring",
+      "source_text": "not about the source",
+      "reason": "The card's image (a person writing in a planner next to a coffee cup) shows nothing about emotion and memory, so it does not support the card."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: The Spectrum of Visible and Invisible Artificial Intelligence in Learning / block 3",
+      "lesson_text": "Automated Sorting & The Trajectory Lock",
+      "source_text": "not about the source",
+      "reason": "The card's image is a generic green-lit server rack with no link to learners being sorted into tracks or labels."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 3",
+      "lesson_text": "Evaluate whether student- and instructor-facing dashboards present meaningful formative indicators of understanding and misconception patterns, or merely aggregate shallow engagement metrics like time-on-page.",
+      "source_text": "not about the source",
+      "reason": "The card's image is a web analytics dashboard of page-load times, bounce rates and session lengths, the very kind of shallow engagement metrics the card warns against, with no label saying so."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 1",
+      "lesson_text": "active learning experiences physically rewire neural circuits, modulating gray matter density and white matter axonal tracts",
+      "source_text": "not about the source",
+      "reason": "For education leaders studying learning ecosystems and AI, details such as gray matter density and synaptic pruning get a full section while the week's key idea, that AI is one node in a learner's ecosystem, gets none."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 1",
+      "lesson_text": "The Capacity Test",
+      "source_text": "not about the source",
+      "reason": "The capacity test (does a tool build a capacity or replace it) is the course's main evaluation lens, but neither Exercise 5.1 nor 5.2 asks students to apply it to a tool."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 5.1: Critiquing educational technology implementations against Mayer's multimedia principles and cognitive load constraints / block 4",
+      "lesson_text": "UDL requires multiple means of representation, action, expression, and engagement, not just adaptivity.",
+      "source_text": "not about the source",
+      "reason": "The rubric expects the \"multiple means\" framework of Universal Design for Learning (UDL), which the lesson never teaches; Concept 5 covers only principles such as flexibility in use and tolerance of error."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Analyzing the six touchpoints of workforce learning ecosystems to balance formal training and situated workplace practice / block 2",
+      "lesson_text": "What is the term for the process by which newcomers gradually move from peripheral participation to full engagement in a professional community?",
+      "source_text": "not about the source",
+      "reason": "This item only asks students to recall the term \"legitimate peripheral participation\", while the objective asks them to analyze touchpoints."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Evaluating how cultural practices and physical environments dynamically alter neurobiological architecture / block 3",
+      "lesson_text": "Given the workshop's goal and the provided research, what is the most useful first step in reconstructing how the solution was reached?",
+      "source_text": "not about the source",
+      "reason": "The questions ask students to guess generic workshop-planning steps (identify mechanisms, design activities) instead of evaluating how cultural practices change the brain, which is what the exercise title promises."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Applying evidence-based strategies like retrieval practice, spaced intervals, and elaborative questioning to instructional design / block 3",
+      "lesson_text": "In the 'Spaced Intervals in Language Learning' example, what feature of the app most directly supports long-term retention?",
+      "source_text": "not about the source",
+      "reason": "The question names \"Spaced Intervals\" in its own wording and the correct answer is \"Spaced intervals\", so it gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Applying evidence-based strategies like retrieval practice, spaced intervals, and elaborative questioning to instructional design / block 3",
+      "lesson_text": "In the 'Interleaving in Math Instruction' example, what is the main benefit of mixing different types of problems in each homework set?",
+      "source_text": "not about the source",
+      "reason": "The card already says mixing problems leads \"students to develop flexible problem-solving skills\", so the answer \"Flexible problem-solving skills\" can be copied from it."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Categorizing educational AI tools along the continuum from visible conversational agents to ambient sorting systems / block 4",
+      "lesson_text": "Invisible sorting ensures equal opportunities for all students",
+      "source_text": "not about the source",
+      "reason": "Distractors with absolutes such as \"ensures equal opportunities for all students\" and \"always guarantee systemic equity\" are obviously wrong, leaving only one plausible choice."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Animated avatars, which make the platform visually appealing",
+      "source_text": "not about the source",
+      "reason": "Animated avatars, generic feedback and random difficulty are obviously wrong next to a card that says the platform adjusts difficulty in real time."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Manipulable variables and linked graphs, which integrate multiple representations for understanding",
+      "source_text": "not about the source",
+      "reason": "The correct option repeats the card's own words about \"integrating multiple representations\", so it can be matched without understanding."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 3",
+      "lesson_text": "Background music, which enhances atmosphere",
+      "source_text": "not about the source",
+      "reason": "Background music and bright colors are not plausible UDL features, and the card itself names captions and alternative text as the UDL elements."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 3",
+      "lesson_text": "Align training with authentic practice to stimulate structural neural reorganization",
+      "source_text": "not about the source",
+      "reason": "Telling leaders to design training to stimulate neural reorganization feeds the common \"brain-based training\" myth instead of making clear that all learning changes the brain and this is not a useful design goal."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 4",
+      "summary": "Violinists show greater sensory cortex response for left-hand fingers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 4",
+      "summary": "Abacus masters recruit different brain areas for mental calculation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Sociocultural and Neurological Foundations of Learning / block 4",
+      "summary": "Mayan children learning by keen observation alongside experts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Interactions between neurological development, neuroplasticity, and sociocultural contexts across the lifespan / block 1",
+      "summary": "Rural village children in a weaving workshop led by elders",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Interactions between neurological development, neuroplasticity, and sociocultural contexts across the lifespan / block 3",
+      "summary": "Urban medical student adapting during a rural clinical rotation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Evaluating how cultural practices and physical environments dynamically alter neurobiological architecture / block 2",
+      "summary": "Graduate student designing a teacher workshop on brain and culture",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "summary": "Roediger and Karpicke: repeated testing beats repeated study",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "summary": "Cepeda et al.: spaced practice beats massed cramming",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "summary": "Carvalho and Goldstone: interleaving improves category discrimination",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Cognitive Processes and Evidence-Based Learning Strategies / block 2",
+      "summary": "Pressley et al.: why-explanations beat plain study",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Deconstructing misconceptions of memory as passive storage versus active reconstructive cognition and executive control / block 2",
+      "summary": "District choosing among lecture, spaced and interleaved teacher training",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Applying evidence-based strategies like retrieval practice, spaced intervals, and elaborative questioning to instructional design / block 2",
+      "summary": "Medical residency replaces review with daily low-stakes quizzes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Applying evidence-based strategies like retrieval practice, spaced intervals, and elaborative questioning to instructional design / block 2",
+      "summary": "Language app spacing vocabulary reviews",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Applying evidence-based strategies like retrieval practice, spaced intervals, and elaborative questioning to instructional design / block 2",
+      "summary": "High school math teacher mixing algebra, geometry and statistics problems",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Workforce Learning Ecosystems and Situated Practice / block 3",
+      "summary": "Priya's three cases: course, AI platform, peer network and shadowing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Analyzing the six touchpoints of workforce learning ecosystems to balance formal training and situated workplace practice / block 2",
+      "summary": "New employee with a strong peer network and authentic tasks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Analyzing the six touchpoints of workforce learning ecosystems to balance formal training and situated workplace practice / block 2",
+      "summary": "Organization finds relational and work-based learners outperform formal-only",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Analyzing the six touchpoints of workforce learning ecosystems to balance formal training and situated workplace practice / block 2",
+      "summary": "Employee splitting time 40% work-based, 60% formal training",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Predicting learner progression and developmental relationship dynamics within legitimate peripheral participation / block 2",
+      "summary": "New healthcare employee with modules, meetings, shadowing and a peer",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Categorizing educational AI tools along the continuum from visible conversational agents to ambient sorting systems / block 1",
+      "summary": "University advising chatbot plus hidden engagement monitoring",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Categorizing educational AI tools along the continuum from visible conversational agents to ambient sorting systems / block 3",
+      "summary": "K-12 reading recommendations plus hidden sorting into project groups",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating the trade-offs of invisible algorithmic decision-making on learner autonomy, privacy, and systemic bias / block 2",
+      "summary": "University AI platform steering students to easier tasks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Evaluating Learning Technologies: Affordances, Multimedia Design, and Universal Design / block 4",
+      "summary": "Texas SimCalc study and national math software studies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Critiquing educational technology implementations against Mayer's multimedia principles and cognitive load constraints / block 2",
+      "summary": "Multimedia platform with adaptive quizzes for a graduate course",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 2",
+      "summary": "Adaptive online math problem sets",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 2",
+      "summary": "Science simulation linking variables to graphs and tables",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.2: Designing inclusive digital learning interventions using Universal Design for Learning principles and technological affordances / block 2",
+      "summary": "History lesson with captions, timelines and alt text",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 3",
+      "lesson_text": "Includes observable physical properties such as flammability, volume, and phase transitions",
+      "source_text": "The macroscopic domain includes everyday and laboratory chemistry, where we observe and measure physical and chemical properties such as density, solubility, and flammability. ... Examples of chemical properties include flammability, toxicity, acidity, and many other types of reactivity.",
+      "reason": "The lesson calls flammability a physical property, but the source names it as a chemical property (and the lesson itself says so in Concept 3)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Carrying out multi-step dimensional analysis and temperature scale conversions / block 2",
+      "lesson_text": "What is the SI unit for density commonly used in chemistry for solids and liquids?",
+      "source_text": "The SI unit for density is the kilogram per cubic meter (kg/m3). For many situations, however, this is an inconvenient unit, and we often use grams per cubic centimeter (g/cm3) for the densities of solids and liquids, and grams per liter (g/L) for gases.",
+      "reason": "The question and its key treat g/cm3 as the SI unit for density, while the source says the SI unit is kg/m3 and g/cm3 is only a more convenient unit."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "lesson_text": "The law of conservation of matter; gas pressure is proportional to temperature",
+      "source_text": "not about the source",
+      "reason": "The law of conservation of matter (and Dalton's atomic theory in the next cell) is given as an example before the lesson explains it in Concept 2, block 1, so students meet the example before the idea it stands for."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Inherent properties that remain invariant regardless of quantity, such as boiling point, color, density, and temperature.",
+      "source_text": "not about the source",
+      "reason": "Density is used as a key intensive property here and in Exercises 3.1 and 3.2, but the lesson does not define density (mass divided by volume) until Concept 5, block 3."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 3",
+      "lesson_text": "Units for properties other than the seven SI base units are called **derived SI units**.",
+      "source_text": "not about the source",
+      "reason": "Derived units are defined by contrast with \"the seven SI base units\", which the lesson never introduces anywhere."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Directly proportional to the amount of matter present",
+      "source_text": "not about the source",
+      "reason": "The table repeats the extensive and intensive definitions and examples (mass, volume, heat content; temperature, density) already given in the block 2 cards, and block 4 repeats the milk example a third time."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 5",
+      "lesson_text": "Formulas and definitions connecting the three major temperature scales.",
+      "source_text": "not about the source",
+      "reason": "Temperature conversion is given only as three formulas with no worked conversion, such as body temperature, so students first apply the formulas in Exercise 5.2 without having seen them used."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 3",
+      "lesson_text": "The specialized language representing macroscopic and microscopic components.",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain card shows a printed scripture page about an ephod with handwritten notes, which has nothing to do with chemical symbols, formulas or equations."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "While all nonzero digits are always significant, zeros require careful classification based on their position in a number.",
+      "source_text": "not about the source",
+      "reason": "The images for captive, leading and trailing zeros (an old dial scale, a lab bench and a close-up of a cylinder mark) show no numbers with the kinds of zero each card describes, so they do not help students tell the zeros apart."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 5",
+      "lesson_text": "Fahrenheit Scale ($$^\\circ\\text{F}$$)",
+      "source_text": "not about the source",
+      "reason": "The Fahrenheit card's image is a dial marked in °C from 0 to 100, which is misleading for a card about the Fahrenheit scale."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 5",
+      "lesson_text": "The official SI absolute temperature scale",
+      "source_text": "not about the source",
+      "reason": "The Celsius card shows a beaker marked in mL and the Kelvin card shows a steaming sulfur vent, and neither image shows anything about those temperature scales."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "Comparison of accuracy (closeness to the target of 296 mL) and precision (agreement among repeated dispenses) for three automated dispensers.",
+      "source_text": "not about the source",
+      "reason": "Accuracy and precision appear only as a table, placed between the significant-zero rules and the rounding rules, with no text that introduces them or links them to significant figures, so the flow of the page breaks."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Round the result to the **same number of significant figures** as the measurement with the fewest significant figures.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks students to apply the rounding rules to multiplication and division, but every rounding exercise (Exercise 4.1 Q4 and Exercise 4.2) uses only addition."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "lesson_text": "round up or down to make the retained digit **even** to avoid statistical bias.",
+      "source_text": "not about the source",
+      "reason": "The round-to-even rule is taught but no exercise asks students to round a number that ends in 5."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Differentiating between hypotheses, theories, and scientific laws in chemical contexts / block 3",
+      "lesson_text": "Which statement best describes why the chemist's idea about rust formation in the \"Hypothesis About Rust Formation\" example is a hypothesis?",
+      "source_text": "not about the source",
+      "reason": "The example cards already label each case as hypothesis, law or theory, and the correct options repeat the cards' wording, so students only restate definitions and never have to tell the three apart, which is what the objective asks for."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Relating mass, volume, and density to analyze physical samples / block 3",
+      "lesson_text": "What does 'volume' measure in the density equation?",
+      "source_text": "not about the source",
+      "reason": "These questions can be answered by copying the definitions in the equation block just above, and the later items only plug numbers into density = mass/volume, while objective 5 calls for applying dimensional analysis with unit conversions."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.1: Identifying significant figures in measured numbers containing leading, captive, and trailing zeros / block 2",
+      "lesson_text": "It has two significant figures because the trailing zeros are not significant without a decimal point.",
+      "source_text": "The zeros in the measurement 1,300 grams could be significant or they could simply indicate where the decimal point is located. ... In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "Concept 4 only says the significance of the zeros in 1300 g is \"ambiguous\" and never teaches the convention of assuming they are not significant, so the taught content does not support the single answer the question requires."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.2: Applying rounding rules to arithmetic calculations involving significant figures / block 4",
+      "lesson_text": "Step 4: Does not explain the rounding process or justify why the digit is kept or dropped",
+      "source_text": "not about the source",
+      "reason": "With 14.7 g and 0.842 g, the wrong rule and the right rule both give 15.5 g, so the flawed solution reaches the correct answer: the rubric has to invent errors in Steps 3 and 4, and the task does not show students why the decimal-place rule matters."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Categorizing chemical phenomena across macroscopic, microscopic, and symbolic domains / block 4",
+      "lesson_text": "When the chemist uses diagrams to show how water molecules arrange during freezing, which domain of chemistry is she working in?",
+      "source_text": "Chemical symbols (such as those used in the periodic table), chemical formulas, and chemical equations are part of the symbolic domain, as are graphs, drawings, and calculations.",
+      "reason": "The key accepts only Microscopic Domain, but drawings are part of the symbolic domain (and the lesson lists graphs there too), so Symbolic Domain is also a correct answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Identifying significant figures in measured numbers containing leading, captive, and trailing zeros / block 2",
+      "lesson_text": "The zeros between the $$4$$ and $$7$$ are significant because they are captive zeros.",
+      "source_text": "not about the source",
+      "reason": "0.004070 has only one zero between the 4 and the 7, and getting four significant figures also needs the trailing zero after the 7 to count, so the keyed \"best\" explanation is inaccurate and incomplete, while the only option about the trailing zero says it is not significant."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 5.1: Relating mass, volume, and density to analyze physical samples / block 5",
+      "lesson_text": "If the mass of a sample doubles but the volume stays the same, what happens to its density?",
+      "source_text": "Considering that mass and volume are both extensive properties, explain why their ratio, density, is intensive.",
+      "reason": "Concept 3 taught that density does not depend on sample size, and this question says density doubles, without saying that for one substance mass and volume grow together, so students are left with a likely contradiction."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Truck gas mileage dropped because it is due for a tune-up, as a hypothesis",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Law of conservation of matter and gas pressure proportional to temperature, as laws",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Dalton's atomic theory and evolutionary theory, as theories",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 4",
+      "summary": "H2O standing for a glass of water (macroscopic) or one molecule (microscopic)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, theories, and scientific laws in chemical contexts / block 2",
+      "summary": "Chemist's hypothesis that water in the air reacts with iron to form rust",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, theories, and scientific laws in chemical contexts / block 2",
+      "summary": "Total mass unchanged in reactions, summarized as the law of conservation of matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, theories, and scientific laws in chemical contexts / block 2",
+      "summary": "Dalton's atomic theory explaining fixed combining ratios",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical phenomena across macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Student tests metal, wood and plastic spoons warming in hot tea",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical phenomena across macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Water freezing described with observation, molecule diagrams, H2O and (l) to (s)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and Physical States of Matter / block 1",
+      "summary": "Astronaut's mass unchanged on the Moon while her weight drops to one-sixth",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and Physical States of Matter / block 1",
+      "summary": "Conservation of mass in melting ice, yeast fermenting sugar and a lead-acid battery",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and Physical States of Matter / block 3",
+      "summary": "Gold, water, sucrose, HgO, sports drinks, air, Italian dressing, cookies, granite as classes of matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Classification and Physical States of Matter / block 4",
+      "summary": "O2 and S8 as element molecules; water and glucose as compound molecules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Wax melting, steam condensing, sugar dissolving, magnetizing, grinding as physical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusting vs chromium resisting; match burning, copper with nitric acid, cooking meat, rotting banana",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Cup and gallon of milk at 20 °C combined; drop vs pot of hot cooking oil",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes / block 2",
+      "summary": "Melting ice as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes / block 2",
+      "summary": "Rusting iron as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and changes / block 2",
+      "summary": "Measuring the density of gold as a physical property",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Counting eggs in a carton and defined conversions as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Reading a graduated cylinder meniscus as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero examples such as 0.00832407 mL and 1300 g written in scientific notation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Three cough syrup dispensers targeting 296 mL (accuracy vs precision)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "0.6238 cm x 6.6 cm = 4.1 cm2; 421.23 g / 486 mL = 0.867 g/mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "summary": "Rounding 92.85, 31.55, 0.90275 and 6.8752",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 1",
+      "summary": "Converting 34 in. to 86 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Unit Conversions, and Derived Quantities / block 3",
+      "summary": "Density of antifreeze from 4.00 qt weighing 9.26 lb = 1.11 g/mL",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

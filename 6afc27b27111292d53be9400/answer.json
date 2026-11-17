@@ -1,0 +1,361 @@
+{
+  "problems": [
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and Nature of Matter / block 1",
+      "lesson_text": "there is no detectable change in the total quantity of matter present during a physical or chemical change",
+      "source_text": "when matter converts from one type to another (a chemical change) or changes among solid, liquid, or gaseous states (a physical change)",
+      "reason": "The law is stated in terms of physical and chemical change (and atoms are defined via 'an element') before Concept 2 and the classification blocks define those terms, and the lesson drops the source's inline explanation of each kind of change."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and Nature of Matter / block 2",
+      "lesson_text": "Takes both the shape and volume of its container, expanding to fill available space. Gas molecules are separated by large distances relative to their size.",
+      "source_text": "Note that clouds are actually comprised of either very small liquid water droplets or solid water crystals; gaseous water in our atmosphere is not visible to the naked eye, although it may be sensed as humidity.",
+      "reason": "The Gas card's image (image-3) shows visible mist over an open hot spring, which is liquid droplets rather than gas and shows no container, so it reinforces the common belief that visible steam is a gas."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Salt Dissolving in Water / Iron Nail / Trail Mix",
+      "source_text": "not about the source",
+      "reason": "The only samples are a solution, an element and a heterogeneous mixture; no compound appears here or in any later exercise, so students never practice recognizing a compound, which objective 1 requires."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Why is an **Iron Nail** classified as an element?",
+      "source_text": "not about the source",
+      "reason": "Each card already states the class and the reason (for example 'An iron nail is made of a single element, iron'), so questions 1 to 3 can be answered by copying the cards instead of classifying matter as objective 1 asks."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Applying the law of conservation of matter to predict mass outcomes during physical transformations and chemical reactions / block 2",
+      "lesson_text": "A beaker contains a mixture of sand and salt, both visible to the eye. Water is added to the beaker and the mixture is stirred thoroughly for two minutes.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for applying the law of conservation of matter to predict mass, but the task only asks whether sand and salt dissolve (solubility, which the lesson never teaches) and never mentions mass."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Directly measures the amount of matter in an object; increases proportionally with sample size.",
+      "source_text": "Although weight is related to mass, it is not the same thing. Weight refers to the force that gravity exerts on an object.",
+      "reason": "The lesson never separates mass from weight, a confusion students predictably bring, and the Mass card's picture (image-5) is a weighing scale, which can reinforce it."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes by analyzing observable transformations in matter / block 2",
+      "lesson_text": "Biological change / Nuclear change",
+      "source_text": "not about the source",
+      "reason": "The lesson teaches only physical and chemical changes, so these two distractors are not real options and the question becomes a two-way guess right after the example says 'No new substance is formed'."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes by analyzing observable transformations in matter / block 3",
+      "lesson_text": "The mass of the flask and its contents is measured before and after, and the student observes a change due to the release of gas.",
+      "source_text": "convincing examples are few and far between because, outside of the controlled conditions in a laboratory, we seldom collect all of the material that is produced during a particular conversion.",
+      "reason": "The mass loss is reported with no note that the escaping gas carries the missing mass, so students may conclude that chemical changes break the law of conservation of matter."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes by analyzing observable transformations in matter / block 4",
+      "lesson_text": "What kind of change is illustrated when vinegar and baking soda react to form new substances and gas?",
+      "source_text": "not about the source",
+      "reason": "The stem says the substances 'react to form new substances', which is the definition of the keyed answer, and the other choices again include 'Nuclear change' and 'Biological change', so no reasoning is needed."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.2: Categorizing physical and chemical properties of matter as either intensive or extensive / block 2",
+      "lesson_text": "A piece of copper has a mass of 50 g and a volume of 5 cm³. Which property—mass or volume—is extensive? / Both mass and volume",
+      "source_text": "The mass and volume of a substance are examples of extensive properties",
+      "reason": "The stem asks students to pick one of two named properties but the key is 'Both mass and volume', so a student who correctly answers 'mass' is marked wrong."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Refers to how closely a measured result agrees with the true, accepted reference value of that quantity.",
+      "source_text": "(c) These arrows are neither on target nor close to one another, so they are neither accurate nor precise.",
+      "reason": "The Accuracy card's image (image-9) shows arrows spread across the target with one off it, which matches the source's picture of results that are neither accurate nor precise, so it shows the opposite of accuracy."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Refers to how closely repeated measurements agree with one another under unchanged experimental conditions.",
+      "source_text": "(b) These arrows are close to one another but not on target, so they are precise but not accurate.",
+      "reason": "The Precision card's image (image-10) shows darts scattered over different parts of the board rather than grouped together, so it does not show repeated results that agree."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 2",
+      "lesson_text": "Quantities defined by convention or whole-number counts that introduce zero uncertainty into scientific computations.",
+      "source_text": "not about the source",
+      "reason": "Exact numbers are already explained in block 1 ('Values known with complete certainty') and again in the block 5 callout, and this card repeats them inside a set about measurement quality."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 5",
+      "lesson_text": "When solving multi-step mathematical problems, carry extra digits throughout all intermediate calculation steps and round only at the final result. Rounding intermediate steps prematurely introduces cumulative round-off error.",
+      "source_text": "not in source",
+      "reason": "The source gives rules for rounding a calculated result but says nothing about carrying extra digits through intermediate steps or about round-off error."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.1: Evaluating experimental measurement sets to distinguish between accuracy and precision / block 2",
+      "lesson_text": "To calculate the volume, the student uses the formula for a cylinder: volume = length × area of cross-section.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for distinguishing accuracy and precision in measurement sets, but it gives single measurements and asks only about significant figures in a volume calculation, so accuracy and precision are never tested."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Evaluating experimental measurement sets to distinguish between accuracy and precision / block 2",
+      "lesson_text": "The calculator gives a raw volume value of 694.975 mm³. ... The reported volume is 695 mm³ (rounded to three significant figures).",
+      "source_text": "not in source",
+      "reason": "125.6 mm × π × (8.40 mm)²/4 is about 6960 mm³ (6.96 × 10³ mm³), so the given raw value and reported answer are off by about a factor of ten, and the grading criteria in block 3 repeat the wrong value."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 2",
+      "lesson_text": "Density is an intensive property defined as the ratio of an object's mass to its volume.",
+      "source_text": "not about the source",
+      "reason": "Concept 2 block 3 already defines density as 'An intrinsic property determined by the ratio of mass to volume', so the same definition is taught again in Concept 4."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 4",
+      "lesson_text": "Multiplying a quantity by an appropriately oriented conversion factor cancels the given unit and introduces the desired unit without altering the physical quantity.",
+      "source_text": "For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:",
+      "reason": "Dimensional analysis is described only in general terms plus two conversion ratios; no quantity is ever converted step by step, so students never see the method applied."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Solving multi-step density calculations and unit conversions using dimensional analysis / block 2",
+      "lesson_text": "Which step best demonstrates the application of dimensional analysis in this process? / Converting mass from grams to kilograms",
+      "source_text": "not about the source",
+      "reason": "The scenario reports density in g/cm³ and never converts grams to kilograms, so the keyed answer describes a step that does not happen, and it is the only choice that mentions converting units, which gives it away."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 4.2: Solving multi-step density calculations and unit conversions using dimensional analysis / block 2",
+      "lesson_text": "Explain how dimensional analysis can help avoid mistakes when converting units in multi-step scientific calculations. Provide an example using mass and volume.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks students to solve multi-step calculations with dimensional analysis, but no exercise asks them to carry out a unit conversion; the questions only ask them to name a step, recall a unit, divide mass by volume or explain the method."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 2",
+      "lesson_text": "Kelvin does not use the degree symbol (°) and begins at absolute zero, the lowest possible temperature where molecular motion ceases.",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved.",
+      "reason": "The source does not say motion stops, and well-established physics holds that particles keep a minimum (zero-point) motion even at absolute zero, so the claim teaches a common misconception."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 3",
+      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table repeats exactly the freezing and boiling points already listed in block 1 (0/100 °C, 32/212 °F, 273.15/373.15 K) and adds nothing new."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 4",
+      "lesson_text": "To convert Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add 32.",
+      "source_text": "The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale.",
+      "reason": "The lesson jumps from the reference-point table to the formulas without showing that 9/5 comes from 180 Fahrenheit degrees spanning the same range as 100 Celsius degrees and that 32 is the offset between the freezing points, yet Exercise 5.1 is about the derivation."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 7",
+      "lesson_text": "Apply $$T_{\\text{K}} = 0 + 273.15 = 273.15 \\text{ K}$$.",
+      "source_text": "not about the source",
+      "reason": "The image for the 0 °C to kelvin card (image-14) is a beaker of a labelled lab solution with pipettes; it shows nothing about 0 °C, kelvin or a thermometer, so it does not support the conversion."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Converting temperature values across Celsius, Fahrenheit, and Kelvin scales in scientific and practical contexts / block 2",
+      "lesson_text": "A thermometer reads $$0\\ ^\\circ\\text{C}$$. What is this temperature in Kelvin? / 273 K",
+      "source_text": "Convert 50 °F to °C and K. Answer: 10 °C, 280 K",
+      "reason": "The key is '273.15 K', but the distractor '273 K' is also correct, and by the lesson's own addition rule 0 °C + 273.15 rounds to 273 K, so the question has two defensible answers."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and Nature of Matter / block 1",
+      "summary": "O2 and H2O molecules as examples of molecules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and Nature of Matter / block 1",
+      "summary": "Glucose fermenting into ethanol and carbon dioxide with mass conserved",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and Nature of Matter / block 2",
+      "summary": "Plasma in stars, lightning strikes and cutting torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and Nature of Matter / block 4",
+      "summary": "Class examples: gold, O2, sucrose, water, NaCl, sports drinks, air, gasoline, Italian dressing, granite, chocolate chip cookies",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water as a solution",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Iron nail as an element",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Trail mix as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Applying the law of conservation of matter to predict mass outcomes during physical transformations and chemical reactions / block 2",
+      "summary": "Sand and salt stirred in water (offered for conservation of matter)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Ice melting and wax liquefying as physical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Rusting iron, burning gasoline and digesting food as chemical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Table cases: boiling point of water, sugar dissolving in coffee, flammability of gasoline, rusting iron",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus cup of milk for an extensive property",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Two 20 °C samples combined stay at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Drop versus pot of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes by analyzing observable transformations in matter / block 1",
+      "summary": "Student melts ice and finds mass unchanged",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Distinguishing between physical and chemical changes by analyzing observable transformations in matter / block 3",
+      "summary": "Vinegar and baking soda fizzing as a chemical change",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Exact numbers: counting eggs in a carton, 12 inches in 1 foot, 1000 mL in 1 L",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "Significant-figure counts for 145.8, 70.607, 0.00802 and 55.00",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 3",
+      "summary": "1300 as an ambiguous trailing-zero case resolved with exponential notation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Accuracy, Precision, and Significant Figures / block 4",
+      "summary": "Rounding examples 18.338, 6.8752, 92.85 and 31.55",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Evaluating experimental measurement sets to distinguish between accuracy and precision / block 2",
+      "summary": "Metal rod volume from 125.6 mm length and 8.40 mm diameter",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Identifying and correcting errors in significant figure determination and calculation rounding rules / block 2",
+      "summary": "Three rod lengths (12.15, 12.2, 12.13 cm) averaged and judged for accuracy and precision",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 3",
+      "summary": "Bar graph of densities of gasoline, ice, water, iron, lead and gold",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Derived Quantities, Density, and Dimensional Analysis / block 4",
+      "summary": "Conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 7",
+      "summary": "Convert 25 °C to 77 °F",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 7",
+      "summary": "Convert 100 °F to 37.8 °C",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Linear Interconversions / block 7",
+      "summary": "Convert 0 °C to 273.15 K",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

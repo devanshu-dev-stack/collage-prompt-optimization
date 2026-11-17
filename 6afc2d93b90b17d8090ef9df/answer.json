@@ -1,0 +1,441 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "lesson_text": "Predicting that a gas will expand when heated",
+      "source_text": "Some routes involve a hypothesis, a tentative explanation of observations that acts as a guide for gathering and checking information.",
+      "reason": "The table's hypothesis example is a prediction of well-established gas behavior, not a tentative explanation of observations as the source (and the row's own definition) defines a hypothesis."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "lesson_text": "Distinguishing Scientific Hypotheses, Laws, and Theories",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to tell hypotheses, laws and theories apart, but no exercise asks them to classify a statement as a law or a theory: Exercise 1.1, titled for this skill, tests only the three domains, and Exercise 1.2 has just one hypothesis question."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 3",
+      "lesson_text": "The specialized language and notation used to represent both macroscopic and microscopic features, such as chemical formulas, elemental symbols, balanced reaction equations, and phase abbreviations like (s), (l), and (g).",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain card's image (image-3) shows cubes printed with the math notation f(x), not any chemical symbol, formula or equation, so it does not illustrate the symbolic domain of chemistry."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying scientific statements as hypotheses, laws, or theories based on empirical observation and explanation / block 3",
+      "lesson_text": "In the example of the **Rusting Iron Nail**, which domain is used when a chemist writes the equation for the reaction?",
+      "source_text": "not about the source",
+      "reason": "The example cards already tag each step '(macroscopic)', '(microscopic)' or '(symbolic)', so Questions 1 to 3 can be answered by copying the tag rather than applying the domain ideas."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Categorizing everyday chemical phenomena across macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "In Example 1, the chemist observes the formation of copper on the metal strip and the fading blue color. Which best describes the type of information gained from these observations?",
+      "source_text": "not about the source",
+      "reason": "The question stem says 'observes' and 'these observations', which gives away the keyed answer 'Direct observation'."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 2: States and Classification of Matter / block 1",
+      "lesson_text": "there is no detectable change in the total quantity of matter present during a physical conversion or a chemical transformation",
+      "source_text": "there is no detectable change in the total quantity of matter present when matter converts from one type to another (a chemical change) or changes among solid, liquid, or gaseous states (a physical change)",
+      "reason": "Physical and chemical change are used here (and in Exercises 2.1 and 2.2) before Concept 3 defines them, and the lesson drops the short definitions the source gives in the same sentence."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: States and Classification of Matter / block 2",
+      "lesson_text": "Particles tightly packed in organized or fixed arrays; vibrate about fixed points.",
+      "source_text": "gas molecules are far apart and disorganized, solid water molecules are close together and organized, and liquid molecules are close together and disorganized",
+      "reason": "The particle-motion claims (solid particles vibrating about fixed points, gas particles in 'rapid, random, independent motion') are not in the source, which only describes how close together and how ordered the particles are."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: States and Classification of Matter / block 3",
+      "lesson_text": "Variable Composition",
+      "source_text": "Note that the composition of a sports drink can vary—it could be made with somewhat more or less sugar, flavoring, or other components, and still be a sports drink.",
+      "reason": "Linking 'Variable Composition' only to heterogeneous mixtures (and 'Uniform Composition' to homogeneous ones) invites the common mix-up that homogeneous mixtures have fixed proportions, and the lesson never says that heterogeneous means the composition varies from point to point."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: States and Classification of Matter / block 4",
+      "lesson_text": "Units formed by two or more identical atoms chemically bonded together, such as diatomic oxygen ($$\\text{O}_2$$) or octatomic sulfur ($$\\text{S}_8$$).",
+      "source_text": "not about the source",
+      "reason": "The Elemental Molecules card's image (image-5) is a ball-and-stick model with atoms of several different elements (a compound molecule), which contradicts the 'identical atoms' definition it is meant to show."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: States and Classification of Matter / block 4",
+      "lesson_text": "The smallest particle of an element that retains the chemical properties of that element and can participate in a chemical reaction.",
+      "source_text": "However, most of the subjects in the microscopic domain of chemistry are too small to be seen even with the most advanced microscopes and may only be pictured in the mind.",
+      "reason": "The Atom card's image (image-4) is an ordinary optical lab microscope, which suggests atoms can be seen that way, although the source says they are far too small to see with such instruments."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Classifying diverse samples of matter as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "A student heats a solid metal until it melts and then boils. What property of matter allows this change of state?",
+      "source_text": "not about the source",
+      "reason": "The question asks for a property, but the keyed answer 'Physical state change' names a change, not a property, which blurs the property-versus-change distinction the lesson teaches."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Color change from oxidation, gas evolution, heat/light release (combustion, digestion)",
+      "source_text": "grinding solids into powders (which can sometimes yield noticeable changes in color)",
+      "reason": "These signs are listed as indicators of chemical change with no warning that color changes and gas bubbles also happen in physical changes (boiling, grinding, or the zinc oxide color change in Exercise 1.2, which the lesson never resolves), a very common misconception."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Examples include mass, volume, and total heat capacity.",
+      "source_text": "not in source",
+      "reason": "Heat capacity is not in the source (its extensive examples are mass, volume and heat) and is an undefined, unfamiliar term for these students."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "lesson_text": "A single drop of boiling cooking oil at 190 °C causes only a minor splatter on your arm",
+      "source_text": "A drop of hot cooking oil spattered on your arm causes brief, minor discomfort, whereas a pot of hot oil yields severe burns.",
+      "reason": "Cooking oil does not boil at 190 °C (a frying temperature well below its boiling point), so the added 'boiling ... at 190 °C' detail is wrong in a lesson that teaches boiling point as a property."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and identifying changes in matter / block 3",
+      "lesson_text": "For the **Iron Rusting** example, which property and change are illustrated?",
+      "source_text": "not about the source",
+      "reason": "The example cards state the answers outright ('This is a chemical change, showing the chemical property of reactivity with oxygen'), so Questions 1 to 3 only require copying them, not classifying anything."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "lesson_text": "Every nonzero digit in a measurement is always significant. For instance, 1267 contains four significant figures.",
+      "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "The lesson gives rules for counting 'significant figures' without ever defining the term or linking it to the 'known digits plus one estimated digit' idea in block 1."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "lesson_text": "All nonzero digits are significant. Zeros require careful classification based on their placement.",
+      "source_text": "not about the source",
+      "reason": "The four card images (a beaker marked '100', an analog scale, a dropper, a caliper reading 25.57) do not show the digit rules; the 'Nonzero Digits' image shows a number with zeros and the 'Trailing Zeros' image shows no trailing zero."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "lesson_text": "Zeros that appear before the first nonzero digit are never significant; they serve only as placeholders to locate the decimal point, as in 0.00832 (three significant figures).",
+      "source_text": "not about the source",
+      "reason": "No exercise asks students to count significant figures in a number (Exercise 4.1 Question 2 even states the counts), so the zero rules, and the exact-versus-measured numbers named in Exercise 4.1's title, are never practiced."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Determining significant figures in measured quantities and distinguishing exact from uncertain numbers / block 2",
+      "lesson_text": "The measurements are both accurate and precise",
+      "source_text": "not about the source",
+      "reason": "This option means the same as 'The measurements are precise and accurate', so two of the four choices are identical and therefore obviously both wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Applying rounding rules and significant figure limits in mathematical calculations / block 4",
+      "lesson_text": "Step 4: Reports average as 4.123 g; correct: average should be rounded to two decimal places (4.12 g) to match the number of decimal places in the original measurements.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "By the source's rules the sum 12.37 g has four significant figures and dividing by the exact count 3 keeps four, so 4.123 g is correct and the key marks a right value wrong by applying the decimal-place rule to a division."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 2",
+      "lesson_text": "\\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "The density definition, this same equation and the 'density is intensive' point were already taught in Concept 3 block 3 ('Density: Ratio of Two Extensive Values') and are restated here."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 3",
+      "lesson_text": "For irregularly shaped solids, the object is submerged in a known volume of liquid within a graduated cylinder.",
+      "source_text": "not about the source",
+      "reason": "Water displacement is taught and named in Exercise 5.2's title, but no exercise asks students to find a volume or density by displacement."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 3",
+      "lesson_text": "The volume of displaced liquid equals the volume of the submerged object ($$V_{\\text{object}} = V_{\\text{final}} - V_{\\text{initial}}$$).",
+      "source_text": "not about the source",
+      "reason": "The Water Displacement card's image (image-16, the same beaker photo used for 'Nonzero Digits') shows no submerged object and no initial and final levels, so it gives no visual support for the method."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 4",
+      "lesson_text": "Complex conversions chain several factors sequentially. For example, calculating the mass in grams of an object with known density from fluid ounces requires aligning conversion factors so that each successive intermediate unit cancels out:",
+      "source_text": "What is the density of common antifreeze in units of g/mL? A 4.00-qt sample of the antifreeze weighs 9.26 lb.",
+      "reason": "Multi-step conversion, a learning objective, is shown only as an abstract Unit A/B/C template and the fluid-ounce case is mentioned but never worked, although the source works full multi-step examples."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Analyzing multi-step unit conversion setups using dimensional analysis and standard SI prefixes / block 2",
+      "lesson_text": "Density = 2000 kg/m³",
+      "source_text": "The density of a substance is the ratio of the mass of a sample of the substance to its volume. The SI unit for density is the kilogram per cubic meter (kg/m3).",
+      "reason": "125 g divided by (2.5 cm)³ = 15.625 cm³ gives 8.0 g/cm³ = 8.0 × 10³ kg/m³, so the stated solution of 2000 kg/m³ is wrong by a factor of four."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Analyzing multi-step unit conversion setups using dimensional analysis and standard SI prefixes / block 3",
+      "lesson_text": "to get $$8000$$ kg/m³, then check significant figures and report density as $$2000$$ kg/m³",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "Rounding to significant figures cannot turn 8000 into 2000 (two significant figures gives 8.0 × 10³ kg/m³), so the grading criterion teaches a false rounding step."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Analyzing multi-step unit conversion setups using dimensional analysis and standard SI prefixes / block 3",
+      "lesson_text": "What is the most useful first step in reconstructing how the density was found for the metal cube?",
+      "source_text": "not about the source",
+      "reason": "'Write the density formula' and 'Record the given values' are as defensible a first step as the keyed 'Convert mass and length units', so the question has more than one correct answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Calculating derived quantities of volume and density from direct measurements and water displacement / block 2",
+      "lesson_text": "Add 1000 to liters, get milliliters",
+      "source_text": "not about the source",
+      "reason": "Adding or subtracting 1000 to change units are obviously implausible distractors, which turns Question 2 into a two-choice guess."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 6: Temperature Measurement and Scale Conversions / block 2",
+      "lesson_text": "To convert from Celsius to Fahrenheit, multiply the Celsius temperature by 9/5 and then add 32.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "The equation is never connected to the reference points in blocks 1 and 5 (100 Celsius degrees span 180 Fahrenheit degrees, giving 9/5, and 0 °C equals 32 °F, giving +32), even though block 1 says conversions require understanding the scale intervals and zero points."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Measurement and Scale Conversions / block 5",
+      "lesson_text": "Comparison of water's freezing and boiling points across Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table repeats exactly the freezing and boiling points already listed in block 1 of the same concept and adds nothing new."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Interpreting the mathematical structure and zero-point offsets connecting Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
+      "lesson_text": "The numbers $$9$$ and $$5$$ are constants that set the proportional relationship between the scales.",
+      "source_text": "The Celsius and Fahrenheit temperature scales, however, do not share a common zero point, and so the relationship between these two scales is a linear one rather than a proportional one (y = mx + b).",
+      "reason": "The source stresses that the Celsius-Fahrenheit relation is linear, not proportional, yet the lesson calls it proportional here and again in the keyed answer to block 3 Question 4 ('Sets the proportional relationship')."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Exercise 6.2: Performing bidirectional temperature conversions among Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "lesson_text": "Explain why scientists prefer using the Kelvin scale for temperature measurements in physical sciences, compared to Celsius or Fahrenheit.",
+      "source_text": "Although the kelvin (absolute) temperature scale is the official SI temperature scale, Celsius is commonly used in many scientific contexts and is the scale of choice for nonscience contexts in almost all areas of the world.",
+      "reason": "The question asserts a general scientific preference for Kelvin (and grades on linking it to 'scientific accuracy'), while the source says Kelvin is the official SI scale but Celsius is commonly used in many scientific contexts."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 6.2: Performing bidirectional temperature conversions among Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "lesson_text": "Describes how Kelvin avoids negative values and is useful for calculations",
+      "source_text": "not about the source",
+      "reason": "Concept 6 never explains why the Kelvin scale is useful (no negative values, its use in gas laws), so the teaching before this question does not give students the knowledge it grades."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "summary": "Hypothesis example: predicting a gas expands when heated",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "summary": "Law example: law of conservation of matter",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 2",
+      "summary": "Theory example: Dalton's atomic theory",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: The Nature of Chemistry: Scientific Method and the Three Domains / block 4",
+      "summary": "Water, H2O(l), linking macroscopic and microscopic domains",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying scientific statements as hypotheses, laws, or theories based on empirical observation and explanation / block 2",
+      "summary": "Rusting iron nail seen in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying scientific statements as hypotheses, laws, or theories based on empirical observation and explanation / block 2",
+      "summary": "Table salt dissolving seen in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Classifying scientific statements as hypotheses, laws, or theories based on empirical observation and explanation / block 2",
+      "summary": "Lighting a Bunsen burner seen in the three domains",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Categorizing everyday chemical phenomena across macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Zinc strip in copper(II) sulfate: observation, hypothesis, equation",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Categorizing everyday chemical phenomena across macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Zinc oxide powder turning yellow when heated",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 1",
+      "summary": "Astronaut weighs one-sixth as much on the Moon, mass unchanged",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 1",
+      "summary": "Fermentation of glucose and lead-acid battery conserve mass",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 3",
+      "summary": "Classification instances: gold, oxygen, water, sucrose, air, syrup, granite, dressing",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: States and Classification of Matter / block 4",
+      "summary": "Molecules O2, S8, H2O and glucose",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Predicting total mass changes during physical and chemical processes using the law of conservation of matter / block 2",
+      "summary": "Pure solid melting in a sealed glass container",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, grinding, sugar in coffee",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: rusting, combustion, banana browning, copper with nitric acid",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Drop versus pot of hot oil: same temperature, different heat",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and identifying changes in matter / block 2",
+      "summary": "Ice melting as a physical change",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and identifying changes in matter / block 2",
+      "summary": "Iron rusting as a chemical change",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Differentiating between physical and chemical properties and identifying changes in matter / block 2",
+      "summary": "Density of gold as an intensive property",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing intensive properties from extensive properties in physical systems / block 2",
+      "summary": "Copper sample: melting point 1085 °C, reaction with oxygen, 25 g mass",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 1",
+      "summary": "Exact numbers: eggs counted, 1 inch = 2.54 cm by definition",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 2",
+      "summary": "Three cough medicine dispensers (accuracy versus precision)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "summary": "1267 has four significant figures (nonzero digits)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "summary": "70.607 has five significant figures (captive zeros)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "summary": "0.00832 has three significant figures (leading zeros)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 3",
+      "summary": "Trailing zeros: 55.0 and the ambiguous 1300",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 4",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm²",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Precision, Accuracy, and Significant Figures / block 4",
+      "summary": "Rounding 92.85 to 92.8 (round-to-even with a dropped 5)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Applying rounding rules and significant figure limits in mathematical calculations / block 2",
+      "summary": "Three mass readings 4.12, 4.15, 4.10 g versus accepted 4.18 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, SI Units, and Derived Quantities / block 4",
+      "summary": "34 in. converted to 86 cm with 2.54 cm/in.",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Analyzing multi-step unit conversion setups using dimensional analysis and standard SI prefixes / block 2",
+      "summary": "Density of a 125 g metal cube with 2.5 cm edges",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

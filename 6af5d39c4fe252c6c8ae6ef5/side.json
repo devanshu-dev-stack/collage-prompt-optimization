@@ -1,0 +1,445 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 3,
+    "wrong_viewpoint": 1,
+    "off_source_content": 0,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 3,
+    "x3": 0,
+    "x4": 0,
+    "x5": 1,
+    "x6": 5,
+    "x7": 0,
+    "x8": 0,
+    "x9": 2,
+    "x10": 0,
+    "x11": 1,
+    "x12": 1,
+    "x14": 6,
+    "x15": 1
+  },
+  "examples_total": 35,
+  "examples_from_source": 30,
+  "made_up_examples": 5,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 50,
+  "score": 92,
+  "instructions_score": 100,
+  "teaching_score": 87,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "lesson_text": "**Does the sample have constant properties and composition throughout?** ... If **yes**, it is a **pure substance**.",
+      "source_text": "A homogeneous mixture, also called a solution, exhibits a uniform composition and appears visually the same throughout.",
+      "reason": "By this test a uniform solution such as a sports drink has the same composition throughout and would be called a pure substance, which contradicts the source (and the lesson's own step 3), because the source's pure-substance test is a fixed composition from sample to sample, not uniformity within one sample."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 6",
+      "lesson_text": "Because the density of pure iron is $$7.9\\text{ g}/\\text{cm}^3$$, this experimental density confirms that rebar consists primarily of iron.",
+      "source_text": "From Table 1.4, the density of iron is 7.9 g/cm3, very close to that of rebar, which lends some support to the fact that rebar is mostly iron.",
+      "reason": "The source carefully says the measured density only 'lends some support' to the claim, while the lesson says it 'confirms' it, which overstates what one density measurement can prove."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Reconstructing the step-by-step logic and unit cancellations of multi-step conversion factor pathways / block 2",
+      "lesson_text": "The calculated density is $$0.36\\text{ g/cm}^3$$.",
+      "source_text": "1 (avoirdupois) oz = 28.349 g",
+      "reason": "With the source's factor, 5.00 oz is 141.7 g, and 141.7 g divided by 140 mL (140 cm3) is about 1.01 g/cm3, so the given solution that students must reconstruct is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Reconstructing the step-by-step logic and unit cancellations of multi-step conversion factor pathways / block 3",
+      "lesson_text": "Calculate density as $$\\frac{141.745\\text{ g}}{140\\text{ cm}^3} = 1.013\\text{ g/cm}^3$$, then check significant digits and report the answer as $$0.36\\text{ g/cm}^3$$ (rounded appropriately)",
+      "source_text": "not in source",
+      "reason": "The grading rubric works out 1.013 g/cm3 and then tells graders that rounding it gives 0.36 g/cm3, which is false arithmetic and rewards a wrong answer."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 4",
+      "lesson_text": "Precise, but not accurate (closely grouped around $$284\\text{ mL}$$, but more than $$10\\text{ mL}$$ below target)",
+      "source_text": "not about the source",
+      "reason": "The dispenser table judges each dispenser as accurate or precise before block 5 defines accuracy and precision, so students read the verdicts before they know what the words mean."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 5",
+      "lesson_text": "Density expresses how tightly matter is packed within a given volume. \\text{density} = \\frac{\\text{mass}}{\\text{volume}}",
+      "source_text": "not about the source",
+      "reason": "The density equation was already given in Concept 2 block 4 and stated again in this concept's block 4 card ('The ratio of mass to volume'), so the same definition appears three times across two concepts."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Conversions / block 3",
+      "lesson_text": "Based on water's freezing point (0°C) and boiling point (100°C) at standard pressure. ... Water freezes at 32°F and boils at 212°F.",
+      "source_text": "not about the source",
+      "reason": "The cards repeat the freezing and boiling points and the 'no degree symbol' rule that block 1 of the same concept has just listed for each scale."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Temperature Scales and Conversions / block 4",
+      "lesson_text": "Comparison of freezing and boiling points of water on Celsius, Fahrenheit, and Kelvin scales.",
+      "source_text": "not about the source",
+      "reason": "The table gives the same freezing and boiling points a third time (after block 1 and block 3), which adds length without new ideas."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 6: Temperature Scales and Conversions / block 6",
+      "lesson_text": "To convert Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add $$32$$.",
+      "source_text": "The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale.",
+      "reason": "The concept never shows that 9/5 comes from 180 Fahrenheit degrees over 100 Celsius degrees and 32 from the freezing point in the table just above, so the formula is left as something to memorize, although linear formulas are the learning objective."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "A gas takes both the shape and the volume of its container, expanding completely to fill whatever space is available. Its particles are widely separated.",
+      "source_text": "Clouds appear to behave somewhat like gases, but they are actually mixtures of air (gas) and tiny particles of water (liquid or solid).",
+      "reason": "The Gas card's picture is a sky of clouds, which the source says are not a gas but liquid or solid water mixed with air, so the image teaches a misconception."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Mixing sodium chloride into water separates the ions within solution without altering their chemical structure, representing a reversible physical change.",
+      "source_text": "not about the source",
+      "reason": "The 'Dissolving Table Salt' image is a blurry close-up of a frosty, foamy surface with no salt, water or glass to be seen, and the 'Melting Candle Wax' image shows only solid wax cubes, so neither picture shows the change its card describes."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 4",
+      "lesson_text": "The ratio of mass to volume.",
+      "source_text": "not about the source",
+      "reason": "The Density card shows cannabis buds on a lab balance, an unsuitable subject that shows only a mass reading and no volume, and the Water Displacement card shows a beaker scale with no object and no before-and-after water levels, so neither image explains its idea."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 2",
+      "lesson_text": "Zeros appearing to the left of the first nonzero digit (such as in $$0.008324\\text{ m}$$) are never significant; they serve only to locate the decimal point.",
+      "source_text": "not about the source",
+      "reason": "The three zero cards use stock photos (a graduated cylinder, a branded device reading '-98.0%', and panel meters reading '00.0 A') that do not show or label a captive, leading or trailing zero, so they do not help students tell the zero types apart."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 6: Temperature Scales and Conversions / block 3",
+      "lesson_text": "Kelvin (K) ... Starts at absolute zero (0 K), the lowest possible temperature.",
+      "source_text": "not about the source",
+      "reason": "The Kelvin card's image is a thermometer marked only in °C and °F, with no kelvin scale, so it does not show the scale the card is about."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Measurable properties of matter fall into one of two fundamental categories depending on whether they vary with the quantity of substance being observed",
+      "source_text": "not about the source",
+      "reason": "Extensive versus intensive properties (part of objective 2, with heat versus temperature) are taught here, but no exercise asks students to classify a property as extensive or intensive, even though Exercise 2.1's title says it will."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 3",
+      "lesson_text": "Round the result to the same number of **decimal places** as the measurement with the fewest decimal places",
+      "source_text": "not about the source",
+      "reason": "Objective 3 asks students to apply rounding rules, but no exercise has them add or subtract measured values or round a dropped 5 to an even digit; the addition rule only shows up as the wrong rule in Exercise 4.1."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing diverse substances as pure elements, compounds, homogeneous solutions, or heterogeneous mixtures based on physical and chemical criteria / block 3",
+      "lesson_text": "Which classification best describes a gold bar as shown in the first example card?",
+      "source_text": "not about the source",
+      "reason": "Each of the three multiple-choice questions can be answered by copying the card just above it (for example 'It is classified as a solid and an element'), so students never classify a sample themselves as objective 1 asks."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Categorizing diverse substances as pure elements, compounds, homogeneous solutions, or heterogeneous mixtures based on physical and chemical criteria / block 3",
+      "lesson_text": "A heterogeneous mixture and a plasma",
+      "source_text": "not about the source",
+      "reason": "In each question only one option names the obvious state (solid for gold and granite, liquid for saltwater), and distractors such as a gold bar being a gas or a plasma are not plausible, so the state alone gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Distinguishing macroscopic states of matter and classifying various materials according to composition and uniformity / block 2",
+      "lesson_text": "A student observes a clear, uniform liquid in a glass. Which classification best describes this material?",
+      "source_text": "not about the source",
+      "reason": "A clear, uniform liquid could just as well be pure water, a compound, so 'Compound' is also correct, and the key contradicts the lesson's own callout that a compound and a homogeneous mixture can both look uniform."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Deconstructing the mathematical definition of density to understand the relationship between mass, volume, and substance identity / block 3",
+      "lesson_text": "What is the correct SI unit for volume when calculating density in the standard SI system?",
+      "source_text": "not about the source",
+      "reason": "The options are kelvin, ampere, gram and cubic meter, so only one choice is a unit of volume at all and the distractors are not plausible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Calculating density, mass, and volume from geometric measurements and water displacement experiments / block 2",
+      "lesson_text": "Density $$= 36.0\\text{ g} / 3.14\\text{ cm}^3 = 11.5\\text{ g}/\\text{cm}^3$$.",
+      "source_text": "not about the source",
+      "reason": "The cylinder's volume is 1.57 cm3, so its density is 36.0 g / 1.57 cm3 = 22.9 g/cm3, which is not among the options; the keyed answer 11.5 g/cm3 wrongly divides by 3.14."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Determining measurement certainty, handling zero types, and evaluating data sets for accuracy versus precision / block 2",
+      "lesson_text": "There are 5 significant figures; the first two zeros are leading zeros, and the last zero is a trailing zero.",
+      "source_text": "not about the source",
+      "reason": "0.08040 g has 4 significant figures (8, 0, 4, 0), as the explanation itself lists, so the keyed answer of 5 is wrong and the option with 4 significant figures is marked incorrect."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Analyzing the slope and intercept parameters connecting the Celsius, Fahrenheit, and absolute kelvin temperature scales / block 3",
+      "lesson_text": "The size of a degree on the Fahrenheit scale compared to Celsius",
+      "source_text": "not about the source",
+      "reason": "9/5 is how many Fahrenheit degrees fit in one Celsius degree; a Fahrenheit degree is 5/9 the size of a Celsius degree, so the keyed wording is backwards and conflicts with its own explanation."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 3.1: Deconstructing the mathematical definition of density to understand the relationship between mass, volume, and substance identity / block 5",
+      "lesson_text": "Correct! Density is directly proportional to mass, so doubling mass doubles density.",
+      "source_text": "not about the source",
+      "reason": "The feedback tells students that density depends on how much mass there is, the common misconception that Concept 2 block 4 warned against (density is intensive), and never explains that keeping the volume fixed while doubling the mass means a different material."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 6.2: Computing temperature value interconversions across Celsius, Fahrenheit, and kelvin scales using linear equations / block 2",
+      "lesson_text": "Explain why scientists use the kelvin scale instead of Celsius or Fahrenheit when reporting absolute temperatures, and describe one situation where this matters.",
+      "source_text": "not about the source",
+      "reason": "The lesson only says that 0 K is the lowest possible temperature; it never explains why an absolute scale matters or gives any situation (such as gas behavior) where it does, so the instruction does not support this question."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 1",
+      "summary": "Glass of water and ice cube as macroscopic domain; H2O and state symbols as symbolic domain",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "summary": "Plasma in stars, lightning and plasma cutting torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Mind map examples: gold, oxygen, water, sucrose, sports drinks, air, salad dressing, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "summary": "Iron, sulfur, water, sucrose, O2, P4, sports drink, gasoline, saltwater, Italian dressing, cookie dough, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Water's fixed 2:1 hydrogen-to-oxygen ratio versus sugar water of varying sweetness",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing diverse substances as pure elements, compounds, homogeneous solutions, or heterogeneous mixtures based on physical and chemical criteria / block 2",
+      "summary": "Gold bar, saltwater solution and granite classified",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Wax melting, steam condensing, sugar in coffee, magnetizing; iron rusting versus chromium, copper with nitric acid, combustion, meat and banana browning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting candle wax as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron rusting to iron(III) oxide as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Dissolving table salt in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Burning match: cellulose and oxygen to carbon dioxide and water vapor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus cup of milk (mass, volume) and both at 20 °C (temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop of hot oil versus pot of hot oil at the same temperature (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Gold nugget or brick keeps density 19.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 5",
+      "summary": "Steam condensing on a pot lid and gasoline burning in an engine",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 5",
+      "summary": "Melting point of copper (1085 °C) as an intensive property",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Identifying distinguishing traits of physical versus chemical alterations and discovering the basis for intensive and extensive classifications / block 1",
+      "summary": "Metal spoon heated in boiling water, unchanged after cooling",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Identifying distinguishing traits of physical versus chemical alterations and discovering the basis for intensive and extensive classifications / block 3",
+      "summary": "Iron left in rain forms rust and weighs slightly more",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Identifying distinguishing traits of physical versus chemical alterations and discovering the basis for intensive and extensive classifications / block 5",
+      "summary": "Salt dissolved in water and recovered after the water evaporates",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting whether observable changes in matter represent physical transformations or chemical reactions producing novel substances / block 2",
+      "summary": "Copper metal in nitric acid: blue solution and brown gas",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 1",
+      "summary": "Airliner mass 2.98 × 10^5 kg and mosquito mass 2.5 × 10^-6 kg",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 1",
+      "summary": "Phenobarbital dose of '100' without units: 100 mg versus 100 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 6",
+      "summary": "Lead cube 2.00 cm edge, 90.7 g, density 11.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Scientific Measurements, SI Base Units, and Density / block 6",
+      "summary": "Rebar density by water displacement (69.658 g, 13.5 to 22.4 mL, 7.8 g/cm3)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 1",
+      "summary": "Counting 12 eggs and defined equalities (1 in. = 2.54 cm) as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 1",
+      "summary": "Reading a meniscus between 21 and 22 mL as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 2",
+      "summary": "Zero types in 70.607 mL, 3090, 0.008324 m, 55.0 g and 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 3",
+      "summary": "Adding 1.0023 g and 4.383 g to get 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 3",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm to get 4.1 cm2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 3",
+      "summary": "Rounding 92.85 to 92.8 and 0.90275 to 0.9028",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Accuracy versus Precision / block 4",
+      "summary": "Three cough syrup dispensers tested against 296 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Detecting and resolving errors in counting significant figures and applying rounding guidelines to arithmetic results / block 3",
+      "summary": "Flawed density calculation from 22.50 g and 5.2 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 4",
+      "summary": "Density of antifreeze from a 4.00-qt sample weighing 9.26 lb",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Reconstructing the step-by-step logic and unit cancellations of multi-step conversion factor pathways / block 2",
+      "summary": "Density of a 5.00-oz metal sample with volume 140 mL",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Conversions / block 8",
+      "summary": "Converting 25 °C room temperature to kelvin and Fahrenheit",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

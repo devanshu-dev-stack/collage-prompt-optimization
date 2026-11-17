@@ -1,0 +1,428 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "lesson_text": "Whether boiling water into steam or metabolizing glucose into energy, the total mass remains constant.",
+      "source_text": "It states that there is no detectable change in the total quantity of matter present when matter converts from one type to another (a chemical change) or changes among solid, liquid, or gaseous states (a physical change). ... This is most clearly seen during the bottling process, when glucose turns into ethanol and carbon dioxide, and the total mass of the substances does not change.",
+      "reason": "The law as the source states it is about matter turning into other matter (glucose into ethanol and carbon dioxide), but the lesson says glucose is turned 'into energy' while mass stays constant, which contradicts the law it is illustrating."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "lesson_text": "**The Law of Conservation of Matter**: There is no detectable change in the total quantity of matter present when matter converts from one type to another (a chemical change) or transitions among solid, liquid, or gas states (a physical change).",
+      "source_text": "not about the source",
+      "reason": "The conservation law sits between the states-of-matter cards and the classification mind map, is linked to neither, and is never used again, so Concept 1 mixes three unrelated ideas."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "Rigid structure with fixed shape and fixed volume.",
+      "source_text": "not about the source",
+      "reason": "The four cards repeat almost word for word the descriptions of solid, liquid, gas and plasma already given in block 1, adding nothing new."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Classification and States of Matter / block 2",
+      "lesson_text": "High-energy gaseous state composed of electrically charged ions and electrons, found in stars, lightning bolts, and cutting torches.",
+      "source_text": "not about the source",
+      "reason": "The Plasma State card's image (image-3) shows an ordinary gas cutting torch with a yellow fuel flame and a visible brand name, not a plasma, so it may teach students that any flame is plasma."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "lesson_text": "Homogeneous (Solutions) -> Uniform Composition",
+      "source_text": "not about the source",
+      "reason": "The core of objective 1 (pure substance, element, compound, homogeneous versus heterogeneous mixture) is given only as mind-map labels and a table with no explanation, while states of matter and plasma get a full text block and four illustrated cards."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "lesson_text": "Requires chemical change (e.g., electrolysis)",
+      "source_text": "not about the source",
+      "reason": "The table's separation column relies on physical versus chemical change before Concept 2 defines them, and 'electrolysis' is never explained anywhere in the lesson."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.1: Categorizing substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "lesson_text": "Mixture: Salad",
+      "source_text": "not about the source",
+      "reason": "Although the exercise title and objective 1 include homogeneous mixtures, no example or question in the lesson asks students to classify a homogeneous mixture or tell it apart from a heterogeneous one."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Categorizing substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best describes a gold bar, as shown in the examples?",
+      "source_text": "not about the source",
+      "reason": "The cards just above are titled 'Element: Gold Bar', 'Compound: Water' and 'Mixture: Salad', so students can copy the answers instead of classifying anything."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Sucrose molecules disperse uniformly within liquid water. The solid can be recovered simply by evaporating the solvent, confirming no bonds broke.",
+      "source_text": "not about the source",
+      "reason": "The Dissolving Sugar card's image (image-6) is a blurry blue-and-brown close-up texture that shows neither sugar, water nor dissolving, so it does not support the card."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.1: Differentiating between physical and chemical changes in observable material processes / block 2",
+      "lesson_text": "A metal sample has a mass of $$12\\text{ g}$$ and a volume of $$3\\text{ cm}^3$$. What is its density in $$\\text{g/cm}^3$$?",
+      "source_text": "not about the source",
+      "reason": "The question asks for a density calculation, but the formula density = mass / volume is first taught in Concept 5."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.2: Classifying measurable properties as intensive or extensive based on sample size dependence / block 1",
+      "lesson_text": "Apply your understanding of physical and chemical properties and changes to the examples below.",
+      "source_text": "not about the source",
+      "reason": "This exercise is titled for classifying properties as intensive or extensive but only practices physical versus chemical change; nowhere does the lesson ask students to classify given properties (objective 2), only to recall the definitions in Exercise 2.1."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.2: Classifying measurable properties as intensive or extensive based on sample size dependence / block 3",
+      "lesson_text": "Which type of change is shown when wax melts, as described in the 'Melting Wax' example?",
+      "source_text": "not about the source",
+      "reason": "The card above already ends with 'This is a physical change.' (and likewise for rusting and sugar), so the questions are answered by copying the card text."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: SI Units and Measurement Fundamentals / block 3",
+      "lesson_text": "Standards fixed by international agreement (Le Système International d'Unités) since 1964.",
+      "source_text": "The standards for these units are fixed by international agreement, and they are called the International System of Units or SI Units (from the French, Le Système International d’Unités). SI units have been used by the United States National Institute of Standards and Technology (NIST) since 1964.",
+      "reason": "In the source, 1964 is when the United States NIST began using SI units, not when the international agreement fixed the standards."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Distinguishing between exact defined quantities and uncertain measured quantities / block 3",
+      "lesson_text": "Which statement best describes the number of eggs in a carton, as in the example \"Counting Eggs in a Carton\"?",
+      "source_text": "not about the source",
+      "reason": "The card already says 'this is an exact number with no uncertainty because it comes from counting whole objects', so each question is answered by copying the matching card sentence."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "lesson_text": "Zeros appearing before the first nonzero digit merely establish the position of the decimal point and are never significant. The value $$0.00832\\text{ g}$$ contains only $$3$$ significant figures.",
+      "source_text": "not about the source",
+      "reason": "The Leading Zeros card's image (image-12) shows the '60' mark and meniscus on a graduated cylinder, which has nothing to do with leading zeros."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "lesson_text": "Zeros at the end of a number to the right of a decimal point are significant (e.g., $$55.0\\text{ g}$$ has $$3$$ significant figures).",
+      "source_text": "not about the source",
+      "reason": "The Trailing Zeros card's image (image-13) shows cannabis buds on a digital balance whose reading has no trailing zeros; it does not illustrate the rule and is an unsuitable subject for the class."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Identifying flawed significant figure assignments and improper rounding in reported values / block 4",
+      "lesson_text": "Step 1: Incorrect rounding of mass difference; should keep all decimals since both masses have two decimal places, so mass = $$22.60\\text{ g}$$ (no error here, but must check for propagation in later steps).",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "The answer key marks Step 1 as an error while admitting it is correct (22.60 g follows the subtraction rule), and also marks the unrounded intermediate in Step 2 as an error, although the 'flawed' solution's final 1.05 g/mL is right."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Applying addition, subtraction, multiplication, and division rounding rules to calculated quantities / block 2",
+      "lesson_text": "16.2 $$\\text{cm}^2$$ (rounded to two significant figures)",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "12.45 cm x 1.3 cm = 16.185 cm² rounds to 16 cm² with two significant figures; 16.2 has three, so the keyed answer is wrong and no option is correct."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.2: Applying addition, subtraction, multiplication, and division rounding rules to calculated quantities / block 2",
+      "lesson_text": "All zeros are significant because they are at the end of the number and after the decimal point.",
+      "source_text": "Leading zeros, however, are never significant—they merely tell us where the decimal point is located.",
+      "reason": "In 0.0500 g the leading zeros are not significant (only the two trailing zeros are), so the keyed answer contradicts the source and the lesson's own Leading Zeros card."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 1",
+      "lesson_text": "$$\\text{quantity in desired units} = \\text{given quantity} \\times \\left(\\frac{\\text{desired unit}}{\\text{given unit}}\\right)$$",
+      "source_text": "not about the source",
+      "reason": "Dimensional analysis is given only as a general formula; the frisbee and multistep cards name conversions but never work one through with numbers, so students never see units cancel in a real problem."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 2",
+      "lesson_text": "Convert a single property using direct equivalents, such as turning a $$125\\text{ g}$$ competition frisbee into ounces using the relationship $$1\\text{ oz} = 28.349\\text{ g}$$.",
+      "source_text": "not about the source",
+      "reason": "The Single-Step Conversion card's image (image-14) is the same antique candy-scale museum photo, with store exhibit labels, used for the kilogram card; it shows no conversion and no frisbee."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 2",
+      "lesson_text": "String multiple conversion factors sequentially when an intermediate step is required.",
+      "source_text": "not about the source",
+      "reason": "The Multistep Dimensional Analysis card's image (image-15) shows unrelated physics equations with comma decimals, nothing about chaining conversion factors or cancelling units."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Deconstructing multistep dimensional analysis pathways and justifying unit cancellation choices / block 2",
+      "lesson_text": "The student calculates the metal's density as $$10.2\\text{ g/cm}^3$$ and concludes it is closest to lead.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures (the least certain value in terms of multiplication and division).",
+      "reason": "The volume 22.4 - 13.5 = 8.9 mL has two significant figures, so the density is 10 g/cm³, not 10.2; at 10 g/cm³ copper (9.0) is closer than lead (11.3), so the conclusion rests on the error."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Deconstructing multistep dimensional analysis pathways and justifying unit cancellation choices / block 3",
+      "lesson_text": "Which sanity-check step most directly justifies reporting the density in $$\\text{g/cm}^3$$ and concluding the metal is lead?",
+      "source_text": "not about the source",
+      "reason": "The keyed answer (checking that 1 cm³ = 1 mL) does not justify concluding the metal is lead, and several distractors such as 'Add the mass and volume to compare to the density of air.' are obviously implausible."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 5.1: Deconstructing multistep dimensional analysis pathways and justifying unit cancellation choices / block 1",
+      "lesson_text": "Reverse engineer the steps needed to go from the situation to the solution provided by answering the questions.",
+      "source_text": "not about the source",
+      "reason": "Although this exercise is titled for multistep dimensional analysis, it is a density identification with no unit conversion, and no exercise in the lesson asks students to set up or chain conversion factors (objective 4)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Relating mass, volume, and density to determine unknown material properties and identities / block 7",
+      "lesson_text": "Density is mass divided by volume: $$90.7\\text{ g} / 8.0\\text{ cm}^3 = 11.3\\text{ g/cm}^3$$.",
+      "source_text": "What is the density of lead if a cube of lead has an edge length of 2.00 cm and a mass of 90.7 g?",
+      "reason": "The source's lead cube has a volume of 8.00 cm³; with the lesson's 8.0 cm³ (two significant figures) the answer must be 11 g/cm³, so the key breaks the lesson's own rounding rule."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Mathematical Conversions / block 2",
+      "lesson_text": "Scale intersection point",
+      "source_text": "not in source",
+      "reason": "The row saying the Fahrenheit and Celsius scales meet at -40 (233.15 K) is not in the source."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Temperature Scales and Mathematical Conversions / block 5",
+      "lesson_text": "$$T_{\\text{K}} = 232.22 + 273.15 = 505.37\\text{ K} \\rightarrow 5.0 \\times 10^2\\text{ K} \\text{ (or } 510\\text{ K)}$$",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number with the least number of decimal places (the least certain value in terms of addition and subtraction).",
+      "reason": "505.37 K rounded to two significant figures is 5.1 x 10² K (510 K); '5.0 x 10² K' is 500 K and contradicts the '510 K' given beside it."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 6: Temperature Scales and Mathematical Conversions / block 5",
+      "lesson_text": "*(With two significant figures in the initial temperature measurement $$450\\ ^\\circ\\text{F}$$, the result rounds to $$230\\ ^\\circ\\text{C}$$.)*",
+      "source_text": "not about the source",
+      "reason": "The lesson never says that a trailing zero with no decimal point is assumed not significant, or how the subtraction 450 - 32 and the multiplication by 5/9 set the significant figures, so the jump from 232.22 to 230 is unexplained."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Interpreting the mathematical structure and reference point offsets connecting temperature scales / block 2",
+      "lesson_text": "$$\\frac{9}{5}$$: The ratio of the size of one degree Fahrenheit to one degree Celsius.",
+      "source_text": "The space between the two temperatures is divided into 100 equal intervals, which we call degrees. ... The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "A Fahrenheit degree is smaller, 5/9 the size of a Celsius degree, so 9/5 is the number of Fahrenheit degrees per Celsius degree, not the size of a Fahrenheit degree relative to a Celsius degree; the lesson's own Question 3 explanation says the opposite."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 6.2: Performing quantitative interconversions among Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
+      "lesson_text": "What is the Celsius temperature at which the Fahrenheit and Celsius scales show the same numerical value?",
+      "source_text": "not in source",
+      "reason": "The question tests the -40 crossing point of the two scales, a fact the source does not contain."
+    },
+    {
+      "check": "x3",
+      "location": "Exercise 6.2: Performing quantitative interconversions among Celsius, Fahrenheit, and Kelvin temperature scales / block 2",
+      "lesson_text": "$$T_{\\text{C}} = T_{\\text{K}} - 273.15 = 310.2 - 273.15 = 37.0$$.",
+      "source_text": "not about the source",
+      "reason": "310.2 - 273.15 is 37.05, and getting 37.0 needs the round-to-even rule; the explanation skips this step, so a student who rounds the 5 up to 37.1 gets no help seeing why."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 3",
+      "summary": "Conservation of matter shown by boiling water into steam and metabolizing glucose",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Classification table: gold nugget, pure water, sports drink, Italian salad dressing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Gold bar as an element",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Water as a compound of two hydrogen atoms and one oxygen atom",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Categorizing substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Salad as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter based on macroscopic shape and volume characteristics / block 1",
+      "summary": "Water poured into a puddle and a tall cylinder keeps its volume (liquid)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter based on macroscopic shape and volume characteristics / block 3",
+      "summary": "Metal spoon keeps its shape and volume (solid)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing physical states of matter based on macroscopic shape and volume characteristics / block 5",
+      "summary": "Air inflating a balloon fills its container (gas)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, solid ground into powder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical property: iron rusts, chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: combustion, copper with nitric acid, digestion of food",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Cards: melting wax, rusting iron, dissolving sugar, burning match cellulose",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gallon versus cup of milk for extensive properties",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop versus pot of hot cooking oil for heat versus temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Classifying measurable properties as intensive or extensive based on sample size dependence / block 2",
+      "summary": "Cards: melting wax, rusting iron, dissolving sugar",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: SI Units and Measurement Fundamentals / block 1",
+      "summary": "Exact numbers: 12 eggs counted; 1 foot = 12 inches, 1 inch = 2.54 cm, 1 g = 0.001 kg",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: SI Units and Measurement Fundamentals / block 2",
+      "summary": "Phenobarbital dose of '100' without units: 100 mg versus 100 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing between exact defined quantities and uncertain measured quantities / block 2",
+      "summary": "Counting eggs in a carton as an exact number",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing between exact defined quantities and uncertain measured quantities / block 2",
+      "summary": "Reading 25.0 mL in a graduated cylinder as a measured number",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Distinguishing between exact defined quantities and uncertain measured quantities / block 2",
+      "summary": "1 meter = 100 centimeters as an exact defined relationship",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL, last digit estimated",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "summary": "Captive zeros: 70.607 mL has 5 significant figures",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "summary": "Leading zeros: 0.00832 g has 3 significant figures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 2",
+      "summary": "Trailing zeros: 55.0 g, and ambiguous 1300 g written as 1.30 x 10^3 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 3",
+      "summary": "Round-to-even: 92.85 to 92.8 and 0.90275 to 0.9028",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 4",
+      "summary": "Worked sums: 1.0023 g + 4.383 g, 486 g - 421.23 g, 0.6238 cm x 6.6 cm, 421.23 g / 486 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Uncertainty, Significant Figures, and Rounding in Calculations / block 5",
+      "summary": "Dispenser delivering about 284 mL for a 296 mL target: precise but not accurate",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Identifying flawed significant figure assignments and improper rounding in reported values / block 2",
+      "summary": "Liquid density from 21.6 mL and cylinder masses 45.20 g and 67.80 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 2",
+      "summary": "125 g competition frisbee converted to ounces",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Density Calculations / block 2",
+      "summary": "Multistep: km/h to m/s and fuel cost from distance, fuel economy and price",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Deconstructing multistep dimensional analysis pathways and justifying unit cancellation choices / block 2",
+      "summary": "Unknown 90.7 g metal, water rises 13.5 to 22.4 mL, identified from density table",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Mathematical Conversions / block 5",
+      "summary": "Normal body temperature 37.0 °C converted to kelvin and Fahrenheit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Mathematical Conversions / block 5",
+      "summary": "Oven temperature 450 °F converted to Celsius and kelvin",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

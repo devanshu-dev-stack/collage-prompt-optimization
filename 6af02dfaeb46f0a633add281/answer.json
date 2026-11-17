@@ -1,0 +1,320 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and Composition of Matter / block 1",
+      "lesson_text": "phase designations ($$[s]$$, $$[l]$$, $$[g]$$)",
+      "source_text": "The abbreviations (g) for gas, (s) for solid, and (l) for liquid are also symbolic.",
+      "reason": "The source writes phase labels in round brackets, (s), (l), (g); square brackets are wrong notation, and the lesson itself later uses H2O(s) and H2O(l)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 1: Classification and Composition of Matter / block 5",
+      "lesson_text": "Thus, all compounds are molecules, but not all molecules are compounds!",
+      "source_text": "Free sodium, an element that is a soft, shiny, metallic solid, and free chlorine, an element that is a yellow-green gas, combine to form sodium chloride (table salt), a compound that is a white, crystalline solid.",
+      "reason": "Ionic compounds such as sodium chloride, which the source names as a compound, are not made of molecules, so 'all compounds are molecules' is false."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures based on physical and compositional observations / block 2",
+      "lesson_text": "Correct! The salt can be separated from the water because it is a pure substance.",
+      "source_text": "A mixture is composed of two or more types of matter that can be present in varying amounts and can be separated by physical changes, such as evaporation",
+      "reason": "The salt can be recovered because salt water is a mixture that physical changes like evaporation can separate, not because salt is a pure substance (water is pure too, yet it is the part that leaves)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Deconstructing multi-step dimensional analysis setups to evaluate unit cancellation pathways and conversion factor alignment / block 3",
+      "lesson_text": "It expresses the mass in the SI base unit for mass ... Correct! Grams are the SI base unit for mass.",
+      "source_text": "The standard unit of mass in the SI system is the kilogram (kg).",
+      "reason": "The SI base unit of mass is the kilogram, not the gram, so the answer key and its feedback teach a wrong fact."
+    },
+    {
+      "check": "factual_error",
+      "location": "Learning objectives / objective[4]",
+      "lesson_text": "Perform multi-step unit conversions and calculate derived quantities, including density and temperature, using dimensional analysis.",
+      "source_text": "The measurement units for seven fundamental properties (“base units”) are listed in Table 1.2. ... temperature kelvin K",
+      "reason": "Temperature is one of the SI base quantities (kelvin), not a derived quantity, and Concept 5, titled 'Derived Scientific Quantities: Density and Temperature Conversions', itself calls the kelvin 'The official SI base unit of temperature'."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 2",
+      "lesson_text": "Densities of selected substances at room temperature. ... data.x[2]: Ice ... data.y[2]: 0.92",
+      "source_text": "ice (at 0 °C) 0.92 g/cm3",
+      "reason": "The source gives the density of ice at 0 °C; ice cannot exist at room temperature, so the caption contradicts the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Color change, gas release, precipitate formation, light/heat release",
+      "source_text": "not in source",
+      "reason": "The source gives no list of observable signs of chemical change; it even notes that grinding solids in a physical change 'can sometimes yield noticeable changes in color'."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Typically reversible by simple physical methods (e.g., freezing, evaporation) ... Requires subsequent chemical reactions to reverse",
+      "source_text": "not in source",
+      "reason": "Reversibility as a way to tell physical from chemical changes is not discussed anywhere in the source."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "possess an infinite number of significant figures ($$\\infty$$). They never limit the significant figures of your final calculated answer.",
+      "source_text": "not in source",
+      "reason": "The source only says counted and defined numbers are exact; the rule that exact numbers have infinite significant figures and never limit a result is not in it."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 3",
+      "lesson_text": "**Temperature** is an intensive property reflecting the average kinetic energy of the particles within matter.",
+      "source_text": "We use the word temperature to refer to the hotness or coldness of a substance.",
+      "reason": "The source describes temperature as hotness or coldness; the kinetic energy explanation is a new idea not found in the source."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and Composition of Matter / block 3",
+      "lesson_text": "They cannot be simplified or broken down into simpler substances by chemical reactions ... They can be broken down into simpler substances by chemical changes",
+      "source_text": "not about the source",
+      "reason": "The element and compound cards rest on the idea of a chemical change, but the lesson does not define chemical change until Concept 2."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 1",
+      "lesson_text": "**Density** ($$d$$) is an intensive physical property defined as the ratio of the mass ($$m$$) of a substance to the volume ($$V$$) it occupies:",
+      "source_text": "not about the source",
+      "reason": "Density as the intensive ratio d = m/V was already introduced in Concept 2 block 4 ('their ratio defines **density** ($$d = \\frac{m}{V}$$), which is an **intensive property**'), so the same idea and equation appear in two concepts."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversion / block 4",
+      "lesson_text": "\\text{Quantity in Desired Units} = \\text{Given Quantity} \\times \\left(\\frac{\\text{Unit } B}{\\text{Unit } A}\\right) \\times \\left(\\frac{\\text{Unit } C}{\\text{Unit } B}\\right)",
+      "source_text": "For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:",
+      "reason": "Concept 4 explains dimensional analysis only with general Unit A/B/C setups and step cards; it never works through one numerical conversion, although the source offers several."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 3",
+      "lesson_text": "$$T_{^{\\circ}\\text{F}} = \\left(\\frac{9}{5} \\times T_{^{\\circ}\\text{C}}\\right) + 32$$",
+      "source_text": "Normal body temperature has been commonly accepted as 37.0 °C (although it varies depending on time of day and method of measurement, as well as among individuals). What is this temperature on the kelvin scale and on the Fahrenheit scale?",
+      "reason": "The temperature conversions are given only as formulas, with no worked numerical conversion to show how the slope and the +32 shift are used."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "Accuracy indicates how close a measurement aligns with the true or accepted reference value. Precision reflects how closely repeated independent measurements agree with each other. (image: archery targets with scattered holes)",
+      "source_text": "(b) These arrows are close to one another but not on target, so they are precise but not accurate.",
+      "reason": "The photo shows targets with holes scattered everywhere and no grouped hits or labels, so it cannot show the accurate versus precise patterns the card defines."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversion / block 5",
+      "lesson_text": "Chart a Conversion Path (image: an open color-swatch booklet)",
+      "source_text": "not about the source",
+      "reason": "A printer's color chart has nothing to do with planning a unit conversion path; it plays on the word 'chart' and may confuse students."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Dimensional Analysis and Unit Conversion / block 5",
+      "lesson_text": "Set Up Algebraic Cancellation (image: a page of physics formulas with g, h and tau)",
+      "source_text": "not about the source",
+      "reason": "The image shows unrelated physics formulas with no units or cancellation, so it does not help students see how units cancel."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 1",
+      "lesson_text": "Derived Scientific Quantities: Density and Temperature Conversions",
+      "source_text": "not about the source",
+      "reason": "The page joins two unrelated topics, density measurement and temperature-scale conversion, under one heading, without linking them."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "Measurable properties of matter are also categorized according to whether they depend on sample size:",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to sort properties as intensive or extensive, but neither Exercise 2.1 nor Exercise 2.2 asks a single question about it, although both titles promise it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "lesson_text": "Accuracy indicates how close a measurement aligns with the true or accepted reference value. Precision reflects how closely repeated independent measurements agree with each other.",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision is taught but no exercise asks students to judge whether a set of measurements is accurate, precise, both or neither."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 3",
+      "lesson_text": "$$T_{^{\\circ}\\text{C}} = \\frac{5}{9}(T_{^{\\circ}\\text{F}} - 32)$$",
+      "source_text": "not about the source",
+      "reason": "Objective 4 includes temperature, but the only temperature item is adding 273.15 to 25 °C; no exercise practices Celsius and Fahrenheit conversions, although Exercise 5.1's title names them."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.2: Distinguishing between pure substances and mixtures across macroscopic and particulate molecular representations / block 2",
+      "lesson_text": "Which of the following best describes a homogeneous mixture? ... What is the term for a substance made up of only one kind of atom? ... If a sample of salt water has the same composition throughout, what type of matter is it classified as?",
+      "source_text": "not about the source",
+      "reason": "Objective 1 asks students to classify samples, but these items only ask for definitions (the last one gives the defining phrase in the stem), and the particle-level pictures the title promises never appear."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.1: Interpreting density definitions and the mathematical relationships connecting Celsius, Kelvin, and Fahrenheit scales / block 3",
+      "lesson_text": "In the equation above, what does the symbol $$d$$ represent?",
+      "source_text": "not about the source",
+      "reason": "All three questions can be answered by copying the explanation in block 2, which has just defined d, m and V."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures based on physical and compositional observations / block 4",
+      "lesson_text": "It is a compound made from gold and silver atoms. ... It is a heterogeneous mixture of gold and other materials. ... The ring becomes a mixture when cut.",
+      "source_text": "not about the source",
+      "reason": "The scenario says the ring is 'made entirely of gold, with no other materials mixed in', so these distractors contradict the stem and give the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Deconstructing multi-step dimensional analysis setups to evaluate unit cancellation pathways and conversion factor alignment / block 3",
+      "lesson_text": "Which check most directly justifies that the solution $$2.5 \\times 10^{-4}$$ kilograms has the correct units and magnitude? ... Verify that all units except kilograms cancel in the setup",
+      "source_text": "not about the source",
+      "reason": "Unit cancellation checks only the units, not the size of the number, so the keyed answer does not fully fit the stem, and 'Compare the answer to the original value in milligrams' is also a fair check of magnitude."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 2.2: Predicting whether changes in matter preserve chemical identity and distinguishing intensive from extensive properties / block 2",
+      "lesson_text": "As the temperature rises, bubbles begin to form throughout the liquid, but the liquid remains colorless and no new substances are visibly produced.",
+      "source_text": "not about the source",
+      "reason": "Concept 2 lists 'gas release' as a sign of chemical change, and the lesson never warns that bubbles from boiling are a physical change, so students are likely to call this a chemical change."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and Composition of Matter / block 3",
+      "summary": "Gold, copper, oxygen as elements; sucrose and water as compounds; air and sports drink as homogeneous mixtures; oil-and-vinegar dressing, granite and chocolate chip cookies as heterogeneous mixtures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and Composition of Matter / block 5",
+      "summary": "O2, N2, S8 as molecules of elements versus H2O and CO2 as compounds",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Ice melting and sugar dissolving in hot coffee as physical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists oxidation (chemical property)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Combustion, souring milk, digestion and mercury(II) oxide decomposition as chemical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Melting wax, condensation, magnetizing iron versus burning gasoline, rusting iron, frying an egg",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "Gold coin and gold bullion bar differ in mass and volume but share a density of 19.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Exact numbers: 12 eggs in a carton, 1 inch = 2.54 cm, 1 foot = 12 inches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Reading a graduated cylinder meniscus between 21 and 22 mL as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "Zero-rule example values: 70.607 mL, 0.00832 g, 55.0 g, 1.30 x 10^3 g vs 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Adding 1.0023 g and 4.383 g gives 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "0.6238 cm x 6.6 cm = 4.1 cm2",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Round-to-even: 31.55 to 31.6 and 92.85 to 92.8",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Unit Conversion / block 1",
+      "summary": "Two conversion factors built from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Derived Scientific Quantities: Density and Temperature Conversions / block 1",
+      "summary": "Lead cube with 2.00 cm edge and 90.7 g mass has density 11.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures based on physical and compositional observations / block 1",
+      "summary": "Salt dissolved in water forms a uniform solution; salt recovered by evaporation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures based on physical and compositional observations / block 3",
+      "summary": "Gold ring melted, reshaped and cut in half stays gold (element)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical and chemical changes and identifying whether observed properties depend on sample size / block 2",
+      "summary": "Ice cube melting as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical and chemical changes and identifying whether observed properties depend on sample size / block 2",
+      "summary": "Iron nail rusting as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Differentiating physical and chemical changes and identifying whether observed properties depend on sample size / block 2",
+      "summary": "Sugar dissolving in water and recovered by evaporation as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying mistakes in counting significant figures with zeros and correcting improperly rounded calculated quantities / block 2",
+      "summary": "Flawed worked sum of rods 12.36 cm (written 12.360 cm) and 8.2 cm reported as 20.560 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Deconstructing multi-step dimensional analysis setups to evaluate unit cancellation pathways and conversion factor alignment / block 2",
+      "summary": "Converting 250 mg to 2.5 x 10^-4 kg",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

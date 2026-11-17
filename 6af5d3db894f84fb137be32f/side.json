@@ -1,0 +1,447 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 3,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 1,
+    "x3": 0,
+    "x4": 2,
+    "x5": 2,
+    "x6": 4,
+    "x7": 0,
+    "x8": 0,
+    "x9": 5,
+    "x10": 0,
+    "x11": 0,
+    "x12": 2,
+    "x14": 2,
+    "x15": 2
+  },
+  "examples_total": 33,
+  "examples_from_source": 24,
+  "made_up_examples": 8,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 5,
+  "points_lost": 63,
+  "score": 87,
+  "instructions_score": 100,
+  "teaching_score": 86,
+  "problems": [
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 3",
+      "lesson_text": "A common misconception is that scientific ideas progress hierarchically from hypothesis to theory and ultimately graduate into a law. In reality, laws and theories perform distinct roles: laws describe *what* happens across broad observations, whereas theories explain *why* or *how* nature behaves that way. A theory does not become a law when proven.",
+      "source_text": "If such a hypothesis turns out to be capable of explaining a large body of experimental data, it can reach the status of a theory.",
+      "reason": "The source never discusses a hypothesis-theory-law ladder or the claim that a theory does not become a law, and the callout presents the hypothesis-to-theory path, which the source itself describes, as part of a misconception."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws / block 1",
+      "lesson_text": "It involves making observations, forming hypotheses, conducting experiments, and developing explanations that can become theories or laws.",
+      "source_text": "The path of discovery that leads from question and observation to law or hypothesis to theory, combined with experimental verification of the hypothesis and any necessary modification of the theory, is called the scientific method",
+      "reason": "In the source, laws summarize observations and only hypotheses (explanations) can become theories, so saying explanations can become laws contradicts the source and the lesson's own callout in Concept 1."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws / block 2",
+      "lesson_text": "Chemists use symbolic representations to show reactants and products, ensuring the number of atoms is equal on both sides.",
+      "source_text": "not in source",
+      "reason": "Balancing chemical equations is not covered in the source (it leaves equations for later chapters), yet the lesson presents it as an example and tests its purpose in the quiz that follows."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 4",
+      "lesson_text": "For instance, soft, highly reactive sodium metal and poisonous, yellowish chlorine gas combine chemically to produce table salt (sodium chloride), an essential dietary nutrient.",
+      "source_text": "Free sodium, an element that is a soft, shiny, metallic solid, and free chlorine, an element that is a yellow-green gas, combine to form sodium chloride (table salt), a compound that is a white, crystalline solid.",
+      "reason": "The facts that sodium is highly reactive, chlorine is poisonous and salt is an essential nutrient are not in the source, which contrasts only the elements' and compound's physical appearance."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Evaluating experimental data sets to distinguish between accuracy and precision / block 2",
+      "lesson_text": "The ruler's precision is to the nearest 0.1 cm, so reporting to the hundredth place is not justified.",
+      "source_text": "In general, numerical scales such as the one on this graduated cylinder will permit measurements to one-tenth of the smallest scale division. The scale in this case has 1-mL divisions, and so volumes may be measured to the nearest 0.1 mL.",
+      "reason": "A ruler marked every 0.1 cm lets you estimate to 0.01 cm, so 15.32 cm is reported correctly, and the keys for both questions (\"too many significant figures\" and \"15.3 cm\") contradict the source and the lesson's own Concept 4 rule."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Evaluating experimental data sets to distinguish between accuracy and precision / block 5",
+      "lesson_text": "A student reports more digits than her ruler allows.",
+      "source_text": "In general, numerical scales such as the one on this graduated cylinder will permit measurements to one-tenth of the smallest scale division.",
+      "reason": "The summary card repeats the false claim: reading a 0.1 cm scale to the hundredths place is exactly what the source says to do."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "lesson_text": "Rules governing the significance of digits and different types of zeros in recorded measurements.",
+      "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "The lesson gives rules for counting significant figures but never says what a significant figure is (all the measured digits plus the one estimated digit), so the rules come before the idea they apply to."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 3",
+      "lesson_text": "**Density** ($$d$$) is an intensive property defined as the ratio of an object's mass ($$m$$) to its volume ($$V$$):",
+      "source_text": "not about the source",
+      "reason": "Concept 3 block 4 already gave density = mass/volume and explained why it is intensive, so the same definition and equation are taught again in a second concept."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "lesson_text": "Addition and Subtraction: The calculated result must be rounded to the same number of decimal places as the measurement with the fewest decimal places (the least precise position).",
+      "source_text": "(a) Add 1.0023 g and 4.383 g.",
+      "reason": "The addition and multiplication rules, which students often mix up, are stated only as general rules with no worked calculation, though the source works examples of each."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 1",
+      "lesson_text": "To convert a measured quantity, multiply it by the ratio whose denominator matches the unit you wish to eliminate:",
+      "source_text": "For example, a basketball player’s vertical jump of 34 inches can be converted to centimeters by:",
+      "reason": "Dimensional analysis is explained only with a general formula and never carried out on a real number, so students do not see units cancelling in a concrete conversion."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 1",
+      "lesson_text": "$$2\\text{H}_2\\text{O}(l) \\rightarrow 2\\text{H}_2(g) + \\text{O}_2(g)$$",
+      "source_text": "Two water molecules form one oxygen molecule and two hydrogen molecules.",
+      "reason": "The equation is offered as evidence of conservation, but the lesson never shows how to read it or count the 4 hydrogen and 2 oxygen atoms on each side, so students cannot link the symbols to the law."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 4",
+      "lesson_text": "$$T_{\\text{F}} = \\left(\\frac{9}{5} \\times T_{\\text{C}}\\right) + 32$$",
+      "source_text": "The Celsius and Fahrenheit temperature scales, however, do not share a common zero point, and so the relationship between these two scales is a linear one rather than a proportional one (y = mx + b).",
+      "reason": "The table puts the freezing and boiling points next to the formulas but never shows how the 9/5 and +32 come from them (180 vs 100 degrees, different zero points), so the formulas stay rules to memorize."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 4",
+      "lesson_text": "Examples include element symbols like C and O, chemical formulas such as $$\\text{H}_2\\text{O}$$, state symbols like (s), (l), and (g), and balanced reaction equations.",
+      "source_text": "not about the source",
+      "reason": "The Symbolic Domain card's image is a 3D ball-and-stick molecule model, almost the same as the Microscopic card's image, with no symbols or formulas, so it blurs the very difference the cards teach."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Flammability describes how readily a substance undergoes rapid oxidation, an inherent reactivity trait.",
+      "source_text": "not about the source",
+      "reason": "The Chemical Property card's image is a machinery crush-hazard sticker (a vehicle and a person, \"keep distance\"), which has nothing to do with flammability and could mislead students."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "Measurements yield nearly identical numbers upon repeated trials, but systematic calibration or experimental error causes them to deviate substantially from the true value.",
+      "source_text": "not about the source",
+      "reason": "The High Precision, Low Accuracy card shows cannabis buds on a digital scale, an image that is unrelated to repeated measurements, does not show precise-but-off-target results, and is unsuitable for students."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "Measurements are tightly clustered with minimal random variation and centered directly on the accepted true target value, indicating optimal instrument calibration and technique.",
+      "source_text": "not about the source",
+      "reason": "The High Accuracy, High Precision card shows a close-up of a beaker's 100 mL mark labeled ±1.0 ml, which shows no clustered, on-target results (and a beaker is a rough tool), so the image does not show the idea."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "lesson_text": "Comparing Scientific Hypotheses, Laws, and Theories",
+      "source_text": "Identify each of the following statements as being most similar to a hypothesis, a law, or a theory. Explain your reasoning.",
+      "reason": "Objective 1 asks students to tell hypotheses, laws and theories apart, but no exercise asks them to classify a statement, and Exercise 1.1, which is named for this, tests only the three domains."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "lesson_text": "Zeros preceding the first nonzero digit; never significant (placeholders only)",
+      "source_text": "not about the source",
+      "reason": "The whole table is about zeros, but the only counting question (12.34 cm in Exercise 4.2) has no zeros, so students never practice the captive, leading or trailing zero rules."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "Accuracy reflects how closely a measurement agrees with the accepted true value.",
+      "source_text": "Considering these results, she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter) but not accurate (none of the values are close to the target value of 296 mL, each being more than 10 mL too low).",
+      "reason": "Objective 4 asks students to evaluate data for accuracy and precision, but no exercise gives a true value to judge accuracy against; accuracy is tested only by recalling its definition in Exercise 4.2."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 1",
+      "lesson_text": "For multi-step calculations, multiple conversion factors are aligned sequentially so that intermediate units cancel successively, leaving only the desired final unit.",
+      "source_text": "not about the source",
+      "reason": "Objective 5 calls for unit conversions with dimensional analysis, but no exercise asks for a single unit conversion; Exercise 5.2, named for multi-step conversions, only computes a density in g/cm3."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 4",
+      "lesson_text": "Formulas and reference benchmarks across the Celsius, Fahrenheit, and Kelvin temperature scales.",
+      "source_text": "not about the source",
+      "reason": "Temperature conversion is a learning objective, but students never convert a temperature; Exercise 5.1, named for the Celsius, Kelvin and Fahrenheit scales, tests only the density equation."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws / block 3",
+      "lesson_text": "In your own words, explain how the examples of rust formation, water boiling, and balancing a chemical equation each connect to the scientific method and the domains of chemistry.",
+      "source_text": "not about the source",
+      "reason": "Students must link each example to the scientific method, but none of the three examples involves an observation, hypothesis or experiment, so neither the examples nor the exercise's own title supports that part of the task."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 3.1: Distinguishing physical changes from chemical transformations in everyday phenomena / block 4",
+      "lesson_text": "Step 2: Incorrectly calls reaction with oxygen a physical property; correct: it is a chemical, intensive property.",
+      "source_text": "Properties of matter fall into one of two categories.",
+      "reason": "The answer key expects students to call a chemical property intensive, but the concept's table is captioned for \"measurable physical properties\" only, so the teaching does not prepare them to classify chemical properties this way."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Categorizing chemical descriptions across macroscopic, microscopic, and symbolic domains / block 4",
+      "lesson_text": "Hypothetical and theoretical domains",
+      "source_text": "not about the source",
+      "reason": "Two of the four options name domains that do not exist (\"hypothetical\", \"theoretical\"), so any student who knows the three domains can rule them out at once."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Determining significant figures and applying rounding rules in mathematical calculations / block 2",
+      "lesson_text": "Accuracy relates to correctness; precision relates to reproducibility. The first option defines both terms accurately.",
+      "source_text": "not about the source",
+      "reason": "The explanation points to the first option, which swaps the two definitions, while the keyed answer is the second option, so the feedback points students to the wrong choice."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 1",
+      "lesson_text": "In any physical or chemical change, there is no detectable change in the total quantity of matter present.",
+      "source_text": "Although this conservation law holds true for all conversions of matter, convincing examples are few and far between because, outside of the controlled conditions in a laboratory, we seldom collect all of the material that is produced during a particular conversion.",
+      "reason": "The lesson never addresses the common belief that mass is lost or gained when gas escapes or oxygen is taken up (burning, rusting, evaporation in an open container), although the source flags it and Exercise 2.1 relies on it."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "lesson_text": "Zeros to the right of the decimal point; always significant",
+      "source_text": "Leading zeros, however, are never significant—they merely tell us where the decimal point is located.",
+      "reason": "This wording also covers the leading zeros in 0.00832 (two rows above), which invites the common mistake of counting zeros after the decimal point as significant."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Hypothesis: a vehicle's poor fuel economy is due to needing a tune-up",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Law: gas pressure is directly proportional to temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 2",
+      "summary": "Theory: matter is made of atoms that collide and interact to produce pressure",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and the Domains of Chemistry / block 4",
+      "summary": "Domain cards: water freezing, atoms and molecules, symbols C, O, H2O and (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws / block 2",
+      "summary": "Rust forming on iron seen in the three domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Differentiating between hypotheses, scientific theories, and natural laws / block 2",
+      "summary": "Boiling water in three domains, H2O(l) to H2O(g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical descriptions across macroscopic, microscopic, and symbolic domains / block 1",
+      "summary": "Chemist mixes vinegar and baking soda, repeats and measures bubbling and temperature",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Categorizing chemical descriptions across macroscopic, microscopic, and symbolic domains / block 3",
+      "summary": "Particle diagrams and an equation for the vinegar and baking soda reaction",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 1",
+      "summary": "Astronaut weighs one-sixth as much on the Moon with the same mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 1",
+      "summary": "Water decomposing into hydrogen and oxygen and sugar fermenting into alcohol and CO2 conserve mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 3",
+      "summary": "Mind-map cases: gold, sulfur, sucrose, water, sports drink, air, granite, salad dressing",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Phases, Classification, and Conservation of Matter / block 4",
+      "summary": "Sodium and chlorine combine to form table salt with different properties",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Applying the law of conservation of matter to physical changes and chemical reactions / block 2",
+      "summary": "Sealed container of ice and water heated; predict phase changes and mass",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, steam condensing, sugar dissolving in coffee",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical properties and changes: iron rusting, combustion, cooking or rotting food, copper with nitric acid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Measuring the malleability of copper as a physical property",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Ice melting into liquid water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Iron corroding into rust as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A full pot of boiling water holds more heat than a droplet (adapted from the source's drop vs pot of hot oil)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Combining water at 20 °C stays at 20 °C (adapted from the source's gallon and cup of milk)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Gold coin and gold brick share a density of 19.3 g/cm3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Water boils at 100 °C whether 10 mL or 10 L is heated",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing physical changes from chemical transformations in everyday phenomena / block 2",
+      "summary": "Copper sample properties with a flawed physical/chemical and intensive/extensive classification",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Differentiating between intensive and extensive measurable properties of matter / block 2",
+      "summary": "Ice melting as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Differentiating between intensive and extensive measurable properties of matter / block 2",
+      "summary": "Rusting iron as a chemical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Differentiating between intensive and extensive measurable properties of matter / block 2",
+      "summary": "Dissolving sugar in water as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 1",
+      "summary": "Exact numbers: eggs in a carton, 1 foot = 12 inches, 1 inch = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "summary": "Significant-figure table measurements such as 0.00832 m and 1300 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "summary": "Rounding 421.25 to 421.2 and 28,683.5 to 28,684",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Evaluating experimental data sets to distinguish between accuracy and precision / block 1",
+      "summary": "Student measures a metal rod three times with a ruler marked to 0.1 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Evaluating experimental data sets to distinguish between accuracy and precision / block 3",
+      "summary": "Scientist's repeated balance readings of 2.48, 2.52 and 2.51 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis, Density, and Temperature Scale Conversions / block 1",
+      "summary": "Conversion factors from 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Solving multi-step unit conversions and density calculations using dimensional analysis / block 2",
+      "summary": "Metal cube of 54.0 g with 2.00 cm edges has density 6.75 g/cm3",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

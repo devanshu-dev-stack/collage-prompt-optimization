@@ -1,0 +1,394 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 6,
+    "wrong_viewpoint": 0,
+    "off_source_content": 3,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 1,
+    "x3": 1,
+    "x4": 0,
+    "x5": 0,
+    "x6": 6,
+    "x7": 1,
+    "x8": 0,
+    "x9": 2,
+    "x10": 0,
+    "x11": 1,
+    "x12": 3,
+    "x14": 3,
+    "x15": 0
+  },
+  "examples_total": 23,
+  "examples_from_source": 12,
+  "made_up_examples": 11,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 102,
+  "score": 83,
+  "instructions_score": 100,
+  "teaching_score": 89,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 1",
+      "lesson_text": "compounds (pure substances made of two or more atoms chemically bonded)",
+      "source_text": "Pure substances that are comprised of two or more elements are called compounds.",
+      "reason": "A compound needs two or more different elements, not just two or more atoms; by this wording O2 or S8 would be compounds, which the source and the lesson's own Concept 1 callout reject."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 4: Density and Experimental Determination of Physical Quantities / block 4",
+      "lesson_text": "Substantial differences in density allow scientists to differentiate visually similar metals, such as lead and gold.",
+      "source_text": "people have considered filling the centers of hollow gold bricks with lead to fool buyers into thinking that the entire brick is gold. It does not work: Lead is a dense substance, but its density is not as great as that of gold, 19.3 g/cm3.",
+      "reason": "Lead (dull gray) and gold (yellow) are not visually similar metals; the source's point is that lead hidden inside a gold brick can be caught by its density."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "= 3.7849... \\times 10^3\\text{ mL}",
+      "source_text": "The necessary conversion factors are given in Table 1.6: 1 lb = 453.59 g; 1 L = 1.0567 qt; 1 L = 1,000 mL.",
+      "reason": "4.00 qt divided by 1.0567 qt/L times 1000 mL/L is 3785.4 mL, not 3784.9 mL, so the shown working is wrong arithmetic, and by the lesson's own rounding rules the true value would round to 3.79 x 10^3 mL."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Evaluating accuracy and precision within experimental measurement datasets / block 2",
+      "lesson_text": "The answer is reported as $$10.5$$ cm² / Correct! $$2.3$$ cm has two significant figures, so the answer should too.",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "2.3 x 4.56 = 10.488, which to two significant figures is 10 cm²; the keyed answer 10.5 has three significant figures and contradicts its own feedback, and no option is correct."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Evaluating accuracy and precision within experimental measurement datasets / block 2",
+      "lesson_text": "Both $$25.0$$ and $$18.45$$ have three significant figures.",
+      "source_text": "Starting with the first nonzero digit on the left, count this digit and all remaining digits to the right. This is the number of significant figures in the measurement",
+      "reason": "18.45 has four significant figures, so the keyed answer and its explanation are wrong (and no option is correct)."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 6: Temperature Scales and Linear Transformations / block 1",
+      "lesson_text": "Each scale has its own zero point and degree size, so converting between them requires more than simple multiplication.",
+      "source_text": "Celsius degrees are the same magnitude as those of kelvin, but the two scales place their zeros in different places.",
+      "reason": "Kelvin and Celsius share the same degree size; only Fahrenheit has a different one, so saying each scale has its own degree size is wrong."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Matter commonly exists in three classical states on Earth, with a fourth high-energy state dominating the broader cosmos.",
+      "source_text": "not in source",
+      "reason": "The source only says plasma occurs in the interiors of stars and some high-temperature environments; the claim that plasma dominates the cosmos is an added fact."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 5",
+      "lesson_text": "Replicate measurements yield values tightly clustered together, demonstrating high repeatability, but systematic error shifts the measurements far from the true or accepted target.",
+      "source_text": "not in source",
+      "reason": "The source defines accuracy and precision but does not discuss systematic error or random variation as their causes; this is an added topic, used without definition."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Linear Transformations / block 5",
+      "lesson_text": "Absolute zero ($$0$$ K) is the lowest possible temperature, where all molecular motion theoretically stops.",
+      "source_text": "not in source",
+      "reason": "The source only says 0 K is the lowest temperature that can theoretically be achieved; the claim that all molecular motion stops is added (and is an oversimplification, contradicting the lesson's own later 'minimum thermal energy')."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "lesson_text": "Separated only by chemical changes (e.g., electrolysis)",
+      "source_text": "not about the source",
+      "reason": "The table relies on chemical versus physical changes and processes, which are only defined in Concept 2, and 'electrolysis' is never explained."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Density and Experimental Determination of Physical Quantities / block 1",
+      "lesson_text": "While both mass and volume are *extensive properties*—meaning their values scale directly with sample size—their ratio reveals an essential *intensive property*:",
+      "source_text": "not about the source",
+      "reason": "The idea that density is an intensive ratio of two extensive properties was already explained in the Concept 2 block 4 callout and is repeated here."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 6: Temperature Scales and Linear Transformations / block 2",
+      "lesson_text": "To convert Celsius to Fahrenheit, multiply by $$\\frac{9}{5}$$ and add 32. This accounts for both the difference in degree size and the offset in zero points.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees).",
+      "reason": "The lesson never shows where 9/5 and 32 come from (180 Fahrenheit degrees versus 100 Celsius degrees between the same fixed points, and the 32 °F freezing point), so students must take the equation on faith."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "Expands to occupy both the shape and entire volume of its container. Particles are widely separated and disorganized, moving at high speeds.",
+      "source_text": "Note that clouds are actually comprised of either very small liquid water droplets or solid water crystals; gaseous water in our atmosphere is not visible to the naked eye",
+      "reason": "The Gas card's image shows visible steam rising from a pot, which is condensed liquid droplets, not gas, so it reinforces a common misconception."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Standardized by NFPA 704 to summarize the essential hazards of chemicals: red (flammability), blue (health), yellow (chemical reactivity), and white (special hazards like radioactivity or water reactivity), each rated on a scale of 0 to 4.",
+      "source_text": "not about the source",
+      "reason": "The image shows chemical bottles on a shelf with no hazard diamond, so students cannot see the colored sections the card describes."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 5",
+      "lesson_text": "Precise, Not Accurate",
+      "source_text": "not about the source",
+      "reason": "The image for this card shows cryptocurrency coins and upward arrows, which has nothing to do with clustered measurements away from a target."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 5",
+      "lesson_text": "Replicate measurements agree closely with each other and align directly with the true target value, representing optimal experimental reliability and low error.",
+      "source_text": "not about the source",
+      "reason": "The image shows a single dart in the bull's-eye; one throw cannot show precision (agreement among repeated trials), so it suggests one accurate result is enough."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Density and Experimental Determination of Physical Quantities / block 3",
+      "lesson_text": "For irregularly shaped solids, the object is submerged in a graduated cylinder of liquid; the increase in fluid level equals the exact volume of the submerged object.",
+      "source_text": "not about the source",
+      "reason": "The image is a close-up of a beaker's 100 mL marking with no object and no change in level, so it does not show displacement at all."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 4",
+      "lesson_text": "2. Establish the Conversion Pathway",
+      "source_text": "not about the source",
+      "reason": "The step images are unrelated stock photos (a desk of math notes, a lab water purifier, a beaker marking) that show no units, conversion factors or cancellation."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "Measurable properties of matter are categorized based on whether they depend on sample size.",
+      "source_text": "not about the source",
+      "reason": "The Chemical Hazard Diamond card is placed in a card set titled 'Classifying Properties: Extensive vs. Intensive', though it is neither, which blurs the grouping."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 5",
+      "lesson_text": "Understanding the vital distinction between consistency across trials and closeness to the true reference value.",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision (part of objective 3) is never practiced: Exercise 3.2 is titled 'Evaluating accuracy and precision' but every question is about significant figures."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 5",
+      "lesson_text": "When a direct single-step conversion factor is not available, multiple conversion factors can be chained together sequentially.",
+      "source_text": "not about the source",
+      "reason": "Multi-step chained conversions are never practiced: Exercise 5.2 is titled 'Executing multi-step metric and non-SI dimensional analysis' but has only single-step metric items."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best describes the salt water solution example?",
+      "source_text": "not about the source",
+      "reason": "The cards right above already state each answer ('Salt dissolved in water forms a homogeneous mixture', granite 'is a heterogeneous mixture', oxygen gas 'is an element'), so questions 1 to 3 are answered by copying, not by classifying."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic behaviors across solid, liquid, gas, and plasma states / block 2",
+      "lesson_text": "Distinguishing macroscopic and microscopic behaviors across solid, liquid, gas, and plasma states",
+      "source_text": "not about the source",
+      "reason": "The exercise promises macroscopic versus microscopic behavior across four states, but its questions mainly test mixture and element classification, with nothing on the domains or plasma."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Categorizing physical properties as intensive or extensive under changing sample sizes / block 2",
+      "lesson_text": "Explain whether this change is a physical or chemical process, and justify your reasoning.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for intensive versus extensive properties, but it tests whether iodine turning to vapor is a physical or chemical change."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 4.2: Determining material identities through volume displacement and density calculations / block 2",
+      "lesson_text": "A student measures the mass of a metal cube to be 120 g. The cube's sides are each 2.0 cm long.",
+      "source_text": "not about the source",
+      "reason": "The exercise is titled for volume displacement and identifying materials, but it uses a geometric cube volume and never asks students to identify the metal."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Analyzing linear relationships and zero-point differences between temperature scales / block 3",
+      "lesson_text": "correctAnswers",
+      "source_text": "not about the source",
+      "reason": "Questions 2, 3 and 4 include a broken answer choice that just reads 'correctAnswers'."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Analyzing linear relationships and zero-point differences between temperature scales / block 5",
+      "lesson_text": "correctAnswers",
+      "source_text": "not about the source",
+      "reason": "Questions 1, 2 and 3 again include a broken answer choice that just reads 'correctAnswers'."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Analyzing linear relationships and zero-point differences between temperature scales / block 5",
+      "lesson_text": "Positive, because 50 °F is above 0 °C",
+      "source_text": "not about the source",
+      "reason": "50 °F is 10 °C, so this choice is also true, giving the question two correct answers while only the 'freezing point of water' choice is keyed."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Salt dissolved in water as a homogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Granite with visible quartz and feldspar as a heterogeneous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Oxygen gas as an element made of oxygen-only molecules",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic behaviors across solid, liquid, gas, and plasma states / block 1",
+      "summary": "Glass of lemonade with floating ice cubes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic behaviors across solid, liquid, gas, and plasma states / block 3",
+      "summary": "Table salt dissolving in water versus aluminum foil (element)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic behaviors across solid, liquid, gas, and plasma states / block 5",
+      "summary": "Gardener's potting soil as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts in moisture while chromium resists oxidation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Sugar dissolving in hot coffee as a physical change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A gallon of water versus a single droplet for extensive properties",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "A cup of water and a bathtub both at 20 °C for intensive properties",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Categorizing physical properties as intensive or extensive under changing sample sizes / block 2",
+      "summary": "Solid iodine giving purple vapor in a closed container",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 1",
+      "summary": "Counting 12 eggs in a carton as an exact number",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 1",
+      "summary": "Reading 21.6 mL at the meniscus of a graduated cylinder",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 3",
+      "summary": "1.0023 g + 4.383 g reported as 5.385 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 3",
+      "summary": "0.6238 cm x 6.6 cm reported as 4.1 cm²",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Reporting / block 4",
+      "summary": "Round-to-even: 421.25 to 421.2 and 28,683.5 to 28,684",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying and correcting errors in applying significant figure rules to measured data and calculations / block 2",
+      "summary": "Area of a metal rod 12.56 cm by 3.8 cm",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Density and Experimental Determination of Physical Quantities / block 5",
+      "summary": "Ice floats in liquid water because it is less dense",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Determining material identities through volume displacement and density calculations / block 2",
+      "summary": "Metal cube of 120 g with 2.0 cm sides giving 15 g/cm³",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Unit Conversions / block 5",
+      "summary": "Converting 4.00 qt to milliliters via liters",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Setting up unit conversion factors using the factor-label method for proper unit cancellation / block 2",
+      "summary": "A 12-inch wire converted to centimeters",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Setting up unit conversion factors using the factor-label method for proper unit cancellation / block 2",
+      "summary": "A 5.0-pound sample converted to kilograms",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Setting up unit conversion factors using the factor-label method for proper unit cancellation / block 2",
+      "summary": "A recipe's 0.75 L of water converted to milliliters",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

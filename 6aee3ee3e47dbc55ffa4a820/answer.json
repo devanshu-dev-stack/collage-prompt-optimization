@@ -1,0 +1,454 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 1",
+      "lesson_text": "Neurocognitive evidence synthesized in *How People Learn II* rejects this model",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Two of the four concepts (memory and desirable difficulties, then motivation and stereotype threat), four of the eight exercises and two of the four learning objectives are built on How People Learn II, which the instructions name only as a gap-filler, and none of this is in the requested flow."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "lesson_text": "As educational leaders transition from system mapping (the work initiated with cases like Tessa and Dock) toward institutional capstone design",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The flow asks for this as the second step, right after the opening prompt, but the lesson gives it only a passing mention in the last concept, after Priya, the six places and two unrelated concepts."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 3",
+      "lesson_text": "The Six Touchpoints of a Workplace Learning Ecology",
+      "source_text": "Six places people learn and what real learning ecologies look like. Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "Every touchpoint is shown only through Priya's workplace, and the lesson never adapts the six places to home or school as asked (the Concept 4 cards are also workplace-based)."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 4",
+      "lesson_text": "Empirical learning research reveals that mastery emerges across an interdependent ecology.",
+      "source_text": "Two apprentices from our study. Each box is a source of learning; each line, how they reach it.",
+      "reason": "The requested part on what real learning ecologies look like (the two apprentices' maps from the study) is left out; the lesson only makes a general claim."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 4.1: Mapping visible and invisible artificial intelligence implementations within a learning ecology to evaluate whether automated systems mediate developmental relationships or replace human mediation. / block 2",
+      "lesson_text": "A district L&D leader is tasked with evaluating the impact of automated systems in a blended learning ecology serving high school students.",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The requested mapping activity is replaced by reverse-engineering someone else's analysis of a school-only setting, so students never map one learner's AI across home, school and work."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "lesson_text": "pushed 86% of students toward performance orientations, causing them to avoid challenging tasks and conceal mistakes",
+      "source_text": "when given the choice, a higher proportion (86%) of students praised for ability chose to examine a folder they were told contained average scores of other test takers, rather than a folder they were told contained new interesting strategies",
+      "reason": "In the source, 86% is the share of ability-praised students who chose to look at other people's scores, not the share pushed into performance goals, and the source says nothing about concealing mistakes."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "lesson_text": "None of the nine is good or bad on its own... What changes the outcome is whether someone chose it on purpose, and whether the person on the other end knew.",
+      "source_text": "None of the nine below is good or bad on its own.",
+      "reason": "The quote drops the word \"below\" without marking the cut."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "lesson_text": "praising children for innate intelligence (`\"You are so smart\"`)",
+      "source_text": "(“well done for being so smart”)",
+      "reason": "The praise wording from Mueller and Dweck is quoted with words changed and dropped."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "lesson_text": "praising effort and strategic persistence (`\"You worked so hard\"`)",
+      "source_text": "(“well done for working so hard”)",
+      "reason": "The effort-praise wording is quoted with words changed and dropped."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 2",
+      "lesson_text": "Three evidence-backed practice structures that slow initial performance gains while dramatically increasing long-term retention and flexible transfer.",
+      "source_text": "However, most of this research has addressed retrieval of relatively simple information (e.g., vocabulary), rather than deep understanding.",
+      "reason": "The source is careful about how far these effects reach, while the lesson claims dramatic gains in flexible transfer."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 4",
+      "lesson_text": "continuous blocked practice generate feelings of fluent processing, leading students to prematurely drop items from study (Karpicke et al., 2009; Bjork et al., 2013). Instructional designers must deliberately engineer *desirable difficulties*—such as spaced delays, mixed problem sets, and unassisted retrieval—because effortful struggle is the exact cognitive prerequisite for durable schema consolidation.",
+      "source_text": "Several studies have shown benefits for blocking, at least for category learning ... The mechanisms that underlie the benefits of either interleaved or blocked study (e.g, possible effects on attentional processes) are ongoing topics of research.",
+      "reason": "The source says blocked practice has real benefits and the mechanisms are still being studied, but the lesson writes blocked practice off as a fluency trap and calls struggle the exact prerequisite."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "lesson_text": "**Performance goals** can accelerate immediate rote acquisition and short-term factual recall, but they severely compromise conceptual transfer and schema integration.",
+      "source_text": "Performance goals may in fact undermine conceptual learning and long-term recall. ... However, research regarding the impact of performance goals on academic outcomes has yielded mixed findings",
+      "reason": "The source hedges and notes mixed findings, while the lesson says performance goals severely compromise transfer."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 4",
+      "lesson_text": "re-establish working memory integrity and prevent long-term achievement gaps",
+      "source_text": "However, other studies have not replicated these findings (e.g., Dee, 2015; Hanselman et al., 2017), so research is needed to determine for whom and under which conditions values-affirmation approaches may be effective.",
+      "reason": "The source presents these interventions as promising but unproven, while the lesson states that they prevent achievement gaps."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 5",
+      "lesson_text": "Does the environment position the learner as an author of knowledge, offering meaningful choice and shielding executive bandwidth from stereotype threat?",
+      "source_text": "AI: Does the emergence of daily AI tools change any of the above? We will get to AI next, predict!",
+      "reason": "The slide's audit of opportunities to learn has four parts and ends with AI, but the lesson swaps the AI question for an identity and stereotype-threat dimension, which pulls the focus away from AI."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "lesson_text": "Rote schema abstraction (A) vs. atomic retrieval testing (B) vs. abductive inference, collaborative sense-making, and professional vision (C).",
+      "source_text": "A well-designed three-day course before the project starts ... In Case C Case Aʼs course",
+      "reason": "The slides call Case A well-designed and place Case A's course and Case B's platform inside Case C's ecosystem, but the lesson judges A as rote and B as narrow testing, turning a whole-ecosystem view into a ranking."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 3",
+      "lesson_text": "Moderated by prior knowledge: novice learners with minimal base knowledge may experience cognitive overload and reinforce misconceptions (Ionas et al., 2012).",
+      "source_text": "Moreover, for students who had just a little prior knowledge, using self-explanation seemed to impede rather than support performance. ... when the prior knowledge is weak, the entire process fails.",
+      "reason": "Cognitive overload and reinforced misconceptions are not in the source's account of the Ionas study, but the lesson credits them to it."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 4",
+      "lesson_text": "link: AI System Nodes -> Invisible Sorting",
+      "source_text": "not about the source",
+      "reason": "The mind map uses \"Invisible Sorting\" (and \"Social Substitution\") before the lesson introduces Sorting and the visible-to-invisible range in Concept 4."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "lesson_text": "The system automated cognitive offloading, replacing the effortful abductive reasoning required to build durable diagnostic expertise.",
+      "source_text": "not about the source",
+      "reason": "The keyed answer depends on \"abductive\" reasoning, a term first used in block 1 (\"abductive inference ... professional vision\") and never defined for these students."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "lesson_text": "Take two minutes to catalogue every instance of artificial intelligence you—or an anchor learner in your educational system—interacted with today.",
+      "source_text": "not about the source",
+      "reason": "The same opening audit already appears in Concept 1 block 1."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "lesson_text": "Consider Priya: an experienced professional with seven years in financial services consulting, newly staffed on a complex healthcare transformation project with no prior sector background.",
+      "source_text": "not about the source",
+      "reason": "Priya's three cases and the surface versus structural differences are taught again after Concept 1 block 1 already covered them."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 4",
+      "lesson_text": "The Six Places People Learn: Ecological Touchpoints and AI Integration",
+      "source_text": "not about the source",
+      "reason": "The six touchpoints with their AI uses and risks were already taught in the Concept 1 block 3 table."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 5",
+      "lesson_text": "Core Ecological Principle: Learning in the flow of work and schooling means learning through authentic, complex practice alongside other people—not merely retrieving instantaneous automated answers at the point of need.",
+      "source_text": "not about the source",
+      "reason": "This repeats the \"Core Design Principle\" callout in Concept 1 block 5 almost word for word."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "lesson_text": "Before mapping a system, conduct the **Digital Habits Checkup**",
+      "source_text": "not about the source",
+      "reason": "The Digital Habits Checkup is taught a second time after Concept 1 block 5, and with a different set of steps, which may confuse students about what the routine is."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 5",
+      "lesson_text": "Auditing Opportunities to Learn: System Dimensions",
+      "source_text": "not about the source",
+      "reason": "The practice, participation and relational audit was already taught as step 3 of the checkup in Concept 1 block 5."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "lesson_text": "Furthermore, performance goals do not produce the retrieval-induced strengthening of related conceptual networks.",
+      "source_text": "not about the source",
+      "reason": "The text jumps from goal types to retrieval-induced strengthening and \"retrieval-induced forgetting\" without explaining why a learner's goal changes what gets strengthened when they recall something."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 4",
+      "lesson_text": "Stereotype threat is an acute psychological state occurring when an individual fears confirming a negative societal stereotype regarding their social group's ability (Steele & Aronson, 1995).",
+      "source_text": "not about the source",
+      "reason": "Stereotype threat is explained only through definitions, a flowchart and brain regions, with no concrete case (such as the source's math test given to women) to show what it looks like."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 2",
+      "lesson_text": "Learners develop within concentric ecological rings (Bronfenbrenner, 1979).",
+      "source_text": "not about the source",
+      "reason": "The rings and funds of knowledge are named but never explained or shown with an example, yet Exercise 1.2 asks about them."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 2",
+      "lesson_text": "Legitimate Peripheral Participation",
+      "source_text": "not about the source",
+      "reason": "The card's photo (image-2) shows a teacher at the front of a classroom of seated pupils, which is the opposite of newcomers moving from the edge toward the centre of a working community."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 5",
+      "lesson_text": "Are learners supported by developmental relationships, peer cohorts, and expert mentors who model visible thinking and provide psychological safety?",
+      "source_text": "not about the source",
+      "reason": "The \"Relational Anchors\" photo (image-10) shows one person presenting to a large boardroom, not a mentoring or peer relationship."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 3",
+      "lesson_text": "link: Developmental Opportunities -> Descriptive Norms",
+      "source_text": "not about the source",
+      "reason": "The mind map lists the opportunities to learn as effortful practice, learner agency and descriptive norms (a term never explained), which drops participation and relationships, so it does not match the text."
+    },
+    {
+      "check": "x7",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "lesson_text": "### Developmental Inquiries Across Age Bands",
+      "source_text": "not about the source",
+      "reason": "One text block holds the age-band questions, a second Digital Habits Checkup, the six scoping questions, a worked example, a knowledge check and the capstone submission, so several separate steps run together without clear grouping."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 1",
+      "lesson_text": "Apply your understanding of situated learning and cultural-ecological systems by connecting the concept to the examples below.",
+      "source_text": "not about the source",
+      "reason": "Despite its title, this exercise never uses the six touchpoints, and no other exercise asks students to place sources of learning into them, so a central framework is taught but never practiced."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "lesson_text": "What type of goal orientation is associated with focusing on individual improvement, mastery, and conceptual progress?",
+      "source_text": "not about the source",
+      "reason": "The answer is copied from the table, and the word \"mastery\" in the question gives it away, while the objective asks students to assess impacts."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "lesson_text": "A student experiences stereotype threat during a high-stakes math exam. According to the neurocognitive model, what is the immediate effect on their working memory resources?",
+      "source_text": "not about the source",
+      "reason": "Students only have to recall \"depletion\" of the working memory named in the question; nothing asks them to interpret or apply the idea."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Analyzing contrasting workplace and classroom onboarding models to identify the underlying principles of situated learning, legitimate peripheral participation, and cultural mediation. / block 4",
+      "lesson_text": "It integrates mentorship and peer interaction throughout the training period.",
+      "source_text": "not about the source",
+      "reason": "The question asks for a limitation, but three options describe strengths that the example plainly lacks, so only one option can fit."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 3",
+      "lesson_text": "Participating in a peer Slack channel and shadowing a project lead",
+      "source_text": "not about the source",
+      "reason": "The keyed answer repeats the card's wording, and the other options are not in Priya's card at all, so the question can be answered by matching words."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 3",
+      "lesson_text": "Printed textbooks provided to every learner",
+      "source_text": "not about the source",
+      "reason": "In a question about invisible AI, two distractors (manual grading and printed textbooks) are not AI at all, and the keyed answer copies the card text."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 3",
+      "lesson_text": "Treating community and household practices as cognitive assets",
+      "source_text": "not about the source",
+      "reason": "The correct option restates the card (\"treating employees' household and community practices as assets\"), and the distractors are obviously not ecological, so the wording gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 2.1: Deconstructing instructional units that incorporate spaced retrieval practice and elaborative interrogation to trace how reconstructive memory processes support robust schema consolidation. / block 3",
+      "lesson_text": "Confirm that both groups had similar initial factual recall scores but diverged on inference and transfer tasks.",
+      "source_text": "not about the source",
+      "reason": "The situation never says the groups had similar initial recall, and the option \"Check whether the experimental group completed more total practice items\" tests the \"not just quantity\" claim more directly, so the key is doubtful; the feedback-only-after-failed-retrieval difference between groups is also ignored."
+    },
+    {
+      "check": "x14",
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "lesson_text": "It shifts the student from a performance goal to an incremental mastery goal.",
+      "source_text": "not about the source",
+      "reason": "This distractor describes a benefit, not harm, and \"It overemphasizes reciprocal apprenticeship at the expense of automated drill\" makes no sense, so B is easy to spot without understanding."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 1",
+      "summary": "Priya, a finance consultant new to healthcare, under Cases A, B and C",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 1: Situated Learning and Cultural-Ecological Systems / block 3",
+      "summary": "Priya's ecology across the six touchpoints (course, platform, sister's YouTube tip, Slack channel, project lead, shadowing)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing contrasting workplace and classroom onboarding models to identify the underlying principles of situated learning, legitimate peripheral participation, and cultural mediation. / block 1",
+      "summary": "School district pairs new teachers with mentors and grade-level teams, moving from observing to leading classes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing contrasting workplace and classroom onboarding models to identify the underlying principles of situated learning, legitimate peripheral participation, and cultural mediation. / block 3",
+      "summary": "Financial services firm puts new analysts on an AI adaptive platform before they join teams",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Analyzing contrasting workplace and classroom onboarding models to identify the underlying principles of situated learning, legitimate peripheral participation, and cultural mediation. / block 5",
+      "summary": "Priya's Case C: project lead, Slack channel, shadowing workshops, past deliverables",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 2",
+      "summary": "Priya's apprenticeship ecology card",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 2",
+      "summary": "A learner's day shaped by visible chatbots and invisible recommendation and sorting systems (Compass)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Applying the six-touchpoint learning ecology framework across diverse professional and academic learning environments to diagnose opportunities for practice, participation, and relational support. / block 2",
+      "summary": "Workforce training program treats employees' household and community practices as assets",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 1",
+      "summary": "Anderson and Pichert: recalling a house story as a homebuyer versus a burglar",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 3",
+      "summary": "Mueller and Oppenheimer: handwritten versus laptop notes",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Reconstructive Memory and Desirable Difficulties in Instructional Design / block 3",
+      "summary": "Leopold and Leutner: drawing versus summarizing a text on molecules",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Deconstructing instructional units that incorporate spaced retrieval practice and elaborative interrogation to trace how reconstructive memory processes support robust schema consolidation. / block 2",
+      "summary": "District science curriculum with spaced quizzes and why/how prompts versus massed review",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.2: Predicting the long-term retention and transfer outcomes of competing practice schedules by comparing interleaved problem sets against blocked curriculum structures. / block 2",
+      "summary": "Two high schools pilot blocked versus interleaved math review",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 1",
+      "summary": "Mueller and Dweck: praise for ability versus praise for effort",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 3",
+      "summary": "Box 6-2: a student always rated green on a behavior chart loses enthusiasm",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Motivational Systems, Goal Orientations, and Cognitive Load / block 4",
+      "summary": "Walton and Spencer: stereotyped students under safe conditions perform on par or better",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Critiquing institutional evaluation and feedback systems to identify mechanisms that inadvertently induce stereotype threat, performance-avoidance orientations, and executive function depletion. / block 2",
+      "summary": "Institution with public ranking boards, ability praise and a color-coded behavior chart",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "summary": "District leader gives prizes for top test scores",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "summary": "Teacher praises students' innate intelligence after each assignment",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "summary": "Student under stereotype threat in a high-stakes math exam",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating instructional scenarios to determine the cognitive and motivational trade-offs between extrinsic reward structures, autonomy-supportive choice, and mastery goal climates. / block 2",
+      "summary": "School behavior tracking system that rewards compliance with visible ratings",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "summary": "Compass's nine forms of AI with everyday instances (captions, screen readers, autoplay, essay scoring, monitoring)",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 1",
+      "summary": "Priya's three ecosystems retold",
+      "from_source": true,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "summary": "Worked scoping example: Grade 9 automated essay scoring tool, judged Adapt",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "summary": "Knowledge check: AI reading tool levels texts and hides unfamiliar vocabulary",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Pedagogical Affordances and Ethics of Visible and Invisible AI in Learning Ecologies / block 6",
+      "summary": "Knowledge check: surgical residents rely on an AI diagnostic assistant and lose unassisted accuracy",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Mapping visible and invisible artificial intelligence implementations within a learning ecology to evaluate whether automated systems mediate developmental relationships or replace human mediation. / block 2",
+      "summary": "District blended high school ecology with a chatbot, a predictive flagging engine and a reading-list recommender",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Evaluating an educational technology deployment proposal using learning science criteria to formulate an actionable adopt, adapt, or reject institutional policy recommendation. / block 2",
+      "summary": "Institution's proposal to adopt a Case-B-style platform and phase out mentorship",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

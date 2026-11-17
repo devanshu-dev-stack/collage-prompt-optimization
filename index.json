@@ -1,0 +1,719 @@
+{
+  "lessons": {
+    "6aee0891ff79335c01565c62": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee0891ff79335c01565c62",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-ce4236e-r2"
+      ],
+      "saved_at": "2026-11-17T12:54:49.847682+00:00"
+    },
+    "6aee1323b675fc4f07f0a2d1": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee1323b675fc4f07f0a2d1",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-ce4236e-r2"
+      ],
+      "saved_at": "2026-11-17T12:54:50.252253+00:00"
+    },
+    "6aee132bff79335c01565f75": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee132bff79335c01565f75",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-ce4236e-r2"
+      ],
+      "saved_at": "2026-11-17T12:54:50.621747+00:00"
+    },
+    "6aee133a17eedc07b6431449": {
+      "lesson_url": "https://collageai-dev-pr-2100.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee133a17eedc07b6431449",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/pr2097-05be074-r2",
+        "baselines/pr2097-05be074-r2-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:41.246573+00:00"
+    },
+    "6aee135417eedc07b6431472": {
+      "lesson_url": "https://collageai-dev-pr-2100.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee135417eedc07b6431472",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/pr2097-05be074-r2",
+        "baselines/pr2097-05be074-r2-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:40.883593+00:00"
+    },
+    "6aee175817eedc07b6431b85": {
+      "lesson_url": "https://collageai-dev-pr-2100.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee175817eedc07b6431b85",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/pr2097-05be074-r2",
+        "baselines/pr2097-05be074-r2-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:41.632758+00:00"
+    },
+    "6aee1d7e14a3d72211645f40": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee1d7e14a3d72211645f40",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/u_EpqPs6f7yyo3kWvb7Z2JbQ/items/t1793989165171"
+      ],
+      "saved_at": "2026-11-17T12:55:01.712344+00:00"
+    },
+    "6aee1d8c14a3d72211645fd3": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee1d8c14a3d72211645fd3",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/u_EpqPs6f7yyo3kWvb7Z2JbQ/items/t1793989165171"
+      ],
+      "saved_at": "2026-11-17T12:55:02.098131+00:00"
+    },
+    "6aee2873cee8e54e3926aedc": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee2873cee8e54e3926aedc",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793992476091"
+      ],
+      "saved_at": "2026-11-17T12:54:50.992153+00:00"
+    },
+    "6aee2b4fcee8e54e3926c4c0": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee2b4fcee8e54e3926c4c0",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793992476091"
+      ],
+      "saved_at": "2026-11-17T12:54:51.675946+00:00"
+    },
+    "6aee34fbd270b4edee5ef449": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee34fbd270b4edee5ef449",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:52.032000+00:00"
+    },
+    "6aee350ad270b4edee5ef4a9": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee350ad270b4edee5ef4a9",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:52.407447+00:00"
+    },
+    "6aee3ee3e47dbc55ffa4a820": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee3ee3e47dbc55ffa4a820",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:55.598344+00:00"
+    },
+    "6aee3efde47dbc55ffa4a8c9": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6aee3efde47dbc55ffa4a8c9",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:55.985812+00:00"
+    },
+    "6af02dfaeb46f0a633add281": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af02dfaeb46f0a633add281",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:48.279971+00:00"
+    },
+    "6af02e2beb46f0a633add2a3": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af02e2beb46f0a633add2a3",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:45.915276+00:00"
+    },
+    "6af030c6eb46f0a633add600": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af030c6eb46f0a633add600",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:48.497361+00:00"
+    },
+    "6af03315eb46f0a633add7a5": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af03315eb46f0a633add7a5",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:46.499822+00:00"
+    },
+    "6af0358a3d3d575668ecea0f": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af0358a3d3d575668ecea0f",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:48.776462+00:00"
+    },
+    "6af037eb3d3d575668eced97": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af037eb3d3d575668eced97",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:46.866959+00:00"
+    },
+    "6af039e63d3d575668ecee13": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af039e63d3d575668ecee13",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:48.995982+00:00"
+    },
+    "6af03a0aeb46f0a633addb27": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af03a0aeb46f0a633addb27",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:47.301413+00:00"
+    },
+    "6af03c133d3d575668eceea0": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af03c133d3d575668eceea0",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:49.202037+00:00"
+    },
+    "6af03c513d3d575668ecef08": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af03c513d3d575668ecef08",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:47.682799+00:00"
+    },
+    "6af03e60eb46f0a633ade006": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af03e60eb46f0a633ade006",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:49.409102+00:00"
+    },
+    "6af03e983d3d575668ecf2d2": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af03e983d3d575668ecf2d2",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-a8ce545"
+      ],
+      "saved_at": "2026-11-17T12:54:48.069746+00:00"
+    },
+    "6af236aae47dbc55ffa4c157": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af236aae47dbc55ffa4c157",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:57.730846+00:00"
+    },
+    "6af236eae47dbc55ffa4c1f5": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af236eae47dbc55ffa4c1f5",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:56.379186+00:00"
+    },
+    "6af2398be47dbc55ffa4c58e": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af2398be47dbc55ffa4c58e",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:57.944330+00:00"
+    },
+    "6af239c8e47dbc55ffa4c610": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af239c8e47dbc55ffa4c610",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:56.751068+00:00"
+    },
+    "6af23ce2e47dbc55ffa4ca0a": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af23ce2e47dbc55ffa4ca0a",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:58.150839+00:00"
+    },
+    "6af23d17e47dbc55ffa4ca58": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af23d17e47dbc55ffa4ca58",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:57.112727+00:00"
+    },
+    "6af23f48e47dbc55ffa4cdb6": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af23f48e47dbc55ffa4cdb6",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:58.373259+00:00"
+    },
+    "6af23f75e47dbc55ffa4ce26": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af23f75e47dbc55ffa4ce26",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:57.512668+00:00"
+    },
+    "6af24235e47dbc55ffa4d221": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af24235e47dbc55ffa4d221",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:58.596438+00:00"
+    },
+    "6af24236e47dbc55ffa4d24a": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af24236e47dbc55ffa4d24a",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793998200751"
+      ],
+      "saved_at": "2026-11-17T12:54:58.825687+00:00"
+    },
+    "6af2481a0007a729d614500d": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af2481a0007a729d614500d",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:54.129717+00:00"
+    },
+    "6af248540007a729d614516f": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af248540007a729d614516f",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:52.757109+00:00"
+    },
+    "6af24a490007a729d6145a05": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af24a490007a729d6145a05",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:54.340953+00:00"
+    },
+    "6af24a870007a729d6145a7d": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af24a870007a729d6145a7d",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:53.135983+00:00"
+    },
+    "6af24c7b0007a729d6145e39": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af24c7b0007a729d6145e39",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:54.575466+00:00"
+    },
+    "6af24cb20007a729d6145e93": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af24cb20007a729d6145e93",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:53.516683+00:00"
+    },
+    "6af24f4c0007a729d614637f": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af24f4c0007a729d614637f",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:53.884081+00:00"
+    },
+    "6af24f760007a729d61463c4": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af24f760007a729d61463c4",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:54.796566+00:00"
+    },
+    "6af2515d0007a729d61467a2": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af2515d0007a729d61467a2",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:55.019363+00:00"
+    },
+    "6af251610007a729d61467cb": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af251610007a729d61467cb",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1793995549391"
+      ],
+      "saved_at": "2026-11-17T12:54:55.229668+00:00"
+    },
+    "6af36c7cd0d43cefa74d9a9e": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af36c7cd0d43cefa74d9a9e",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:42.014593+00:00"
+    },
+    "6af36ebdc5e448c358797d16": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af36ebdc5e448c358797d16",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:44.426138+00:00"
+    },
+    "6af37090eb3c4fe3e6fe516b": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af37090eb3c4fe3e6fe516b",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:44.651688+00:00"
+    },
+    "6af373713d3faf78d0ad79c3": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af373713d3faf78d0ad79c3",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:42.395170+00:00"
+    },
+    "6af376563d3faf78d0ad827b": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af376563d3faf78d0ad827b",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:44.873702+00:00"
+    },
+    "6af37695e5633cb351c99c2d": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af37695e5633cb351c99c2d",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:42.898078+00:00"
+    },
+    "6af3787c3d3faf78d0ad880c": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af3787c3d3faf78d0ad880c",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:45.098728+00:00"
+    },
+    "6af378d1e5633cb351c9a1d5": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af378d1e5633cb351c9a1d5",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:43.283407+00:00"
+    },
+    "6af37b223d3faf78d0ad8eb6": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af37b223d3faf78d0ad8eb6",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:45.331933+00:00"
+    },
+    "6af37b9ce5633cb351c9a476": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af37b9ce5633cb351c9a476",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:43.797952+00:00"
+    },
+    "6af37ec5e5633cb351c9a8a2": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af37ec5e5633cb351c9a8a2",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:45.545647+00:00"
+    },
+    "6af37f303d3faf78d0ad8f95": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af37f303d3faf78d0ad8f95",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-305bdea"
+      ],
+      "saved_at": "2026-11-17T12:54:44.194600+00:00"
+    },
+    "6af5d0d8894f84fb137bcf49": {
+      "lesson_url": "https://collageai-dev-pr-2095.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af5d0d8894f84fb137bcf49",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1794494119422"
+      ],
+      "saved_at": "2026-11-17T12:55:01.117947+00:00"
+    },
+    "6af5d0da4fe252c6c8ae6127": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af5d0da4fe252c6c8ae6127",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1794493745858"
+      ],
+      "saved_at": "2026-11-17T12:54:59.804540+00:00"
+    },
+    "6af5d115894f84fb137bd007": {
+      "lesson_url": "https://collageai-dev-pr-2095.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af5d115894f84fb137bd007",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1794494119422"
+      ],
+      "saved_at": "2026-11-17T12:55:00.497142+00:00"
+    },
+    "6af5d1234fe252c6c8ae6371": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af5d1234fe252c6c8ae6371",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1794493745858"
+      ],
+      "saved_at": "2026-11-17T12:54:59.205272+00:00"
+    },
+    "6af5d39c4fe252c6c8ae6ef5": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af5d39c4fe252c6c8ae6ef5",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1794493745858"
+      ],
+      "saved_at": "2026-11-17T12:55:00.026528+00:00"
+    },
+    "6af5d3ce4fe252c6c8ae6f60": {
+      "lesson_url": "https://collageai-dev-pr-2099.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af5d3ce4fe252c6c8ae6f60",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1794493745858"
+      ],
+      "saved_at": "2026-11-17T12:54:59.569275+00:00"
+    },
+    "6af5d3db894f84fb137be32f": {
+      "lesson_url": "https://collageai-dev-pr-2095.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af5d3db894f84fb137be32f",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "tries/claude/items/t1794494119422"
+      ],
+      "saved_at": "2026-11-17T12:55:01.340136+00:00"
+    },
+    "6af5d41f894f84fb137be4b6": {
+      "lesson_url": "https://collageai-dev-pr-2095.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af5d41f894f84fb137be4b6",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "tries/claude/items/t1794494119422"
+      ],
+      "saved_at": "2026-11-17T12:55:00.872593+00:00"
+    },
+    "6af9bc8cc0312f06ee16ceb5": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9bc8cc0312f06ee16ceb5",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:39.249922+00:00"
+    },
+    "6af9bcb8c0312f06ee16cf4b": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af9bcb8c0312f06ee16cf4b",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:37.772714+00:00"
+    },
+    "6af9bf1cc0312f06ee16d3eb": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9bf1cc0312f06ee16d3eb",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:39.437124+00:00"
+    },
+    "6af9bfa059f467a987f18949": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af9bfa059f467a987f18949",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:37.971912+00:00"
+    },
+    "6af9c187c0312f06ee16d7e9": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9c187c0312f06ee16d7e9",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:39.624898+00:00"
+    },
+    "6af9c342c0312f06ee16d829": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9c342c0312f06ee16d829",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:40.137075+00:00"
+    },
+    "6af9c4d059f467a987f18ef9": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9c4d059f467a987f18ef9",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:40.315319+00:00"
+    },
+    "6af9c56959f467a987f18f4f": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af9c56959f467a987f18f4f",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:38.840183+00:00"
+    },
+    "6af9c85a59f467a987f19291": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6af9c85a59f467a987f19291",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:40.511130+00:00"
+    },
+    "6af9ca2ec0312f06ee16db6c": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af9ca2ec0312f06ee16db6c",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:38.315235+00:00"
+    },
+    "6af9cd5459f467a987f195ae": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6af9cd5459f467a987f195ae",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1379ef1-c2"
+      ],
+      "saved_at": "2026-11-17T12:54:39.061126+00:00"
+    },
+    "6afc27b27111292d53be9400": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc27b27111292d53be9400",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:02.301705+00:00"
+    },
+    "6afc27fab90b17d8090eed8b": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc27fab90b17d8090eed8b",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:02.504260+00:00"
+    },
+    "6afc2a54b90b17d8090ef776": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc2a54b90b17d8090ef776",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:02.700299+00:00"
+    },
+    "6afc2a9e7111292d53be9e87": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc2a9e7111292d53be9e87",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:02.915413+00:00"
+    },
+    "6afc2d93b90b17d8090ef9df": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc2d93b90b17d8090ef9df",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:03.117623+00:00"
+    },
+    "6afc2dddb90b17d8090efa79": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc2dddb90b17d8090efa79",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:03.327225+00:00"
+    },
+    "6afc3006b90b17d8090efec0": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc3006b90b17d8090efec0",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:03.525558+00:00"
+    },
+    "6afc305db90b17d8090eff71": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc305db90b17d8090eff71",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:03.781079+00:00"
+    },
+    "6afc3311b90b17d8090f0381": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc3311b90b17d8090f0381",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:03.987514+00:00"
+    },
+    "6afc33557111292d53bea25a": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc33557111292d53bea25a",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:04.243110+00:00"
+    },
+    "6afc359ab90b17d8090f07dd": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6afc359ab90b17d8090f07dd",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:04.444371+00:00"
+    },
+    "6afc397e7111292d53bea573": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6afc397e7111292d53bea573",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-1f1038d"
+      ],
+      "saved_at": "2026-11-17T12:55:04.698484+00:00"
+    }
+  }
+}

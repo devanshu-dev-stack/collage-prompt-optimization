@@ -1,0 +1,546 @@
+{
+  "problems": [
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 1",
+      "lesson_text": "### The Situated Nature of Workplace Learning",
+      "source_text": "Opening prompt: list every AI you, or a learner you know, came across today, seen or hidden.",
+      "reason": "The lesson opens straight with Priya's cases; the requested opening prompt to list the AI met today is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 1",
+      "lesson_text": "### The Situated Nature of Workplace Learning",
+      "source_text": "Tessa and Dock: from last week’s map to your own context, and what the capstone asks of you",
+      "reason": "The requested Tessa and Dock step (moving from last week's map to the learner's own context and the capstone) does not appear anywhere."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 1",
+      "lesson_text": "### The Situated Nature of Workplace Learning",
+      "source_text": "Visible and Invisible AI (Compass webpage): the AI people see and the AI that works in the background.",
+      "reason": "The Compass visible and invisible AI section is left out entirely; none of its nine forms of AI appear in the lesson."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 3",
+      "lesson_text": "Comprehensive workforce ecologies integrate six formal, self-directed, and relational touchpoints that support continuous development.",
+      "source_text": "Six places people learn and what real learning ecologies look like.",
+      "reason": "The six places are covered, but the requested 'what real learning ecologies look like' part (the two apprentices' maps from the study) is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 3",
+      "lesson_text": "Structured mandatory training such as compliance onboarding, safety certifications, or intensive vendor bootcamps (e.g., Case A's preparatory course).",
+      "source_text": "Workforce examples; Collage AI to adapt them for home and school.",
+      "reason": "The six touchpoints keep only workforce examples; they are never adapted for home and school as asked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 5",
+      "lesson_text": "Workplace learning is fundamentally mediated by developmental relationships and social participation.",
+      "source_text": "Opportunities to learn: practice, participation, and relationships",
+      "reason": "The requested section on opportunities for deliberate practice, legitimate participation and relationship knowledge (from the 'Analyze your own program' slide) is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 1",
+      "lesson_text": "### Aligning Digital Affordances with Learning Goals",
+      "source_text": "Thinking routine: Digital Habits Checkup (Project Zero), used to look closely at the technology in one learner’s day before mapping it.",
+      "reason": "The Digital Habits Checkup thinking routine is never included or linked."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 1",
+      "lesson_text": "### Aligning Digital Affordances with Learning Goals",
+      "source_text": "Activity: map the AI in one learner’s life, seen and hidden, across home, school, and work. Mark where AI connects them to people and where it stands in for people.",
+      "reason": "The mapping activity is replaced by a section on technology affordances; no activity asks students to map seen and hidden AI or mark where it connects or replaces people."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Recap: the six questions",
+      "reason": "The lesson ends without the requested recap of the six questions."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Focus areas: emerging questions by age band, as ideas for a capstone",
+      "reason": "The focus areas slide (emerging questions for early childhood, K-12 and higher education/workforce) is left out."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Capstone Brief and Scoping Guide, plus a worked scoping example.",
+      "reason": "There is no capstone brief, scoping guide or worked scoping example."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Activity: scope your capstone with the six questions",
+      "reason": "The capstone scoping activity is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Knowledge check covering this week’s ideas, with a few items from Week 1",
+      "reason": "There is no end-of-lesson knowledge check covering this week's ideas and Week 1 items."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Closing judgment: adopt, adapt, or reject for a short case",
+      "reason": "The closing adopt, adapt or reject judgment on a short case is missing."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "Walk through each step needed to reach the solution from the situation. For each step, explain why it is performed.",
+      "source_text": "Capstone scope: submit the scoped capstone (the Week 2 capstone step).",
+      "reason": "The lesson never asks students to submit their scoped capstone."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 1",
+      "lesson_text": "Achievement goal theory posits that the underlying purpose a learner assigns to competence-relevant activities systematically shapes cognitive processing, affect, and self-regulation.",
+      "source_text": "Focus primarily on the slides, with the other two sources being additional information to fill in any gaps or as “fun facts”.",
+      "reason": "Concepts 2 to 6 (technology affordances, achievement goals, stereotype threat, learning progressions, evidence-centered design) are built from How People Learn II, so the lesson rests mainly on that source and not on the slides."
+    },
+    {
+      "check": "ignores_custom_instructions",
+      "location": "Learning objectives",
+      "lesson_text": "Differentiate the cognitive and behavioral impacts of mastery versus performance goal orientations, evaluating how classroom goal structures and identity cues mitigate stereotype threat.",
+      "source_text": "Evaluate an AI product, policy, or process against the science of learning and development, and tell whether it builds a capacity or replaces it, by age and stage ... This lesson primarily focuses on the first 3 of these objectives.",
+      "reason": "The lesson's objectives replace the requested course objectives (judging whether AI builds or replaces a capacity by age and stage, appraising evidence, designing AI-enabled learning) with goal orientations, stereotype threat and assessment design."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 2",
+      "lesson_text": "Adapted from Harvard Graduate School of Education workforce learning frameworks (2026).",
+      "source_text": "Structural diﬀerences • Where the learning happens • What Priya is doing in her head • Who, or what, is teaching her • How much control she has",
+      "reason": "The slides only name the four dimensions for discussion; the case-by-case cell values (such as 'Item recall, fact recognition, algorithmic test-taking' for Case B) and the credit to Harvard Graduate School of Education frameworks are not in the source."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 3",
+      "lesson_text": "(e.g., Case A's preparatory course)",
+      "source_text": "In Case C Case Aʼs course ... In Case C Case Bʼs platform ... In Case C Her sisterʼs YouTube tip ... In Case C The healthcare Slack channel ... In Case C Her project lead ... In Case C Shadowing the workshop",
+      "reason": "The slide shows that Case C's ecosystem includes all six touchpoints, Case A's course and Case B's platform among them; the lesson treats the course and platform as separate rival cases and drops the point that Case C combines them."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 5",
+      "lesson_text": "but produce diminished returns for highly autonomous learners who thrive with unscripted simulation access",
+      "source_text": "conversational interactions with AutoTutor are not ideal for high-achieving college students, who tend to be more autonomous and self-regulated learners, or for use in simulation environments that are intended to push the student to acquire very precise models of the subject matter",
+      "reason": "The source says AutoTutor is not ideal in simulation environments; it never says autonomous learners thrive with unscripted simulation access, so the lesson turns a limit into an opposite claim."
+    },
+    {
+      "check": "wrong_viewpoint",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 4",
+      "lesson_text": "The Texas SimCalc experiment (Roschelle et al., 2010) demonstrated that learning gains only scale when software affordances are fully integrated with curricular storylines, extensive teacher professional development, and aligned assessments.",
+      "source_text": "This approach is illustrated by the Texas SimCalc study (Roschelle et al., 2010). ... The researchers found gains in mathematics skills across classrooms that used SimCalc ... Examples such as these suggest that several elements are important to a systems approach.",
+      "reason": "The source presents SimCalc as an illustration that suggests these elements matter; the lesson turns it into a demonstrated 'only when' rule."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 5",
+      "lesson_text": "causes 86% of students to subsequently seek out social-comparison data and adopt performance-avoidance behaviors",
+      "source_text": "Students who received praise for ability were more likely to adopt performance goals on a subsequent test ... a higher proportion (86%) of students praised for ability chose to examine a folder they were told contained average scores of other test takers",
+      "reason": "The source links ability praise to performance goals, not performance-avoidance, and the 86% refers only to choosing the folder of others' scores, not to adopting avoidance behaviors."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 5",
+      "lesson_text": "'well done for being smart'",
+      "source_text": "“well done for being so smart”",
+      "reason": "The quoted praise drops the word 'so' from the source's wording."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 5",
+      "lesson_text": "'well done for working hard'",
+      "source_text": "“well done for working so hard”",
+      "reason": "The quoted praise drops the word 'so' from the source's wording."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 2",
+      "lesson_text": "Severely constrains working memory capacity through evaluative anxiety and rumination.",
+      "source_text": "These kinds of performance-avoidance goals have been associated with maladaptive learning behaviors including task avoidance (Middleton and Midgley, 1997; sixth-grade students), reduced effort (Elliot, 1999), and self-handicapping (Covington, 2000; Midgley et al., 1996).",
+      "reason": "The source does not tie performance-avoidance goals to a severe working-memory limit through anxiety and rumination; it lists task avoidance, reduced effort and self-handicapping."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 4",
+      "lesson_text": "Institutional arrangements such as fixed ability grouping, public performance charts, and graded homework checks often signal that behavioral compliance or innate ability is the institutional priority, triggering maladaptive avoidance schemas even among high achievers.",
+      "source_text": "Research covering a broader age range suggests that ability grouping and other related practices may have negative effects on resilience and self-regulation",
+      "reason": "Public performance charts, graded homework checks, signals of compliance and avoidance among high achievers are not in the source, which only says ability grouping may harm resilience and self-regulation."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Mitigating Stereotype Threat Through Identity Interventions / block 1",
+      "lesson_text": "Suppression of Prefrontal Cortex",
+      "source_text": "Under threatening conditions, individuals show lower levels of activation in the brain’s prefrontal cortex, reflecting impaired executive functioning and working memory ... and higher levels of activation in fear circuits, including, for example, in the amygdala",
+      "reason": "The source reports lower prefrontal and higher amygdala activity as two parallel findings; the lesson's chain in which amygdala activation causes prefrontal suppression is not in the source."
+    },
+    {
+      "check": "inexact_quote",
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 3",
+      "lesson_text": "'clouds covering the Sun'",
+      "source_text": "COMMON ERROR: It gets dark at night because something (e.g., clouds, the atmosphere, “darkness”) covers the Sun.",
+      "reason": "The quoted Level 1 answer is set beside a word-for-word item quote but reworded from the source's 'something (e.g., clouds ...) covers the Sun'."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Evidence-Centered Design in Assessment Systems / block 3",
+      "lesson_text": "This allows educators and organizational learning leaders to isolate whether performance breakdowns stem from foundational misconceptions, working-memory overload, or poor task cueing.",
+      "source_text": "tests based on such learning science research can better flag when students are successful in engaging in such learning processes, and when they are engaging in counterproductive practices",
+      "reason": "The claim that evidence-centered design separates misconceptions, working-memory overload and poor task cueing is not in the source."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 3",
+      "lesson_text": "Direct developmental relationships with managers, peer mentors, assigned buddies, and senior advisors who make implicit expert thinking visible.",
+      "source_text": "not about the source",
+      "reason": "The Relational Mentorship image (image-5) shows a therapy session, with a 'PSYCHOLOGY TEST' clipboard and a client lying on a couch, which misrepresents workplace mentoring."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 4",
+      "lesson_text": "Protean Career Demand",
+      "source_text": "not about the source",
+      "reason": "The mind map uses 'Protean Career Demand', 'Psychological Safety Climate' and 'Autonomous Learning', but the lesson never introduces or explains these terms."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 4",
+      "lesson_text": "Relational & Work-Based",
+      "source_text": "not about the source",
+      "reason": "The mind map squeezes the six touchpoints into three groups and leaves out Community-Based, so it contradicts the six cards just above it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 5",
+      "lesson_text": "In an effective learning ecology, digital platforms and artificial intelligence serve as connective tissue—facilitating joint attention, asynchronous peer exchange, and just-in-time scaffolding—rather than an automated substitute for human communities of practice.",
+      "source_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it.",
+      "reason": "The key idea that AI should connect people rather than replace them is stated but never practiced: no exercise asks students to judge whether an AI tool connects or stands in for people."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Evaluating situated participation across workplace learning ecologies / block 3",
+      "lesson_text": "Knowledge is acquired solely through algorithmic recommendations and digital quizzes.",
+      "source_text": "not about the source",
+      "reason": "In question 1 the distractors use 'solely' and 'only' and describe things absent from the shadowing example, so the right answer is obvious without any understanding."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 1.2: Deconstructing workplace learning touchpoints from organizational outcomes / block 2",
+      "lesson_text": "demonstrating that learning was situated within the workplace ecology, not isolated to formal courses or AI-driven modules.",
+      "source_text": "not about the source",
+      "reason": "The exercise treats one group's better results as proof that mentoring and shadowing caused them, and never raises that this group may differ in other ways, a predictable mistake in a course meant to teach appraising evidence."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 3",
+      "lesson_text": "Simultaneously bridges symbolic, visual, and narrative expressions of a concept (e.g., dynamic graphs linked to algebraic equations and physical simulations), enabling cognitive flexibility and varied encoding.",
+      "source_text": "not about the source",
+      "reason": "The Linked Representations image (image-7) is a wall flowchart of joke questions such as 'How do you tell if a banana is ripe?', and the adaptive scaffolding image (image-9) is just Python code, so neither shows the idea it sits beside."
+    },
+    {
+      "check": "x8",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 2",
+      "lesson_text": "AutoTutor (Graesser et al., 2014); Agent Trialogues (D'Mello et al., 2014)",
+      "source_text": "not about the source",
+      "reason": "A full column of about ten named systems and citations (BEETLE II, iDRIVE, MetaTutor and others), most never explained, takes as much space as the key idea of matching a tool's features to the learning goal."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 5",
+      "lesson_text": "### Implementation Decision Framework: Universal Design & Context Fit",
+      "source_text": "not about the source",
+      "reason": "The decision framework (fit to learners, cognitive load from problem features, Universal Design for Learning) is taught for education leaders, but no exercise in 2.1 or 2.2 asks students to apply it."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 2.1: Analyzing digital learning affordances and cognitive constraints / block 2",
+      "lesson_text": "A learner uses an intelligent tutoring system that retires a fact after three correct responses. According to the FaCT system, how many correct responses are required before a fact is retired?",
+      "source_text": "not about the source",
+      "reason": "Question 4 gives its own answer in the stem and tests a minor number the lesson never taught, so it checks neither recall nor understanding."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 2",
+      "lesson_text": "Under retrieval demands, learners experience retrieval-induced strengthening of related conceptual schemas (Ikeda et al., 2015)",
+      "source_text": "When learners with mastery goals work to recall a previously learned piece of information, they also activate and strengthen memory for the other, related information they learned.",
+      "reason": "The card names the effect without the step that explains it (recalling one item also strengthens related items), so students cannot see why mastery goals help memory."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.1: Distinguishing mastery versus performance goal structures in learning environments / block 4",
+      "lesson_text": "In performance-approach settings, errors are often concealed to avoid negative judgment.",
+      "source_text": "not about the source",
+      "reason": "School B includes teachers 'fearing they will be seen as less capable', a performance-avoidance cue, but question 1 offers no avoidance option, uses made-up distractors ('Collaborative goal orientation', 'Process-oriented orientation'), and the feedback assigns hiding errors to performance-approach, against Concept 3's definitions."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 4: Mitigating Stereotype Threat Through Identity Interventions / block 1",
+      "lesson_text": "When academic or workplace environments trigger negative social stereotypes, the resulting psychological condition is **stereotype threat**",
+      "source_text": "In a prototypical experiment to test stereotype threat, a difficult achievement test is given to individuals who belong to a group for whom a negative stereotype about ability in that achievement domain exists. For example, women are given a test in math.",
+      "reason": "Stereotype threat is explained only through a definition and a brain-pathway chain, with no concrete case of what it looks like (such as the source's math-test experiment)."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Analyzing structural and psychological buffers against evaluative identity threat / block 3",
+      "lesson_text": "Confirm that anxiety and sense of belonging improved in tandem with assessment scores",
+      "source_text": "not about the source",
+      "reason": "Question 4 asks which check rules out 'other factors', but the keyed answer only shows the measures moved together, while distractors such as checking that exams matched earlier years actually address other explanations."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 2",
+      "lesson_text": "Attributes seasons to varying Earth-Sun distance; attributes lunar phases to planetary shadows rather than orbital geometry.",
+      "source_text": "not about the source",
+      "reason": "The top level, 'Level 4 (Advanced Coordination)', is paired with misconceptions, and the lesson never explains why students at the highest level still hold these errors, which Exercise 5.1 question 4 then relies on."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 4",
+      "lesson_text": "Administering diagnostic items where every distractor corresponds to an empirical progression level, pinpointing whole-group distributions across naive, transitional, and advanced models.",
+      "source_text": "not about the source",
+      "reason": "The Ordered-Choice Diagnostics image (image-18) is a German election ballot listing political parties, which has nothing to do with diagnostic test items."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 6: Evidence-Centered Design in Assessment Systems / block 2",
+      "lesson_text": "Core Components of the Evidence-Centered Design Framework",
+      "source_text": "not about the source",
+      "reason": "Block 1 teaches cognition, observation and interpretation, then block 2 switches to claim, evidence and task models without showing how they map, yet Exercise 6.2 assumes 'observation framework (task model)'."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Evidence-Centered Design in Assessment Systems / block 3",
+      "lesson_text": "Assessments designed via Evidence-Centered Design do not merely rank-order student achievement; they function diagnostically.",
+      "source_text": "not about the source",
+      "reason": "This repeats Concept 5's point that diagnostic data 'prevents treating student responses merely as right or wrong', with the same day-night and seasons examples, without linking the two."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 3",
+      "lesson_text": "After identifying the claim space and selecting the method, which step comes next in reconstructing the solution?",
+      "source_text": "not about the source",
+      "reason": "Question 3 mentions a 'selecting the method' step that is not in the situation or solution, and its key puts the task model next, against Concept 6's mind map order (Claim Space to Evidence Model to Task Model)."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 1",
+      "summary": "Priya's three contrasting cases: three-day course, adaptive AI platform, project lead and peer network",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 2",
+      "summary": "Table comparing Priya's three cases on four structural dimensions",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Situated Learning Within Workplace Ecologies / block 3",
+      "summary": "Case A's course and Case B's platform as touchpoint examples",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 1",
+      "summary": "FaCT system spacing practice and retiring mastered items",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 2",
+      "summary": "Named exemplar systems such as SimCalc, AutoTutor, Knowledge Forum, WISE and MetaTutor",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 3",
+      "summary": "Graphs linked to equations and simulations; trialogues with disagreeing agents",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 4",
+      "summary": "Dynarski 132-school software trial and the Texas SimCalc study",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Technological Affordances for Complex Learning / block 5",
+      "summary": "AutoTutor gains for underachieving students; e-textbooks with distracting links",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Achievement Goal Orientations in Instruction / block 5",
+      "summary": "Mueller and Dweck study of ability versus effort praise",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Mitigating Stereotype Threat Through Identity Interventions / block 2",
+      "summary": "Walton and Cohen belonging intervention, values-affirmation writing, Gresky identity prompts",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 2",
+      "summary": "Construct map for Earth in the solar system with levels and common errors",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 3",
+      "summary": "Diagnostic item on why it gets dark at night, with answers mapped to levels",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Learning Progressions for Formative Diagnosis / block 4",
+      "summary": "Pairing Level 3 and Level 4 students for discussion; orbit simulations for lower levels",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Evidence-Centered Design in Assessment Systems / block 2",
+      "summary": "Day-night claim, seasons rubric and celestial simulation task",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Evidence-Centered Design in Assessment Systems / block 5",
+      "summary": "Medical trainee claim on synthesizing hemodynamic data rather than knowing cardiology facts",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Evaluating situated participation across workplace learning ecologies / block 2",
+      "summary": "Consultant shadowing, AI microlearning platform and three-day course (Priya's cases recast)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Deconstructing workplace learning touchpoints from organizational outcomes / block 2",
+      "summary": "Healthcare L&D leader finds mentored consultant group outperforms",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 2.1: Analyzing digital learning affordances and cognitive constraints / block 2",
+      "summary": "Math class dynamic graphing tool linking equations, graphs and simulations (question 1)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Analyzing digital learning affordances and cognitive constraints / block 2",
+      "summary": "Platform A with adaptive scheduling that retires mastered items (question 2)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.1: Analyzing digital learning affordances and cognitive constraints / block 2",
+      "summary": "Tutoring system retiring a fact after three correct responses (question 4)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Predicting instructional efficacy from technology affordance alignments / block 2",
+      "summary": "District pilot of a knowledge-building platform used only for readings and quizzes",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing mastery versus performance goal structures in learning environments / block 1",
+      "summary": "School A teacher evaluation built on growth and sharing mistakes",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing mastery versus performance goal structures in learning environments / block 3",
+      "summary": "School B awards assemblies and teacher leaderboards",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Diagnosing maladaptive classroom incentive structures and feedback systems / block 2",
+      "summary": "Classrooms posting top scores, penalizing errors and rewarding first finishers",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Appraising identity-based interventions against neurocognitive threat mechanisms / block 2",
+      "summary": "First-year STEM bridge program with values-affirmation and belonging talks",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.1: Appraising identity-based interventions against neurocognitive threat mechanisms / block 2",
+      "summary": "High school math teacher giving high-standards feedback with assurance",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 4.1: Appraising identity-based interventions against neurocognitive threat mechanisms / block 2",
+      "summary": "Science labs framing students as researchers",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Analyzing structural and psychological buffers against evaluative identity threat / block 2",
+      "summary": "District values-affirmation plus wise feedback closes STEM performance gap",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.1: Diagnosing conceptual misconceptions using construct maps and learning trajectories / block 2",
+      "summary": "Class with mixed celestial-motion misconceptions grouped for peer explanation (question 1)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Diagnosing conceptual misconceptions using construct maps and learning trajectories / block 2",
+      "summary": "Night-time diagnostic item where option C signals Level 3 (question 2)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.1: Diagnosing conceptual misconceptions using construct maps and learning trajectories / block 2",
+      "summary": "Student attributing lunar phases to planetary shadows (question 4)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Predicting student trajectory shifts based on diagnostic formative feedback / block 2",
+      "summary": "Middle school cohort spread across construct-map levels after a diagnostic test",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.1: Detecting alignment failures among claims, evidence, and assessment tasks / block 2",
+      "summary": "District science assessment claiming evidence-centered design but testing recall of solar system facts",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 6.2: Reconstructing cognitive claim spaces and task models in assessment systems / block 2",
+      "summary": "Assessment for a professional development program on formative feedback using role-plays",
+      "from_source": false,
+      "source_had_one": false
+    }
+  ]
+}

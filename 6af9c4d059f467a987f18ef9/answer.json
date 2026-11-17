@@ -1,0 +1,396 @@
+{
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic characteristics across the states of matter / block 1",
+      "lesson_text": "A student places an ice cube in a glass of water. The ice cube keeps its shape and stays at the bottom of the glass.",
+      "source_text": "ice (at 0 °C) 0.92 g/cm3 ... water 1.0 g/cm3",
+      "reason": "Ice is less dense than liquid water (0.92 vs 1.0 g/cm3 in the source's density table), so an ice cube floats in water instead of staying at the bottom."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Identifying significant figures and correcting rounding errors in mathematical calculations / block 4",
+      "lesson_text": "Step 1: records 154.00 mm instead of 154 mm; ruler measures to the nearest mm, so correct value is 154 mm. ... reports measurement as 154 mm ± 1 mm, reflecting instrument precision and proper significant figures.",
+      "source_text": "In general, numerical scales such as the one on this graduated cylinder will permit measurements to one-tenth of the smallest scale division. The scale in this case has 1-mL divisions, and so volumes may be measured to the nearest 0.1 mL.",
+      "reason": "The source (and the lesson's own Concept 3 block 1) says a scale reading includes one estimated digit beyond the smallest division, so a millimeter ruler gives a reading to about 0.1 mm, not the \"154 mm ± 1 mm\" the answer key demands (and a measured length is never \"exactly 154 mm\")."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Evaluating experimental data sets for accuracy versus precision / block 2",
+      "lesson_text": "The scale displays 12.40 g. The student records the result as 12.4 g in their lab notebook.\n\nSolution:\nThe reported mass is 12.4 g, rounded to three significant figures to reflect the measurement's uncertainty.",
+      "source_text": "If you place a quarter on a standard electronic balance, you may obtain a reading of 6.72 g. ... All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "A balance reading of 12.40 g has four significant figures and all displayed digits are recorded, so dropping the measured trailing zero misstates the precision, against the source and the lesson's own rule that trailing zeros after the decimal point are significant."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "High-energy gaseous state composed of charged ions and free electrons, capable of conducting electric currents.",
+      "source_text": "not in source",
+      "reason": "The source only says the charged particles give plasmas \"unique properties\"; electrical conduction is an added fact."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Common Indicators ... Change in state (solid, liquid, gas), texture, or particle size ... Color change, temperature change without heating, gas production, or precipitate formation",
+      "source_text": "not in source",
+      "reason": "The source gives no list of signs for telling physical from chemical changes; this whole row is added content."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Molecular Level ... Particles rearrange or shift phase; bonds within molecules remain intact ... Chemical bonds break and re-form to create new molecular structures",
+      "source_text": "not in source",
+      "reason": "The source describes physical and chemical changes by composition only and never explains them as bonds breaking and re-forming."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "An experiment can be highly precise while being inaccurate if a systematic error or poorly calibrated instrument consistently skews the result.",
+      "source_text": "not in source",
+      "reason": "The source illustrates precise-but-inaccurate results with dispenser #1 but never names systematic error or calibration as the cause."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 5",
+      "lesson_text": "When converting squared or cubic dimensions (such as area or volume), remember to raise the entire conversion factor—both the number and the unit—to the required power. For example, because 1 m = 100 cm, a cubic conversion requires (1 m)³ = (100 cm)³, yielding 1 m³ = 1,000,000 cm³.",
+      "source_text": "not in source",
+      "reason": "The source has no rule or example for raising conversion factors to a power."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Phases and Classification of Matter / block 5",
+      "lesson_text": "link: Particulate Units -> Molecules",
+      "source_text": "not about the source",
+      "reason": "The term \"molecule\" is never defined, yet the mind map uses it and later blocks rely on it (\"the molecules themselves remain chemically identical\", \"bonds within molecules remain intact\")."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Phases and Classification of Matter / block 2",
+      "lesson_text": "How particle arrangement dictates the macroscopic behavior of matter across four states.",
+      "source_text": "not about the source",
+      "reason": "\"Macroscopic\" (and \"microscopic\" in the Exercise 1.2 title) is never introduced or defined, so students cannot tell what the distinction means."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 5: Temperature Scales and Conversions / block 6",
+      "lesson_text": "When converting between temperature scales, always check which scale uses absolute zero as its reference point (Kelvin) and which uses water's phase changes (Celsius, Fahrenheit).",
+      "source_text": "not about the source",
+      "reason": "It repeats block 1's note (\"The Celsius and Fahrenheit scales are based on reference points (freezing and boiling of water), while Kelvin is based on absolute zero.\") and adds nothing new."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 4",
+      "lesson_text": "The ratio of an object’s mass to its volume.",
+      "source_text": "not about the source",
+      "reason": "Density as the mass-to-volume ratio is defined again right after block 3 already defined it, and Concept 2 block 3 card 4 had also explained it as an intensive ratio."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 1",
+      "lesson_text": "if a cylinder with 1 mL divisions shows a meniscus resting just past the 21 mL line toward the 22 mL mark, the volume is recorded as 21.6 mL",
+      "source_text": "The meniscus appears to be a bit closer to the 22-mL mark than to the 21-mL mark, and so a reasonable estimate of the liquid’s volume would be 21.6 mL.",
+      "reason": "\"Just past the 21 mL line\" suggests a reading near 21.1, so students cannot see why the estimated digit is 6; the step that it sits closer to 22 mL is missing."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "lesson_text": "$$1.0023 + 4.383 = 5.385$$ ... $$0.6238 \\times 6.6 = 4.1$$",
+      "source_text": "not about the source",
+      "reason": "The examples show only the already-rounded answers, never the raw results (5.3853 and 4.11708), so students cannot see the rounding step the rule is about."
+    },
+    {
+      "check": "x4",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "A measurement is accurate if it yields a result close to the true or accepted value. Measurements are precise if replicate determinations yield very similar values to one another.",
+      "source_text": "she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter) but not accurate",
+      "reason": "Accuracy and precision are often confused but are given only as definitions, with no case such as the source's archery targets or cough-syrup dispensers."
+    },
+    {
+      "check": "x5",
+      "location": "Concept 5: Temperature Scales and Conversions / block 3",
+      "lesson_text": "To convert from Celsius ($$T_{\\text{C}}$$) to Fahrenheit ($$T_{\\text{F}}$$), multiply by $$\\frac{9}{5}$$ and add 32.",
+      "source_text": "The space between these two points on a Fahrenheit thermometer is divided into 180 equal parts (degrees). ... The linear equation relating Celsius and Fahrenheit temperatures is easily derived from the two temperatures used to define each scale.",
+      "reason": "The equation is not linked to the reference-point table in block 2 (100 Celsius degrees vs 180 Fahrenheit degrees, offset of 32), so students cannot see where 9/5 and 32 come from."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "lesson_text": "A drop of boiling oil and a pot of boiling oil share the same temperature (an intensive property), but the pot holds far more total thermal energy or heat (an extensive property), making it capable of much greater harm.",
+      "source_text": "not about the source",
+      "reason": "The card's image (image-7.jpg) is an abstract yellow foam with bubbles that shows neither a drop nor a pot of oil, so it does not support the heat-versus-temperature idea."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "lesson_text": "Leading Zeros ... Trailing Zeros",
+      "source_text": "not about the source",
+      "reason": "The images for these cards are a plastic caliper (image-9.jpg) and a calculator on notes (image-11.jpg), which show no numbers with leading or trailing zeros and so do not help with the rules."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Temperature Scales and Conversions / block 7",
+      "lesson_text": "Convert 0 °C to Kelvin ... Convert 98.6 °F to Celsius",
+      "source_text": "not about the source",
+      "reason": "The 0 °C to Kelvin card shows a blood-glucose meter reading \"103 mg/dL\" (image-14.jpg), and the 98.6 °F card shows a room thermometer reading 24.6 °C (image-13.jpg); neither relates to the conversion, and both may mislead."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "lesson_text": "The inherent ability (or inability) of a substance to transform into different substances through chemical reaction.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to tell physical from chemical properties, but no exercise asks them to classify a property such as flammability or hardness; the questions cover only changes and intensive/extensive."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "lesson_text": "Round result to match the input quantity with the fewest significant figures.",
+      "source_text": "not about the source",
+      "reason": "Objective 3 calls for significant-figure and rounding rules in calculations, but no exercise has students add, multiply or round-to-even; Exercise 3.1 promises \"mathematical calculations\" but contains none."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 4",
+      "lesson_text": "Accuracy vs. Precision: A measurement is accurate if it yields a result close to the true or accepted value.",
+      "source_text": "not about the source",
+      "reason": "Accuracy versus precision is a stated objective, yet Exercise 3.2, titled for it, only asks about rounding one reading, and no other exercise tests it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 4",
+      "lesson_text": "Dimensional analysis enables complex multistep solutions by stringing several conversion factors in sequence, canceling intermediate units at each step.",
+      "source_text": "not about the source",
+      "reason": "Objective 4 asks for multi-step problems, but no exercise chains conversion factors like the worked example or uses the block 2 conversion table; the exercises are one-step metric conversions and simple density substitutions."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Temperature Scales and Conversions / block 4",
+      "lesson_text": "subtract 32 and multiply by $$\\frac{5}{9}$$.",
+      "source_text": "not about the source",
+      "reason": "No exercise converts Fahrenheit to Celsius or Kelvin, and the only Fahrenheit question repeats a worked example, so Fahrenheit conversions in objective 5 are not really practiced."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 3",
+      "lesson_text": "How should **saltwater** be classified?",
+      "source_text": "not about the source",
+      "reason": "The cards right above already state each answer (\"Saltwater is a liquid mixture, specifically a homogeneous mixture\"), so the quiz and the essay can be done by copying instead of classifying."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 5.2: Converting thermal measurements among Celsius, Fahrenheit, and Kelvin scales / block 2",
+      "lesson_text": "Convert $$25$$ °C to Fahrenheit using the appropriate equation.",
+      "source_text": "not about the source",
+      "reason": "It is the same conversion fully worked in Concept 5 block 7 (\"Apply $$T_{\\text{F}} = \\frac{9}{5} \\times 25 + 32 = 77$$ °F.\"), so students can copy the answer."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Categorizing measurable physical properties as intensive or extensive / block 2",
+      "lesson_text": "A sample of solid iodine is placed in a sealed container. The container is gently heated, and the iodine begins to disappear from the solid phase, forming a visible purple vapor.",
+      "source_text": "not about the source",
+      "reason": "The exercise says it is about classifying properties as intensive or extensive, but it only asks whether a phase change is physical or chemical."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 3.2: Evaluating experimental data sets for accuracy versus precision / block 3",
+      "lesson_text": "Which check most directly supports why the reported mass is written as 12.4 g rather than 12.40 g?",
+      "source_text": "not about the source",
+      "reason": "The key \"Verifying that the number of significant figures matches the instrument's capability\" is wrong, while the distractor \"Confirming that trailing zeros after the decimal indicate greater certainty\" states the lesson's own correct rule."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.2: Performing multi-step unit conversions and density calculations using dimensional analysis / block 2",
+      "lesson_text": "Subtract $$50$$ mL from $$40$$ grams to get $$-10$$ g/mL ... Add $$40$$ grams to $$50$$ mL to get $$90$$ g/mL ... Subtract $$100$$ from $$5.0$$ to get $$-95$$ centimeters ... Add $$100$$ to $$5.0$$ to get $$105$$ centimeters",
+      "source_text": "not about the source",
+      "reason": "Distractors that add or subtract grams and milliliters, or give a negative density or length, are obviously wrong and test nothing."
+    },
+    {
+      "check": "x15",
+      "location": "Exercise 4.1: Analyzing the mathematical relationship between mass, volume, and density / block 7",
+      "lesson_text": "Volume = mass ÷ density = 3.6 kg ÷ 1.2 kg/m³ = 3 m³.",
+      "source_text": "not about the source",
+      "reason": "Both inputs have two significant figures, so the answer should be 3.0 m³; the key drops a significant zero right after the lesson taught the rule, which reinforces the common mistake instead of correcting it."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 1",
+      "summary": "Astronaut's mass unchanged on the Moon while weight is one-sixth",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 3",
+      "summary": "Iron, gold, oxygen as elements; water as compound; Italian dressing, chocolate chip cookies, granite vs air, saltwater, brass, sports drinks as mixtures",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Phases and Classification of Matter / block 4",
+      "summary": "Table examples: copper wire, oxygen gas; sucrose, sodium chloride; saltwater, clean air; oil and vinegar, granite",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying substances as elements, compounds, homogeneous mixtures, or heterogeneous mixtures / block 2",
+      "summary": "Ice cube, saltwater and air classified by state and composition",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic characteristics across the states of matter / block 1",
+      "summary": "Ice cube in a glass of water keeps its shape, then melts",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Distinguishing macroscopic and microscopic characteristics across the states of matter / block 3",
+      "summary": "Air in a sealed container fills it and is a homogeneous mixture of gases",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusts while chromium resists corrosion (chemical property)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Physical changes: wax melting, sugar dissolving in coffee, steam condensing on a pot lid",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Chemical changes: copper in nitric acid, burning match, searing steak, fruit browning",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Physical-change examples: ice melting, grinding spices, dissolving salt, magnetizing steel",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Chemical-change examples: baking bread, rusting iron, milk souring, gasoline combustion",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 3",
+      "summary": "Drop vs pot of hot oil: same temperature, very different heat",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 4",
+      "summary": "NFPA 704 hazard diamond summarizing chemical hazards",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Categorizing measurable physical properties as intensive or extensive / block 2",
+      "summary": "Solid iodine heated in a sealed container forms purple vapor",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 1",
+      "summary": "Exact numbers: 12 eggs in a carton, 1 ft = 12 in., 1 in. = 2.54 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 1",
+      "summary": "Graduated cylinder with 1 mL divisions read as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "summary": "0.0082 has two significant figures (leading zeros)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "summary": "70.607 has five significant figures (captive zeros)",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 2",
+      "summary": "55.0 has three significant figures; 1300 written as 1.3 × 10^3 or 1.300 × 10^3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "summary": "1.0023 + 4.383 = 5.385 (addition rule)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "summary": "0.6238 × 6.6 = 4.1 (multiplication rule)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Data Quality / block 3",
+      "summary": "92.85 rounds to 92.8 and 31.55 rounds to 31.6 (round-to-even)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Identifying significant figures and correcting rounding errors in mathematical calculations / block 2",
+      "summary": "Metal rod measured as 154 mm with a millimeter ruler",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 3.2: Evaluating experimental data sets for accuracy versus precision / block 2",
+      "summary": "Digital scale reading 12.40 g recorded as 12.4 g",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 1",
+      "summary": "1 in. = 2.54 cm as a pair of unit conversion factors",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 4",
+      "summary": "Mass in kg of 4.00 qt of liquid with density 1.11 g/mL (4.20 kg), the source's antifreeze case reversed",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: Dimensional Analysis and Derived Quantities / block 5",
+      "summary": "1 m = 100 cm cubed to give 1 m³ = 1,000,000 cm³",
+      "from_source": false,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Conversions / block 7",
+      "summary": "Convert 25 °C to 77 °F",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Conversions / block 7",
+      "summary": "Convert 98.6 °F (body temperature) to 37 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Temperature Scales and Conversions / block 7",
+      "summary": "Convert 0 °C to 273.15 K (freezing point of water)",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}

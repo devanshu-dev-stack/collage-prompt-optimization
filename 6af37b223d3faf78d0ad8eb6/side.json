@@ -1,0 +1,395 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 6,
+    "wrong_viewpoint": 0,
+    "off_source_content": 4,
+    "ignores_custom_instructions": 0,
+    "x1": 3,
+    "x2": 1,
+    "x3": 0,
+    "x4": 0,
+    "x5": 1,
+    "x6": 2,
+    "x7": 0,
+    "x8": 0,
+    "x9": 3,
+    "x10": 0,
+    "x11": 2,
+    "x12": 1,
+    "x14": 6,
+    "x15": 0
+  },
+  "examples_total": 22,
+  "examples_from_source": 16,
+  "made_up_examples": 6,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 90,
+  "score": 85,
+  "instructions_score": 100,
+  "teaching_score": 88,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.1: Counting significant figures in measured values and distinguishing exact numbers from inexact measurements / block 2",
+      "lesson_text": "Rounding to three significant figures gives 7.87.",
+      "source_text": "If the dropped digit is 5, and it’s either the last digit in the number or it’s followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "In 7.865 the dropped digit is a final 5 after an even 6, so the source's round-to-even rule (and the lesson's own Concept 3 callout) gives 7.86, not 7.87."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Reconstructing rounding choices and uncertainty rules applied during multi-step addition, subtraction, multiplication, and division operations / block 2",
+      "lesson_text": "Area = 1064 mm² (rounded to three significant figures)",
+      "source_text": "Captive zeros result from measurement and are therefore always significant.",
+      "reason": "1064 has four significant figures (its zero is captive), so the three-significant-figure answer the exercise asks for is 1.06 × 10³ mm²; the exercise, and its Q4, teach a wrong result as correct."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 3.2: Reconstructing rounding choices and uncertainty rules applied during multi-step addition, subtraction, multiplication, and division operations / block 3",
+      "lesson_text": "Multiply length and width: 127.4 mm × 8.35 mm = 1064.89 mm² (calculator result).",
+      "source_text": "not in source",
+      "reason": "127.4 × 8.35 = 1063.79, not 1064.89, so the grading rubric's calculator result is wrong arithmetic."
+    },
+    {
+      "check": "factual_error",
+      "location": "Concept 5: Dimensional Analysis and Multi-Step Unit Conversions / block 5",
+      "lesson_text": "In contrast, experimentally derived factors (such as 1 lb = 453.59 g) possess a finite number of significant figures.",
+      "source_text": "1 lb = 453.59 g",
+      "reason": "The pound is defined exactly (1 lb = 453.59237 g by international agreement), so 453.59 g is a rounded defined value, not an experimentally derived factor, and the source never calls it experimental."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.1: Formulating conversion factors and applying dimensional analysis to perform single- and multi-step unit conversions / block 2",
+      "lesson_text": "The first step is to convert miles to feet before proceeding to meters.",
+      "source_text": "1 mi = 1609.3 m",
+      "reason": "Miles convert directly to meters (or to kilometers, as the lesson's own Exercise 5.2 does), so converting to feet is not a required first step and the keyed answer \"feet\" is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 4.1: Interpreting the mathematical and dimensional relationships among mass, volume, and density / block 7",
+      "lesson_text": "A liquid has a density of 1.2 kg/m³ and a volume of 3.0 m³. What is its mass in kg?",
+      "source_text": "Although there are exceptions, most liquids and solids have densities that range from about 0.7 g/cm3 (the density of gasoline) to 19 g/cm3 (the density of gold). The density of air is about 1.2 g/L.",
+      "reason": "1.2 kg/m³ (1.2 g/L) is the density of air, about a thousand times too low for any liquid, so the problem gives students a physically impossible value."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "lesson_text": "Magnetic domain alignment with no compositional change",
+      "source_text": "not in source",
+      "reason": "The source only lists magnetizing metals as a physical change; magnetic domains are an added mechanism that the lesson never explains."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Linear Conversions / block 1",
+      "lesson_text": "Temperature measures the hotness or coldness of matter and reflects the average kinetic energy of its particles.",
+      "source_text": "We use the word temperature to refer to the hotness or coldness of a substance.",
+      "reason": "The kinetic-energy meaning of temperature is not in the source, and kinetic energy is never defined in the lesson."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Concept 6: Temperature Scales and Linear Conversions / block 4",
+      "lesson_text": "the Kelvin scale is an absolute scale where 0 K represents the complete cessation of classical molecular motion (absolute zero)",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved.",
+      "reason": "The source defines 0 K only as the lowest temperature that can theoretically be reached; the claim that molecular motion stops is added."
+    },
+    {
+      "check": "off_source_content",
+      "location": "Exercise 6.2: Executing temperature conversions between Celsius, Fahrenheit, and Kelvin scales using linear algebraic formulas / block 2",
+      "lesson_text": "What is the term for the lowest possible temperature, where all particle motion theoretically stops?",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved.",
+      "reason": "The source never says particle motion stops at absolute zero, and this question drops even the concept block's \"classical\" qualifier, testing an added, oversimplified claim."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "lesson_text": "there is no detectable change in the total quantity of matter during a physical or chemical transition",
+      "source_text": "not about the source",
+      "reason": "The conservation law hinges on physical versus chemical changes (freezing versus decomposing water), but those changes are only defined later in Concept 2, and the callout sits alone at the end of a page about classifying matter."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "All non-zero digits are significant. The significance of zeros depends entirely on their position within the number.",
+      "source_text": "All of the digits in a measurement, including the uncertain last digit, are called significant figures or significant digits.",
+      "reason": "The lesson starts giving rules for which digits are significant without ever saying what a significant figure is (the certain digits plus the one estimated digit from block 1), so students cannot link the rules to measurement uncertainty."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 5",
+      "lesson_text": "Quality Metrics -> Accuracy",
+      "source_text": "not about the source",
+      "reason": "Accuracy and precision appear in the mind map, and \"precision\" is then used in Exercise 3.1 and \"accuracy\" in Exercise 3.2, but neither term is defined anywhere in the lesson."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 4: SI Units, Metric Prefixes, and Derived Quantities / block 3",
+      "lesson_text": "Density (d) is defined as mass (m) divided by volume (V), commonly expressed in g/cm³ for solids or g/mL for liquids.",
+      "source_text": "not about the source",
+      "reason": "Concept 2 block 4 already defined density as the ratio of mass to volume with the same equation d = m/V and called it intensive, and Concept 4 repeats both without referring back."
+    },
+    {
+      "check": "x5",
+      "location": "Exercise 4.1: Interpreting the mathematical and dimensional relationships among mass, volume, and density / block 2",
+      "lesson_text": "Density is measured in kilograms per cubic meter (kg/m³), mass in kilograms (kg), and volume in cubic meters (m³).",
+      "source_text": "not about the source",
+      "reason": "Concept 4 wrote density as d in g/cm³ or g/mL, and its graph shows water at 1.0 g/cm³, but the exercise switches to ρ and kg/m³ without saying it is the same quantity or that 1 g/cm³ = 1000 kg/m³."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Zeros trapped between non-zero digits (such as 309 or 70.607) are always significant because they represent measured positions on an instrument scale.",
+      "source_text": "not about the source",
+      "reason": "The Captive Zeros card's photo shows a beaker marked \"100\", whose zeros are trailing, not captive, so the image shows the wrong kind of zero."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 4: SI Units, Metric Prefixes, and Derived Quantities / block 4",
+      "lesson_text": "The volume of displaced liquid equals the volume of the solid.",
+      "source_text": "not about the source",
+      "reason": "The Water Displacement photo is the same beaker close-up used for captive zeros, with nothing submerged, and the buoyancy card's photo shows beakers of coloured liquids with nothing floating or sinking, so neither image shows the method beside it."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "lesson_text": "Zeros that appear to the left of the first non-zero digit (such as 0.00802) are never significant; they serve exclusively as placeholders locating the decimal point.",
+      "source_text": "not about the source",
+      "reason": "Counting significant figures with captive, leading and trailing zeros is central to objective 3 and to Exercise 3.1's title, but no exercise asks students to count them (Exercise 3.1 Q2 even states the counts)."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "lesson_text": "Round to the least number of decimal places (lowest certainty)",
+      "source_text": "not about the source",
+      "reason": "The addition and subtraction rule is taught but never practiced: Exercise 3.2's title promises addition and subtraction, yet every calculation in the exercises is a multiplication."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 4: SI Units, Metric Prefixes, and Derived Quantities / block 1",
+      "lesson_text": "metric prefixes represent fractions and multiples as powers of 10 attached directly to the base unit",
+      "source_text": "not about the source",
+      "reason": "Objective 4 names conversions involving metric prefixes, but no exercise asks students to convert between prefixed units (such as mg to g); the only prefix step is a given 1000 m/km inside Exercise 5.2's flawed solution."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.1: Classifying everyday samples of matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "Which classification best describes the **Ice Cube** example?",
+      "source_text": "not about the source",
+      "reason": "The example cards just above state each answer word for word (\"representing a pure substance (compound) in the solid state\", \"It is a homogeneous mixture in the gaseous state\"), so students copy rather than classify, though objective 2 asks them to classify samples."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 4.2: Predicting fluid displacement volume and density values for submerged and floating objects / block 2",
+      "lesson_text": "The student gently drops the metal object into the cylinder, causing the water level to rise.",
+      "source_text": "not about the source",
+      "reason": "The setup already states the outcome students are asked to predict, the second question is answered by copying Concept 4's displacement card, and with no final reading or mass given, no volume or density is ever worked out despite the exercise title."
+    },
+    {
+      "check": "x12",
+      "location": "Exercise 2.2: Evaluating and resolving misidentifications of intensive versus extensive properties in physical systems / block 2",
+      "lesson_text": "A student is given a sample of iron and is asked to determine whether the following changes are physical or chemical: (1) Melting iron, (2) Rusting iron, (3) Hammering iron into a sheet.",
+      "source_text": "not about the source",
+      "reason": "The exercise is set up as practice on misidentified intensive and extensive properties, but it only tests physical versus chemical changes, so the idea it promises is never tested."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Classifying everyday samples of matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 3",
+      "lesson_text": "A pure substance (element) in the plasma state",
+      "source_text": "not about the source",
+      "reason": "Distractors such as an ice cube or room air \"in the plasma state\" are obviously implausible, so the questions do not test classification."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Identifying distinguishing macroscopic and microscopic characteristics of solids, liquids, gases, and plasma / block 2",
+      "lesson_text": "The glass is a gas because it is invisible.",
+      "source_text": "not about the source",
+      "reason": "Distractors like a drinking glass being a gas because it is invisible, or plasma because it conducts electricity, are obviously implausible for the scenario described."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Identifying distinguishing macroscopic and microscopic characteristics of solids, liquids, gases, and plasma / block 6",
+      "lesson_text": "Plasma is invisible and does not interact with light.",
+      "source_text": "not about the source",
+      "reason": "The example just described \"bright glowing streams\", so this distractor (and \"Plasma can be poured like a liquid\") is obviously wrong and gives the answer away."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 4.1: Interpreting the mathematical and dimensional relationships among mass, volume, and density / block 5",
+      "lesson_text": "The density becomes infinite because volume is doubled",
+      "source_text": "not about the source",
+      "reason": "Distractors claiming density becomes zero or infinite are obviously implausible and do not target any real misconception about the ratio."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Formulating conversion factors and applying dimensional analysis to perform single- and multi-step unit conversions / block 2",
+      "lesson_text": "Miles to feet, feet to inches, inches to centimeters",
+      "source_text": "not about the source",
+      "reason": "All four sequences (via meters, kilometers, yards or feet) correctly convert miles to centimeters, and the lesson's own table supplies factors for the distractors (1 km = 0.62137 mi, 1 m = 1.0936 yd) but not for miles to feet, so the question has more than one correct answer."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.2: Identifying and correcting mathematical and unit cancellation errors in multi-step dimensional analysis setups / block 4",
+      "lesson_text": "Step 2: Conversion factor is correct, but result should be rounded to 96.54 km/hour (matches calculation), but error is propagated in later steps due to incorrect time conversion.",
+      "source_text": "not about the source",
+      "reason": "Step 2 has no error, so the grading key rewards students for finding a non-existent error; the only real error is dividing by 60 in Step 4, carried into Step 5, though the task says there are \"several errors\"."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: Classification and States of Matter / block 4",
+      "summary": "Gold, sulfur, O2; table sugar, water; sports drink, salt water; oil-and-vinegar dressing, chocolate chip cookies, granite as the four classes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: Classification and States of Matter / block 5",
+      "summary": "Water freezing or decomposing into H2 and O2 with total mass conserved",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday samples of matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Ice cube as a compound in the solid state",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday samples of matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Air in a room as a homogeneous gaseous mixture",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Classifying everyday samples of matter into elements, compounds, homogeneous mixtures, and heterogeneous mixtures / block 2",
+      "summary": "Salad bowl as a heterogeneous mixture",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Identifying distinguishing macroscopic and microscopic characteristics of solids, liquids, gases, and plasma / block 1",
+      "summary": "Water poured into a glass takes its shape while the glass keeps its own (liquid vs solid)",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.2: Identifying distinguishing macroscopic and microscopic characteristics of solids, liquids, gases, and plasma / block 3",
+      "summary": "Boiling water in a pot producing steam that spreads through the kitchen (liquid vs gas)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Identifying distinguishing macroscopic and microscopic characteristics of solids, liquids, gases, and plasma / block 5",
+      "summary": "Plasma globe demonstration in a science lab",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 1",
+      "summary": "Iron rusting vs chromium; melting wax and dissolving sugar as physical changes; burning gasoline, digestion and cooking meat as chemical changes",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: Physical and Chemical Properties and Changes / block 2",
+      "summary": "Table classifying melting wax, rusting iron, dissolving sugar, burning a match and magnetizing a screwdriver",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 2.2: Evaluating and resolving misidentifications of intensive versus extensive properties in physical systems / block 2",
+      "summary": "Student's flawed classification of melting, rusting and hammering iron",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Counting 12 eggs in a carton gives an exact number",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 1",
+      "summary": "Reading a graduated cylinder meniscus as 21.6 mL with one estimated digit",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 2",
+      "summary": "1300 has ambiguous trailing zeros, written as 1.3 × 10^3",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 3",
+      "summary": "Round-to-even: 31.5 rounds to 32, 92.85 rounds to 92.8",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "1.0023 g + 4.383 g = 5.385 g (decimal-place rule)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Measurement Uncertainty, Significant Figures, and Rounding / block 4",
+      "summary": "0.6238 cm × 6.6 cm = 4.1 cm² (significant-figure rule)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.2: Reconstructing rounding choices and uncertainty rules applied during multi-step addition, subtraction, multiplication, and division operations / block 2",
+      "summary": "Area of a metal rod from 127.4 mm and 8.35 mm measurements",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 4.2: Predicting fluid displacement volume and density values for submerged and floating objects / block 2",
+      "summary": "Irregular metal object dropped into a cylinder holding 50 mL of water",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 5: Dimensional Analysis and Multi-Step Unit Conversions / block 4",
+      "summary": "Density of antifreeze from 9.26 lb and 4.00 qt converted to 1.11 g/mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.2: Identifying and correcting mathematical and unit cancellation errors in multi-step dimensional analysis setups / block 2",
+      "summary": "Car travelling 120 miles in 2 hours, speed converted to m/s",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Concept 6: Temperature Scales and Linear Conversions / block 5",
+      "summary": "Oven at 450 °F converted to about 230 °C and 5.1 × 10^2 K",
+      "from_source": true,
+      "source_had_one": false
+    }
+  ]
+}
