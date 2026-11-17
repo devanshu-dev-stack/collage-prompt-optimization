@@ -4,7 +4,8 @@ from pathlib import Path
 
 import yaml
 
-from runner.constants import CASE_FILE_NAME, OWN_CASE_PREFIX, TEST_SET_DIR, UPLOAD_MIME_TYPES
+from runner.assessment_models import AssessmentCase
+from runner.constants import ASSESSMENT_FILE_NAME, CASE_FILE_NAME, OWN_CASE_PREFIX, TEST_SET_DIR, UPLOAD_MIME_TYPES
 from runner.errors import RunnerInputError
 from runner.models import LessonCase
 
@@ -40,6 +41,19 @@ def load_case(repo_root: Path, case_dir: Path) -> LessonCase:
         if case.source_files and path.suffix.lower() not in UPLOAD_MIME_TYPES:
             raise RunnerInputError(f"{name}: only {', '.join(UPLOAD_MIME_TYPES)} files can be uploaded.")
     return case
+
+
+def load_assessment(repo_root: Path, case_dir: Path) -> AssessmentCase:
+    """A test case's fixed assessment settings, next to its case.yaml."""
+    folder = require_inside(case_dir, repo_root / TEST_SET_DIR, "Test case folder")
+    settings_file = folder / ASSESSMENT_FILE_NAME
+    if not settings_file.is_file():
+        raise RunnerInputError(f"Missing file: {settings_file}")
+    with settings_file.open(encoding="utf-8") as handle:
+        raw = yaml.safe_load(handle)
+    if not isinstance(raw, dict):
+        raise RunnerInputError(f"{settings_file} must hold key: value pairs.")
+    return AssessmentCase.model_validate(raw)
 
 
 def read_source_text(case_dir: Path, case: LessonCase) -> str:

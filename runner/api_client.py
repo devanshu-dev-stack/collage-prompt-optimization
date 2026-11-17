@@ -70,7 +70,7 @@ class CollageClient:
         response = self._session.get(self._url(path), params=params, timeout=_TIMEOUT)
         return RouteReply(response.status_code, time.monotonic() - started, _body(response))
 
-    def post_json(self, path: str, body: dict[str, str]) -> RouteReply:
+    def post_json(self, path: str, body: dict[str, JsonValue]) -> RouteReply:
         started = time.monotonic()
         response = self._session.post(self._url(path), json=body, headers=self._csrf_headers(), timeout=_TIMEOUT)
         return RouteReply(response.status_code, time.monotonic() - started, _body(response))

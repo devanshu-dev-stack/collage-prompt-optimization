@@ -93,6 +93,58 @@ when a fixed score is re-made because a lab file changed on dev.
 - At the end of a check that saved any lesson, commit the store ("Store <n> judged lesson(s)")
   and push the `lessons` branch. It holds lesson data only, never code.
 
+### Assessments
+
+Assessments have their own tries, leaderboard, fixed score and checks, kept apart from lessons
+on the page's Assessments area. A summative is written in one call from the source, the
+learning objectives and a question mix, so each test case also has an `assessment.yaml` with
+those, fixed for every run (15 questions: 8 multiple choice, 3 short answer, 2 fill-in, 2
+open-ended). They are judged as ASSESSMENT_JUDGE.md says, on the 31 checks in
+`runner/assessment_checks.py`, into one score: Assessment quality.
+
+| Path | Written by | Holds |
+|---|---|---|
+| `prompts-assess/<path with / as ~>` | Claude | One assessment lab file from dev, the same shape as `prompts/...` |
+| `lab/config-assess` | Claude | `prNumber`, `prUrl`, `branch`, `previewUrl`, `devCommit`, `baselineId` (the same #2095 site and branch as Live prompts) |
+| `lab/checks-assess` | Claude | The checks as `runner/assessment_checks.py` has them, for the page to show: `checks: [{id, name, look_for, points, level}]`, `revision`. Rewrite it whenever that file changes |
+| `atries/<user id>/items/<try id>` | the person, then Claude | An assessment try: the same fields as a lesson try, with no `base` or `material` |
+| `baselines/assess-dev-<sha7>` | Claude | Current dev's fixed assessment score: the output of `python -m runner.assessment_judge baseline` (`kind: "assessment"`) |
+
+Assessment lab files (the only files an assessment try may change):
+
+```
+server/agents/prompts/system/summative_system.py
+server/agents/prompts/user/summative_user.py
+server/agents/prompts/enums/question_examples.py     (lessons use it too)
+server/agents/builders/mcq_fragments.py              (lessons use it too)
+server/agents/builders/prompt_fragments.py           (lessons use it too)
+```
+
+An assessment try goes through steps 1 to 3 below like a Live prompts try, with these changes:
+- It shares the #2095 site and the `experiment/prompt-lab` branch with Live prompts tries, so
+  only one of the two kinds is `committed` or `running` at a time; take the oldest
+  `submitted` try of either kind.
+- Build and check it as step 3 says, against the assessment lab files.
+- Run 2 summatives per test case: `python -m runner.assessment_runner --target pr-2095 --case
+  <case folder> --run-name try-1`, and the same with `try-2`. Remake one that fails on its own.
+- Judge each: `python -m runner.assessment_judge prompt --result <result.json> --case-dir <case
+  folder> --out <prompt.md>`, one judge agent each on the session's own model (brief: read the
+  whole prompt, follow it, work through every question and option, write one JSON answer,
+  change nothing else). Check each with `python -m runner.assessment_judge check --judgement
+  <answer> --result <result.json> --out <side.json>`, group them with `python -m
+  runner.assessment_judge baseline --base dev --commit <the try's commit> --run <result.json>
+  <side.json>` (once per summative), and write `{judged_at, baselines: {dev:
+  <lab/config-assess.baselineId>}, cases}` to the try's `judge` with `update`, then `status:
+  done`. Save each to the store with `python -m runner.assessment_store save --store
+  ../prompt-lab-lessons ... --used-by atries/<user id>/items/<try id>`.
+
+**Fixed score.** Make 3 summatives per test case on dev (`--target dev`, one at a time),
+judge them as above, build it with `--base dev --commit <dev sha>`, `set` it as
+`baselines/assess-dev-<sha7>`, point `lab/config-assess.baselineId` at it, and save each
+summative to the store with `--used-by baselines/assess-dev-<sha7>`. Re-make it when step 5
+finds an assessment lab file changed on dev. A new or reworded assessment check re-judges the
+stored summatives of the current fixed score only (`runner.assessment_store get`), never new ones.
+
 ### Own material
 
 A try with a `material` field runs on that person's own material instead of the shared test
@@ -134,6 +186,9 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
 ```
 
 ## Every check, in order
+
+Look at lesson tries (`tries/*/items/*`) and assessment tries (`atries/*/items/*`) in every step;
+an assessment try follows "Assessments" where it differs.
 
 1. **Collect results.** For each try with `status: running`, read its issue in this repo.
    If the issue is closed, read `runs/<issue>/summary.json` from the `results` branch and
@@ -272,11 +327,13 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    `origin/dev` changed any lab file since
    `lab/config.devCommit`, re-export those files with
    `python -m runner.prompt_segments export` and rewrite their `prompts/...` documents and
-   `lab/config.devCommit`. A try made against older text fails `apply` with a clear reason.
+   `lab/config.devCommit`. Do the same for the assessment lab files since
+   `lab/config-assess.devCommit`, into `prompts-assess/...` and `lab/config-assess.devCommit`,
+   and re-make the fixed assessment score ("Assessments"). A try made against older text fails `apply` with a clear reason.
 
 ## Never
 
 - Merge, close or force-push #2095, #2099 or #2100, or push to `dev`.
 - Commit to `experiment/prompt-lab-2097-base`.
-- Commit a file that is not a lab file.
+- Commit a file that is not a lab file (a lesson lab file, or an assessment lab file for an assessment try).
 - Put any try's text into a shell command.

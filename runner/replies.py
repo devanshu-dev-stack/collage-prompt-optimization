@@ -6,13 +6,14 @@ from pydantic import BaseModel, ValidationError
 
 from runner.api_client import RouteReply
 from runner.errors import RunnerStepError
+from runner.assessment_models import AssessmentStep
 from runner.models import LessonStep
 
 ReplyT = TypeVar("ReplyT", bound=BaseModel)
 SUCCESS_STATUSES = (200, 201)
 
 
-def check_reply(reply: RouteReply, model: type[ReplyT], step: LessonStep, what: str) -> ReplyT:
+def check_reply(reply: RouteReply, model: type[ReplyT], step: LessonStep | AssessmentStep, what: str) -> ReplyT:
     if reply.status_code not in SUCCESS_STATUSES:
         # The body is CollageAI's structured error (message, code, trace id), which helps find the failure in its logs.
         raise RunnerStepError(f"{what} answered with status {reply.status_code}: {reply.body}", step)

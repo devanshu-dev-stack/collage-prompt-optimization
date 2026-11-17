@@ -6,6 +6,7 @@ from typing import Final
 # Repo layout
 TEST_SET_DIR: Final[str] = "test-set"
 CASE_FILE_NAME: Final[str] = "case.yaml"
+ASSESSMENT_FILE_NAME: Final[str] = "assessment.yaml"
 RESULT_FILE_NAME: Final[str] = "result.json"
 DEFAULT_OUTPUT_DIR: Final[str] = "outputs"
 
@@ -46,6 +47,14 @@ LESSON_CONCEPTS_PATH: Final[str] = LESSON_PATH + "/concepts"
 ASSESSMENTS_PATH: Final[str] = "/api/assessments"
 # The lesson page in the browser, from client/src/utils/routes.ts (LESSON_DETAIL).
 LESSON_PAGE_PATH: Final[str] = "/courses/{course_id}/lessons/{lesson_id}"
+# Summatives (assessments), from CollageAI server/api/summative and client/src/utils/routes.ts (SUMMATIVE_EDIT).
+SUMMATIVES_PATH: Final[str] = "/api/summatives"
+SUMMATIVE_UPLOAD_PATH: Final[str] = SUMMATIVES_PATH + "/upload"
+SUMMATIVE_GENERATE_PATH: Final[str] = SUMMATIVES_PATH + "/generate"
+SUMMATIVE_PATH: Final[str] = SUMMATIVES_PATH + "/{summative_id}"
+SUMMATIVE_PAGE_PATH: Final[str] = "/courses/{course_id}/summatives/{summative_id}/edit"
+# CollageAI server/utils/constants.py (MAX_SUMMATIVE_QUESTIONS).
+MAX_SUMMATIVE_QUESTIONS: Final[int] = 30
 
 TEXT_MATERIAL_SOURCE: Final[str] = "text"
 UPLOAD_MATERIAL_SOURCE: Final[str] = "upload"
@@ -143,5 +152,7 @@ LESSON_INDEX_FILE_NAME: Final[str] = "index.json"
 STORED_RESULT_FILE_NAME: Final[str] = "result.json.gz"
 STORED_ANSWER_FILE_NAME: Final[str] = "answer.json"
 STORED_SIDE_FILE_NAME: Final[str] = "side.json"
+# Judged summatives sit in their own folder of the same store, with their own index.
+STORED_ASSESSMENTS_DIR: Final[str] = "assessments"
 # A lesson id is a Mongo id, which is also safe as a folder name.
 LESSON_ID_PATTERN: Final[re.Pattern[str]] = re.compile(r"^[0-9a-f]{24}$")

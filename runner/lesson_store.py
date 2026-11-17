@@ -47,6 +47,23 @@ def _read_index(store: Path) -> LessonIndex:
     return LessonIndex.model_validate_json(path.read_text(encoding="utf-8")) if path.exists() else LessonIndex()
 
 
+def write_item_files(folder: Path, raw_result: bytes, answer_path: Path, side_path: Path) -> None:
+    """One stored item's files: its result (gzip), the judge's answer and the checked side."""
+    folder.mkdir(parents=True, exist_ok=True)
+    # mtime=0 keeps the file the same when the same item is saved again.
+    (folder / STORED_RESULT_FILE_NAME).write_bytes(gzip.compress(raw_result, mtime=0))
+    shutil.copyfile(answer_path, folder / STORED_ANSWER_FILE_NAME)
+    shutil.copyfile(side_path, folder / STORED_SIDE_FILE_NAME)
+
+
+def unpack_item_files(source: Path, target: Path) -> Path:
+    target.mkdir(parents=True, exist_ok=True)
+    (target / RESULT_FILE_NAME).write_bytes(gzip.decompress((source / STORED_RESULT_FILE_NAME).read_bytes()))
+    shutil.copyfile(source / STORED_ANSWER_FILE_NAME, target / STORED_ANSWER_FILE_NAME)
+    shutil.copyfile(source / STORED_SIDE_FILE_NAME, target / STORED_SIDE_FILE_NAME)
+    return target
+
+
 def save_lesson(store: Path, result_path: Path, answer_path: Path, side_path: Path, used_by: list[str]) -> str:
     """Store one judged lesson. Saving it again replaces its judgement and adds to `used_by`."""
     raw = result_path.read_bytes()
@@ -58,12 +75,7 @@ def save_lesson(store: Path, result_path: Path, answer_path: Path, side_path: Pa
     LessonJudgement.model_validate_json(answer_path.read_text(encoding="utf-8"))
     SideJudgement.model_validate_json(side_path.read_text(encoding="utf-8"))
 
-    folder = store / result.lesson_id
-    folder.mkdir(parents=True, exist_ok=True)
-    # mtime=0 keeps the file the same when the same lesson is saved again.
-    (folder / STORED_RESULT_FILE_NAME).write_bytes(gzip.compress(raw, mtime=0))
-    shutil.copyfile(answer_path, folder / STORED_ANSWER_FILE_NAME)
-    shutil.copyfile(side_path, folder / STORED_SIDE_FILE_NAME)
+    write_item_files(store / result.lesson_id, raw, answer_path, side_path)
 
     index = _read_index(store)
     earlier = index.lessons.get(result.lesson_id)
@@ -82,12 +94,7 @@ def get_lesson(store: Path, lesson_url: str, out: Path) -> Path:
     found = [lesson_id for lesson_id, lesson in _read_index(store).lessons.items() if lesson.lesson_url == lesson_url]
     if not found:
         raise ValueError(f"No stored lesson for {lesson_url}.")
-    source, target = store / found[0], out / found[0]
-    target.mkdir(parents=True, exist_ok=True)
-    (target / RESULT_FILE_NAME).write_bytes(gzip.decompress((source / STORED_RESULT_FILE_NAME).read_bytes()))
-    shutil.copyfile(source / STORED_ANSWER_FILE_NAME, target / STORED_ANSWER_FILE_NAME)
-    shutil.copyfile(source / STORED_SIDE_FILE_NAME, target / STORED_SIDE_FILE_NAME)
-    return target
+    return unpack_item_files(store / found[0], out / found[0])
 
 
 def main() -> int:

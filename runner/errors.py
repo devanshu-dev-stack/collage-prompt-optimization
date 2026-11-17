@@ -2,6 +2,7 @@
 
 from typing import Optional
 
+from runner.assessment_models import AssessmentStep
 from runner.models import LessonStep
 
 
@@ -12,6 +13,6 @@ class RunnerInputError(Exception):
 class RunnerStepError(Exception):
     """A call did not answer the way the website expects."""
 
-    def __init__(self, message: str, step: Optional[LessonStep] = None) -> None:
+    def __init__(self, message: str, step: Optional[LessonStep | AssessmentStep] = None) -> None:
         super().__init__(message)
         self.step = step

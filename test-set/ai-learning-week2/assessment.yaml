@@ -1,0 +1,20 @@
+# Fixed settings for this case's assessment: the same objectives and 15-question mix every run,
+# with no custom instructions. The objectives are those of a Current dev lesson made from the
+# same source (dev 1f1038d), so an assessment and a lesson cover the same ground.
+objectives:
+  - "Analyze how multifaceted workplace learning ecosystems—incorporating formal instruction, adaptive platforms, and relational apprenticeships—differentially influence professional skill acquisition and practice."
+  - "Classify artificial intelligence technologies along the spectrum from visible applications (such as conversational tutors and generative tools) to invisible systems (such as automated sorting, choosing, and monitoring) within educational and daily environments."
+  - "Evaluate the reciprocal relationships among sociocultural contexts, brain development, executive function, and motivation across the lifespan based on cognitive and learning sciences research."
+  - "Apply evidence-based pedagogical strategies—including retrieval practice, spaced learning, and multimedia design principles—to structure effective, technology-supported learning environments."
+questions:
+  - {type: multiple_choice, bloom_type: knowledge, quantity: 2}
+  - {type: multiple_choice, bloom_type: comprehension, quantity: 2}
+  - {type: multiple_choice, bloom_type: application, quantity: 2}
+  - {type: multiple_choice, bloom_type: analysis, quantity: 2}
+  - {type: short_answer, bloom_type: comprehension, quantity: 1}
+  - {type: short_answer, bloom_type: application, quantity: 1}
+  - {type: short_answer, bloom_type: analysis, quantity: 1}
+  - {type: fill_in, bloom_type: knowledge, quantity: 1}
+  - {type: fill_in, bloom_type: comprehension, quantity: 1}
+  - {type: open_ended, bloom_type: analysis, quantity: 1}
+  - {type: open_ended, bloom_type: evaluation, quantity: 1}

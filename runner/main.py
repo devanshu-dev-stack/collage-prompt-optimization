@@ -20,7 +20,7 @@ from runner.errors import RunnerInputError, RunnerStepError
 from runner.lesson_flow import run_lesson_case
 from runner.lesson_reader import read_lesson
 from runner.loaders import find_case_dirs, load_case
-from runner.models import LessonCase, LessonRunResult
+from runner.models import LessonCase, LessonRunResult, LessonStep
 from runner.target import Target, resolve_target
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -36,7 +36,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def _teacher_login() -> tuple[str, str]:
+def teacher_login() -> tuple[str, str]:
     email = os.environ.get(TEACHER_EMAIL_ENV, "")
     password = os.environ.get(TEACHER_PASSWORD_ENV, "")
     if not email or not password:
@@ -56,14 +56,14 @@ def _run_one_case(client: CollageClient, target: Target, case_dir: Path, case: L
         read_lesson(client, course_id, lesson_id, result)
         result.finished = True
     except RunnerStepError as error:
-        result.failed_step = error.step
+        result.failed_step = error.step if isinstance(error.step, LessonStep) else None
         result.error = str(error)
     return result
 
 
 def run(args: argparse.Namespace) -> int:
     target = resolve_target(args.target)
-    email, password = _teacher_login()
+    email, password = teacher_login()
     case_dirs = [(REPO_ROOT / c).resolve() for c in args.case] or find_case_dirs(REPO_ROOT)
     cases = [(case_dir, load_case(REPO_ROOT, case_dir)) for case_dir in case_dirs]
     if not cases:

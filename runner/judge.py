@@ -172,7 +172,7 @@ def render_lesson(result: LessonRunResult, images: ImageFiles | None = None) -> 
     return "\n".join(lines)
 
 
-def _labeled_sources(case_dir: Path, case: LessonCase) -> str:
+def labeled_sources(case_dir: Path, case: LessonCase) -> str:
     """Each uploaded source under its own name. A long one is named with the path of its text, to search."""
     blocks: list[str] = []
     for name in case.source_files:
@@ -239,7 +239,7 @@ def build_prompt(result: LessonRunResult, case_dir: Path | None = None,
     config = config or ChecksConfig()
     extra = config.checks
     case = load_case(REPO_ROOT, case_dir) if case_dir else None
-    source = _labeled_sources(case_dir, case) if case_dir and case and case.source_files else _field(result.lesson, "sourceContent") or ""
+    source = labeled_sources(case_dir, case) if case_dir and case and case.source_files else _field(result.lesson, "sourceContent") or ""
     custom = _field(result.lesson, "customInstructions") or "(none)"
     # The answer format lists the allowed check ids, so the judge cannot answer with a check's display name.
     schema_dict = LessonJudgement.model_json_schema()
