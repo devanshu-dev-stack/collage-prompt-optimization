@@ -14,7 +14,10 @@ the fixed scores of Current dev and Megan's PR (RELAY.md, "Fixed scores").
   quiz questions, answers, feedback, table cells, graph values, mind-map links), then any
   end-of-lesson quiz.
 - Each image as a file. Open an image with Read when a check depends on what it shows, for
-  example whether a visual fits the explanation around it or contradicts the source.
+  example whether a visual fits the explanation around it or contradicts the source. Open at
+  most 8 images per lesson, as each one costs many tokens: pick the diagrams, graphs and
+  images that an explanation or a question depends on, and judge the rest from where they
+  sit and the words around them.
 
 ## Checks
 

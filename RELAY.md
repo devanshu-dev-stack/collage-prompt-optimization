@@ -60,7 +60,9 @@ is judged, so later changes to the fixed scores never change an older try).
 ### Fixed scores
 
 Current dev and Megan's PR each have a fixed score: 3 lessons per test case made once with
-that version's prompts (dev, and #2100 for Megan's PR), each judged, kept together:
+that version's prompts (dev, and #2100 for Megan's PR), each judged, kept together. Make
+exactly 3 per test case, and another only to replace one that failed: each judged lesson
+costs about 250,000 tokens.
 
 1. Make the lessons one or two at a time (a preview drops connections under more load):
    `python -m runner --target dev --run-name dev-<n>` or `--target pr-2100 --run-name megan-<n>`.
@@ -144,8 +146,10 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
    `python -m runner.judge prompt --result <file> --case-dir <case folder> --checks <checks.json> --out <prompt.md>`
    (without `--case-dir` the prompt has no source material)
    (with no changed, removed or extra checks the prompt is the same as without `--checks`), then start one judge agent per
-   lesson, all at once. Give each the same short brief: read the whole prompt file, follow
-   it exactly, write one JSON answer to a given path, change nothing else. Check each answer
+   lesson, all at once, on the session's own model: a test of a smaller model (Sonnet, 4 lessons,
+   2026-11-17) missed 10 of 12 factual errors, so judges never run on a smaller model. Give each
+   the same short brief: read the whole prompt file, follow it exactly, open at most 8 images,
+   write one JSON answer to a given path, change nothing else. Check each answer
    with `python -m runner.judge check --result <result.json> --checks <checks.json>`, then
    `python -m runner.baseline --base <the try's base> --commit <the try's commit> --run
    <result.json> <side.json>` (once per lesson) to group them, and write
@@ -252,16 +256,18 @@ server/agents/prompts/enums/exercise_difficulty_instructions.py   (#2097 version
      current fixed scores have such lessons, re-make them from new lessons instead.
    - **New check, or new wording for an extra check:** a second pass on the same stored lessons,
      only for those checks: `python -m runner.judge prompt --result <result.json> --case-dir
-     <case folder> --checks <checks.json> --only-extra --only <ids>`, one judge agent each,
+     <case folder> --checks <checks.json> --only-extra --only <ids>`, one judge agent each
+     (told not to open images unless one of those checks is about visuals),
      then `python -m runner.judge merge --side <its side.json> --judgement <answer> --result
      <result.json> --checks <checks.json> --only <ids>` (the merged side keeps the other
      answers). Save each lesson again with its stored answer and the merged side. For a new check, do it for the lessons of the current fixed scores, rebuild each
      baseline with `python -m runner.baseline`, save it under a new id ending in
      `-c<revision>` and point `baselineId` at it. A page document holds at most 256 KB, so
      the page copy of a fixed score has no examples, and its teaching problems keep only
-     `check`, `location` and a `reason` cut to 160 characters (the full copy stays local); older tries keep "-" for the new check. For
-     reworded extra checks, do it for every lesson that was judged on them and write each
-     document back as above, same ids.
+     `check`, `location` and a `reason` cut to 160 characters (100 when still too big; the full copy
+     stays local); older tries keep "-" for the new check. Do the same for reworded extra
+     checks: only the lessons of the current fixed scores, saved under new `-c<revision>` ids.
+     Older tries keep the old wording, and so do the fixed scores they were compared with.
 5. **Keep the page's prompts current.** Only the Live prompts version follows dev. If
    `origin/dev` changed any lab file since
    `lab/config.devCommit`, re-export those files with
