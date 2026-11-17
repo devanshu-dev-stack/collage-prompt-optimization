@@ -1,0 +1,52 @@
+{
+  "assessments": {
+    "6afc850c13ea77f7e76052c4": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afc850c13ea77f7e76052c4/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:27.609189+00:00"
+    },
+    "6afc857d13ea77f7e7605460": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afc857d13ea77f7e7605460/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:27.783140+00:00"
+    },
+    "6afc87f313ea77f7e76054bd": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afc87f313ea77f7e76054bd/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:27.957051+00:00"
+    },
+    "6afc88a513ea77f7e7605522": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afc88a513ea77f7e7605522/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:28.136925+00:00"
+    },
+    "6afc88f413ea77f7e760556c": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afc88f413ea77f7e760556c/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:28.308178+00:00"
+    },
+    "6afc89b98284839c55a53988": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afc89b98284839c55a53988/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-34fb192"
+      ],
+      "saved_at": "2026-11-17T17:16:28.472080+00:00"
+    }
+  }
+}

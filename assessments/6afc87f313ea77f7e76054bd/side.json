@@ -1,0 +1,164 @@
+{
+  "problem_counts": {
+    "a1": 1,
+    "a2": 0,
+    "a3": 2,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 0,
+    "a8": 0,
+    "a9": 0,
+    "a10": 1,
+    "q1": 0,
+    "q2": 2,
+    "q3": 0,
+    "q4": 2,
+    "q5": 1,
+    "q6": 0,
+    "q7": 1,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 0,
+    "q15": 2,
+    "q16": 0,
+    "q17": 1,
+    "q18": 0,
+    "q19": 0,
+    "q20": 0,
+    "q21": 0
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 49,
+  "score": 67,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Pure substances that are comprised of two or more elements are called compounds.",
+      "reason": "The first objective asks students to classify matter as elements, compounds or mixtures by physical state, composition and atomic structure, but only Question 11 touches it (mixtures only), so classifying elements versus compounds and using physical states or atoms and molecules is never assessed."
+    },
+    {
+      "check": "a3",
+      "location": "Questions 2 and 3",
+      "assessment_text": "How should the written equation be classified within the domains of chemistry?",
+      "source_text": "Provide examples illustrating macroscopic, microscopic, and symbolic domains",
+      "reason": "Question 2 (laws versus theories and hypotheses) and Question 3 (domains of chemistry) test section 1.1 goals that none of the five learning objectives covers, so two of the fifteen questions fall outside what the assessment was asked to cover."
+    },
+    {
+      "check": "a3",
+      "location": "Question 15",
+      "assessment_text": "Compares sources of systematic and random error in both methods",
+      "source_text": "not in source",
+      "reason": "Systematic and random error, volumetric flasks and analytical balances never appear in the source, yet 25% of the grade and the comparison of the two setups depend on knowing them."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 4 and 13",
+      "assessment_text": "Recall the difference between intensive properties (independent of amount) and extensive properties (dependent on amount).",
+      "source_text": "not about the source",
+      "reason": "Question 4's feedback, and its correct option calling the size-independent density intensive, give away the blank in Question 13, which asks for the term for a property that depends on the amount of matter."
+    },
+    {
+      "check": "q17",
+      "location": "Question 1",
+      "assessment_text": "pound",
+      "source_text": "not about the source",
+      "reason": "The pound is not a metric unit and the milligram is an unlikely choice for a base unit, so only the gram is a real trap and the item gives little evidence beyond a 50-50 guess."
+    },
+    {
+      "check": "q15",
+      "location": "Question 4",
+      "assessment_text": "The larger sample has a higher temperature because it contains more matter",
+      "source_text": "not about the source",
+      "reason": "The stem says both samples are at 25 °C, so this option contradicts the given facts and can be dropped without any knowledge of intensive and extensive properties."
+    },
+    {
+      "check": "q2",
+      "location": "Question 7",
+      "assessment_text": "Adding nitric acid to copper producing brown gas because new matter forms",
+      "source_text": "A chemical change always produces one or more types of matter that differ from the matter present before the change.",
+      "reason": "The correct option restates the textbook definition (\"new matter forms\") and repeats the textbook's own example of copper reacting with nitric acid, so students can pick it by recognizing that wording instead of analyzing the four scenarios, as an analysis-level item should require."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "Accurate but imprecise because the average value matches the standard accepted density",
+      "source_text": "not about the source",
+      "reason": "The four values sit close together near 2.11 g/cm3, far from 2.70 g/cm3, so both halves of this option visibly contradict the data and it reveals no misconception about accuracy or precision."
+    },
+    {
+      "check": "q2",
+      "location": "Question 11",
+      "assessment_text": "Explain why a mixture of oil and vinegar is classified as a heterogeneous mixture, whereas a sports drink is classified as a homogeneous mixture.",
+      "source_text": "Oil and vinegar salad dressing is a heterogeneous mixture because its composition is not uniform throughout.",
+      "reason": "The two examples and their classifications come straight from the Figure 1.10 caption, so students can answer this analysis-level item by reciting the caption without classifying anything new."
+    },
+    {
+      "check": "q4",
+      "location": "Question 14",
+      "assessment_text": "Analyze the multi-step dimensional analysis strategy required for this conversion, identifying each necessary unit conversion factor and showing how units cancel at each stage.",
+      "source_text": "not about the source",
+      "reason": "The task asks only for the conversion factors and how the units cancel, yet 35% of the grade goes to the final value of 29.1 m/s and its significant figures, so students cannot tell they must compute and round an answer."
+    },
+    {
+      "check": "q7",
+      "location": "Question 14",
+      "assessment_text": "Applies significant figure rules correctly throughout the calculation steps",
+      "source_text": "1 mi = 1609.3 m",
+      "reason": "Read as rounding each step to three significant figures, 65.0 x 1609.3 m = 1.05 x 10^5 m/h gives 29.2 m/s, which conflicts with the 29.1 m/s the key expects, because that answer needs rounding only at the end."
+    },
+    {
+      "check": "q4",
+      "location": "Question 15",
+      "assessment_text": "Recommends an optimized experimental procedure combining high-precision equipment with replicated trials",
+      "source_text": "not about the source",
+      "reason": "The question asks only to evaluate advantages and disadvantages, but 15% of the grade goes to a recommended procedure that students are never asked to give."
+    },
+    {
+      "check": "q5",
+      "location": "Question 15",
+      "assessment_text": "Student B uses a graduated cylinder to measure five separate $10.0\\text{ mL}$ samples.",
+      "source_text": "not about the source",
+      "reason": "Student A uses an analytical balance but Student B's way of measuring mass is never given, so students cannot fairly compare the accuracy and uncertainty of the two density results."
+    }
+  ]
+}

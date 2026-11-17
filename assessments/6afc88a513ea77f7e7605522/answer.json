@@ -1,0 +1,123 @@
+{
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "We’ve ordered these roughly from most visible to least. At the top, you choose to use the AI, and by the bottom, you mostly just encounter its decisions.",
+      "reason": "The objective to classify AI technologies along the visible-to-invisible spectrum is never really assessed: no item gives a technology to classify or asks where something sits on the spectrum, since Question 4 only contrasts two category definitions and Question 15 takes the classification as given."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Stereotype threat is believed to undermine performance by lowering executive functioning and heightening anxiety and worry about what others will think if the individual fails",
+      "reason": "The objective to evaluate the reciprocal relationships among sociocultural context, brain development, executive function and motivation is not assessed: executive function never appears, and Questions 6, 8, 11, 12 and 13 each test one isolated fact rather than how these factors affect one another."
+    },
+    {
+      "check": "a4",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "not about the source",
+      "reason": "The requested mix is mostly comprehension, application, analysis and evaluation, yet about ten of fifteen items (Questions 1-4 and 8-13) can be answered by recalling a definition or a near-verbatim source phrase, including items meant to be analysis (Questions 8 and 11) and application (Question 10)."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 2 and 10",
+      "assessment_text": "Cues highlighting essential material organization should be added to visual lessons.",
+      "source_text": "Signaling Principle. People learn better when cues that highlight the organization of the essential material are added.",
+      "reason": "Question 2's distractor A states the Signaling Principle almost word for word, which is exactly the design adjustment Question 10 asks students to produce."
+    },
+    {
+      "check": "q18",
+      "location": "Question 1",
+      "assessment_text": "Relational learning",
+      "source_text": "not about the source",
+      "reason": "Only the keyed option adds the word 'learning' (echoing 'learning through interactions' in the stem) while the others are bare labels such as 'Community-based', so the choices are not parallel and the key stands out."
+    },
+    {
+      "check": "q19",
+      "location": "Question 3",
+      "assessment_text": "Newcomers start at the edges and move toward full community participation.",
+      "source_text": "not about the source",
+      "reason": "The stem already says participation is the core mechanism of learning and names 'peripheral participation', and every distractor denies or delays participation, so the key can be picked by matching the stem rather than understanding the idea."
+    },
+    {
+      "check": "q19",
+      "location": "Question 4",
+      "assessment_text": "Agents execute goal-directed multi-step tasks, whereas Choosing systems select displayed items.",
+      "source_text": "not about the source",
+      "reason": "All three distractors use absolute words ('every step', 'exclusively', 'complete user visibility', 'hide all output results') while the key has none, so a test-wise student can pick it without knowing the taxonomy."
+    },
+    {
+      "check": "q17",
+      "location": "Question 6",
+      "assessment_text": "Lower academic grading standards specifically for stereotyped student groups.",
+      "source_text": "not about the source",
+      "reason": "Options A (publicly posting performance ranks) and D (lowering grading standards for one group) are plainly harmful and easy to dismiss, so only B (praising innate ability) reflects a real misconception."
+    },
+    {
+      "check": "q19",
+      "location": "Question 7",
+      "assessment_text": "Case C embeds learning directly into work practice through social relationships and shadowing.",
+      "source_text": "not about the source",
+      "reason": "The stem already describes Case C as 'peer networking and project lead shadowing', and the key is the only option that repeats 'shadowing' and the social relationships, so it can be chosen by word matching."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "Brain volume increases continuously without any reduction in synaptic density throughout life.",
+      "source_text": "not about the source",
+      "reason": "B contradicts the cortical thinning stated in the stem, D ('Unused neurons multiply rapidly') is invented, and A does not explain the improved efficiency the stem asks to reconcile, so C is the only option that answers the question asked."
+    },
+    {
+      "check": "q13",
+      "location": "Question 9",
+      "assessment_text": "Near transfer involves applying a learned skill in a context very similar to the original training environment.",
+      "source_text": "Near transfer is using a skill learned in training at another time, outside of the training environment. Far transfer is using a trained skill in combination with other elements and/or at a time distant from training.",
+      "reason": "The model answer frames the distinction by context similarity and 'underlying general principles', which the source does not teach, and omits the source's 'in combination with other elements', so a student giving the taught definition could be marked down."
+    },
+    {
+      "check": "q2",
+      "location": "Question 10",
+      "assessment_text": "A teacher wants to apply the **Signaling Principle** from Mayer's multimedia learning framework to a complex online lesson slide.",
+      "source_text": "not about the source",
+      "reason": "The principle's name already tells students to add signals or cues, and no actual slide content is given to apply it to, so the application item only checks recall of a definition."
+    },
+    {
+      "check": "q19",
+      "location": "Question 12",
+      "assessment_text": "to reconstitute a complete memory representation is known as pattern ____.",
+      "source_text": "not about the source",
+      "reason": "The word 'complete' just before 'pattern ____' points straight to 'completion', so the blank can be filled without knowing the term."
+    },
+    {
+      "check": "q1",
+      "location": "Question 12",
+      "assessment_text": "The process by which a partial or degraded memory cue triggers an individual to use prior knowledge to reconstitute a complete memory representation is known as pattern ____.",
+      "source_text": "Another possible explanation is that older adults have a bias toward pattern completion",
+      "reason": "The item asks for a single technical term from one passing explanation of older adults' memory, not an important concept or relationship from the lifespan objective."
+    },
+    {
+      "check": "q14",
+      "location": "Question 13",
+      "assessment_text": "In the cultural modeling approach, teachers view students' out-of-school cultural practices as valuable ____ rather than deficits to be remediated.",
+      "source_text": "One way to integrate culture as a resource is the cultural modeling approach to classroom instruction",
+      "reason": "'Resources' (the source's own word for cultural modeling) or 'strengths' fit the blank as well as 'assets', but only 'assets' is keyed."
+    },
+    {
+      "check": "q4",
+      "location": "Question 14",
+      "assessment_text": "Evaluates potential organizational challenges or constraints in implementing a multi-touchpoint learning ecosystem.",
+      "source_text": "not about the source",
+      "reason": "The question never asks students to discuss implementation challenges or constraints, so students cannot tell that 15% of the grade depends on it."
+    },
+    {
+      "check": "q4",
+      "location": "Question 15",
+      "assessment_text": "Demonstrates critical synthesis of learning science principles regarding learner autonomy and environmental influences.",
+      "source_text": "not about the source",
+      "reason": "The question asks only for risks, benefits and guidelines, so students cannot tell that 20% of the grade depends on synthesizing learning science principles about autonomy and environment."
+    }
+  ]
+}

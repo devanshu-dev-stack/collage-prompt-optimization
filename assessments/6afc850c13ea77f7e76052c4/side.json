@@ -1,0 +1,157 @@
+{
+  "problem_counts": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 0,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 1,
+    "a8": 0,
+    "a9": 0,
+    "a10": 1,
+    "q1": 1,
+    "q2": 0,
+    "q3": 0,
+    "q4": 0,
+    "q5": 0,
+    "q6": 0,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 0,
+    "q15": 1,
+    "q16": 0,
+    "q17": 1,
+    "q18": 1,
+    "q19": 2,
+    "q20": 0,
+    "q21": 1
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 42,
+  "score": 72,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "A ratio of two equivalent quantities expressed with different measurement units can be used as a unit conversion factor.",
+      "reason": "The objective on multi-step calculations with dimensional analysis and SI unit conversion factors is never assessed: no question asks students to convert a unit or chain conversion factors, and the only calculations (Questions 5, 6, 10, 14) are single-step."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "equations for converting between the kelvin and Celsius temperature scales are derived to be",
+      "reason": "The temperature objective names the Kelvin scale, but no question converts to or from kelvin; Question 6 only converts Fahrenheit to Celsius and Question 1 only asks for the name of the SI unit."
+    },
+    {
+      "check": "a2",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Classify matter as an element, compound, homogeneous mixture, or heterogeneous mixture",
+      "reason": "Accuracy versus precision gets three questions (7, 11, 14) and the domains of chemistry get two (2, 12), while classifying matter gets only Question 4 (a heterogeneous mixture only) and physical versus chemical and extensive versus intensive properties get only Question 3 (already labeled physical) and the definition recall in Question 13."
+    },
+    {
+      "check": "a7",
+      "location": "Questions 7 and 11",
+      "assessment_text": "Analyze these results in terms of accuracy and precision.",
+      "source_text": "Precise values agree with each other; accurate values agree with a true value.",
+      "reason": "Both questions give three tightly grouped readings far from a stated true value and ask for the same verdict, precise but not accurate, so the second adds no new evidence of understanding."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 2 and 12",
+      "assessment_text": "the macroscopic, microscopic, and ____ domains",
+      "source_text": "not about the source",
+      "reason": "Question 2 offers \"the symbolic domain\" as the answer for symbols and formulas, which gives away the blank in Question 12, and Question 12 in turn names the other two domains, which settles Question 2."
+    },
+    {
+      "check": "q21",
+      "location": "Question 2",
+      "assessment_text": "the submicroscopic scale domain",
+      "source_text": "Chemists study and describe the behavior of matter and energy in three different domains: macroscopic, microscopic, and symbolic.",
+      "reason": "Options B \"the submicroscopic scale domain\" and D \"atomic realm\" both describe the particle-level world that the source calls the microscopic domain, so they overlap and a student can drop both together."
+    },
+    {
+      "check": "q18",
+      "location": "Question 2",
+      "assessment_text": "atomic realm",
+      "source_text": "not about the source",
+      "reason": "Option D drops the article and the word \"domain\" that the other three options use, so it stands out as not one of the named domains."
+    },
+    {
+      "check": "q15",
+      "location": "Question 4",
+      "assessment_text": "A homogeneous mixture, because all liquids are completely miscible with spices",
+      "source_text": "It is not the same from point to point throughout the mixture",
+      "reason": "The stem already calls it \"this mixture\" that \"separates into visible layers\", so A (a pure compound), B (an element \"derived directly from natural plants\") and D (a homogeneous mixture) are contradicted by the stem and can be dropped without knowing the classification rules."
+    },
+    {
+      "check": "q19",
+      "location": "Question 6",
+      "assessment_text": "220 °C from correct formula",
+      "source_text": "not about the source",
+      "reason": "The correct option is labeled \"from correct formula\" and each distractor names its own mistake, so students can pick the answer without doing the conversion."
+    },
+    {
+      "check": "q19",
+      "location": "Question 8",
+      "assessment_text": "The combined mass of reactants equals the total mass of products formed",
+      "source_text": "not about the source",
+      "reason": "The correct option repeats the stem's own statement that \"the combined mass of the liquid droplets and oxygen gas equals the mass of the original powder\", so it can be matched by wording rather than by knowing the law of conservation of matter."
+    },
+    {
+      "check": "q17",
+      "location": "Question 8",
+      "assessment_text": "The gas released carries negative mass because open heating reduces total measured sample weight",
+      "source_text": "not about the source",
+      "reason": "Only B (calling the powder an element) reflects a real misconception; C (heat \"created new matter\") and D (\"negative mass\", \"open heating\" in a closed tube) are filler that students dismiss at once."
+    },
+    {
+      "check": "q1",
+      "location": "Question 15",
+      "assessment_text": "Evaluate the use of hydrogen gas in fuel-cell vehicles (FCVs) as an alternative to petroleum gasoline in internal combustion engines.",
+      "source_text": "FCVs are not yet economically viable, however, and current hydrogen production depends on natural gas.",
+      "reason": "The only evaluation-level question is spent on a short \"Chemistry in Everyday Life\" side box that serves none of the learning objectives, and its parts mostly ask students to restate that box."
+    }
+  ]
+}

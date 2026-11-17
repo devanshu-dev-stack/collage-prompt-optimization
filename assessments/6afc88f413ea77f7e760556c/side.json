@@ -1,0 +1,143 @@
+{
+  "problem_counts": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 0,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 0,
+    "a8": 0,
+    "a9": 0,
+    "a10": 1,
+    "q1": 0,
+    "q2": 2,
+    "q3": 0,
+    "q4": 0,
+    "q5": 0,
+    "q6": 2,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 1,
+    "q14": 0,
+    "q15": 0,
+    "q16": 1,
+    "q17": 0,
+    "q18": 0,
+    "q19": 0,
+    "q20": 0,
+    "q21": 0
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 42,
+  "score": 72,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "The ability to change from one type of matter into another (or the inability to change) is a chemical property.",
+      "reason": "No question asks students to tell physical properties from chemical properties or physical changes from chemical changes, so half of the second objective (Section 1.3) has no evidence at all."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "Using the conversion factor $1\\text{ km} = 0.62137\\text{ mi}$, calculate this distance in miles",
+      "source_text": "This method can be applied to computations ranging from simple unit conversions to more complex, multi-step calculations involving several different quantities.",
+      "reason": "The objective asks for multi-step calculations with dimensional analysis, but the only unit-conversion item (Question 10) is one multiplication with the single conversion factor handed to the student, so setting up and chaining conversion factors is never assessed."
+    },
+    {
+      "check": "a2",
+      "location": "Questions 2, 3, 4, 5, 11 and 13",
+      "assessment_text": "",
+      "source_text": "A mixture with a composition that varies from point to point is called a heterogeneous mixture.",
+      "reason": "Density is the focus of Questions 4, 5 and 11, and Questions 2, 3 and 13 spend three items on the domains of chemistry and the scientific method, which are not among the listed objectives, while classifying matter gets only Question 8 and homogeneous versus heterogeneous mixtures are never the answer to any question."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 4 and 11",
+      "assessment_text": "Both mass and volume are extensive properties that change when the size of a sample changes. Explain why their ratio, density, is an intensive property.",
+      "source_text": "not about the source",
+      "reason": "Question 11's stem states outright that density is an intensive property, which is exactly the fact a student needs to pick option D in Question 4."
+    },
+    {
+      "check": "q13",
+      "location": "Question 5",
+      "assessment_text": "$7.87\\text{ g/mL}$, calculated by dividing total mass by the displaced water volume of $4.0\\text{ mL}$",
+      "source_text": "(rounded to two significant figures, per the rule for multiplication and division)",
+      "reason": "The volume 4.0 mL has only two significant figures, so by the taught division rule (and the source's own water-displacement example) the density should be 7.9 g/mL; the keyed 7.87 g/mL is too precise and no option shows the correctly rounded value."
+    },
+    {
+      "check": "q16",
+      "location": "Question 7",
+      "assessment_text": "$127\\text{ g}$, because the measurement with the fewest significant figures contains four digits",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the least number of significant figures",
+      "reason": "Option A does not match the error it names, because a student who wrongly used the four-significant-figure count would write 127.1 g, not 127 g, and option D's 'middle measurement' rule reflects no real student error, so neither choice tells the teacher what the student misunderstood."
+    },
+    {
+      "check": "q6",
+      "location": "Question 10",
+      "assessment_text": "report the answer to four significant figures",
+      "source_text": "In cases where only the decimal-formatted number is available, it is prudent to assume that all trailing zeros are not significant.",
+      "reason": "By the source's own rule the trailing zero in 1250 km is not significant (three significant figures, like its '1300 km (two significant digits)' example), so demanding a four-significant-figure answer of 776.7 mi models false precision in an assessment that is testing significant figures."
+    },
+    {
+      "check": "q2",
+      "location": "Question 13",
+      "assessment_text": "A tentative explanation of observations that acts as a guide for gathering and checking information is called a ____.",
+      "source_text": "Some routes involve a hypothesis, a tentative explanation of observations that acts as a guide for gathering and checking information.",
+      "reason": "The stem copies the textbook's definition sentence word for word, so students can fill the blank by matching the memorized phrase without showing they understand what a hypothesis is, even though one fill-in item was meant to be at the comprehension level."
+    },
+    {
+      "check": "q2",
+      "location": "Question 14",
+      "assessment_text": "Dispenser A dispenses $283.3\\text{ mL}$, $284.1\\text{ mL}$, and $283.9\\text{ mL}$.",
+      "source_text": "she will report that dispenser #1 is precise (values all close to one another, within a few tenths of a milliliter) but not accurate",
+      "reason": "The dispenser readings and the 296 mL target are lifted from the textbook's worked example, which already states which dispenser is precise, accurate or both, so students can recall that conclusion instead of analyzing the data as the analysis-level item intends."
+    },
+    {
+      "check": "q6",
+      "location": "Question 15",
+      "assessment_text": "A student heats $200.0\\text{ g}$ of glucose during fermentation in an open flask and finds that the remaining liquid weighs less than $200.0\\text{ g}$.",
+      "source_text": "Yeast converts glucose to ethanol and carbon dioxide during anaerobic fermentation",
+      "reason": "Fermentation is done by yeast in a sugar solution, not by heating 200.0 g of glucose (a solid), so comparing the 'remaining liquid' with 200.0 g makes no sense, and heating an open flask would also drive off water and ethanol vapor, which the grading criteria give no credit for."
+    }
+  ]
+}

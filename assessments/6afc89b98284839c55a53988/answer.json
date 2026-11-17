@@ -1,0 +1,109 @@
+{
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Newcomers start at the edges and move toward the centre of a community. That movement is the learning, not preparation for it.",
+      "reason": "The second of the three situated-learning ideas, that participation in a community is itself the learning, is never assessed, although Question 1 covers the first idea and Question 7 the third."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Every learner draws on a whole ecosystem: formal, self-paced, outside, community, relational and work-based. The connections matter as much as any one source.",
+      "reason": "No question asks students to map or analyze a learner's ecosystem across the six touchpoints or to judge how the connections between sources shape learning (the core activity with Priya's cases), so this central part of the first objective has no evidence."
+    },
+    {
+      "check": "a4",
+      "location": "Questions 1, 2, 3, 5, 7, 9, 12 and 13",
+      "assessment_text": "",
+      "source_text": "not about the source",
+      "reason": "Eight of the fifteen questions, including Questions 5 and 7 that were asked for at the application and analysis levels, can be answered by recalling a definition, a list position or a slide phrase, although the objectives ask students to analyze, classify, evaluate and apply."
+    },
+    {
+      "check": "a7",
+      "location": "Questions 9, 11 and 14",
+      "assessment_text": "Describes the interaction between executive function and motivation in self-regulated learning",
+      "source_text": "not about the source",
+      "reason": "Question 14 asks again for how executive function supports self-regulated learning (Question 9) and how sociocultural context shapes motivation across the lifespan (Question 11), so three items test the same ideas in the same way."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 7 and 12",
+      "assessment_text": "Relational apprenticeship, because it enables learning through observation and coaching",
+      "source_text": "not about the source",
+      "reason": "Question 7's keyed option links relational learning to apprenticeship through observation and coaching, which hands students the keyed blank answer \"apprenticeships\" for Question 12."
+    },
+    {
+      "check": "q15",
+      "location": "Question 1",
+      "assessment_text": "Learning exclusively through digital platforms and online modules",
+      "source_text": "We learn through real tasks, tools and people, not abstracted simulations.",
+      "reason": "The distractors (abstract learning apart from the real world, rote memorizing, learning only through digital platforms) are plainly unrelated to the everyday meaning of \"situated\", so students can rule them out without knowing the idea."
+    },
+    {
+      "check": "q17",
+      "location": "Question 2",
+      "assessment_text": "Image generator",
+      "source_text": "We’ve ordered these roughly from most visible to least.",
+      "reason": "\"Image generator\" (Making) and \"Chatbot tutor\" (Talking) sit at the most visible end of the spectrum and are easy to dismiss, leaving \"Recommendation system\" as the only plausible distractor."
+    },
+    {
+      "check": "q19",
+      "location": "Question 3",
+      "assessment_text": "Attending a required onboarding bootcamp",
+      "source_text": "Onboarding, certification, bootcamps",
+      "reason": "The stem's scenario is about \"employee onboarding\" and the touchpoint is called \"Required formal\", and only the keyed option repeats both \"required\" and \"onboarding\", so the answer can be matched by wording."
+    },
+    {
+      "check": "q4",
+      "location": "Question 6",
+      "assessment_text": "A learning designer is choosing between two multimedia lesson formats.",
+      "source_text": "not about the source",
+      "reason": "The stem says the designer is choosing between two formats but then gives four options, so students cannot tell which two formats are being compared."
+    },
+    {
+      "check": "q15",
+      "location": "Question 7",
+      "assessment_text": "Self-paced online modules, because they allow independent exploration of materials",
+      "source_text": "not about the source",
+      "reason": "The stem limits the choice to three named ecosystems, so this fourth option that is not among them can be eliminated without any understanding of tacit knowledge."
+    },
+    {
+      "check": "q19",
+      "location": "Question 8",
+      "assessment_text": "How do these tools affect students' sense of autonomy and data privacy?",
+      "source_text": "not about the source",
+      "reason": "The stem already says the district is evaluating impact \"on student privacy and agency\", and only the keyed option repeats privacy and agency (autonomy), so it can be picked by overlap with the stem."
+    },
+    {
+      "check": "q14",
+      "location": "Question 8",
+      "assessment_text": "How often do monitoring alerts trigger false positives in the system?",
+      "source_text": "Ask your school what its monitoring software flags, who sees the list, and how long it’s kept.",
+      "reason": "The source's own advice is to ask what monitoring software flags, and wrongly flagged students directly affect privacy and agency, so this option is also a defensible \"most critical\" question."
+    },
+    {
+      "check": "q14",
+      "location": "Question 12",
+      "assessment_text": "In a workplace learning ecosystem, relational knowledge is often transferred through ____ such as mentorship and shadowing.",
+      "source_text": "People leads, mentors, buddies, managers",
+      "reason": "Many answers fit the blank (relationships, people, experienced others, mentors, social interaction), and the source never calls this channel \"apprenticeships\" and lists shadowing under Work-based, not Relational, so the single keyed word is not the unique answer."
+    },
+    {
+      "check": "q2",
+      "location": "Question 13",
+      "assessment_text": "people learn better when extraneous words, pictures, and sounds are ____.",
+      "source_text": "People learn better when extraneous words, pictures, and sounds are excluded rather than included.",
+      "reason": "The stem copies the coherence principle word for word and the word \"extraneous\" makes \"excluded\" guessable by common sense, so it does not test understanding of the principle (asked for at the comprehension level)."
+    },
+    {
+      "check": "q9",
+      "location": "Question 14",
+      "assessment_text": "Analyze the reciprocal relationships among sociocultural context, brain development, executive function, and motivation as described in the learning sciences literature.",
+      "source_text": "not about the source",
+      "reason": "One answer must cover the two-way links among four broad constructs and how they change across the whole lifespan, so a weak response does not show which of these ideas the student misunderstood."
+    }
+  ]
+}

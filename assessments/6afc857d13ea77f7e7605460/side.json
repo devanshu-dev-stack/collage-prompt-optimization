@@ -1,0 +1,157 @@
+{
+  "problem_counts": {
+    "a1": 1,
+    "a2": 0,
+    "a3": 0,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 0,
+    "a8": 0,
+    "a9": 0,
+    "a10": 1,
+    "q1": 0,
+    "q2": 1,
+    "q3": 0,
+    "q4": 1,
+    "q5": 0,
+    "q6": 0,
+    "q7": 1,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 0,
+    "q15": 2,
+    "q16": 0,
+    "q17": 2,
+    "q18": 1,
+    "q19": 2,
+    "q20": 0,
+    "q21": 0
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 40,
+  "score": 73,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Some forms of AI are easier to spot than others.",
+      "reason": "The objective asks students to classify AI along the spectrum from visible to invisible, but no question asks where any AI sits on that spectrum or why it matters; Questions 2 and 13 only ask students to name a category from its definition."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 3 and 12",
+      "assessment_text": "learning in situated contexts occurs as newcomers move from the edges toward the centre of a community",
+      "source_text": "Learning is situated",
+      "reason": "Question 12 tells students that learning with others in a real community is called situated learning, which points straight to the key \"Situated cognition\" in Question 3."
+    },
+    {
+      "check": "q18",
+      "location": "Question 1",
+      "assessment_text": "B. Community-based",
+      "source_text": "not about the source",
+      "reason": "Every distractor ends in \"learning\" (\"Relational learning\", \"Work-based learning\", \"Self-paced learning\") but the correct option does not, so it stands out from the others."
+    },
+    {
+      "check": "q19",
+      "location": "Question 2",
+      "assessment_text": "B. Autonomous agents completing multi-step task workflows",
+      "source_text": "Takes a goal and handles the steps for you.",
+      "reason": "Only the key repeats the stem's idea of \"handling all intermediate execution steps\" (\"multi-step\"), so students can match the wording without knowing the Agents category."
+    },
+    {
+      "check": "q19",
+      "location": "Question 3",
+      "assessment_text": "D. Situated cognition, because knowing is inseparable from authentic functional contexts",
+      "source_text": "Knowing is inseparable",
+      "reason": "The key is the only option that repeats the stem's word \"authentic\" (\"authentic tasks alongside senior staff\"), so it can be picked by word matching."
+    },
+    {
+      "check": "q17",
+      "location": "Question 3",
+      "assessment_text": "C. Unassisted discovery, because unguided exploration yields deeper conceptual mastery overall",
+      "source_text": "not about the source",
+      "reason": "Option C (\"unguided\") clashes with the stem's \"alongside senior staff\" and option B (\"interactive software platforms\") clashes with the move away from simulation modules, so only option A is a reasonable wrong answer."
+    },
+    {
+      "check": "q17",
+      "location": "Question 4",
+      "assessment_text": "B. Highly emotional memories remain permanently unaltered regardless of repeated retrieval context",
+      "source_text": "Reconstructive processes are at work even when a person remembers",
+      "reason": "Options B and D say memories or cues stay fixed, which goes against the stem's own premise that memory does not store exact copies, so only option C is a plausible misconception."
+    },
+    {
+      "check": "q15",
+      "location": "Question 7",
+      "assessment_text": "A. Case C isolates learning as pre-project preparation rather than embedded active practice",
+      "source_text": "not about the source",
+      "reason": "The stem itself lists what Case C provides (\"a project lead, peer network, shadowing, and shared past work\"), so options A, B and D, which describe Cases A and B, can be ruled out by rereading the stem without any analysis."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "C. Decreased activation of motor cortex prevents execution of rapid problem-solving steps",
+      "source_text": "impaired executive functioning and working memory",
+      "reason": "Motor cortex (C), primary visual areas (D) and \"Permanent structural degradation\" (B) are not believable causes of a test-anxiety effect, so students can eliminate them without knowing the stereotype threat research."
+    },
+    {
+      "check": "q2",
+      "location": "Question 9",
+      "assessment_text": "Explain how the *Funds of Knowledge* framework leverages students' out-of-school cultural backgrounds to enhance classroom instruction.",
+      "source_text": "the valuable understandings, skills, and tools that students maintain",
+      "reason": "The question already states what the framework does, so a student can rephrase the stem and match the model answer without understanding the framework."
+    },
+    {
+      "check": "q4",
+      "location": "Question 14",
+      "assessment_text": "Integrates theoretical frameworks of situated learning and workplace learning places",
+      "source_text": "not about the source",
+      "reason": "A quarter of the grade rewards using situated learning theory and the six places people learn, but the question never asks for them, so students cannot tell this is expected."
+    },
+    {
+      "check": "q7",
+      "location": "Question 15",
+      "assessment_text": "Evaluate the claim that 'learning across the lifespan is reciprocal between brain development and sociocultural context.'",
+      "source_text": "and learning is reciprocal: learning occurs through",
+      "reason": "The claim can be read as the brain and culture shaping each other, or as the source's brain and learning shaping each other; the rubric grades the second (\"experience shapes brain structures\"), so students who take the first reading may lose credit."
+    }
+  ]
+}
