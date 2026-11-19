@@ -1,0 +1,116 @@
+{
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "1. retrieval practice; 2. spaced practice;",
+      "reason": "The objective names retrieval practice and spaced learning, but no question asks about them; they appear only as optional examples ('such as') in one Question 14 rubric line, so the assessment gives no evidence on them."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Executive function and self-regulation are critical processes for supporting learning.",
+      "reason": "The objective on the links among sociocultural context, brain development, executive function and motivation is assessed only through memory and synaptic pruning items (Questions 4, 8, 9, 12); no question touches executive function, motivation or sociocultural context, or how they affect each other."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "AI is one node in the ecosystem. It can connect, scaffold and mediate, but it shouldnʼt replace the people at the centre of it.",
+      "reason": "A key idea of the ecosystem slides, whether AI connects people or stands in for them in a learner's ecosystem, is not assessed by any question."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 2 and 10",
+      "assessment_text": "what key design precaution should be taken to mitigate the risks of **Judging** AI?",
+      "source_text": "not about the source",
+      "reason": "Question 10 pairs screening resumes with the bolded label 'Judging', which gives away the answer to Question 2, which asks which category is defined as 'scoring, screening, or evaluating people'."
+    },
+    {
+      "check": "q19",
+      "location": "Question 1",
+      "assessment_text": "the relational workplace learning touchpoint",
+      "source_text": "not about the source",
+      "reason": "Only the keyed option repeats the stem's phrase 'workplace learning touchpoints' and is the longest choice, so it can be picked by word overlap."
+    },
+    {
+      "check": "q18",
+      "location": "Question 2",
+      "assessment_text": "the watching digital AI category",
+      "source_text": "not about the source",
+      "reason": "The choices are worded unevenly ('the watching digital AI category', 'the judging AI category', 'the choosing category'), with an unexplained 'digital' in one and no 'AI' in another, which makes them harder to compare."
+    },
+    {
+      "check": "q2",
+      "location": "Question 3",
+      "assessment_text": "They move from the edges toward the center through legitimate participation",
+      "source_text": "Newcomers start at the edges and move toward the centre of a community.",
+      "reason": "The key copies the slide's wording almost exactly, so a student can pick it by recognizing the phrase 'edges toward the center' without understanding why participation is the learning."
+    },
+    {
+      "check": "q21",
+      "location": "Question 3",
+      "assessment_text": "They absorb formal rules outside the work environment before applying any practical skills",
+      "source_text": "We learn through real tasks, tools and people, not abstracted simulations.",
+      "reason": "Options A and B make the same claim (learning happens in abstract preparation before joining practice), so they work as one distractor and can be ruled out together."
+    },
+    {
+      "check": "q21",
+      "location": "Question 4",
+      "assessment_text": "By searching a static mental database for completely unaltered copies of information",
+      "source_text": "It is not a process of searching for stored copies of mental representations of information and experiences",
+      "reason": "Options A, C and D all say the same thing (retrieval fetches fixed, unchanged stored copies), so the key is the only option with a different idea and can be picked as the odd one out."
+    },
+    {
+      "check": "q7",
+      "location": "Question 5",
+      "assessment_text": "she shadow-analyzes previous deliverables and attends team debriefs led by a senior project lead",
+      "source_text": "Knowledge bases, intranet, on-demand content, AI tools",
+      "reason": "The made-up term 'shadow-analyzes previous deliverables' can mean shadowing live work (work-based) or studying stored past work on her own (self-paced), and team debriefs can read as community-based, so option A is also defensible."
+    },
+    {
+      "check": "q17",
+      "location": "Question 5",
+      "assessment_text": "Outside learning and required formal instruction",
+      "source_text": "not about the source",
+      "reason": "Option B contradicts the stem, which says she skips the pre-project course, and option D ('Self-paced learning alone') is not a combination as the stem asks, so only option A is a real distractor."
+    },
+    {
+      "check": "q18",
+      "location": "Question 6",
+      "assessment_text": "Coherence principle",
+      "source_text": "not about the source",
+      "reason": "The key is the only option written without 'The ...' ('The spatial contiguity principle', 'The signaling principle', 'The temporal contiguity principle'), so its different form singles it out."
+    },
+    {
+      "check": "q17",
+      "location": "Question 7",
+      "assessment_text": "Case C relies primarily on digital platforms to deliver adaptive micro-content to learners",
+      "source_text": "An AI-powered platform with adaptive micro-content and quizzes",
+      "reason": "Options B and D describe Case B or a formal course and contradict the stem's own description of Case C (peers, project leads, shared artifacts), so only option C (fewer days) is a plausible distractor."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "Older adults experience complete decay of semantic memory capacity across all domains",
+      "source_text": "not about the source",
+      "reason": "Every distractor is an extreme claim that contradicts the stem's finding ('complete decay ... across all domains', 'entirely separate neural networks that prevent episodic retrieval', working memory that 'filters out high-level conceptual themes' even though themes are kept), so students can rule them out without knowing about pattern completion or binding."
+    },
+    {
+      "check": "q13",
+      "location": "Question 13",
+      "assessment_text": "Blank 1 answer: Agents",
+      "source_text": "Agents Takes a goal and handles the steps for you.",
+      "reason": "The blank reads '____ AI', so correct answers like 'agent' or 'agentic' fit better than 'Agents', but the key accepts only 'Agents'."
+    },
+    {
+      "check": "q4",
+      "location": "Question 14",
+      "assessment_text": "Integrates principles of situated learning and legitimate peripheral participation into workplace practice",
+      "source_text": "not about the source",
+      "reason": "Half the grade (situated learning and legitimate peripheral participation at 30%, and retrieval practice, spacing or multimedia design in digital tools at 20%) rests on things the prompt never asks for, so students cannot tell what they must cover."
+    }
+  ]
+}

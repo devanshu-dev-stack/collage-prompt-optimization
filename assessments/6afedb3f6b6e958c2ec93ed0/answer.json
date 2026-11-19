@@ -1,0 +1,95 @@
+{
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Every learner draws on a whole ecosystem: formal, self-paced, outside, community, relational and work-based. The connections matter as much as any one source.",
+      "reason": "No question asks students to place learning sources in the six touchpoints or to analyze Case B's adaptive AI platform, even though the first objective names \"adaptive platforms\" and the slides build the session around this ecosystem map."
+    },
+    {
+      "check": "a4",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "not about the source",
+      "reason": "Nine of fifteen questions (1, 2, 4, 7, 8, 9, 11, 12, 13) can be answered by recalling a definition, an example or a sentence from the sources, including the items meant for analysis (7, 8, 11), while the objectives ask students to analyze, classify, evaluate and apply."
+    },
+    {
+      "check": "a7",
+      "location": "Questions 3 and 7",
+      "assessment_text": "Case A isolates learning before practice while Case C embeds learning directly within participation. / Legitimate participation in authentic tasks with experienced others constitutes the learning process.",
+      "source_text": "That movement is the learning, not preparation for it.",
+      "reason": "Both multiple-choice items test the same idea (learning happens through participation, not preparation before it) in the same way, and Question 7's stem \"rather than just preparation for work\" also hands over Question 3's answer."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 3 and 14",
+      "assessment_text": "transitioning from isolated classroom courses (such as Case A)",
+      "source_text": "not about the source",
+      "reason": "Question 14 calls Case A \"isolated\", which points straight to the only Question 3 option that says \"Case A isolates learning\"."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 6 and 13",
+      "assessment_text": "Judging AI; the teacher should adjust the grading rubric inside the application.",
+      "source_text": "not about the source",
+      "reason": "Question 6 links \"Judging AI\" to grading (and Questions 1 and 6 list the category names), so the Question 13 fill-in about an app that \"evaluates student essays\" becomes a lookup instead of recall."
+    },
+    {
+      "check": "q17",
+      "location": "Question 3",
+      "assessment_text": "Case A offers real task engagement while Case C offers abstract preparation. / Case A relies on digital tools while Case C eliminates all technology.",
+      "source_text": "not about the source",
+      "reason": "Option B reverses the stem's own description of the cases and option D rests on the absolute claim \"eliminates all technology\", so only option A is a plausible wrong answer."
+    },
+    {
+      "check": "q19",
+      "location": "Question 4",
+      "assessment_text": "Learning reshapes neural networks while brain development constrains and supports learning.",
+      "source_text": "not about the source",
+      "reason": "The stem says \"reciprocal\" and B is the only option that describes influence in both directions; A, C and D are all one-way absolute claims, so the word alone gives the answer."
+    },
+    {
+      "check": "q19",
+      "location": "Question 5",
+      "assessment_text": "Distribute short retrieval practice sessions across several weeks to force effortful cognitive memory reconstruction.",
+      "source_text": "not about the source",
+      "reason": "D is the longest option and the only one that adds a reason clause and research terms (\"retrieval practice\", \"effortful\"), which marks it as the key without knowledge of spacing research."
+    },
+    {
+      "check": "q2",
+      "location": "Question 6",
+      "assessment_text": "groups students into specific reading tracks",
+      "source_text": "For example: a student lands in a specific reading group",
+      "reason": "The application item reuses the source's own Sorting example and its \"Try this\" line, so students can match it from memory, and the action half adds nothing because each wrong category comes paired with its own wrong action."
+    },
+    {
+      "check": "q19",
+      "location": "Question 7",
+      "assessment_text": "Legitimate participation in authentic tasks with experienced others constitutes the learning process.",
+      "source_text": "not about the source",
+      "reason": "The stem already states that participation is the core engine \"rather than just preparation\", and D repeats the stem's \"legitimate ... participation\" while A and B contradict the stem's premise, so no understanding is needed."
+    },
+    {
+      "check": "q1",
+      "location": "Question 12",
+      "assessment_text": "The gradual learning and unlearning of automatic habits follows principles of ____, a nonconscious form of learning triggered by familiar contextual cues.",
+      "source_text": "The gradual learning and unlearning of habits follows principles of conditioning, a nonconscious form of learning",
+      "reason": "The item completes a sentence lifted almost word for word from a side passage on habit formation that no learning objective names, so it tests an isolated fact rather than an important idea."
+    },
+    {
+      "check": "q7",
+      "location": "Question 13",
+      "assessment_text": "belongs to the category of ____ AI.",
+      "source_text": "VISIBLE AI → INVISIBLE AI",
+      "reason": "Because the framework also groups AI as visible or invisible, \"invisible\" is a reasonable reading of \"category of ____ AI\", but only \"judging\" is keyed."
+    },
+    {
+      "check": "q4",
+      "location": "Question 15",
+      "assessment_text": "Assesses how automated screening and background monitoring affect student motivation, belonging, and identity",
+      "source_text": "not about the source",
+      "reason": "30% of the grade goes to effects on motivation, belonging and identity, which the prompt never asks about (it asks about agency, self-regulation and bias), so students cannot tell they must address them."
+    }
+  ]
+}

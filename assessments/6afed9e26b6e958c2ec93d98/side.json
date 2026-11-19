@@ -1,0 +1,192 @@
+{
+  "problem_counts": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 0,
+    "a4": 1,
+    "a5": 1,
+    "a6": 0,
+    "a7": 0,
+    "a8": 0,
+    "a9": 0,
+    "a10": 1,
+    "q1": 1,
+    "q2": 2,
+    "q3": 0,
+    "q4": 1,
+    "q5": 0,
+    "q6": 1,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 0,
+    "q15": 2,
+    "q16": 0,
+    "q17": 0,
+    "q18": 1,
+    "q19": 3,
+    "q20": 0,
+    "q21": 0
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 59,
+  "score": 61,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Rearrangement of this equation yields the form useful for converting from Fahrenheit to Celsius:",
+      "reason": "The objective asks students to convert between Fahrenheit, Celsius and kelvin, but the only temperature item (Question 6) is a Celsius-to-kelvin addition, so no question assesses any Fahrenheit conversion."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Use dimensional analysis to carry out unit conversions for a given property and computations involving two or more properties",
+      "reason": "No question asks students to actually carry out a unit conversion or a multi-step calculation with dimensional analysis and SI conversion factors; Question 15 only asks them to write about why the method is useful."
+    },
+    {
+      "check": "a2",
+      "location": "Questions 2 and 14",
+      "assessment_text": "Analyze the three domains of chemistry",
+      "source_text": "not about the source",
+      "reason": "Two questions, including the whole analysis-level open-ended item, go to the macroscopic, microscopic and symbolic domains, which are not among the five learning objectives, while Fahrenheit conversions and dimensional analysis calculations get no question."
+    },
+    {
+      "check": "a4",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "not about the source",
+      "reason": "Most items (Questions 1, 2, 3, 5, 8, 9, 11, 12 and 13) can be answered by recalling a definition, rule or textbook example, although the objectives ask students to classify, apply, calculate and convert."
+    },
+    {
+      "check": "a5",
+      "location": "Questions 6 and 10",
+      "assessment_text": "Calculate the density of the metal to three significant figures.",
+      "source_text": "From Table 1.4, the density of iron is 7.9 g/cm3, very close to that of rebar, which lends some support to the fact that rebar is mostly iron.",
+      "reason": "The only two calculations are one-step substitutions (add 273.15; divide mass by volume with the number of significant figures already given), so they show nothing about choosing the right relationship or interpreting the result, as the source does."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 4 and 9",
+      "assessment_text": "a homogeneous mixture, because its composition is uniform throughout",
+      "source_text": "A mixture with a composition that varies from point to point is called a heterogeneous mixture.",
+      "reason": "Question 4's options A and C state that a homogeneous mixture is uniform and a heterogeneous one varies throughout, which is exactly the model answer to Question 9."
+    },
+    {
+      "check": "q18",
+      "location": "Question 1",
+      "assessment_text": "newton force unit",
+      "source_text": "The standard unit of mass in the SI system is the kilogram (kg).",
+      "reason": "The options carry uneven extra labels (\"kilogram unit\", \"newton force unit\", \"pound standard unit\", \"gram\"), and labelling the newton as a force unit hands students a reason to drop it without knowing the SI unit of mass."
+    },
+    {
+      "check": "q19",
+      "location": "Question 2",
+      "assessment_text": "the chemical symbol $\\text{Na}$",
+      "source_text": "Chemical symbols (such as those used in the periodic table), chemical formulas, and chemical equations are part of the symbolic domain",
+      "reason": "The only option containing the word \"symbol\" matches \"symbolic domain\" in the stem, so students can pick it by word overlap without understanding the domains."
+    },
+    {
+      "check": "q19",
+      "location": "Question 4",
+      "assessment_text": "A student prepares a mixture by thoroughly dissolving table salt in pure water.",
+      "source_text": "Other examples of homogeneous mixtures include air, maple syrup, gasoline, and a solution of salt in water.",
+      "reason": "The stem already calls the liquid a \"mixture\" (ruling out pure compound and pure element) and says it was \"thoroughly\" dissolved (ruling out varying composition), so the answer comes from the stem's wording rather than from classifying the matter."
+    },
+    {
+      "check": "q2",
+      "location": "Question 5",
+      "assessment_text": "(four significant figures). How many significant figures should be reported in the calculated density result?",
+      "source_text": "Rule: When multiplying or dividing numbers, round the result to the same number of digits as the number with the fewest significant figures",
+      "reason": "The stem gives the significant-figure count of each measurement and option D restates the familiar \"fewest significant figures\" rule, so students need neither count digits nor do the division."
+    },
+    {
+      "check": "q6",
+      "location": "Question 5",
+      "assessment_text": "A student calculates the density of a metal block",
+      "source_text": "What is the density of a liquid with a mass of 31.1415 g and a volume of 30.13 cm3?",
+      "reason": "These numbers give a density of about 1.03 g/cm3, which fits the source's liquid but not a metal block (no common metal is that light; the source's metals are 7.9 to 19.3 g/cm3)."
+    },
+    {
+      "check": "q15",
+      "location": "Question 6",
+      "assessment_text": "$-192.23\\text{ K}$, calculated by subtracting $273.15$ from the given Celsius reading",
+      "source_text": "the kelvin scale is an absolute temperature scale in which 0 (zero) K corresponds to the lowest temperature that can theoretically be achieved",
+      "reason": "Every distractor announces its own error (a negative kelvin value, the Fahrenheit formula used for a kelvin answer, \"dropping all decimal digits\"), so students can eliminate them without doing the conversion."
+    },
+    {
+      "check": "q19",
+      "location": "Question 8",
+      "assessment_text": "density, because intensive properties do not depend on quantity",
+      "source_text": "If the property of a sample of matter does not depend on the amount of matter present, it is an intensive property.",
+      "reason": "The stem asks which property is identical \"because it is intensive\" and only option B's reason mentions intensive properties, so the answer can be matched by wording."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "volume, because liquid water takes the exact shape of its container",
+      "source_text": "The mass and volume of a substance are examples of extensive properties",
+      "reason": "The stem itself states the samples are 100 mL and 2 L, so volume and mass are plainly not identical and can be dropped without knowing what an intensive property is, leaving heat content as the only real distractor."
+    },
+    {
+      "check": "q1",
+      "location": "Question 12",
+      "assessment_text": "A tentative explanation of observations that acts as a guide for gathering and checking information is called a ____ in the scientific method.",
+      "source_text": "Some routes involve a hypothesis, a tentative explanation of observations that acts as a guide for gathering and checking information.",
+      "reason": "The item asks for a vocabulary word from the scientific-method passage, copied word for word from the source, which is not part of any of the five learning objectives."
+    },
+    {
+      "check": "q2",
+      "location": "Question 13",
+      "assessment_text": "during a chemical or ____ change",
+      "source_text": "It states that there is no detectable change in the total quantity of matter present when matter converts from one type to another (a chemical change) or changes among solid, liquid, or gaseous states (a physical change).",
+      "reason": "The blank is filled by completing the familiar pair \"chemical or physical\" (which Question 3's stem also uses), so it shows no understanding of conservation of matter, though a comprehension-level fill-in was asked for."
+    },
+    {
+      "check": "q4",
+      "location": "Question 15",
+      "assessment_text": "Provides or analyzes a multi-step conversion scenario demonstrating proper unit alignment and tracking of significant figures.",
+      "source_text": "not about the source",
+      "reason": "A quarter of the grade needs a worked multi-step conversion that tracks significant figures, but the question only asks students to \"evaluate why\" dimensional analysis is essential, so they cannot tell this is expected."
+    }
+  ]
+}

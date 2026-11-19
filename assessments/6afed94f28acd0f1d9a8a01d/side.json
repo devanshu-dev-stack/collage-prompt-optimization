@@ -1,0 +1,213 @@
+{
+  "problem_counts": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 1,
+    "a4": 1,
+    "a5": 0,
+    "a6": 0,
+    "a7": 1,
+    "a8": 0,
+    "a9": 0,
+    "a10": 3,
+    "q1": 1,
+    "q2": 1,
+    "q3": 1,
+    "q4": 0,
+    "q5": 0,
+    "q6": 2,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 1,
+    "q15": 0,
+    "q16": 1,
+    "q17": 0,
+    "q18": 0,
+    "q19": 2,
+    "q20": 1,
+    "q21": 1
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 78,
+  "score": 48,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Use dimensional analysis to carry out unit conversions for a given property and computations involving",
+      "reason": "No question asks students to convert units with conversion factors or to set up a multi-step dimensional analysis, so this central part of objective 4 has no evidence at all."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Rearrangement of this equation yields the form useful for converting from Fahrenheit to Celsius:",
+      "reason": "The only temperature item (Question 6) converts Celsius to kelvin, so converting to or from Fahrenheit, which objective 5 names, is never assessed."
+    },
+    {
+      "check": "a2",
+      "location": "Questions 4, 7 and 14",
+      "assessment_text": "Compare and contrast the macroscopic, microscopic, and symbolic domains of chemistry",
+      "source_text": "Provide examples illustrating macroscopic, microscopic, and symbolic domains",
+      "reason": "Three questions worth 20 of 100 points, including one of the two open-ended items, test the scientific method and the three domains from section 1.1, which no learning objective names, while unit conversion and Fahrenheit conversion get no questions."
+    },
+    {
+      "check": "a4",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "The formation of rust is a chemical change because rust is a different kind of matter than the iron, oxygen,",
+      "reason": "Most items can be answered from memory: Questions 1, 4, 9, 12 and 13 ask for a definition or unit name, and Questions 2, 11, 14 and 15 reuse the source's own milk, rust, water and archery-target examples, although the objectives ask students to classify, apply and calculate."
+    },
+    {
+      "check": "a7",
+      "location": "Questions 1 and 12",
+      "assessment_text": "The standard SI base unit used to measure mass is the ____.",
+      "source_text": "not about the source",
+      "reason": "Both questions test the same isolated recall of an SI base unit name in the same way, so the second adds no new coverage."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 1 and 12",
+      "assessment_text": "kilogram which measures the mass of a sample",
+      "source_text": "not about the source",
+      "reason": "Question 1's option B states that the kilogram measures mass, which is exactly the word Question 12's blank asks for."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 2 and 13",
+      "assessment_text": "Think about which property changes when the amount of matter in the sample changes.",
+      "source_text": "not about the source",
+      "reason": "Question 2's feedback, shown to students, ties property type to 'the amount of matter', which hands over the word 'amount' that Question 13's blank asks for."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 7 and 14",
+      "assessment_text": "Symbolic domain because chemical symbols and formulas represent macroscopic and microscopic components",
+      "source_text": "not about the source",
+      "reason": "Question 7's options define each domain (atoms and molecules for microscopic, liquid water observed directly for macroscopic, symbols and formulas for symbolic), which gives away most of what Question 14's first three grading criteria reward."
+    },
+    {
+      "check": "a3",
+      "location": "Question 15",
+      "assessment_text": "Explains the underlying causes that lead to precise yet inaccurate measurements (e.g., equipment calibration faults vs human technique repeatability)",
+      "source_text": "not in source",
+      "reason": "A quarter of the grade rewards explaining causes such as calibration faults or technique, but the source only defines precision and accuracy and gives examples, never their causes."
+    },
+    {
+      "check": "q1",
+      "location": "Question 1",
+      "assessment_text": "Which SI base unit is used to measure the amount of a substance?",
+      "source_text": "amount of substance",
+      "reason": "The mole appears in this chapter only as one row of the SI base unit table and is never used, so the question tests an isolated fact rather than an objective-level skill."
+    },
+    {
+      "check": "q19",
+      "location": "Question 1",
+      "assessment_text": "mole which measures substance amount",
+      "source_text": "not about the source",
+      "reason": "Every option states what its unit measures, so students can pick D just by matching 'substance amount' to the stem's 'amount of a substance' without knowing the units."
+    },
+    {
+      "check": "q2",
+      "location": "Question 3",
+      "assessment_text": "salt completely dissolved in water forming a uniform clear liquid",
+      "source_text": "A homogeneous mixture, also called a solution, exhibits a uniform composition",
+      "reason": "Each distractor is described as 'uniform' or 'evenly' mixed and only the key mentions separate layers, so students can choose by spotting the non-uniform wording instead of classifying the mixtures themselves."
+    },
+    {
+      "check": "q21",
+      "location": "Question 4",
+      "assessment_text": "An unverified guess before testing",
+      "source_text": "a hypothesis, a tentative explanation of observations that acts",
+      "reason": "Options B and D both describe a hypothesis, so they overlap and one idea rules out both, leaving fewer real choices."
+    },
+    {
+      "check": "q20",
+      "location": "Question 5",
+      "assessment_text": "Report $3.9\\text{ g/mL}$ because division limits calculated results to two significant figures",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the",
+      "reason": "The keyed option reaches 3.9 g/mL for a wrong reason, since division does not always limit results to two significant figures; the limit here comes from 3.2 mL having the fewest significant figures."
+    },
+    {
+      "check": "q6",
+      "location": "Question 6",
+      "assessment_text": "$298.15\\text{ K}$ because $273.15$ is added to Celsius",
+      "source_text": "When adding or subtracting numbers, round the result to the same number of decimal places as the number",
+      "reason": "25.0 °C has one decimal place, so by the source's addition rule the kelvin value should be 298.2 K, and the keyed 298.15 K overstates the precision."
+    },
+    {
+      "check": "q19",
+      "location": "Question 6",
+      "assessment_text": "using the formula $T_\\text{K} = T_{^\\circ\\text{C}} + 273.15$",
+      "source_text": "not about the source",
+      "reason": "The stem gives the formula and the keyed option just restates it ('because 273.15 is added to Celsius'), so students can match the option to the stem without knowing which conversion applies."
+    },
+    {
+      "check": "q6",
+      "location": "Question 8",
+      "assessment_text": "$19.2\\text{ g/cm}^3$ which identifies the metallic object as gold",
+      "source_text": "When multiplying or dividing numbers, round the result to the same number of digits as the number with the",
+      "reason": "The displaced volume of 2.7 mL has two significant figures, so the density should be reported as 19 g/cm3, and the keyed 19.2 g/cm3 breaks the rule Question 5 itself tests."
+    },
+    {
+      "check": "q16",
+      "location": "Question 8",
+      "assessment_text": "$14\\text{ g/cm}^3$ indicating a lead mixture",
+      "source_text": "lead 11.3 g/cm3",
+      "reason": "Unlike options A and B (mass divided by the final or the initial volume), 14 g/cm3 matches no likely calculation slip and does not match lead's 11.3 g/cm3, so choosing it reveals nothing about the student's thinking."
+    },
+    {
+      "check": "q3",
+      "location": "Question 10",
+      "assessment_text": "Calculate its density to three significant figures.",
+      "source_text": "not about the source",
+      "reason": "Stating the number of significant figures and asking only for mass divided by volume removes the significant-figure decision and any use of the result, so it shows only routine substitution."
+    },
+    {
+      "check": "q14",
+      "location": "Question 13",
+      "assessment_text": "An intensive property of matter is one that is independent of the ____ of matter present.",
+      "source_text": "independent of the amount of the substance",
+      "reason": "Words such as 'quantity' fill the blank just as correctly, but only 'amount' is keyed, so correct answers may be marked wrong."
+    }
+  ]
+}

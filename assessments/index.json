@@ -47,6 +47,54 @@
         "baselines/assess-dev-34fb192"
       ],
       "saved_at": "2026-11-17T17:16:28.472080+00:00"
+    },
+    "6afed94f28acd0f1d9a8a01d": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afed94f28acd0f1d9a8a01d/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:23.515495+00:00"
+    },
+    "6afed99d28acd0f1d9a8a067": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afed99d28acd0f1d9a8a067/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:23.331843+00:00"
+    },
+    "6afed9e26b6e958c2ec93d98": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afed9e26b6e958c2ec93d98/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:23.885215+00:00"
+    },
+    "6afeda2c6b6e958c2ec93de1": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afeda2c6b6e958c2ec93de1/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:23.692135+00:00"
+    },
+    "6afedaec6b6e958c2ec93e71": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/summatives/6afedaec6b6e958c2ec93e71/edit",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:24.286287+00:00"
+    },
+    "6afedb3f6b6e958c2ec93ed0": {
+      "summative_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/summatives/6afedb3f6b6e958c2ec93ed0/edit",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/assess-dev-e04beca"
+      ],
+      "saved_at": "2026-11-19T11:27:24.094176+00:00"
     }
   }
 }

@@ -1,0 +1,164 @@
+{
+  "problem_counts": {
+    "a1": 1,
+    "a2": 0,
+    "a3": 1,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 0,
+    "a8": 0,
+    "a9": 0,
+    "a10": 0,
+    "q1": 1,
+    "q2": 0,
+    "q3": 0,
+    "q4": 1,
+    "q5": 0,
+    "q6": 0,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 0,
+    "q11": 0,
+    "q12": 0,
+    "q13": 2,
+    "q14": 0,
+    "q15": 2,
+    "q16": 0,
+    "q17": 1,
+    "q18": 0,
+    "q19": 3,
+    "q20": 0,
+    "q21": 1
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 47,
+  "score": 69,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Some evidence shows that the act of retrieval itself enhances learning",
+      "reason": "The fourth objective names retrieval practice as a strategy to apply, but no question assesses it; Question 4 only asks about memory as reconstruction, not about using retrieval as a study strategy."
+    },
+    {
+      "check": "q19",
+      "location": "Question 2",
+      "assessment_text": "Sorting, which groups people for subsequent process outcomes",
+      "source_text": "Groups people so something else can happen next.",
+      "reason": "Every option carries its own definition, and only option B's definition echoes the stem's \"categorizes individuals to determine subsequent actions\" (even reusing \"subsequent\"), so students can match wording instead of knowing the category."
+    },
+    {
+      "check": "q15",
+      "location": "Question 3",
+      "assessment_text": "Fulfilling isolated simulation exercises without peer interaction",
+      "source_text": "We learn through real tasks, tools and people, not abstracted simulations.",
+      "reason": "Options A, B and D all describe isolated, abstract or memorized learning, the plain opposite of anything called \"situated\", so a student can eliminate them without knowing Lave and Wenger's idea."
+    },
+    {
+      "check": "q19",
+      "location": "Question 3",
+      "assessment_text": "Moving from peripheral participation toward central community involvement",
+      "source_text": "Newcomers start at the edges and move toward the centre of a community.",
+      "reason": "The key is the only option that repeats \"community\" from the stem (\"within a professional community\"), so it can be picked by word match."
+    },
+    {
+      "check": "q21",
+      "location": "Question 4",
+      "assessment_text": "Retrieved memories remain permanently fixed and completely immune to alteration after initial encoding",
+      "source_text": "Because they are reconstructed, memories are not frozen in time",
+      "reason": "Options B and C (\"Retrieval fetches exact copies stored in static mental cabinets\") state the same fixed-storage view, so one idea fills two distractor slots and rejecting it removes both at once."
+    },
+    {
+      "check": "q19",
+      "location": "Question 6",
+      "assessment_text": "Exclude extraneous material and segment lessons into user-paced units",
+      "source_text": "People learn better when extraneous words, pictures, and sounds are excluded rather than included.",
+      "reason": "The key repeats \"extraneous\" from the stem and is the only option that bundles two interventions, so it stands out as the fullest answer by wording alone."
+    },
+    {
+      "check": "q17",
+      "location": "Question 7",
+      "assessment_text": "Threat permanently degrades long-term memory structures required for mathematical calculation skills",
+      "source_text": "Stereotype threat is believed to undermine performance by lowering executive functioning and heightening anxiety and worry",
+      "reason": "Option B (\"permanently\") and option C (\"impacts only students who possess weak prior knowledge\") use absolute words that clash with an effect triggered \"when reminded\", so only option A is a real competitor to the key."
+    },
+    {
+      "check": "q15",
+      "location": "Question 8",
+      "assessment_text": "Case C utilizes significantly more digital technology and adaptive online software learning platforms",
+      "source_text": "A project lead, a peer network, shadowing and shared past work",
+      "reason": "Options A, B and D describe things the stem itself says Case C does not have (a formal classroom curriculum, Case B's adaptive platform, Case A's up-front course), so students eliminate them by rereading the stem rather than by reasoning about structural differences."
+    },
+    {
+      "check": "q13",
+      "location": "Question 9",
+      "assessment_text": "showing that experience actively shapes brain anatomy rather than biological maturation occurring independently of context",
+      "source_text": "synaptic pruning and other neurological developments through adolescence shape and are shaped by the learner’s experiences",
+      "reason": "The question asks for a reciprocal (two-way) relationship, but the model answer gives only one direction, experience shaping the brain, so graders would credit answers that never address how brain development shapes later learning."
+    },
+    {
+      "check": "a3",
+      "location": "Question 10",
+      "assessment_text": "An educator wants to design a classroom assessment using an **Evidence-Centered Design (ECD)** framework. What initial step must the educator take before selecting assessment tasks?",
+      "source_text": "Evidence-Centered Design Approach to Assessments",
+      "reason": "Evidence-Centered Design appears only in the book's chapter on assessing learning and serves none of the four objectives (learning ecosystems, the AI spectrum, brain and motivation, retrieval/spacing/multimedia strategies), and it asks pure recall of a step in the slot meant for application."
+    },
+    {
+      "check": "q1",
+      "location": "Question 13",
+      "assessment_text": "The phenomenon in which brief exposure to colored stripe patterns alters subsequent visual perception of neutral lines for extended periods is known as the ____ effect.",
+      "source_text": "a phenomenon known as the McCollough Effect (McCollough, 1965), in which a very brief exposure to some objects can have a relatively long-lasting influence on the continued experience of other objects.",
+      "reason": "Recalling the name of one perceptual demonstration is an isolated fact rather than an important idea from the objectives, and it gives no evidence of comprehension even though this was the comprehension-level fill-in."
+    },
+    {
+      "check": "q13",
+      "location": "Question 13",
+      "assessment_text": "Blank 1 answer: McCollough",
+      "source_text": "FIGURE 3-3 The McCullough effect, part 1.",
+      "reason": "The source itself also spells the name \"McCullough\", and since notes and course materials are allowed, a student who copies that spelling would be marked wrong by a key that accepts only one spelling."
+    },
+    {
+      "check": "q4",
+      "location": "Question 14",
+      "assessment_text": "Distinguishes between surface and structural learning ecosystem differences",
+      "source_text": "not about the source",
+      "reason": "The prompt asks only for structural shifts in where learning occurs, who facilitates it and how AI connects people, yet 25% of the grade goes to distinguishing surface from structural differences, which students are never told to do."
+    }
+  ]
+}

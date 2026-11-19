@@ -1,0 +1,178 @@
+{
+  "problem_counts": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 1,
+    "a4": 0,
+    "a5": 0,
+    "a6": 0,
+    "a7": 1,
+    "a8": 0,
+    "a9": 0,
+    "a10": 2,
+    "q1": 0,
+    "q2": 2,
+    "q3": 0,
+    "q4": 0,
+    "q5": 0,
+    "q6": 3,
+    "q7": 0,
+    "q8": 0,
+    "q9": 0,
+    "q10": 1,
+    "q11": 0,
+    "q12": 0,
+    "q13": 0,
+    "q14": 0,
+    "q15": 0,
+    "q16": 0,
+    "q17": 0,
+    "q18": 0,
+    "q19": 1,
+    "q20": 0,
+    "q21": 1
+  },
+  "checked": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q21"
+  ],
+  "questions": 15,
+  "points_lost": 61,
+  "score": 59,
+  "problems": [
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Pure substances may be divided into two classes: elements and compounds.",
+      "reason": "The first objective asks students to classify matter as elements, compounds, homogeneous or heterogeneous mixtures, but no question asks them to classify any sample; only Question 4 recalls the definition of the two mixture types, and elements and compounds are never assessed."
+    },
+    {
+      "check": "a1",
+      "location": "Whole assessment",
+      "assessment_text": "",
+      "source_text": "Use dimensional analysis to carry out unit conversions for a given property and computations involving",
+      "reason": "The objective on multi-step dimensional analysis with SI conversion factors gets no calculation at all: the density items use units as given, and Question 15 only asks students to discuss dimensional analysis."
+    },
+    {
+      "check": "a2",
+      "location": "Questions 1, 13 and 14",
+      "assessment_text": "Which statement correctly defines a scientific law according to the scientific method?",
+      "source_text": "Differentiate among hypotheses, theories, and laws",
+      "reason": "Three of fifteen questions assess scientific-method vocabulary (law, hypothesis) and the macroscopic, microscopic and symbolic domains from section 1.1, which none of the five requested objectives name, while requested objectives go untested."
+    },
+    {
+      "check": "a7",
+      "location": "Questions 5 and 10",
+      "assessment_text": "Calculate its density to two decimal places.",
+      "source_text": "If the cube in part (a) is copper and has a mass of 5.34 g, what is the density of copper to two decimal places?",
+      "reason": "Question 10 repeats the mass-divided-by-volume density calculation already tested in Question 5, in a simpler form with the rounding given, so it adds no new coverage."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 2 and 12",
+      "assessment_text": "Remember that the standard SI base units include meter, kilogram, second, and kelvin.",
+      "source_text": "not about the source",
+      "reason": "The feedback shown on Question 2 names the meter as an SI base unit, which gives away the blank in Question 12 that asks for the SI unit of length."
+    },
+    {
+      "check": "a10",
+      "location": "Questions 1 and 13",
+      "assessment_text": "A tentative explanation of observations that acts as a guide for gathering information",
+      "source_text": "not about the source",
+      "reason": "Question 13's stem uses the same wording as Question 1 option C and labels it a hypothesis, so it removes the strongest distractor in Question 1 and leaves the law definition easy to pick."
+    },
+    {
+      "check": "q21",
+      "location": "Question 1",
+      "assessment_text": "A preliminary guess about natural phenomena that requires immediate experimental verification",
+      "source_text": "Some routes involve a hypothesis, a tentative explanation of observations that acts",
+      "reason": "Options A and C both describe a hypothesis, so two distractors express the same idea while the source's key contrast between a law and a theory is never offered."
+    },
+    {
+      "check": "q19",
+      "location": "Question 3",
+      "assessment_text": "Ice melting, because composition remains unchanged",
+      "source_text": "not about the source",
+      "reason": "Each distractor's reason clause says a new substance forms while only option A says composition is unchanged, so students can pick the odd one out from the wording without understanding the concept."
+    },
+    {
+      "check": "q6",
+      "location": "Question 6",
+      "assessment_text": "218 °C, obtained by multiplying by five ninths before subtracting 32",
+      "source_text": "not about the source",
+      "reason": "Multiplying 392 by 5/9 and then subtracting 32 gives about 186 °C, not 218 °C (218 comes from multiplying by 5/9 without subtracting 32 at all), so the stated working in option B is mathematically wrong."
+    },
+    {
+      "check": "q10",
+      "location": "Question 7",
+      "assessment_text": "A chemist analyzes three sample batches from an automated liquid dispenser",
+      "source_text": "three different machines that are meant to dispense 10 ounces (296 mL) of cough syrup into storage bottles",
+      "reason": "The stem mentions three batches but gives data only for Batch A, a leftover from the source's three-dispenser example that adds reading burden and makes students wonder whether the three values are the three batches."
+    },
+    {
+      "check": "q2",
+      "location": "Question 7",
+      "assessment_text": "Batch A yields $284.0\\text{ mL}$, $284.1\\text{ mL}$, and $283.9\\text{ mL}$.",
+      "source_text": "she will report that dispenser #1 is precise (values all close to one another, within a few",
+      "reason": "The 296 mL target and the values are copied from the source's worked example, which states the verdict, so in this open-notes assessment students can match the example instead of doing the analysis the item is meant to test."
+    },
+    {
+      "check": "q6",
+      "location": "Question 8",
+      "assessment_text": "the combined liquid contains twice as much heat energy",
+      "source_text": "not about the source",
+      "reason": "Combining 1.0 L and 2.0 L at the same temperature gives 3.0 L, so the mixture holds three times the heat of the 1.0-L sample and 1.5 times that of the 2.0-L sample, never twice as much."
+    },
+    {
+      "check": "q6",
+      "location": "Question 9",
+      "assessment_text": "Explain why an astronaut on the Moon is described as weightless or reduced in weight, but never massless.",
+      "source_text": "She may feel “weightless” during her trip when she experiences negligible external forces",
+      "reason": "An astronaut on the Moon is not weightless (her weight is one-sixth of her Earth weight); the source uses \"weightless\" only for the trip through space, so the stem states wrong physics."
+    },
+    {
+      "check": "q2",
+      "location": "Question 13",
+      "assessment_text": "A tentative explanation of experimental observations that acts as a guide for gathering and checking scientific information is called a ____.",
+      "source_text": "as a guide for gathering and checking information.",
+      "reason": "The item was asked for at the comprehension level but restates the source's definition of a hypothesis almost word for word, so students fill the blank by recognizing the phrase rather than showing understanding."
+    },
+    {
+      "check": "a3",
+      "location": "Question 14",
+      "assessment_text": "Explains the microscopic domain molecular behavior, including molecular movement, thermal energy, and organized crystalline structuring",
+      "source_text": "the explanation of freezing and boiling in terms of attractions between these molecules",
+      "reason": "The source explains freezing only through attractions and organized versus disorganized molecules and never teaches thermal energy or molecular motion, yet this criterion, worth 30% of the grade, requires them."
+    }
+  ]
+}
