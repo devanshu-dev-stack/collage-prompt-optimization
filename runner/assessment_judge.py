@@ -16,7 +16,7 @@ from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
 
-from pydantic import ValidationError
+from pydantic import JsonValue, ValidationError
 
 from runner.assessment_checks import ASSESSMENT_CHECKS
 from runner.assessment_judge_models import (
@@ -106,12 +106,18 @@ def _mix_lines(assessment: AssessmentCase) -> str:
                      for spec in assessment.questions)
 
 
+def answer_schema() -> dict[str, JsonValue]:
+    """The judge's answer format. It lists the allowed check ids, so the judge cannot answer with a check's name."""
+    schema_dict: dict[str, JsonValue] = AssessmentJudgement.model_json_schema()
+    schema_dict["$defs"]["AssessmentProblem"]["properties"]["check"]["enum"] = [  # type: ignore[index]
+        check.id for check in ASSESSMENT_CHECKS]
+    return schema_dict
+
+
 def build_prompt(result: AssessmentRunResult, case_dir: Path) -> str:
     case = load_case(REPO_ROOT, case_dir)
     assessment = load_assessment(REPO_ROOT, case_dir)
-    schema_dict = AssessmentJudgement.model_json_schema()
-    # The answer format lists the allowed check ids, so the judge cannot answer with a check's name.
-    schema_dict["$defs"]["AssessmentProblem"]["properties"]["check"]["enum"] = [check.id for check in ASSESSMENT_CHECKS]
+    schema_dict = answer_schema()
     objectives = "\n".join(f"- {objective}" for objective in result.objectives)
     return "\n\n".join([
         "You are judging one generated summative assessment against the source material it was made from. "

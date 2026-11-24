@@ -234,6 +234,14 @@ def _extra_section(extra: list[ExtraCheck], only_extra: bool) -> str:
     return "\n".join(parts)
 
 
+def answer_schema(config: ChecksConfig) -> dict[str, JsonValue]:
+    """The judge's answer format. It lists the allowed check ids, so the judge cannot answer with a check's display name."""
+    schema_dict: dict[str, JsonValue] = LessonJudgement.model_json_schema()
+    schema_dict["$defs"]["Problem"]["properties"]["check"]["enum"] = (  # type: ignore[index]
+        [check.value for check in Check if check not in config.removed] + [check.id for check in config.checks])
+    return schema_dict
+
+
 def build_prompt(result: LessonRunResult, case_dir: Path | None = None,
                  config: ChecksConfig | None = None, only_extra: bool = False, images: ImageFiles | None = None) -> str:
     config = config or ChecksConfig()
@@ -241,11 +249,7 @@ def build_prompt(result: LessonRunResult, case_dir: Path | None = None,
     case = load_case(REPO_ROOT, case_dir) if case_dir else None
     source = labeled_sources(case_dir, case) if case_dir and case and case.source_files else _field(result.lesson, "sourceContent") or ""
     custom = _field(result.lesson, "customInstructions") or "(none)"
-    # The answer format lists the allowed check ids, so the judge cannot answer with a check's display name.
-    schema_dict = LessonJudgement.model_json_schema()
-    schema_dict["$defs"]["Problem"]["properties"]["check"]["enum"] = (
-        [check.value for check in Check if check not in config.removed] + [check.id for check in extra])
-    schema = json.dumps(schema_dict, indent=2)
+    schema = json.dumps(answer_schema(config), indent=2)
     changes = None if only_extra else _changes_section(config)
     return "\n\n".join([
         "You are judging one generated lesson against its source material. Follow the checklist "

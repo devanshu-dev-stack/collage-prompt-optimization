@@ -156,3 +156,16 @@ STORED_SIDE_FILE_NAME: Final[str] = "side.json"
 STORED_ASSESSMENTS_DIR: Final[str] = "assessments"
 # A lesson id is a Mongo id, which is also safe as a folder name.
 LESSON_ID_PATTERN: Final[re.Pattern[str]] = re.compile(r"^[0-9a-f]{24}$")
+
+# API judge (runner/api_judge.py): judges through the Claude API on the team's key instead of an agent.
+# The key is read from this variable only, never printed or written anywhere.
+API_JUDGE_KEY_ENV: Final[str] = "PROMPT_LAB_TEAM_ANTHROPIC_KEY"
+API_JUDGE_MAX_TOKENS: Final[int] = 64_000
+# Rounds of tool calls (images and source searches) before the judge must answer.
+API_JUDGE_MAX_TURNS: Final[int] = 40
+# Same limit the agent judges have (JUDGE.md, "What the judge reads").
+API_JUDGE_MAX_IMAGES: Final[int] = 8
+# The Claude API refuses a larger image.
+API_JUDGE_IMAGE_MAX_BYTES: Final[int] = 5 * 1024 * 1024
+API_JUDGE_SEARCH_MAX_HITS: Final[int] = 30
+API_JUDGE_SEARCH_CONTEXT_LINES: Final[int] = 2

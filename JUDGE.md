@@ -96,3 +96,13 @@ Per test case, a try is compared with the average of the lessons behind each fix
 fewer problems and fewer made-up examples is better, and a higher share of examples from the
 source is better. AI output changes from run to run, so a difference counts only when it holds across
 repeated runs of the same try.
+
+## API mode
+
+Instead of a judge agent, a lesson or summative can be judged through the Claude API on the team's
+key (`PROMPT_LAB_TEAM_ANTHROPIC_KEY`): build the prompt as usual, then run
+`python -m runner.api_judge --kind lesson|assessment --prompt <prompt.md> --out <answer.json>
+[--checks <checks.json>] [--case-dir <test case folder>]`, and check the answer as usual. It sends the
+same prompt, gives the judge two tools in place of Read and Grep (open an image, at most 8; search a
+long source), and writes `<answer>-usage.json` with the tokens and cost. It runs on Opus by default;
+`--model sonnet` and `--effort` are there to measure cheaper settings, not to judge real tries.
