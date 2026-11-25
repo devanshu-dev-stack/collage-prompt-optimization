@@ -169,3 +169,19 @@ API_JUDGE_MAX_IMAGES: Final[int] = 8
 API_JUDGE_IMAGE_MAX_BYTES: Final[int] = 5 * 1024 * 1024
 API_JUDGE_SEARCH_MAX_HITS: Final[int] = 30
 API_JUDGE_SEARCH_CONTEXT_LINES: Final[int] = 2
+
+# Human-made courses on production, read as a baseline (runner/course_export.py). Read only: the
+# exporter logs in and then only sends GET requests. Its login is a separate account setting.
+PROD_URL: Final[str] = "https://app.collage-ai.com"
+PROD_READER_EMAIL_ENV: Final[str] = "PROD_READER_EMAIL"
+PROD_READER_PASSWORD_ENV: Final[str] = "PROD_READER_PASSWORD"
+COURSE_LESSONS_PATH: Final[str] = "/api/courses/{course_id}/lessons"
+LESSON_SOURCES_PATH: Final[str] = LESSON_PATH + "/sources"
+# client/src/constants/lessons.ts (LESSONS_PAGE_SIZE).
+LESSONS_PAGE_SIZE: Final[int] = 50
+LESSONS_MAX_PAGES: Final[int] = 40
+# Real course content: kept under outputs/ (never in git).
+HUMAN_EXPORT_DIR: Final[str] = "outputs/human"
+SOURCE_DOWNLOAD_MAX_BYTES: Final[int] = 100 * 1024 * 1024
+SOURCE_DOWNLOAD_TIMEOUT_SECONDS: Final[float] = 120.0
+HUMAN_TARGET_NAME: Final[str] = "prod-human"
