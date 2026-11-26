@@ -1,0 +1,473 @@
+{
+  "problem_counts": {
+    "invented_quote": 0,
+    "inexact_quote": 0,
+    "misattributed_quote": 0,
+    "factual_error": 3,
+    "wrong_viewpoint": 0,
+    "off_source_content": 0,
+    "ignores_custom_instructions": 0,
+    "x1": 1,
+    "x2": 1,
+    "x3": 1,
+    "x4": 0,
+    "x5": 0,
+    "x6": 7,
+    "x7": 0,
+    "x8": 0,
+    "x9": 2,
+    "x10": 1,
+    "x11": 2,
+    "x12": 0,
+    "x14": 4,
+    "x15": 1
+  },
+  "examples_total": 42,
+  "examples_from_source": 39,
+  "made_up_examples": 3,
+  "checked": [
+    "invented_quote",
+    "inexact_quote",
+    "misattributed_quote",
+    "factual_error",
+    "wrong_viewpoint",
+    "off_source_content",
+    "ignores_custom_instructions",
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12",
+    "x14",
+    "x15"
+  ],
+  "concepts": 6,
+  "points_lost": 39,
+  "score": 94,
+  "instructions_score": 100,
+  "teaching_score": 88,
+  "problems": [
+    {
+      "check": "factual_error",
+      "location": "Exercise 6.1: Applying dimensional analysis and unit conversion factors in single- and multi-step calculations / block 2",
+      "lesson_text": "Density = 1.36 g/mL",
+      "source_text": "1 lb = 453.59 g ... 1 qt = 0.94635 L",
+      "reason": "With the source's conversion factors, 3.50 lb in 1.60 qt gives 1.05 g/mL (as the lesson's own grading criteria in block 3 say), so the stated solution students must work back to is wrong."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 1.2: Classifying chemical phenomena and representations across the macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "Chemical Equation for Water",
+      "source_text": "The formula H2O, which can describe water at either the macroscopic or microscopic levels, is an example of the symbolic domain.",
+      "reason": "Writing H2O with (l) is a chemical formula with a phase label, not a chemical equation, and the label is repeated in the block 3 question as 'the chemical equation for water'."
+    },
+    {
+      "check": "factual_error",
+      "location": "Exercise 5.2: Applying significant figure and rounding rules to arithmetic calculations / block 4",
+      "lesson_text": "Step 4: Reports the final answer as 4.6 mL, but the correct answer is 4.6 mL because 16.9 mL - 12.35 mL = 4.55 mL, rounded to 1 decimal place (4.6 mL).",
+      "source_text": "If the dropped digit is 5, and it's either the last digit in the number or it's followed only by zeros, round up or down, whichever yields an even value for the retained digit.",
+      "reason": "Under the source's rule 4.55 rounds to 4.6 mL, so the 'flawed' steps 3 and 4 reach the correct answer, yet the answer key marks them as errors and contradicts itself."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 5",
+      "lesson_text": "Submicroscopic particles and interactions: individual water molecules arranged tightly in ice, flowing closely in liquid water, or moving far apart as a gas.",
+      "source_text": "not about the source",
+      "reason": "The image is a ball-and-stick model of an unrelated organic molecule, with no water molecules and no comparison of ice, liquid and gas, so it does not show what the card describes."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 5",
+      "lesson_text": "Chemical notation and representations: the formula H2O along with (s), (l), and (g) to specify solid, liquid, and gaseous water.",
+      "source_text": "not about the source",
+      "reason": "The image is a chalkboard covered in physics equations and names, with no H2O or phase labels, so it does not illustrate the symbolic domain for water."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 4",
+      "lesson_text": "Quantity of Matter -> Weight",
+      "source_text": "Although weight is related to mass, it is not the same thing. Weight refers to the force that gravity exerts on an object.",
+      "reason": "The mind map places weight under 'Quantity of Matter', which reinforces the mass-weight confusion the concept's own key distinction tries to remove."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 4",
+      "lesson_text": "Mass and volume are directly proportional to sample size—a gallon of milk has more mass and volume than a single cup.",
+      "source_text": "not about the source",
+      "reason": "The image shows two similar-sized mugs of a yellow drink, so it shows no difference in amount and does not help explain an extensive property."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 5",
+      "lesson_text": "Like arrows hitting the bull's-eye, Dispenser #3 delivers 296.1, 295.9, 296.1, 296.0, and 296.1 mL—within 0.1 mL of the 296 mL target.",
+      "source_text": "not about the source",
+      "reason": "The image for 'Accurate and Precise' shows arrows spread across the yellow, red and blue rings, which is neither tightly grouped nor all on the bull's-eye, so it is misleading."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 5",
+      "lesson_text": "Repeated trials agree closely with one another but miss the true value.",
+      "source_text": "not about the source",
+      "reason": "The image for 'Precise, Not Accurate' is a rack of pipettes, which shows no grouping of results relative to a true value."
+    },
+    {
+      "check": "x6",
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 5",
+      "lesson_text": "Individual values fall relatively near the true value, but repeated trials vary widely.",
+      "source_text": "not about the source",
+      "reason": "The image for 'Better Accuracy, Poor Precision' is a close-up of a graduated cylinder mark, which shows nothing about spread or closeness to a true value."
+    },
+    {
+      "check": "x2",
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 3",
+      "lesson_text": "**Density** is the ratio of an object's mass to its volume:",
+      "source_text": "not about the source",
+      "reason": "Density and its equation are defined again from scratch, although Concept 4 block 3 already explained them, instead of a short reminder pointing back."
+    },
+    {
+      "check": "x1",
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 3",
+      "lesson_text": "Examples include **temperature**, **boiling point**, and **density**.",
+      "source_text": "not about the source",
+      "reason": "Density is listed as a physical property and classified as intensive (and tested in Exercises 3.1 and 3.2) before the lesson defines it in Concept 4 block 3."
+    },
+    {
+      "check": "x3",
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 3",
+      "lesson_text": "e.g., 92.85 rounds to 92.8, while 0.90275 rounds to 0.9028",
+      "source_text": "The following examples illustrate the application of this rule in rounding a few different numbers to three significant figures",
+      "reason": "The rounding examples never say how many significant figures each is rounded to (three for some, four for 0.90275), so students cannot see why each result is kept to that length."
+    },
+    {
+      "check": "x9",
+      "location": "Exercise 2.1: Classifying matter by physical state and composition into elements, compounds, and homogeneous or heterogeneous mixtures / block 1",
+      "lesson_text": "Answer the questions below covering classification of matter by physical state and composition, and the law of conservation of matter.",
+      "source_text": "not about the source",
+      "reason": "Objective 2 asks students to classify matter by physical state, but no exercise asks them to identify or compare solids, liquids, gases or plasma."
+    },
+    {
+      "check": "x9",
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 3",
+      "lesson_text": "Round the result to the same number of **significant figures** as the measurement with the fewest significant figures.",
+      "source_text": "not about the source",
+      "reason": "The multiplication and division significant-figure rule is taught but no exercise asks students to apply it; Exercise 5.2 practices only subtraction."
+    },
+    {
+      "check": "x10",
+      "location": "Exercise 2.1: Classifying matter by physical state and composition into elements, compounds, and homogeneous or heterogeneous mixtures / block 2",
+      "lesson_text": "Explain how the law of conservation of matter applies when wood burns in a closed system, and connect your explanation to the classification of the resulting substances.",
+      "source_text": "not about the source",
+      "reason": "The question and its criterion 'Identifies the physical and chemical changes involved' need physical versus chemical changes and the products of burning, which are only taught later in Concept 3."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 1.2: Classifying chemical phenomena and representations across the macroscopic, microscopic, and symbolic domains / block 2",
+      "lesson_text": "A student observes solid ice turning into liquid water in a beaker during an experiment. This is a macroscopic phenomenon—directly visible and measurable.",
+      "source_text": "not about the source",
+      "reason": "Each example card states its domain outright, so the classification questions in block 3 can be answered by copying the card instead of applying the idea."
+    },
+    {
+      "check": "x11",
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and categorizing changes in matter / block 2",
+      "lesson_text": "When an ice cube melts, it changes from solid to liquid water, but the chemical identity (H₂O) remains unchanged. This is a physical change.",
+      "source_text": "not about the source",
+      "reason": "The cards already say which change or property each example shows, so the block 3 questions only ask students to copy these labels rather than classify."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.1: Distinguishing among hypotheses, scientific laws, and scientific theories based on empirical statements / block 2",
+      "lesson_text": "The scientist measures the balloon's size at different temperatures and finds the same pattern each time. What does this repeated pattern represent?",
+      "source_text": "The laws of science summarize a vast number of experimental observations, and describe or predict some facet of the natural world.",
+      "reason": "One scientist's repeated measurements are experimental observations, so 'Observation' is at least as defensible as the keyed answer 'Law', and the key teaches that a single experiment yields a law."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 1.2: Classifying chemical phenomena and representations across the macroscopic, microscopic, and symbolic domains / block 3",
+      "lesson_text": "Astronomical domain",
+      "source_text": "not about the source",
+      "reason": "Distractors such as 'Biological domain', 'Astronomical domain' and 'Technological domain' are not chemistry domains at all, so each question really has only two plausible choices."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 5.1: Distinguishing exact numbers from uncertain measurements and counting significant figures / block 2",
+      "lesson_text": "adds 1.0 g (an exact amount by definition), and reports the total as 3.50 g. Which best describes the certainty of the digits in the reported total?",
+      "source_text": "Counting is the only type of measurement that is free from uncertainty ... The numbers of defined quantities are also exact.",
+      "reason": "An added 1.0 g of material is a measured amount, not exact by definition, and the keyed answer does not describe the digits of 3.50 g, whose last digit is uncertain, so 'The last digit is always uncertain' is also defensible."
+    },
+    {
+      "check": "x14",
+      "location": "Exercise 6.1: Applying dimensional analysis and unit conversion factors in single- and multi-step calculations / block 3",
+      "lesson_text": "Write the density formula, because the problem asks for density",
+      "source_text": "not about the source",
+      "reason": "This distractor says almost the same thing as the keyed answer 'Identify the density formula, because you need mass and volume in g and mL', so the question has two correct choices."
+    },
+    {
+      "check": "x15",
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 5",
+      "lesson_text": "the total mass of the products equals the total mass of the starting materials.",
+      "source_text": "convincing examples are few and far between because, outside of the controlled conditions in a laboratory, we seldom collect all of the material that is produced during a particular conversion.",
+      "reason": "The lesson never addresses why mass seems to disappear when gases or vapor escape (burning, evaporation), a predictable misconception that Exercises 2.1 and 2.2 then rely on."
+    }
+  ],
+  "examples": [
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 1",
+      "summary": "Percy Lavon Julian makes progesterone and cortisone from soybeans",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 2",
+      "summary": "Hypothesis: gas mileage drop caused by needing a tune-up",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 2",
+      "summary": "Law: gas pressure proportional to temperature",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 2",
+      "summary": "Theory: matter made of tiny particles combining in specific ratios",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 4",
+      "summary": "Water described in the macroscopic, microscopic and symbolic domains",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 1: The Scientific Method and Domains of Chemistry / block 5",
+      "summary": "Ocean, icebergs and vapor; water molecules in three states; H2O with (s), (l), (g)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 1",
+      "summary": "Balloon inflating shows gases take up space",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 1",
+      "summary": "Astronaut on the moon weighs one-sixth as much but keeps her mass",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 2",
+      "summary": "Plasma in stars, lightning and plasma torches",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 3",
+      "summary": "Molecules of elements (H2, O2, P4, S8) and compounds (H2O, CO2, glucose)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 3",
+      "summary": "Sodium and chlorine combine into white table salt",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 3",
+      "summary": "Homogeneous mixtures (air, salt water, gasoline, sports drinks) and heterogeneous mixtures (oil and vinegar, granite, chocolate chip cookies)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 5",
+      "summary": "Brewing: glucose to ethanol and carbon dioxide with no mass change",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 5",
+      "summary": "Lead-acid car battery reaction conserves matter",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 2: States of Matter, Classification, and Conservation of Matter / block 5",
+      "summary": "Decomposition of water into hydrogen and oxygen",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 1",
+      "summary": "Physical changes: melting wax, sugar in coffee, condensing steam, magnetizing tags, grinding",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 1",
+      "summary": "Chemical properties: iron rusts while chromium does not; nitroglycerin versus neon",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 1",
+      "summary": "Chemical changes: copper with nitric acid, burning match, cooking meat, browning banana",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 3",
+      "summary": "Cup versus gallon of milk at 20 °C",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 3",
+      "summary": "Drop versus pot of hot cooking oil (heat versus temperature)",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 3: Physical and Chemical Properties, Changes, and Extensive vs. Intensive Properties / block 5",
+      "summary": "NFPA 704 hazard diamond",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Base Units, Metric Prefixes, and Derived Units / block 1",
+      "summary": "Phenobarbital dose of 100 mg versus 100 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 4: SI Base Units, Metric Prefixes, and Derived Units / block 1",
+      "summary": "Boeing 777 and mosquito masses in scientific notation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 1",
+      "summary": "Eggs in a carton and defined unit relations as exact numbers",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 1",
+      "summary": "Graduated cylinder read as 21.6 mL",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 1",
+      "summary": "Balance readings of 6.72 g and 6.723 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 3",
+      "summary": "Adding 1.0023 g and 4.383 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 3",
+      "summary": "Multiplying 0.6238 cm by 6.6 cm",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 3",
+      "summary": "Rounding 18.3384, 0.028675, 6.8752, 92.85 and 0.90275",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 4",
+      "summary": "1,300 g written in scientific notation",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 5: Measurement Uncertainty, Significant Figures, Accuracy, and Precision / block 5",
+      "summary": "Three 296 mL cough syrup dispensers and archery targets",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 1",
+      "summary": "125 g frisbee converted to ounces",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 1",
+      "summary": "Density of antifreeze from 9.26 lb and 4.00 qt",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 3",
+      "summary": "Lead cube 2.00 cm, 90.7 g",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 3",
+      "summary": "Rebar density by water displacement",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Concept 6: Dimensional Analysis, Density Calculations, and Temperature Conversions / block 4",
+      "summary": "Body temperature 37.0 °C converted to K and °F",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.1: Distinguishing among hypotheses, scientific laws, and scientific theories based on empirical statements / block 1",
+      "summary": "Balloon shrinking in a freezer",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 1.1: Distinguishing among hypotheses, scientific laws, and scientific theories based on empirical statements / block 3",
+      "summary": "Water's states explained by molecule arrangement",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 1.2: Classifying chemical phenomena and representations across the macroscopic, microscopic, and symbolic domains / block 2",
+      "summary": "Melting ice, water molecule structure, H2O(l) on a board",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 3.1: Distinguishing between physical and chemical properties and categorizing changes in matter / block 2",
+      "summary": "Melting ice cube, rusting iron nail, cup versus gallon of milk",
+      "from_source": true,
+      "source_had_one": false
+    },
+    {
+      "location": "Exercise 5.3: Evaluating replicate measurement sets to distinguish between accuracy and precision / block 1",
+      "summary": "Three thermometers in a 50.0 °C water bath",
+      "from_source": false,
+      "source_had_one": true
+    },
+    {
+      "location": "Exercise 5.3: Evaluating replicate measurement sets to distinguish between accuracy and precision / block 3",
+      "summary": "Three syringes dispensing 5.00 mL",
+      "from_source": false,
+      "source_had_one": true
+    }
+  ]
+}

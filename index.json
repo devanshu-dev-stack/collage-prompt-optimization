@@ -777,6 +777,54 @@
         "baselines/dev-e04beca"
       ],
       "saved_at": "2026-11-19T11:20:14.005441+00:00"
+    },
+    "6b0828dc61fe391e7002b3fd": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6b0828dc61fe391e7002b3fd",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T12:55:17.161953+00:00"
+    },
+    "6b08292161fe391e7002b494": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6b08292161fe391e7002b494",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T13:02:34.915428+00:00"
+    },
+    "6b082c0261fe391e7002b6ca": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6b082c0261fe391e7002b6ca",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T13:09:11.525345+00:00"
+    },
+    "6b082c3f61fe391e7002b768": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6b082c3f61fe391e7002b768",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T13:16:49.656845+00:00"
+    },
+    "6b082f3d61fe391e7002bcdd": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee41a9b675fc4f07f0a514/lessons/6b082f3d61fe391e7002bcdd",
+      "case_id": "chemistry-2e-ch1",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T13:24:26.890086+00:00"
+    },
+    "6b082f8e215355ec76943b56": {
+      "lesson_url": "https://collageai-1.onrender.com/courses/6aee070fb675fc4f07f0a207/lessons/6b082f8e215355ec76943b56",
+      "case_id": "ai-learning-week2",
+      "used_by": [
+        "baselines/dev-d0f12ad"
+      ],
+      "saved_at": "2026-11-26T13:31:33.419772+00:00"
     }
   }
 }
